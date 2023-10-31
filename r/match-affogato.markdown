@@ -1,4 +1,6 @@
-# Matcha Affogato
+---
+title: Matcha Affogato
+---
 
 ## Ingredients
 
@@ -13,4 +15,3 @@ Heat water to 85°.
 Combine matcha and water.
 
 Pour over ice cream.
-
