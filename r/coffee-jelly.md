@@ -4,15 +4,20 @@ title: Coffee Jelly
 
 ## Ingredients
 
-- 2g kanten or 7.2g gelatin {gelling agent}
+- 2g kanten OR 7.2g gelatin
 - 400g water
 - 36g sugar
 - 10g instant coffee
 
 ## Steps
 
-1. Prepare gelling agent:
-  a. If using kanten: boil kanten and water for 2 minutes.
-  b. If using gelatin: sprinkle gelatin on 100g water.
-1. Add sugar and water. (If using gelatin, use n-100g here).
-1. Refrigerate until set.
+1. Choose your gelling agent:
+   - For kanten: Boil kanten and water for 2 minutes
+   - For gelatin: Sprinkle gelatin over 100g water and let bloom
+
+2. Add remaining ingredients:
+   - Add sugar and instant coffee
+   - If using gelatin, add remaining 300g water
+   - If using kanten, water is already added
+
+3. Pour into desired container and refrigerate until set
