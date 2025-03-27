@@ -10,3 +10,5 @@ layout: home
 [Coffee Jelly](./r/coffee-jelly)
 
 [Tea Jelly](./r/tea-jelly)
+
+[Bay Leaf Panna Cotta](./r/bay-leaf-panna-cotta)
