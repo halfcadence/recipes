@@ -18,7 +18,7 @@ Everything else:
 ## Steps
 
 1. Bloom the gelatin in 50g milk.
-2. Heat remaining milk, heavy cream, sugar and bay leaves to 160°C.
-3. Pass it through a sieve.
-4. Pour into ramekins.
-5. Let it set in the fridge for at least 4~5 hrs.
+1. Heat remaining milk, heavy cream, sugar and bay leaves to 160°C.
+1. Pass it through a sieve.
+1. Pour into ramekins.
+1. Let it set in the fridge for at least 4~5 hrs.
