@@ -17,4 +17,5 @@ layout: home
 
 [Thyme Streusel](./r/thyme-streusel)
 
-[Salted Caramel](./r/salted-caramel)
+[Salted Caramel Sauce](./r/salted-caramel-sauce)
+

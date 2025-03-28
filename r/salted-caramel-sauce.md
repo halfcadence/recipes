@@ -1,12 +1,12 @@
 ---
-title: Salted Caramel
+title: Salted Caramel Sauce
 ---
 
 ## Ingredients
 
 - 100g granulated sugar
 - 30g unsalted butter, cubed
-- 60ml heavy cream
+- 100ml heavy cream
 - 1.5g fine sea salt
 
 ## Steps
