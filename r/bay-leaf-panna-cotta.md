@@ -13,7 +13,7 @@ Everything else:
 - 150g heavy cream
 - 50g sugar
 - 3 bay leaves
-=
+
 ## Steps
 
 1. Bloom the gelatin in 50g milk.
