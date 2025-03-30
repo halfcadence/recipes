@@ -3,8 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Desserts & Sweets
+title: Recipes
 ---
+
+## Desserts and Sweets
 
 [Matcha Affogato](./r/match-affogato)
 
