@@ -6,6 +6,10 @@ layout: home
 title: Recipes
 ---
 
+## Drinks
+
+[Cold Brew Team](./r/cold-brew-tea)
+
 ## Desserts and Sweets
 
 [Matcha Affogato](./r/match-affogato)
