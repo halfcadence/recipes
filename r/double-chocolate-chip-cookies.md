@@ -15,7 +15,7 @@ source: https://sallysbakingaddiction.com/double-chocolate-chip-cookies-recipe/
 - 1 tsp baking soda
 - 1/8 tsp salt
 - 15ml milk
-- 225g semi-sweet chocolate chips, plus extra for topping
+- 225g 99% Noir Infini chocolate, chopped, plus extra for topping
 
 ## Steps
 
