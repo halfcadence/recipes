@@ -38,12 +38,17 @@ yield: 15
 
 8. Strain the rested batter through a sieve, pressing with a ladle. If lumps remain, blend briefly until smooth.
 
-9. Pour batter into molds. Bake at 150°C for about 1 hour 20 minutes (professional ovens: ~1 hour 15 minutes).
+9. Preheat oven to 250°C (500°F). Pour batter into molds to about 1cm from the top.
 
-10. Cool slightly, then unmold.
+10. Bake at 250°C (500°F) for 10 minutes to form the caramelized shell. Without opening the oven, drop temperature to 190°C (375°F) and continue baking for 45-50 minutes.
+
+11. Unmold immediately onto a cooling rack upside down. Cool for 2 hours. Eat the same day.
 
 ## Notes
 
 - Resting the infused milk and the overnight batter rest are both critical for flavor and texture.
 - Fleur de sel is a coarse French sea salt — regular fine sea salt works as a substitute.
 - Type 45 flour is French low-protein flour; cake flour is the closest substitute.
+- The high initial temperature creates the caramelized shell and prevents mushrooming. If your oven only goes to 250°C (500°F), use convection for the first 10 minutes.
+- Fill molds to about 1cm from the top — overfilling causes "white butt" (pale, undercooked bottoms) because the batter can't sink back down.
+- Canelés are best eaten the day they're baked.
