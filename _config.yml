@@ -20,7 +20,7 @@
 
 title: Recipes
 baseurl: "/recipes" # the subpath of your site, e.g. /blog
-url: "url: http://halfcadence.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://halfcadence.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: half_cadence
 
 # Build settings
