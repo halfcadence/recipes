@@ -8,7 +8,7 @@ title: Recipes
 
 ## Drinks
 
-[Cold Brew Team](./r/cold-brew-tea)
+[Cold Brew Tea](./r/cold-brew-tea)
 
 ## Desserts and Sweets
 
@@ -23,4 +23,16 @@ title: Recipes
 [Thyme Streusel](./r/thyme-streusel)
 
 [Salted Caramel Sauce](./r/salted-caramel-sauce)
+
+[Double Chocolate Chip Cookies](./r/double-chocolate-chip-cookies)
+
+[Matcha White Chocolate Cookies](./r/matcha-white-choco-cookies)
+
+[Canelé](./r/canele)
+
+## Mains
+
+[Miso Marinated Steak](./r/miso-marinated-steak)
+
+[Grilled Chicken with Miso Sauce](./r/miso-grilled-chicken)
 
