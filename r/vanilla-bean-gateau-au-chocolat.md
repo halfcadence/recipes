@@ -11,7 +11,7 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 - 55ml whole milk (2% also works)
 - 3 large eggs (50g without shell), yolks and whites separated
 - 38g sugar (for egg yolks)
-- 20g cake flour
+- 32g cake flour
 - 0.5g kosher salt
 - 38g sugar (for egg whites)
 - Confectioners' sugar for dusting (optional)
@@ -28,7 +28,7 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 5. In a large bowl, whisk egg yolks and 38g sugar vigorously until creamy and pale yellow. Add the vanilla chocolate mixture and mix well.
 
-6. Sift 20g cake flour into the batter. Gently whisk until just incorporated — do not overmix. Add salt and stir.
+6. Sift 32g cake flour into the batter. Gently whisk until just incorporated — do not overmix. Add salt and stir.
 
 7. Whip cold egg whites on medium-low until bubbly and foamy. Gradually add 38g sugar while beating. Increase to high speed and beat until stiff, glossy peaks (about 2 minutes).
 
@@ -44,7 +44,7 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 ## Notes
 
-- Milk is reduced from 60ml to 55ml because we removed 18g of matcha powder. Matcha absorbs very little liquid (~2-3ml at this amount), but removing it entirely means the batter has slightly more free moisture. Reducing milk by 5ml compensates.
+- Milk is reduced from 60ml to 55ml and cake flour is increased from 20g to 32g to compensate for removing 18g of matcha. Matcha barely absorbs liquid, but it contributes bulk and body to the batter. Without replacing that volume, the batter is too thin and the cake won't set properly. Flour absorbs more liquid than matcha (~60% vs ~15%), so we use 12g extra flour (not the full 18g) and reduce milk by 5ml to keep the wet-dry balance right.
 - Use real vanilla bean or vanilla bean paste, not extract. Extract is mostly alcohol which evaporates during baking, leaving weak flavor. Bean paste or seeds infuse directly into the white chocolate and fat, which carry flavor much better.
 - If using vanilla extract as a last resort, use 10ml and add it to the egg yolk mixture (not the hot chocolate) to minimize evaporation. Keep milk at 55ml.
 - The white chocolate does a lot of the heavy lifting here — use good quality baking white chocolate with real cocoa butter for the best flavor.
