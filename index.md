@@ -36,6 +36,8 @@ title: Recipes
 
 [Matcha Gateau au Chocolat](./r/matcha-gateau-au-chocolat)
 
+[Chocolate Gateau au Chocolat](./r/chocolate-gateau-au-chocolat)
+
 ## Mains
 
 [Miso Marinated Steak](./r/miso-marinated-steak)
