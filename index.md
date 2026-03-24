@@ -16,6 +16,8 @@ title: Recipes
 
 [Cold Brew Tea](./r/cold-brew-tea)
 
+[Matcha Americano](./r/matcha-americano)
+
 ## Cold Desserts
 
 [Matcha Affogato](./r/match-affogato)
