@@ -46,7 +46,23 @@ Here's how our recipes stack up:
 | [Matcha Gateau au Chocolat](/r/matcha-gateau-au-chocolat) | 20g | 0.5g | 2.5% | Looks high, but flour is minimal — salt is really balancing the 100g white chocolate + 38g×2 sugar. |
 | [Chocolate Gateau au Chocolat](/r/chocolate-gateau-au-chocolat) | 20g | 0.5g | 2.5% | Same as above — salt relative to total batter weight is actually very low. |
 
-The gateau recipes are interesting — the salt-to-flour percentage looks alarming at 2.5%, but flour is only 20g in a batter that weighs ~350g total. If you calculate salt as a percentage of total batter weight instead, it's about 0.14%, which is very mild.
+## When Baker's Percentage Breaks Down
+
+Baker's percentage (salt as % of flour) works well when flour is the dominant dry ingredient — bread, cookies, pie crust. But it falls apart for recipes where flour is a minor player.
+
+Our gateau au chocolat recipes have only 20g flour in a ~350g batter. Calculating salt as % of flour gives 2.5%, which looks dangerously high. But 0.5g salt in 350g of batter is 0.14% of total weight — barely perceptible.
+
+For low-flour recipes (flourless cakes, custards, meringue-based cakes, brownies), think about salt as a percentage of total batter weight instead:
+
+| Context | Salt % of total weight | Notes |
+|---|---|---|
+| Most baked goods | 0.3–0.6% | General sweet baking range |
+| Bread | 1.0–1.3% | Higher because bread has less sugar to balance |
+| Very sweet desserts | 0.1–0.3% | Sugar does a lot of the flavor work |
+
+Our gateau recipes at 0.14% of total weight are on the low end — you could actually bump them to 0.7–1g without anyone noticing "salt," just more flavor depth.
+
+The rule: use baker's percentage (% of flour) when flour is >30% of total weight. For everything else, use % of total batter weight.
 
 ## The Salted Butter Variable
 
