@@ -18,6 +18,8 @@ title: Recipes
 
 [Matcha Americano](./r/matcha-americano)
 
+[Matcha Latte](./r/matcha-latte)
+
 ## Cold Desserts
 
 [Matcha Affogato](./r/match-affogato)

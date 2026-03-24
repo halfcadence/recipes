@@ -23,5 +23,6 @@ title: Matcha Americano
 
 - The idea is the same as a coffee americano — a concentrated shot diluted with water.
 - Use water at 80–85°C for the matcha, not boiling. Boiling water makes matcha bitter.
-- Adjust the matcha-to-water ratio to taste. 2g is a good starting point; go to 3g for a stronger drink.
+- 2g matcha to 180ml total water is a light, easy-drinking ratio. For a stronger matcha flavor, use 3g or reduce total water to 150ml.
+- Traditional usucha (thin tea) uses 2g matcha to just 60–80ml water — much more concentrated. This americano is deliberately diluted from that.
 - For a sparkling version, use cold sparkling water instead of still.
