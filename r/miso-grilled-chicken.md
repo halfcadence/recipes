@@ -9,9 +9,9 @@ chef: Hideaki Matsuo, Kashiwaya (3 Michelin stars, Osaka)
 - 200g chicken thighs
 - 1 white spring onion
 - 10 sweet green peppers
-- 60mL mirin
-- 20mL Japanese sake
-- 30mL dark soy sauce
+- 60ml mirin
+- 20ml Japanese sake
+- 30ml dark soy sauce
 - 40g light-brown miso
 - Potato starch, as needed
 

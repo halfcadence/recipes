@@ -17,13 +17,13 @@ source: https://www.justonecookbook.com/earl-grey-chiffon-cake/
 
 ## Steps
 
-1. Grind 4g tea leaves to a fine powder in a food processor or mortar and pestle. Set aside.
+1. Grind 3g tea leaves to a fine powder in a food processor or mortar and pestle. Set aside.
 
-2. Brew strong tea: pour 90ml hot water over 6g tea leaves in a fine sieve. Let cool, remove leaves, and measure out 60ml brewed tea.
+2. Brew strong tea: pour 90ml hot water over 5g tea leaves in a fine sieve. Let cool, remove leaves, and measure out 60ml brewed tea.
 
 3. Separate egg yolks and whites. Refrigerate or freeze the whites in a stand mixer bowl for 15 minutes until cold.
 
-4. Preheat oven to 170°C (340°F). Prepare an ungreased 17cm aluminum chiffon cake pan with removable base.
+4. Preheat oven to 170°C. Prepare an ungreased 17cm aluminum chiffon cake pan with removable base.
 
 5. Beat egg yolks with one-third of the sugar until creamy and pale yellow. Add oil and brewed tea, whisk to combine. Mix in the ground tea powder.
 

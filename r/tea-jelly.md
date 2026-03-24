@@ -12,5 +12,5 @@ title: Tea Jelly
 ## Steps
 
 1. Boil kanten, sugar, and water for 2 minutes.
-1. Steep tea in water for 10 minutes.
-1. Refrigerate until set.
+2. Steep tea in water for 10 minutes.
+3. Refrigerate until set.
