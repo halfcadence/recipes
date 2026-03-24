@@ -36,3 +36,7 @@ title: Recipes
 
 [Grilled Chicken with Miso Sauce](./r/miso-grilled-chicken)
 
+## Articles
+
+[T45 Flour Substitutes for Canelé](./a/t45-flour-substitutes-for-canele)
+
