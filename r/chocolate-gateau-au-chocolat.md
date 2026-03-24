@@ -45,7 +45,9 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 ## Notes
 
 - The extra milk (90ml vs the original 60ml) compensates for cocoa powder absorbing more liquid than matcha. This keeps the fudgy, molten interior texture.
-- Use Dutch-process cocoa for a smoother, less acidic flavor.
+- To intensify chocolate flavor without affecting texture, add 1–2g espresso powder to the batter with the cocoa. It deepens chocolate notes without tasting like coffee.
+- If you want more cocoa (up to 25g), add an extra 7ml milk per 7g additional cocoa to maintain hydration — cocoa absorbs up to 100% of its weight in water.
+- Use Dutch-process cocoa for a smoother, less acidic flavor. Note that Dutch-process absorbs even more liquid than natural cocoa.
 - Use good quality dark chocolate (60–70% cacao), not chocolate chips — chips have stabilizers that affect melting.
 - The inside is intentionally soft and fudgy — don't overbake.
 - Requires 4 hours cooling time before cutting.
