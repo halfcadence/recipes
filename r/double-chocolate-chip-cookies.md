@@ -13,7 +13,7 @@ source: https://sallysbakingaddiction.com/double-chocolate-chip-cookies-recipe/
 - 125g all-purpose flour
 - 55g natural unsweetened cocoa powder
 - 6g baking soda
-- 0.5g salt
+- 1.5g salt
 - 15ml milk
 - 225g 99% Noir Infini chocolate, chopped, plus extra for topping
 
