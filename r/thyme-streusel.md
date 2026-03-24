@@ -12,7 +12,7 @@ title: Thyme Streusel
 
 ## Steps
 
-1. Preheat oven to 175°C.
+1. Preheat oven to 350°F.
 2. Melt and cool butter.
 3. Whisk together flour, brown sugar, sugar, salt.
 4. Combine butter and flour mixture. Use a fork to toss the ingredients until combined but still clumpy. Do not over-mix.

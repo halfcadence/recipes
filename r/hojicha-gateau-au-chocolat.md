@@ -18,7 +18,7 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 ## Steps
 
-1. Preheat oven to 180°C. Line a 15cm round cake pan with parchment paper.
+1. Preheat oven to 350°F. Line a 15cm round cake pan with parchment paper.
 
 2. Melt white chocolate and butter in a double boiler (bowl over simmering water, not touching). Stir until smooth. Remove from heat — keep water and steam out of the mixture.
 
@@ -36,7 +36,7 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 9. Pour batter into the prepared pan and smooth the surface.
 
-10. Bake at 180°C for 15 minutes, then reduce to 160°C and bake 20 more minutes. The center will still wobble slightly — this is correct. Do not skewer-test this cake.
+10. Bake at 350°F for 15 minutes, then reduce to 325°F and bake 20 more minutes. The center will still wobble slightly — this is correct. Do not skewer-test this cake.
 
 11. Cool completely in the pan on a wire rack, about 4 hours. Can also refrigerate overnight.
 

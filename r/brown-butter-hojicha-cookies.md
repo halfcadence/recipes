@@ -30,7 +30,7 @@ title: Brown Butter Hojicha White Chocolate Cookies
 
 6. Rest dough at room temperature for 30 minutes. This lets the flour hydrate and the butter re-firm slightly.
 
-7. Preheat oven to 175°C. Line baking sheets with parchment paper.
+7. Preheat oven to 350°F. Line baking sheets with parchment paper.
 
 8. Scoop ~40g portions onto baking sheets, spacing 5–8cm apart.
 

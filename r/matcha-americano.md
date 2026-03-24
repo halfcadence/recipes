@@ -5,7 +5,7 @@ title: Matcha Americano
 ## Ingredients
 
 - 2g ceremonial or culinary matcha
-- 30ml hot water (80–85°C)
+- 30ml hot water (175–185°F)
 - 150ml cold or room temperature water
 - Ice (optional)
 
@@ -22,7 +22,7 @@ title: Matcha Americano
 ## Notes
 
 - The idea is the same as a coffee americano — a concentrated shot diluted with water.
-- Use water at 80–85°C for the matcha, not boiling. Boiling water makes matcha bitter.
+- Use water at 175–185°F for the matcha, not boiling. Boiling water makes matcha bitter.
 - 2g matcha to 180ml total water is a light, easy-drinking ratio. For a stronger matcha flavor, use 3g or reduce total water to 150ml.
 - Traditional usucha (thin tea) uses 2g matcha to just 60–80ml water — much more concentrated. This americano is deliberately diluted from that.
 - For a sparkling version, use cold sparkling water instead of still.

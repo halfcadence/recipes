@@ -11,13 +11,13 @@ title: Salted Caramel Sauce
 
 ## Steps
 
-1. Heat a heavy-bottomed saucepan over medium-low heat. Gradually add sugar, stirring occasionally with a heatproof spatula. Cook until deep amber (175–180°C).
+1. Heat a heavy-bottomed saucepan over medium-low heat. Gradually add sugar, stirring occasionally with a heatproof spatula. Cook until deep amber (345–355°F).
 
 2. Lower heat slightly. Add butter cubes, stirring constantly. The mixture will bubble up — be careful.
 
 3. Remove from heat. Slowly pour in cream while stirring. If caramel seizes, return to low heat and stir until smooth.
 
-4. Return to low heat and cook until 108–112°C. Stir in salt.
+4. Return to low heat and cook until 225–235°F. Stir in salt.
 
 5. Cool and transfer to a heatproof jar.
 

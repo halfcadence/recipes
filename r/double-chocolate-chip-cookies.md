@@ -27,7 +27,7 @@ source: https://sallysbakingaddiction.com/double-chocolate-chip-cookies-recipe/
 
 4. Let chilled dough sit at room temperature for 10 minutes (20 minutes if chilled longer than 3 hours).
 
-5. Preheat oven to 177°C. Line baking sheets with parchment paper or silicone mats.
+5. Preheat oven to 350°F. Line baking sheets with parchment paper or silicone mats.
 
 6. Scoop ~35–40g balls of dough, shaping them taller than wide (like a column) for thicker cookies. Arrange 5–8cm apart. Wipe hands clean between every few balls.
 

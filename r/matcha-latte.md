@@ -5,7 +5,7 @@ title: Matcha Latte
 ## Ingredients
 
 - 2–3g matcha (ceremonial or culinary)
-- 60ml hot water (80–85°C)
+- 60ml hot water (175–185°F)
 - 160ml milk
 - Sweetener to taste (optional)
 

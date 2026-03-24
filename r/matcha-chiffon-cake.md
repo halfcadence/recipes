@@ -17,7 +17,7 @@ source: https://www.justonecookbook.com/green-tea-chiffon-cake/
 
 1. Separate egg yolks and whites. Refrigerate or freeze the whites in a stand mixer bowl for 15 minutes until cold.
 
-2. Preheat oven to 170°C. Prepare an ungreased 17cm aluminum chiffon cake pan with removable base (not nonstick).
+2. Preheat oven to 340°F. Prepare an ungreased 17cm aluminum chiffon cake pan with removable base (not nonstick).
 
 3. Beat egg yolks with one-third of the sugar until creamy and pale yellow. Add oil and water, whisk to combine.
 
@@ -29,7 +29,7 @@ source: https://www.justonecookbook.com/green-tea-chiffon-cake/
 
 7. Pour batter into the pan from 15–20cm high at one spot. Tap pan on counter and run a skewer through to release air pockets.
 
-8. Bake on the middle rack at 170°C for 30 minutes. Test with a skewer — it should come out clean and the top should spring back when pressed.
+8. Bake on the middle rack at 340°F for 30 minutes. Test with a skewer — it should come out clean and the top should spring back when pressed.
 
 9. Remove from oven and drop the pan onto the counter to shock the cake. Invert onto a bottle neck and cool completely upside down.
 

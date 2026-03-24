@@ -23,7 +23,7 @@ source: https://www.justonecookbook.com/earl-grey-chiffon-cake/
 
 3. Separate egg yolks and whites. Refrigerate or freeze the whites in a stand mixer bowl for 15 minutes until cold.
 
-4. Preheat oven to 170°C. Prepare an ungreased 17cm aluminum chiffon cake pan with removable base.
+4. Preheat oven to 340°F. Prepare an ungreased 17cm aluminum chiffon cake pan with removable base.
 
 5. Beat egg yolks with one-third of the sugar until creamy and pale yellow. Add oil and brewed tea, whisk to combine. Mix in the ground tea powder.
 
@@ -35,7 +35,7 @@ source: https://www.justonecookbook.com/earl-grey-chiffon-cake/
 
 9. Pour batter into the pan from 15–20cm high at one spot. Tap pan and run a skewer through to release air pockets.
 
-10. Bake on the middle rack at 170°C for 30 minutes. Test with a skewer — should come out clean.
+10. Bake on the middle rack at 340°F for 30 minutes. Test with a skewer — should come out clean.
 
 11. Drop pan onto counter to shock. Invert onto a bottle neck and cool completely upside down.
 

@@ -28,7 +28,7 @@ source: https://www.jadeleafmatcha.com/blogs/matcha-recipes/matcha-white-chocola
 
 5. Chill dough for at least 1-2 hours, ideally overnight. Longer rest hydrates the matcha and mellows bitterness.
 
-6. Preheat oven to 175°C. Line baking sheets with parchment paper.
+6. Preheat oven to 350°F. Line baking sheets with parchment paper.
 
 7. Scoop ~35g portions onto baking sheets.
 
