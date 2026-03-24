@@ -36,6 +36,8 @@ title: Recipes
 
 [Matcha White Chocolate Cookies](./r/matcha-white-choco-cookies)
 
+[Brown Butter Hojicha White Chocolate Cookies](./r/brown-butter-hojicha-cookies)
+
 ## Cakes
 
 [Matcha Chiffon Cake](./r/matcha-chiffon-cake)
