@@ -75,3 +75,5 @@ title: Recipes
 [T45 Flour Substitutes for Canelé](./a/t45-flour-substitutes-for-canele)
 
 [Hydration and Baking Ratios](./a/hydration-and-baking-ratios)
+
+[Salt Percentages in Baking](./a/salt-in-baking)
