@@ -46,6 +46,10 @@ title: Recipes
 
 [Chocolate Gateau au Chocolat](./r/chocolate-gateau-au-chocolat)
 
+[Orange Chocolate Gateau au Chocolat](./r/orange-chocolate-gateau-au-chocolat)
+
+[Hojicha Gateau au Chocolat](./r/hojicha-gateau-au-chocolat)
+
 [Brown Butter Vanilla Bean Gateau au Chocolat](./r/vanilla-bean-gateau-au-chocolat)
 
 ## Pastries
