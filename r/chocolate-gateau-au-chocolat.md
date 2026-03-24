@@ -8,20 +8,20 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 ### Cake
 
 - 100g dark chocolate (60–70% cacao), chopped
-- 3 Tbsp unsalted butter, cubed
-- 3 Tbsp Dutch-process cocoa powder
+- 42g unsalted butter, cubed
+- 18g Dutch-process cocoa powder
 - 90ml whole milk (2% also works)
 - 3 large eggs (50g without shell), yolks and whites separated
-- 3 Tbsp sugar (for egg yolks)
-- 3 Tbsp cake flour
-- 1/8 tsp kosher salt
-- 3 Tbsp sugar (for egg whites)
+- 36g sugar (for egg yolks)
+- 24g cake flour
+- 0.5g kosher salt
+- 36g sugar (for egg whites)
 
 ### Dark Chocolate Ganache
 
 - 80g dark chocolate (60–70% cacao), chopped
 - 80ml heavy cream
-- 1 Tbsp unsalted butter, room temperature
+- 14g unsalted butter, room temperature
 
 ## Steps
 
@@ -33,11 +33,11 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 4. Refrigerate or freeze egg whites for 15 minutes until cold.
 
-5. In a large bowl, whisk egg yolks and 3 Tbsp sugar vigorously until creamy and pale. Add the chocolate mixture and mix well.
+5. In a large bowl, whisk egg yolks and 36g sugar vigorously until creamy and pale. Add the chocolate mixture and mix well.
 
-6. Sift 3 Tbsp cake flour into the batter. Gently whisk until just incorporated — do not overmix. Add salt and stir.
+6. Sift 24g cake flour into the batter. Gently whisk until just incorporated — do not overmix. Add salt and stir.
 
-7. Whip cold egg whites on medium-low until bubbly and foamy. Gradually add 3 Tbsp sugar while beating. Increase to high speed and beat until stiff, glossy peaks (about 2 minutes).
+7. Whip cold egg whites on medium-low until bubbly and foamy. Gradually add 36g sugar while beating. Increase to high speed and beat until stiff, glossy peaks (about 2 minutes).
 
 8. Fold one-third of the meringue into the batter and mix well. Fold in another third gently. Add the last third and fold until just combined — don't deflate the bubbles.
 
@@ -61,6 +61,6 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 - The inside is intentionally soft and fudgy — don't overbake.
 - Requires 4 hours cooling time before cutting.
 - Ganache is optional but recommended. Without it, dust with cocoa powder or confectioners' sugar.
-- Cake flour is required. Homemade: 1 cup AP flour minus 2 Tbsp, plus 2 Tbsp cornstarch, sifted 3–4 times.
+- Cake flour is required. Homemade: for every 120g AP flour, remove 16g and replace with 16g cornstarch, sifted 3–4 times.
 - Double the recipe for a 20–23cm pan, triple for 25–28cm.
 - Store refrigerated 3 days or frozen 1 month.

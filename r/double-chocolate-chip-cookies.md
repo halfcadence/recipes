@@ -9,11 +9,11 @@ source: https://sallysbakingaddiction.com/double-chocolate-chip-cookies-recipe/
 - 100g granulated sugar
 - 100g packed light or dark brown sugar
 - 1 large egg, at room temperature
-- 1 tsp pure vanilla extract
+- 5ml pure vanilla extract
 - 125g all-purpose flour
 - 55g natural unsweetened cocoa powder
-- 1 tsp baking soda
-- 1/8 tsp salt
+- 6g baking soda
+- 0.5g salt
 - 15ml milk
 - 225g 99% Noir Infini chocolate, chopped, plus extra for topping
 
@@ -27,9 +27,9 @@ source: https://sallysbakingaddiction.com/double-chocolate-chip-cookies-recipe/
 
 4. Let chilled dough sit at room temperature for 10 minutes (20 minutes if chilled longer than 3 hours).
 
-5. Preheat oven to 350°F (177°C). Line baking sheets with parchment paper or silicone mats.
+5. Preheat oven to 177°C. Line baking sheets with parchment paper or silicone mats.
 
-6. Scoop ~35-40g balls of dough, shaping them taller than wide (like a column) for thicker cookies. Arrange 2-3 inches apart. Wipe hands clean between every few balls.
+6. Scoop ~35–40g balls of dough, shaping them taller than wide (like a column) for thicker cookies. Arrange 5–8cm apart. Wipe hands clean between every few balls.
 
 7. Bake 11-12 minutes until edges appear set and centers still look soft. If not spreading by minute 9, remove and lightly bang the sheet on the counter 2-3 times, then return to oven.
 

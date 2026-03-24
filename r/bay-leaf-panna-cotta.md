@@ -4,7 +4,7 @@ title: Bay Leaf Panna Cotta
 
 ## Ingredients
 
-To boom gelatin:
+To bloom gelatin:
 - 50g milk
 - 5g gelatin
 

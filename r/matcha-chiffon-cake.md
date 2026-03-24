@@ -10,8 +10,8 @@ source: https://www.justonecookbook.com/green-tea-chiffon-cake/
 - 40ml neutral oil
 - 60ml water
 - 75g cake flour
-- 1 heaping Tbsp matcha (about 6g)
-- 1 tsp baking powder
+- 6g matcha
+- 4g baking powder
 
 ## Steps
 
@@ -40,6 +40,6 @@ source: https://www.justonecookbook.com/green-tea-chiffon-cake/
 - Must use an aluminum pan with removable base. Do not grease the pan — the cake clings to the sides for support.
 - Do not use nonstick pans.
 - Use good quality matcha for better color and flavor.
-- Cake flour and all-purpose flour are not interchangeable. To make cake flour: 1 cup AP flour minus 2 Tbsp, plus 2 Tbsp cornstarch, sifted 3–4 times.
+- Cake flour and all-purpose flour are not interchangeable. To make cake flour: for every 120g AP flour, remove 16g and replace with 16g cornstarch, sifted 3–4 times.
 - Store covered at room temperature 1–2 days, refrigerated 3 days, or frozen 2 weeks.
 - If the top browns too quickly, cover loosely with foil.

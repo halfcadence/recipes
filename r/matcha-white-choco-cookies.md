@@ -12,7 +12,7 @@ source: https://www.jadeleafmatcha.com/blogs/matcha-recipes/matcha-white-chocola
 - 2.5mL vanilla extract
 - 20g culinary matcha powder
 - 150g all-purpose flour (spooned & leveled)
-- 2.5g baking soda
+- 3g baking soda
 - 140g white chocolate chips
 - 5-10g milk (optional, helps with moisture)
 

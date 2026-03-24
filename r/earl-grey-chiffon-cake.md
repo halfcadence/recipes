@@ -5,21 +5,21 @@ source: https://www.justonecookbook.com/earl-grey-chiffon-cake/
 
 ## Ingredients
 
-- 2 tsp Earl Grey loose tea leaves (for tea powder)
-- 1 Tbsp Earl Grey loose tea leaves (for brewed tea)
-- 6 Tbsp hot water (just boiled)
+- 4g Earl Grey loose tea leaves (for tea powder)
+- 6g Earl Grey loose tea leaves (for brewed tea)
+- 90ml hot water (just boiled)
 - 3 large eggs (50g without shell), yolks and whites separated
 - 85g sugar, divided into thirds
 - 40ml neutral oil
 - 75g cake flour
-- 1 tsp baking powder
+- 4g baking powder
 - Confectioners' sugar for dusting (optional)
 
 ## Steps
 
-1. Grind 2 tsp tea leaves to a fine powder in a food processor or mortar and pestle. Set aside.
+1. Grind 4g tea leaves to a fine powder in a food processor or mortar and pestle. Set aside.
 
-2. Brew strong tea: pour 6 Tbsp hot water over 1 Tbsp tea leaves in a fine sieve. Let cool, remove leaves, and measure out 4 Tbsp (60ml) brewed tea.
+2. Brew strong tea: pour 90ml hot water over 6g tea leaves in a fine sieve. Let cool, remove leaves, and measure out 60ml brewed tea.
 
 3. Separate egg yolks and whites. Refrigerate or freeze the whites in a stand mixer bowl for 15 minutes until cold.
 
@@ -44,6 +44,6 @@ source: https://www.justonecookbook.com/earl-grey-chiffon-cake/
 ## Notes
 
 - Must use an aluminum pan with removable base. Do not grease — the cake clings for support.
-- Cake flour is required, not all-purpose. Homemade: 1 cup AP flour minus 2 Tbsp, plus 2 Tbsp cornstarch, sifted 3–4 times.
+- Cake flour is required, not all-purpose. Homemade: for every 120g AP flour, remove 16g and replace with 16g cornstarch, sifted 3–4 times.
 - Store covered at room temperature 1–2 days, refrigerated 3 days, or frozen 2 weeks.
 - If the top browns too quickly, cover loosely with foil.
