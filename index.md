@@ -3,7 +3,14 @@ layout: home
 title: Recipes
 ---
 
-[Drinks](#drinks) · [Cold Desserts](#cold-desserts) · [Cookies](#cookies) · [Cakes](#cakes) · [Components](#components) · [Mains](#mains) · [Articles](#articles)
+[Drinks](#drinks)
+[Cold Desserts](#cold-desserts)
+[Cookies](#cookies)
+[Cakes](#cakes)
+[Pastries](#pastries)
+[Components](#components)
+[Mains](#mains)
+[Articles](#articles)
 
 ## Drinks
 
@@ -27,8 +34,6 @@ title: Recipes
 
 ## Cakes
 
-[Canelé](./r/canele)
-
 [Matcha Chiffon Cake](./r/matcha-chiffon-cake)
 
 [Earl Grey Chiffon Cake](./r/earl-grey-chiffon-cake)
@@ -36,6 +41,10 @@ title: Recipes
 [Matcha Gateau au Chocolat](./r/matcha-gateau-au-chocolat)
 
 [Chocolate Gateau au Chocolat](./r/chocolate-gateau-au-chocolat)
+
+## Pastries
+
+[Canelé](./r/canele)
 
 ## Components
 
