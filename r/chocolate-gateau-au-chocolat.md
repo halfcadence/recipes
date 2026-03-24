@@ -12,7 +12,7 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 - 3 large eggs (50g without shell), yolks and whites separated
 - 38g sugar (for egg yolks)
 - 20g cake flour
-- 0.5g kosher salt
+- 1g kosher salt
 - 38g sugar (for egg whites)
 - Confectioners' sugar or cocoa powder for dusting (optional)
 
