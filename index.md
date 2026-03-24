@@ -46,6 +46,8 @@ title: Recipes
 
 [Chocolate Gateau au Chocolat](./r/chocolate-gateau-au-chocolat)
 
+[Vanilla Bean Gateau au Chocolat](./r/vanilla-bean-gateau-au-chocolat)
+
 ## Pastries
 
 [Canelé](./r/canele)
