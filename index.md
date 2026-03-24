@@ -30,6 +30,12 @@ title: Recipes
 
 [Canelé](./r/canele)
 
+[Matcha Chiffon Cake](./r/matcha-chiffon-cake)
+
+[Earl Grey Chiffon Cake](./r/earl-grey-chiffon-cake)
+
+[Matcha Gateau au Chocolat](./r/matcha-gateau-au-chocolat)
+
 ## Mains
 
 [Miso Marinated Steak](./r/miso-marinated-steak)
