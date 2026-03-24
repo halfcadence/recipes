@@ -3,6 +3,8 @@ layout: home
 title: Recipes
 ---
 
+[Drinks](#drinks) · [Cold Desserts](#cold-desserts) · [Cookies](#cookies) · [Cakes](#cakes) · [Components](#components) · [Mains](#mains) · [Articles](#articles)
+
 ## Drinks
 
 [Cold Brew Tea](./r/cold-brew-tea)
