@@ -12,10 +12,10 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 - 18g Dutch-process cocoa powder
 - 90ml whole milk (2% also works)
 - 3 large eggs (50g without shell), yolks and whites separated
-- 36g sugar (for egg yolks)
-- 24g cake flour
+- 38g sugar (for egg yolks)
+- 20g cake flour
 - 0.5g kosher salt
-- 36g sugar (for egg whites)
+- 38g sugar (for egg whites)
 
 ### Dark Chocolate Ganache
 
@@ -33,11 +33,11 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 4. Refrigerate or freeze egg whites for 15 minutes until cold.
 
-5. In a large bowl, whisk egg yolks and 36g sugar vigorously until creamy and pale. Add the chocolate mixture and mix well.
+5. In a large bowl, whisk egg yolks and 38g sugar vigorously until creamy and pale. Add the chocolate mixture and mix well.
 
-6. Sift 24g cake flour into the batter. Gently whisk until just incorporated — do not overmix. Add salt and stir.
+6. Sift 20g cake flour into the batter. Gently whisk until just incorporated — do not overmix. Add salt and stir.
 
-7. Whip cold egg whites on medium-low until bubbly and foamy. Gradually add 36g sugar while beating. Increase to high speed and beat until stiff, glossy peaks (about 2 minutes).
+7. Whip cold egg whites on medium-low until bubbly and foamy. Gradually add 38g sugar while beating. Increase to high speed and beat until stiff, glossy peaks (about 2 minutes).
 
 8. Fold one-third of the meringue into the batter and mix well. Fold in another third gently. Add the last third and fold until just combined — don't deflate the bubbles.
 

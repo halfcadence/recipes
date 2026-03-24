@@ -5,14 +5,14 @@ source: https://www.justonecookbook.com/earl-grey-chiffon-cake/
 
 ## Ingredients
 
-- 4g Earl Grey loose tea leaves (for tea powder)
-- 6g Earl Grey loose tea leaves (for brewed tea)
+- 3g Earl Grey loose tea leaves (for tea powder)
+- 5g Earl Grey loose tea leaves (for brewed tea)
 - 90ml hot water (just boiled)
 - 3 large eggs (50g without shell), yolks and whites separated
 - 85g sugar, divided into thirds
 - 40ml neutral oil
 - 75g cake flour
-- 4g baking powder
+- 3g baking powder
 - Confectioners' sugar for dusting (optional)
 
 ## Steps

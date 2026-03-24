@@ -10,7 +10,7 @@ source: https://www.justonecookbook.com/green-tea-chiffon-cake/
 - 40ml neutral oil
 - 60ml water
 - 75g cake flour
-- 6g matcha
+- 10g matcha
 - 4g baking powder
 
 ## Steps
