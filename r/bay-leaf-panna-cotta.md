@@ -5,14 +5,20 @@ title: Bay Leaf Panna Cotta
 ## Ingredients
 
 To bloom gelatin:
-- 50g milk
-- 5g gelatin
+
+| | |
+|---|---|
+| 50g | milk |
+| 5g | gelatin |
 
 Everything else:
-- 150g milk
-- 150g heavy cream
-- 50g sugar
-- 3 bay leaves
+
+| | |
+|---|---|
+| 150g | milk |
+| 150g | heavy cream |
+| 50g | sugar |
+| 3 | bay leaves |
 
 ## Steps
 

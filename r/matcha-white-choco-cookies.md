@@ -5,16 +5,18 @@ source: https://www.jadeleafmatcha.com/blogs/matcha-recipes/matcha-white-chocola
 
 ## Ingredients
 
-- 120g salted butter, softened
-- 80g brown sugar
-- 80g granulated sugar
-- 1 large egg, at room temperature
-- 2.5mL vanilla extract
-- 20g culinary matcha powder
-- 150g all-purpose flour (spooned & leveled)
-- 3g baking soda
-- 140g white chocolate chips
-- 5-10g milk (optional, helps with moisture)
+| | |
+|---|---|
+| 120g | salted butter, softened |
+| 80g | brown sugar |
+| 80g | granulated sugar |
+| 1 | large egg, at room temperature |
+| 2.5mL | vanilla extract |
+| 20g | culinary matcha powder |
+| 150g | all-purpose flour (spooned & leveled) |
+| 3g | baking soda |
+| 140g | white chocolate chips |
+| 5-10g | milk (optional, helps with moisture) |
 
 ## Steps
 
@@ -36,6 +38,7 @@ source: https://www.jadeleafmatcha.com/blogs/matcha-recipes/matcha-white-chocola
 
 9. Cool on baking sheet 5 minutes. Optionally sprinkle a tiny pinch of salt on top while warm.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Makes about 18-19 cookies at 35g each.
@@ -43,3 +46,4 @@ source: https://www.jadeleafmatcha.com/blogs/matcha-recipes/matcha-white-chocola
 - Extra butter and reduced flour compensate for matcha's drying effect.
 - White chocolate is kept at 140g to let the matcha come through without being overpowered by sweetness.
 - Dough freezes well for up to 3 months. Bake from frozen, adding 1 extra minute.
+</div>

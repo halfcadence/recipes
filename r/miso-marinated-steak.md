@@ -6,20 +6,24 @@ chef: Yamashita, HAL YAMASHITA Tokyo
 
 ## Ingredients
 
-- 100g Kobe beef (or any thick-cut meat)
-- Rape blossoms (or seasonal greens)
-- Macadamia nut oil, as needed
-- Pinch of salt
+| | |
+|---|---|
+| 100g | Kobe beef (or any thick-cut meat) |
+| | Rape blossoms (or seasonal greens) |
+| | Macadamia nut oil, as needed |
+| | Pinch of salt |
 
 ### Dark Brown Miso Marinade
 
-- 50g dark brown miso
-- 25g caster sugar (or brown/granulated)
-- 30g pure sake
-- 30g real mirin
-- 25g red wine
-- 4g grated garlic
-- 15g soy sauce
+| | |
+|---|---|
+| 50g | dark brown miso |
+| 25g | caster sugar (or brown/granulated) |
+| 30g | pure sake |
+| 30g | real mirin |
+| 25g | red wine |
+| 4g | grated garlic |
+| 15g | soy sauce |
 
 ## Steps
 
@@ -33,7 +37,9 @@ chef: Yamashita, HAL YAMASHITA Tokyo
 
 5. Slice beef and serve with greens.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Marinade is an all-purpose sauce — works on any protein.
 - Watch the original video for Chef Yamashita's technique.
+</div>

@@ -5,16 +5,18 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 ## Ingredients
 
-- 100g dark chocolate (60–70% cacao), chopped
-- 42g unsalted butter, cubed
-- 18g Dutch-process cocoa powder
-- 90ml whole milk (2% also works)
-- 3 large eggs (50g without shell), yolks and whites separated
-- 38g sugar (for egg yolks)
-- 20g cake flour
-- 1g kosher salt
-- 38g sugar (for egg whites)
-- Confectioners' sugar or cocoa powder for dusting (optional)
+| | |
+|---|---|
+| 100g | dark chocolate (60–70% cacao), chopped |
+| 42g | unsalted butter, cubed |
+| 18g | Dutch-process cocoa powder |
+| 90ml | whole milk (2% also works) |
+| 3 | large eggs (50g without shell), yolks and whites separated |
+| 38g | sugar (for egg yolks) |
+| 20g | cake flour |
+| 1g | kosher salt |
+| 38g | sugar (for egg whites) |
+| | Confectioners' sugar or cocoa powder for dusting (optional) |
 
 ## Steps
 
@@ -42,6 +44,7 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 12. Dust with confectioners' sugar or cocoa powder. Microwave chilled slices for 5 seconds for a melt-in-your-mouth texture.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - The extra milk (90ml vs the original 60ml) compensates for cocoa powder absorbing more liquid than matcha. This keeps the fudgy, molten interior texture.
@@ -55,3 +58,4 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 - Cake flour is required. Homemade: for every 120g AP flour, remove 16g and replace with 16g cornstarch, sifted 3–4 times.
 - Double the recipe for a 20–23cm pan, triple for 25–28cm.
 - Store refrigerated 3 days or frozen 1 month.
+</div>

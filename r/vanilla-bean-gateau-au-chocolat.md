@@ -5,16 +5,18 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 ## Ingredients
 
-- 100g white chocolate (baking quality), chopped
-- 42g unsalted butter
-- 1 vanilla bean (seeds scraped) or 5ml vanilla bean paste
-- 55ml whole milk (2% also works)
-- 3 large eggs (50g without shell), yolks and whites separated
-- 38g sugar (for egg yolks)
-- 32g cake flour
-- 1g kosher salt
-- 38g sugar (for egg whites)
-- Confectioners' sugar for dusting (optional)
+| | |
+|---|---|
+| 100g | white chocolate (baking quality), chopped |
+| 42g | unsalted butter |
+| 1 | vanilla bean (seeds scraped) or 5ml vanilla bean paste |
+| 55ml | whole milk (2% also works) |
+| 3 | large eggs (50g without shell), yolks and whites separated |
+| 38g | sugar (for egg yolks) |
+| 32g | cake flour |
+| 1g | kosher salt |
+| 38g | sugar (for egg whites) |
+| | Confectioners' sugar for dusting (optional) |
 
 ## Steps
 
@@ -42,6 +44,7 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 12. Dust with confectioners' sugar. Microwave chilled slices for 5 seconds for a melt-in-your-mouth texture.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Browning the butter is what makes this recipe work. Plain vanilla + white chocolate is too subtle on its own — the browned milk solids add nutty, caramelized depth that gives the cake an actual flavor identity. Don't skip this step.
@@ -54,3 +57,4 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 - Cake flour is required. Homemade: for every 120g AP flour, remove 16g and replace with 16g cornstarch, sifted 3–4 times.
 - Double the recipe for a 20–23cm pan, triple for 25–28cm.
 - Store refrigerated 3 days or frozen 1 month.
+</div>

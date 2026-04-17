@@ -4,17 +4,19 @@ title: Brown Butter Hojicha White Chocolate Cookies
 
 ## Ingredients
 
-- 115g unsalted butter
-- 12g hojicha powder
-- 150g all-purpose flour
-- 3g baking soda
-- 2g salt
-- 80g brown sugar
-- 60g granulated sugar
-- 1 large egg, room temperature
-- 5ml vanilla extract
-- 100g white chocolate, roughly chopped, plus extra for topping
-- Flaky salt for finishing
+| | |
+|---|---|
+| 115g | unsalted butter |
+| 12g | hojicha powder |
+| 150g | all-purpose flour |
+| 3g | baking soda |
+| 2g | salt |
+| 80g | brown sugar |
+| 60g | granulated sugar |
+| 1 | large egg, room temperature |
+| 5ml | vanilla extract |
+| 100g | white chocolate, roughly chopped, plus extra for topping |
+| | Flaky salt for finishing |
 
 ## Steps
 
@@ -38,6 +40,7 @@ title: Brown Butter Hojicha White Chocolate Cookies
 
 10. Press extra white chocolate chunks into the tops while warm. Sprinkle with flaky salt. Cool on baking sheet 10 minutes before transferring to a wire rack.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Makes about 12 cookies at 40g each.
@@ -47,3 +50,4 @@ title: Brown Butter Hojicha White Chocolate Cookies
 - The brown butter amplifies hojicha's natural toasty, caramel notes — they're the same flavor family.
 - Flaky salt on top is not optional. It balances the sweetness and makes the hojicha pop.
 - Dough freezes well for up to 3 months. Bake from frozen, adding 1–2 extra minutes.
+</div>

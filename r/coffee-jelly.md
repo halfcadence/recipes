@@ -4,10 +4,12 @@ title: Coffee Jelly
 
 ## Ingredients
 
-- 2g kanten OR 7.2g gelatin
-- 400g water
-- 36g sugar
-- 10g instant coffee
+| | |
+|---|---|
+| 2g | kanten OR 7.2g gelatin |
+| 400g | water |
+| 36g | sugar |
+| 10g | instant coffee |
 
 ## Steps
 

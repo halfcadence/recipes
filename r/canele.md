@@ -7,18 +7,20 @@ yield: 15
 
 ## Ingredients
 
-- 225ml milk (A)
-- 450ml milk (B)
-- 75ml heavy cream (35% fat)
-- 1g vanilla (bean)
-- 90g butter
-- 338g granulated sugar
-- 3g fleur de sel
-- 60g whole egg
-- 90g egg yolk
-- 80ml aged rum
-- 285g flour (Type 45 / cake flour)
-- Beeswax for molds
+| | |
+|---|---|
+| 225ml | milk (A) |
+| 450ml | milk (B) |
+| 75ml | heavy cream (35% fat) |
+| 1g | vanilla (bean) |
+| 90g | butter |
+| 338g | granulated sugar |
+| 3g | fleur de sel |
+| 60g | whole egg |
+| 90g | egg yolk |
+| 80ml | aged rum |
+| 285g | flour (Type 45 / cake flour) |
+| | Beeswax for molds |
 
 ## Steps
 
@@ -44,6 +46,7 @@ yield: 15
 
 11. Unmold immediately onto a cooling rack upside down. Cool for 2 hours. Eat the same day.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Resting the infused milk and the overnight batter rest are both critical for flavor and texture.
@@ -52,3 +55,4 @@ yield: 15
 - The high initial temperature creates the caramelized shell and prevents mushrooming. If your oven only goes to 480°F, use convection for the first 10 minutes.
 - Fill molds to about 1cm from the top — overfilling causes "white butt" (pale, undercooked bottoms) because the batter can't sink back down.
 - Canelés are best eaten the day they're baked.
+</div>

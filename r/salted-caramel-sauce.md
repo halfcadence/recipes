@@ -4,10 +4,12 @@ title: Salted Caramel Sauce
 
 ## Ingredients
 
-- 100g granulated sugar
-- 30g unsalted butter, cubed
-- 100ml heavy cream
-- 1.5g fine sea salt
+| | |
+|---|---|
+| 100g | granulated sugar |
+| 30g | unsalted butter, cubed |
+| 100ml | heavy cream |
+| 1.5g | fine sea salt |
 
 ## Steps
 
@@ -21,6 +23,8 @@ title: Salted Caramel Sauce
 
 5. Cool and transfer to a heatproof jar.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Room temperature: 1–2 days. Refrigerated: up to 2 weeks. Warm before use.
+</div>

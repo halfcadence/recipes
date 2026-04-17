@@ -4,10 +4,12 @@ title: Tea Jelly
 
 ## Ingredients
 
-- 2g kanten
-- 450g water
-- 30g sugar
-- 10g whole leaf tea
+| | |
+|---|---|
+| 2g | kanten |
+| 450g | water |
+| 30g | sugar |
+| 10g | whole leaf tea |
 
 ## Steps
 

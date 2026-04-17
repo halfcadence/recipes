@@ -6,14 +6,16 @@ chef: Hideaki Matsuo, Kashiwaya (3 Michelin stars, Osaka)
 
 ## Ingredients
 
-- 200g chicken thighs
-- 1 white spring onion
-- 10 sweet green peppers
-- 60ml mirin
-- 20ml Japanese sake
-- 30ml dark soy sauce
-- 40g light-brown miso
-- Potato starch, as needed
+| | |
+|---|---|
+| 200g | chicken thighs |
+| 1 | white spring onion |
+| 10 | sweet green peppers |
+| 60ml | mirin |
+| 20ml | Japanese sake |
+| 30ml | dark soy sauce |
+| 40g | light-brown miso |
+| | Potato starch, as needed |
 
 ## Steps
 
@@ -29,7 +31,9 @@ chef: Hideaki Matsuo, Kashiwaya (3 Michelin stars, Osaka)
 
 6. Serve chicken with grilled onion and peppers.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Potato starch helps the sauce adhere and gives a slight crispness.
 - Watch the original video for Chef Matsuo's technique.
+</div>

@@ -5,18 +5,20 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 ## Ingredients
 
-- 100g dark chocolate (60–70% cacao), chopped
-- 42g unsalted butter, cubed
-- 18g Dutch-process cocoa powder
-- Zest of 1 large orange (about 6–8g)
-- 90ml whole milk (2% also works)
-- 10ml Grand Marnier or Cointreau (optional)
-- 3 large eggs (50g without shell), yolks and whites separated
-- 38g sugar (for egg yolks)
-- 20g cake flour
-- 1g kosher salt
-- 38g sugar (for egg whites)
-- Confectioners' sugar for dusting (optional)
+| | |
+|---|---|
+| 100g | dark chocolate (60–70% cacao), chopped |
+| 42g | unsalted butter, cubed |
+| 18g | Dutch-process cocoa powder |
+| 6–8g | orange zest (1 large orange) |
+| 90ml | whole milk (2% also works) |
+| 10ml | Grand Marnier or Cointreau (optional) |
+| 3 | large eggs (50g without shell), yolks and whites separated |
+| 38g | sugar (for egg yolks) |
+| 20g | cake flour |
+| 1g | kosher salt |
+| 38g | sugar (for egg whites) |
+| | Confectioners' sugar for dusting (optional) |
 
 ## Steps
 
@@ -44,6 +46,7 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 12. Dust with confectioners' sugar. Microwave chilled slices for 5 seconds for a melt-in-your-mouth texture.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Orange zest adds flavor through oils, not water — zero hydration impact. The milk stays at 90ml (same as the chocolate gateau) because the cocoa still needs the extra liquid.
@@ -55,3 +58,4 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 - Cake flour is required. Homemade: for every 120g AP flour, remove 16g and replace with 16g cornstarch, sifted 3–4 times.
 - Double the recipe for a 20–23cm pan, triple for 25–28cm.
 - Store refrigerated 3 days or frozen 1 month.
+</div>

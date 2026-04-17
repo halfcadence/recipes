@@ -4,11 +4,13 @@ title: Thyme Streusel
 
 ## Ingredients
 
-- 75g all-purpose flour
-- 40g light brown sugar tightly packed
-- 30g sugar
-- 1g salt
-- 40g unsalted butter
+| | |
+|---|---|
+| 75g | all-purpose flour |
+| 40g | light brown sugar tightly packed |
+| 30g | sugar |
+| 1g | salt |
+| 40g | unsalted butter |
 
 ## Steps
 

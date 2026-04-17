@@ -5,16 +5,18 @@ source: https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 ## Ingredients
 
-- 100g white chocolate (baking quality), chopped
-- 42g unsalted butter, cubed
-- 18g matcha
-- 60ml whole milk (2% also works)
-- 3 large eggs (50g without shell), yolks and whites separated
-- 38g sugar (for egg yolks)
-- 20g cake flour
-- 1g kosher salt
-- 38g sugar (for egg whites)
-- Confectioners' sugar for dusting (optional)
+| | |
+|---|---|
+| 100g | white chocolate (baking quality), chopped |
+| 42g | unsalted butter, cubed |
+| 18g | matcha |
+| 60ml | whole milk (2% also works) |
+| 3 | large eggs (50g without shell), yolks and whites separated |
+| 38g | sugar (for egg yolks) |
+| 20g | cake flour |
+| 1g | kosher salt |
+| 38g | sugar (for egg whites) |
+| | Confectioners' sugar for dusting (optional) |
 
 ## Steps
 
@@ -42,6 +44,7 @@ source: https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 12. Slice and dust with confectioners' sugar. Microwave chilled slices for 5 seconds for a melt-in-your-mouth texture.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Use baking-quality white chocolate, not candy bars.
@@ -51,3 +54,4 @@ source: https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 - Cake flour is required. Homemade: for every 120g AP flour, remove 16g and replace with 16g cornstarch, sifted 3–4 times.
 - Double the recipe for a 20–23cm pan, triple for 25–28cm.
 - Store refrigerated 3 days or frozen 1 month.
+</div>

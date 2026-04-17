@@ -5,17 +5,19 @@ source: https://sallysbakingaddiction.com/double-chocolate-chip-cookies-recipe/
 
 ## Ingredients
 
-- 113g unsalted butter, softened to room temperature
-- 100g granulated sugar
-- 100g packed light or dark brown sugar
-- 1 large egg, at room temperature
-- 5ml pure vanilla extract
-- 125g all-purpose flour
-- 55g natural unsweetened cocoa powder
-- 6g baking soda
-- 1.5g salt
-- 15ml milk
-- 225g 99% Noir Infini chocolate, chopped, plus extra for topping
+| | |
+|---|---|
+| 113g | unsalted butter, softened to room temperature |
+| 100g | granulated sugar |
+| 100g | packed light or dark brown sugar |
+| 1 | large egg, at room temperature |
+| 5ml | pure vanilla extract |
+| 125g | all-purpose flour |
+| 55g | natural unsweetened cocoa powder |
+| 6g | baking soda |
+| 1.5g | salt |
+| 15ml | milk |
+| 225g | 99% Noir Infini chocolate, chopped, plus extra for topping |
 
 ## Steps
 
@@ -35,6 +37,7 @@ source: https://sallysbakingaddiction.com/double-chocolate-chip-cookies-recipe/
 
 8. Cool on baking sheet 5 minutes. Optionally press extra chocolate chips into tops while warm. Transfer to cooling rack.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Dough can be refrigerated up to 3 days before baking.
@@ -42,3 +45,4 @@ source: https://sallysbakingaddiction.com/double-chocolate-chip-cookies-recipe/
 - Use natural unsweetened cocoa powder (not dutch-process) since the recipe uses baking soda.
 - Recipe doubles easily. Chill time stays the same.
 - Can sub chocolate chips for peanut butter chips, white chocolate chips, M&Ms, chopped nuts, or butterscotch chips.
+</div>
