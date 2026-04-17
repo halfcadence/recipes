@@ -1,0 +1,101 @@
+---
+---
+
+@import "minima";
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+  }
+
+  a {
+    color: #6db3f2;
+  }
+  a:visited {
+    color: #9b8ec4;
+  }
+  a:hover {
+    color: #e0e0e0;
+  }
+
+  .site-header {
+    border-top-color: #e0e0e0;
+    border-bottom-color: #333;
+  }
+
+  .site-title,
+  .site-title:visited {
+    color: #e0e0e0;
+  }
+
+  .site-nav .page-link {
+    color: #e0e0e0;
+  }
+
+  @media screen and (max-width: 600px) {
+    .site-nav {
+      background-color: #1a1a2e;
+      border-color: #333;
+    }
+  }
+
+  .site-footer {
+    border-top-color: #333;
+  }
+
+  .footer-col-wrapper {
+    color: #999;
+  }
+
+  .post-meta {
+    color: #999;
+  }
+
+  blockquote {
+    color: #aaa;
+    border-left-color: #444;
+  }
+
+  pre,
+  code {
+    background-color: #2a2a3e;
+    border-color: #444;
+    color: #e0e0e0;
+  }
+
+  .highlight {
+    background: #2a2a3e;
+  }
+  .highlighter-rouge .highlight {
+    background: #2a2a3e;
+  }
+
+  table {
+    color: #e0e0e0;
+    border-color: #444;
+  }
+  table tr:nth-child(even) {
+    background-color: #222;
+  }
+  table th {
+    background-color: #2a2a3e;
+    border-color: #444;
+    border-bottom-color: #555;
+  }
+  table td {
+    border-color: #444;
+  }
+
+  .svg-icon {
+    fill: #999;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #e0e0e0;
+  }
+
+  hr {
+    border-color: #444;
+  }
+}
