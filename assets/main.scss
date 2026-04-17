@@ -2,8 +2,11 @@
 ---
 
 @import "minima";
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600&display=swap');
 
 // ── Brutalist overrides ─────────────────────────────────────────────
+
+body { font-family: 'Bricolage Grotesque', sans-serif; }
 
 // Header
 .site-header {
