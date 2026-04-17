@@ -3,11 +3,9 @@
 
 @import "minima";
 
-// ── Brutalist base ──────────────────────────────────────────────────
+// ── Brutalist overrides ─────────────────────────────────────────────
 
-// Use minima's default system font stack — no override needed
-
-// Header — thick top slab, no bottom border, title + nav on one line
+// Header
 .site-header {
   border-top: 8px solid #111;
   border-bottom: none;
@@ -16,191 +14,48 @@
 }
 
 .site-title {
-  font-weight: 600;
-  letter-spacing: 0.5px;
   font-size: 18px;
-  line-height: 1.4;
-}
-
-.site-nav {
-  line-height: 1.4;
-  padding-top: 2px;
-}
-
-.site-nav .page-link {
-  font-size: 15px;
-}
-
-// Footer — single dense line, no columns
-.site-footer {
-  border-top: 3px solid #111;
-  padding: 12px 0;
-}
-
-.footer-col-wrapper {
-  font-size: 13px;
-  margin-left: 0;
-}
-
-.footer-col {
-  float: none;
-  width: 100%;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-
-.footer-heading {
-  display: none;
-}
-
-.footer-col-1 {
-  display: none;
-}
-
-.footer-col-3 {
-  display: none;
-}
-
-// Content — tighten everything up
-.page-content {
-  padding: 20px 0;
-}
-
-.post-title,
-.page-heading {
   font-weight: 600;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-}
+// All text same size, headings just bold
+h1, h2, h3, h4, h5, h6,
+.post-content h2, .post-content h3, .post-content h4 { font-size: 16px; font-weight: 600; }
+.post-content h2 { margin-top: 20px; margin-bottom: 5px; }
+.post-content h3 { margin-top: 15px; margin-bottom: 5px; }
+.post-title { font-size: 16px; margin-bottom: 15px; }
+.post-header { margin-bottom: 10px; }
 
-a {
-  text-decoration: underline;
-}
-a:hover {
-  text-decoration: none;
-  color: inherit;
-}
+// Tighter spacing
+.page-content { padding: 20px 0; }
+.post-content ul, .post-content ol { margin-left: 20px; margin-bottom: 10px; }
+.post-content li { margin-bottom: 2px; }
+.post-content p { margin-bottom: 8px; }
 
-// Links — all the same, everywhere
-a, a:visited {
-  color: inherit;
-}
+// Links — all identical, inherit color
+a, a:visited { color: inherit; text-decoration: underline; }
+a:hover { text-decoration: none; color: inherit; }
 
-.site-title,
-.site-title:visited {
-  color: inherit;
-  text-decoration: underline;
-}
-.site-title:hover {
-  text-decoration: none;
-}
-
-.site-nav .page-link {
-  color: inherit;
-  text-decoration: underline;
-}
-.site-nav .page-link:hover {
-  text-decoration: none;
-}
-
-.social-media-list a,
-.social-media-list a:visited {
-  color: inherit;
-  text-decoration: underline;
-}
-.social-media-list a:hover {
-  text-decoration: none;
-}
-
-// Code blocks keep the mono feel
-pre, code {
-  font-family: inherit;
-  border: 1px solid #111;
-  border-radius: 0;
-  background-color: #f5f5f5;
-}
-
-// Tables — hard lines
-table {
-  border: 2px solid #111;
-}
-table th {
-  border: 1px solid #111;
-  background-color: #e0e0e0;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 1px;
-}
-table td {
-  border: 1px solid #111;
-}
+// Sharp edges
+pre, code { border: 1px solid #111; border-radius: 0; background-color: #f5f5f5; }
+table { border: 2px solid #111; }
+table th { border: 1px solid #111; background-color: #e0e0e0; font-weight: 600; }
+table td { border: 1px solid #111; }
 
 // ── Dark mode ───────────────────────────────────────────────────────
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #1c1c1c;
-    color: #d4d4d4;
-  }
+  body { background-color: #1c1c1c; color: #d4d4d4; }
+  a, a:visited { color: #d4d4d4; }
+  h1, h2, h3, h4, h5, h6 { color: #d4d4d4; }
+  .site-header { border-top-color: #d4d4d4; }
+  .post-meta { color: #999; }
+  blockquote { color: #aaa; border-left-color: #555; }
 
-  a, a:visited {
-    color: #d4d4d4;
-  }
+  pre, code { background-color: #2a2a2a; border-color: #555; color: #d4d4d4; }
+  .highlight, .highlighter-rouge .highlight { background: #2a2a2a; }
 
-  .site-header {
-    border-top-color: #d4d4d4;
-  }
-
-  .site-title,
-  .site-title:visited {
-    color: #d4d4d4;
-  }
-
-  .site-nav .page-link {
-    color: #d4d4d4;
-  }
-
-  @media screen and (max-width: 600px) {
-    .site-nav {
-      background-color: #1c1c1c;
-      border-color: #444;
-    }
-  }
-
-  .site-footer {
-    border-top-color: #d4d4d4;
-  }
-
-  .footer-col-wrapper {
-    color: #999;
-  }
-
-  .post-meta {
-    color: #999;
-  }
-
-  blockquote {
-    color: #aaa;
-    border-left-color: #555;
-  }
-
-  pre, code {
-    background-color: #2a2a2a;
-    border-color: #555;
-    color: #d4d4d4;
-  }
-
-  .highlight {
-    background: #2a2a2a;
-  }
-  .highlighter-rouge .highlight {
-    background: #2a2a2a;
-  }
-
-  // Syntax highlight colors for dark mode
+  // Syntax highlighting
   .highlight .c, .highlight .cm, .highlight .c1, .highlight .cs { color: #6a9955; }
   .highlight .k, .highlight .kc, .highlight .kd, .highlight .kp,
   .highlight .kr, .highlight .kt, .highlight .o, .highlight .ow { color: #569cd6; }
@@ -217,32 +72,9 @@ table td {
   .highlight .err { color: #f44747; background-color: transparent; }
   .highlight .gd { color: #f44747; }
   .highlight .gi { color: #6a9955; }
-  .highlight .gh, .highlight .gu { color: #d4d4d4; }
-  .highlight .gp { color: #888; }
-  .highlight .go { color: #888; }
-  .highlight .w { color: #d4d4d4; }
 
-  table {
-    color: #d4d4d4;
-    border-color: #555;
-  }
-  table tr:nth-child(even) {
-    background-color: #222;
-  }
-  table th {
-    background-color: #2a2a2a;
-    border-color: #555;
-    color: #d4d4d4;
-  }
-  table td {
-    border-color: #444;
-  }
-
-  .svg-icon {
-    fill: #999;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    color: #d4d4d4;
-  }
+  table { color: #d4d4d4; border-color: #555; }
+  table tr:nth-child(even) { background-color: #222; }
+  table th { background-color: #2a2a2a; border-color: #555; color: #d4d4d4; }
+  table td { border-color: #444; }
 }
