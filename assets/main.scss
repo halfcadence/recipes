@@ -82,9 +82,35 @@ a:hover {
   text-decoration: none;
 }
 
-// Links — raw, no color games
+// Links — all the same, everywhere
 a, a:visited {
   color: inherit;
+}
+
+.site-title,
+.site-title:visited {
+  color: inherit;
+  text-decoration: underline;
+}
+.site-title:hover {
+  text-decoration: none;
+}
+
+.site-nav .page-link {
+  color: inherit;
+  text-decoration: underline;
+}
+.site-nav .page-link:hover {
+  text-decoration: none;
+}
+
+.social-media-list a,
+.social-media-list a:visited {
+  color: inherit;
+  text-decoration: underline;
+}
+.social-media-list a:hover {
+  text-decoration: none;
 }
 
 // Code blocks keep the mono feel
