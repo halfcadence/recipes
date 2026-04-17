@@ -5,10 +5,7 @@
 
 // ── Brutalist base ──────────────────────────────────────────────────
 
-body {
-  font-family: "SF Mono", "Fira Code", "Fira Mono", Menlo, Consolas,
-    "DejaVu Sans Mono", monospace;
-}
+// Use minima's default system font stack — no override needed
 
 // Header — thick top slab, no bottom border, title + nav on one line
 .site-header {
@@ -116,36 +113,36 @@ table td {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #0a0a0a;
-    color: #e0e0e0;
+    background-color: #1c1c1c;
+    color: #d4d4d4;
   }
 
   a, a:visited {
-    color: #e0e0e0;
+    color: #d4d4d4;
   }
 
   .site-header {
-    border-top-color: #e0e0e0;
+    border-top-color: #d4d4d4;
   }
 
   .site-title,
   .site-title:visited {
-    color: #e0e0e0;
+    color: #d4d4d4;
   }
 
   .site-nav .page-link {
-    color: #e0e0e0;
+    color: #d4d4d4;
   }
 
   @media screen and (max-width: 600px) {
     .site-nav {
-      background-color: #0a0a0a;
-      border-color: #333;
+      background-color: #1c1c1c;
+      border-color: #444;
     }
   }
 
   .site-footer {
-    border-top-color: #e0e0e0;
+    border-top-color: #d4d4d4;
   }
 
   .footer-col-wrapper {
@@ -162,29 +159,51 @@ table td {
   }
 
   pre, code {
-    background-color: #1a1a1a;
-    border-color: #e0e0e0;
-    color: #e0e0e0;
+    background-color: #2a2a2a;
+    border-color: #555;
+    color: #d4d4d4;
   }
 
   .highlight {
-    background: #1a1a1a;
+    background: #2a2a2a;
   }
   .highlighter-rouge .highlight {
-    background: #1a1a1a;
+    background: #2a2a2a;
   }
 
+  // Syntax highlight colors for dark mode
+  .highlight .c, .highlight .cm, .highlight .c1, .highlight .cs { color: #6a9955; }
+  .highlight .k, .highlight .kc, .highlight .kd, .highlight .kp,
+  .highlight .kr, .highlight .kt, .highlight .o, .highlight .ow { color: #569cd6; }
+  .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd,
+  .highlight .s2, .highlight .se, .highlight .sh, .highlight .si,
+  .highlight .sx, .highlight .s1, .highlight .ss { color: #ce9178; }
+  .highlight .m, .highlight .mf, .highlight .mh, .highlight .mi,
+  .highlight .mo, .highlight .il { color: #b5cea8; }
+  .highlight .na, .highlight .nb, .highlight .no, .highlight .nv,
+  .highlight .vc, .highlight .vg, .highlight .vi, .highlight .bp { color: #9cdcfe; }
+  .highlight .nc, .highlight .ne, .highlight .nf { color: #dcdcaa; }
+  .highlight .nn, .highlight .nt { color: #4ec9b0; }
+  .highlight .ni { color: #c586c0; }
+  .highlight .err { color: #f44747; background-color: transparent; }
+  .highlight .gd { color: #f44747; }
+  .highlight .gi { color: #6a9955; }
+  .highlight .gh, .highlight .gu { color: #d4d4d4; }
+  .highlight .gp { color: #888; }
+  .highlight .go { color: #888; }
+  .highlight .w { color: #d4d4d4; }
+
   table {
-    color: #e0e0e0;
-    border-color: #e0e0e0;
+    color: #d4d4d4;
+    border-color: #555;
   }
   table tr:nth-child(even) {
-    background-color: #151515;
+    background-color: #222;
   }
   table th {
-    background-color: #1a1a1a;
-    border-color: #e0e0e0;
-    color: #e0e0e0;
+    background-color: #2a2a2a;
+    border-color: #555;
+    color: #d4d4d4;
   }
   table td {
     border-color: #444;
@@ -195,6 +214,6 @@ table td {
   }
 
   h1, h2, h3, h4, h5, h6 {
-    color: #e0e0e0;
+    color: #d4d4d4;
   }
 }
