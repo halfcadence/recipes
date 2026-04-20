@@ -37,18 +37,18 @@ yield: 4
 
 4. Pour custard mixture until cups are 80% full. Skim surface bubbles.
 
-5. Bring a pot of water (enough to reach halfway up the cups) to a boil. Reduce to lowest heat — water should stay at 175–195°F, never boiling.
+5. Preheat oven to 325°F. Place filled cups in a baking dish or roasting pan. Cover each cup with its lid or foil. Pour boiling water into the dish halfway up the sides of the cups.
 
-6. Gently lower cups into the water. Cover cups with lids, set pot lid slightly ajar. Steam 20 minutes (15 if no chicken).
-
-7. Test with a skewer — clear liquid means done. Serve hot.
+6. Bake 25–30 minutes until set but still slightly jiggly in the center. Remove cups from the water bath and serve hot.
 
 <div class="notes" markdown="1">
 ## Notes
 
 - The egg-to-dashi ratio is 1:2.5 by weight. Weigh your eggs first, then calculate.
 - Strain the custard — this is what makes it silky.
-- Gentle heat is everything. If the water boils, you'll get "su" (tiny holes in the custard) — considered a failure in Japanese cooking. Keep the lid ajar to vent steam.
+- The oven bain-marie is the most reproducible method — set temp, set timer, walk away. The water bath caps the custard temperature at ~212°F regardless of oven setting, so there's no risk of boiling.
+- Stovetop alternative: bring a pot of water to a boil, reduce to lowest heat (175–195°F), lower cups in, cover with lid slightly ajar, steam 20 minutes. Harder to control — if the water boils you'll get "su" (tiny holes).
+- Gentle heat is everything. "Su" (porous, holey custard) is considered a failure in Japanese cooking.
 - Use thin-walled cups. Thick ceramic takes much longer and is harder to control.
 - For vegetarian: skip chicken and kamaboko, use kombu dashi, add extra mushrooms and vegetables.
 - Mugs with foil lids work fine if you don't have chawanmushi cups.
