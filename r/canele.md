@@ -9,16 +9,16 @@ yield: 15
 
 | | |
 |---|---|
-| 225ml | milk (A) |
-| 450ml | milk (B) |
-| 75ml | heavy cream (35% fat) |
+| 225g | milk (A) |
+| 450g | milk (B) |
+| 75g | heavy cream (35% fat) |
 | 1g | vanilla (bean) |
 | 90g | butter |
 | 338g | granulated sugar |
 | 3g | fleur de sel |
 | 60g | whole egg |
 | 90g | egg yolk |
-| 80ml | aged rum |
+| 80g | aged rum |
 | 285g | flour (Type 45 / cake flour) |
 | | Beeswax for molds |
 

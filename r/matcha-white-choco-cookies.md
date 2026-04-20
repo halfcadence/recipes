@@ -11,7 +11,7 @@ source: https://www.jadeleafmatcha.com/blogs/matcha-recipes/matcha-white-chocola
 | 80g | brown sugar |
 | 80g | granulated sugar |
 | 1 | large egg, at room temperature |
-| 2.5mL | vanilla extract |
+| 2.5g | vanilla extract |
 | 20g | culinary matcha powder |
 | 150g | all-purpose flour (spooned & leveled) |
 | 3g | baking soda |

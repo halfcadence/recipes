@@ -4,10 +4,12 @@ title: Matcha Latte
 
 ## Ingredients
 
-- 2–3g matcha (ceremonial or culinary)
-- 60ml hot water (175–185°F)
-- 160ml milk
-- Sweetener to taste (optional)
+| | |
+|---|---|
+| 2–3g | matcha (ceremonial or culinary) |
+| 60g | hot water (175–185°F) |
+| 160g | milk |
+| | Sweetener to taste (optional) |
 
 ## Steps
 
@@ -21,8 +23,8 @@ title: Matcha Latte
 
 ## Notes
 
-- For iced: skip heating the milk, pour matcha over ice and cold milk (use 200ml milk for iced since ice dilutes).
+- For iced: skip heating the milk, pour matcha over ice and cold milk (use 200g milk for iced since ice dilutes).
 - 2g matcha gives a mellow, balanced latte. 3g gives a stronger matcha-forward flavor.
 - Oat milk froths best among non-dairy options and complements matcha well.
-- The matcha shot should be whisked with just 60ml water to keep it concentrated — too much water and the matcha flavor gets lost in the milk.
+- The matcha shot should be whisked with just 60g water to keep it concentrated — too much water and the matcha flavor gets lost in the milk.
 - Sweetener is optional. If using, add to the matcha shot before combining with milk so it dissolves fully.

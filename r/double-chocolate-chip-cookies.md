@@ -11,12 +11,12 @@ source: https://sallysbakingaddiction.com/double-chocolate-chip-cookies-recipe/
 | 100g | granulated sugar |
 | 100g | packed light or dark brown sugar |
 | 1 | large egg, at room temperature |
-| 5ml | pure vanilla extract |
+| 5g | pure vanilla extract |
 | 125g | all-purpose flour |
 | 55g | natural unsweetened cocoa powder |
 | 6g | baking soda |
 | 1.5g | salt |
-| 15ml | milk |
+| 15g | milk |
 | 225g | 99% Noir Infini chocolate, chopped, plus extra for topping |
 
 ## Steps

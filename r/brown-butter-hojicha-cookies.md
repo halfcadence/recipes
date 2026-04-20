@@ -14,7 +14,7 @@ title: Brown Butter Hojicha White Chocolate Cookies
 | 80g | brown sugar |
 | 60g | granulated sugar |
 | 1 | large egg, room temperature |
-| 5ml | vanilla extract |
+| 5g | vanilla extract |
 | 100g | white chocolate, roughly chopped, plus extra for topping |
 | | Flaky salt for finishing |
 

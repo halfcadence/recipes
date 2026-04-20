@@ -9,10 +9,10 @@ source: https://www.justonecookbook.com/earl-grey-chiffon-cake/
 |---|---|
 | 3g | Earl Grey loose tea leaves (for tea powder) |
 | 5g | Earl Grey loose tea leaves (for brewed tea) |
-| 90ml | hot water (just boiled) |
+| 90g | hot water (just boiled) |
 | 3 | large eggs (50g without shell), yolks and whites separated |
 | 85g | sugar, divided into thirds |
-| 40ml | neutral oil |
+| 40g | neutral oil |
 | 75g | cake flour |
 | 3g | baking powder |
 | | Confectioners' sugar for dusting (optional) |
@@ -21,7 +21,7 @@ source: https://www.justonecookbook.com/earl-grey-chiffon-cake/
 
 1. Grind 3g tea leaves to a fine powder in a food processor or mortar and pestle. Set aside.
 
-2. Brew strong tea: pour 90ml hot water over 5g tea leaves in a fine sieve. Let cool, remove leaves, and measure out 60ml brewed tea.
+2. Brew strong tea: pour 90g hot water over 5g tea leaves in a fine sieve. Let cool, remove leaves, and measure out 60g brewed tea.
 
 3. Separate egg yolks and whites. Refrigerate or freeze the whites in a stand mixer bowl for 15 minutes until cold.
 

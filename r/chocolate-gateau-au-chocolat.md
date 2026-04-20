@@ -10,7 +10,7 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 | 100g | dark chocolate (60–70% cacao), chopped |
 | 42g | unsalted butter, cubed |
 | 18g | Dutch-process cocoa powder |
-| 90ml | whole milk (2% also works) |
+| 90g | whole milk (2% also works) |
 | 3 | large eggs (50g without shell), yolks and whites separated |
 | 38g | sugar (for egg yolks) |
 | 20g | cake flour |
@@ -47,14 +47,14 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 <div class="notes" markdown="1">
 ## Notes
 
-- The extra milk (90ml vs the original 60ml) compensates for cocoa powder absorbing more liquid than matcha. This keeps the fudgy, molten interior texture.
+- The extra milk (90g vs the original 60g) compensates for cocoa powder absorbing more liquid than matcha. This keeps the fudgy, molten interior texture.
 - To intensify chocolate flavor without affecting texture, add 1–2g espresso powder to the batter with the cocoa. It deepens chocolate notes without tasting like coffee.
-- If you want more cocoa (up to 25g), add an extra 7ml milk per 7g additional cocoa to maintain hydration — cocoa absorbs up to 100% of its weight in water.
+- If you want more cocoa (up to 25g), add an extra 7g milk per 7g additional cocoa to maintain hydration — cocoa absorbs up to 100% of its weight in water.
 - Use Dutch-process cocoa for a smoother, less acidic flavor. Note that Dutch-process absorbs even more liquid than natural cocoa.
 - Use good quality dark chocolate (60–70% cacao), not chocolate chips — chips have stabilizers that affect melting.
 - The inside is intentionally soft and fudgy — don't overbake.
 - Requires 4 hours cooling time before cutting.
-- Optional ganache topping: heat 80ml heavy cream to a simmer, pour over 80g chopped dark chocolate, let sit 1 minute, stir until smooth, add 14g butter. Cool until pourable, then pour over the unmolded cake.
+- Optional ganache topping: heat 80g heavy cream to a simmer, pour over 80g chopped dark chocolate, let sit 1 minute, stir until smooth, add 14g butter. Cool until pourable, then pour over the unmolded cake.
 - Cake flour is required. Homemade: for every 120g AP flour, remove 16g and replace with 16g cornstarch, sifted 3–4 times.
 - Double the recipe for a 20–23cm pan, triple for 25–28cm.
 - Store refrigerated 3 days or frozen 1 month.

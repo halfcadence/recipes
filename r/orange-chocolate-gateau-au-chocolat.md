@@ -11,8 +11,8 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 | 42g | unsalted butter, cubed |
 | 18g | Dutch-process cocoa powder |
 | 6–8g | orange zest (1 large orange) |
-| 90ml | whole milk (2% also works) |
-| 10ml | Grand Marnier or Cointreau (optional) |
+| 90g | whole milk (2% also works) |
+| 10g | Grand Marnier or Cointreau (optional) |
 | 3 | large eggs (50g without shell), yolks and whites separated |
 | 38g | sugar (for egg yolks) |
 | 20g | cake flour |
@@ -49,8 +49,8 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 <div class="notes" markdown="1">
 ## Notes
 
-- Orange zest adds flavor through oils, not water — zero hydration impact. The milk stays at 90ml (same as the chocolate gateau) because the cocoa still needs the extra liquid.
-- Grand Marnier is optional but recommended. The 10ml of liqueur replaces 10ml of the milk's role as liquid, so no adjustment needed. The alcohol mostly evaporates during baking, leaving behind concentrated orange flavor.
+- Orange zest adds flavor through oils, not water — zero hydration impact. The milk stays at 90g (same as the chocolate gateau) because the cocoa still needs the extra liquid.
+- Grand Marnier is optional but recommended. The 10g of liqueur replaces 10g of the milk's role as liquid, so no adjustment needed. The alcohol mostly evaporates during baking, leaving behind concentrated orange flavor.
 - Use a microplane for the zest — you want the orange oils, not the bitter white pith.
 - Use Dutch-process cocoa for a smoother, less acidic flavor that pairs well with orange.
 - The inside is intentionally soft and fudgy — don't overbake.

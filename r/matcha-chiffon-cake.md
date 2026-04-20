@@ -9,8 +9,8 @@ source: https://www.justonecookbook.com/green-tea-chiffon-cake/
 |---|---|
 | 3 | large eggs (50g without shell), yolks and whites separated |
 | 85g | sugar, divided into thirds |
-| 40ml | neutral oil |
-| 60ml | water |
+| 40g | neutral oil |
+| 60g | water |
 | 75g | cake flour |
 | 10g | matcha |
 | 4g | baking powder |

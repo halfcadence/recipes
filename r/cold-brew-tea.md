@@ -4,8 +4,10 @@ title: Cold Brew Tea
 
 ## Ingredients
 
-- 15g tea leaves
-- 800g water
+| | |
+|---|---|
+| 15g | tea leaves |
+| 800g | water |
 
 ## Steps
 

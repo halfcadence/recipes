@@ -10,7 +10,7 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 | 100g | white chocolate (baking quality), chopped |
 | 42g | unsalted butter, cubed |
 | 18g | hojicha powder |
-| 60ml | whole milk (2% also works) |
+| 60g | whole milk (2% also works) |
 | 3 | large eggs (50g without shell), yolks and whites separated |
 | 38g | sugar (for egg yolks) |
 | 20g | cake flour |
