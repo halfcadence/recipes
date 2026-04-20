@@ -3,36 +3,89 @@ inclusion: fileMatch
 fileMatchPattern: "r/*.md"
 ---
 
-# Recipe Site Guidelines
+# Recipe Style Guide
 
-## Adding a New Recipe
+The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this document are to be interpreted as described in RFC 2119.
 
-1. Create the recipe file in `r/` as a markdown file (e.g., `r/my-recipe.md`).
-2. Use grams for all weight and volume (never cups, tablespoons, or ounces). Use Fahrenheit for temperatures.
-3. Use this front matter and format:
-   ```markdown
-   ---
-   title: Recipe Name
-   source: https://original-source-url (if applicable)
-   ---
+## Voice & Tone
 
-   ## Ingredients
+- Recipes MUST be minimal and direct. There MUST NOT be storytelling or preamble.
+- Steps MUST use imperative mood: "Sift matcha into a bowl", not "You should sift the matcha".
+- Notes are where personality, expertise, substitutions, and science SHOULD live.
 
-   | | |
-   |---|---|
-   | 100g | ingredient one |
-   | 200g | ingredient two |
+## Front Matter
 
-   ## Steps
+- `title` MUST be included.
+- `source` SHOULD be included if the recipe is adapted from an external source.
+- `chef` MAY be included if the source chef is notable.
+- `yield` MAY be included to indicate servings or pieces.
+- `layout` MUST NOT be included — it inherits from the default.
 
-   1. Step one.
-   2. Step two.
+```yaml
+---
+title: Recipe Name
+source: https://original-source-url
+chef: Chef Name
+yield: 12
+---
+```
 
-   ## Notes
+## Measurements
 
-   - Optional tips and variations.
-   ```
-3. Add a link to `index.md` under the appropriate category (Drinks, Desserts and Sweets, Mains, etc.). Create a new category section if needed.
-4. Commit both the new recipe file and the updated `index.md`.
+- All weights and volumes MUST use grams (g). Cups, tablespoons, teaspoons, and milliliters MUST NOT be used.
+- **Exception — cocktails**: Cocktail recipes MUST use ounces (oz) for spirits, liqueurs, juices, and syrups. Cocktails are built with jiggers, not scales.
+- Temperatures MUST be in Fahrenheit (°F).
+- Whole items (eggs, vanilla beans, chili peppers) SHOULD use counts.
+- Ranges SHOULD use an en dash: `115–140g`.
+- Volumetric measurements from sources MUST be converted to grams before writing (except cocktails).
 
-Recipes will not appear on the site unless they are linked from `index.md`.
+## Ingredients
+
+- Ingredients MUST use the table format:
+
+```markdown
+## Ingredients
+
+| | |
+|---|---|
+| 100g | dark chocolate, chopped |
+| 3 | large eggs, separated |
+```
+
+- Amount MUST be in the left column, ingredient and prep notes in the right.
+- There MUST NOT be a header row.
+- Ingredients SHOULD be listed in the order they are used.
+- Prep instructions SHOULD be included inline: "unsalted butter, cubed".
+- Sub-components MAY be grouped with labels like `(A)` and `(B)` if mixed at different stages.
+
+## Steps
+
+- Steps MUST be a numbered list.
+- Each step SHOULD be one logical action or a tightly related sequence.
+- Temperatures and times MUST be included inline: "Bake at 350°F for 15 minutes".
+- There SHOULD be a blank line between steps for readability.
+- Steps MUST NOT omit critical details for the sake of brevity.
+
+## Notes
+
+- Notes SHOULD use a `<div class="notes" markdown="1">` wrapper for styling:
+
+```markdown
+<div class="notes" markdown="1">
+## Notes
+
+- Tip or substitution here.
+</div>
+```
+
+- Notes MUST be in bullet list format.
+- Notes SHOULD cover: substitutions, storage, scaling, science, technique tips.
+- The Notes section MAY be omitted entirely if there is nothing useful to add.
+- For very simple recipes, the `<div>` wrapper MAY be skipped.
+
+## File Naming & Linking
+
+- Filenames MUST be kebab-case in the `r/` directory (e.g., `r/doenjang-jjigae.md`).
+- A link to the recipe MUST be added to `index.md` under the appropriate category.
+- If no existing category fits, a new one SHOULD be created.
+- Recipes not linked from `index.md` will not appear on the site.
