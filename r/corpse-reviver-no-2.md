@@ -8,10 +8,10 @@ source: https://www.liquor.com/recipes/corpse-reviver-no-2/
 | | |
 |---|---|
 | | Absinthe, to rinse glass |
-| 22g | London dry gin |
-| 22g | Lillet blanc |
-| 22g | orange liqueur |
-| 22g | lemon juice, freshly squeezed |
+| 3/4 oz | London dry gin |
+| 3/4 oz | Lillet blanc |
+| 3/4 oz | orange liqueur |
+| 3/4 oz | lemon juice, freshly squeezed |
 
 ## Steps
 
@@ -23,6 +23,6 @@ source: https://www.liquor.com/recipes/corpse-reviver-no-2/
 
 ## Notes
 
-- Equal parts of everything (3/4 oz each) is the classic ratio.
+- Equal parts of everything is the classic ratio.
 - The absinthe rinse is aromatic — it comes through on the nose more than the palate.
 - "Four of these taken in swift succession will un-revive the corpse again." — Harry Craddock, The Savoy Cocktail Book (1930).

@@ -8,9 +8,9 @@ source: https://www.liquor.com/recipes/mojito/
 | | |
 |---|---|
 | 3 | mint leaves |
-| 15g | simple syrup |
-| 60g | white rum |
-| 22g | lime juice, freshly squeezed |
+| 1/2 oz | simple syrup |
+| 2 oz | white rum |
+| 3/4 oz | lime juice, freshly squeezed |
 | | Club soda, to top |
 | | Mint sprig, for garnish |
 | | Lime wheel, for garnish |

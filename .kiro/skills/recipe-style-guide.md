@@ -41,10 +41,11 @@ yield: 12
 ## Measurements
 
 - **Weight and volume**: Always use grams (g) and milliliters (ml). Never use cups, tablespoons, teaspoons, or ounces.
+- **Exception — cocktails**: Use ounces (oz) for spirits, liqueurs, juices, and syrups. Cocktails are built with jiggers, not scales.
 - **Temperature**: Fahrenheit (°F).
 - **Counts**: Use counts for whole items (eggs, vanilla beans, chili peppers).
 - **Ranges**: Use an en dash for approximate quantities: `115–140g`.
-- Convert volumetric measurements from sources to grams before writing the recipe.
+- Convert volumetric measurements from sources to grams before writing the recipe (except cocktails).
 
 ## Ingredients
 

@@ -7,10 +7,10 @@ source: https://www.liquor.com/recipes/margarita/
 
 | | |
 |---|---|
-| 60g | blanco tequila (100% agave) |
-| 15g | orange liqueur |
-| 30g | lime juice, freshly squeezed |
-| 15g | agave syrup |
+| 2 oz | blanco tequila (100% agave) |
+| 1/2 oz | orange liqueur |
+| 1 oz | lime juice, freshly squeezed |
+| 1/2 oz | agave syrup |
 | | Lime wheel, for garnish |
 | | Kosher salt for rim (optional) |
 
