@@ -11,23 +11,21 @@ triggers:
 
 # Recipe Style Guide
 
+The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this document are to be interpreted as described in RFC 2119.
+
 ## Voice & Tone
 
-- Minimal and direct. No storytelling, no preamble. The recipe speaks for itself.
-- Imperative mood in steps: "Sift matcha into a bowl", not "You should sift the matcha".
-- Notes are where personality, expertise, substitutions, and science live.
+- Recipes MUST be minimal and direct. There MUST NOT be storytelling or preamble.
+- Steps MUST use imperative mood: "Sift matcha into a bowl", not "You should sift the matcha".
+- Notes are where personality, expertise, substitutions, and science SHOULD live.
 
 ## Front Matter
 
-Required:
-- `title`: Recipe name.
-
-Optional:
-- `source`: URL of the original recipe, if adapted from one.
-- `chef`: Name and affiliation, if notable.
-- `yield`: Number of servings or pieces.
-
-Do not include `layout` — it inherits from the default.
+- `title` MUST be included.
+- `source` SHOULD be included if the recipe is adapted from an external source.
+- `chef` MAY be included if the source chef is notable.
+- `yield` MAY be included to indicate servings or pieces.
+- `layout` MUST NOT be included — it inherits from the default.
 
 ```yaml
 ---
@@ -40,16 +38,16 @@ yield: 12
 
 ## Measurements
 
-- **Weight and volume**: Always use grams (g) and milliliters (ml). Never use cups, tablespoons, teaspoons, or ounces.
-- **Exception — cocktails**: Use ounces (oz) for spirits, liqueurs, juices, and syrups. Cocktails are built with jiggers, not scales.
-- **Temperature**: Fahrenheit (°F).
-- **Counts**: Use counts for whole items (eggs, vanilla beans, chili peppers).
-- **Ranges**: Use an en dash for approximate quantities: `115–140g`.
-- Convert volumetric measurements from sources to grams before writing the recipe (except cocktails).
+- All weights and volumes MUST use grams (g). Cups, tablespoons, teaspoons, and milliliters MUST NOT be used.
+- **Exception — cocktails**: Cocktail recipes MUST use ounces (oz) for spirits, liqueurs, juices, and syrups. Cocktails are built with jiggers, not scales.
+- Temperatures MUST be in Fahrenheit (°F).
+- Whole items (eggs, vanilla beans, chili peppers) SHOULD use counts.
+- Ranges SHOULD use an en dash: `115–140g`.
+- Volumetric measurements from sources MUST be converted to grams before writing (except cocktails).
 
 ## Ingredients
 
-Always use the table format, no exceptions:
+- Ingredients MUST use the table format:
 
 ```markdown
 ## Ingredients
@@ -60,23 +58,23 @@ Always use the table format, no exceptions:
 | 3 | large eggs, separated |
 ```
 
-- Amount in the left column, ingredient and prep notes in the right.
-- No header row — the table is self-explanatory.
-- List ingredients in the order they are used.
-- Include prep instructions inline: "unsalted butter, cubed", "egg yolks and whites separated".
-- Group with labels like `(A)` and `(B)` if a recipe has distinct sub-components mixed at different stages.
+- Amount MUST be in the left column, ingredient and prep notes in the right.
+- There MUST NOT be a header row.
+- Ingredients SHOULD be listed in the order they are used.
+- Prep instructions SHOULD be included inline: "unsalted butter, cubed".
+- Sub-components MAY be grouped with labels like `(A)` and `(B)` if mixed at different stages.
 
 ## Steps
 
-- Numbered list.
-- Each step is one logical action or a tightly related sequence.
-- Include temperatures and times inline: "Bake at 350°F for 15 minutes".
-- Blank line between steps for readability.
-- Keep steps concise but complete — don't omit critical details for brevity.
+- Steps MUST be a numbered list.
+- Each step SHOULD be one logical action or a tightly related sequence.
+- Temperatures and times MUST be included inline: "Bake at 350°F for 15 minutes".
+- There SHOULD be a blank line between steps for readability.
+- Steps MUST NOT omit critical details for the sake of brevity.
 
 ## Notes
 
-- Use a `<div class="notes" markdown="1">` wrapper for styling:
+- Notes SHOULD use a `<div class="notes" markdown="1">` wrapper for styling:
 
 ```markdown
 <div class="notes" markdown="1">
@@ -86,14 +84,14 @@ Always use the table format, no exceptions:
 </div>
 ```
 
-- Bullet list format.
-- Cover: substitutions, storage, scaling, science, technique tips.
-- Optional — omit the section entirely if there's nothing useful to add.
-- For very simple recipes with minimal notes, the `<div>` wrapper can be skipped.
+- Notes MUST be in bullet list format.
+- Notes SHOULD cover: substitutions, storage, scaling, science, technique tips.
+- The Notes section MAY be omitted entirely if there is nothing useful to add.
+- For very simple recipes, the `<div>` wrapper MAY be skipped.
 
 ## File Naming & Linking
 
-- Filename: kebab-case in `r/` directory (e.g., `r/doenjang-jjigae.md`).
-- After creating the recipe, add a link to `index.md` under the appropriate category.
-- If no existing category fits, create a new one.
+- Filenames MUST be kebab-case in the `r/` directory (e.g., `r/doenjang-jjigae.md`).
+- A link to the recipe MUST be added to `index.md` under the appropriate category.
+- If no existing category fits, a new one SHOULD be created.
 - Recipes not linked from `index.md` will not appear on the site.
