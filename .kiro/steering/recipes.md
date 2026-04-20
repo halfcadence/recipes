@@ -8,7 +8,7 @@ fileMatchPattern: "r/*.md"
 ## Adding a New Recipe
 
 1. Create the recipe file in `r/` as a markdown file (e.g., `r/my-recipe.md`).
-2. Use metric measurements for weight and volume (grams, milliliters). Use Fahrenheit for temperatures.
+2. Use grams for all weight and volume (never cups, tablespoons, or ounces). Use Fahrenheit for temperatures.
 3. Use this front matter and format:
    ```markdown
    ---
@@ -18,8 +18,10 @@ fileMatchPattern: "r/*.md"
 
    ## Ingredients
 
-   - item 1
-   - item 2
+   | | |
+   |---|---|
+   | 100g | ingredient one |
+   | 200g | ingredient two |
 
    ## Steps
 
