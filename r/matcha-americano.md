@@ -21,6 +21,7 @@ title: Matcha Americano
 
 4. Pour the water into the glass, then pour the matcha concentrate over it.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - The idea is the same as a coffee americano — a concentrated shot diluted with water.
@@ -28,3 +29,5 @@ title: Matcha Americano
 - 2g matcha to 180g total water is a light, easy-drinking ratio. For a stronger matcha flavor, use 3g or reduce total water to 150g.
 - Traditional usucha (thin tea) uses 2g matcha to just 60–80g water — much more concentrated. This americano is deliberately diluted from that.
 - For a sparkling version, use cold sparkling water instead of still.
+
+</div>

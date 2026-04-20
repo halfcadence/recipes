@@ -34,8 +34,11 @@ source: https://www.koreanbapsang.com/doenjang-jjigae-korean-soy-bean-paste/
 
 6. Serve with rice while still bubbling.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Use rice rinsing water (from the 2nd or 3rd rinse) instead of plain water for a richer, starchier broth.
 - Potato can substitute for Korean radish — it makes the stew slightly thicker.
 - Mushrooms are a good addition.
+
+</div>

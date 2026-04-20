@@ -29,8 +29,10 @@ source: https://www.justonecookbook.com/tsukemono-pickled-cabbage/
 
 6. Serve as-is, or with sesame seeds and a drizzle of soy sauce.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - General rule: use 2% of the vegetable weight in salt.
 - Keeps in an airtight container in the fridge for 2–3 days.
 - Works with napa cabbage, cucumbers, eggplant, daikon, turnips, carrots, or ginger.
+</div>

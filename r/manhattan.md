@@ -20,9 +20,12 @@ source: https://www.liquor.com/recipes/manhattan-2/
 
 3. Garnish with a brandied cherry.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - This is a stirred drink, not shaken. Stirring keeps it silky and clear.
 - The 2:1 spirit-to-vermouth ratio has been standard since the 1880s.
 - Rye is spicier and drier; bourbon is sweeter and rounder. Both work — use what you like.
 - Sweet vermouth contributes roughly 4.5g sugar per ounce — essentially replacing the sugar cube in an Old Fashioned.
+
+</div>

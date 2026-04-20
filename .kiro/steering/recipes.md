@@ -68,7 +68,7 @@ yield: 12
 
 ## Notes
 
-- Notes SHOULD use a `<div class="notes" markdown="1">` wrapper for styling:
+- Notes MUST use a `<div class="notes" markdown="1">` wrapper for styling:
 
 ```markdown
 <div class="notes" markdown="1">
@@ -81,7 +81,6 @@ yield: 12
 - Notes MUST be in bullet list format.
 - Notes SHOULD cover: substitutions, storage, scaling, science, technique tips.
 - The Notes section MAY be omitted entirely if there is nothing useful to add.
-- For very simple recipes, the `<div>` wrapper MAY be skipped.
 
 ## File Naming & Linking
 

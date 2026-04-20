@@ -24,9 +24,12 @@ source: https://spanishsabores.com/best-spanish-tinto-de-verano-recipe/
 
 4. Pour into ice-filled glasses and serve immediately.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Use a young, fruity red wine that's drinkable on its own — nothing complex or expensive.
 - If you can't find lemon Fanta, use a mix of lemonade and soda water.
 - Vermouth is not traditional but adds depth. About 30g per glass.
 - Don't prepare in advance — serve immediately to keep carbonation.
+
+</div>

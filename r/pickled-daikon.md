@@ -26,9 +26,12 @@ source: https://www.justonecookbook.com/pickled-daikon/
 
 5. Remove from pickling liquid and serve.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Stores in an airtight container in the fridge for up to a month. Odor gets stronger over time.
 - If it gets too salty, pour off the pickling liquid.
 - Sake is optional — can be omitted.
 - Use Diamond Crystal kosher salt specifically; table salt at the same weight will be much saltier.
+
+</div>

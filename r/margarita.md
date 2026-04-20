@@ -22,8 +22,11 @@ source: https://www.liquor.com/recipes/margarita/
 
 3. Garnish with a lime wheel. Salt the rim if desired.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Use 100% blue agave tequila. If the label doesn't say this, it's mixto.
 - Fresh lime juice only — never premade sour mix.
 - The agave syrup version (Tommy's Margarita style) is a common substitute for orange liqueur-heavy versions.
+
+</div>

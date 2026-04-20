@@ -23,8 +23,11 @@ source: https://www.liquor.com/recipes/whiskey-sour/
 
 4. Garnish with 3–4 drops of Angostura bitters.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - The dry shake (no ice) aerates the egg white for a silky foam. Skip it if omitting the egg.
 - Without egg white the drink is cleaner and more refreshing; with it, richer and more dessert-like.
 - Bourbon is the easiest choice — its natural sweetness complements lemon well. Rye works too for a spicier version.
+
+</div>

@@ -23,6 +23,7 @@ source: https://www.liquor.com/recipes/bourbon-old-fashioned/
 
 4. Express the oil of an orange twist over the glass, then drop it in.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - The template is spirit + sugar + bitters. When all three are in balance, none should dominate.
@@ -30,3 +31,5 @@ source: https://www.liquor.com/recipes/bourbon-old-fashioned/
 - Bourbon's vanilla and caramel notes from charred oak pair naturally with sugar and bitters. Rye gives a spicier, drier result.
 - One large ice cube melts slower than several small ones — keeps the drink cold without over-diluting.
 - Stirred, not shaken.
+
+</div>

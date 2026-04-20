@@ -21,6 +21,7 @@ source: https://thetravelbite.com/recipes/recipe-port-tonics/
 
 3. Add orange slice and mint sprig. Stir gently.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - The ratio is 1:2 port to tonic. Scale to your glass size.
@@ -28,3 +29,5 @@ source: https://thetravelbite.com/recipes/recipe-port-tonics/
 - Don't use aged or vintage port — those are for sipping neat.
 - A lower-alcohol alternative to gin and tonic with more complexity.
 - Fever Tree or similar botanical tonic works best.
+
+</div>

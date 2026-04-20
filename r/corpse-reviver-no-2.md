@@ -21,8 +21,11 @@ source: https://www.liquor.com/recipes/corpse-reviver-no-2/
 
 3. Strain into the prepared glass.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Equal parts of everything is the classic ratio.
 - The absinthe rinse is aromatic — it comes through on the nose more than the palate.
 - "Four of these taken in swift succession will un-revive the corpse again." — Harry Craddock, The Savoy Cocktail Book (1930).
+
+</div>

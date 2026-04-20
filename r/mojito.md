@@ -27,7 +27,10 @@ source: https://www.liquor.com/recipes/mojito/
 
 5. Garnish with a mint sprig and lime wheel.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - Slap the mint sprig firmly on the back of your hand before garnishing — this releases the aromatic oils.
 - Don't over-muddle the mint leaves. You want the oils, not shredded leaves in the drink.
+
+</div>

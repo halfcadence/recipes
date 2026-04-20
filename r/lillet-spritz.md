@@ -34,8 +34,11 @@ source: https://www.grandonelounge.com/blog/lillet-spritz-a-summer-classic-serve
 
 4. Top with club soda.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - The classic version is just Lillet + soda + orange. Light and low-alcohol.
 - The sparkling version adds prosecco/cava for more effervescence and body.
 - Twist the orange slice before dropping it in to release the oils.
+
+</div>

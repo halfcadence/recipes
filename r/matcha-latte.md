@@ -21,6 +21,7 @@ title: Matcha Latte
 
 4. Pour the matcha concentrate over the milk.
 
+<div class="notes" markdown="1">
 ## Notes
 
 - For iced: skip heating the milk, pour matcha over ice and cold milk (use 200g milk for iced since ice dilutes).
@@ -28,3 +29,5 @@ title: Matcha Latte
 - Oat milk froths best among non-dairy options and complements matcha well.
 - The matcha shot should be whisked with just 60g water to keep it concentrated — too much water and the matcha flavor gets lost in the milk.
 - Sweetener is optional. If using, add to the matcha shot before combining with milk so it dissolves fully.
+
+</div>
