@@ -39,9 +39,12 @@ h1, h2, h3, h4, h5, h6,
 a, a:visited { color: inherit; text-decoration: underline; }
 a:hover { text-decoration: none; color: inherit; }
 
-// Notes — de-emphasized
+// Notes — de-emphasized, inline with · separators
 .notes { color: #999; }
 .notes a, .notes a:visited { color: #999; }
+.notes ul { list-style: none; margin: 0; padding: 0; }
+.notes li { display: inline; }
+.notes li + li::before { content: " · "; }
 
 // Sharp edges
 pre, code { border: 1px solid #111; border-radius: 0; background-color: #f5f5f5; }
