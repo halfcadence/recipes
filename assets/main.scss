@@ -26,14 +26,20 @@ h1, h2, h3, h4, h5, h6,
 .post-content h2, .post-content h3, .post-content h4 { font-size: 1rem; font-weight: 600; }
 .post-content h2 { margin-top: 1.25rem; margin-bottom: 0.3rem; }
 .post-content h3 { margin-top: 0.9rem; margin-bottom: 0.3rem; }
-.post-title {
-  font-size: 1rem;
-  margin-bottom: 0.9rem;
+// Shared inverted pill style
+%pill {
   background: #111;
   color: #fff;
   padding: 0.125em 0.375em;
+}
+
+.post-title {
+  @extend %pill;
+  font-size: 1rem;
+  margin-bottom: 0.9rem;
   display: inline-flex;
   align-items: center;
+  line-height: normal;
 }
 .post-title::before {
   content: none;
@@ -47,6 +53,13 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1;
 }
 .post-header { margin-bottom: 0.625rem; }
+
+// Index — section titles as inverted pills
+.index strong {
+  @extend %pill;
+  margin-right: 0.2em;
+  font-weight: 600;
+}
 
 // Tighter spacing
 .page-content { padding: 1.25rem 0; }
@@ -107,7 +120,7 @@ table td:first-child { font-weight: 600; white-space: nowrap; width: 1%; }
   body { background-color: #1c1c1c; color: #d4d4d4; }
   a, a:visited { color: #d4d4d4; }
   h1, h2, h3, h4, h5, h6 { color: #d4d4d4; }
-  .post-title { background: #d4d4d4; color: #1c1c1c; }
+  .post-title, .index strong { background: #d4d4d4; color: #1c1c1c; }
   .post-title::before { color: #666; }
   .site-header { border-top-color: #d4d4d4; }
   .post-meta { color: #999; }
