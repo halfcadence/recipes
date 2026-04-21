@@ -31,66 +31,34 @@ permalink: /type/
   line-height: 1.2;
   margin: 0;
 }
+.pill-sample {
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  padding: 0.125em 0.375em;
+  margin-right: 0.2em;
+  margin-bottom: 0.3em;
+  font-weight: 600;
+  line-height: normal;
+}
+.pill-sample::before {
+  content: attr(data-num);
+  font-family: monospace;
+  font-size: 0.9em;
+  color: rgba(255,255,255,0.6);
+  margin-right: 0.4em;
+}
 </style>
 
-<p style="color: #666; font-size: 0.9em; margin-bottom: 2rem;">Pangram: <em>"Whisk five dozen jumbo eggs; fold in extra plump vanilla, quick yuzu & crispy thyme."</em></p>
+<p style="color: #666; font-size: 0.9em; margin-bottom: 2rem;">Active typeface: <strong>Bricolage Grotesque</strong> · <a href="./type-comparison">Compare alternatives →</a></p>
 
 <div class="type-sample">
-<div class="label">Active — Bricolage Grotesque</div>
-<div class="meta">Modern variable grotesque. Current body font.</div>
+<div class="label">Pangram</div>
 <p class="pangram" style="font-family: 'Bricolage Grotesque', sans-serif;">Whisk five dozen jumbo eggs; fold in extra plump vanilla, quick yuzu & crispy thyme.</p>
 </div>
 
 <div class="type-sample">
-<div class="label">Helvetica</div>
-<div class="meta">The classic. Neutral, widely available system font.</div>
-<p class="pangram" style="font-family: Helvetica, Arial, sans-serif;">Whisk five dozen jumbo eggs; fold in extra plump vanilla, quick yuzu & crispy thyme.</p>
-</div>
-
-<div class="type-sample">
-<div class="label">Times</div>
-<div class="meta">Classic serif. Editorial, book-like.</div>
-<p class="pangram" style="font-family: Times, 'Times New Roman', serif;">Whisk five dozen jumbo eggs; fold in extra plump vanilla, quick yuzu & crispy thyme.</p>
-</div>
-
-<div class="type-sample">
-<div class="label">Courier</div>
-<div class="meta">Monospace. Technical, typewriter energy.</div>
-<p class="pangram" style="font-family: 'Courier New', monospace;">Whisk five dozen jumbo eggs; fold in extra plump vanilla, quick yuzu & crispy thyme.</p>
-</div>
-
-<div class="type-sample">
-<div class="label">Georgia</div>
-<div class="meta">Web-safe serif. Humanist, warmer than Times.</div>
-<p class="pangram" style="font-family: Georgia, serif;">Whisk five dozen jumbo eggs; fold in extra plump vanilla, quick yuzu & crispy thyme.</p>
-</div>
-
-<div class="type-sample">
-<div class="label">Arial Black</div>
-<div class="meta">Heavy grotesque. Brutalist weight.</div>
-<p class="pangram" style="font-family: 'Arial Black', 'Helvetica Neue', sans-serif; font-weight: 900;">Whisk five dozen jumbo eggs; fold in extra plump vanilla, quick yuzu & crispy thyme.</p>
-</div>
-
-<div class="type-sample">
-<div class="label">Impact</div>
-<div class="meta">Condensed display. Poster-like. Very brutalist.</div>
-<p class="pangram" style="font-family: Impact, 'Helvetica Neue', sans-serif;">Whisk five dozen jumbo eggs; fold in extra plump vanilla, quick yuzu & crispy thyme.</p>
-</div>
-
-<div class="type-sample">
-<div class="label">Monaco / Menlo — system monospace</div>
-<div class="meta">Clean monospace, used in code editors.</div>
-<p class="pangram" style="font-family: Monaco, Menlo, monospace;">Whisk five dozen jumbo eggs; fold in extra plump vanilla, quick yuzu & crispy thyme.</p>
-</div>
-
-<div class="type-sample">
-<div class="label">Garamond</div>
-<div class="meta">Old-style serif. Elegant, refined.</div>
-<p class="pangram" style="font-family: 'EB Garamond', Garamond, serif;">Whisk five dozen jumbo eggs; fold in extra plump vanilla, quick yuzu & crispy thyme.</p>
-</div>
-
-<div class="type-sample">
-<div class="label">Size scale — Bricolage Grotesque</div>
+<div class="label">Size scale</div>
 <p style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 0.75rem; margin: 0.1rem 0;">0.75rem · recipe number, step counter, labels</p>
 <p style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 0.9rem; margin: 0.1rem 0;">0.9rem · secondary text</p>
 <p style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 1rem; margin: 0.1rem 0;">1rem · body text (base)</p>
@@ -107,16 +75,18 @@ permalink: /type/
 
 <div class="type-sample">
 <div class="label">Pill component</div>
-<h1 class="post-title" style="font-size: 1rem; margin: 0;"><span class="recipe-number">042</span> Sample Recipe Name</h1>
-<div class="index" style="margin-top: 0.5rem;">
-<strong>Mains</strong>
-<strong>Soups &amp; Hot Pots</strong>
-<strong>Sides</strong>
-<strong>Sweets</strong>
-<strong>Drinks</strong>
-<strong>Pantry</strong>
-<strong>Articles</strong>
-<strong>Style Guide</strong>
+<div class="pill-row">
+<span class="pill-sample" data-num="042" style="background:#3d5afe">Sample Recipe Name</span>
+</div>
+<div class="pill-row" style="margin-top: 0.3rem;">
+<span class="pill-sample" data-num="01" style="background:#e53935">Mains</span>
+<span class="pill-sample" data-num="02" style="background:#fb8c00">Soups &amp; Hot Pots</span>
+<span class="pill-sample" data-num="03" style="background:#43a047">Sides</span>
+<span class="pill-sample" data-num="04" style="background:#ff4081">Sweets</span>
+<span class="pill-sample" data-num="05" style="background:#00b0d0">Drinks</span>
+<span class="pill-sample" data-num="06" style="background:#6a1b9a">Pantry</span>
+<span class="pill-sample" data-num="07" style="background:#424242">Articles</span>
+<span class="pill-sample" data-num="08" style="background:#3d5afe">Style Guide</span>
 </div>
 </div>
 
