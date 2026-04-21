@@ -3,52 +3,52 @@ title: Dialing In the Lagom Mini 2
 category: articles
 ---
 
-The Option-O Lagom Mini 2 with Mizen 48MS burrs is a stepless electric grinder. Settings are adjusted by rotating the bean hopper — clockwise for finer, counterclockwise for coarser. Like the Remi, there are no clicks. You dial by rotation from zero.
+The Option-O Lagom Mini 2 with Mizen 48MS burrs is a stepless electric grinder. Settings are adjusted by rotating the bean hopper — clockwise for finer, counterclockwise for coarser. The dial is marked with dots: 1 full rotation = 10 big dots. Settings are expressed as dots from zero (e.g., "+15 from zero").
 
 ## Finding Zero
 
-Rotate the hopper clockwise until the burrs lock (you'll hear them touch). This is zero. All settings are measured as rotations out from zero (counterclockwise).
+With the motor off, rotate the hopper clockwise until the burrs lock. This is zero. All settings are counted as dots out from zero (counterclockwise).
 
-## Starting Points
+## Starting Points (Mizen 48MS Burrs)
 
-These are starting points for the Mizen 48MS burrs. The 48MS is designed for both filter and espresso, but it excels at filter — clean, sweet, high clarity.
+From the official Option-O user guide:
 
 | | |
 |---|---|
-| Espresso | 0.3–0.8 rotations |
-| AeroPress | 1.0–1.8 rotations |
-| Hario Switch (immersion) | 1.2–2.0 rotations |
-| V60 pour over | 1.5–2.5 rotations |
-| French press | 2.5–3.5 rotations |
+| Espresso | +8 dots from zero |
+| AeroPress | +10–13 dots from zero |
+| Hario Switch (immersion) | +12–15 dots from zero |
+| V60 pour over | +15 dots from zero |
+| French press | +18–22 dots from zero |
 
-The Lagom Mini 2 has a finer thread pitch than the Remi, so the same number of rotations produces a finer grind. Don't transfer Remi settings directly.
+These are starting points. Your final setting depends on the beans, roast level, and dose.
 
 ## How to Dial In
 
-Same process as any grinder. Start in the middle of the range, brew, taste, adjust.
+Start at the recommended setting. Brew once and taste.
 
-- **Sour, thin, fast** — go finer (clockwise, small increments).
-- **Bitter, harsh, slow** — go coarser (counterclockwise).
-- **Sweet, balanced** — done.
+- **Sour, thin, watery, fast drawdown** — go finer (fewer dots from zero).
+- **Bitter, astringent, harsh, slow drawdown** — go coarser (more dots from zero).
+- **Sweet, balanced, clean finish** — you're there.
 
-For V60 at 30g/500g, target 3:00–3:30 total brew time. For AeroPress, taste matters more than time since it's immersion.
+Adjust 1–2 dots at a time. For pour over at 30g/500g, target 3:00–3:30 total brew time.
 
-## Marking Your Setting
+## Reading the Dial
 
-The hopper has a reference line. Use it with a mark on the body, or count rotations from zero. Since it's electric and lives on your counter, you'll likely leave it at one setting most of the time.
+The hopper has printed big dots and smaller interval marks between them. Count the big dots from zero for your setting. One full rotation past zero = +10 dots. One and a half rotations = +15 dots.
 
 ## Switching Between Filter and Espresso
 
-The 48MS burrs handle both, but switching requires significant adjustment (roughly 1–2 full rotations). If you switch often:
+The 48MS burrs handle both, but switching requires significant adjustment (~7 dots). If you switch often:
 
 - Write down your filter and espresso settings.
-- Always re-zero before dialing to a saved setting — don't rely on relative adjustment.
-- Purge 1–2g of beans after a big grind change to clear retained grounds from the previous setting.
+- Always re-zero before dialing to a saved setting.
+- Purge 1–2g of beans after a big grind change to clear retained grounds.
 
 ## Notes
 
-- The Mizen 48MS burrs are coated and need a break-in period. Expect the grind quality to improve after 2–3kg of coffee.
+- The Mizen 48MS burrs are coated and need a break-in period. Expect grind quality to improve after 2–3kg of coffee.
 - New burrs have more friction. Light roast espresso may be difficult until they're seasoned.
 - The grinder is not designed for commercial volume. Keep it to home use.
-- Grinding 18g for espresso takes 45–60 seconds. Grinding 30g for filter is faster proportionally because the setting is coarser.
-- Clean the burr chamber every 6–12 months. Don't use water — brush or compressed air only.
+- Grinding 18g for espresso takes 45–60 seconds. Filter grinds are faster because the setting is coarser.
+- Clean the burr chamber every 6–12 months. Brush or compressed air only — no water.

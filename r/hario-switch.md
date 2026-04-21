@@ -15,8 +15,8 @@ number: 72
 
 | | |
 |---|---|
-| Remi (conventional burrs) | ~2.5 rotations from zero |
-| Lagom Mini 2 (Mizen 48MS) | ~1.5 rotations from zero |
+| Remi (conventional burrs) | ~2.5 revolutions from zero |
+| Lagom Mini 2 (Mizen 48MS) | +13 dots from zero |
 
 ## Steps
 
