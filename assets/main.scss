@@ -7,18 +7,20 @@
 // ── Brutalist overrides ─────────────────────────────────────────────
 
 // Section colors — Risograph ink colors (hex from stencil.wiki)
-$mains: #f65058;      // scarlet
-$soups: #ff6c2f;      // orange
-$sides: #00a95c;      // green
-$sweets: #ff48b0;     // fluorescent pink
-$drinks: #009da5;     // light teal
-$pantry: #9d7ad2;     // violet
-$articles: #435060;   // midnight
-$colophon: #0078bf; // blue
+// Section colors — Riso Overprint palette (Blue + Fluorescent Pink)
+// Base inks: Blue #0078bf, Fluorescent Pink #ff48b0
+// All other colors are overprints (multiply blend) or tints
+$mains: #cc2464;      // overprint (blue × pink)
+$soups: #ff48b0;      // fluorescent pink
+$sides: #80bce0;      // blue 50% tint
+$sweets: #ffa4d8;     // pink 50% tint
+$drinks: #0078bf;     // blue
+$pantry: #663878;     // overprint dark
+$articles: #804090;   // overprint mid
+$colophon: #3360a0;   // blue deep
 
-// Dark-mode variant for Articles — Midnight is too dark against dark bg
-// Use Riso "Slate" (#5e6972) — same hue family, brighter.
-$articles-dark: #8b96a3;
+// Dark-mode variant for Articles — overprint mid is dark, needs lighter variant
+$articles-dark: #b080c0;
 
 // UI greys — all riso-derived from Midnight (#435060) + Light Gray (#88898a)
 $grey-light: #88898a;   // riso Light Gray ink — notes, step counters, labels
@@ -249,10 +251,18 @@ table td:first-child { font-weight: 600; white-space: nowrap; width: 1%; }
 }
 
 body.section-drinks { @include themed($drinks); }
-body.section-sweets { @include themed($sweets); }
+body.section-sweets {
+  @include themed($sweets);
+  .post-title { color: $grey-dark; }
+  .recipe-number { color: rgba($grey-dark, 0.5); }
+}
 body.section-mains { @include themed($mains); }
 body.section-soups { @include themed($soups); }
-body.section-sides { @include themed($sides); }
+body.section-sides {
+  @include themed($sides);
+  .post-title { color: $grey-dark; }
+  .recipe-number { color: rgba($grey-dark, 0.5); }
+}
 body.section-pantry { @include themed($pantry); }
 body.section-articles { @include themed($articles); }
 body.section-colophon { @include themed($colophon); }
@@ -260,8 +270,10 @@ body.section-colophon { @include themed($colophon); }
 // Index — keep pills in section colors for fun
 .index strong:nth-of-type(1) { background: $mains; }
 .index strong:nth-of-type(2) { background: $soups; }
-.index strong:nth-of-type(3) { background: $sides; }
-.index strong:nth-of-type(4) { background: $sweets; }
+.index strong:nth-of-type(3) { background: $sides; color: $grey-dark; }
+.index strong:nth-of-type(3)::before { color: rgba($grey-dark, 0.5); }
+.index strong:nth-of-type(4) { background: $sweets; color: $grey-dark; }
+.index strong:nth-of-type(4)::before { color: rgba($grey-dark, 0.5); }
 .index strong:nth-of-type(5) { background: $drinks; }
 .index strong:nth-of-type(6) { background: $pantry; }
 .index strong:nth-of-type(7) { background: $articles; }
