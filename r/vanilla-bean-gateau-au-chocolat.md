@@ -1,5 +1,5 @@
 ---
-title: Brown Butter Vanilla Bean Gateau au Chocolat
+title: Vanilla Gateau au Chocolat
 category: sweets
 number: 19
 source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/

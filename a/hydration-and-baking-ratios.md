@@ -1,5 +1,5 @@
 ---
-title: "Hydration and Baking Ratios: Why Swapping Ingredients Breaks Your Recipe"
+title: Hydration and Baking Ratios
 category: articles
 ---
 

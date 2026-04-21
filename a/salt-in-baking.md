@@ -1,5 +1,5 @@
 ---
-title: "Salt Percentages in Baking: How Much Is Right?"
+title: Salt in Baking
 category: articles
 ---
 

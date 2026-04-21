@@ -1,5 +1,5 @@
 ---
-title: Tortilla Española
+title: Tortilla
 category: mains
 number: 34
 source: https://www.seriouseats.com/tortilla-espanola-spanish-potato-omelette-recipe

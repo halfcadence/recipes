@@ -1,5 +1,5 @@
 ---
-title: Matcha Brown Butter Brownies
+title: Matcha Brownies
 category: sweets
 number: 62
 source: https://www.justonecookbook.com/matcha-brownies/

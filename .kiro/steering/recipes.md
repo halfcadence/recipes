@@ -86,6 +86,15 @@ yield: 12
 - Notes SHOULD cover: substitutions, storage, scaling, science, technique tips.
 - The Notes section MAY be omitted entirely if there is nothing useful to add.
 
+## Naming
+
+- Titles MUST be as short as possible. Use the simplest recognizable name for the dish.
+- Cooking technique modifiers (e.g., "triple-fried", "reverse-seared", "chargrilled", "brown butter") MUST NOT appear in the title. Technique belongs in the steps and notes.
+- Parenthetical descriptions (e.g., "Pork & Cabbage Dumplings", "Salmon Hot Pot", "Concentrated Noodle Soup Base") MUST NOT appear in the title. If the dish name is unfamiliar, explain it in the notes.
+- Chef or brand names (e.g., "Robuchon") SHOULD NOT appear in the title unless the dish is universally known by that name. Credit the chef in the `chef` front matter field or notes instead.
+- Article titles MUST NOT include subtitles after colons. Keep to the core topic.
+- When a variant exists (e.g., lazy tortilla, OJ whiskey sour), use the shortest distinguishing modifier.
+
 ## File Naming & Linking
 
 - Filenames MUST be kebab-case in the `r/` directory (e.g., `r/doenjang-jjigae.md`).

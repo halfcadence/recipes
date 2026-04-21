@@ -1,5 +1,5 @@
 ---
-title: Brown Butter Chocolate Brownies
+title: Chocolate Brownies
 category: sweets
 number: 61
 source: https://www.justonecookbook.com/matcha-brownies/

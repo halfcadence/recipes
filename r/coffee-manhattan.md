@@ -1,5 +1,5 @@
 ---
-title: Coffee Manhattan (Pourover)
+title: Coffee Manhattan
 category: drinks
 number: 57
 source: https://www.cocktailchemistrylab.com/home/pourover

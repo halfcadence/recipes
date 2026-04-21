@@ -1,5 +1,5 @@
 ---
-title: Grilled Chicken with Miso Sauce
+title: Miso Grilled Chicken
 category: mains
 number: 10
 source: https://www.youtube.com/watch?v=oS_-4eIpo_4

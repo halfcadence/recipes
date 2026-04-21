@@ -1,5 +1,5 @@
 ---
-title: "Risograph Printing and Risograph Color"
+title: Risograph Printing and Color
 category: articles
 ---
 

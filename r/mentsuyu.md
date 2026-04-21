@@ -1,5 +1,5 @@
 ---
-title: Mentsuyu (Concentrated Noodle Soup Base)
+title: Mentsuyu
 category: pantry
 number: 58
 source: https://www.justonecookbook.com/mentsuyu-noodle-soup-base

@@ -1,5 +1,5 @@
 ---
-title: Purin (Japanese Custard Pudding)
+title: Purin
 category: sweets
 number: 38
 source: https://www.justonecookbook.com/custard-pudding/

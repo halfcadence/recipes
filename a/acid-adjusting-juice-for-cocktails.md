@@ -1,5 +1,5 @@
 ---
-title: "Acid-Adjusting Juice for Cocktails"
+title: Acid-Adjusting Juice
 category: articles
 ---
 

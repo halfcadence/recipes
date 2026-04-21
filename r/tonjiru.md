@@ -1,5 +1,5 @@
 ---
-title: Tonjiru (Pork Miso Soup)
+title: Tonjiru
 category: soups
 number: 49
 source: https://www.justonecookbook.com/tonjiru/

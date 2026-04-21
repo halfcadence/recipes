@@ -1,5 +1,5 @@
 ---
-title: Whiskey Sour (Acid-Adjusted OJ)
+title: Whiskey Sour (OJ)
 category: drinks
 number: 37
 source: https://www.reddit.com/r/cocktails/comments/11q7a3n/my_new_favourite_whisky_sour_made_with/

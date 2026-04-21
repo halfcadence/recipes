@@ -1,5 +1,5 @@
 ---
-title: Orange Chocolate Gateau au Chocolat
+title: Orange Gateau au Chocolat
 category: sweets
 number: 21
 source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/

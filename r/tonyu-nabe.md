@@ -1,5 +1,5 @@
 ---
-title: Tonyu Nabe (Soy Milk Hot Pot)
+title: Tonyu Nabe
 category: soups
 number: 50
 source: https://www.justonecookbook.com/soy-milk-hot-pot-tonyu-nabe/

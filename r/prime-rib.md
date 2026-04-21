@@ -1,5 +1,5 @@
 ---
-title: Reverse-Seared Prime Rib
+title: Prime Rib
 category: mains
 number: 31
 source: https://www.seriouseats.com/perfect-prime-rib-beef-recipe

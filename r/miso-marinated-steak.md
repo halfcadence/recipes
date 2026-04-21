@@ -1,5 +1,5 @@
 ---
-title: Miso Marinated Steak
+title: Miso Steak
 category: mains
 number: 11
 source: https://www.youtube.com/watch?v=XX1QQOKyYYw

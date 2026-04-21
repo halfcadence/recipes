@@ -1,5 +1,5 @@
 ---
-title: Lazy Tortilla Española (Potato Chip Version)
+title: Lazy Tortilla
 category: mains
 number: 33
 source: https://acooknamedmatt.com/recipes/the-best-spanish-style-tortilla-using-potato-chips-meal-prep-breakfast/

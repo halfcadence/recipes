@@ -1,5 +1,5 @@
 ---
-title: "T45 Flour Substitutes for Canelé: What Actually Works"
+title: T45 Flour for Canelé
 category: articles
 ---
 

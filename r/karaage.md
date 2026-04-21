@@ -1,5 +1,5 @@
 ---
-title: Triple-Fried Karaage
+title: Karaage
 category: mains
 number: 30
 source: https://adamliaw.com/recipe/triple-fried-karaage-japanese-fried-chicken

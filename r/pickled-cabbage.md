@@ -1,5 +1,5 @@
 ---
-title: Japanese Pickled Cabbage (Tsukemono)
+title: Pickled Cabbage
 category: sides
 number: 27
 source: https://www.justonecookbook.com/tsukemono-pickled-cabbage/
