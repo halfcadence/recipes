@@ -6,8 +6,6 @@
 
 // ── Brutalist overrides ─────────────────────────────────────────────
 
-body { font-family: 'Bricolage Grotesque', sans-serif; }
-
 // Section colors — Risograph ink colors (hex from stencil.wiki)
 $mains: #f65058;      // scarlet
 $soups: #ff6c2f;      // orange
@@ -18,9 +16,28 @@ $pantry: #9d7ad2;     // violet
 $articles: #435060;   // midnight
 $styleguide: #0078bf; // blue
 
+// Dark-mode variant for Articles — Midnight is too dark against dark bg
+// Use Riso "Slate" (#5e6972) — same hue family, brighter.
+$articles-dark: #8b96a3;
+
+// UI greys — all riso-derived from Midnight (#435060) + Light Gray (#88898a)
+$grey-light: #88898a;   // riso Light Gray ink — notes, step counters, labels
+$grey-rule: #d2d4d6;    // 20% Midnight tint — table/note separators
+$grey-dark: #435060;    // Midnight — body text, strong de-emphasis
+$ink-black: #111;       // near-black for pills, headers
+
+// Dark mode — derived from Midnight by shifting lightness
+$dark-bg:      #14181d;  // Midnight at ~8% lightness — page background
+$dark-surface: #222a34;  // Midnight at ~16% lightness — code blocks
+$dark-text:    #c9ced5;  // Midnight at ~82% lightness — body text
+$dark-muted:   $grey-light; // Light Gray — notes, meta
+$dark-rule:    #2e3843;  // Midnight at ~22% — table/note separators
+
+body { font-family: 'Bricolage Grotesque', sans-serif; color: $grey-dark; }
+
 // Header
 .site-header {
-  border-top: 0.5rem solid #111;
+  border-top: 0.5rem solid $ink-black;
   border-bottom: none;
   min-height: auto;
   padding: 0.625rem 0;
@@ -38,7 +55,7 @@ h1, h2, h3, h4, h5, h6,
 .post-content h3 { margin-top: 0.9rem; margin-bottom: 0.3rem; }
 // Shared inverted pill style
 %pill {
-  background: #111;
+  background: $ink-black;
   color: #fff;
   padding: 0.125em 0.375em;
 }
@@ -112,7 +129,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: monospace;
   font-weight: 600;
   font-size: 0.75em;
-  color: #999;
+  color: $grey-light;
   position: absolute;
   left: -2.5rem;
   top: 0.3em;
@@ -123,20 +140,22 @@ a, a:visited { color: inherit; text-decoration: underline; }
 a:hover { text-decoration: none; color: inherit; }
 
 // Notes — de-emphasized, tight stack with thin separators
-.notes { color: #999; }
-.notes a, .notes a:visited { color: #999; }
+.notes { color: $grey-light; }
+.notes h2, .notes h3 { color: inherit; }
+.notes a, .notes a:visited { color: $grey-light; }
 .notes ul { list-style: none; margin: 0; padding: 0; }
 .notes li { margin-bottom: 0; }
-.notes li + li { border-top: 1px solid #ddd; padding-top: 0.2rem; margin-top: 0.2rem; }
+.notes li + li { border-top: 1px solid $grey-rule; padding-top: 0.2rem; margin-top: 0.2rem; }
 
 // Sharp edges
-pre, code { border: 1px solid #111; border-radius: 0; background-color: #f5f5f5; }
+pre, code { border: 1px solid $ink-black; border-radius: 0; background-color: #f5f5f5; }
 
 // Minimal tables — borderless, clean
 table { border: none; border-collapse: collapse; margin-bottom: 0.9rem; }
 table thead { display: none; }
 table tr:nth-child(even) { background: none; }
-table td { border: none; border-bottom: 1px solid #ddd; padding: 0.2rem 0.75rem 0.2rem 0; vertical-align: top; }
+table td { border: none; border-bottom: 1px solid $grey-rule; padding: 0.2rem 0.75rem 0.2rem 0; vertical-align: top; }
+table tr:last-child td { border-bottom: none; }
 table td:first-child { font-weight: 600; white-space: nowrap; width: 1%; }
 
 // ── Section theming ─────────────────────────────────────────────────
@@ -162,7 +181,6 @@ table td:first-child { font-weight: 600; white-space: nowrap; width: 1%; }
   .section-label { color: $color; }
   .site-header { border-top-color: $color; }
   .post-content ol > li::before { color: $color; }
-  .notes li + li { border-top-color: rgba($color, 0.3); }
   .post-header { border-bottom: 2px solid $color; padding-bottom: 0.5rem; }
 }
 
@@ -188,19 +206,24 @@ body.section-styleguide { @include themed($styleguide); }
 // ── Dark mode ───────────────────────────────────────────────────────
 
 @media (prefers-color-scheme: dark) {
-  body { background-color: #1c1c1c; color: #d4d4d4; }
-  a, a:visited { color: #d4d4d4; }
-  h1, h2, h3, h4, h5, h6 { color: #d4d4d4; }
-  .post-title, .index strong { background: #d4d4d4; color: #1c1c1c; }
-  .post-title::before { color: #666; }
-  .site-header { border-top-color: #d4d4d4; }
-  .post-meta { color: #999; }
-  .notes { color: #666; }
-  .notes a, .notes a:visited { color: #666; }
-  blockquote { color: #aaa; border-left-color: #555; }
+  body { background-color: $dark-bg; color: $dark-text; }
+  a, a:visited { color: $dark-text; }
+  h1, h2, h3, h4, h5, h6 { color: $dark-text; }
 
-  pre, code { background-color: #2a2a2a; border-color: #555; color: #d4d4d4; }
-  .highlight, .highlighter-rouge .highlight { background: #2a2a2a; }
+  // Unthemed pages (home, about, etc.) — pills become light on dark
+  .post-title { background: $dark-text; color: $dark-bg; }
+  .post-title .recipe-number { color: rgba($dark-bg, 0.5); }
+  .site-header { border-top-color: $dark-text; }
+
+  .post-meta { color: $dark-muted; }
+  .notes { color: $dark-muted; }
+  .notes h2, .notes h3 { color: inherit; }
+  .notes a, .notes a:visited { color: $dark-muted; }
+  .notes li + li { border-top-color: $dark-rule; }
+  blockquote { color: $dark-muted; border-left-color: $dark-rule; }
+
+  pre, code { background-color: $dark-surface; border-color: $dark-rule; color: $dark-text; }
+  .highlight, .highlighter-rouge .highlight { background: $dark-surface; }
 
   // Syntax highlighting
   .highlight .c, .highlight .cm, .highlight .c1, .highlight .cs { color: #6a9955; }
@@ -220,9 +243,30 @@ body.section-styleguide { @include themed($styleguide); }
   .highlight .gd { color: #f44747; }
   .highlight .gi { color: #6a9955; }
 
-  table { color: #d4d4d4; }
+  table { color: $dark-text; }
   table tr:nth-child(even) { background: none; }
-  table td { border-bottom-color: #333; }
-  .post-content ol > li::before { color: #666; }
-  .notes li + li { border-top-color: #444; }
+  table td { border-bottom-color: $dark-rule; }
+  .post-content ol > li::before { color: $dark-muted; }
+
+  // Re-apply section colors so themed pages keep their riso pills
+  @mixin themed-dark($color) {
+    .post-title { background: $color; color: #fff; }
+    .post-title .recipe-number { color: rgba(255, 255, 255, 0.6); }
+    .section-label { color: $color; }
+    .site-header { border-top-color: $color; }
+    .post-content ol > li::before { color: $color; }
+    .post-header { border-bottom-color: $color; }
+  }
+
+  body.section-mains { @include themed-dark($mains); }
+  body.section-soups { @include themed-dark($soups); }
+  body.section-sides { @include themed-dark($sides); }
+  body.section-sweets { @include themed-dark($sweets); }
+  body.section-drinks { @include themed-dark($drinks); }
+  body.section-pantry { @include themed-dark($pantry); }
+  body.section-articles { @include themed-dark($articles-dark); }
+  body.section-styleguide { @include themed-dark($styleguide); }
+
+  // Index Articles pill — Midnight is too dark, use lighter variant
+  .index strong:nth-of-type(7) { background: $articles-dark; }
 }
