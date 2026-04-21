@@ -32,7 +32,8 @@ h1, h2, h3, h4, h5, h6,
   background: #111;
   color: #fff;
   padding: 0.125em 0.375em;
-  display: inline;
+  display: inline-flex;
+  align-items: center;
 }
 .post-title::before {
   content: none;
@@ -42,7 +43,8 @@ h1, h2, h3, h4, h5, h6,
   font-size: 0.75em;
   color: #999;
   margin-right: 0.4em;
-  letter-spacing: 0;
+  letter-spacing: 0.1em;
+  line-height: 1;
 }
 .post-header { margin-bottom: 0.625rem; }
 
