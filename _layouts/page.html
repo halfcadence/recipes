@@ -4,7 +4,7 @@ layout: default
 <article class="post">
 
   <header class="post-header">
-    {% if page.category %}<div class="section-label"><a href="{{ site.baseurl }}/#{{ page.category }}">{{ page.category | replace: "soups", "Soups & Hot Pots" | capitalize }}</a></div>{% endif %}
+    {% if page.category %}<div class="section-label"><a href="{{ site.baseurl }}/#{{ page.category }}">{{ page.category | replace: "soups", "Soups & Hot Pots" | replace: "styleguide", "Style Guide" | capitalize }}</a></div>{% endif %}
     <h1 class="post-title">{% if page.number %}<span class="recipe-number">{% if page.number < 10 %}00{{ page.number }}{% elsif page.number < 100 %}0{{ page.number }}{% else %}{{ page.number }}{% endif %}</span> {% endif %}{{ page.title | escape }}</h1>
   </header>
 
