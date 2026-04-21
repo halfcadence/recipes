@@ -9,13 +9,14 @@
 body { font-family: 'Bricolage Grotesque', sans-serif; }
 
 // Section colors — Risograph-inspired
-$drinks: #3d5afe;     // blue
-$sweets: #ff4081;     // fluorescent pink
 $mains: #e53935;      // red
 $soups: #fb8c00;      // orange
 $sides: #43a047;      // green
+$sweets: #ff4081;     // fluorescent pink
+$drinks: #00b0d0;     // cyan
 $pantry: #6a1b9a;     // purple
 $articles: #424242;   // dark grey
+$styleguide: #3d5afe; // blue
 
 // Header
 .site-header {
@@ -172,15 +173,17 @@ body.section-soups { @include themed($soups); }
 body.section-sides { @include themed($sides); }
 body.section-pantry { @include themed($pantry); }
 body.section-articles { @include themed($articles); }
+body.section-styleguide { @include themed($styleguide); }
 
 // Index — keep pills in section colors for fun
-.index strong:nth-of-type(1) { background: $drinks; }
-.index strong:nth-of-type(2) { background: $sweets; }
-.index strong:nth-of-type(3) { background: $mains; }
-.index strong:nth-of-type(4) { background: $soups; }
-.index strong:nth-of-type(5) { background: $sides; }
+.index strong:nth-of-type(1) { background: $mains; }
+.index strong:nth-of-type(2) { background: $soups; }
+.index strong:nth-of-type(3) { background: $sides; }
+.index strong:nth-of-type(4) { background: $sweets; }
+.index strong:nth-of-type(5) { background: $drinks; }
 .index strong:nth-of-type(6) { background: $pantry; }
 .index strong:nth-of-type(7) { background: $articles; }
+.index strong:nth-of-type(8) { background: $styleguide; }
 
 // ── Dark mode ───────────────────────────────────────────────────────
 

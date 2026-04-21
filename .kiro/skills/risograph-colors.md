@@ -35,13 +35,14 @@ Digital palettes inspired by riso capture this "vibrant but handmade" feel witho
 
 | Role | Hex | Notes |
 |---|---|---|
-| Blue | `#3d5afe` | Indigo-leaning, not pure blue |
-| Pink | `#ff4081` | Fluorescent pink, the most recognizable riso color |
 | Red | `#e53935` | Brick red, not fire-engine red |
 | Orange | `#fb8c00` | Pumpkin, warmer than pure orange |
 | Green | `#43a047` | Grass green, slightly yellow |
+| Pink | `#ff4081` | Fluorescent pink, the most recognizable riso color |
+| Cyan | `#00b0d0` | Bright cyan, liquid/water feel |
 | Purple | `#6a1b9a` | Deep purple, not violet |
 | Dark Grey | `#424242` | Neutral anchor, not pure black |
+| Blue | `#3d5afe` | Indigo-leaning, not pure blue |
 
 ## How to Pick a Custom Riso Palette
 
