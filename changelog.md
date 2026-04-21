@@ -1,12 +1,15 @@
 ---
 title: Changelog
-category: styleguide
+category: colophon
 permalink: /changelog/
 ---
 
 ## 2026-04-21
 
-- Add 7 recipes: steak au poivre, corn soup, kinpira gobo, ohitashi, potato salad, highball, yuzu highball.
+- Rename "Style Guide" section to "Colophon".
+- Add changelog page with full reverse-engineered history. Add changelog rule to steering.
+- List base recipes before variants in index.
+- Distinguish technique modifiers from flavor modifiers in naming rules. Add 7 recipes: steak au poivre, corn soup, kinpira gobo, ohitashi, potato salad, highball, yuzu highball.
 - Add riso color rules to steering.
 - Distinguish technique modifiers from flavor modifiers in naming rules.
 - List base recipes before variants in index (highball → yuzu highball, gateau au chocolat → matcha/orange/hojicha/vanilla, brownies → matcha brownies).

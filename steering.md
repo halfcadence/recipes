@@ -1,6 +1,6 @@
 ---
 title: Steering
-category: styleguide
+category: colophon
 permalink: /steering/
 ---
 
@@ -15,7 +15,7 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 ## Front Matter
 
 - `title` MUST be included.
-- `category` MUST be included. Valid values: `drinks`, `sweets`, `mains`, `soups`, `sides`, `pantry`, `articles`. This drives the page color theme. A new category MAY be created if a recipe does not fit an existing one.
+- `category` MUST be included. Valid values: `drinks`, `sweets`, `mains`, `soups`, `sides`, `pantry`, `articles`, `colophon`. This drives the page color theme. A new category MAY be created if a recipe does not fit an existing one.
 - `number` MUST be included for recipes. Use the next sequential number (chronological). Articles and style guide pages MUST NOT have a number.
 - `source` SHOULD be included if the recipe is adapted from an external source.
 - `chef` MAY be included if the source chef is notable.
@@ -84,4 +84,4 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - All meaningful changes to recipes, styling, or site structure MUST be logged in `changelog.md` with the current date.
 - Entries SHOULD be grouped by date, newest first.
 - Each entry SHOULD be a single bullet describing what changed. Keep it concise.
-- Changelog MUST be the last item in the Style Guide section of `index.md`.
+- Changelog MUST be the last item in the Colophon section of `index.md`.
