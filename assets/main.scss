@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6,
   font-size: 0.75em;
   color: #999;
   margin-right: 0.4em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0;
 }
 .post-header { margin-bottom: 0.625rem; }
 
@@ -62,8 +62,7 @@ h1, h2, h3, h4, h5, h6,
 .post-content ol > li {
   counter-increment: step;
   margin-bottom: 0.2rem;
-  position: relative;
-  padding-left: 0;
+  padding-left: 2rem;
 }
 .post-content ol > li::before {
   content: counter(step, decimal-leading-zero);
@@ -71,8 +70,10 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 600;
   font-size: 0.75em;
   color: #999;
-  position: absolute;
-  left: -2rem;
+  display: inline-block;
+  width: 2rem;
+  margin-left: -2rem;
+  vertical-align: baseline;
 }
 
 // Links — all identical, inherit color
