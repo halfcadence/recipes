@@ -80,6 +80,14 @@ h1, h2, h3, h4, h5, h6,
   margin-right: 0.4em;
 }
 
+// Riso article swatch tables — pills fill cell width
+.riso-swatches .pill-sample {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
 .post-title {
   @extend %pill;
   font-size: 1rem;

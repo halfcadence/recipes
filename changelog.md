@@ -6,6 +6,8 @@ permalink: /changelog/
 
 ## 2026-04-21
 
+- Add 11 overprint palette explorations to riso article (1–3 base inks, overprints, tints, split-color treatments).
+- Make riso article swatch pills full-width in their table cells.
 - Expand riso color catalog from 12 to 77 colors in the risograph article, organized by hue family.
 - Add Riso Overprint palette (Blue + Fluorescent Pink two-ink constraint) to colors page.
 - Add shaken black tea (Taiwanese 泡沫紅茶).
