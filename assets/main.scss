@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6,
 .recipe-number {
   font-family: monospace;
   font-size: 0.9em;
-  color: #999;
+  color: rgba(255, 255, 255, 0.6);
   margin-right: 0.4em;
   letter-spacing: 0em;
   line-height: 1;
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6,
   content: counter(section, decimal-leading-zero);
   font-family: monospace;
   font-size: 0.9em;
-  color: #999;
+  color: rgba(255, 255, 255, 0.6);
   margin-right: 0.4em;
   line-height: 1;
 }
@@ -152,7 +152,6 @@ table td:first-child { font-weight: 600; white-space: nowrap; width: 1%; }
   .post-title { background: $color; }
   .section-label { color: $color; }
   .site-header { border-top-color: $color; }
-  .recipe-number { color: rgba(255, 255, 255, 0.6); }
   .post-content ol > li::before { color: $color; }
   .notes li + li { border-top-color: rgba($color, 0.3); }
   .post-header { border-bottom: 2px solid $color; padding-bottom: 0.5rem; }
