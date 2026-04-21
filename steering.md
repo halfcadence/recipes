@@ -61,6 +61,7 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - Chef or brand names (e.g., "Robuchon") SHOULD NOT appear in the title unless the dish is universally known by that name. Credit the chef in the `chef` front matter field or notes instead.
 - Article titles MUST NOT include subtitles after colons. Keep to the core topic.
 - When a variant exists (e.g., lazy tortilla, OJ whiskey sour), use the shortest distinguishing modifier.
+- In `index.md`, the base recipe MUST be listed before its variants (e.g., Gateau au Chocolat before Matcha Gateau au Chocolat, Highball before Yuzu Highball).
 
 ## File Naming & Linking
 
