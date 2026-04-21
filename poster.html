@@ -1,44 +1,21 @@
 ---
 layout: default
-title: Poster
+title: Recipes
 category: styleguide
 number: 67
 permalink: /poster/
 ---
 
 <style>
-/* ── Screen: preview at letter proportions ──────────────── */
-.poster {
-  max-width: 7.5in;
-  margin: 0 auto;
-  font-size: 0.65rem;
-  line-height: 1.4;
-}
-.poster h1 {
-  font-size: 1.1rem;
-  margin-bottom: 0.6rem;
-}
-.poster .index strong {
-  font-size: 0.65rem;
-}
-.poster .index a {
-  text-decoration: none;
-}
-.poster .index a:hover {
-  text-decoration: underline;
-}
-
-/* ── Print: fit to one 8.5 × 11 sheet ──────────────────── */
 @media print {
   @page {
     size: 8.5in 11in;
-    margin: 0.5in;
+    margin: 0.4in;
   }
 
   /* Hide site chrome */
   .site-header,
-  .site-footer,
-  .page-content > .wrapper > .post-header {
+  .site-footer {
     display: none !important;
   }
 
@@ -46,43 +23,39 @@ permalink: /poster/
     padding: 0 !important;
   }
 
-  .wrapper {
-    max-width: none !important;
-    padding: 0 !important;
+  .post-header {
+    display: none !important;
   }
 
-  .poster {
-    font-size: 0.55rem;
-    line-height: 1.35;
-    max-width: none;
+  /* Scale everything to fit one page */
+  .poster-wrap {
+    transform-origin: top left;
+    transform: scale(0.58);
+    width: 172%; /* inverse of scale to fill the page width */
   }
 
-  .poster h1 {
-    font-size: 1rem;
-    margin-bottom: 0.4rem;
+  /* Force pill colors to print */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
+}
 
-  .poster .index strong {
-    font-size: 0.55rem;
-  }
-
-  /* Force color printing for pills */
-  .poster .index strong {
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
-
-  /* No page breaks inside the content */
-  .poster {
-    page-break-inside: avoid;
-    break-inside: avoid;
-  }
+/* Screen: just show a print hint */
+.print-hint {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: #88898a;
+  margin-bottom: 1rem;
+}
+@media print {
+  .print-hint { display: none !important; }
 }
 </style>
 
-<div class="poster">
-<h1>recipes by andrew</h1>
+<p class="print-hint">This is the print version of the homepage. Use Cmd+P (or Ctrl+P) to print on 8.5 × 11".</p>
 
+<div class="poster-wrap">
 <div class="index" markdown="1">
 **Mains** [Miso Steak](./r/miso-marinated-steak) · [Miso Grilled Chicken](./r/miso-grilled-chicken) · [Karaage](./r/karaage) · [Prime Rib](./r/prime-rib) · [Thin Burgers](./r/thin-burgers) · [Tortilla](./r/tortilla-espanola) · [Lazy Tortilla](./r/tortilla-espanola-lazy) · [Tonkatsu](./r/tonkatsu) · [Nitsuke](./r/nitsuke) · [Salade Niçoise](./r/nicoise-salad) · [Gyoza](./r/gyoza) **Soups & Hot Pots** [Clam Miso Soup](./r/clam-miso-soup) · [Ushiojiru](./r/ushiojiru) · [Tonjiru](./r/tonjiru) · [Doenjang Jjigae](./r/doenjang-jjigae) · [Chawanmushi](./r/chawanmushi) · [Sukiyaki](./r/sukiyaki) · [Ishikari Nabe](./r/ishikari-nabe) · [Tonyu Nabe](./r/tonyu-nabe) **Sides** [Mashed Potatoes](./r/robuchon-mashed-potatoes) · [Pickled Cabbage](./r/pickled-cabbage) · [Pickled Daikon](./r/pickled-daikon) **Sweets** [Matcha Affogato](./r/match-affogato) · [Coffee Jelly](./r/coffee-jelly) · [Tea Jelly](./r/tea-jelly) · [Bay Leaf Panna Cotta](./r/bay-leaf-panna-cotta) · [Purin](./r/purin) · [Double Chocolate Chip Cookies](./r/double-chocolate-chip-cookies) · [Matcha White Chocolate Cookies](./r/matcha-white-choco-cookies) · [Hojicha Cookies](./r/brown-butter-hojicha-cookies) · [Matcha Brownies](./r/matcha-brownies) · [Chocolate Brownies](./r/chocolate-brownies) · [Matcha Chiffon Cake](./r/matcha-chiffon-cake) · [Earl Grey Chiffon Cake](./r/earl-grey-chiffon-cake) · [Matcha Gateau au Chocolat](./r/matcha-gateau-au-chocolat) · [Chocolate Gateau au Chocolat](./r/chocolate-gateau-au-chocolat) · [Orange Gateau au Chocolat](./r/orange-chocolate-gateau-au-chocolat) · [Hojicha Gateau au Chocolat](./r/hojicha-gateau-au-chocolat) · [Vanilla Gateau au Chocolat](./r/vanilla-bean-gateau-au-chocolat) · [Canelé](./r/canele) · [Tarte Tatin](./r/tarte-tatin) **Drinks** [Cold Brew Tea](./r/cold-brew-tea) · [Matcha Americano](./r/matcha-americano) · [Matcha Latte](./r/matcha-latte) · [Tinto de Verano](./r/tinto-de-verano) · [Margarita](./r/margarita) · [Mojito](./r/mojito) · [Corpse Reviver No. 2](./r/corpse-reviver-no-2) · [Whiskey Sour](./r/whiskey-sour) · [Whiskey Sour (Acid-Adjusted OJ)](./r/whiskey-sour-acid-adjusted-oj) · [Gimlet](./r/gimlet) · [Manhattan](./r/manhattan) · [Coffee Manhattan](./r/coffee-manhattan) · [Old Fashioned](./r/old-fashioned) · [Port Tonic](./r/port-tonic) · [Suze Tonic](./r/suze-tonic) · [Lillet Spritz](./r/lillet-spritz) **Pantry** [Kombu Dashi](./r/kombu-dashi) · [Awase Dashi](./r/awase-dashi) · [Mentsuyu](./r/mentsuyu) · [Ponzu](./r/ponzu) · [Thyme Streusel](./r/thyme-streusel) · [Salted Caramel Sauce](./r/salted-caramel-sauce) **Articles** [T45 Flour for Canelé](./a/t45-flour-substitutes-for-canele) · [Hydration and Baking Ratios](./a/hydration-and-baking-ratios) · [Salt in Baking](./a/salt-in-baking) · [Acid-Adjusting Juice](./a/acid-adjusting-juice-for-cocktails) · [Risograph Printing and Color](./a/risograph-printing-and-color)
 </div>
