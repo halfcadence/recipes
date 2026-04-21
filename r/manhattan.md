@@ -1,5 +1,6 @@
 ---
 title: Manhattan
+category: drinks
 number: 52
 source: https://www.liquor.com/recipes/manhattan-2/
 ---

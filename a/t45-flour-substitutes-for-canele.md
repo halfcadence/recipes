@@ -1,5 +1,6 @@
 ---
 title: "T45 Flour Substitutes for Canelé: What Actually Works"
+category: articles
 ---
 
 If you're making canelés outside of France, you've probably run into the T45 flour question. Most traditional recipes call for it, but it's not easy to find in the US or many other countries. So what's the best substitute?

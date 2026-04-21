@@ -1,5 +1,6 @@
 ---
 title: "Hydration and Baking Ratios: Why Swapping Ingredients Breaks Your Recipe"
+category: articles
 ---
 
 If you've ever swapped cocoa powder for matcha, used coconut flour instead of all-purpose, or replaced butter with oil and gotten a completely different result — this is why. Every dry ingredient absorbs liquid differently, and every fat carries a different amount of water. Understanding these ratios is the difference between a successful adaptation and a dry, dense disaster.

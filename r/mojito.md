@@ -1,5 +1,6 @@
 ---
 title: Mojito
+category: drinks
 number: 26
 source: https://www.liquor.com/recipes/mojito/
 ---

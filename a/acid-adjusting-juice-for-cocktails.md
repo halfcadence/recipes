@@ -1,5 +1,6 @@
 ---
 title: "Acid-Adjusting Juice for Cocktails"
+category: articles
 ---
 
 Most classic cocktails are built on the sour template: spirit, citrus, sweetener. The citrus is almost always lemon or lime because they have the acidity to stand up to spirits and sugar. Orange juice, pineapple juice, grapefruit — they taste great, but they're too sweet and too low in acid to work as a 1:1 swap. Use orange juice where a recipe calls for lemon and you'll get a flat, cloying drink.

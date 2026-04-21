@@ -1,5 +1,6 @@
 ---
 title: Cold Brew Tea
+category: drinks
 number: 7
 ---
 

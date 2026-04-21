@@ -1,5 +1,6 @@
 ---
 title: Hojicha Gateau au Chocolat
+category: sweets
 number: 20
 source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 ---

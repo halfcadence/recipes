@@ -1,5 +1,6 @@
 ---
 title: Whiskey Sour
+category: drinks
 number: 36
 source: https://www.liquor.com/recipes/whiskey-sour/
 ---

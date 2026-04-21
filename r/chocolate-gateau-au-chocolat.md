@@ -1,5 +1,6 @@
 ---
 title: Chocolate Gateau au Chocolat
+category: sweets
 number: 16
 source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 ---

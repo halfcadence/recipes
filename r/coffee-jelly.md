@@ -1,5 +1,6 @@
 ---
 title: Coffee Jelly
+category: sweets
 number: 2
 ---
 

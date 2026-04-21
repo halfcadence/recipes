@@ -1,5 +1,6 @@
 ---
 title: Gyoza (Pork & Cabbage Dumplings)
+category: mains
 number: 63
 source: https://www.seriouseats.com/the-best-japanese-pork-and-cabbage-dumplings-gyoza-recipe
 chef: J. Kenji López-Alt

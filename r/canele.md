@@ -1,5 +1,6 @@
 ---
 title: Canelé
+category: sweets
 number: 12
 source: https://hitosara.com/contents/chefstable/recipe/recipe_jill01.html
 chef: Gilles Marchal

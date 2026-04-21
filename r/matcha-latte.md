@@ -1,5 +1,6 @@
 ---
 title: Matcha Latte
+category: drinks
 number: 18
 ---
 

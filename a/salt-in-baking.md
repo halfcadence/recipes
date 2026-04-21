@@ -1,5 +1,6 @@
 ---
 title: "Salt Percentages in Baking: How Much Is Right?"
+category: articles
 ---
 
 Salt is one of those ingredients where a gram or two makes a huge difference. Too little and everything tastes flat. Too much and it's inedible. Unlike sugar or flour where you have some wiggle room, salt has a narrow sweet spot — and it's different for every type of baked good.

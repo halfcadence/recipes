@@ -1,5 +1,6 @@
 ---
 title: Brown Butter Hojicha White Chocolate Cookies
+category: sweets
 number: 22
 ---
 

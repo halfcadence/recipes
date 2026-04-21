@@ -1,5 +1,6 @@
 ---
 title: Margarita
+category: drinks
 number: 25
 source: https://www.liquor.com/recipes/margarita/
 ---

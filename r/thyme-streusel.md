@@ -1,5 +1,6 @@
 ---
 title: Thyme Streusel
+category: pantry
 number: 5
 ---
 

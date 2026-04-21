@@ -1,5 +1,6 @@
 ---
 title: Matcha Gateau au Chocolat
+category: sweets
 number: 15
 source: https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 ---

@@ -1,5 +1,6 @@
 ---
 title: Lillet Spritz
+category: drinks
 number: 54
 source: https://www.grandonelounge.com/blog/lillet-spritz-a-summer-classic-served-two-ways
 ---

@@ -1,5 +1,6 @@
 ---
 title: Matcha Chiffon Cake
+category: sweets
 number: 14
 source: https://www.justonecookbook.com/green-tea-chiffon-cake/
 ---

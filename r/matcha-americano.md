@@ -1,5 +1,6 @@
 ---
 title: Matcha Americano
+category: drinks
 number: 17
 ---
 

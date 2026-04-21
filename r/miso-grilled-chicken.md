@@ -1,5 +1,6 @@
 ---
 title: Grilled Chicken with Miso Sauce
+category: mains
 number: 10
 source: https://www.youtube.com/watch?v=oS_-4eIpo_4
 chef: Hideaki Matsuo, Kashiwaya (3 Michelin stars, Osaka)

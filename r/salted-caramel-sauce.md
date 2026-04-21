@@ -1,5 +1,6 @@
 ---
 title: Salted Caramel Sauce
+category: pantry
 number: 6
 ---
 

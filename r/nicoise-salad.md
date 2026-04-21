@@ -1,5 +1,6 @@
 ---
 title: Salade Niçoise
+category: mains
 number: 42
 source: https://www.recipetineats.com/nicoise-salad-french-salad-with-tuna/
 ---

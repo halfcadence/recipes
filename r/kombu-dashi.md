@@ -1,5 +1,6 @@
 ---
 title: Kombu Dashi
+category: pantry
 number: 44
 ---
 

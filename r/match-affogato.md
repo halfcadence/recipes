@@ -1,5 +1,6 @@
 ---
 title: Matcha Affogato
+category: sweets
 number: 1
 ---
 

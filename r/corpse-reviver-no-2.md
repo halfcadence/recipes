@@ -1,5 +1,6 @@
 ---
 title: Corpse Reviver No. 2
+category: drinks
 number: 24
 source: https://www.liquor.com/recipes/corpse-reviver-no-2/
 ---

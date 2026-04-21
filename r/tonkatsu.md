@@ -1,5 +1,6 @@
 ---
 title: Tonkatsu
+category: mains
 number: 35
 source: https://adamliaw.com/recipe/how-to-make-tonkatsu
 chef: Adam Liaw

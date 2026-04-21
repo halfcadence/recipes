@@ -1,5 +1,6 @@
 ---
 title: Tarte Tatin
+category: sweets
 number: 39
 source: https://www.seriouseats.com/tarte-tatin-recipe-11844901
 chef: Genevieve Yam, Serious Eats

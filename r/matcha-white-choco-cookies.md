@@ -1,5 +1,6 @@
 ---
 title: Matcha White Chocolate Cookies
+category: sweets
 number: 9
 source: https://www.jadeleafmatcha.com/blogs/matcha-recipes/matcha-white-chocolate-chip-cookies
 ---

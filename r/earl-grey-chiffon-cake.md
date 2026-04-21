@@ -1,5 +1,6 @@
 ---
 title: Earl Grey Chiffon Cake
+category: sweets
 number: 13
 source: https://www.justonecookbook.com/earl-grey-chiffon-cake/
 ---

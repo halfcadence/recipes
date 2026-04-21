@@ -8,6 +8,15 @@
 
 body { font-family: 'Bricolage Grotesque', sans-serif; }
 
+// Section colors — Risograph-inspired
+$drinks: #3d5afe;     // blue
+$sweets: #ff4081;     // fluorescent pink
+$mains: #e53935;      // red
+$soups: #fb8c00;      // orange
+$sides: #43a047;      // green
+$pantry: #6a1b9a;     // purple
+$articles: #424242;   // dark grey
+
 // Header
 .site-header {
   border-top: 0.5rem solid #111;
@@ -128,6 +137,43 @@ table thead { display: none; }
 table tr:nth-child(even) { background: none; }
 table td { border: none; border-bottom: 1px solid #ddd; padding: 0.2rem 0.75rem 0.2rem 0; vertical-align: top; }
 table td:first-child { font-weight: 600; white-space: nowrap; width: 1%; }
+
+// ── Section theming ─────────────────────────────────────────────────
+
+.section-label {
+  font-family: monospace;
+  font-size: 0.75em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+@mixin themed($color) {
+  .post-title { background: $color; }
+  .section-label { color: $color; }
+  .site-header { border-top-color: $color; }
+  .recipe-number { color: rgba(255, 255, 255, 0.6); }
+  .post-content ol > li::before { color: $color; }
+  .notes li + li { border-top-color: rgba($color, 0.3); }
+  .post-header { border-bottom: 2px solid $color; padding-bottom: 0.5rem; }
+}
+
+body.section-drinks { @include themed($drinks); }
+body.section-sweets { @include themed($sweets); }
+body.section-mains { @include themed($mains); }
+body.section-soups { @include themed($soups); }
+body.section-sides { @include themed($sides); }
+body.section-pantry { @include themed($pantry); }
+body.section-articles { @include themed($articles); }
+
+// Index — keep pills in section colors for fun
+.index strong:nth-of-type(1) { background: $drinks; }
+.index strong:nth-of-type(2) { background: $sweets; }
+.index strong:nth-of-type(3) { background: $mains; }
+.index strong:nth-of-type(4) { background: $soups; }
+.index strong:nth-of-type(5) { background: $sides; }
+.index strong:nth-of-type(6) { background: $pantry; }
+.index strong:nth-of-type(7) { background: $articles; }
 
 // ── Dark mode ───────────────────────────────────────────────────────
 

@@ -1,5 +1,6 @@
 ---
 title: Thin Chargrilled Burgers
+category: mains
 number: 32
 source: https://cooking.nytimes.com/recipes/1025075-thin-but-juicy-chargrilled-burgers
 chef: J. Kenji López-Alt

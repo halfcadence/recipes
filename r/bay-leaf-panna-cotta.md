@@ -1,5 +1,6 @@
 ---
 title: Bay Leaf Panna Cotta
+category: sweets
 number: 4
 ---
 

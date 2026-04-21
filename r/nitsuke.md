@@ -1,5 +1,6 @@
 ---
 title: Nitsuke (Japanese Simmered Fish)
+category: mains
 number: 41
 source: https://www.justonecookbook.com/nitsuke-recipe/
 ---

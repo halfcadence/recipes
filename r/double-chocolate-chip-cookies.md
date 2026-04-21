@@ -1,5 +1,6 @@
 ---
 title: Double Chocolate Chip Cookies
+category: sweets
 number: 8
 source: https://sallysbakingaddiction.com/double-chocolate-chip-cookies-recipe/
 ---

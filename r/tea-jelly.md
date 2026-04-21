@@ -1,5 +1,6 @@
 ---
 title: Tea Jelly
+category: sweets
 number: 3
 ---
 

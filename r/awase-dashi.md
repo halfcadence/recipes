@@ -1,5 +1,6 @@
 ---
 title: Awase Dashi (Kombu & Bonito)
+category: pantry
 number: 45
 ---
 
