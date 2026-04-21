@@ -55,7 +55,8 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 ## Naming
 
 - Titles MUST be as short as possible. Use the simplest recognizable name for the dish.
-- Cooking technique modifiers (e.g., "triple-fried", "reverse-seared", "chargrilled", "brown butter") MUST NOT appear in the title. Technique belongs in the steps and notes.
+- Cooking technique modifiers (e.g., "triple-fried", "reverse-seared", "chargrilled") MUST NOT appear in the title. Technique belongs in the steps and notes.
+- Ingredient modifiers that materially change the flavor (e.g., "brown butter", "miso") MAY appear in the title when they distinguish the recipe from a base version.
 - Parenthetical descriptions (e.g., "Pork & Cabbage Dumplings", "Salmon Hot Pot") MUST NOT appear in the title. If the dish name is unfamiliar, explain it in the notes.
 - Chef or brand names (e.g., "Robuchon") SHOULD NOT appear in the title unless the dish is universally known by that name. Credit the chef in the `chef` front matter field or notes instead.
 - Article titles MUST NOT include subtitles after colons. Keep to the core topic.
