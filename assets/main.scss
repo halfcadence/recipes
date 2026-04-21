@@ -116,6 +116,30 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1;
 }
 
+// ── Index layout toggle ──────────────────────────────────────────────
+// Set to true for block layout (pill on its own line, links below).
+// Set to false for inline layout (pill and links flow together).
+$index-block-layout: true;
+
+// Break between sections — anchor spans force a new block before each pill
+.index span[id] {
+  display: block;
+  margin-top: 0.75rem;
+}
+.index span[id]:first-of-type {
+  margin-top: 0;
+}
+
+@if $index-block-layout {
+  // Block: pill on its own line, links wrap below
+  .index strong {
+    display: block;
+    width: fit-content;
+    margin-bottom: 0.2rem;
+  }
+}
+
+
 // Tighter spacing
 .page-content { padding: 1.25rem 0; }
 .post-content ul, .post-content ol { margin-left: 1.25rem; margin-bottom: 0.625rem; }
