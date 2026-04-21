@@ -6,7 +6,9 @@ permalink: /changelog/
 
 ## 2026-04-21
 
-- Add 3 coffee recipes: pour over, Hario Switch, AeroPress — with grind settings for Remi and Lagom Mini 2.
+- Add 3 coffee recipes: pour over (Tetsu Kasuya 4:6 method), iced pour over (Japanese flash brew), Hario Switch, AeroPress — with grind settings for Remi and Lagom Mini 2.
+- Add grind settings to coffee manhattan.
+- Correct grinder settings to official units: Lagom Mini 2 uses dots from zero, Remi uses revolutions.
 - Add 2 articles: Dialing In the Remi, Dialing In the Lagom Mini 2.
 - Rename "Style Guide" section to "Colophon".
 - Add changelog page with full reverse-engineered history. Add changelog rule to steering.

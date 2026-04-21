@@ -9,16 +9,23 @@ source: https://www.cocktailchemistrylab.com/home/pourover
 
 | | |
 |---|---|
-| 15g | whole coffee beans, ground medium-fine |
+| 15g | whole coffee beans |
 | 2 oz | rye whiskey |
 | 1 oz | sweet vermouth |
 | 2 dashes | Angostura bitters |
 | 2 dashes | black walnut bitters (optional) |
 | | Maraschino cherry, for garnish |
 
+## Grind
+
+| | |
+|---|---|
+| Remi (conventional burrs) | ~2.25 revolutions from zero |
+| Lagom Mini 2 (Mizen 48MS) | +11 dots from zero |
+
 ## Steps
 
-1. Grind coffee beans medium-fine. Place a filter in a pourover dripper and wet the filter. Add grounds.
+1. Grind coffee beans. Place a filter in a pourover dripper and wet the filter. Add grounds.
 
 2. In a mixing glass with ice, combine rye, sweet vermouth, and bitters. Stir for 45 seconds.
 
