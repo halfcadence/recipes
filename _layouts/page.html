@@ -4,7 +4,7 @@ layout: default
 <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{% if page.number %}<span class="recipe-number">#{% if page.number < 10 %}00{{ page.number }}{% elsif page.number < 100 %}0{{ page.number }}{% else %}{{ page.number }}{% endif %}</span> {% endif %}{{ page.title | escape }}</h1>
+    <h1 class="post-title">{% if page.number %}<span class="recipe-number">{% if page.number < 10 %}00{{ page.number }}{% elsif page.number < 100 %}0{{ page.number }}{% else %}{{ page.number }}{% endif %}</span> {% endif %}{{ page.title | escape }}</h1>
   </header>
 
   <div class="post-content">
