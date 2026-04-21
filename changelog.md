@@ -6,6 +6,8 @@ permalink: /changelog/
 
 ## 2026-04-21
 
+- Expand riso color catalog from 12 to 77 colors in the risograph article, organized by hue family.
+- Add Riso Overprint palette (Blue + Fluorescent Pink two-ink constraint) to colors page.
 - Add shaken black tea (Taiwanese 泡沫紅茶).
 - Add 3 coffee recipes: pour over (Tetsu Kasuya 4:6 method), iced pour over (Japanese flash brew), Hario Switch, AeroPress — with grind settings for Remi and Lagom Mini 2.
 - Add grind settings to coffee manhattan.
