@@ -60,17 +60,24 @@ h1, h2, h3, h4, h5, h6,
   padding: 0.125em 0.375em;
 }
 
-// Reusable pill for color swatches (articles, style guide pages)
+// Reusable pill for color swatches (articles, colophon pages)
 .pill-sample {
   display: inline-flex;
   align-items: center;
   color: #fff;
   padding: 0.125em 0.375em;
-  font-family: monospace;
-  font-size: 0.9em;
+  margin-right: 0.2em;
+  margin-bottom: 0.3em;
   font-weight: 600;
   line-height: normal;
   border: none;
+}
+.pill-sample::before {
+  content: attr(data-num);
+  font-family: monospace;
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 0.4em;
 }
 
 .post-title {
