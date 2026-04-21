@@ -82,14 +82,13 @@ h1, h2, h3, h4, h5, h6,
   margin-right: 0.4em;
 }
 
-// Riso article swatch tables — pills fill cell, constrained width
+// Riso article swatch tables — swatch first, constrained widths
 .riso-swatches {
   table-layout: fixed;
   width: 100%;
 }
-.riso-swatches td:first-child { width: 25%; }
-.riso-swatches td:nth-child(2) { width: 20%; }
-.riso-swatches td:nth-child(3) { width: 55%; }
+.riso-swatches td:first-child { width: 6rem; }
+.riso-swatches td:nth-child(2) { width: 25%; }
 .riso-swatches .pill-sample {
   display: block;
   width: 100%;
@@ -251,18 +250,10 @@ table td:first-child { font-weight: 600; white-space: nowrap; width: 1%; }
 }
 
 body.section-drinks { @include themed($drinks); }
-body.section-sweets {
-  @include themed($sweets);
-  .post-title { color: $grey-dark; }
-  .recipe-number { color: rgba($grey-dark, 0.5); }
-}
+body.section-sweets { @include themed($sweets); }
 body.section-mains { @include themed($mains); }
 body.section-soups { @include themed($soups); }
-body.section-sides {
-  @include themed($sides);
-  .post-title { color: $grey-dark; }
-  .recipe-number { color: rgba($grey-dark, 0.5); }
-}
+body.section-sides { @include themed($sides); }
 body.section-pantry { @include themed($pantry); }
 body.section-articles { @include themed($articles); }
 body.section-colophon { @include themed($colophon); }
@@ -270,10 +261,8 @@ body.section-colophon { @include themed($colophon); }
 // Index — keep pills in section colors for fun
 .index strong:nth-of-type(1) { background: $mains; }
 .index strong:nth-of-type(2) { background: $soups; }
-.index strong:nth-of-type(3) { background: $sides; color: $grey-dark; }
-.index strong:nth-of-type(3)::before { color: rgba($grey-dark, 0.5); }
-.index strong:nth-of-type(4) { background: $sweets; color: $grey-dark; }
-.index strong:nth-of-type(4)::before { color: rgba($grey-dark, 0.5); }
+.index strong:nth-of-type(3) { background: $sides; }
+.index strong:nth-of-type(4) { background: $sweets; }
 .index strong:nth-of-type(5) { background: $drinks; }
 .index strong:nth-of-type(6) { background: $pantry; }
 .index strong:nth-of-type(7) { background: $articles; }
