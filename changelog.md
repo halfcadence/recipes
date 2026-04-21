@@ -6,6 +6,7 @@ permalink: /changelog/
 
 ## 2026-04-21
 
+- Add shaken black tea (Taiwanese 泡沫紅茶).
 - Add 3 coffee recipes: pour over (Tetsu Kasuya 4:6 method), iced pour over (Japanese flash brew), Hario Switch, AeroPress — with grind settings for Remi and Lagom Mini 2.
 - Add grind settings to coffee manhattan.
 - Correct grinder settings to official units: Lagom Mini 2 uses dots from zero, Remi uses revolutions.
