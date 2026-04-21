@@ -35,6 +35,29 @@ h1, h2, h3, h4, h5, h6,
 .post-content li { margin-bottom: 2px; }
 .post-content p { margin-bottom: 8px; }
 
+// Steps — monospace counter in left margin, text aligned to content column
+.post-content ol {
+  list-style: none;
+  counter-reset: step;
+  padding-left: 0;
+  margin-left: 0;
+}
+.post-content ol > li {
+  counter-increment: step;
+  margin-bottom: 3px;
+  position: relative;
+  padding-left: 0;
+}
+.post-content ol > li::before {
+  content: counter(step, decimal-leading-zero);
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 12px;
+  color: #999;
+  position: absolute;
+  left: -32px;
+}
+
 // Links — all identical, inherit color
 a, a:visited { color: inherit; text-decoration: underline; }
 a:hover { text-decoration: none; color: inherit; }
@@ -92,4 +115,6 @@ table td:first-child { font-weight: 600; white-space: nowrap; width: 1%; }
   table { color: #d4d4d4; }
   table tr:nth-child(even) { background: none; }
   table td { border-bottom-color: #333; }
+  .post-content ol > li::before { color: #666; }
+  .notes li + li { border-top-color: #444; }
 }
