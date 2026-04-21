@@ -24,18 +24,18 @@ The inks never fully dry. They absorb into uncoated paper rather than sitting on
 Riso doesn't use CMYK. Instead, it uses spot colors — each drum holds one specific ink color. There are roughly 50+ ink colors available, though most print shops stock 8–15. Common colors include:
 
 <table class="riso-swatches">
-<tr><td><span style="display:inline-block;width:0.9em;height:0.9em;background:#0078bf;vertical-align:middle;margin-right:0.4em;"></span>Blue</td><td><code>#0078bf</code></td><td>The workhorse. Deep, slightly cyan-leaning.</td></tr>
-<tr><td><span style="display:inline-block;width:0.9em;height:0.9em;background:#ff48b0;vertical-align:middle;margin-right:0.4em;"></span>Fluorescent Pink</td><td><code>#ff48b0</code></td><td>The signature riso color. Neon, electric, unmistakable.</td></tr>
-<tr><td><span style="display:inline-block;width:0.9em;height:0.9em;background:#f65058;vertical-align:middle;margin-right:0.4em;"></span>Scarlet</td><td><code>#f65058</code></td><td>Warm, slightly orange. Not fire-engine red.</td></tr>
-<tr><td><span style="display:inline-block;width:0.9em;height:0.9em;background:#ff6c2f;vertical-align:middle;margin-right:0.4em;"></span>Orange</td><td><code>#ff6c2f</code></td><td>Pumpkin. Warm and saturated.</td></tr>
-<tr><td><span style="display:inline-block;width:0.9em;height:0.9em;background:#ffb511;vertical-align:middle;margin-right:0.4em;"></span>Sunflower</td><td><code>#ffb511</code></td><td>Bright, clean. Overprints well with blue and red.</td></tr>
-<tr><td><span style="display:inline-block;width:0.9em;height:0.9em;background:#00a95c;vertical-align:middle;margin-right:0.4em;"></span>Green</td><td><code>#00a95c</code></td><td>Grass green, slightly warm.</td></tr>
-<tr><td><span style="display:inline-block;width:0.9em;height:0.9em;background:#009da5;vertical-align:middle;margin-right:0.4em;"></span>Light Teal</td><td><code>#009da5</code></td><td>Blue-green, darker than you'd expect.</td></tr>
-<tr><td><span style="display:inline-block;width:0.9em;height:0.9em;background:#9d7ad2;vertical-align:middle;margin-right:0.4em;"></span>Violet</td><td><code>#9d7ad2</code></td><td>Muted, not violet. More grape than lavender.</td></tr>
-<tr><td><span style="display:inline-block;width:0.9em;height:0.9em;background:#435060;vertical-align:middle;margin-right:0.4em;"></span>Midnight</td><td><code>#435060</code></td><td>Blue-tinted dark grey.</td></tr>
-<tr><td><span style="display:inline-block;width:0.9em;height:0.9em;background:#5ec8e5;vertical-align:middle;margin-right:0.4em;"></span>Aqua</td><td><code>#5ec8e5</code></td><td>Light, airy. Needs dark text.</td></tr>
-<tr><td><span style="display:inline-block;width:0.9em;height:0.9em;background:#ff7477;vertical-align:middle;margin-right:0.4em;"></span>Fluorescent Orange</td><td><code>#ff7477</code></td><td>Coral-leaning. Glows under certain light.</td></tr>
-<tr><td><span style="display:inline-block;width:0.9em;height:0.9em;background:#bb8b41;vertical-align:middle;margin-right:0.4em;"></span>Metallic Gold</td><td><code>#bb8b41</code></td><td>Actual metallic sheen on paper.</td></tr>
+<tr><td>Blue</td><td><code style="color:#0078bf">#0078bf</code></td><td>The workhorse. Deep, slightly cyan-leaning.</td></tr>
+<tr><td>Fluorescent Pink</td><td><code style="color:#ff48b0">#ff48b0</code></td><td>The signature riso color. Neon, electric, unmistakable.</td></tr>
+<tr><td>Scarlet</td><td><code style="color:#f65058">#f65058</code></td><td>Warm, slightly orange. Not fire-engine red.</td></tr>
+<tr><td>Orange</td><td><code style="color:#ff6c2f">#ff6c2f</code></td><td>Pumpkin. Warm and saturated.</td></tr>
+<tr><td>Sunflower</td><td><code style="color:#ffb511">#ffb511</code></td><td>Bright, clean. Overprints well with blue and red.</td></tr>
+<tr><td>Green</td><td><code style="color:#00a95c">#00a95c</code></td><td>Grass green, slightly warm.</td></tr>
+<tr><td>Light Teal</td><td><code style="color:#009da5">#009da5</code></td><td>Blue-green, darker than you'd expect.</td></tr>
+<tr><td>Violet</td><td><code style="color:#9d7ad2">#9d7ad2</code></td><td>Muted, not violet. More grape than lavender.</td></tr>
+<tr><td>Midnight</td><td><code style="color:#435060">#435060</code></td><td>Blue-tinted dark grey.</td></tr>
+<tr><td>Aqua</td><td><code style="color:#5ec8e5">#5ec8e5</code></td><td>Light, airy. Needs dark text.</td></tr>
+<tr><td>Fluorescent Orange</td><td><code style="color:#ff7477">#ff7477</code></td><td>Coral-leaning. Glows under certain light.</td></tr>
+<tr><td>Metallic Gold</td><td><code style="color:#bb8b41">#bb8b41</code></td><td>Actual metallic sheen on paper.</td></tr>
 </table>
 
 Hex values are approximations — riso inks don't conform to any digital color standard. They look different on different papers, at different ink densities, and under different lighting. The hex codes from [Stencil Wiki](https://stencil.wiki/colors) and the [riso-colors npm package](https://www.npmjs.com/package/riso-colors) are the closest community-maintained references.
