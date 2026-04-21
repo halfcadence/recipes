@@ -80,12 +80,24 @@ h1, h2, h3, h4, h5, h6,
   margin-right: 0.4em;
 }
 
-// Riso article swatch tables — pills fill cell width
+// Riso article swatch tables — pills fill cell, constrained width
+.riso-swatches {
+  table-layout: fixed;
+  width: 100%;
+}
+.riso-swatches td:first-child { width: 25%; }
+.riso-swatches td:nth-child(2) { width: 20%; }
+.riso-swatches td:nth-child(3) { width: 55%; }
 .riso-swatches .pill-sample {
   display: block;
   width: 100%;
   box-sizing: border-box;
   text-align: center;
+}
+.riso-swatches .section-row td {
+  font-weight: 600;
+  padding-top: 0.6rem;
+  border-bottom: none;
 }
 
 .post-title {

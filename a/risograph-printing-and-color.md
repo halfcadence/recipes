@@ -23,10 +23,9 @@ The inks never fully dry. They absorb into uncoated paper rather than sitting on
 
 Riso doesn't use CMYK. Instead, it uses spot colors — each drum holds one specific ink color. There are 77 documented ink colors, though most print shops stock 8–15. The full catalog, sourced from the [riso-colors npm package](https://www.npmjs.com/package/riso-colors) and [Stencil Wiki](https://stencil.wiki/colors):
 
-**Reds & Pinks**
-
 <table class="riso-swatches">
-<tr><td>Scarlet</td><td><span class="pill-sample" style="background:#f65058">#f65058</span></td><td>Warm, slightly orange. Not fire-engine red.</td></tr>
+<tr class="section-row"><td colspan="3">Reds & Pinks</td></tr>
+<tr><td>Scarlet</td><td><span class="pill-sample" style="background:#f65058">#f65058</span></td><td>Warm, slightly orange.</td></tr>
 <tr><td>Bright Red</td><td><span class="pill-sample" style="background:#f15060">#f15060</span></td><td>Close to Scarlet, slightly cooler.</td></tr>
 <tr><td>Red</td><td><span class="pill-sample" style="background:#ff665e">#ff665e</span></td><td>Warm red, coral-leaning.</td></tr>
 <tr><td>Crimson</td><td><span class="pill-sample" style="background:#e45d50">#e45d50</span></td><td>Earthy, brick-adjacent.</td></tr>
@@ -46,11 +45,7 @@ Riso doesn't use CMYK. Instead, it uses spot colors — each drum holds one spec
 <tr><td>Dark Mauve</td><td><span class="pill-sample" style="background:#bd8ca6">#bd8ca6</span></td><td>Muted rose.</td></tr>
 <tr><td>Bisque</td><td><span class="pill-sample" style="background:#f2cdcf">#f2cdcf</span></td><td>Near-white blush.</td></tr>
 <tr><td>Coral</td><td><span class="pill-sample" style="background:#ff8e91">#ff8e91</span></td><td>Soft salmon-pink.</td></tr>
-</table>
-
-**Oranges & Yellows**
-
-<table class="riso-swatches">
+<tr class="section-row"><td colspan="3">Oranges & Yellows</td></tr>
 <tr><td>Orange</td><td><span class="pill-sample" style="background:#ff6c2f">#ff6c2f</span></td><td>Pumpkin. Warm and saturated.</td></tr>
 <tr><td>Pumpkin</td><td><span class="pill-sample" style="background:#ff6f4c">#ff6f4c</span></td><td>Slightly lighter than Orange.</td></tr>
 <tr><td>Paprika</td><td><span class="pill-sample" style="background:#ee7f4b">#ee7f4b</span></td><td>Warm spice tone.</td></tr>
@@ -61,22 +56,14 @@ Riso doesn't use CMYK. Instead, it uses spot colors — each drum holds one spec
 <tr><td>Fluorescent Yellow</td><td><span class="pill-sample" style="background:#ffe900">#ffe900</span></td><td>Neon yellow. Nearly identical to Yellow.</td></tr>
 <tr><td>Light Lime</td><td><span class="pill-sample" style="background:#e3ed55">#e3ed55</span></td><td>Yellow-green, chartreuse.</td></tr>
 <tr><td>Bright Olive Green</td><td><span class="pill-sample" style="background:#b49f29">#b49f29</span></td><td>Dark olive-gold.</td></tr>
-</table>
-
-**Golds & Browns**
-
-<table class="riso-swatches">
+<tr class="section-row"><td colspan="3">Golds & Browns</td></tr>
 <tr><td>Flat Gold</td><td><span class="pill-sample" style="background:#bb8b41">#bb8b41</span></td><td>Matte gold, no metallic sheen.</td></tr>
 <tr><td>Bright Gold</td><td><span class="pill-sample" style="background:#ba8032">#ba8032</span></td><td>Warmer, deeper gold.</td></tr>
 <tr><td>Metallic Gold</td><td><span class="pill-sample" style="background:#ac936e">#ac936e</span></td><td>Actual metallic sheen on paper.</td></tr>
 <tr><td>Copper</td><td><span class="pill-sample" style="background:#bd6439">#bd6439</span></td><td>Warm metallic brown.</td></tr>
 <tr><td>Brown</td><td><span class="pill-sample" style="background:#925f52">#925f52</span></td><td>Warm, earthy.</td></tr>
 <tr><td>Mahogany</td><td><span class="pill-sample" style="background:#8e595a">#8e595a</span></td><td>Dark reddish-brown.</td></tr>
-</table>
-
-**Greens**
-
-<table class="riso-swatches">
+<tr class="section-row"><td colspan="3">Greens</td></tr>
 <tr><td>Fluorescent Green</td><td><span class="pill-sample" style="background:#44d62c">#44d62c</span></td><td>Neon, electric green.</td></tr>
 <tr><td>Kelly Green</td><td><span class="pill-sample" style="background:#67b346">#67b346</span></td><td>Classic bright green.</td></tr>
 <tr><td>Green</td><td><span class="pill-sample" style="background:#00a95c">#00a95c</span></td><td>Grass green, slightly warm.</td></tr>
@@ -88,11 +75,7 @@ Riso doesn't use CMYK. Instead, it uses spot colors — each drum holds one spec
 <tr><td>Moss</td><td><span class="pill-sample" style="background:#68724d">#68724d</span></td><td>Olive-green, earthy.</td></tr>
 <tr><td>Slate</td><td><span class="pill-sample" style="background:#5e695e">#5e695e</span></td><td>Gray-green.</td></tr>
 <tr><td>Hunter Green</td><td><span class="pill-sample" style="background:#407060">#407060</span></td><td>Classic dark green.</td></tr>
-</table>
-
-**Teals & Aquas**
-
-<table class="riso-swatches">
+<tr class="section-row"><td colspan="3">Teals & Aquas</td></tr>
 <tr><td>Sea Foam</td><td><span class="pill-sample" style="background:#62c2b1">#62c2b1</span></td><td>Light, minty.</td></tr>
 <tr><td>Mint</td><td><span class="pill-sample" style="background:#82d8d5">#82d8d5</span></td><td>Pale, airy teal.</td></tr>
 <tr><td>Turquoise</td><td><span class="pill-sample" style="background:#00aa93">#00aa93</span></td><td>Vivid blue-green.</td></tr>
@@ -103,11 +86,7 @@ Riso doesn't use CMYK. Instead, it uses spot colors — each drum holds one spec
 <tr><td>Smoky Teal</td><td><span class="pill-sample" style="background:#5f8289">#5f8289</span></td><td>Muted, gray-teal.</td></tr>
 <tr><td>Aqua</td><td><span class="pill-sample" style="background:#5ec8e5">#5ec8e5</span></td><td>Light, airy. Needs dark text.</td></tr>
 <tr><td>Mist</td><td><span class="pill-sample" style="background:#d5e4c0">#d5e4c0</span></td><td>Pale sage-green. Nearly white.</td></tr>
-</table>
-
-**Blues**
-
-<table class="riso-swatches">
+<tr class="section-row"><td colspan="3">Blues</td></tr>
 <tr><td>Cornflower</td><td><span class="pill-sample" style="background:#62a8e5">#62a8e5</span></td><td>Light, friendly blue.</td></tr>
 <tr><td>Sky Blue</td><td><span class="pill-sample" style="background:#4982cf">#4982cf</span></td><td>Medium, slightly muted.</td></tr>
 <tr><td>Blue</td><td><span class="pill-sample" style="background:#0078bf">#0078bf</span></td><td>The workhorse. Deep, slightly cyan-leaning.</td></tr>
@@ -118,22 +97,14 @@ Riso doesn't use CMYK. Instead, it uses spot colors — each drum holds one spec
 <tr><td>Steel</td><td><span class="pill-sample" style="background:#375e77">#375e77</span></td><td>Blue-gray, industrial.</td></tr>
 <tr><td>Indigo</td><td><span class="pill-sample" style="background:#484d7a">#484d7a</span></td><td>Dark blue-purple.</td></tr>
 <tr><td>Midnight</td><td><span class="pill-sample" style="background:#435060">#435060</span></td><td>Blue-tinted dark grey.</td></tr>
-</table>
-
-**Purples**
-
-<table class="riso-swatches">
+<tr class="section-row"><td colspan="3">Purples</td></tr>
 <tr><td>Violet</td><td><span class="pill-sample" style="background:#9d7ad2">#9d7ad2</span></td><td>Muted, more grape than lavender.</td></tr>
 <tr><td>Orchid</td><td><span class="pill-sample" style="background:#aa60bf">#aa60bf</span></td><td>Bright, warm purple.</td></tr>
 <tr><td>Purple</td><td><span class="pill-sample" style="background:#765ba7">#765ba7</span></td><td>Classic mid-purple.</td></tr>
 <tr><td>Plum</td><td><span class="pill-sample" style="background:#845991">#845991</span></td><td>Dark, warm purple.</td></tr>
 <tr><td>Raisin</td><td><span class="pill-sample" style="background:#775d7a">#775d7a</span></td><td>Muted, dusty purple.</td></tr>
 <tr><td>Grape</td><td><span class="pill-sample" style="background:#6c5d80">#6c5d80</span></td><td>Dark, desaturated.</td></tr>
-</table>
-
-**Neutrals**
-
-<table class="riso-swatches">
+<tr class="section-row"><td colspan="3">Neutrals</td></tr>
 <tr><td>Black</td><td><span class="pill-sample" style="background:#000000">#000000</span></td><td>True black.</td></tr>
 <tr><td>Charcoal</td><td><span class="pill-sample" style="background:#70747c">#70747c</span></td><td>Dark neutral gray.</td></tr>
 <tr><td>Light Gray</td><td><span class="pill-sample" style="background:#88898a">#88898a</span></td><td>Mid gray.</td></tr>
@@ -151,164 +122,6 @@ Because the inks are transparent, layering two colors creates a third. This is t
 Designers working with riso think in layers, not in final colors. You separate your artwork into individual color channels — one grayscale image per ink color — and the machine prints them sequentially. Where the layers overlap, the inks mix optically and physically on the paper.
 
 This is fundamentally different from CMYK printing, where four inks are applied in precise halftone dots to simulate continuous color. Riso overprinting is coarser, more visible, and more unpredictable. That's the appeal.
-
-### Overprint Palette Explorations
-
-These palettes use only 1–3 riso base inks. Every other color is either an overprint (two inks layered, simulated as multiply blend) or a tint. Some use split-color treatments where the number and label text are different inks.
-
-**1. Blue + Fluorescent Pink** — the classic two-color riso pairing.
-
-<table class="riso-swatches">
-<tr><td>Base inks</td><td><span class="pill-sample" style="background:#0078bf">#0078bf</span> <span class="pill-sample" style="background:#ff48b0">#ff48b0</span></td></tr>
-<tr><td>Mains</td><td><span class="pill-sample" style="background:#cc2464">overprint</span></td></tr>
-<tr><td>Soups</td><td><span class="pill-sample" style="background:#ff48b0">pink</span></td></tr>
-<tr><td>Sides</td><td><span class="pill-sample" style="background:#80bce0">blue tint</span></td></tr>
-<tr><td>Sweets</td><td><span class="pill-sample" style="background:#ffa4d8">pink tint</span></td></tr>
-<tr><td>Drinks</td><td><span class="pill-sample" style="background:#0078bf">blue</span></td></tr>
-<tr><td>Pantry</td><td><span class="pill-sample" style="background:#663878">overprint dark</span></td></tr>
-<tr><td>Articles</td><td><span class="pill-sample" style="background:#804090">overprint mid</span></td></tr>
-<tr><td>Colophon</td><td><span class="pill-sample" style="background:#3360a0">blue deep</span></td></tr>
-</table>
-
-**2. Scarlet + Sunflower** — warm, fiery. Overprint gives a burnt orange.
-
-<table class="riso-swatches">
-<tr><td>Base inks</td><td><span class="pill-sample" style="background:#f65058">#f65058</span> <span class="pill-sample" style="background:#ffb511">#ffb511</span></td></tr>
-<tr><td>Mains</td><td><span class="pill-sample" style="background:#f65058">scarlet</span></td></tr>
-<tr><td>Soups</td><td><span class="pill-sample" style="background:#e87020">overprint</span></td></tr>
-<tr><td>Sides</td><td><span class="pill-sample" style="background:#ffb511">sunflower</span></td></tr>
-<tr><td>Sweets</td><td><span class="pill-sample" style="background:#fba8ac">scarlet tint</span></td></tr>
-<tr><td>Drinks</td><td><span class="pill-sample" style="background:#ffda88">sunflower tint</span></td></tr>
-<tr><td>Pantry</td><td><span class="pill-sample" style="background:#c24018">overprint dark</span></td></tr>
-<tr><td>Articles</td><td><span class="pill-sample" style="background:#a03010">overprint deep</span></td></tr>
-<tr><td>Colophon</td><td><span class="pill-sample" style="background:#d08830">overprint mid</span></td></tr>
-</table>
-
-**3. Midnight only** — single-ink monochrome. All variation from tints.
-
-<table class="riso-swatches">
-<tr><td>Base ink</td><td><span class="pill-sample" style="background:#435060">#435060</span></td></tr>
-<tr><td>Mains</td><td><span class="pill-sample" style="background:#435060">100%</span></td></tr>
-<tr><td>Soups</td><td><span class="pill-sample" style="background:#5d6d7d">80%</span></td></tr>
-<tr><td>Sides</td><td><span class="pill-sample" style="background:#788a9a">60%</span></td></tr>
-<tr><td>Sweets</td><td><span class="pill-sample" style="background:#93a7b7">40%</span></td></tr>
-<tr><td>Drinks</td><td><span class="pill-sample" style="background:#2e3840">120% (double pass)</span></td></tr>
-<tr><td>Pantry</td><td><span class="pill-sample" style="background:#aec4d4">20%</span></td></tr>
-<tr><td>Articles</td><td><span class="pill-sample" style="background:#1a2028">near-black</span></td></tr>
-<tr><td>Colophon</td><td><span class="pill-sample" style="background:#c9d5df">10%</span></td></tr>
-</table>
-
-**4. Green + Violet** — complementary pair. Overprint gives a dark earthy brown.
-
-<table class="riso-swatches">
-<tr><td>Base inks</td><td><span class="pill-sample" style="background:#00a95c">#00a95c</span> <span class="pill-sample" style="background:#9d7ad2">#9d7ad2</span></td></tr>
-<tr><td>Mains</td><td><span class="pill-sample" style="background:#4d5a3a">overprint</span></td></tr>
-<tr><td>Soups</td><td><span class="pill-sample" style="background:#00a95c">green</span></td></tr>
-<tr><td>Sides</td><td><span class="pill-sample" style="background:#80d4ae">green tint</span></td></tr>
-<tr><td>Sweets</td><td><span class="pill-sample" style="background:#9d7ad2">violet</span></td></tr>
-<tr><td>Drinks</td><td><span class="pill-sample" style="background:#cebde9">violet tint</span></td></tr>
-<tr><td>Pantry</td><td><span class="pill-sample" style="background:#6b8060">overprint light</span></td></tr>
-<tr><td>Articles</td><td><span class="pill-sample" style="background:#3a4030">overprint dark</span></td></tr>
-<tr><td>Colophon</td><td><span class="pill-sample" style="background:#5e6898">overprint cool</span></td></tr>
-</table>
-
-**5. Fluorescent Pink + Yellow + Blue** — three-ink full spectrum. Closest to process color.
-
-<table class="riso-swatches">
-<tr><td>Base inks</td><td><span class="pill-sample" style="background:#ff48b0">#ff48b0</span> <span class="pill-sample" style="background:#ffe800">#ffe800</span> <span class="pill-sample" style="background:#0078bf">#0078bf</span></td></tr>
-<tr><td>Mains</td><td><span class="pill-sample" style="background:#e86020">pink × yellow</span></td></tr>
-<tr><td>Soups</td><td><span class="pill-sample" style="background:#ff48b0">pink</span></td></tr>
-<tr><td>Sides</td><td><span class="pill-sample" style="background:#00a858">yellow × blue</span></td></tr>
-<tr><td>Sweets</td><td><span class="pill-sample" style="background:#ffe800;color:#435060">yellow</span></td></tr>
-<tr><td>Drinks</td><td><span class="pill-sample" style="background:#0078bf">blue</span></td></tr>
-<tr><td>Pantry</td><td><span class="pill-sample" style="background:#882090">pink × blue</span></td></tr>
-<tr><td>Articles</td><td><span class="pill-sample" style="background:#3a3020">all three</span></td></tr>
-<tr><td>Colophon</td><td><span class="pill-sample" style="background:#80b4d8">blue tint</span></td></tr>
-</table>
-
-**6. Scarlet + Blue** — split-color numbers. Number in scarlet, text in blue.
-
-<table class="riso-swatches">
-<tr><td>Base inks</td><td><span class="pill-sample" style="background:#f65058">#f65058</span> <span class="pill-sample" style="background:#0078bf">#0078bf</span></td></tr>
-<tr><td>Mains</td><td><span class="pill-sample" style="background:#f65058">scarlet</span></td></tr>
-<tr><td>Soups</td><td><span class="pill-sample" style="background:#0078bf">blue</span></td></tr>
-<tr><td>Sides</td><td><span class="pill-sample" style="background:#80303c">overprint</span></td></tr>
-<tr><td>Sweets</td><td><span class="pill-sample" style="background:#fba8ac">scarlet tint</span></td></tr>
-<tr><td>Drinks</td><td><span class="pill-sample" style="background:#80bce0">blue tint</span></td></tr>
-<tr><td>Pantry</td><td><span class="pill-sample" style="background:#602848">overprint dark</span></td></tr>
-<tr><td>Articles</td><td><span class="pill-sample" style="background:#a04050">overprint warm</span></td></tr>
-<tr><td>Colophon</td><td><span class="pill-sample" style="background:#304878">overprint cool</span></td></tr>
-</table>
-
-**7. Fluorescent Orange only** — single neon ink. Vibrant monochrome.
-
-<table class="riso-swatches">
-<tr><td>Base ink</td><td><span class="pill-sample" style="background:#ff7477">#ff7477</span></td></tr>
-<tr><td>Mains</td><td><span class="pill-sample" style="background:#ff7477">100%</span></td></tr>
-<tr><td>Soups</td><td><span class="pill-sample" style="background:#ff9a9c">70%</span></td></tr>
-<tr><td>Sides</td><td><span class="pill-sample" style="background:#ffbabb">50%</span></td></tr>
-<tr><td>Sweets</td><td><span class="pill-sample" style="background:#ffdadb">25%</span></td></tr>
-<tr><td>Drinks</td><td><span class="pill-sample" style="background:#cc5d5f">double pass</span></td></tr>
-<tr><td>Pantry</td><td><span class="pill-sample" style="background:#e86668">90%</span></td></tr>
-<tr><td>Articles</td><td><span class="pill-sample" style="background:#993c3e">triple pass</span></td></tr>
-<tr><td>Colophon</td><td><span class="pill-sample" style="background:#ffedee">10%</span></td></tr>
-</table>
-
-**8. Teal + Flat Gold** — earthy, warm-cool contrast. Overprint gives olive.
-
-<table class="riso-swatches">
-<tr><td>Base inks</td><td><span class="pill-sample" style="background:#009da5">#009da5</span> <span class="pill-sample" style="background:#bb8b41">#bb8b41</span></td></tr>
-<tr><td>Mains</td><td><span class="pill-sample" style="background:#506030">overprint</span></td></tr>
-<tr><td>Soups</td><td><span class="pill-sample" style="background:#bb8b41">gold</span></td></tr>
-<tr><td>Sides</td><td><span class="pill-sample" style="background:#009da5">teal</span></td></tr>
-<tr><td>Sweets</td><td><span class="pill-sample" style="background:#ddc5a0">gold tint</span></td></tr>
-<tr><td>Drinks</td><td><span class="pill-sample" style="background:#80ced2">teal tint</span></td></tr>
-<tr><td>Pantry</td><td><span class="pill-sample" style="background:#6a7840">overprint light</span></td></tr>
-<tr><td>Articles</td><td><span class="pill-sample" style="background:#384828">overprint dark</span></td></tr>
-<tr><td>Colophon</td><td><span class="pill-sample" style="background:#907838">gold deep</span></td></tr>
-</table>
-
-**9. Blue + Sunflower + Fluorescent Pink** — number in sunflower, text in blue, pill bg in pink.
-
-<table class="riso-swatches">
-<tr><td>Base inks</td><td><span class="pill-sample" style="background:#0078bf">#0078bf</span> <span class="pill-sample" style="background:#ffb511">#ffb511</span> <span class="pill-sample" style="background:#ff48b0">#ff48b0</span></td></tr>
-<tr><td>Mains</td><td><span class="pill-sample" style="background:#ff48b0">pink</span></td></tr>
-<tr><td>Soups</td><td><span class="pill-sample" style="background:#ffb511;color:#435060">sunflower</span></td></tr>
-<tr><td>Sides</td><td><span class="pill-sample" style="background:#0078bf">blue</span></td></tr>
-<tr><td>Sweets</td><td><span class="pill-sample" style="background:#e87020">pink × sunflower</span></td></tr>
-<tr><td>Drinks</td><td><span class="pill-sample" style="background:#008858">blue × sunflower</span></td></tr>
-<tr><td>Pantry</td><td><span class="pill-sample" style="background:#882090">blue × pink</span></td></tr>
-<tr><td>Articles</td><td><span class="pill-sample" style="background:#503018">all three</span></td></tr>
-<tr><td>Colophon</td><td><span class="pill-sample" style="background:#ffa4d8">pink tint</span></td></tr>
-</table>
-
-**10. Black + Fluorescent Pink** — high contrast. Pink pops against black.
-
-<table class="riso-swatches">
-<tr><td>Base inks</td><td><span class="pill-sample" style="background:#000000">#000000</span> <span class="pill-sample" style="background:#ff48b0">#ff48b0</span></td></tr>
-<tr><td>Mains</td><td><span class="pill-sample" style="background:#ff48b0">pink</span></td></tr>
-<tr><td>Soups</td><td><span class="pill-sample" style="background:#000000">black</span></td></tr>
-<tr><td>Sides</td><td><span class="pill-sample" style="background:#ffa4d8">pink tint</span></td></tr>
-<tr><td>Sweets</td><td><span class="pill-sample" style="background:#cc3a8c">overprint</span></td></tr>
-<tr><td>Drinks</td><td><span class="pill-sample" style="background:#444444">black tint</span></td></tr>
-<tr><td>Pantry</td><td><span class="pill-sample" style="background:#882060">overprint dark</span></td></tr>
-<tr><td>Articles</td><td><span class="pill-sample" style="background:#222222">near-black</span></td></tr>
-<tr><td>Colophon</td><td><span class="pill-sample" style="background:#ffcce8">pink whisper</span></td></tr>
-</table>
-
-**11. Violet + Sunflower** — unexpected pair. Overprint gives a warm brown-mauve.
-
-<table class="riso-swatches">
-<tr><td>Base inks</td><td><span class="pill-sample" style="background:#9d7ad2">#9d7ad2</span> <span class="pill-sample" style="background:#ffb511">#ffb511</span></td></tr>
-<tr><td>Mains</td><td><span class="pill-sample" style="background:#9d7ad2">violet</span></td></tr>
-<tr><td>Soups</td><td><span class="pill-sample" style="background:#ffb511;color:#435060">sunflower</span></td></tr>
-<tr><td>Sides</td><td><span class="pill-sample" style="background:#a07830">overprint</span></td></tr>
-<tr><td>Sweets</td><td><span class="pill-sample" style="background:#cebde9">violet tint</span></td></tr>
-<tr><td>Drinks</td><td><span class="pill-sample" style="background:#ffda88">sunflower tint</span></td></tr>
-<tr><td>Pantry</td><td><span class="pill-sample" style="background:#785828">overprint dark</span></td></tr>
-<tr><td>Articles</td><td><span class="pill-sample" style="background:#604898">violet deep</span></td></tr>
-<tr><td>Colophon</td><td><span class="pill-sample" style="background:#c89840">overprint warm</span></td></tr>
-</table>
 
 ## Why It Looks the Way It Looks
 
