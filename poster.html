@@ -13,9 +13,9 @@ permalink: /poster/
     margin: 0.4in;
   }
 
-  /* Hide site chrome */
   .site-header,
-  .site-footer {
+  .site-footer,
+  .post-header {
     display: none !important;
   }
 
@@ -23,40 +23,32 @@ permalink: /poster/
     padding: 0 !important;
   }
 
-  .post-header {
+  .print-hint {
     display: none !important;
   }
 
-  /* Scale everything to fit one page */
-  .poster-wrap {
+  .post-content .index {
     transform-origin: top left;
     transform: scale(0.58);
-    width: 172%; /* inverse of scale to fill the page width */
+    width: 172%;
   }
 
-  /* Force pill colors to print */
   * {
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
   }
 }
 
-/* Screen: just show a print hint */
 .print-hint {
   font-family: monospace;
   font-size: 0.75rem;
   color: #88898a;
   margin-bottom: 1rem;
 }
-@media print {
-  .print-hint { display: none !important; }
-}
 </style>
 
-<p class="print-hint">This is the print version of the homepage. Use Cmd+P (or Ctrl+P) to print on 8.5 × 11".</p>
+<p class="print-hint">Print version of the homepage. Cmd+P → 8.5 × 11".</p>
 
-<div class="poster-wrap">
-<div class="index" markdown="1">
-**Mains** [Miso Steak](./r/miso-marinated-steak) · [Miso Grilled Chicken](./r/miso-grilled-chicken) · [Karaage](./r/karaage) · [Prime Rib](./r/prime-rib) · [Thin Burgers](./r/thin-burgers) · [Tortilla](./r/tortilla-espanola) · [Lazy Tortilla](./r/tortilla-espanola-lazy) · [Tonkatsu](./r/tonkatsu) · [Nitsuke](./r/nitsuke) · [Salade Niçoise](./r/nicoise-salad) · [Gyoza](./r/gyoza) **Soups & Hot Pots** [Clam Miso Soup](./r/clam-miso-soup) · [Ushiojiru](./r/ushiojiru) · [Tonjiru](./r/tonjiru) · [Doenjang Jjigae](./r/doenjang-jjigae) · [Chawanmushi](./r/chawanmushi) · [Sukiyaki](./r/sukiyaki) · [Ishikari Nabe](./r/ishikari-nabe) · [Tonyu Nabe](./r/tonyu-nabe) **Sides** [Mashed Potatoes](./r/robuchon-mashed-potatoes) · [Pickled Cabbage](./r/pickled-cabbage) · [Pickled Daikon](./r/pickled-daikon) **Sweets** [Matcha Affogato](./r/match-affogato) · [Coffee Jelly](./r/coffee-jelly) · [Tea Jelly](./r/tea-jelly) · [Bay Leaf Panna Cotta](./r/bay-leaf-panna-cotta) · [Purin](./r/purin) · [Double Chocolate Chip Cookies](./r/double-chocolate-chip-cookies) · [Matcha White Chocolate Cookies](./r/matcha-white-choco-cookies) · [Hojicha Cookies](./r/brown-butter-hojicha-cookies) · [Matcha Brownies](./r/matcha-brownies) · [Chocolate Brownies](./r/chocolate-brownies) · [Matcha Chiffon Cake](./r/matcha-chiffon-cake) · [Earl Grey Chiffon Cake](./r/earl-grey-chiffon-cake) · [Matcha Gateau au Chocolat](./r/matcha-gateau-au-chocolat) · [Chocolate Gateau au Chocolat](./r/chocolate-gateau-au-chocolat) · [Orange Gateau au Chocolat](./r/orange-chocolate-gateau-au-chocolat) · [Hojicha Gateau au Chocolat](./r/hojicha-gateau-au-chocolat) · [Vanilla Gateau au Chocolat](./r/vanilla-bean-gateau-au-chocolat) · [Canelé](./r/canele) · [Tarte Tatin](./r/tarte-tatin) **Drinks** [Cold Brew Tea](./r/cold-brew-tea) · [Matcha Americano](./r/matcha-americano) · [Matcha Latte](./r/matcha-latte) · [Tinto de Verano](./r/tinto-de-verano) · [Margarita](./r/margarita) · [Mojito](./r/mojito) · [Corpse Reviver No. 2](./r/corpse-reviver-no-2) · [Whiskey Sour](./r/whiskey-sour) · [Whiskey Sour (Acid-Adjusted OJ)](./r/whiskey-sour-acid-adjusted-oj) · [Gimlet](./r/gimlet) · [Manhattan](./r/manhattan) · [Coffee Manhattan](./r/coffee-manhattan) · [Old Fashioned](./r/old-fashioned) · [Port Tonic](./r/port-tonic) · [Suze Tonic](./r/suze-tonic) · [Lillet Spritz](./r/lillet-spritz) **Pantry** [Kombu Dashi](./r/kombu-dashi) · [Awase Dashi](./r/awase-dashi) · [Mentsuyu](./r/mentsuyu) · [Ponzu](./r/ponzu) · [Thyme Streusel](./r/thyme-streusel) · [Salted Caramel Sauce](./r/salted-caramel-sauce) **Articles** [T45 Flour for Canelé](./a/t45-flour-substitutes-for-canele) · [Hydration and Baking Ratios](./a/hydration-and-baking-ratios) · [Salt in Baking](./a/salt-in-baking) · [Acid-Adjusting Juice](./a/acid-adjusting-juice-for-cocktails) · [Risograph Printing and Color](./a/risograph-printing-and-color)
-</div>
+<div class="index">
+<p><strong>Mains</strong> <a href="./r/miso-marinated-steak">Miso Steak</a> · <a href="./r/miso-grilled-chicken">Miso Grilled Chicken</a> · <a href="./r/karaage">Karaage</a> · <a href="./r/prime-rib">Prime Rib</a> · <a href="./r/thin-burgers">Thin Burgers</a> · <a href="./r/tortilla-espanola">Tortilla</a> · <a href="./r/tortilla-espanola-lazy">Lazy Tortilla</a> · <a href="./r/tonkatsu">Tonkatsu</a> · <a href="./r/nitsuke">Nitsuke</a> · <a href="./r/nicoise-salad">Salade Niçoise</a> · <a href="./r/gyoza">Gyoza</a> <strong>Soups &amp; Hot Pots</strong> <a href="./r/clam-miso-soup">Clam Miso Soup</a> · <a href="./r/ushiojiru">Ushiojiru</a> · <a href="./r/tonjiru">Tonjiru</a> · <a href="./r/doenjang-jjigae">Doenjang Jjigae</a> · <a href="./r/chawanmushi">Chawanmushi</a> · <a href="./r/sukiyaki">Sukiyaki</a> · <a href="./r/ishikari-nabe">Ishikari Nabe</a> · <a href="./r/tonyu-nabe">Tonyu Nabe</a> <strong>Sides</strong> <a href="./r/robuchon-mashed-potatoes">Mashed Potatoes</a> · <a href="./r/pickled-cabbage">Pickled Cabbage</a> · <a href="./r/pickled-daikon">Pickled Daikon</a> <strong>Sweets</strong> <a href="./r/match-affogato">Matcha Affogato</a> · <a href="./r/coffee-jelly">Coffee Jelly</a> · <a href="./r/tea-jelly">Tea Jelly</a> · <a href="./r/bay-leaf-panna-cotta">Bay Leaf Panna Cotta</a> · <a href="./r/purin">Purin</a> · <a href="./r/double-chocolate-chip-cookies">Double Chocolate Chip Cookies</a> · <a href="./r/matcha-white-choco-cookies">Matcha White Chocolate Cookies</a> · <a href="./r/brown-butter-hojicha-cookies">Hojicha Cookies</a> · <a href="./r/matcha-brownies">Matcha Brownies</a> · <a href="./r/chocolate-brownies">Chocolate Brownies</a> · <a href="./r/matcha-chiffon-cake">Matcha Chiffon Cake</a> · <a href="./r/earl-grey-chiffon-cake">Earl Grey Chiffon Cake</a> · <a href="./r/matcha-gateau-au-chocolat">Matcha Gateau au Chocolat</a> · <a href="./r/chocolate-gateau-au-chocolat">Chocolate Gateau au Chocolat</a> · <a href="./r/orange-chocolate-gateau-au-chocolat">Orange Gateau au Chocolat</a> · <a href="./r/hojicha-gateau-au-chocolat">Hojicha Gateau au Chocolat</a> · <a href="./r/vanilla-bean-gateau-au-chocolat">Vanilla Gateau au Chocolat</a> · <a href="./r/canele">Canelé</a> · <a href="./r/tarte-tatin">Tarte Tatin</a> <strong>Drinks</strong> <a href="./r/cold-brew-tea">Cold Brew Tea</a> · <a href="./r/matcha-americano">Matcha Americano</a> · <a href="./r/matcha-latte">Matcha Latte</a> · <a href="./r/tinto-de-verano">Tinto de Verano</a> · <a href="./r/margarita">Margarita</a> · <a href="./r/mojito">Mojito</a> · <a href="./r/corpse-reviver-no-2">Corpse Reviver No. 2</a> · <a href="./r/whiskey-sour">Whiskey Sour</a> · <a href="./r/whiskey-sour-acid-adjusted-oj">Whiskey Sour (Acid-Adjusted OJ)</a> · <a href="./r/gimlet">Gimlet</a> · <a href="./r/manhattan">Manhattan</a> · <a href="./r/coffee-manhattan">Coffee Manhattan</a> · <a href="./r/old-fashioned">Old Fashioned</a> · <a href="./r/port-tonic">Port Tonic</a> · <a href="./r/suze-tonic">Suze Tonic</a> · <a href="./r/lillet-spritz">Lillet Spritz</a> <strong>Pantry</strong> <a href="./r/kombu-dashi">Kombu Dashi</a> · <a href="./r/awase-dashi">Awase Dashi</a> · <a href="./r/mentsuyu">Mentsuyu</a> · <a href="./r/ponzu">Ponzu</a> · <a href="./r/thyme-streusel">Thyme Streusel</a> · <a href="./r/salted-caramel-sauce">Salted Caramel Sauce</a> <strong>Articles</strong> <a href="./a/t45-flour-substitutes-for-canele">T45 Flour for Canelé</a> · <a href="./a/hydration-and-baking-ratios">Hydration and Baking Ratios</a> · <a href="./a/salt-in-baking">Salt in Baking</a> · <a href="./a/acid-adjusting-juice-for-cocktails">Acid-Adjusting Juice</a> · <a href="./a/risograph-printing-and-color">Risograph Printing and Color</a></p>
 </div>
