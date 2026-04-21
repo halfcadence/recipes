@@ -24,18 +24,18 @@ The inks never fully dry. They absorb into uncoated paper rather than sitting on
 Riso doesn't use CMYK. Instead, it uses spot colors — each drum holds one specific ink color. There are roughly 50+ ink colors available, though most print shops stock 8–15. Common colors include:
 
 <table class="riso-swatches">
-<tr><td>Blue</td><td><code style="background:#0078bf;color:#fff">#0078bf</code></td><td>The workhorse. Deep, slightly cyan-leaning.</td></tr>
-<tr><td>Fluorescent Pink</td><td><code style="background:#ff48b0;color:#fff">#ff48b0</code></td><td>The signature riso color. Neon, electric, unmistakable.</td></tr>
-<tr><td>Scarlet</td><td><code style="background:#f65058;color:#fff">#f65058</code></td><td>Warm, slightly orange. Not fire-engine red.</td></tr>
-<tr><td>Orange</td><td><code style="background:#ff6c2f;color:#fff">#ff6c2f</code></td><td>Pumpkin. Warm and saturated.</td></tr>
-<tr><td>Sunflower</td><td><code style="background:#ffb511;color:#fff">#ffb511</code></td><td>Bright, clean. Overprints well with blue and red.</td></tr>
-<tr><td>Green</td><td><code style="background:#00a95c;color:#fff">#00a95c</code></td><td>Grass green, slightly warm.</td></tr>
-<tr><td>Light Teal</td><td><code style="background:#009da5;color:#fff">#009da5</code></td><td>Blue-green, darker than you'd expect.</td></tr>
-<tr><td>Violet</td><td><code style="background:#9d7ad2;color:#fff">#9d7ad2</code></td><td>Muted, not violet. More grape than lavender.</td></tr>
-<tr><td>Midnight</td><td><code style="background:#435060;color:#fff">#435060</code></td><td>Blue-tinted dark grey.</td></tr>
-<tr><td>Aqua</td><td><code style="background:#5ec8e5;color:#fff">#5ec8e5</code></td><td>Light, airy. Needs dark text.</td></tr>
-<tr><td>Fluorescent Orange</td><td><code style="background:#ff7477;color:#fff">#ff7477</code></td><td>Coral-leaning. Glows under certain light.</td></tr>
-<tr><td>Metallic Gold</td><td><code style="background:#bb8b41;color:#fff">#bb8b41</code></td><td>Actual metallic sheen on paper.</td></tr>
+<tr><td>Blue</td><td><span class="pill-sample" style="background:#0078bf">#0078bf</span></td><td>The workhorse. Deep, slightly cyan-leaning.</td></tr>
+<tr><td>Fluorescent Pink</td><td><span class="pill-sample" style="background:#ff48b0">#ff48b0</span></td><td>The signature riso color. Neon, electric, unmistakable.</td></tr>
+<tr><td>Scarlet</td><td><span class="pill-sample" style="background:#f65058">#f65058</span></td><td>Warm, slightly orange. Not fire-engine red.</td></tr>
+<tr><td>Orange</td><td><span class="pill-sample" style="background:#ff6c2f">#ff6c2f</span></td><td>Pumpkin. Warm and saturated.</td></tr>
+<tr><td>Sunflower</td><td><span class="pill-sample" style="background:#ffb511">#ffb511</span></td><td>Bright, clean. Overprints well with blue and red.</td></tr>
+<tr><td>Green</td><td><span class="pill-sample" style="background:#00a95c">#00a95c</span></td><td>Grass green, slightly warm.</td></tr>
+<tr><td>Light Teal</td><td><span class="pill-sample" style="background:#009da5">#009da5</span></td><td>Blue-green, darker than you'd expect.</td></tr>
+<tr><td>Violet</td><td><span class="pill-sample" style="background:#9d7ad2">#9d7ad2</span></td><td>Muted, not violet. More grape than lavender.</td></tr>
+<tr><td>Midnight</td><td><span class="pill-sample" style="background:#435060">#435060</span></td><td>Blue-tinted dark grey.</td></tr>
+<tr><td>Aqua</td><td><span class="pill-sample" style="background:#5ec8e5">#5ec8e5</span></td><td>Light, airy. Needs dark text.</td></tr>
+<tr><td>Fluorescent Orange</td><td><span class="pill-sample" style="background:#ff7477">#ff7477</span></td><td>Coral-leaning. Glows under certain light.</td></tr>
+<tr><td>Metallic Gold</td><td><span class="pill-sample" style="background:#bb8b41">#bb8b41</span></td><td>Actual metallic sheen on paper.</td></tr>
 </table>
 
 Hex values are approximations — riso inks don't conform to any digital color standard. They look different on different papers, at different ink densities, and under different lighting. The hex codes from [Stencil Wiki](https://stencil.wiki/colors) and the [riso-colors npm package](https://www.npmjs.com/package/riso-colors) are the closest community-maintained references.
