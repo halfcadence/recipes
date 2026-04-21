@@ -84,16 +84,12 @@ h1, h2, h3, h4, h5, h6,
 
 // Riso article swatch tables — swatch first, constrained widths
 .riso-swatches {
-  table-layout: fixed;
   width: 100%;
 }
-.riso-swatches td:first-child { width: 6rem; }
-.riso-swatches td:nth-child(2) { width: 25%; }
+.riso-swatches td:first-child { width: 1%; white-space: nowrap; }
+.riso-swatches td:nth-child(2) { white-space: nowrap; }
 .riso-swatches .pill-sample {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  text-align: center;
+  display: inline-block;
 }
 .riso-swatches .section-row td {
   font-weight: 600;
