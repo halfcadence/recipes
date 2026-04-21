@@ -66,3 +66,13 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - Filenames MUST be kebab-case in the `r/` directory (e.g., `r/doenjang-jjigae.md`).
 - A link to the recipe MUST be added to `index.md` under the appropriate category.
 - Recipes not linked from `index.md` will not appear on the site.
+
+## Colors
+
+- The site uses Risograph ink colors exclusively. All UI colors MUST be actual riso ink hex values from [stencil.wiki](https://stencil.wiki/colors).
+- Each category has a riso ink color defined in `assets/main.scss`. New categories MUST be assigned a riso ink color and added to both the light and dark themed mixins.
+- UI grays are derived from Riso Midnight (`#435060`) and Riso Light Gray (`#88898a`). Generic grays like `#666`, `#999`, `#ccc` MUST NOT be used.
+- Dark mode colors MUST be derived from Midnight at varying lightness levels, not arbitrary neutral grays.
+- The Articles section uses a lighter Midnight variant (`#8b96a3`) in dark mode because the standard Midnight is too dark against the dark background.
+- Inline color swatches (e.g., in the riso article) SHOULD use the `.pill-sample` class for consistency with homepage pills.
+- `print-color-adjust: exact` SHOULD be used when colors need to survive printing.
