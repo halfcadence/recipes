@@ -1,5 +1,6 @@
 ---
 title: Coffee Jelly
+number: 2
 ---
 
 ## Ingredients

@@ -1,5 +1,6 @@
 ---
 title: Matcha Latte
+number: 18
 ---
 
 ## Ingredients

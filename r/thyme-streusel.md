@@ -1,5 +1,6 @@
 ---
 title: Thyme Streusel
+number: 5
 ---
 
 ## Ingredients

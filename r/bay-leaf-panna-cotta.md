@@ -1,5 +1,6 @@
 ---
 title: Bay Leaf Panna Cotta
+number: 4
 ---
 
 ## Ingredients

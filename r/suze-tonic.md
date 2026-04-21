@@ -1,5 +1,6 @@
 ---
 title: Suze & Tonic
+number: 56
 source: https://food52.com/recipes/77706-suze-tonic
 ---
 

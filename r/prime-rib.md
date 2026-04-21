@@ -1,5 +1,6 @@
 ---
 title: Reverse-Seared Prime Rib
+number: 31
 source: https://www.seriouseats.com/perfect-prime-rib-beef-recipe
 chef: J. Kenji López-Alt
 ---

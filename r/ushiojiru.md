@@ -1,5 +1,6 @@
 ---
 title: Ushiojiru (Clear Clam Soup)
+number: 46
 source: https://www.justonecookbook.com/japanese-clam-soup-clear-broth/
 ---
 

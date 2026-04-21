@@ -1,5 +1,6 @@
 ---
 title: Robuchon Mashed Potatoes
+number: 60
 chef: Joël Robuchon
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Asari no Misoshiru (Clam Miso Soup)
+number: 43
 ---
 
 ## Ingredients

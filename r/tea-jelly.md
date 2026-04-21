@@ -1,5 +1,6 @@
 ---
 title: Tea Jelly
+number: 3
 ---
 
 ## Ingredients

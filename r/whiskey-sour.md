@@ -1,5 +1,6 @@
 ---
 title: Whiskey Sour
+number: 36
 source: https://www.liquor.com/recipes/whiskey-sour/
 ---
 

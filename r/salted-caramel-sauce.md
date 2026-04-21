@@ -1,5 +1,6 @@
 ---
 title: Salted Caramel Sauce
+number: 6
 ---
 
 ## Ingredients

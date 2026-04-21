@@ -1,5 +1,6 @@
 ---
 title: Purin (Japanese Custard Pudding)
+number: 38
 source: https://www.justonecookbook.com/custard-pudding/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Doenjang Jjigae
+number: 23
 source: https://www.koreanbapsang.com/doenjang-jjigae-korean-soy-bean-paste/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Margarita
+number: 25
 source: https://www.liquor.com/recipes/margarita/
 ---
 

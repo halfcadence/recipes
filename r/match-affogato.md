@@ -1,5 +1,6 @@
 ---
 title: Matcha Affogato
+number: 1
 ---
 
 ## Ingredients

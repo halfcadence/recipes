@@ -1,5 +1,6 @@
 ---
 title: Chawanmushi
+number: 40
 source: https://www.justonecookbook.com/chawanmushi-savory-steamed-egg-custard/
 yield: 4
 ---

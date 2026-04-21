@@ -1,5 +1,6 @@
 ---
 title: Manhattan
+number: 52
 source: https://www.liquor.com/recipes/manhattan-2/
 ---
 

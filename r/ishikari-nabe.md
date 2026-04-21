@@ -1,5 +1,6 @@
 ---
 title: Ishikari Nabe (Salmon Hot Pot)
+number: 47
 source: https://www.justonecookbook.com/salmon-hot-pot/
 ---
 

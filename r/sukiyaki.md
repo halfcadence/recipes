@@ -1,5 +1,6 @@
 ---
 title: Sukiyaki
+number: 48
 source: https://www.justonecookbook.com/sukiyaki/
 ---
 

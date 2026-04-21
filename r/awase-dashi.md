@@ -1,5 +1,6 @@
 ---
 title: Awase Dashi (Kombu & Bonito)
+number: 45
 ---
 
 ## Ingredients

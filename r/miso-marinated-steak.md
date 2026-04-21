@@ -1,5 +1,6 @@
 ---
 title: Miso Marinated Steak
+number: 11
 source: https://www.youtube.com/watch?v=XX1QQOKyYYw
 chef: Yamashita, HAL YAMASHITA Tokyo
 ---

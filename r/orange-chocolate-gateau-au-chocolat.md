@@ -1,5 +1,6 @@
 ---
 title: Orange Chocolate Gateau au Chocolat
+number: 21
 source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Kombu Dashi
+number: 44
 ---
 
 ## Ingredients

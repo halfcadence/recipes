@@ -1,5 +1,6 @@
 ---
 title: Tonyu Nabe (Soy Milk Hot Pot)
+number: 50
 source: https://www.justonecookbook.com/soy-milk-hot-pot-tonyu-nabe/
 ---
 

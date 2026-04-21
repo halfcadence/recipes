@@ -1,5 +1,6 @@
 ---
 title: Cold Brew Tea
+number: 7
 ---
 
 ## Ingredients
