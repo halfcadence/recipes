@@ -6,6 +6,8 @@ permalink: /changelog/
 
 ## 2026-04-21
 
+- Add 3 coffee recipes: pour over, Hario Switch, AeroPress — with grind settings for Remi and Lagom Mini 2.
+- Add 2 articles: Dialing In the Remi, Dialing In the Lagom Mini 2.
 - Rename "Style Guide" section to "Colophon".
 - Add changelog page with full reverse-engineered history. Add changelog rule to steering.
 - List base recipes before variants in index.
