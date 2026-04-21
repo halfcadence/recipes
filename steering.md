@@ -1,7 +1,7 @@
 ---
-title: Style Guide
+title: Steering
 category: styleguide
-permalink: /style-guide/
+permalink: /steering/
 ---
 
 The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this document are to be interpreted as described in RFC 2119.

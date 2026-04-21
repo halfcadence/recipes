@@ -7,4 +7,4 @@ fileMatchPattern: "r/*.md,a/*.md,index.md"
 
 Follow the rules defined in the published style guide page:
 
-#[[file:style-guide.md]]
+#[[file:steering.md]]
