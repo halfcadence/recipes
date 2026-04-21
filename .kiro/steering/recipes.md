@@ -17,7 +17,7 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 
 - `title` MUST be included.
 - `category` MUST be included. Valid values: `drinks`, `sweets`, `mains`, `soups`, `sides`, `pantry`, `articles`. This drives the page color theme.
-- `number` MUST be included. Use the next sequential number (chronological). Check the highest existing number in `r/` and `a/` files and add 1.
+- `number` MUST be included for recipes. Use the next sequential number (chronological). Check the highest existing number in `r/` files and add 1. Articles and style guide pages MUST NOT have a number.
 - `source` SHOULD be included if the recipe is adapted from an external source.
 - `chef` MAY be included if the source chef is notable.
 - `yield` MAY be included to indicate servings or pieces.
