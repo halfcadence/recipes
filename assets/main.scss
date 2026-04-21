@@ -54,11 +54,26 @@ h1, h2, h3, h4, h5, h6,
 }
 .post-header { margin-bottom: 0.625rem; }
 
-// Index — section titles as inverted pills
+// Index — section titles as inverted pills with auto-numbered counter
+.index {
+  counter-reset: section;
+}
 .index strong {
   @extend %pill;
   margin-right: 0.2em;
   font-weight: 600;
+  counter-increment: section;
+  display: inline-flex;
+  align-items: center;
+  line-height: normal;
+}
+.index strong::before {
+  content: counter(section, decimal-leading-zero);
+  font-family: monospace;
+  font-size: 0.9em;
+  color: #999;
+  margin-right: 0.4em;
+  line-height: 1;
 }
 
 // Tighter spacing
