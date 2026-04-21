@@ -78,3 +78,9 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - The Articles section uses a lighter Midnight variant (`#8b96a3`) in dark mode because the standard Midnight is too dark against the dark background.
 - Inline color swatches (e.g., in the riso article) SHOULD use the `.pill-sample` class for consistency with homepage pills.
 - `print-color-adjust: exact` SHOULD be used when colors need to survive printing.
+
+## Changelog
+
+- All meaningful changes to recipes, styling, or site structure MUST be logged in `changelog.md` with the current date.
+- Entries SHOULD be grouped by date, newest first.
+- Each entry SHOULD be a single bullet describing what changed. Keep it concise.

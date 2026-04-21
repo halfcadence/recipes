@@ -1,0 +1,95 @@
+---
+title: Changelog
+category: styleguide
+permalink: /changelog/
+---
+
+## 2026-04-21
+
+- Add 7 recipes: steak au poivre, corn soup, kinpira gobo, ohitashi, potato salad, highball, yuzu highball.
+- Add riso color rules to steering.
+- Distinguish technique modifiers from flavor modifiers in naming rules.
+- List base recipes before variants in index (highball → yuzu highball, gateau au chocolat → matcha/orange/hojicha/vanilla, brownies → matcha brownies).
+- Rename Chocolate Gateau au Chocolat → Gateau au Chocolat.
+- Rename Porto Tonico → Port Tonic, Suze & Tonic → Suze Tonic.
+- Simplify 27 recipe and article titles: drop technique modifiers, parenthetical descriptions, chef names, article subtitles.
+- Add naming rules to steering.
+- Riso-derived dark mode: all grays derived from Midnight and Light Gray inks. Themed pages keep section colors in dark mode. Articles section uses lighter Midnight variant.
+- Fix notes heading/body color mismatch in dark mode.
+- Note dividers use neutral grey instead of theme color.
+- Riso article color table uses pill-style hex swatches with colored backgrounds.
+- Fix hardcoded grays in type-comparison and colors pages for dark mode.
+- Body text uses Midnight (#435060) in light mode instead of minima default.
+- Add steering page (published style guide). Kiro steering doc references it as source of truth.
+- Drop numbers from style guide and article pages.
+- Allow new categories in steering doc.
+
+## 2026-04-20
+
+- Switch to authentic Risograph ink colors from stencil.wiki.
+- Add article: Risograph Printing and Color.
+- Add Style Guide section to homepage (colors, typography, type comparison).
+- Make section labels clickable — navigate to homepage anchor.
+- Add recipe numbers (#001–#063) to all recipes.
+- Hang step counters in left margin as monospace notes.
+- Switch notes to tight vertical stack with thin separators.
+- Apply inverted pill style to index section titles with auto-numbered counters.
+- Convert all px values to relative units (rem/em).
+
+## 2026-04-19
+
+- Add gyoza, matcha brownies, chocolate brownies, Robuchon mashed potatoes, mentsuyu, ponzu.
+- Add coffee manhattan, porto tonico, suze & tonic, lillet spritz.
+- Add gimlet, manhattan, old fashioned.
+- Add tonjiru, sukiyaki, ishikari nabe, tonyu nabe.
+- Add awase dashi, ushiojiru, kombu dashi, clam miso soup.
+- Add salade niçoise, nitsuke, chawanmushi.
+- Add tarte tatin, purin.
+- Add acid-adjusting juice article.
+- Add whiskey sour, acid-adjusted OJ variant, tonkatsu.
+- Add tortilla española and lazy version.
+- Add karaage, prime rib, thin burgers.
+- Reorganize index from 11 categories to 7.
+
+## 2026-04-18
+
+- Add 6 recipes: pickled cabbage, pickled daikon, margarita, mojito, corpse reviver no. 2, tinto de verano.
+- Standardize all recipes to table format and grams.
+- Use oz for cocktail measurements.
+- Use Bricolage Grotesque font.
+- Brutalist typography: uniform text size, bold headings, inverted pill titles.
+- Brutalist header: border-top, no nav, "recipes by andrew".
+- Remove footer. Combine title and attribution in header.
+- Add dark mode support.
+- Convert all temperatures to Fahrenheit.
+- Unify formatting across all recipes.
+
+## 2026-04-17
+
+- Add brown butter hojicha white chocolate cookies.
+- Add orange chocolate and hojicha gateau au chocolat.
+- Add vanilla bean gateau au chocolat with brown butter.
+- Add matcha americano and matcha latte.
+- Add article: salt percentages in baking.
+- Bump salt across gateau and cookie recipes.
+
+## 2026-04-16
+
+- Add chocolate gateau au chocolat.
+- Add earl grey chiffon cake, matcha chiffon cake, matcha gateau au chocolat.
+- Convert all recipes to metric measurements.
+- Add article: hydration and baking ratios.
+
+## 2026-04-15
+
+- Add canelé recipe (Gilles Marchal).
+- Add miso grilled chicken and miso marinated steak.
+- Add matcha white chocolate cookies.
+- Add double chocolate chip cookies.
+
+## Earlier
+
+- Initial site setup with Jekyll and minima theme.
+- Add matcha affogato, coffee jelly, tea jelly, bay leaf panna cotta.
+- Add cold brew tea, thyme streusel, salted caramel sauce.
+- Add about page.
