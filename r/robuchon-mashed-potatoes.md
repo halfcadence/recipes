@@ -1,5 +1,6 @@
 ---
 title: Robuchon Mashed Potatoes
+category: sides
 number: 60
 chef: Joël Robuchon
 ---

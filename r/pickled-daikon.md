@@ -1,5 +1,6 @@
 ---
 title: Pickled Daikon
+category: sides
 number: 28
 source: https://www.justonecookbook.com/pickled-daikon/
 ---

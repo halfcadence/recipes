@@ -1,5 +1,6 @@
 ---
 title: Asari no Misoshiru (Clam Miso Soup)
+category: soups
 number: 43
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Sukiyaki
+category: soups
 number: 48
 source: https://www.justonecookbook.com/sukiyaki/
 ---
