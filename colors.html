@@ -1,0 +1,125 @@
+---
+layout: default
+title: Color Test
+permalink: /colors/
+---
+
+<style>
+.test-palette {
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+.test-palette h2 {
+  font-size: 1rem !important;
+  margin-bottom: 0.5rem;
+}
+.test-palette p.desc {
+  color: #666;
+  margin-bottom: 1rem;
+  font-size: 0.9em;
+}
+.pill-row { margin-bottom: 1rem; }
+.pill-sample {
+  display: inline-flex;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  padding: 0.125em 0.375em;
+  margin-right: 0.2em;
+  margin-bottom: 0.3em;
+  font-weight: 600;
+  line-height: normal;
+}
+.pill-sample::before {
+  content: attr(data-num);
+  font-family: monospace;
+  font-size: 0.9em;
+  color: rgba(255,255,255,0.6);
+  margin-right: 0.4em;
+}
+</style>
+
+<div class="test-palette">
+<h2>Active: Risograph</h2>
+<p class="desc">Vibrant but slightly desaturated — inspired by soy-based riso inks. Handmade feel without being cartoonish.</p>
+<div class="pill-row">
+<span class="pill-sample" data-num="01" style="background:#3d5afe">Drinks</span>
+<span class="pill-sample" data-num="02" style="background:#ff4081">Sweets</span>
+<span class="pill-sample" data-num="03" style="background:#e53935">Mains</span>
+<span class="pill-sample" data-num="04" style="background:#fb8c00">Soups &amp; Hot Pots</span>
+<span class="pill-sample" data-num="05" style="background:#43a047">Sides</span>
+<span class="pill-sample" data-num="06" style="background:#6a1b9a">Pantry</span>
+<span class="pill-sample" data-num="07" style="background:#424242">Articles</span>
+</div>
+</div>
+
+<div class="test-palette">
+<h2>Alt: Bright Primaries</h2>
+<p class="desc">Pure blue, hot pink, red-orange, pumpkin, grass green, violet, black. Very loud.</p>
+<div class="pill-row">
+<span class="pill-sample" data-num="01" style="background:#0047ff">Drinks</span>
+<span class="pill-sample" data-num="02" style="background:#ff2d6f">Sweets</span>
+<span class="pill-sample" data-num="03" style="background:#ff2e00">Mains</span>
+<span class="pill-sample" data-num="04" style="background:#ff8c00">Soups &amp; Hot Pots</span>
+<span class="pill-sample" data-num="05" style="background:#00b33c">Sides</span>
+<span class="pill-sample" data-num="06" style="background:#7c3aed">Pantry</span>
+<span class="pill-sample" data-num="07" style="background:#111">Articles</span>
+</div>
+</div>
+
+<div class="test-palette">
+<h2>Alt: Equal-lightness Hues</h2>
+<p class="desc">All colors at equal HSL lightness (45%). Most balanced visually — no pill feels heavier than another.</p>
+<div class="pill-row">
+<span class="pill-sample" data-num="01" style="background:hsl(220,80%,45%)">Drinks</span>
+<span class="pill-sample" data-num="02" style="background:hsl(340,75%,45%)">Sweets</span>
+<span class="pill-sample" data-num="03" style="background:hsl(10,75%,45%)">Mains</span>
+<span class="pill-sample" data-num="04" style="background:hsl(30,90%,45%)">Soups &amp; Hot Pots</span>
+<span class="pill-sample" data-num="05" style="background:hsl(140,70%,35%)">Sides</span>
+<span class="pill-sample" data-num="06" style="background:hsl(265,60%,45%)">Pantry</span>
+<span class="pill-sample" data-num="07" style="background:hsl(0,0%,15%)">Articles</span>
+</div>
+</div>
+
+<div class="test-palette">
+<h2>Alt: Muted Primaries</h2>
+<p class="desc">Classic Swiss/Dutch design — rich, saturated, but darker. More "poster" than "neon."</p>
+<div class="pill-row">
+<span class="pill-sample" data-num="01" style="background:#1a3a8f">Drinks</span>
+<span class="pill-sample" data-num="02" style="background:#b82c5d">Sweets</span>
+<span class="pill-sample" data-num="03" style="background:#c8321c">Mains</span>
+<span class="pill-sample" data-num="04" style="background:#d46a14">Soups &amp; Hot Pots</span>
+<span class="pill-sample" data-num="05" style="background:#3a7a3c">Sides</span>
+<span class="pill-sample" data-num="06" style="background:#5e2e8c">Pantry</span>
+<span class="pill-sample" data-num="07" style="background:#222">Articles</span>
+</div>
+</div>
+
+<div class="test-palette">
+<h2>Alt: Memphis / 80s</h2>
+<p class="desc">Playful pop-art palette. Teal, magenta, yellow, coral. More decorative than brutalist.</p>
+<div class="pill-row">
+<span class="pill-sample" data-num="01" style="background:#00bcd4">Drinks</span>
+<span class="pill-sample" data-num="02" style="background:#e91e63">Sweets</span>
+<span class="pill-sample" data-num="03" style="background:#f44336">Mains</span>
+<span class="pill-sample" data-num="04" style="background:#ff9800">Soups &amp; Hot Pots</span>
+<span class="pill-sample" data-num="05" style="background:#8bc34a">Sides</span>
+<span class="pill-sample" data-num="06" style="background:#9c27b0">Pantry</span>
+<span class="pill-sample" data-num="07" style="background:#607d8b">Articles</span>
+</div>
+</div>
+
+<div class="test-palette">
+<h2>Alt: Food-themed</h2>
+<p class="desc">Each color evokes its food category. Ice-blue drinks, caramel sweets, char-grill mains, miso yellow, veggie green, spice sepia.</p>
+<div class="pill-row">
+<span class="pill-sample" data-num="01" style="background:#4a90e2">Drinks</span>
+<span class="pill-sample" data-num="02" style="background:#d4427b">Sweets</span>
+<span class="pill-sample" data-num="03" style="background:#c8321c">Mains</span>
+<span class="pill-sample" data-num="04" style="background:#e0a020">Soups &amp; Hot Pots</span>
+<span class="pill-sample" data-num="05" style="background:#6b8e3d">Sides</span>
+<span class="pill-sample" data-num="06" style="background:#8b5a2b">Pantry</span>
+<span class="pill-sample" data-num="07" style="background:#555">Articles</span>
+</div>
+</div>
