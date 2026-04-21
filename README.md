@@ -1,5 +1,7 @@
 # Recipes
 
+https://halfcadence.github.io/recipes/
+
 ## Local Development
 
 ```
