@@ -79,6 +79,19 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - Inline color swatches (e.g., in the riso article) SHOULD use the `.pill-sample` class for consistency with homepage pills.
 - `print-color-adjust: exact` SHOULD be used when colors need to survive printing.
 
+## Illustrations
+
+- Illustrations MUST use only the two base inks: Blue (`#0078bf`) and Fluorescent Pink (`#ff48b0`).
+- Each illustration MUST be an SVG file in `assets/illustrations/`, named to match the recipe slug (e.g., `clam-miso-soup.svg`).
+- Each illustration MUST use at most 2 shapes. 1 shape is better than an ugly 2nd shape.
+- One shape MUST be pink, the other MUST be blue with `mix-blend-mode: multiply` to create the overprint where they overlap.
+- The blue shape SHOULD be offset 3–4px down-right from the pink shape to simulate misregistration.
+- Shapes MUST be primary geometric forms only: circle, rectangle, square, triangle (polygon). No paths, no curves, no organic shapes.
+- Illustrations SHOULD prioritize symmetry and minimalism. Clean, centered, balanced.
+- Each illustration MUST be visually distinct from the others. Vary the shape combination: circle+circle, rectangle+rectangle, triangle+triangle, circle+rectangle, circle+square, etc.
+- The viewBox MUST be `0 0 200 200`.
+- The illustration gallery page is at `/illustrations/` and MUST be linked from the Colophon section of `index.md`.
+
 ## Changelog
 
 - All meaningful changes to recipes, styling, or site structure MUST be logged in `changelog.md` with the current date.

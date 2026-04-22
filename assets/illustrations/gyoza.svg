@@ -1,31 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <!-- Row of gyoza from the side -->
-  <!-- Gyoza 1 -->
-  <path d="M25,130 Q45,90 65,130" fill="none" stroke="#f65058" stroke-width="2.5"/>
-  <path d="M25,130 Q45,120 65,130" fill="#ffb511" opacity="0.7"/>
-  <path d="M25,130 L65,130" stroke="#f65058" stroke-width="1.5"/>
-  <!-- Crispy bottom -->
-  <rect x="25" y="130" width="40" height="4" fill="#ffb511" opacity="0.9"/>
-  <!-- Gyoza 2 -->
-  <path d="M70,130 Q90,88 110,130" fill="none" stroke="#f65058" stroke-width="2.5"/>
-  <path d="M70,130 Q90,118 110,130" fill="#ffb511" opacity="0.7"/>
-  <path d="M70,130 L110,130" stroke="#f65058" stroke-width="1.5"/>
-  <rect x="70" y="130" width="40" height="4" fill="#ffb511" opacity="0.9"/>
-  <!-- Gyoza 3 -->
-  <path d="M115,130 Q135,90 155,130" fill="none" stroke="#f65058" stroke-width="2.5"/>
-  <path d="M115,130 Q135,120 155,130" fill="#ffb511" opacity="0.7"/>
-  <path d="M115,130 L155,130" stroke="#f65058" stroke-width="1.5"/>
-  <rect x="115" y="130" width="40" height="4" fill="#ffb511" opacity="0.9"/>
-  <!-- Pleats (scarlet lines) -->
-  <line x1="35" y1="118" x2="38" y2="125" stroke="#f65058" stroke-width="1" opacity="0.5"/>
-  <line x1="45" y1="110" x2="47" y2="120" stroke="#f65058" stroke-width="1" opacity="0.5"/>
-  <line x1="55" y1="118" x2="52" y2="125" stroke="#f65058" stroke-width="1" opacity="0.5"/>
-  <line x1="80" y1="116" x2="83" y2="124" stroke="#f65058" stroke-width="1" opacity="0.5"/>
-  <line x1="90" y1="108" x2="92" y2="118" stroke="#f65058" stroke-width="1" opacity="0.5"/>
-  <line x1="100" y1="116" x2="97" y2="124" stroke="#f65058" stroke-width="1" opacity="0.5"/>
-  <line x1="125" y1="118" x2="128" y2="125" stroke="#f65058" stroke-width="1" opacity="0.5"/>
-  <line x1="135" y1="110" x2="137" y2="120" stroke="#f65058" stroke-width="1" opacity="0.5"/>
-  <line x1="145" y1="118" x2="142" y2="125" stroke="#f65058" stroke-width="1" opacity="0.5"/>
-  <!-- Plate line -->
-  <line x1="15" y1="138" x2="165" y2="138" stroke="#f65058" stroke-width="1" opacity="0.3"/>
+  <circle cx="70" cy="100" r="38" fill="#ff48b0"/>
+  <circle cx="130" cy="100" r="38" fill="#0078bf" style="mix-blend-mode:multiply"/>
 </svg>

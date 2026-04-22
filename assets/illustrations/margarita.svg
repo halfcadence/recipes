@@ -1,27 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <!-- Glass stem -->
-  <line x1="100" y1="135" x2="100" y2="168" stroke="#009da5" stroke-width="2"/>
-  <line x1="85" y1="168" x2="115" y2="168" stroke="#009da5" stroke-width="2"/>
-  <!-- Glass bowl -->
-  <path d="M55,95 L100,140 L145,95" fill="none" stroke="#009da5" stroke-width="2"/>
-  <line x1="55" y1="95" x2="145" y2="95" stroke="#009da5" stroke-width="1.5"/>
-  <!-- Liquid -->
-  <path d="M58,95 L100,137 L142,95 Z" fill="#ffb511" opacity="0.25"/>
-  <!-- Salt rim dots -->
-  <circle cx="58" cy="94" r="1.5" fill="#009da5" opacity="0.3"/>
-  <circle cx="65" cy="93" r="1.5" fill="#ffb511" opacity="0.3"/>
-  <circle cx="72" cy="92.5" r="1.5" fill="#009da5" opacity="0.3"/>
-  <circle cx="79" cy="92" r="1.5" fill="#ffb511" opacity="0.3"/>
-  <circle cx="86" cy="92" r="1.5" fill="#009da5" opacity="0.3"/>
-  <circle cx="93" cy="91.5" r="1.5" fill="#ffb511" opacity="0.3"/>
-  <circle cx="100" cy="91.5" r="1.5" fill="#009da5" opacity="0.3"/>
-  <circle cx="107" cy="91.5" r="1.5" fill="#ffb511" opacity="0.3"/>
-  <circle cx="114" cy="92" r="1.5" fill="#009da5" opacity="0.3"/>
-  <circle cx="121" cy="92" r="1.5" fill="#ffb511" opacity="0.3"/>
-  <circle cx="128" cy="92.5" r="1.5" fill="#009da5" opacity="0.3"/>
-  <circle cx="135" cy="93" r="1.5" fill="#ffb511" opacity="0.3"/>
-  <circle cx="142" cy="94" r="1.5" fill="#009da5" opacity="0.3"/>
-  <!-- Lime wedge -->
-  <path d="M130,85 L142,75 L145,90 Z" fill="#ffb511" opacity="0.5"/>
-  <path d="M130,85 L142,75 L145,90 Z" fill="none" stroke="#009da5" stroke-width="1" opacity="0.4"/>
+  <polygon points="25,40 175,40 100,160" fill="#ff48b0"/>
+  <circle cx="155" cy="50" r="18" fill="#0078bf" style="mix-blend-mode:multiply"/>
 </svg>
