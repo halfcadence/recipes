@@ -88,7 +88,7 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - The blue shape SHOULD be offset 3–4px down-right from the pink shape to simulate misregistration.
 - Shapes MUST be primary geometric forms only: circle, rectangle, square, triangle (polygon). No paths, no curves, no organic shapes.
 - Illustrations SHOULD prioritize symmetry and minimalism. Clean, centered, balanced.
-- Each illustration MUST be visually distinct from the others. Vary the shape combination: circle+circle, rectangle+rectangle, triangle+triangle, circle+rectangle, circle+square, etc.
+- Each illustration MUST be visually distinct from the others. Vary the shape combination: circle+circle, rectangle+rectangle, triangle+triangle, circle+rectangle, circle+square, etc. Reversing which color is pink vs blue is a valid way to differentiate similar compositions.
 - The viewBox MUST be `0 0 200 200`.
 - The illustration gallery page is at `/illustrations/` and MUST be linked from the Colophon section of `index.md`.
 
