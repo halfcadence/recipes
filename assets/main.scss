@@ -11,9 +11,9 @@
 // Base inks: Blue #0078bf, Fluorescent Pink #ff48b0
 // All other colors are overprints (multiply blend) or tints
 $mains: #cc2464;      // overprint (blue × pink)
-$soups: #ff48b0;      // fluorescent pink
-$sides: #80bce0;      // blue 50% tint
-$sweets: #ffa4d8;     // pink 50% tint
+$soups: #d53090;      // fluorescent pink (darkened for a11y)
+$sides: #2070a0;      // blue tint (darkened for a11y)
+$sweets: #c04880;     // pink tint (darkened for a11y)
 $drinks: #0078bf;     // blue
 $pantry: #663878;     // overprint dark
 $articles: #804090;   // overprint mid
@@ -207,6 +207,9 @@ a, a:visited { color: inherit; text-decoration: underline; }
 a:hover { text-decoration: none; color: inherit; }
 a:focus-visible { outline: 2px solid #0078bf; outline-offset: 2px; }
 
+// Default selection color — blue base ink
+::selection { background: rgba(#0078bf, 0.25); }
+
 // Notes — de-emphasized, tight stack with thin separators
 .notes { color: $grey-light; }
 .notes h2, .notes h3 { color: inherit; }
@@ -250,6 +253,7 @@ table td:first-child { font-weight: 600; white-space: nowrap; width: 1%; }
   .site-header { border-top: 1rem solid $color; }
   .post-content ol > li::before { color: $color; }
   .post-header { border-bottom: 2px solid $color; padding-bottom: 0.5rem; }
+  ::selection { background: rgba($color, 0.25); }
 }
 
 body.section-mains { @include themed($mains); }
