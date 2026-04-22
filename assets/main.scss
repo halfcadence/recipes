@@ -23,7 +23,7 @@ $colophon: #3360a0;   // blue deep
 $articles-dark: #b080c0;
 
 // UI greys — all riso-derived from Midnight (#435060) + Light Gray (#88898a)
-$grey-light: #88898a;   // riso Light Gray ink — notes, step counters, labels
+$grey-light: #6e6f70;   // riso Light Gray ink (darkened for a11y) — notes, step counters, labels
 $grey-rule: #d2d4d6;    // 20% Midnight tint — table/note separators
 $grey-dark: #435060;    // Midnight — body text, strong de-emphasis
 $ink-black: #111;       // near-black for pills, headers
@@ -38,7 +38,13 @@ $dark-rule:    #2e3843;  // Midnight at ~22% — table/note separators
 // Paper-colored background — warm off-white like uncoated riso stock
 $paper: #f5f0e8;
 
-body { font-family: 'Bricolage Grotesque', sans-serif; color: $grey-dark; background-color: $paper; }
+body {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  color: $grey-dark;
+  background-color: $paper;
+  font-size: 1.0625rem; // 17px — slightly larger base for readability
+  line-height: 1.6;
+}
 
 // Header
 .site-header {
@@ -189,7 +195,7 @@ $index-block-layout: true;
   content: counter(step, decimal-leading-zero);
   font-family: monospace;
   font-weight: 600;
-  font-size: 0.75em;
+  font-size: 0.8125em;
   color: $grey-light;
   position: absolute;
   left: -2.5rem;
@@ -199,6 +205,7 @@ $index-block-layout: true;
 // Links — all identical, inherit color
 a, a:visited { color: inherit; text-decoration: underline; }
 a:hover { text-decoration: none; color: inherit; }
+a:focus-visible { outline: 2px solid #0078bf; outline-offset: 2px; }
 
 // Notes — de-emphasized, tight stack with thin separators
 .notes { color: $grey-light; }
@@ -223,7 +230,7 @@ table td:first-child { font-weight: 600; white-space: nowrap; width: 1%; }
 
 .section-label {
   font-family: monospace;
-  font-size: 0.75em;
+  font-size: 0.8125em;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   margin-bottom: 0.4rem;
