@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Plate -->
+  <ellipse cx="100" cy="140" rx="70" ry="15" fill="#f65058" opacity="0.15"/>
+  <!-- Tart base (pastry) -->
+  <ellipse cx="100" cy="120" rx="60" ry="20" fill="#bb8b41" opacity="0.4"/>
+  <!-- Caramelized apples from above -->
+  <circle cx="80" cy="115" r="15" fill="#f65058" opacity="0.7"/>
+  <circle cx="105" cy="108" r="14" fill="#bb8b41" opacity="0.8"/>
+  <circle cx="120" cy="120" r="13" fill="#f65058" opacity="0.65"/>
+  <circle cx="90" cy="128" r="12" fill="#bb8b41" opacity="0.75"/>
+  <circle cx="110" cy="130" r="11" fill="#f65058" opacity="0.6"/>
+  <!-- Caramel glaze -->
+  <ellipse cx="100" cy="118" rx="45" ry="16" fill="#bb8b41" opacity="0.15"/>
+  <!-- Apple details -->
+  <path d="M78,112 Q80,108 82,112" fill="none" stroke="#bb8b41" stroke-width="1" opacity="0.5"/>
+  <path d="M103,105 Q105,101 107,105" fill="none" stroke="#f65058" stroke-width="1" opacity="0.4"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Glass shadow -->
+  <rect x="68" y="52" width="64" height="110" rx="3" fill="#00a95c" opacity="0.15" transform="translate(3,2)"/>
+  <!-- Glass -->
+  <rect x="65" y="50" width="64" height="110" rx="3" fill="none" stroke="#88898a" stroke-width="2"/>
+  <!-- Milk layer (bottom) -->
+  <rect x="67" y="100" width="60" height="58" rx="2" fill="#88898a" opacity="0.12"/>
+  <!-- Matcha layer (top) -->
+  <rect x="67" y="52" width="60" height="50" rx="2" fill="#00a95c" opacity="0.6"/>
+  <!-- Gradient blend zone -->
+  <rect x="67" y="95" width="60" height="15" fill="#00a95c" opacity="0.25"/>
+  <!-- Ice cubes -->
+  <rect x="75" y="60" width="14" height="12" rx="2" fill="#88898a" opacity="0.15" transform="rotate(5,82,66)"/>
+  <rect x="95" y="70" width="12" height="11" rx="2" fill="#88898a" opacity="0.12" transform="rotate(-3,101,75)"/>
+  <rect x="80" y="85" width="13" height="11" rx="2" fill="#88898a" opacity="0.1" transform="rotate(8,86,90)"/>
+</svg>

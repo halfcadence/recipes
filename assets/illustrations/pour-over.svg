@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Server/carafe -->
+  <path d="M70,180 L75,120 L125,120 L130,180 Z" fill="#0078bf" opacity="0.12"/>
+  <path d="M70,180 L75,120 L125,120 L130,180 Z" fill="none" stroke="#0078bf" stroke-width="1.5"/>
+  <!-- V60 dripper -->
+  <path d="M65,120 L100,155 L135,120" fill="none" stroke="#ff48b0" stroke-width="2"/>
+  <path d="M65,120 L135,120" stroke="#ff48b0" stroke-width="2"/>
+  <!-- Dripper ribs -->
+  <line x1="80" y1="120" x2="95" y2="145" stroke="#ff48b0" stroke-width="0.8" opacity="0.3"/>
+  <line x1="100" y1="120" x2="100" y2="150" stroke="#ff48b0" stroke-width="0.8" opacity="0.3"/>
+  <line x1="120" y1="120" x2="105" y2="145" stroke="#ff48b0" stroke-width="0.8" opacity="0.3"/>
+  <!-- Coffee stream -->
+  <line x1="100" y1="155" x2="100" y2="170" stroke="#0078bf" stroke-width="1.5" opacity="0.5"/>
+  <!-- Coffee in server -->
+  <rect x="77" y="160" width="46" height="18" fill="#0078bf" opacity="0.2" rx="1"/>
+  <!-- Steam -->
+  <circle cx="90" cy="108" r="2" fill="#ff48b0" opacity="0.12"/>
+  <circle cx="100" cy="100" r="2.5" fill="#0078bf" opacity="0.1"/>
+  <circle cx="110" cy="105" r="2" fill="#ff48b0" opacity="0.1"/>
+  <circle cx="95" cy="92" r="1.5" fill="#0078bf" opacity="0.08"/>
+</svg>
