@@ -2,7 +2,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- seo -%}
+  <title>{% if page.title and page.title != site.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {%- seo title=false -%}
   <link rel="icon" href="{% if page.category == 'mains' %}{{ "/favicon-mains.svg" | relative_url }}{% elsif page.category == 'soups' %}{{ "/favicon-soups.svg" | relative_url }}{% elsif page.category == 'sides' %}{{ "/favicon-sides.svg" | relative_url }}{% elsif page.category == 'sweets' %}{{ "/favicon-sweets.svg" | relative_url }}{% elsif page.category == 'drinks' %}{{ "/favicon-drinks.svg" | relative_url }}{% elsif page.category == 'pantry' %}{{ "/favicon-pantry.svg" | relative_url }}{% elsif page.category == 'articles' %}{{ "/favicon-articles.svg" | relative_url }}{% elsif page.category == 'colophon' %}{{ "/favicon-colophon.svg" | relative_url }}{% else %}{{ "/favicon.svg" | relative_url }}{% endif %}" type="image/svg+xml">
   <meta property="og:image" content="{{ "/og-image.svg" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
