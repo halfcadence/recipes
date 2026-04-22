@@ -35,7 +35,10 @@ $dark-text:    #c9ced5;  // Midnight at ~82% lightness — body text
 $dark-muted:   $grey-light; // Light Gray — notes, meta
 $dark-rule:    #2e3843;  // Midnight at ~22% — table/note separators
 
-body { font-family: 'Bricolage Grotesque', sans-serif; color: $grey-dark; }
+// Paper-colored background — warm off-white like uncoated riso stock
+$paper: #f5f0e8;
+
+body { font-family: 'Bricolage Grotesque', sans-serif; color: $grey-dark; background-color: $paper; }
 
 // Header
 .site-header {
@@ -206,7 +209,7 @@ a:hover { text-decoration: none; color: inherit; }
 .notes li + li { border-top: 1px solid $grey-rule; padding-top: 0.2rem; margin-top: 0.2rem; }
 
 // Sharp edges
-pre, code { border: 1px solid $ink-black; border-radius: 0; background-color: #f5f5f5; }
+pre, code { border: 1px solid $ink-black; border-radius: 0; background-color: darken($paper, 3%); }
 
 // Minimal tables — borderless, clean
 table { border: none; border-collapse: collapse; margin-bottom: 0.9rem; }
@@ -327,4 +330,35 @@ body.section-colophon { @include themed($colophon); }
 
   // Index Articles pill — Midnight is too dark, use lighter variant
   .index strong:nth-of-type(7) { background: $articles-dark; }
+}
+
+// ── Print ───────────────────────────────────────────────────────────
+
+@media print {
+  // Strip chrome
+  .site-header { display: none; }
+  .page-content { padding: 0; }
+
+  // Section color header bar
+  .post-header {
+    border-bottom-width: 4px;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  // Force colors to print
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  // Clean single-column layout
+  body { background: #fff; font-size: 11pt; }
+  .wrapper { max-width: none; padding: 0; }
+
+  // Hide notes section label link
+  .section-label a { color: inherit; }
+
+  // No link underlines in print
+  a { text-decoration: none !important; }
 }
