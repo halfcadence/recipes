@@ -84,8 +84,9 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - Illustrations MUST use only the two base inks: Blue (`#0078bf`) and Fluorescent Pink (`#ff48b0`).
 - Each illustration MUST be an SVG file in `assets/illustrations/`, named to match the recipe slug (e.g., `clam-miso-soup.svg`).
 - Each illustration MUST use at most 2 shapes. 1 shape is better than an ugly 2nd shape.
-- One shape MUST be pink, the other MUST be blue with `mix-blend-mode: multiply` to create the overprint where they overlap.
-- The blue shape SHOULD be offset 3–4px down-right from the pink shape to simulate misregistration.
+- Shapes MAY be pink only, blue only, two pink, two blue, or one pink + one blue. Not every illustration needs both colors.
+- When using both colors, the blue shape SHOULD use `mix-blend-mode: multiply` to create the overprint where they overlap.
+- When using two shapes of the same color, offset or size difference SHOULD create visual interest.
 - Shapes MUST be primary geometric forms only: circle, rectangle, square, triangle (polygon). No paths, no curves, no organic shapes.
 - Illustrations SHOULD prioritize symmetry and minimalism. Clean, centered, balanced.
 - Each illustration MUST be visually distinct from the others. Vary the shape combination: circle+circle, rectangle+rectangle, triangle+triangle, circle+rectangle, circle+square, etc. Reversing which color is pink vs blue is a valid way to differentiate similar compositions.
