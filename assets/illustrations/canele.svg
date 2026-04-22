@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <rect x="65" y="65" width="55" height="115" fill="#ff48b0"/>
-  <circle cx="93" cy="65" r="28" fill="#ff48b0"/>
+  <!-- White background so multiply blend works -->
+  <rect width="200" height="200" fill="#fbfaf8"/>
+  <rect x="65" y="65" width="55" height="115" fill="#ff48b0" style="mix-blend-mode:multiply"/>
+  <circle cx="93" cy="65" r="28" fill="#ff48b0" style="mix-blend-mode:multiply"/>
 </svg>
