@@ -3,23 +3,40 @@ permalink: /404.html
 layout: default
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+<style>
+.four-oh-four {
+  padding: 3rem 0;
+}
+.misreg {
+  position: relative;
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1;
+  color: transparent;
+  margin-bottom: 1rem;
+  isolation: isolate;
+}
+.misreg::before,
+.misreg::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.misreg::before {
+  content: "404";
+  color: #0078bf;
+  transform: translate(-3px, -2px);
+}
+.misreg::after {
+  content: "404";
+  color: #ff48b0;
+  transform: translate(3px, 2px);
+  mix-blend-mode: multiply;
+}
 </style>
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div class="four-oh-four">
+  <div class="misreg">404</div>
+  <p>Not here. <a href="{{ "/" | relative_url }}">Back to recipes</a>.</p>
 </div>

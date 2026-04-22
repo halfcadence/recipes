@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#f8f6f1"/>
+  <rect x="40" y="40" width="16" height="550" fill="#0078bf"/>
+  <rect x="44" y="44" width="16" height="550" fill="#ff48b0" style="mix-blend-mode:multiply"/>
+  <text x="100" y="300" font-family="sans-serif" font-weight="600" font-size="72" fill="#435060">recipes</text>
+  <text x="100" y="370" font-family="sans-serif" font-weight="400" font-size="36" fill="#6e6f70">by andrew</text>
+  <rect x="100" y="420" width="120" height="36" rx="0" fill="#0078bf"/>
+  <text x="112" y="446" font-family="sans-serif" font-weight="600" font-size="20" fill="#fff">blue</text>
+  <rect x="230" y="420" width="120" height="36" rx="0" fill="#ff48b0"/>
+  <text x="242" y="446" font-family="sans-serif" font-weight="600" font-size="20" fill="#fff">pink</text>
+  <rect x="360" y="420" width="120" height="36" rx="0" fill="#cc2464"/>
+  <text x="372" y="446" font-family="sans-serif" font-weight="600" font-size="20" fill="#fff">overprint</text>
+</svg>

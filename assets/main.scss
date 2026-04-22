@@ -271,6 +271,14 @@ body.section-colophon { @include themed($colophon); }
 .index strong:nth-of-type(7) { background: $articles; }
 .index strong:nth-of-type(8) { background: $colophon; }
 
+// Pill hover — slight press into paper
+.index strong {
+  transition: transform 0.1s ease;
+}
+.index strong:hover {
+  transform: translate(1px, 1px);
+}
+
 // ── Dark mode ───────────────────────────────────────────────────────
 
 @media (prefers-color-scheme: dark) {
