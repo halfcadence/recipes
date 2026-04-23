@@ -103,6 +103,7 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 ## Changelog
 
 - All meaningful changes to recipes, styling, or site structure MUST be logged in `changelog.md` with the current date.
+- Changelog MUST be updated in the same commit as the change, not retroactively.
 - Entries SHOULD be grouped by date, newest first.
 - Each entry SHOULD be a single bullet describing what changed. Keep it concise.
 - Changelog MUST be the last item in the Colophon section of `index.md`.

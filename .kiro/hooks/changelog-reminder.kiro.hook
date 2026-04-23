@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "name": "Changelog Reminder",
+  "description": "Reminds to update changelog.md when making meaningful changes to recipes, styling, or site structure",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "r/*.md",
+      "a/*.md",
+      "index.md",
+      "assets/main.scss",
+      "_layouts/*.html",
+      "steering.md"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A file was just edited. If this is a meaningful change (new recipe, style change, structural change), remind yourself to update changelog.md in the same commit. Check if changelog.md has already been modified in this session."
+  }
+}
