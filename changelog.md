@@ -4,6 +4,29 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-04-23
+
+- Add segmented color bar header on unthemed pages (all 8 section colors), solid on themed.
+- SVG illustrations gallery now auto-discovers files with shape descriptions from `_data/illustrations.yml`.
+- Add new recipe checklist to steering.
+- Remove non-actionable notes across 7 recipes. Add actionability rule to steering.
+- Add iced AeroPress, strawberry milk, French silk pie, simmered potato and chicken recipes.
+- Add 76 AI-generated riso illustrations via Amazon Nova Canvas. New `/illustrations-riso/` gallery page.
+- Add illustration generation rules to steering (SVG + riso PNG pipeline).
+- Riso illustrations used as centered footer stamp on recipe pages (PNG preferred, SVG fallback).
+- Minimal 2-shape SVG illustrations for all recipes with self-documenting gallery.
+- Same-color overprint technique via paper background rect.
+- Per-section colored favicons. Custom `<title>` with `·` separator.
+- Favicon, OG image, 404 page, pill hover, RSS cleanup, sitemap.
+- Selection color per section theme.
+- Paper background `#fbfaf8`. Bump base font to 1.0625rem. A11y contrast fixes. Focus-visible outlines.
+- Thicker 1rem top border. Print stylesheet.
+- Misregistered overprint instagram pill on about page.
+- Switch active palette to Blue + Fluorescent Pink overprint. Previous spot-color palette to first alt.
+- Move overprint palettes from riso article to colors page. Consolidate color catalog into single table.
+- Rename Port Tonic, Suze Tonic. Restore Acid-Adjusted OJ title.
+- Add section breaks to homepage index with toggleable block layout.
+
 ## 2026-04-21
 
 - Add 11 overprint palette explorations to riso article (1–3 base inks, overprints, tints, split-color treatments).

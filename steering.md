@@ -79,6 +79,7 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - The Articles section uses a lighter Midnight variant (`#8b96a3`) in dark mode because the standard Midnight is too dark against the dark background.
 - Inline color swatches (e.g., in the riso article) SHOULD use the `.pill-sample` class for consistency with homepage pills.
 - `print-color-adjust: exact` SHOULD be used when colors need to survive printing.
+- The header bar on unthemed pages (homepage, about) shows all 8 section colors as segments. Themed pages show a solid bar in the section color.
 
 ## Illustrations
 
