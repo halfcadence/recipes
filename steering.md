@@ -93,6 +93,10 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - Each illustration MUST be visually distinct from the others. Vary the shape combination: circle+circle, rectangle+rectangle, triangle+triangle, circle+rectangle, circle+square, etc. Reversing which color is pink vs blue is a valid way to differentiate similar compositions.
 - The viewBox MUST be `0 0 200 200`.
 - The illustration gallery page is at `/illustrations/` and MUST be linked from the Colophon section of `index.md`.
+- When adding a new recipe, BOTH an SVG illustration and a riso PNG illustration MUST be created.
+- The SVG goes in `assets/illustrations/{slug}.svg` and MUST be added to the SVG illustrations gallery page.
+- The riso PNG is generated via Amazon Nova Canvas (`amazon.nova-canvas-v1:0`) on AWS Bedrock using `--profile personal`. The prompt template is: `Risograph print on lightly textured cream paper. {composition}. Completely flat solid color, no 3D, no shading, no gradients, no shadows, no perspective, no outlines. Visible halftone dot grain from stencil printing. Slight misregistration between color passes. Perfectly centered and symmetrical. Abstract geometric art print.` where `{composition}` describes the SVG shapes in words (no food references). The PNG goes in `assets/illustrations/gen-riso/{slug}.png`.
+- The riso illustrations gallery page is at `/illustrations-riso/`.
 
 ## Changelog
 
