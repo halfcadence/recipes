@@ -105,3 +105,14 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - Entries SHOULD be grouped by date, newest first.
 - Each entry SHOULD be a single bullet describing what changed. Keep it concise.
 - Changelog MUST be the last item in the Colophon section of `index.md`.
+
+## New Recipe Checklist
+
+When adding a new recipe, ALL of the following MUST be completed:
+
+1. Create `r/{slug}.md` with front matter (`title`, `category`, `number` — next sequential).
+2. Add a link to `index.md` under the appropriate category. Base recipes MUST be listed before variants.
+3. Create `assets/illustrations/{slug}.svg` — max 2 shapes, blue/pink only, viewBox `0 0 200 200`.
+4. Add a shape description entry to `_data/illustrations.yml` (pink, blue, combo fields).
+5. Generate `assets/illustrations/gen-riso/{slug}.png` via Nova Canvas on Bedrock using the prompt template with the SVG composition described in words.
+6. Update `changelog.md` with the new recipe.
