@@ -1,0 +1,75 @@
+---
+layout: default
+title: Illustrations (Riso)
+category: colophon
+permalink: /illustrations-riso/
+---
+
+<style>
+.gen-meta {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: #6e6f70;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d2d4d6;
+}
+.gen-meta code {
+  background: #eee;
+  padding: 0.1em 0.3em;
+  border: none;
+  font-size: 0.7rem;
+}
+.illus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+.illus-card { text-align: center; }
+.illus-card img {
+  width: 100%;
+  aspect-ratio: 1;
+  border: 1px solid #d2d4d6;
+  object-fit: cover;
+}
+.illus-card .illus-label {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: #6e6f70;
+  margin-top: 0.3rem;
+}
+.illus-card .illus-comp {
+  font-family: monospace;
+  font-size: 0.6rem;
+  color: #88898a;
+  line-height: 1.3;
+}
+@media (prefers-color-scheme: dark) {
+  .illus-card img { border-color: #2e3843; }
+  .gen-meta { border-bottom-color: #2e3843; }
+  .gen-meta code { background: #222a34; }
+}
+</style>
+
+<div class="gen-meta">
+<strong>Model:</strong> <code>amazon.nova-canvas-v1:0</code> via AWS Bedrock<br>
+<strong>Method:</strong> Each recipe's SVG composition described as abstract geometry. No food referenced in prompts — only shapes and colors.<br>
+<strong>Prompt:</strong> <code>Risograph print on lightly textured cream paper. {composition}. Completely flat solid color, no 3D, no shading, no gradients, no shadows, no perspective, no outlines. Visible halftone dot grain from stencil printing. Slight misregistration between color passes. Perfectly centered and symmetrical. Abstract geometric art print.</code><br>
+<strong>See also:</strong> <a href="{{ '/illustrations' | relative_url }}">SVG illustrations</a> (the original geometric versions)
+</div>
+
+<div class="illus-grid">
+{% assign illus_files = site.static_files | where_exp: "file", "file.path contains '/gen-riso/'" | sort: "name" %}
+{% for file in illus_files %}
+{% if file.extname == ".png" %}
+<div class="illus-card">
+<a href="{{ file.path | replace: '/gen-riso/', '/r/' | replace: '.png', '' | relative_url }}">
+<img src="{{ file.path | relative_url }}" alt="{{ file.basename }}">
+</a>
+<div class="illus-label"><a href="{{ file.path | replace: '/assets/illustrations/gen-riso/', '/r/' | replace: '.png', '' | relative_url }}">{{ file.basename }}</a></div>
+</div>
+{% endif %}
+{% endfor %}
+</div>
