@@ -40,6 +40,5 @@ yield: 4
 
 - Massaging the meat is normally a sin for burgers, but necessary here for thin patties to hold together on the grill.
 - Make patties wider than you think — they shrink significantly.
-- Flare-ups during the flip are expected and fine.
 - The entire cook is about 75 seconds total. Have everything ready before the patties hit the grill.
 </div>

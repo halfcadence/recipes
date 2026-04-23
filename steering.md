@@ -49,6 +49,7 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 
 - Notes MUST use a styled wrapper div for de-emphasized styling.
 - Notes MUST be in bullet list format.
+- Notes MUST be actionable — they should help someone make, modify, store, or scale the recipe. Commentary, trivia, and "watch the video" references MUST NOT be in notes.
 - Notes SHOULD cover: substitutions, storage, scaling, science, technique tips.
 - The Notes section MAY be omitted entirely if there is nothing useful to add.
 

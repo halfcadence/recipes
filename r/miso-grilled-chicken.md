@@ -37,5 +37,4 @@ chef: Hideaki Matsuo, Kashiwaya (3 Michelin stars, Osaka)
 ## Notes
 
 - Potato starch helps the sauce adhere and gives a slight crispness.
-- Watch the original video for Chef Matsuo's technique.
 </div>

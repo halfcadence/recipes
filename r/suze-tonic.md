@@ -25,7 +25,6 @@ source: https://food52.com/recipes/77706-suze-tonic
 ## Notes
 
 - Suze is a French gentian-root liqueur — bright yellow, bitter, and vegetal. Low ABV (15–20%).
-- The simplest possible aperitif. Two ingredients.
 - Optional: add a squeeze of lemon juice and a dash of bitters for more complexity.
 - Works as a session drink — low alcohol, bitter enough to stimulate appetite.
 

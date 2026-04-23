@@ -43,5 +43,4 @@ chef: Yamashita, HAL YAMASHITA Tokyo
 ## Notes
 
 - Marinade is an all-purpose sauce — works on any protein.
-- Watch the original video for Chef Yamashita's technique.
 </div>

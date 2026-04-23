@@ -30,5 +30,4 @@ number: 70
 - Everything must be cold. Glass, whisky, soda. This is the entire technique.
 - Stir once. Over-stirring flattens the drink.
 - Suntory Toki and Nikka Days are the standard choices — light, clean, built for mixing.
-- The Japanese highball is a bar staple in Tokyo. It's meant to be sessionable, not strong.
 </div>
