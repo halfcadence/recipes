@@ -48,7 +48,17 @@ body {
 
 // Header
 .site-header {
-  border-top: 1rem solid $ink-black;
+  border-top: 1rem solid;
+  border-image: linear-gradient(to right,
+    $mains 0%, $mains 12.5%,
+    $soups 12.5%, $soups 25%,
+    $sides 25%, $sides 37.5%,
+    $sweets 37.5%, $sweets 50%,
+    $drinks 50%, $drinks 62.5%,
+    $pantry 62.5%, $pantry 75%,
+    $articles 75%, $articles 87.5%,
+    $colophon 87.5%, $colophon 100%
+  ) 1;
   border-bottom: none;
   min-height: auto;
   padding: 0.625rem 0;
@@ -250,7 +260,7 @@ table td:first-child { font-weight: 600; white-space: nowrap; width: 1%; }
 @mixin themed($color) {
   .post-title { background: $color; }
   .section-label { color: $color; }
-  .site-header { border-top: 1rem solid $color; }
+  .site-header { border-image: none; border-top-color: $color; }
   .post-content ol > li::before { color: $color; }
   .post-header { border-bottom: 2px solid $color; padding-bottom: 0.5rem; }
   ::selection { background: rgba($color, 0.25); }
