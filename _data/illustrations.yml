@@ -1,0 +1,298 @@
+aeropress:
+  pink: "▮ tube"
+  blue: "□ plunger"
+  combo: "top"
+awase-dashi:
+  pink: "▮ pot"
+  blue: "▮ shadow"
+  combo: "offset"
+bay-leaf-panna-cotta:
+  pink: "▮ ramekin"
+  combo: "single shape"
+brown-butter-hojicha-cookies:
+  blue: "○ cookie"
+  blue2: "○ center"
+  combo: "double pass"
+canele:
+  pink: "▮ body"
+  blue: "○ dome"
+  combo: "stacked"
+chawanmushi:
+  blue: "▮ cup"
+  pink: "□ lid"
+  combo: "top"
+chocolate-brownies:
+  pink: "□ slab"
+  blue: "□ shadow"
+  combo: "offset"
+chocolate-gateau-au-chocolat:
+  pink: "□ cake"
+  blue: "□ shadow"
+  combo: "offset"
+clam-miso-soup:
+  pink: "○ bowl"
+  blue: "○ broth"
+  combo: "concentric"
+coffee-jelly:
+  pink: "○ bowl"
+  blue: "◇ cube"
+  combo: "tilted inside"
+coffee-manhattan:
+  pink: "○ glass"
+  blue: "○ coffee"
+  combo: "centered"
+cold-brew-tea:
+  blue: "▮ pitcher"
+  combo: "single shape"
+corn-soup:
+  pink: "○ bowl"
+  pink2: "○ bowl"
+  combo: "double pass"
+corpse-reviver-no-2:
+  pink: "▬ coupe"
+  combo: "single shape"
+doenjang-jjigae:
+  pink: "○ pot"
+  blue: "○ bubble"
+  combo: "top"
+double-chocolate-chip-cookies:
+  pink: "○ cookie"
+  pink2: "○ cookie"
+  combo: "double pass"
+earl-grey-chiffon-cake:
+  pink: "○ cake"
+  blue: "○ hole"
+  combo: "centered"
+french-silk-pie:
+  blue: "○ crust"
+  pink: "○ filling"
+  combo: "centered"
+gimlet:
+  pink: "○ glass"
+  blue: "○ lime"
+  combo: "concentric"
+gyoza:
+  pink: "○ left"
+  blue: "○ right"
+  combo: "side by side"
+hario-switch:
+  pink: "▽ cone"
+  blue: "□ valve"
+  combo: "below"
+highball:
+  pink: "▮ glass"
+  blue: "▮ liquid"
+  combo: "offset"
+hojicha-gateau-au-chocolat:
+  blue: "□ cake"
+  blue2: "□ shadow"
+  combo: "double pass"
+iced-aeropress:
+  blue: "▮ tube"
+  pink: "○ ice"
+  combo: "below"
+iced-pour-over:
+  blue: "▽ cone"
+  pink: "○ ice"
+  combo: "below"
+ishikari-nabe:
+  pink: "○ pot"
+  blue: "□ salmon"
+  combo: "inside"
+karaage:
+  pink: "○ chunk"
+  blue: "○ chunk"
+  combo: "overlap"
+kinpira-gobo:
+  pink: "▮ root"
+  pink2: "▮ root"
+  combo: "pair"
+kombu-dashi:
+  blue: "▮ pot"
+  combo: "single shape"
+lillet-spritz:
+  pink: "○ bowl"
+  blue: "▮ stem"
+  combo: "below"
+manhattan:
+  pink: "○ bowl"
+  blue: "▮ stem"
+  combo: "below"
+margarita:
+  pink: "○ glass"
+  blue: "○ lime"
+  combo: "on rim"
+match-affogato:
+  pink: "○ bowl"
+  blue: "○ scoop"
+  combo: "top"
+matcha-americano:
+  blue: "▮ cup"
+  pink: "▮ matcha"
+  combo: "top half"
+matcha-brownies:
+  blue: "□ slab"
+  combo: "single shape"
+matcha-chiffon-cake:
+  blue: "○ cake"
+  pink: "○ hole"
+  combo: "centered"
+matcha-gateau-au-chocolat:
+  blue: "□ cake"
+  combo: "single shape"
+matcha-latte:
+  pink: "▮ glass"
+  blue: "▮ matcha"
+  combo: "top half"
+matcha-white-choco-cookies:
+  blue: "○ cookie"
+  pink: "○ cookie"
+  combo: "overlap"
+mentsuyu:
+  pink: "▮ bottle"
+  combo: "single shape"
+miso-grilled-chicken:
+  pink: "○ plate"
+  blue: "□ chicken"
+  combo: "inside"
+miso-marinated-steak:
+  pink: "□ slab"
+  blue: "□ sear"
+  combo: "offset"
+mojito:
+  pink: "▮ glass"
+  blue: "○ mint"
+  combo: "inside"
+nicoise-salad:
+  blue: "○ bowl"
+  pink: "○ egg"
+  combo: "inside"
+nitsuke:
+  blue: "□ fillet"
+  combo: "single shape"
+ohitashi:
+  pink: "□ plate"
+  blue: "○ spinach"
+  combo: "inside"
+old-fashioned:
+  pink: "□ tumbler"
+  combo: "single shape"
+orange-chocolate-gateau-au-chocolat:
+  pink: "□ cake"
+  blue: "○ orange"
+  combo: "corner"
+pickled-cabbage:
+  pink: "□ jar"
+  blue: "□ shadow"
+  combo: "offset"
+pickled-daikon:
+  pink: "▮ stick"
+  combo: "single shape"
+ponzu:
+  blue: "▮ bottle"
+  combo: "single shape"
+port-tonic:
+  pink: "▮ glass"
+  blue: "▮ tonic"
+  combo: "bottom half"
+potato-salad:
+  pink: "○ bowl"
+  blue: "□ potato"
+  combo: "inside"
+pour-over:
+  blue: "▽ cone"
+  combo: "single shape"
+prime-rib:
+  pink: "▮ cut"
+  blue: "▮ shadow"
+  combo: "offset"
+purin:
+  pink: "□ plate"
+  blue: "○ dome"
+  combo: "on top"
+robuchon-mashed-potatoes:
+  blue: "○ mound"
+  combo: "single shape"
+salted-caramel-sauce:
+  pink: "○ jar"
+  blue: "○ shadow"
+  combo: "offset"
+shaken-black-tea:
+  pink: "▮ shaker"
+  blue: "□ cap"
+  combo: "top"
+simmered-potato-chicken:
+  pink: "○ bowl"
+  blue: "○ potato"
+  combo: "inside"
+steak-au-poivre:
+  blue: "□ steak"
+  pink: "□ pepper"
+  combo: "offset"
+strawberry-milk:
+  pink: "▮ glass"
+  blue: "○ berry"
+  combo: "bottom"
+sukiyaki:
+  pink: "○ pot"
+  blue: "○ broth"
+  combo: "offset"
+suze-tonic:
+  blue: "▮ glass"
+  pink: "▮ suze"
+  combo: "offset"
+tarte-tatin:
+  pink: "○ tart"
+  blue: "○ center"
+  combo: "centered"
+tea-jelly:
+  blue: "○ bowl"
+  pink: "◇ cube"
+  combo: "tilted"
+thin-burgers:
+  pink: "□ patty"
+  pink2: "□ patty"
+  combo: "stacked"
+thyme-streusel:
+  pink: "□ sheet"
+  blue: "□ shadow"
+  combo: "offset"
+tinto-de-verano:
+  blue: "□ glass"
+  pink: "□ wine"
+  combo: "top half"
+tonjiru:
+  pink: "○ bowl"
+  blue: "□ pork"
+  combo: "inside"
+tonkatsu:
+  pink: "□ cutlet"
+  blue: "□ cross-section"
+  combo: "left"
+tonyu-nabe:
+  blue: "○ milky pot"
+  combo: "single shape"
+tortilla-espanola:
+  pink: "○ tortilla"
+  combo: "single shape"
+tortilla-espanola-lazy:
+  blue: "○ tortilla"
+  combo: "single blue"
+ushiojiru:
+  blue: "○ clear soup"
+  combo: "single shape"
+vanilla-bean-gateau-au-chocolat:
+  pink: "□ cake"
+  pink2: "□ shadow"
+  combo: "double pass"
+whiskey-sour:
+  pink: "○ bowl"
+  combo: "single shape"
+whiskey-sour-acid-adjusted-oj:
+  pink: "○ sour"
+  blue: "○ OJ"
+  combo: "overlap"
+yuzu-highball:
+  pink: "▮ glass"
+  blue: "○ yuzu"
+  combo: "outside"

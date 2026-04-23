@@ -26,6 +26,12 @@ permalink: /illustrations/
   margin-top: 0.3rem;
   letter-spacing: 0.05em;
 }
+.illus-card .illus-shapes {
+  font-family: monospace;
+  font-size: 0.6rem;
+  color: #88898a;
+  line-height: 1.3;
+}
 @media (prefers-color-scheme: dark) {
   .illus-card img { border-color: #2e3843; background: #14181d; }
 }
@@ -39,11 +45,15 @@ permalink: /illustrations/
 {% if file.extname == ".svg" and file.path contains "/assets/illustrations/" %}
 {% unless file.path contains "/gen-riso/" %}
 {% assign slug = file.basename %}
+{% assign desc = site.data.illustrations[slug] %}
 <div class="illus-card">
 <a href="{{ '/r/' | append: slug | relative_url }}">
 <img src="{{ file.path | relative_url }}" alt="{{ slug }}">
 </a>
 <div class="illus-label"><a href="{{ '/r/' | append: slug | relative_url }}">{{ slug }}</a></div>
+{% if desc %}
+<div class="illus-shapes">{% if desc.pink %}<span style="color:#ff48b0">{{ desc.pink }}</span>{% endif %}{% if desc.pink2 %} · <span style="color:#ff48b0">{{ desc.pink2 }}</span>{% endif %}{% if desc.blue %} · <span style="color:#0078bf">{{ desc.blue }}</span>{% endif %}{% if desc.blue2 %} · <span style="color:#0078bf">{{ desc.blue2 }}</span>{% endif %} · {{ desc.combo }}</div>
+{% endif %}
 </div>
 {% endunless %}
 {% endif %}
