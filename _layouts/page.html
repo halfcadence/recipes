@@ -4,14 +4,22 @@ layout: default
 <article class="post">
 
   {% assign slug = page.url | split: "/" | last | replace: ".html", "" %}
-  {% assign illus_path = "/assets/illustrations/" | append: slug | append: ".svg" %}
+  {% assign riso_path = "/assets/illustrations/gen-riso/" | append: slug | append: ".png" %}
+  {% assign svg_path = "/assets/illustrations/" | append: slug | append: ".svg" %}
+  {% assign found_illus = false %}
   {% for static_file in site.static_files %}
-    {% if static_file.path == illus_path %}
-  <div style="position:fixed;top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:0;opacity:0.08;">
-    <img src="{{ illus_path | relative_url }}" alt="" style="width:90vmin;height:90vmin;max-width:700px;max-height:700px;">
-  </div>
-    {% endif %}
+    {% if static_file.path == riso_path %}{% assign found_illus = riso_path %}{% endif %}
   {% endfor %}
+  {% unless found_illus %}
+    {% for static_file in site.static_files %}
+      {% if static_file.path == svg_path %}{% assign found_illus = svg_path %}{% endif %}
+    {% endfor %}
+  {% endunless %}
+  {% if found_illus %}
+  <div style="position:fixed;top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:0;opacity:0.08;">
+    <img src="{{ found_illus | relative_url }}" alt="" style="width:90vmin;height:90vmin;max-width:700px;max-height:700px;">
+  </div>
+  {% endif %}
 
   <header class="post-header" style="position:relative;z-index:1;">
     {% if page.category %}<div class="section-label"><a href="{{ site.baseurl }}/#{{ page.category }}">{{ page.category | replace: "soups", "Soups & Hot Pots" | replace: "colophon", "Colophon" | capitalize }}</a></div>{% endif %}
