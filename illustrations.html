@@ -48,7 +48,7 @@ permalink: /illustrations/
 {% assign desc = site.data.illustrations[slug] %}
 <div class="illus-card">
 <a href="{{ '/r/' | append: slug | relative_url }}">
-<img src="{{ file.path | relative_url }}" alt="{{ slug }}" width="180" height="180" loading="lazy" decoding="async">
+<img src="{{ file.path | relative_url }}" alt="{{ slug }}" loading="lazy" decoding="async">
 </a>
 <div class="illus-label"><a href="{{ '/r/' | append: slug | relative_url }}">{{ slug }}</a></div>
 {% if desc %}
