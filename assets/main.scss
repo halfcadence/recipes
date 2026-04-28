@@ -361,6 +361,27 @@ body.section-colophon { @include themed($colophon); }
   .index strong:nth-of-type(7) { background: $articles-dark; }
 }
 
+// ── Image loading ───────────────────────────────────────────────────
+
+// Placeholder background while image loads, then fade in
+.illus-stamp img,
+.illus-card img {
+  background-color: $paper;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.illus-stamp img.loaded,
+.illus-card img.loaded {
+  opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .illus-stamp img,
+  .illus-card img {
+    background-color: $dark-surface;
+  }
+}
+
 // ── Print ───────────────────────────────────────────────────────────
 
 @media print {

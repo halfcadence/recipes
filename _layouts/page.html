@@ -25,8 +25,8 @@ layout: default
   </div>
 
   {% if found_illus %}
-  <div style="text-align:center;margin:3rem 0 1rem;">
-    <img src="{{ found_illus | relative_url }}" alt="" style="width:180px;height:180px;">
+  <div class="illus-stamp" style="text-align:center;margin:3rem 0 1rem;">
+    <img src="{{ found_illus | relative_url }}" alt="" width="180" height="180" decoding="async" style="width:180px;height:180px;" onload="this.classList.add('loaded')">
   </div>
   {% endif %}
 
