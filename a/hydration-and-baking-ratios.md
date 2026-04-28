@@ -26,8 +26,6 @@ Here's a rough guide to water absorption by weight, compiled from baking science
 | Almond flour | ~20–30% | High fat content, absorbs very little |
 | Cornstarch | ~70–80% | Pure starch, moderate absorption |
 
-Sources: [Chocolate Academy](https://www.chocolate-academy.com/en/understanding-differences-among-cacao-powders-other-factors), [Flavor365](https://flavor365.com/can-you-swap-cocoa-for-matcha-a-bakers-guide/), various baking science references. Content rephrased for compliance with licensing restrictions.
-
 This table explains a lot of common baking failures:
 
 - Swapping matcha for cocoa 1:1 dries out the batter because cocoa absorbs 5–10x more liquid than matcha
@@ -67,7 +65,7 @@ This is why replacing butter with oil changes texture — you're removing 16–2
 
 ## The 1-2-3 Cookie Ratio
 
-For cookies specifically, there's a classic ratio that serves as a useful baseline: 1 part sugar, 2 parts fat, 3 parts flour (by weight). This produces a basic shortbread-style cookie. From there, you adjust to get different textures (content rephrased from [Cape Crystal Brands](https://www.capecrystalbrands.com/blogs/cape-crystal-brands/mastering-cookie-textures-123-rule)):
+For cookies specifically, there's a classic ratio that serves as a useful baseline: 1 part sugar, 2 parts fat, 3 parts flour (by weight). This produces a basic shortbread-style cookie. From there, you adjust to get different textures:
 
 - More sugar relative to flour → flatter, crispier cookies (sugar melts and spreads)
 - More fat → more tender, more spread

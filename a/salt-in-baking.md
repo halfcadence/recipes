@@ -13,7 +13,7 @@ salt % = (salt weight / flour weight) × 100
 
 ## What Are the Normal Ranges?
 
-Here's what the sources consistently recommend (content rephrased from [King Arthur Baking](https://www.kingarthurbaking.com/pro/reference/salt), [Bakery Academy](https://www.bakeryacademy.com/bakery-blogs/percentages-as-classification), [Baking Sense](https://www.baking-sense.com/baking-school/baking-science/ingredients/salt/), and others):
+Here's what the sources consistently recommend:
 
 | Baked Good | Salt % (of flour weight) | Notes |
 |---|---|---|
@@ -25,7 +25,7 @@ Here's what the sources consistently recommend (content rephrased from [King Art
 
 ## What Does Salt Actually Do?
 
-Salt isn't just about flavor. It has real structural effects (content rephrased from [Baking Sense](https://www.baking-sense.com/baking-school/baking-science/ingredients/salt/)):
+Salt isn't just about flavor. It has real structural effects:
 
 - Enhances flavor without tasting "salty" — it suppresses bitterness and rounds out sweetness
 - Strengthens gluten networks, making doughs chewier and more structured

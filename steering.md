@@ -100,6 +100,12 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - The riso PNG is generated via Amazon Nova Canvas (`amazon.nova-canvas-v1:0`) on AWS Bedrock using `--profile personal`. The prompt template is: `Risograph print on lightly textured cream paper. {composition}. Completely flat solid color, no 3D, no shading, no gradients, no shadows, no perspective, no outlines. Visible halftone dot grain from stencil printing. Slight misregistration between color passes. Perfectly centered and symmetrical. Abstract geometric art print.` where `{composition}` describes the SVG shapes in words (no food references). The PNG goes in `assets/illustrations/gen-riso/{slug}.png`.
 - The riso illustrations gallery page is at `/illustrations-riso/`.
 
+## AI Artifacts
+
+- Articles and recipes MUST NOT contain meta-commentary about how content was produced, rephrased, or licensed. No "content rephrased for compliance" or similar.
+- Source attribution belongs in a Sources section at the end of the article, as plain links. Inline parenthetical citations (e.g., "from [Source Name](url)") MAY be used sparingly when the source is directly relevant to a specific claim.
+- AI tool instructions (compliance notices, verbatim reproduction limits, attribution boilerplate) MUST NOT leak into published content.
+
 ## Changelog
 
 - All meaningful changes to recipes, styling, or site structure MUST be logged in `changelog.md` with the current date.

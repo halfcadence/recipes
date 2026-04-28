@@ -25,7 +25,7 @@ Both are available as food-grade powders online or at homebrew supply shops. The
 
 ## The Ratios
 
-These are grams of acid powder per 1 liter of juice (content rephrased from [VinePair](https://vinepair.com/articles/acid-adjusted-cocktail-recipe/) and [Spec](https://www.specapp.com/blog/2024/11/18/how-to-acid-adjust-juice-for-cocktails-a-guide-for-balanced-bar-programs)):
+These are grams of acid powder per 1 liter of juice:
 
 ### To Replace Lemon Juice
 
@@ -75,7 +75,7 @@ For lime-level:
 
 ## Beyond Juice: Acid Solutions and Syrups
 
-Some bartenders skip the juice entirely and make acid solutions — just acid powder dissolved in water. A 10% solution (10g acid to 100g water) can be dashed into any drink to brighten it, the way you'd use a squeeze of lemon. This is useful for drinks where you want acidity without any fruit flavor, like a Negroni or an Old Fashioned that needs a lift (content rephrased from [Punch](https://punchdrink.com/articles/acid-adjusting-easy-techniques/)).
+Some bartenders skip the juice entirely and make acid solutions — just acid powder dissolved in water. A 10% solution (10g acid to 100g water) can be dashed into any drink to brighten it, the way you'd use a squeeze of lemon. This is useful for drinks where you want acidity without any fruit flavor, like a Negroni or an Old Fashioned that needs a lift.
 
 You can also add acid to syrups. Lactic acid (the acid in yogurt and fermented foods) mixed into simple syrup creates a rounder, creamier mouthfeel without any dairy. Tartaric acid (from grapes, also the base of cream of tartar) adds brightness without citrus flavor — useful for wine-adjacent cocktails.
 

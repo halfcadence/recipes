@@ -151,8 +151,6 @@ When translating riso colors to digital, a few principles apply:
 
 ## Sources
 
-Content was rephrased for compliance with licensing restrictions.
-
 - [Stencil Wiki — Risograph Color Chart](https://stencil.wiki/colors) — community-maintained ink color reference with hex values
 - [riso-colors on npm](https://www.npmjs.com/package/riso-colors) — JSON dataset of riso ink colors with hex, Pantone, and Z-Type codes
 - [Secret Riso Club — Riso Basics](https://secretrisoclub.com/RISO-BASICS) — overview of the printing process
