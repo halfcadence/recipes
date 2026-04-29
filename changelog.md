@@ -7,6 +7,7 @@ permalink: /changelog/
 ## 2026-04-29
 
 - Add AeroPress filters article (paper vs metal vs cloth, flavor profiles, stacking technique).
+- Add coffee syrup pantry recipe.
 
 ## 2026-04-23
 

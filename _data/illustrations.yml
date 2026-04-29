@@ -41,6 +41,10 @@ coffee-manhattan:
   pink: "○ glass"
   blue: "○ coffee"
   combo: "centered"
+coffee-syrup:
+  blue: "▮ bottle"
+  pink: "□ cap"
+  combo: "top"
 cold-brew-tea:
   blue: "▮ pitcher"
   combo: "single shape"
