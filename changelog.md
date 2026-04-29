@@ -4,6 +4,10 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-04-29
+
+- Add AeroPress filters article (paper vs metal vs cloth, flavor profiles, stacking technique).
+
 ## 2026-04-23
 
 - Add segmented color bar header on unthemed pages (all 8 section colors), solid on themed.
