@@ -3,23 +3,24 @@ title: Coffee Syrup
 category: pantry
 number: 80
 source: https://pullandpourcoffee.com/coffee-simple-syrup/
+yield: ~250g
 ---
 
 ## Ingredients
 
 | | |
 |---|---|
-| 15g | coffee beans |
-| 100g | hot water (205°F) |
-| 70g | white sugar |
+| 25g | coffee beans |
+| 175g | hot water (205°F) |
+| 125g | white sugar |
 
 ## Steps
 
-1. Brew a strong concentrate. AeroPress: 15g coffee to 100g water, steep 1:30, press. You'll get about 70g of liquid — grounds absorb the rest.
+1. Brew a strong concentrate. AeroPress: 25g coffee to 175g water, steep 1:30, press. You'll collect about 125g of liquid — grounds absorb the rest.
 
 2. While the coffee is still hot, add sugar. Stir until fully dissolved, about 1 minute.
 
-3. Let cool. Transfer to a jar or bottle. Refrigerate.
+3. Let cool. Transfer to a jar or bottle. Refrigerate. Yields about 250g.
 
 <div class="notes" markdown="1">
 ## Notes
@@ -31,5 +32,5 @@ source: https://pullandpourcoffee.com/coffee-simple-syrup/
 - Keeps 2–3 weeks refrigerated in a sealed container.
 - Use 15–30g in a [coffee manhattan](/r/coffee-manhattan) or espresso martini in place of simple syrup. Start with 15g and adjust.
 - Stir 30g into 240g cold milk for Rhode Island coffee milk.
-- To scale: for every 100g water, use 15g coffee and weigh the output. Match sugar 1:1 to the liquid you collect.
+- To scale: for every 100g water, use 15g coffee. Weigh the output and match sugar 1:1 to the liquid you collect.
 </div>
