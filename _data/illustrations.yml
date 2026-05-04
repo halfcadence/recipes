@@ -61,8 +61,8 @@ doenjang-jjigae:
   combo: "top"
 gamjatang:
   pink: "○ pot"
-  blue: "□ lid"
-  combo: "top"
+  blue: "□ bone"
+  combo: "inside"
 double-chocolate-chip-cookies:
   pink: "○ cookie"
   pink2: "○ cookie"

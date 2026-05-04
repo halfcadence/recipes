@@ -12,43 +12,43 @@ yield: 3–4
 | | |
 |---|---|
 | 1.3kg | pork neck bones (pick meaty ones) |
-| 7 cups | water |
+| 1750g | water |
 | 500g | Yukon Gold potatoes, peeled and quartered |
 | 300g | napa cabbage, leaves separated |
 | 100g | mung bean sprouts |
 | 4 | green onions, cut into 5cm lengths |
 | 8–10 | perilla leaves |
 
-### Aromatics (for broth)
+**(A) Aromatics**
 
 | | |
 |---|---|
 | 1 | onion, halved |
 | 30g | ginger, sliced |
 | 5 cloves | garlic |
-| 1 tsp | whole black peppercorns |
+| 5g | whole black peppercorns |
 
-### Seasoning paste
-
-| | |
-|---|---|
-| 3 Tbsp | gochugaru |
-| 2 Tbsp | doenjang |
-| 1 Tbsp | gochujang |
-| 2 Tbsp | fish sauce |
-| 3 Tbsp | ground perilla seed powder |
-| 1½ Tbsp | garlic, minced |
-| 1 tsp | ginger, minced |
-| 2 Tbsp | rice wine (or mirin) |
-| ½ tsp | black pepper |
-| 1 Tbsp | water |
-
-### Finish
+**(B) Seasoning paste**
 
 | | |
 |---|---|
-| 1 Tbsp | perilla seed oil (or sesame oil) |
-| 1 Tbsp | toasted sesame seeds |
+| 9g | gochugaru |
+| 30g | doenjang |
+| 15g | gochujang |
+| 30g | fish sauce |
+| 15g | ground perilla seed powder |
+| 20g | garlic, minced |
+| 5g | ginger, minced |
+| 30g | rice wine (or mirin) |
+| 2g | black pepper |
+| 15g | water |
+
+**(C) Finish**
+
+| | |
+|---|---|
+| 15g | perilla seed oil (or sesame oil) |
+| 5g | toasted sesame seeds |
 
 ## Steps
 
@@ -56,17 +56,17 @@ yield: 3–4
 
 2. Drain. Place bones in a large pot, cover with fresh water, and boil 10 minutes over medium-high heat. Drain, then rinse each bone under cold running water — scrub off any scum or bone fragments. Clean the pot.
 
-3. Return bones to the clean pot. Add 7 cups water and all aromatics. Bring to a boil, reduce to a low simmer, cover, and cook 90 minutes.
+3. Return bones to the clean pot. Add 1750g water and all aromatics (A). Bring to a boil, reduce to a low simmer, cover, and cook 90 minutes.
 
-4. While broth simmers: blanch napa cabbage in boiling salted water for 1–2 minutes. Drain, cool, tear leaves lengthwise into strips. Mix all seasoning paste ingredients in a bowl.
+4. While broth simmers: blanch napa cabbage in boiling salted water for 1–2 minutes. Drain, cool, tear leaves lengthwise into strips. Mix all seasoning paste (B) ingredients in a bowl.
 
-5. After 90 minutes, remove and discard the aromatics (onion, ginger, garlic, peppercorns). Keep the bones in the broth.
+5. After 90 minutes, remove and discard the aromatics (A). Keep the bones in the broth.
 
-6. Add potatoes, cabbage, and seasoning paste. Bring to a boil, then simmer 15–20 minutes until potatoes are chopstick-tender.
+6. Add potatoes, cabbage, and seasoning paste (B). Bring to a boil, then simmer 15–20 minutes until potatoes are chopstick-tender.
 
 7. Add mung bean sprouts, green onions, and perilla leaves. Cook 2–3 minutes until wilted.
 
-8. Drizzle with perilla seed oil and sesame seeds. Serve bubbling hot with steamed rice.
+8. Drizzle with perilla seed oil and sesame seeds (C). Serve bubbling hot with steamed rice.
 
 <div class="notes" markdown="1">
 ## Notes
