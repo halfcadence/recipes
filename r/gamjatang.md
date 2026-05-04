@@ -13,7 +13,7 @@ yield: 3–4
 |---|---|
 | 1.3kg | pork neck bones (pick meaty ones) |
 | 7 cups | water |
-| 3 | Yukon Gold potatoes, peeled and quartered |
+| 500g | Yukon Gold potatoes, peeled and quartered |
 | 300g | napa cabbage, leaves separated |
 | 100g | mung bean sprouts |
 | 4 | green onions, cut into 5cm lengths |
