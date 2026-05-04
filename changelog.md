@@ -8,6 +8,7 @@ permalink: /changelog/
 
 - Add AeroPress filters article (paper vs metal vs cloth, flavor profiles, stacking technique).
 - Add coffee syrup pantry recipe.
+- Add gamjatang (pork neck bone soup) recipe.
 
 ## 2026-04-23
 
