@@ -32,7 +32,7 @@ yield: 3–4
 
 | | |
 |---|---|
-| 9g | gochugaru |
+| 10g | gochugaru |
 | 30g | doenjang |
 | 15g | gochujang |
 | 30g | fish sauce |
