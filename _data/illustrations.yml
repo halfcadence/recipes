@@ -63,6 +63,10 @@ gamjatang:
   pink: "○ pot"
   blue: "○ broth"
   combo: "concentric"
+samgyetang:
+  blue: "○ pot"
+  pink: "○ hen"
+  combo: "top"
 double-chocolate-chip-cookies:
   pink: "○ cookie"
   pink2: "○ cookie"
@@ -304,3 +308,7 @@ yuzu-highball:
   pink: "▮ glass"
   blue: "○ yuzu"
   combo: "outside"
+yukgaejang:
+  pink: "○ bowl"
+  blue: "□ beef"
+  combo: "inside"
