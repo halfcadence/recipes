@@ -10,6 +10,7 @@ permalink: /changelog/
 - Add coffee syrup pantry recipe.
 - Add gamjatang (pork neck bone soup) recipe.
 - Add samgyetang (ginseng chicken soup) and yukgaejang (spicy beef soup) recipes.
+- Add reheating frozen bread article.
 
 ## 2026-04-23
 
