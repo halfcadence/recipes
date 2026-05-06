@@ -312,3 +312,11 @@ yukgaejang:
   pink: "○ bowl"
   blue: "□ beef"
   combo: "inside"
+miyeokguk:
+  pink: "○ bowl"
+  blue: "○ seaweed"
+  combo: "inside"
+japanese-beef-curry:
+  pink: "○ plate"
+  blue: "○ curry"
+  combo: "concentric"
