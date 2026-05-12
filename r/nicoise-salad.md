@@ -43,9 +43,10 @@ source: https://www.recipetineats.com/nicoise-salad-french-salad-with-tuna/
 <div class="notes" markdown="1">
 ## Notes
 
-- Use tuna in oil, not spring water. Quality matters here.
+- Use tuna in oil, not spring water. Quality matters here. Fresh tuna seared very lightly (rare center) is even better.
 - Get the best olives you can find — unpitted kalamata, Ligurian, or niçoise in brine or oil.
-- Hard-boil or medium-boil the eggs. Runny yolks are fine if you halve instead of quarter.
+- Tomatoes are optional — works great without them.
+- For jammy eggs: steam large eggs for 7:45, then ice bath. Halve to show off the yolk.
 - Anchovies are arguably more traditional than tuna. Use about a dozen draped over the salad.
 - Other common additions: cucumber, capsicum, artichokes, broad beans, red onion, radishes, parsley, basil.
 - The Dijon in the dressing acts as an emulsifier so it coats the potatoes better.
