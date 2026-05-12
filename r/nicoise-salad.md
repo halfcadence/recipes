@@ -13,11 +13,10 @@ source: https://www.recipetineats.com/nicoise-salad-french-salad-with-tuna/
 |---|---|
 | 8 | baby potatoes, boiled, cooled, and halved |
 | 120g | green beans, trimmed and blanched |
-| 2 | tomatoes, cut into wedges |
 | 1/2 head | baby cos (romaine) lettuce, torn into large pieces |
-| 3 | hard-boiled eggs, peeled and quartered |
+| 3 | eggs, steamed 7:45 and ice-bathed, halved |
 | 100g | unpitted black olives (kalamata or niçoise) |
-| 250–300g | canned tuna in oil, drained and broken into large chunks |
+| 250–300g | fresh tuna, seared very lightly (rare center), sliced |
 
 ### Lemon Dressing
 
@@ -38,15 +37,16 @@ source: https://www.recipetineats.com/nicoise-salad-french-salad-with-tuna/
 
 3. Blanch green beans until tender. Drain and refresh under cold running water. Pat dry.
 
-4. Arrange lettuce on a large plate. Layer potatoes, beans, tomatoes, eggs, olives, and tuna. Drizzle with dressing.
+4. Sear tuna in a very hot pan with a little oil, about 30–45 seconds per side. Slice.
+
+5. Arrange lettuce on a large plate. Layer potatoes, beans, eggs, olives, and tuna. Drizzle with dressing.
 
 <div class="notes" markdown="1">
 ## Notes
 
-- Use tuna in oil, not spring water. Quality matters here. Fresh tuna seared very lightly (rare center) is even better.
+- Canned tuna in oil works as a substitute if fresh isn't available.
 - Get the best olives you can find — unpitted kalamata, Ligurian, or niçoise in brine or oil.
-- Tomatoes are optional — works great without them.
-- For jammy eggs: steam large eggs for 7:45, then ice bath. Halve to show off the yolk.
+- The eggs should be jammy — steaming is more consistent than boiling. 7:45 for large eggs, ice bath immediately.
 - Anchovies are arguably more traditional than tuna. Use about a dozen draped over the salad.
 - Other common additions: cucumber, capsicum, artichokes, broad beans, red onion, radishes, parsley, basil.
 - The Dijon in the dressing acts as an emulsifier so it coats the potatoes better.
