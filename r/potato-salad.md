@@ -45,4 +45,5 @@ chef: Nami (Just One Cookbook)
 - The texture should be chunky, not smooth. Mash about two-thirds, leave the rest in pieces.
 - Salting and squeezing the cucumber prevents the salad from getting watery.
 - Corn is a common addition. Onion too, if you like it.
+- Makes a great sandwich filling (potato salad sando). Spread between soft white bread, trim crusts, cut into fingers. The creamy-chunky texture works perfectly in sandwiches.
 </div>

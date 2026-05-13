@@ -328,3 +328,7 @@ watercress-tea-sandwiches:
   blue: "□ bread"
   pink: "○ watercress"
   combo: "inside"
+tamago-sando:
+  pink: "□ bread"
+  blue: "○ egg"
+  combo: "inside"
