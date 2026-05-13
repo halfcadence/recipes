@@ -336,3 +336,7 @@ ham-and-cheese-tea-sandwiches:
   pink: "□ bread"
   blue: "□ ham"
   combo: "stacked"
+ankake-don:
+  pink: "○ bowl"
+  blue: "○ sauce"
+  combo: "concentric"
