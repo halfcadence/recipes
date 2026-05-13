@@ -332,3 +332,7 @@ tamago-sando:
   pink: "□ bread"
   blue: "○ egg"
   combo: "inside"
+ham-and-cheese-tea-sandwiches:
+  pink: "□ bread"
+  blue: "□ ham"
+  combo: "stacked"
