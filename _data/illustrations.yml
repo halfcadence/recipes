@@ -320,3 +320,11 @@ japanese-beef-curry:
   pink: "○ plate"
   blue: "○ curry"
   combo: "concentric"
+cucumber-tea-sandwiches:
+  pink: "□ bread"
+  blue: "□ cucumber"
+  combo: "stacked"
+watercress-tea-sandwiches:
+  blue: "□ bread"
+  pink: "○ watercress"
+  combo: "inside"
