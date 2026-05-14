@@ -38,9 +38,6 @@ These items SHOULD be omitted from the shopping list because most home cooks alr
 - All-purpose flour
 - Potato starch / cornstarch
 - Butter (salted and unsalted)
-- Eggs
-- Garlic
-- Ginger
 - White rice
 
 ## Output Format
