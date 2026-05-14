@@ -21,7 +21,7 @@ When the user asks to generate a shopping list for one or more recipes:
 3. Apply portion scaling if requested (see Scaling section)
 4. Merge ingredients across all recipes — combine duplicates, sum quantities
 5. Categorize them and remove pantry staples (see below)
-6. Output a single unified shopping list
+6. Output a single unified shopping list in a code block
 
 ## Multi-Recipe Merging
 
@@ -48,6 +48,7 @@ Recipes have a `yield` field in their frontmatter (e.g., `yield: 4` means serves
   - "double batch" → multiply by 2
   - "half batch" → multiply by 0.5
   - "for 2" → scale to 2 servings (may mean scaling down)
+  - "1.25x" → multiply by 1.25
 
 When combining multiple recipes with different scales:
 - Each recipe MAY have a different scale factor. E.g., "gamjatang for 6, ankake don for 2"
@@ -55,7 +56,7 @@ When combining multiple recipes with different scales:
 
 ## Pantry Staples (OMIT from list)
 
-These items SHOULD be omitted from the shopping list because most home cooks already have them. However, you MUST mention them in a brief "check you have" note at the bottom.
+These items SHOULD be omitted from the shopping list because most home cooks already have them. However, you MUST mention them in a brief "CHECK YOU HAVE" note at the bottom.
 
 - Salt (kosher salt, flaky salt, table salt)
 - Black pepper
@@ -74,61 +75,66 @@ These items SHOULD be omitted from the shopping list because most home cooks alr
 
 ## Output Format
 
-The output MUST be formatted as a clean, pastable list suitable for Google Docs or a notes app. Use this structure:
+The output MUST be inside a code block (triple backticks) so the user can copy the whole thing cleanly. Use plain text with dashes — no markdown formatting, no bold, no checkboxes. The user will paste into Google Docs and convert to a checklist via Format → Bullets & numbering → Checklist.
+
+Structure:
 
 ```
-## Shopping List: [Recipe Name(s)]
+Shopping List: [Recipe Name(s)]
 Serves: [X people / or note per-recipe scaling]
 
-**Protein**
-- [ ] 1.3kg pork neck bones
-- [ ] 7 eggs (tamago sando ×4, ankake don ×3)
+PROTEIN
+- 1.3kg pork neck bones
+- 7 eggs (tamago sando ×4, ankake don ×3)
 
-**Produce**
-- [ ] 500g Yukon Gold potatoes
-- [ ] 6 green onions (gamjatang ×4, ankake don ×2)
-- [ ] 300g napa cabbage
-- [ ] 100g mung bean sprouts
-- [ ] 8–10 perilla leaves
-- [ ] 1 onion
+PRODUCE
+- 500g Yukon Gold potatoes
+- 6 green onions (gamjatang ×4, ankake don ×2)
+- 300g napa cabbage
+- 100g mung bean sprouts
+- 8–10 perilla leaves
+- 1 onion
 
-**Bread/Bakery**
-- [ ] 1 loaf soft white bread (cucumber sandwiches, watercress sandwiches, ham sandwiches)
+BREAD
+- 1 loaf soft white bread
 
-**Korean/Asian Grocery**
-- [ ] 10g gochugaru
-- [ ] 30g doenjang
-- [ ] 15g gochujang
-- [ ] 30g fish sauce
-- [ ] 15g ground perilla seed powder — Korean grocery store
-- [ ] 15g perilla seed oil — Korean grocery store
+KOREAN GROCERY
+- 10g gochugaru
+- 30g doenjang
+- 15g gochujang
+- 30g fish sauce
+- 15g ground perilla seed powder (들깨가루)
+- 15g perilla seed oil
 
-**Dairy**
-- [ ] 4 tbsp cream cheese
+DAIRY
+- 4 tbsp cream cheese
 
-**Liquor**
-- [ ] 60ml umeshu
+LIQUOR
+- 60ml umeshu
 
-**Pantry (check you have)**
-- Salt, black pepper, soy sauce, mirin, sesame oil, rice vinegar, neutral oil, butter, white rice
+CHECK YOU HAVE
+Salt, black pepper, soy sauce, mirin, sesame oil, rice vinegar, neutral oil, butter, white rice
 ```
+
+After pasting: select all list items → Format → Bullets & numbering → Checklist.
 
 ## Rules
 
 1. You MUST read the actual recipe file(s) — do not guess ingredients from memory.
 2. You MUST produce a single merged list, not separate lists per recipe.
-3. You MUST group items by category. Use these categories as appropriate:
-   - Protein
-   - Produce
-   - Dairy
-   - Bread/Bakery
-   - Asian Grocery (or Korean/Japanese/etc. as appropriate)
-   - Liquor (for cocktail recipes)
-   - Pantry (check you have)
-4. You MUST combine duplicate ingredients across all recipes and sum their quantities.
-5. You MUST include quantities from the recipe (scaled if applicable).
-6. You SHOULD note when an ingredient is specialty or hard to find (e.g., "perilla seed powder — Korean grocery store").
-7. You SHOULD annotate which recipe needs a specialty ingredient if it's not obvious.
-8. The output MUST use markdown checkboxes (`- [ ]`) for easy copy-paste into task apps.
-9. For cocktail recipes, list spirits and mixers under "Liquor" and garnishes under "Produce."
-10. If the user doesn't specify portions, use the recipe's default yield and note it.
+3. You MUST output inside a code block for clean copy-paste.
+4. You MUST use plain text only — no markdown formatting (no bold, no `[ ]`, no `**`).
+5. You MUST group items by category using ALL CAPS headers. Use these categories as appropriate:
+   - PROTEIN
+   - PRODUCE
+   - DAIRY
+   - BREAD
+   - ASIAN GROCERY (or KOREAN GROCERY / JAPANESE GROCERY as appropriate)
+   - LIQUOR (for cocktail recipes)
+   - CHECK YOU HAVE
+6. You MUST combine duplicate ingredients across all recipes and sum their quantities.
+7. You MUST include quantities from the recipe (scaled if applicable).
+8. You SHOULD note when an ingredient is specialty or hard to find (e.g., "perilla seed powder (들깨가루)").
+9. You SHOULD annotate which recipe needs a specialty ingredient if it's not obvious.
+10. For cocktail recipes, list spirits and mixers under LIQUOR and garnishes under PRODUCE.
+11. If the user doesn't specify portions, use the recipe's default yield and note it.
