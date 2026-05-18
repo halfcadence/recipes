@@ -76,7 +76,8 @@ yield: 3–4
 - Pork spine bones or baby back ribs work if you can't find neck bones. Neck bones have the best meat-to-bone ratio for this dish.
 - The parboil-and-rinse step is non-negotiable. It removes the gamey smell and gives you a clean, milky broth.
 - Yukon Gold potatoes hold their shape better than russets during the long simmer.
-- Young radish greens (열무) can replace napa cabbage for a more traditional version.
+- Young radish greens (열무) can replace napa cabbage for a more traditional version. Fresh yeolmu is tender and slightly peppery — wash, cut into 5cm lengths, add in the last 3–5 minutes like cabbage. Seasonal (spring/summer).
+- For the restaurant-style version, use dried radish leaves (시래기, siraegi) instead. Soak 20–30 min, boil 20+ min until tender, drain, squeeze, cut into 5cm lengths. Add with the potatoes so it simmers and absorbs broth. Earthy, chewy, deeply savory — this is what makes gamjatang taste "legit." Available year-round in bags at Korean grocery stores.
 - Watercress is a great addition — add a handful at the very end with the perilla leaves. The peppery bite cuts through the rich broth nicely.
 - Add aged kimchi with the potatoes instead of (or alongside) napa cabbage for more depth.
 - Leftovers improve overnight. Reheat and add instant ramen noodles for gamjatang ramen.
