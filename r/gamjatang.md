@@ -77,6 +77,7 @@ yield: 3–4
 - The parboil-and-rinse step is non-negotiable. It removes the gamey smell and gives you a clean, milky broth.
 - Yukon Gold potatoes hold their shape better than russets during the long simmer.
 - Young radish greens (열무) can replace napa cabbage for a more traditional version.
+- Watercress is a great addition — add a handful at the very end with the perilla leaves. The peppery bite cuts through the rich broth nicely.
 - Add aged kimchi with the potatoes instead of (or alongside) napa cabbage for more depth.
 - Leftovers improve overnight. Reheat and add instant ramen noodles for gamjatang ramen.
 - A 6-quart rondeau or Dutch oven works well — the wide base lets bones sit in a single layer for even cooking.
