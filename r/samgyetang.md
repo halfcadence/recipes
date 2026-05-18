@@ -63,5 +63,6 @@ yield: 2
 - Jujubes (대추) are dried red dates. They add subtle sweetness to the broth.
 - Sweet rice (찹쌀) becomes sticky and porridge-like inside the hen. Regular short-grain rice works but won't have the same texture.
 - A gentle simmer keeps the broth clear. A hard boil makes it cloudy and can toughen the meat.
+- For serving in a donabe or ttukbaegi: fill the clay pot with hot tap water while the soup cooks to preheat it. Dump the water, then transfer the hen and broth. This avoids thermal shock (cold clay + hot liquid = crack).
 - Serve with kimchi on the side. Cold watermelon after is traditional.
 </div>
