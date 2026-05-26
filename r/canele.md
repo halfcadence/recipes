@@ -44,7 +44,7 @@ yield: 15
 
 9. Preheat oven to 500°F. Fill each mold with 72g of batter.
 
-10. Bake at 500°F for 15 minutes to form the caramelized shell. Without opening the oven, drop temperature to 400°F and continue baking for 20 minutes.
+10. Bake at 500°F for 15 minutes to form the caramelized shell. Without opening the oven, drop temperature to 350°F and continue baking for 20 minutes.
 
 11. Unmold immediately onto a cooling rack upside down. Cool for 2 hours. Eat the same day.
 
