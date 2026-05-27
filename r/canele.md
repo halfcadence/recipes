@@ -42,9 +42,9 @@ yield: 15
 
 8. Strain the rested batter through a sieve, pressing with a ladle. If lumps remain, blend briefly until smooth.
 
-9. Preheat oven to 500°F. Fill each mold with 72g of batter.
+9. Preheat oven to 500°F. Fill each mold with 70g of batter.
 
-10. Bake at 500°F for 15 minutes to form the caramelized shell. Without opening the oven, drop temperature to 350°F and continue baking for 20 minutes.
+10. Bake at 500°F for 15 minutes to form the caramelized shell. Without opening the oven, drop temperature to 375°F and continue baking for 45 minutes.
 
 11. Unmold immediately onto a cooling rack upside down. Cool for 2 hours. Eat the same day.
 
@@ -55,7 +55,8 @@ yield: 15
 - Fleur de sel is a coarse French sea salt — regular fine sea salt works as a substitute.
 - Type 45 flour is French low-protein flour; cake flour is the closest substitute.
 - The high initial temperature creates the caramelized shell and prevents mushrooming. If your oven only goes to 480°F, use convection for the first 15 minutes.
-- 72g of batter per mold is the target — use a scale for consistency.
+- 70g of batter per mold is the target — use a scale for consistency.
+- Next experiment: pull one canelé at 35, 45, and 55 min total to find the sweet spot between custardy and cakey.
 - For matcha or hojicha canelés: add 10g powder per 500g of batter. Sift it in with the flour.
 - Canelés are best eaten the day they're baked.
 </div>
