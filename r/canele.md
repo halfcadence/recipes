@@ -3,59 +3,54 @@ title: Canelé
 category: sweets
 number: 12
 source: https://hitosara.com/contents/chefstable/recipe/recipe_jill01.html
-chef: Gilles Marchal
-yield: 15
+chef: Gilles Marchal (simplified)
+yield: 24
 ---
 
 ## Ingredients
 
 | | |
 |---|---|
-| 225g | milk (A) |
-| 450g | milk (B) |
+| 675g | milk |
 | 75g | heavy cream (35% fat) |
-| 1g | vanilla (bean) |
 | 90g | butter |
+| 1 | vanilla bean (or 2 tsp extract) |
 | 338g | granulated sugar |
 | 3g | fleur de sel |
-| 60g | whole egg |
-| 90g | egg yolk |
+| 60g | whole egg (~1 large) |
+| 90g | egg yolk (~5 yolks) |
 | 80g | aged rum |
-| 285g | flour (AP flour; or T45 if available) |
+| 285g | AP flour |
 | | Beeswax for molds |
 
 ## Steps
 
-1. In a small pot, combine milk A, butter, vanilla, and sugar. Heat to 175°F — do not boil or the mixture will split. Remove from heat once it reaches temperature and sugar dissolves.
+1. In a pot, combine milk, cream, butter, and vanilla. Heat to 175°F — do not boil or it will split. Remove from heat. Let infuse 5 minutes.
 
-2. Cover with plastic wrap and rest for 1 hour to develop flavor.
+2. In a large bowl, whisk sugar, salt, eggs, and yolks together.
 
-3. Strain the infused milk through a sieve, pressing the vanilla pod firmly to extract the oils.
+3. Slowly pour about ¼ of the hot milk into the egg mixture, whisking constantly to temper. Then sift in all the flour and whisk until smooth.
 
-4. In a separate bowl, combine cold milk B and cream. Add rum, egg yolks, salt, and whole egg in order, mixing gently. Avoid creating air bubbles.
+4. Gradually add the remaining hot milk, whisking until fully combined. Stir in rum.
 
-5. Combine the egg mixture with the infused milk.
+5. Strain through a sieve. Refrigerate overnight (24 hours minimum, 48 ideal).
 
-6. Sift in the flour. Start by adding a small amount of liquid to the center of the flour, mixing outward, then gradually incorporate the rest until smooth.
+6. Coat canelé molds with beeswax. Stir rested batter gently (don't introduce air). Strain again if lumpy.
 
-7. Refrigerate the batter overnight (24 hours). Coat canelé molds with beeswax.
+7. Preheat oven to 525°F. Fill each mold with 70g of batter.
 
-8. Strain the rested batter through a sieve, pressing with a ladle. If lumps remain, blend briefly until smooth.
+8. Bake at 525°F for 10 minutes. Without opening the oven, drop to 375°F and continue baking for 45 minutes.
 
-9. Preheat oven to 525°F. Fill each mold with 70g of batter.
-
-10. Bake at 525°F for 10 minutes to form the caramelized shell. Without opening the oven, drop temperature to 375°F and continue baking for 45 minutes.
-
-11. Unmold immediately onto a cooling rack upside down. Cool for 2 hours. Eat the same day.
+9. Unmold immediately onto a cooling rack upside down. Cool 2 hours. Eat the same day.
 
 <div class="notes" markdown="1">
 ## Notes
 
-- Resting the infused milk and the overnight batter rest are both critical for flavor and texture.
-- Fleur de sel is a coarse French sea salt — regular fine sea salt works as a substitute.
+- The 24h rest is non-negotiable — it hydrates the flour, develops flavor, and improves texture. 48h is even better.
 - AP flour works well as a T45 substitute — most successful home bakers use it. Avoid the DIY "cake flour" hack (AP + cornstarch) as the cornstarch adds structure that works against custardy texture.
-- The high initial temperature creates the caramelized shell and prevents mushrooming. If your oven only goes to 480°F, use convection for the first 15 minutes.
-- 70g of batter per mold is the target — use a scale for consistency.
+- Fleur de sel is a coarse French sea salt — regular fine sea salt works as a substitute.
+- The high initial temperature creates the caramelized shell and prevents mushrooming.
+- 70g of batter per mold — use a scale for consistency.
 - Next experiment: pull one canelé at 25, 30, 35, 40, 45, and 55 min total to find the sweet spot between custardy and cakey.
 - For matcha or hojicha canelés: add 10g powder per 500g of batter. Sift it in with the flour.
 - Canelés are best eaten the day they're baked.
