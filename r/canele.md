@@ -52,6 +52,7 @@ yield: 24
 - The high initial temperature creates the caramelized shell and prevents mushrooming.
 - 70g of batter per mold — use a scale for consistency.
 - Next experiment: pull one canelé at 25, 30, 35, 40, 45, and 55 min total to find the sweet spot between custardy and cakey.
-- For matcha or hojicha canelés: add 10g powder per 500g of batter. Sift it in with the flour.
+- For matcha or hojicha canelés: add 12g powder per 500g of batter. Sift it in with the flour, or make a paste with 1 tbsp of batter and fold back in.
+- For coffee canelés: dissolve 5–6g instant espresso (or instant decaf) in 1 tbsp hot water, stir into batter. Can also add directly to the hot milk before combining.
 - Canelés are best eaten the day they're baked.
 </div>
