@@ -348,3 +348,7 @@ chocolate-canele:
   blue: "▮ body"
   pink: "○ dome"
   combo: "stacked"
+white-chocolate-matcha-canele:
+  blue: "▮ body"
+  pink: "○ matcha"
+  combo: "top"
