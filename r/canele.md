@@ -37,9 +37,9 @@ yield: 24
 
 6. Coat canelé molds with beeswax. Stir rested batter gently (don't introduce air). Strain again if lumpy.
 
-7. Preheat oven to 525°F. Fill each mold with 70g of batter.
+8. Preheat oven to 475°F. Fill each mold with 70g of batter.
 
-8. Bake at 525°F for 10 minutes. Without opening the oven, drop to 375°F and continue baking for 45 minutes.
+9. Bake at 475°F for 11 minutes. Without opening the oven, drop to 350°F and continue baking for 50 minutes.
 
 9. Unmold immediately onto a cooling rack upside down. Cool 2 hours. Eat the same day.
 
@@ -51,7 +51,7 @@ yield: 24
 - Fleur de sel is a coarse French sea salt — regular fine sea salt works as a substitute.
 - The high initial temperature creates the caramelized shell and prevents mushrooming.
 - 70g of batter per mold — use a scale for consistency.
-- Next experiment: pull one canelé at 25, 30, 35, 40, 45, and 55 min total to find the sweet spot between custardy and cakey.
+- Next experiment: try reducing flour by 10–15% (to ~240–255g) for a more custardy, less cakey interior. May need slightly longer bake or lower temp to set.
 - For matcha or hojicha canelés: add 12g powder per 500g of batter. Sift it in with the flour, or make a paste with 1 tbsp of batter and fold back in.
 - For coffee canelés: dissolve 5–6g instant espresso (or instant decaf) in 1 tbsp hot water, stir into batter. Can also add directly to the hot milk before combining.
 - Canelés are best eaten the day they're baked.
