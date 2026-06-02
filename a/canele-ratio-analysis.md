@@ -10,14 +10,15 @@ A comparison of popular canelé recipes by ratio, to understand what makes the i
 
 Six recipes normalized to percentage of total batter weight:
 
-| | **Ours (Marchal)** | **Baken** | **Taste of Artisan** | **Saveur** | **Thermomix** | **Japanese** |
-|---|---|---|---|---|---|---|
-| Total batter | 1696g | 1030g | 1060g | 1060g | 860g | 860g |
-| Flour % | **16.8%** | 14.6%* | 9.4% | 9.4% | 10.5% | 16.3% |
-| Sugar % | 19.9% | 21.8% | 18.9% | 20.8% | 23.3% | 17.4% |
-| Fat % | **9.7%** | 6.0% | 6.6% | 6.6% | 1.2% | 4.3% |
-| Liquid % | 48.9% | 51.5% | 52.8% | 59.3% | 61.6% | 64.0% |
-| Egg % | 8.8% | 7.8% | 14.2% | 9.4% | 8.1% | 11.6% |
+| | **Ours (Marchal)** | **Kitchen Projects** | **Baken** | **Taste of Artisan** | **Saveur** | **Thermomix** | **Japanese** |
+|---|---|---|---|---|---|---|---|
+| Total batter | 1696g | 868g | 1030g | 1060g | 1060g | 860g | 860g |
+| Flour % | **16.8%** | 11.5% | 14.6%* | 9.4% | 9.4% | 10.5% | 16.3% |
+| Sugar % | 19.9% | 21.9% | 21.8% | 18.9% | 20.8% | 23.3% | 17.4% |
+| Fat % | **9.7%** | 8.5% | 6.0% | 6.6% | 6.6% | 1.2% | 4.3% |
+| Liquid % | 48.9% | 51.8% | 51.5% | 52.8% | 59.3% | 61.6% | 64.0% |
+| Egg % | 8.8% | 8.6% | 7.8% | 14.2% | 9.4% | 8.1% | 11.6% |
+| Egg type | 1 whole + 5 yolks | Yolks only | Yolks only | 2 whole + 2 yolks | 1 whole + 4 yolks | 2 whole + 1 yolk | 2 whole |
 
 *Baken's 14.6% includes 25g cornstarch which adds structure differently than flour.
 
@@ -56,15 +57,6 @@ Based on this analysis, the ideal ratios for a rich, custardy canelé appear to 
 ## Our Next Experiment
 
 Reducing flour from 285g to 240g brings us from 16.8% → 14.1%, right at the top of the custardy range while keeping all the richness (cream, butter, yolks).
-
-## Sources
-
-- Gilles Marchal (our recipe): [hitosara.com](https://hitosara.com/contents/chefstable/recipe/recipe_jill01.html)
-- Baken (YouTube): 225g sugar, 125g flour, 25g cornflour, 500ml milk, 45g butter, 80g yolk, 30ml rum
-- Taste of Artisan: [tasteofartisan.com/canele](https://tasteofartisan.com/canele/)
-- Saveur: [saveur.com/caneles-recipe](https://www.saveur.com/caneles-recipe/)
-- Thermomix: [cookidoo.thermomix.com](https://cookidoo.thermomix.com/recipes/recipe/en-us/r764606)
-- Japanese (unnamed): 140g cake flour, 150g sugar, 20g butter, 2 eggs, 500g milk, 50g rum
 
 ---
 
@@ -116,6 +108,7 @@ The tradeoff is clear: more chocolate + less flour = more custardy + harder to u
 ## Sources
 
 - Gilles Marchal (our recipe): [hitosara.com](https://hitosara.com/contents/chefstable/recipe/recipe_jill01.html)
+- Kitchen Projects (Nicola Lamb, ex-Dominique Ansel, ~25 batches tested): [kitchenprojects.substack.com](https://kitchenprojects.substack.com/p/kitchen-project-99-canele)
 - Baken (YouTube): 225g sugar, 125g flour, 25g cornflour, 500ml milk, 45g butter, 80g yolk, 30ml rum
 - Taste of Artisan: [tasteofartisan.com/canele](https://tasteofartisan.com/canele/)
 - Taste of Artisan (chocolate): [tasteofartisan.com/chocolate-canele-recipe](https://tasteofartisan.com/chocolate-canele-recipe/)
