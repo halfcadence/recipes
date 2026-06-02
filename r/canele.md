@@ -47,6 +47,7 @@ yield: 24
 ## Notes
 
 - The 24h rest is non-negotiable — it hydrates the flour, develops flavor, and improves texture. 48h is even better.
+- Cream can be replaced by adjusting milk and butter: use 750g milk and 105g butter instead. Same fat/liquid ratio, one fewer ingredient.
 - AP flour works well as a T45 substitute — most successful home bakers use it. Avoid the DIY "cake flour" hack (AP + cornstarch) as the cornstarch adds structure that works against custardy texture.
 - Fleur de sel is a coarse French sea salt — regular fine sea salt works as a substitute.
 - The high initial temperature creates the caramelized shell and prevents mushrooming.
