@@ -25,7 +25,7 @@ yield: 12
 
 ## Steps
 
-1. In a pot, heat milk with vanilla to 122°F (50°C). Remove from heat, add chopped chocolate, stir until melted and smooth. Set aside.
+1. In a pot, heat milk with vanilla to 150°F (65°C). Remove from heat, add chopped chocolate, cover and let sit 3 minutes, then stir until melted and smooth.
 
 2. In a bowl, whisk sugar, salt, eggs, and yolks together until thick and slightly pale.
 
@@ -50,7 +50,7 @@ yield: 12
 - The result is described as extremely moist, creamy, almost pudding-like interior with intense chocolate flavor.
 - Only needs 12 hours rest (vs 24h for the plain recipe). Victor from Taste of Artisan tested both and found no difference.
 - Uses honey for moisture retention and depth of flavor — but can be replaced with an equal weight of sugar if you don't have it.
-- The lower milk temperature (122°F / 50°C) is intentional — just enough to melt chocolate without cooking eggs or scalding milk.
+- Chop chocolate finely (or grate it) for easier melting. Cover the pot after adding chocolate and wait 3 min before stirring — the trapped heat melts it more evenly.
 - 70–80% chocolate is essential for intensity. Lower cacao % will be too sweet and not chocolatey enough.
 - No mushrooming problems reported with this recipe — possibly because the low flour content means less rising.
 - Compare with our other chocolate canelé (#92) which is an adaptation of the Marchal plain recipe with more flour and cocoa powder.
