@@ -14,7 +14,7 @@ yield: 20
 | 75g | heavy cream |
 | 80g | dark chocolate (70%), finely chopped |
 | 50g | butter |
-| 1 | vanilla bean (or 2 tsp extract) |
+| 1 | vanilla bean (or 8g vanilla extract) |
 | 250g | granulated sugar |
 | 3g | fleur de sel |
 | 60g | whole egg (~1 large) |

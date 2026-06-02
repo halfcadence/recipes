@@ -19,7 +19,7 @@ yield: 12
 | 20g | cake flour (or AP flour) |
 | 20g | cornstarch |
 | 60g | rum |
-| 1 | vanilla bean (or 2 tsp extract) |
+| 1 | vanilla bean (or 8g vanilla extract) |
 | | Beeswax + butter for molds |
 
 ## Steps

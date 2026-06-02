@@ -14,7 +14,7 @@ yield: 24
 | 675g | milk |
 | 75g | heavy cream (35% fat) |
 | 90g | butter |
-| 1 | vanilla bean (or 2 tsp extract) |
+| 1 | vanilla bean (or 8g vanilla extract) |
 | 338g | granulated sugar |
 | 3g | fleur de sel |
 | 60g | whole egg (~1 large) |
