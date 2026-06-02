@@ -4,6 +4,26 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-06-01
+
+- Add miyeokguk (Korean seaweed soup) recipe.
+- Add Japanese beef curry (lazy frozen veg version) recipe.
+- Add cucumber tea sandwiches, watercress tea sandwiches, ham & cheese tea sandwiches recipes.
+- Add tamago sando (Japanese egg salad sandwich) recipe.
+- Add ankake don (thick dashi sauce rice bowl) recipe.
+- Add ume highball recipe.
+- Add chocolate canelé recipe (Marchal-adapted).
+- Add chocolate canelé Ferrandi recipe (low-flour, intense chocolate).
+- Add white chocolate matcha canelé recipe (experimental).
+- Add canelé ratio analysis article.
+- Add ttukbaegi comparison page (unlisted).
+- Add shopping list generator skill.
+- Update canelé recipe: simplified method, AP flour, tested bake schedule (475°F/11min + 350°F/50min), flavor notes (matcha, hojicha, coffee).
+- Update nicoise salad: fresh seared tuna, jammy eggs, remove tomatoes.
+- Update gamjatang: siraegi/yeolmu prep instructions, watercress note.
+- Update samgyetang: donabe serving note.
+- Update potato salad: sando filling note.
+
 ## 2026-04-29
 
 - Add AeroPress filters article (paper vs metal vs cloth, flavor profiles, stacking technique).
