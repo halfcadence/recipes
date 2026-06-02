@@ -65,3 +65,61 @@ Reducing flour from 285g to 240g brings us from 16.8% → 14.1%, right at the to
 - Saveur: [saveur.com/caneles-recipe](https://www.saveur.com/caneles-recipe/)
 - Thermomix: [cookidoo.thermomix.com](https://cookidoo.thermomix.com/recipes/recipe/en-us/r764606)
 - Japanese (unnamed): 140g cake flour, 150g sugar, 20g butter, 2 eggs, 500g milk, 50g rum
+
+---
+
+## Chocolate Canelé Ratios
+
+Chocolate canelés are a different beast. The melted chocolate contributes fat, structure (cocoa solids), and sugar simultaneously — replacing some of the work that flour, butter, and sugar each do separately in the plain version.
+
+### Chocolate Recipes Compared
+
+| | **Ours (#92, Marchal-adapted)** | **Ferrandi (#94)** | **Tefal** | **Thermomix (choc)** |
+|---|---|---|---|---|
+| Total batter | ~1360g | ~960g | ~400g | ~860g |
+| Flour % | 14.7% (200g) | **2.1%** (20g) | 12.5% (50g) | 10.5% (90g) |
+| Cornstarch % | 0% | 2.1% (20g) | 0% | 3.5% (30g cocoa) |
+| Cocoa % | 2.2% (30g) | 0% | 5% (20g) | 3.5% (30g) |
+| Chocolate % | 5.9% (80g) | **13.0%** (125g) | 20% (80g) | 0% |
+| Sugar % | 18.4% (250g) | 20.8% (200g) | 18.8% (75g) | 23.3% (200g) |
+| Fat % (butter+cream+choc fat+yolk fat) | ~10.7% | ~11.8% | ~10% | ~3.5% |
+| Liquid % | 44.5% | 48.4% | 56.3% | 61.6% |
+| Egg % | 11.0% | 15.6% | 7.5% | 8.1% |
+
+### Key Findings — Chocolate
+
+**Chocolate replaces flour for structure.** The Ferrandi recipe uses only 40g of flour+starch total (4.2%) yet holds together because 125g of melted dark chocolate provides cocoa butter (sets firm when cooled) and cocoa solids (absorb liquid, add body). This is why it's so intensely custardy — almost no gluten at all.
+
+**Two approaches exist:**
+
+1. **"Chocolate + cocoa" approach** (our #92, Tefal, Thermomix) — Keep a moderate amount of flour, add cocoa powder for color/flavor, add some melted chocolate. More structured, sturdier, easier to unmold. More like "chocolate-flavored canelé."
+
+2. **"All-chocolate, minimal flour" approach** (Ferrandi #94) — Barely any flour, rely on eggs and chocolate for structure. Much more custardy and intensely chocolatey. More like "chocolate custard in a shell." Described as "creamy" and "pudding-like."
+
+**Fat is higher across all chocolate recipes** compared to plain, because chocolate itself is ~50% cocoa butter. Even without adding extra butter/cream, the chocolate bumps up total fat significantly.
+
+**The Ferrandi recipe's egg % is highest** at 15.6% — it needs more egg protein to compensate for the almost-zero flour. The eggs are doing most of the structural work.
+
+### Chocolate Canelé Sweet Spot
+
+| Component | Target % |
+|---|---|
+| Flour + starch | 2–15% (depends on how much chocolate) |
+| Chocolate | 6–13% (higher = more intense, less flour needed) |
+| Sugar | 18–23% |
+| Fat (total) | 10–12% |
+| Liquid | 44–55% |
+| Egg | 11–16% (more needed if flour is low) |
+
+The tradeoff is clear: more chocolate + less flour = more custardy + harder to unmold. Pick your spot on that spectrum.
+
+## Sources
+
+- Gilles Marchal (our recipe): [hitosara.com](https://hitosara.com/contents/chefstable/recipe/recipe_jill01.html)
+- Baken (YouTube): 225g sugar, 125g flour, 25g cornflour, 500ml milk, 45g butter, 80g yolk, 30ml rum
+- Taste of Artisan: [tasteofartisan.com/canele](https://tasteofartisan.com/canele/)
+- Taste of Artisan (chocolate): [tasteofartisan.com/chocolate-canele-recipe](https://tasteofartisan.com/chocolate-canele-recipe/)
+- Saveur: [saveur.com/caneles-recipe](https://www.saveur.com/caneles-recipe/)
+- Thermomix: [cookidoo.thermomix.com](https://cookidoo.thermomix.com/recipes/recipe/en-us/r764606)
+- Tefal (chocolate): [tefal.com/recipe/108860](https://www.tefal.com/recipe/108860)
+- Japanese (unnamed): 140g cake flour, 150g sugar, 20g butter, 2 eggs, 500g milk, 50g rum
