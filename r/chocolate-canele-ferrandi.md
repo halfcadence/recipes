@@ -13,8 +13,7 @@ yield: 12
 |---|---|
 | 400g | milk |
 | 125g | dark chocolate (70–80%), chopped |
-| 150g | sugar |
-| 50g | honey |
+| 200g | sugar (or 150g sugar + 50g honey for extra moisture retention) |
 | 110g | whole egg (~3 large, lightly beaten) |
 | 40g | egg yolk (~2 yolks) |
 | 20g | cake flour (or AP flour) |
@@ -27,7 +26,7 @@ yield: 12
 
 1. In a pot, heat milk with vanilla to 122°F (50°C). Remove from heat, add chopped chocolate, stir until melted and smooth. Set aside.
 
-2. In a bowl, whisk sugar, honey, eggs, and yolks together until thick and slightly pale.
+2. In a bowl, whisk sugar, eggs, and yolks together until thick and slightly pale.
 
 3. Sift flour and cornstarch together, fold into the egg mixture until smooth.
 
@@ -49,7 +48,7 @@ yield: 12
 - This is the Ferrandi School recipe (French pastry school). Very different approach from our other chocolate canelé — almost no flour (40g total vs 230g), relying on chocolate and eggs for structure instead.
 - The result is described as extremely moist, creamy, almost pudding-like interior with intense chocolate flavor.
 - Only needs 12 hours rest (vs 24h for the plain recipe). Victor from Taste of Artisan tested both and found no difference.
-- Uses honey for moisture retention and depth of flavor.
+- Uses honey for moisture retention and depth of flavor — but can be replaced with an equal weight of sugar if you don't have it.
 - The lower milk temperature (122°F / 50°C) is intentional — just enough to melt chocolate without cooking eggs or scalding milk.
 - 70–80% chocolate is essential for intensity. Lower cacao % will be too sweet and not chocolatey enough.
 - No mushrooming problems reported with this recipe — possibly because the low flour content means less rising.
