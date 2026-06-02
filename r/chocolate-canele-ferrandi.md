@@ -15,7 +15,7 @@ yield: 12
 | 125g | dark chocolate (70–80%), chopped |
 | 200g | sugar (or 150g sugar + 50g honey for extra moisture retention) |
 | 2g | fleur de sel |
-| 110g | whole egg (~3 large, lightly beaten) |
+| 110g | whole egg (~2 large, lightly beaten) |
 | 40g | egg yolk (~2 yolks) |
 | 20g | cake flour (or AP flour) |
 | 20g | cornstarch |
