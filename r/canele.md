@@ -56,4 +56,5 @@ yield: 24
 - For matcha or hojicha canelés: add 12g powder per 500g of batter. Sift it in with the flour, or make a paste with 1 tbsp of batter and fold back in.
 - For coffee canelés: dissolve 5–6g instant espresso (or instant decaf) in 1 tbsp hot water, stir into batter. Can also add directly to the hot milk before combining.
 - Canelés are best eaten the day they're baked.
+- For a half batch (~12 canelés): halve all ingredients. Use 30g whole egg (weigh out half a beaten egg) and 45g yolk (~2–3 yolks). Batter keeps 4–5 days in the fridge — bake in batches of 6 as needed.
 </div>
