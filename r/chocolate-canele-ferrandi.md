@@ -14,6 +14,7 @@ yield: 12
 | 400g | milk |
 | 125g | dark chocolate (70–80%), chopped |
 | 200g | sugar (or 150g sugar + 50g honey for extra moisture retention) |
+| 2g | fleur de sel |
 | 110g | whole egg (~3 large, lightly beaten) |
 | 40g | egg yolk (~2 yolks) |
 | 20g | cake flour (or AP flour) |
@@ -26,7 +27,7 @@ yield: 12
 
 1. In a pot, heat milk with vanilla to 122°F (50°C). Remove from heat, add chopped chocolate, stir until melted and smooth. Set aside.
 
-2. In a bowl, whisk sugar, eggs, and yolks together until thick and slightly pale.
+2. In a bowl, whisk sugar, salt, eggs, and yolks together until thick and slightly pale.
 
 3. Sift flour and cornstarch together, fold into the egg mixture until smooth.
 
