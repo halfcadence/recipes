@@ -17,7 +17,7 @@ yield: 12
 | 2g | fleur de sel |
 | 110g | whole egg (~2 large, lightly beaten) |
 | 40g | egg yolk (~2 yolks) |
-| 20g | cake flour (or AP flour) |
+| 50g | cake flour (or AP flour) |
 | 20g | cornstarch |
 | 60g | rum |
 | 1 | vanilla bean (or 8g vanilla extract) |
@@ -39,14 +39,14 @@ yield: 12
 
 7. Whisk rested batter until smooth (a skin forms on top during rest — just mix it back in). Fill molds to 5mm below the rim.
 
-8. Bake at 450°F for 20 minutes. Without opening the oven, drop to 375°F and continue baking for 40 minutes.
+8. Bake at 450°F for 10 minutes. Without opening the oven, drop to 375°F and continue baking for 50 minutes.
 
 9. Unmold immediately onto a cooling rack. Cool before eating. Best the same day.
 
 <div class="notes" markdown="1">
 ## Notes
 
-- This is the Ferrandi School recipe (French pastry school). Very different approach from our other chocolate canelé — almost no flour (40g total vs 230g), relying on chocolate and eggs for structure instead.
+- This is the Ferrandi School recipe (French pastry school). Flour increased to 50g from original 20g after testing — original was too soft and fragile to unmold cleanly.
 - The result is described as extremely moist, creamy, almost pudding-like interior with intense chocolate flavor.
 - Only needs 12 hours rest (vs 24h for the plain recipe). Victor from Taste of Artisan tested both and found no difference.
 - Uses honey for moisture retention and depth of flavor — but can be replaced with an equal weight of sugar if you don't have it.
