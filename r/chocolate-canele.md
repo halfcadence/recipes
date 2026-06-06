@@ -19,7 +19,7 @@ yield: 20
 | 3g | fleur de sel |
 | 60g | whole egg (~1 large) |
 | 90g | egg yolk (~5 yolks) |
-| 60g | aged rum |
+| 60g | aged rum (or brandy/cognac — excellent with chocolate) |
 | 200g | AP flour |
 | 30g | Dutch cocoa powder |
 | | Beeswax for molds |

@@ -19,7 +19,7 @@ yield: 12
 | 40g | egg yolk (~2 yolks) |
 | 50g | cake flour (or AP flour) |
 | 20g | cornstarch |
-| 60g | rum |
+| 60g | rum (or brandy/cognac — excellent with chocolate) |
 | 1 | vanilla bean (or 8g vanilla extract) |
 | | Beeswax + butter for molds |
 
