@@ -4,6 +4,19 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-06-07
+
+- Add custardy canelé recipe (half batch ~12, lower flour + cornstarch for a silkier set).
+- Add crispy butter mochi recipe (Shanghai-style, baked in canelé molds).
+- Add cherry clafoutis recipe (sized for the Field No. 8 skillet).
+- Add eggnog canelé recipe (nutmeg, cinnamon, clove, bourbon).
+- Add white chocolate matcha canelé Ferrandi recipe (higher flour to compensate for white chocolate's lack of cocoa solids).
+- Add spirits in baking article (pairing matrix, spirit decomposition, test results).
+- Add batter analysis skill (fat/sugar/structure/liquid/protein decomposition with benchmarks).
+- Update chocolate canelé Ferrandi: increased flour, tested bake schedule (450°F/10min + 375°F/50min), cover technique, Dutch cocoa substitution note.
+- Update chocolate canelés: default to brandy/cognac (tested better than rum).
+- Add salt to all canelé recipes (Marchal ratio).
+
 ## 2026-06-01
 
 - Add miyeokguk (Korean seaweed soup) recipe.
