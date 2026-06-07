@@ -15,8 +15,8 @@ yield: 12
 | 1 | vanilla bean (or 8g vanilla extract) |
 | 170g | granulated sugar |
 | 2g | fleur de sel |
-| 30g | whole egg (~half a large egg, beaten) |
-| 45g | egg yolk (~2–3 yolks) |
+| 1 | whole egg (~50g) |
+| 2 | egg yolks (~36g) |
 | 40g | aged rum |
 | 120g | AP flour |
 | 15g | cornstarch |
@@ -49,7 +49,6 @@ yield: 12
 - Lower flour (120g = ~14% of batter, vs the standard 285g = ~17%) gives a softer, more custardy interior — less cakey.
 - The 15g cornstarch adds a silky set without the gluten that makes things cakey. It firms the custard gently.
 - All other technique is identical to the plain canelé. The high-heat start prevents mushrooming.
-- For the half-egg: crack and beat one whole egg, weigh out 30g, save the rest.
 - If it comes out too soft to unmold cleanly, bump flour to 135g next time.
 - Same flavor variations apply: matcha/hojicha (12g), coffee (5g instant espresso paste).
 </div>
