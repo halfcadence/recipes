@@ -100,8 +100,11 @@ Total batter weight: 960g
 6. When diagnosing a problem (too soft, too cakey, too liquidy), you MUST identify which component is likely the cause.
 7. You SHOULD suggest specific fixes with gram amounts, not vague advice.
 
-## Canelé-Specific Benchmarks
+## Benchmarks by Baked Good Type
 
+Use the appropriate benchmark when comparing recipes. If analyzing a type not listed, use general principles (more structure = firmer, more liquid = softer, more fat = richer/more tender).
+
+### Canelé
 From tested recipes (see `/a/canele-ratio-analysis`):
 
 | Component | Custardy range | Cakey range | Too-soft/collapse range |
@@ -112,6 +115,60 @@ From tested recipes (see `/a/canele-ratio-analysis`):
 | Liquid % | 48–56% | <48% | >60% |
 | Egg % | 8–16% | — | — |
 
+### Pancakes / Crepes
+| Component | Fluffy pancake | Thin crepe |
+|---|---|---|
+| Structure solids % | 20–25% | 12–15% |
+| Fat % | 5–8% | 3–5% |
+| Sugar % | 5–10% | 2–5% |
+| Liquid % | 45–55% | 60–70% |
+| Egg % | 10–15% | 15–20% |
+
+### Cakes (butter cake / sponge)
+| Component | Dense butter cake | Light sponge |
+|---|---|---|
+| Structure solids % | 25–30% | 20–25% |
+| Fat % | 15–25% | 5–10% |
+| Sugar % | 25–35% | 20–30% |
+| Liquid % | 20–30% | 30–40% |
+| Egg % | 12–18% | 20–35% |
+
+### Brownies
+| Component | Fudgy | Cakey |
+|---|---|---|
+| Structure solids % | 10–15% | 18–22% |
+| Fat % | 20–30% | 12–18% |
+| Sugar % | 30–40% | 25–30% |
+| Liquid % | 10–20% | 20–30% |
+| Egg % | 12–18% | 10–15% |
+
+### Cookies
+| Component | Chewy | Crispy |
+|---|---|---|
+| Structure solids % | 30–35% | 35–40% |
+| Fat % | 20–28% | 25–30% |
+| Sugar % | 25–35% | 30–40% |
+| Liquid % | 5–10% | 3–8% |
+| Egg % | 8–12% | 5–8% |
+
+### Chiffon cake
+| Component | Target range |
+|---|---|
+| Structure solids % | 18–22% |
+| Fat % | 10–15% (oil-based) |
+| Sugar % | 22–28% |
+| Liquid % | 25–35% |
+| Egg % | 30–40% (heavy on whites for meringue) |
+
+### Quick bread / muffins
+| Component | Tender muffin | Dense loaf |
+|---|---|---|
+| Structure solids % | 28–33% | 30–35% |
+| Fat % | 10–18% | 8–12% |
+| Sugar % | 15–25% | 12–20% |
+| Liquid % | 25–35% | 25–30% |
+| Egg % | 8–12% | 6–10% |
+
 ## When to use this skill
 
 - "Why is my canelé cakey?" → analyze flour/structure %
@@ -119,3 +176,6 @@ From tested recipes (see `/a/canele-ratio-analysis`):
 - "Can I sub white chocolate for dark?" → decompose both, show the structure gap
 - "Compare these two recipes" → side-by-side component analysis
 - "Will this recipe work?" → check all components against benchmarks
+- "Why are my brownies cakey not fudgy?" → check fat % and structure %
+- "Is this pancake recipe more like a crepe?" → compare liquid % and structure %
+- "Why did my cake turn out dense?" → check fat vs liquid vs egg ratios
