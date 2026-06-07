@@ -16,7 +16,7 @@ yield: 12
 | 2g | fleur de sel |
 | 110g | whole egg (~2 large, lightly beaten) |
 | 40g | egg yolk (~2 yolks) |
-| 50g | AP flour |
+| 70g | AP flour |
 | 12g | matcha powder |
 | 20g | cornstarch |
 | 60g | dark rum |
@@ -46,7 +46,7 @@ yield: 12
 ## Notes
 
 - EXPERIMENTAL — adapted from the Ferrandi chocolate canelé by swapping dark chocolate for white and adding matcha. Untested.
-- Sugar reduced significantly (160g vs 200g) because white chocolate is much sweeter than dark (~45% sugar vs ~30%).
+- Flour increased to 70g (vs 50g in the dark chocolate Ferrandi) because white chocolate contributes zero cocoa solids — dark chocolate provides ~32g of structural solids for free that white chocolate doesn't. The extra flour compensates.
 - White chocolate adds fat but no cocoa-solid structure — the flour (50g) and cornstarch (20g) carry all the structural load.
 - Use good white chocolate (Valrhona Ivoire, Callebaut W2). Cheap white chocolate is mostly palm oil and sugar.
 - Matcha at 12g should be assertive enough to cut through the white chocolate sweetness. If it tastes too sweet, bump matcha to 15g.

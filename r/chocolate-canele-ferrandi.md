@@ -47,6 +47,7 @@ yield: 12
 ## Notes
 
 - This is the Ferrandi School recipe (French pastry school). Flour increased to 50g from original 20g after testing — original was too soft and fragile to unmold cleanly.
+- For extra chocolate intensity: replace 10–15g of the flour with Dutch process cocoa powder (e.g., 35g flour + 15g cocoa + 20g cornstarch). Dutch process gives darker color and smoother flavor than natural cocoa.
 - The result is described as extremely moist, creamy, almost pudding-like interior with intense chocolate flavor.
 - Only needs 12 hours rest (vs 24h for the plain recipe). Victor from Taste of Artisan tested both and found no difference.
 - Uses honey for moisture retention and depth of flavor — but can be replaced with an equal weight of sugar if you don't have it.
