@@ -11,7 +11,7 @@ yield: 6
 
 | | |
 |---|---|
-| 220g | milk (or coconut milk) |
+| 200g | milk (or coconut milk) |
 | 1 | large egg |
 | 28g | unsalted butter, melted |
 | 50g | granulated sugar |
@@ -26,9 +26,9 @@ yield: 6
 
 2. Blend milk, egg, melted butter, sugar, mochiko, tapioca starch, and miso until smooth and slightly aerated (20–30 seconds in a blender). More air = lighter interior.
 
-3. Fill molds about 70% full — leave room for puffing.
+3. Fill molds about 80–90% full.
 
-4. Bake at 375°F for 25–28 minutes until tops are golden and bottoms are crispy.
+4. Bake at 350°F for 35 minutes until tops are golden and bottoms are crispy.
 
 5. Unmold onto a wire rack. Eat warm.
 
@@ -37,8 +37,9 @@ yield: 6
 
 - The Seoul viral trend (상하이 버터떡 / Shanghai butter tteok). Crispy shell, chewy mochi interior — similar textural concept to canelé but with rice flour instead of wheat.
 - Unlike canelés, you WANT air in this batter — it makes the interior lighter and less dense. Blender is better than hand whisk for this reason.
-- Filling molds 70% (not 90%) gives a lighter, puffier result with more crispy surface area relative to chewy center.
-- If you want it denser/chewier, fill higher (85%) and use 200g milk instead of 220g.
+- Canelé molds work perfectly here — the butter + tall metal shape = crispy all around.
+- Gluten-free. The chew comes from glutinous rice flour (mochiko), not wheat gluten.
+- For a lighter result: use more milk (220g), fill molds 70%, and bake at 375°F for 25–28 min.
 - Miso is optional but adds savory depth that makes the sweetness taste rounder.
 - For flavor variations: add 1 tbsp matcha, ube extract, black sesame paste, or pandan extract to the batter.
 - Coconut milk makes it richer and slightly more tropical. Regular milk is more neutral.
