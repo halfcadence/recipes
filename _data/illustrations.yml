@@ -384,3 +384,7 @@ vietnamese-coffee-marble-cookies:
   pink: "○ swirl"
   blue: "○ swirl"
   combo: "overlap"
+matcha-latte-cookies:
+  blue: "○ cookie"
+  pink: "○ frosting"
+  combo: "centered"
