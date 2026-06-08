@@ -2,20 +2,20 @@
 title: Matcha Shortbread
 category: sweets
 number: 100
-yield: 18
+yield: 27
 ---
 
 ## Ingredients
 
 | | |
 |---|---|
-| 75g | unsalted butter, softened |
-| 30g | powdered sugar |
-| 1g | salt |
-| 13g | milk |
-| 115g | cake flour |
-| 8g | matcha powder |
-| 20g | cornstarch |
+| 113g | unsalted butter (1 stick), softened |
+| 45g | powdered sugar |
+| 1.5g | salt |
+| 20g | milk |
+| 173g | cake flour |
+| 12g | matcha powder |
+| 30g | cornstarch |
 
 ## Steps
 
@@ -25,7 +25,7 @@ yield: 18
 
 3. Sift cake flour, matcha, and cornstarch together. Mix into the butter until it comes together into a dough. Do not overwork.
 
-4. Wrap the dough in plastic and roll into a sheet about 12×15cm, roughly 1cm thick. Chill 3 hours.
+4. Wrap the dough in plastic and roll into a sheet about 18×15cm, roughly 1cm thick. Chill 3 hours.
 
 5. Cut into batons about 1.5×6cm. Space on a parchment-lined sheet.
 
