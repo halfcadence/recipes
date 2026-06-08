@@ -388,3 +388,11 @@ matcha-latte-cookies:
   blue: "○ cookie"
   pink: "○ frosting"
   combo: "centered"
+tteokbokki:
+  pink: "▮ rice cake"
+  blue: "▮ rice cake"
+  combo: "side by side"
+kimbap:
+  blue: "○ seaweed"
+  pink: "○ filling"
+  combo: "centered"

@@ -6,6 +6,8 @@ permalink: /changelog/
 
 ## 2026-06-07
 
+- Add tteokbokki recipe (spicy rice cakes with anchovy-kelp stock).
+- Add kimbap recipe (seaweed rice rolls).
 - Add Eric Kim matcha latte cookies recipe (matcha cookie with ermine frosting).
 - Add Vietnamese coffee marble cookies recipe (creamed drop cookie, espresso + condensed milk swirl).
 - Add matcha shortbread recipe (slice-and-bake, low-temp to keep the color bright).
