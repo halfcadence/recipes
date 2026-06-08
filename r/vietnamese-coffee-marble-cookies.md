@@ -1,53 +1,54 @@
 ---
 title: Vietnamese Coffee Marble Cookies
 category: sweets
+source: https://hertaste.net/recipes/vietnamese-coffee-marble-cookies/
+chef: Nadia Rivers
 number: 101
-source: https://www.cooking-therapy.com/vietnamese-coffee-marble-cookies/
-yield: 14
+yield: 12
 ---
 
 ## Ingredients
 
 | | |
 |---|---|
-| 115g | unsalted butter, softened |
-| 100g | granulated sugar |
-| 50g | brown sugar |
+| 208g | AP flour |
+| 2g | baking powder |
+| 2.5g | baking soda |
+| 1.5g | salt |
+| 113g | unsalted butter, softened |
+| 200g | granulated sugar |
 | 1 | large egg |
-| 8g | vanilla extract |
-| 190g | AP flour |
-| 3g | baking soda |
-| 2g | salt |
-| | **For the coffee dough** |
-| 12g | instant espresso powder |
+| 9g | vanilla extract |
+| 12g | espresso powder |
 | 20g | sweetened condensed milk |
+| 100g | granulated sugar, for rolling |
 
 ## Steps
 
-1. Beat softened butter with both sugars until light and fluffy, 2–3 minutes. Beat in the egg and vanilla until smooth.
+1. Preheat oven to 350°F. Line baking sheets with parchment.
 
-2. Sift together flour, baking soda, and salt. Mix into the butter just until a dough forms. Do not overmix.
+2. Whisk together flour, baking powder, baking soda, and salt. Set aside.
 
-3. Divide the dough in half. To one half, add the espresso powder and condensed milk. Mix until evenly colored — it will turn coffee-brown.
+3. Cream the softened butter and 200g sugar until light and fluffy, 2–3 minutes. Beat in the egg and vanilla until smooth.
 
-4. Press the two doughs together and fold a few times, just enough to streak them. Do not blend fully — you want marbled swirls.
+4. Gradually add the dry ingredients, mixing just until combined. Do not overmix.
 
-5. Scoop into ~45g balls. Chill the shaped balls at least 1 hour (or freeze 30 minutes).
+5. Divide the dough: ⅔ into one bowl, ⅓ into another. Mix the espresso powder into the larger (⅔) portion until evenly colored. Mix the condensed milk into the smaller (⅓) portion.
 
-6. Preheat oven to 350°F. Space balls well apart on a parchment-lined sheet.
+6. For each cookie, take about 2 tablespoons of coffee dough and 1 tablespoon of condensed-milk dough. Gently press together and roll into a ball (~50g). Don't overwork — you want visible marbling.
 
-7. Bake 11–13 minutes until the edges are set and the tops look dry. Centers stay soft.
+7. Roll each ball in the 100g rolling sugar to coat. Space well apart on the sheets.
 
-8. Cool on the sheet 5 minutes, then transfer to a rack.
+8. Bake 12–14 minutes until the edges are lightly golden. Cool on the sheet a few minutes, then transfer to a rack.
 
 <div class="notes" markdown="1">
 ## Notes
 
-- A creamed drop cookie, so it spreads into a thin, chewy round with crisp edges — flat is the intended result, not a flaw. The high sugar and baking soda drive the spread.
-- The espresso flavor is assertive at 12g. Drop to 8g for a gentler coffee note, or use Vietnamese instant coffee (Vinacafé, G7) for a maltier, more authentic flavor.
-- Marble effect: the less you fold the two doughs, the bolder the swirl. Three or four folds is plenty.
-- Chilling the shaped balls is what keeps them from spreading into puddles — don't skip it. Bake straight from cold.
-- Want them thicker and cakier instead of flat: swap the baking soda for 3g baking powder, add 10g cornstarch, scoop taller balls, and bake at 375°F so the edges set before they spread.
-- Condensed milk in the coffee dough adds the sữa đá (sweet milky) character and a little chew. You can brush a thin swirl of extra condensed milk on top before baking for shine.
-- Store airtight up to 4 days. Dough balls freeze up to a month — bake from frozen, add 2 minutes.
+- A creamed drop cookie, so it bakes into a thin, crisp-edged round with a slightly chewy center — flat is the intended result. The sugar coating gives a crackly crust.
+- The espresso flavor is bold at 12g. For a gentler coffee note start at 8g. Vietnamese instant coffee (Vinacafé, G7) gives a maltier, more authentic flavor than espresso powder.
+- Marble effect: the less you combine the two doughs, the bolder the swirl. A couple of presses is enough.
+- Cookies spreading too thin? Chill the rolled, sugar-coated balls 30 minutes before baking and make sure the butter was softened but not melted. Overmixing also makes them tough and flat.
+- Want them thicker and cakier: drop the baking soda, keep only the baking powder, add 10g cornstarch, scoop taller, and bake at 375°F so the edges set before they spread.
+- Add a tablespoon of cocoa to the coffee dough for a mocha version. A pinch of cinnamon is nice in autumn.
+- Store airtight at room temperature up to 5 days; a slice of bread in the container keeps them soft. Dough freezes up to 2 months — bake shaped balls from frozen, adding a few minutes.
 </div>
