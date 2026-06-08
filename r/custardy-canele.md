@@ -18,7 +18,7 @@ yield: 12
 | 1 | whole egg (~50g) |
 | 2 | egg yolks (~36g) |
 | 40g | aged rum |
-| 100g | AP flour |
+| 85g | AP flour |
 | 15g | cornstarch |
 | | Beeswax for molds |
 
@@ -46,9 +46,9 @@ yield: 12
 ## Notes
 
 - A smaller-batch, more custardy version of the plain canelé. Makes ~12 instead of ~24.
-- Lower flour (100g = ~12% of batter, vs the standard 285g = ~17%) gives a softer, more custardy interior — less cakey.
-- The 15g cornstarch adds a silky set without the gluten that makes things cakey. It firms the custard gently. Total starch lands at ~14%, still custardy.
+- Lower flour (85g) plus 15g cornstarch puts total starch at ~12% of batter (vs the standard 285g flour = ~17%) for a soft, very custardy interior — well clear of cakey.
+- The cornstarch sets the custard without forming gluten, so it firms gently rather than toughening. At 12% total this is about as custardy as you can go and still unmold.
 - All other technique is identical to the plain canelé. The high-heat start prevents mushrooming.
-- If it comes out too soft to unmold cleanly, bump flour to 120g next time.
+- If it comes out too soft to unmold cleanly, bump flour to 100g next time.
 - Same flavor variations apply: matcha/hojicha (12g), coffee (5g instant espresso paste).
 </div>

@@ -51,7 +51,7 @@ yield: 12
 - White chocolate increased to 113g (one standard bar) and some milk swapped for 50g cream to push richness up — white chocolate is mostly fat and sugar, so this leans creamy.
 - Flour + cornstarch dropped to 80g total (~8% of batter) after the first batch felt a touch heavy. Add 20g matcha as a solid and structural powders land near ~10%. White chocolate contributes zero cocoa solids, so these starches plus matcha carry all the structure.
 - Orange liqueur (Cointreau or Grand Marnier) replaces rum — the citrus plays beautifully against matcha and white chocolate. The liqueur is sugary, so it was not increased.
-- Shock temp raised to 475°F (from 450°F) to set the shell fast and fight the mushrooming. The lower-solids batter rises eagerly, so a hot start matters more here.
+- Shock temp raised to 475°F (from 450°F) to set the shell fast and fight the mushrooming. The lower-solids batter rises eagerly, so a hot start matters more here. If 475°F still mushrooms, try 500°F for the opening blast.
 - Use good white chocolate (Valrhona Ivoire, Callebaut W2). Cheap white chocolate is mostly palm oil and sugar.
 - If it still mushrooms, the fix is more heat or more solids, not less — bump flour back toward 90g or hold the 475°F start longer (12 min).
 - Out of white chocolate? You can use 90g butter + an extra 30g sugar in its place, but you lose the milk-solid creaminess.
