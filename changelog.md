@@ -6,6 +6,7 @@ permalink: /changelog/
 
 ## 2026-06-07
 
+- Add matcha shortbread recipe (slice-and-bake, low-temp to keep the color bright).
 - Add custardy canelé recipe (half batch ~12, lower flour + cornstarch for a silkier set).
 - Add crispy butter mochi recipe (Shanghai-style, baked in canelé molds).
 - Add cherry clafoutis recipe (sized for the Field No. 8 skillet).
