@@ -114,6 +114,18 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - Each entry SHOULD be a single bullet describing what changed. Keep it concise.
 - Changelog MUST be the last item in the Colophon section of `index.md`.
 
+## Analysis (baking recipes)
+
+- Baking recipes (batters and doughs — canelés, cakes, cookies, brownies, chiffon, quick breads, clafoutis, mochi, and custard/pastry desserts) MUST include an `## Analysis` section.
+- Non-baking recipes (drinks, sauces, no-bake sweets like jelly/panna cotta/affogato, savory mains/soups/sides) MUST NOT have an Analysis section.
+- The Analysis section MUST appear between Steps and Notes.
+- It MUST use a `<div class="analysis" markdown="1">` wrapper and contain, in order: a total batter weight line, a component table (fat, sugar, structure solids, liquid, egg/protein) with grams and percentages, an optional benchmark comparison, and a 1–3 sentence plain-language takeaway.
+- Percentages MUST be of total batter weight and displayed to one decimal place.
+- Coatings, glazes, frostings, and dustings MUST NOT count toward the batter weight; note them separately if significant.
+- Inert solids (matcha, hojicha) MUST NOT be counted as structure solids.
+- The decomposition values and texture benchmarks are defined in the `batter-analysis` skill (`.kiro/skills/batter-analysis.md`), which is the single source of truth. The on-page block format is documented there.
+- Component grams MUST sum to within ~2g of the stated total, and percentages to ~100%. If a component is outside its benchmark range, the takeaway MUST acknowledge it.
+
 ## New Recipe Checklist
 
 When adding a new recipe, ALL of the following MUST be completed:
@@ -124,3 +136,4 @@ When adding a new recipe, ALL of the following MUST be completed:
 4. Add a shape description entry to `_data/illustrations.yml` (pink, blue, combo fields).
 5. Generate `assets/illustrations/gen-riso/{slug}.png` via Nova Canvas on Bedrock using the prompt template with the SVG composition described in words.
 6. Update `changelog.md` with the new recipe.
+7. For baking recipes (batter/dough), add an `## Analysis` section between Steps and Notes, computed via the `batter-analysis` skill.

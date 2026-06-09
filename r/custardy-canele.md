@@ -42,6 +42,24 @@ yield: 12
 
 9. Unmold immediately onto a cooling rack upside down. Cool 2 hours. Eat the same day.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **821g** (excludes beeswax)
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour + cornstarch) | 100g | 12.2% |
+| Fat (butter, cream, milk, yolk) | 79g | 9.6% |
+| Sugar (added + milk lactose) | 188g | 22.9% |
+| Liquid (milk, cream, rum, egg water) | 421g | 51.3% |
+| Egg/protein | 25g | 3.0% |
+
+**Structure at 12.2% lands inside the custardy sweet spot (8–14%)** — softer and more pudding-like than the standard canelé's 16.8%. The cornstarch share of that structure sets the custard without gluten, so it stays tender. Fat near 10% keeps it rich.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

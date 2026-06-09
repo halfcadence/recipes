@@ -43,6 +43,24 @@ yield: 24
 
 9. Unmold immediately onto a cooling rack upside down. Cool 2 hours. Eat the same day.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **1696g** (excludes beeswax)
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour) | 285g | 16.8% |
+| Fat (butter, cream, milk, yolk) | 160g | 9.4% |
+| Sugar (added + milk lactose) | 374g | 22.0% |
+| Liquid (milk, cream, rum, egg water) | 816g | 48.1% |
+| Egg/protein | 48g | 2.8% |
+
+**Structure at 16.8% sits above the custardy sweet spot (8–14%)** — this is the classic firm, slightly cakey-edged canelé that unmolds cleanly. Fat near 9% keeps it rich. To push custardy, drop the flour (see the custardy variant at ~12%) or read the [Canelé Ratio Analysis](/a/canele-ratio-analysis).
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

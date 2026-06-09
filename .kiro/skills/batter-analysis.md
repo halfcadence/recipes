@@ -179,3 +179,39 @@ From tested recipes (see `/a/canele-ratio-analysis`):
 - "Why are my brownies cakey not fudgy?" → check fat % and structure %
 - "Is this pancake recipe more like a crepe?" → compare liquid % and structure %
 - "Why did my cake turn out dense?" → check fat vs liquid vs egg ratios
+
+## On-Page Analysis Block (for recipe pages)
+
+Baking recipes carry an `## Analysis` section between Steps and Notes. It presents the component breakdown computed by this skill in a fixed, scannable format. This is authored content — compute the numbers once and write them into the recipe file.
+
+### Format
+
+```markdown
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **<N>g**
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (<sources>) | <g> | <x.x>% |
+| Fat (<sources>) | <g> | <x.x>% |
+| Sugar | <g> | <x.x>% |
+| Liquid (<sources>) | <g> | <x.x>% |
+| Egg/protein | <g> | <x.x>% |
+
+**<takeaway, 1–3 sentences>** where the key ratios land vs the benchmark for this type, and what that means for texture.
+
+</div>
+```
+
+### Rules
+
+1. The **denominator** is `total_batter_weight` = sum of incorporated batter/dough ingredients only.
+2. **Excluded from the denominator:** beeswax (mold coating), sugar coatings, glazes, frostings, dustings, and any other finishing component applied after the batter is made. Note a significant finishing component separately (e.g. give a frosting its own small labeled breakdown) but never fold it into the batter denominator.
+3. **Percentages display to one decimal place.** Higher precision MAY be used internally; only the displayed value is rounded.
+4. **Inert solids** (matcha, hojicha) are NOT counted as structure solids. Mention them in the takeaway rather than the structure row.
+5. **Composite desserts** (purin, tarte tatin, French silk pie) are analyzed by their primary batter/custard/filling component. Label which component the Analysis covers (e.g. "Custard base", "Filling").
+6. **Self-check before publishing:** component grams MUST sum to within ~2g of the stated total; percentages MUST sum to ~100% (accounting for excluded items). If a component falls outside its benchmark range, the takeaway MUST acknowledge it.
+7. Decomposition values and benchmarks come from the tables above in this skill — the single source of truth. If a value here changes, update affected recipe Analysis sections to match.

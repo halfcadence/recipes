@@ -43,6 +43,24 @@ yield: 12
 
 9. Unmold immediately onto a cooling rack. Cool before eating. Best the same day.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **1005g** (excludes beeswax)
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour + cornstarch) | 80g | 8.0% |
+| Fat (white chocolate, cream, milk, yolk, egg) | 92g | 9.2% |
+| Sugar (added + white chocolate + lactose) | 268g | 26.7% |
+| Liquid (milk, cream, orange liqueur, egg water) | 520g | 51.7% |
+| Egg/milk protein | 25g | 2.5% |
+
+**Structure at 8.0% is at the very bottom of the custardy range** — and because white chocolate gives zero cocoa solids (unlike the dark Ferrandi, where cocoa solids prop up the set), the flour and cornstarch carry all the structure alone. That's why this batter runs liquidy and rises eagerly; the takeaway is more heat or more solids if it mushrooms, not less. The 20g matcha is an inert solid (~2%, not structure) doing color and flavor.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

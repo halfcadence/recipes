@@ -44,6 +44,24 @@ yield: 24
 
 9. Unmold immediately onto a cooling rack upside down. Cool 2 hours. Eat the same day.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **1699g** (excludes beeswax)
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour) | 285g | 16.8% |
+| Fat (butter, cream, milk, yolk) | 160g | 9.4% |
+| Sugar (added + milk lactose) | 374g | 22.0% |
+| Liquid (milk, cream, bourbon, egg water) | 817g | 48.1% |
+| Egg/protein | 48g | 2.8% |
+
+**Ratios are identical to the plain canelé** — this is the standard formula with warm spices and bourbon swapped in, so structure at 16.8% gives the same firm, cleanly-unmolding canelé. The spices (~3g total) are flavor, not structure. Want it more custardy? Apply the same flour cut as the custardy variant.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

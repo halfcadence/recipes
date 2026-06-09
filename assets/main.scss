@@ -228,6 +228,19 @@ a:focus-visible { outline: 2px solid #0078bf; outline-offset: 2px; }
 .notes li { margin-bottom: 0; }
 .notes li + li { border-top: 1px solid $grey-rule; padding-top: 0.2rem; margin-top: 0.2rem; }
 
+// Analysis — ingredient % breakdown on baking recipes. Distinct from notes:
+// a left accent rule in the section color, slightly inset, with its own table.
+.analysis {
+  border-left: 3px solid $grey-rule;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-size: 0.9375em;
+}
+.analysis h2 { font-size: 1em; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.5rem; }
+.analysis table { margin-bottom: 0.6rem; }
+.analysis td:last-child { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.analysis td:first-child { width: auto; }
+
 // Sharp edges
 pre, code { border: 1px solid $ink-black; border-radius: 0; background-color: darken($paper, 3%); }
 
@@ -263,6 +276,7 @@ table td:first-child { font-weight: 600; white-space: nowrap; width: 1%; }
   .site-header { border-image: none; border-top-color: $color; }
   .post-content ol > li::before { color: $color; }
   .post-header { border-bottom: 2px solid $color; padding-bottom: 0.5rem; }
+  .analysis { border-left-color: $color; }
   ::selection { background: rgba($color, 0.25); }
 }
 
@@ -310,6 +324,7 @@ body.section-colophon { @include themed($colophon); }
   .notes h2, .notes h3 { color: inherit; }
   .notes a, .notes a:visited { color: $dark-muted; }
   .notes li + li { border-top-color: $dark-rule; }
+  .analysis { border-left-color: $dark-rule; }
   blockquote { color: $dark-muted; border-left-color: $dark-rule; }
 
   pre, code { background-color: $dark-surface; border-color: $dark-rule; color: $dark-text; }

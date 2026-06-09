@@ -43,6 +43,24 @@ yield: 12
 
 9. Unmold immediately onto a cooling rack. Cool before eating. Best the same day.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **1007g** (excludes beeswax/butter coating)
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour + cornstarch + cocoa solids) | 103g | 10.2% |
+| Fat (chocolate cocoa butter, milk, yolk, egg) | 88g | 8.7% |
+| Sugar (added + chocolate + lactose) | 248g | 24.6% |
+| Liquid (milk, brandy, egg water) | 548g | 54.4% |
+| Egg/milk protein | 20g | 2.0% |
+
+**The "all-chocolate, minimal flour" approach:** structure at 10.2% sits in the custardy range despite barely any flour, because the chocolate's cocoa solids and the eggs carry the set. That's why it's pudding-like and intensely chocolatey. Note the higher egg load does structural work the flour isn't — drop the flour further and it gets hard to unmold.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

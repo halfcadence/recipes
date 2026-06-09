@@ -45,6 +45,24 @@ yield: 24
 
 10. Unmold immediately onto a cooling rack upside down. Cool 2 hours. Eat the same day.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **1720g** (excludes beeswax)
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour) | 285g | 16.6% |
+| Fat (butter, cream, white chocolate, milk, yolk) | 156g | 9.1% |
+| Sugar (added + white chocolate + lactose) | 376g | 21.9% |
+| Liquid (milk, cream, rum, egg water) | 818g | 47.6% |
+| Egg/protein | 48g | 2.8% |
+
+**Structure at 16.6% is in the firm/cakey zone** like the plain canelé — white chocolate adds fat and sugar but no cocoa solids, so it doesn't change the structural math the way dark chocolate does. The 12g matcha is an inert solid (~0.7%, not counted as structure) that colors and flavors without setting. For a custardy white-choco-matcha, see the Ferrandi variant (#96), which cuts flour hard.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

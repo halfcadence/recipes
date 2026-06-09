@@ -46,6 +46,24 @@ yield: 20
 
 10. Unmold immediately onto a cooling rack upside down. Cool 2 hours. Eat the same day.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **1398g** (excludes beeswax)
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour + cocoa powder + cocoa solids) | 246g | 17.6% |
+| Fat (butter, cream, chocolate, milk, yolk) | 157g | 11.2% |
+| Sugar (added + chocolate + lactose) | 301g | 21.5% |
+| Liquid (milk, cream, brandy, egg water) | 643g | 46.0% |
+| Egg/milk protein | 45g | 3.2% |
+
+**This is the "structured" chocolate canelé:** structure at 17.6% is high (flour, cocoa powder, and the chocolate's cocoa solids all pile in), well above the custardy range. That makes it sturdier and easier to unmold — a chocolate-flavored canelé rather than a chocolate custard. Fat is higher than the plain version because chocolate is ~half cocoa butter. Compare the Ferrandi (#94), which strips flour way back for a pudding-like interior.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 
