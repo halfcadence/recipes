@@ -41,6 +41,24 @@ chef: Sally (Sally's Baking Addiction)
 
 9. Whip 240ml heavy cream with confectioners' sugar and vanilla to medium peaks. Spread or pipe on top. Garnish with chocolate curls.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total filling: **1043g** (crust and whipped-cream topping excluded)
+
+| Component | Amount | % of filling |
+|---|---|---|
+| Structure solids (cocoa solids) | 68g | 6.5% |
+| Fat (butter, chocolate, cream, egg) | 358g | 34.3% |
+| Sugar (added + chocolate) | 268g | 25.7% |
+| Liquid (cream water, egg water, vanilla) | 327g | 31.4% |
+| Egg/protein | 22g | 2.1% |
+
+**A no-bake set driven entirely by fat, not structure:** fat is enormous (~34% — butter, chocolate cocoa butter, and whipped cream) while there's no flour at all, just a little cocoa solid. The filling firms in the fridge because all that fat solidifies, and the whipped cream folded in keeps it silky and mousse-like. The crust and topping are separate and excluded.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

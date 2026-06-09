@@ -48,6 +48,24 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 12. Dust with confectioners' sugar. Microwave chilled slices for 5 seconds for a melt-in-your-mouth texture.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **514g**
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour + cocoa + cocoa solids) | 67g | 13.0% |
+| Fat (chocolate, butter, egg) | 95g | 18.5% |
+| Sugar (added + chocolate) | 105g | 20.4% |
+| Liquid (milk, liqueur, egg water) | 207g | 40.3% |
+| Egg/protein | 30g | 5.8% |
+
+**Same molten chocolate-cake structure as the base gateau** (~13% structure, high egg, high liquid) — the orange zest and Grand Marnier add flavor without changing the math. Zest is oil (no hydration); the 10g liqueur just stands in for 10g of milk's liquid role, which is why no other adjustment is needed.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

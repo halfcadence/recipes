@@ -56,7 +56,7 @@ Two settled rules apply throughout:
 
 ### Rollout — Batch 2: Cookies
 
-- [ ] 6. Author Analysis sections for cookies/shortbread
+- [x] 6. Author Analysis sections for cookies/shortbread
   - `matcha-shortbread`, `double-chocolate-chip-cookies`, `matcha-white-choco-cookies`, `brown-butter-hojicha-cookies`, `matcha-latte-cookies`, `vietnamese-coffee-marble-cookies`.
   - Use the cookie benchmark (chewy vs crispy). Exclude sugar coatings and glazes from the dough denominator; note them separately.
   - For frosted cookies (matcha latte), analyze the cookie dough; give the ermine frosting its own labeled mini-breakdown if useful, never folded into the dough denominator.
@@ -65,7 +65,7 @@ Two settled rules apply throughout:
 
 ### Rollout — Batch 3: Brownies + gateau au chocolat
 
-- [ ] 7. Author Analysis sections for brownies and gateaux
+- [x] 7. Author Analysis sections for brownies and gateaux
   - `chocolate-brownies`, `matcha-brownies`, `chocolate-gateau-au-chocolat`, `matcha-gateau-au-chocolat`, `orange-chocolate-gateau-au-chocolat`, `hojicha-gateau-au-chocolat`, `vanilla-bean-gateau-au-chocolat`.
   - Use the brownie (fudgy vs cakey) benchmark for brownies; treat gateaux as low-flour chocolate cakes.
   - Verify arithmetic; build and commit.
@@ -73,7 +73,7 @@ Two settled rules apply throughout:
 
 ### Rollout — Batch 4: Cakes / chiffon / custards / pastry
 
-- [ ] 8. Author Analysis sections for remaining qualifying recipes
+- [x] 8. Author Analysis sections for remaining qualifying recipes
   - `earl-grey-chiffon-cake`, `matcha-chiffon-cake` (chiffon benchmark), `cherry-clafoutis` (thin custard batter), `crispy-butter-mochi` (add glutinous rice flour decomposition to the skill if missing).
   - Borderline items: `purin` (label "Custard base"), `tarte-tatin` (label the analyzed component), `french-silk-pie` (label "Filling").
   - Add any missing ingredient decompositions to the skill before use.
@@ -82,7 +82,7 @@ Two settled rules apply throughout:
 
 ### Verification
 
-- [ ] 9. Cross-recipe consistency and eligibility audit
+- [x] 9. Cross-recipe consistency and eligibility audit
   - Spot-check a shared ingredient (e.g. whole egg) decomposes identically across recipes.
   - Confirm no non-baking recipe gained an Analysis section and all qualifying recipes (incl. borderline) are done or tracked as remaining.
   - Confirm no coating/glaze/frosting was counted in any batter denominator.

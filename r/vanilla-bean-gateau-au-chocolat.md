@@ -46,6 +46,24 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 12. Dust with confectioners' sugar. Microwave chilled slices for 5 seconds for a melt-in-your-mouth texture.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **456g**
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour) | 32g | 7.0% |
+| Fat (white chocolate, brown butter, egg) | 91g | 20.0% |
+| Sugar (added + white chocolate) | 121g | 26.5% |
+| Liquid (milk, egg water) | 182g | 39.9% |
+| Egg/protein | 30g | 6.6% |
+
+**Flour is bumped to 32g here** (vs 20g in the matcha/hojicha versions) precisely because there's no matcha powder adding bulk — structure lands at ~7% instead of ~4% to keep the batter from being too thin to set. Still a soft, fudgy meringue-lightened cake; the browned butter supplies the flavor identity that the tea powders give the others.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

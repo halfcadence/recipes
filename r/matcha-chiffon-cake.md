@@ -39,6 +39,24 @@ source: https://www.justonecookbook.com/green-tea-chiffon-cake/
 
 10. Run an offset spatula around the outer edge and inner tube to release. Invert onto a plate — serve flat-bottom-side up.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **424g**
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour + baking powder) | 79g | 18.6% |
+| Fat (oil + yolk fat) | 55g | 13.0% |
+| Sugar | 85g | 20.0% |
+| Liquid (water + egg water) | 165g | 38.9% |
+| Egg/protein | 30g | 7.1% |
+
+**Same chiffon ratios as the Earl Grey version** — light, springy, oil-moist, leavened by whipped whites (~7% egg protein). Structure ~19% and fat ~13% are the chiffon sweet spot. The 10g matcha (~2.4%) is an inert solid for color and flavor, not structure.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

@@ -38,6 +38,24 @@ source: https://www.justonecookbook.com/matcha-brownies/
 
 9. Bake 45–50 minutes until a toothpick comes out with moist crumbs. Cool in pan at least 1 hour before cutting.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **1111g**
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour) | 120g | 10.8% |
+| Fat (butter, white chocolate, egg) | 304g | 27.4% |
+| Sugar (confectioners' + brown + white chocolate) | 386g | 34.7% |
+| Liquid (butter water, egg water) | 226g | 20.3% |
+| Egg/protein | 26g | 2.3% |
+
+**Fudgy and rich, on the sweeter side:** fat at ~27% and structure at only ~11% make for a dense, gooey set. White chocolate gives no cocoa solids, so flour alone carries structure (hence less of it than the cocoa-laden chocolate version) while the white chocolate pushes sugar up to ~35%. The 36g matcha (~3%) is an inert solid that colors and cuts the sweetness, not structure.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

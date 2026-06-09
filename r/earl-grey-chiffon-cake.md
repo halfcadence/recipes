@@ -45,6 +45,24 @@ source: https://www.justonecookbook.com/earl-grey-chiffon-cake/
 
 12. Run an offset spatula around edges to release. Invert onto a plate, dust with confectioners' sugar if desired.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **416g**
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour + baking powder) | 78g | 18.8% |
+| Fat (oil + yolk fat) | 55g | 13.2% |
+| Sugar | 85g | 20.4% |
+| Liquid (brewed tea + egg water) | 168g | 40.4% |
+| Egg/protein | 30g | 7.2% |
+
+**Classic chiffon balance:** structure ~19%, oil-based fat ~13%, and high egg (~7% protein, mostly whipped whites) make it light and springy rather than rich. The whipped whites are the leavening; the oil keeps it moist and tender even cold. Tea powder + brewed tea carry flavor without weighing it down.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

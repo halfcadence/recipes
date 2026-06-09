@@ -39,6 +39,24 @@ source: https://sallysbakingaddiction.com/double-chocolate-chip-cookies-recipe/
 
 8. Cool on baking sheet 5 minutes. Optionally press extra chocolate chips into tops while warm. Transfer to cooling rack.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **796g**
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour + cocoa + cocoa solids) | 280g | 35.2% |
+| Fat (butter, chocolate, egg) | 215g | 27.0% |
+| Sugar (granulated + brown + chocolate) | 205g | 25.8% |
+| Liquid (milk, butter water, egg water) | 70g | 8.8% |
+| Egg/protein | 26g | 3.3% |
+
+**Structure at 35% and fat at 27% put these at the chewy-fudgy end** of the cookie range (chewy ≈ 30–35% structure, 20–28% fat). The 99% chocolate and cocoa powder pile on both fat and cocoa-solid structure at once, which is why they read dense and brownie-like rather than crisp. Brown sugar's moisture keeps the center soft.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

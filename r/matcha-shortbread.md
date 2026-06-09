@@ -31,6 +31,24 @@ yield: 27
 
 6. Bake at 266°F for 45–50 minutes until set but not colored. Cool completely before serving — they firm up as they cool.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **396g**
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour + cornstarch) | 204g | 51.5% |
+| Fat (butter) | 93g | 23.5% |
+| Sugar (powdered) | 46g | 11.6% |
+| Liquid (milk + butter water) | 36g | 9.1% |
+| Egg/protein | — | — |
+
+**Shortbread runs far higher structure and lower liquid than a drop cookie** (which sits around 30–40% structure with an egg) — there's no egg and no leavening, so the flour-and-cornstarch dominate and the dough holds its shape instead of spreading. That's exactly what makes it sandy and tender. The 12g matcha (~3%) is an inert solid: it colors and flavors but doesn't set.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

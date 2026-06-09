@@ -40,6 +40,24 @@ source: https://www.jadeleafmatcha.com/blogs/matcha-recipes/matcha-white-chocola
 
 9. Cool on baking sheet 5 minutes. Optionally sprinkle a tiny pinch of salt on top while warm.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **643g**
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour) | 150g | 23.3% |
+| Fat (butter, white chocolate, egg) | 154g | 24.0% |
+| Sugar (brown + granulated + white chocolate) | 223g | 34.7% |
+| Liquid (butter water, egg water, milk) | 62g | 9.6% |
+| Egg/protein | 16g | 2.5% |
+
+**Structure at 23% is on the low side for a cookie**, which is deliberate — the recipe trims flour and adds fat to fight matcha's drying effect, giving a soft, fudgy bite rather than a crisp one. The 20g matcha (~3%) is an inert solid, not structure. White chocolate pushes sugar high (35%), so the matcha is dialed up strong to cut it.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

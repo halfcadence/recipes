@@ -46,6 +46,24 @@ source: https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 12. Slice and dust with confectioners' sugar. Microwave chilled slices for 5 seconds for a melt-in-your-mouth texture.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **467g**
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour) | 20g | 4.3% |
+| Fat (white chocolate, butter, egg) | 92g | 19.7% |
+| Sugar (added + white chocolate) | 121g | 25.9% |
+| Liquid (milk, egg water) | 196g | 42.0% |
+| Egg/protein | 30g | 6.4% |
+
+**Even softer than the dark version:** with only 20g flour and no cocoa solids (white chocolate provides none), structure is just ~4% — the whipped egg whites and the chocolate's cocoa butter set this cake almost entirely. That's why it's so delicate and fudgy. The 18g matcha (~4%) is an inert solid for color and flavor, not structure.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

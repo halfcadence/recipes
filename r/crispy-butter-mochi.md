@@ -32,6 +32,24 @@ yield: 6
 
 5. Unmold onto a wire rack. Eat warm.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **477g**
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (mochiko + tapioca starch) | 146g | 30.6% |
+| Fat (butter, egg) | 28g | 5.9% |
+| Sugar | 52g | 10.9% |
+| Liquid (milk, egg water) | 226g | 47.4% |
+| Egg/protein | 8g | 1.7% |
+
+**This is a starch-set chew, not a gluten one:** structure is high (~31%) but it's all glutinous rice flour and tapioca, which gelatinize into that signature stretchy mochi bite rather than a wheat crumb. Low fat and sugar keep it leaner than a canelé despite the similar mold and crispy-shell goal. High liquid is what lets the starches swell and gel.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

@@ -6,6 +6,8 @@ permalink: /changelog/
 
 ## 2026-06-07
 
+- Add ingredient ratio analysis sections to all 26 baking recipes (% by weight of fat, sugar, structure, liquid, protein) with texture benchmarks — a teaching feature for learning how ratios drive texture.
+- Add `.analysis` styled block, batter-analysis on-page format, and steering convention for the analysis sections.
 - Add tteokbokki recipe (spicy rice cakes with anchovy-kelp stock).
 - Add kimbap recipe (seaweed rice rolls).
 - Add Eric Kim matcha latte cookies recipe (matcha cookie with ermine frosting).

@@ -50,6 +50,24 @@ yield: 16
 
 9. Frost each cooled cookie. Serve immediately.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **590g** (cookie dough; ermine frosting excluded — see below)
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour) | 185g | 31.4% |
+| Fat (butter, peanut butter, egg) | 113g | 19.2% |
+| Sugar (granulated + brown) | 200g | 33.9% |
+| Liquid (vanilla, butter water, egg water) | 66g | 11.2% |
+| Egg/protein | 26g | 4.4% |
+
+**A soft, cakey sugar cookie:** structure at 31% with relatively modest fat (19%) and high sugar (34%) gives a tender, puffy crumb rather than a chewy one — the recipe even bakes them just until the tops lose their sheen. The frosting is excluded from these numbers: it's an ermine buttercream applied after baking (roughly 227g butter + 150g sugar + 237g milk + 24g flour), a finishing layer, not part of the dough.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

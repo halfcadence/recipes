@@ -42,6 +42,24 @@ number: 22
 
 10. Press extra white chocolate chunks into the tops while warm. Sprinkle with flaky salt. Cool on baking sheet 10 minutes before transferring to a wire rack.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **510g** (brown butter loses ~15% of its water in browning)
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour) | 150g | 29.4% |
+| Fat (brown butter, white chocolate, egg) | 137g | 26.9% |
+| Sugar (brown + granulated + white chocolate) | 169g | 33.1% |
+| Liquid (egg water, residual butter water) | 38g | 7.5% |
+| Egg/protein | 16g | 3.1% |
+
+**Chewy-fudgy by design:** the butter is whisked warm with sugar rather than creamed, so no air goes in, and browning drives off water — both reduce spread and keep the cookie dense. Structure near 29% with fat at 27% sits at the chewy end. The 12g hojicha (~2%) is an inert solid; its roasty notes echo the brown butter.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

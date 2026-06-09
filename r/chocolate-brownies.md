@@ -39,6 +39,24 @@ source: https://www.justonecookbook.com/matcha-brownies/
 
 9. Bake 45–50 minutes until a toothpick comes out with moist crumbs. Cool in pan at least 1 hour. Sprinkle with flaky salt if desired.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **1056g**
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour + cocoa + cocoa solids) | 209g | 19.8% |
+| Fat (butter, chocolate, egg) | 295g | 27.9% |
+| Sugar (confectioners' + brown + chocolate) | 285g | 27.0% |
+| Liquid (butter water, egg water) | 240g | 22.7% |
+| Egg/protein | 26g | 2.5% |
+
+**Solidly fudgy:** fat at ~28% with structure under 20% is right in the fudgy-brownie zone (fudgy ≈ 20–30% fat, 10–15% structure — this runs a touch higher structure from the cocoa). Brown butter plus bittersweet chocolate plus cocoa stack the fat and depth; the low flour and undisturbed eggs (not whipped) keep it dense rather than cakey.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

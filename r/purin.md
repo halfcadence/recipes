@@ -43,6 +43,24 @@ source: https://www.justonecookbook.com/custard-pudding/
 
 8. To serve: run a knife around the edge, place a plate on top, and flip.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total custard base: **723g** (caramel sauce excluded — it's a separate layer)
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids | — | — |
+| Fat (cream, milk, yolk) | 51g | 7.1% |
+| Sugar (added + lactose) | 92g | 12.7% |
+| Liquid (milk, cream, egg water) | 558g | 77.2% |
+| Egg/protein | 22g | 3.0% |
+
+**A pure egg-set custard — no flour or starch at all.** With zero structure solids, the entire set comes from egg protein coagulating (~3% protein) in a very high-liquid base (~77%). That's why it's so delicate and why the gentle bain-marie matters: too much heat and the protein over-coagulates into holes ("su"). The caramel layer (70g sugar) sits separately and isn't part of these numbers.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

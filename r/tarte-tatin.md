@@ -35,6 +35,22 @@ chef: Genevieve Yam, Serious Eats
 
 7. Cool in the pan until warm but not hot, 1–2 hours. Place a plate over the skillet and flip quickly. Garnish with flaky salt. Serve with crème fraiche.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Tarte tatin isn't a batter — it's caramel-cooked fruit under puff pastry — so there's no single mixture to break down. What's worth analyzing is the **caramel** (~318g: sugar, butter, vinegar, vanilla):
+
+| Component | Amount | % of caramel |
+|---|---|---|
+| Sugar | 200g | 62.9% |
+| Fat (butter) | 93g | 29.2% |
+| Liquid (butter water, vinegar, vanilla) | 25g | 7.9% |
+
+**The caramel is a high-sugar, high-fat syrup** — roughly 2:1 sugar to butter — that cooks to butterscotch, then the apples release their own water and pectin into it. The ~1.3kg of apples (mostly water and pectin) and the 397g puff pastry (a laminated flour-and-butter dough, ~50% fat) are the bulk of the finished tart but aren't a mixed batter, so they're left out of the breakdown.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

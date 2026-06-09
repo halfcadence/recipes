@@ -41,6 +41,24 @@ yield: 12
 
 8. Bake 12–14 minutes until the edges are lightly golden. Cool on the sheet a few minutes, then transfer to a rack.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **618g** (dough; the 100g sugar coating is excluded — see below)
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour) | 208g | 33.7% |
+| Fat (butter, egg) | 98g | 15.9% |
+| Sugar (granulated + condensed milk) | 215g | 34.8% |
+| Liquid (vanilla, butter water, egg water, condensed milk water) | 71g | 11.5% |
+| Egg/protein | 26g | 4.2% |
+
+**A creamed drop cookie built to spread flat:** high sugar (35%) plus both baking soda and powder drive the spread, while moderate fat (16%) and 34% structure give a thin, crisp-edged round with a chewy middle. The 100g rolling sugar is a finishing coat, not dough — excluded here so the denominator stays the actual batter. To make them thicker, the notes cut the soda and add cornstarch.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

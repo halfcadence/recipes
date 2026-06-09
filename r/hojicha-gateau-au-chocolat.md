@@ -46,6 +46,24 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 12. Dust with confectioners' sugar. Microwave chilled slices for 5 seconds for a melt-in-your-mouth texture.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **467g**
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour) | 20g | 4.3% |
+| Fat (white chocolate, butter, egg) | 92g | 19.7% |
+| Sugar (added + white chocolate) | 121g | 25.9% |
+| Liquid (milk, egg water) | 196g | 42.0% |
+| Egg/protein | 30g | 6.4% |
+
+**Identical ratios to the matcha gateau** — hojicha swaps in 1:1 because it has the same negligible liquid absorption. Structure is just ~4% (20g flour, no cocoa solids from white chocolate), so the whipped whites and cocoa butter carry the set, giving that delicate fudgy crumb. The 18g hojicha (~4%) is an inert solid.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

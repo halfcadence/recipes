@@ -46,6 +46,24 @@ source: Adapted from https://www.justonecookbook.com/matcha-gateau-au-chocolat/
 
 12. Dust with confectioners' sugar or cocoa powder. Microwave chilled slices for 5 seconds for a melt-in-your-mouth texture.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **497g**
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour + cocoa + cocoa solids) | 67g | 13.5% |
+| Fat (chocolate, butter, egg) | 95g | 19.1% |
+| Sugar (added + chocolate) | 105g | 21.1% |
+| Liquid (milk, egg water) | 200g | 40.2% |
+| Egg/protein | 30g | 6.0% |
+
+**A flourless-leaning, meringue-lightened chocolate cake:** structure is low (~14%, mostly the chocolate's cocoa solids — only 20g flour) and egg is high (6% protein, with whipped whites doing the lift), which is why the interior stays molten and fudgy rather than crumbed like a butter cake. The liquid is high for a cake because the chocolate sets it as it cools.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 
