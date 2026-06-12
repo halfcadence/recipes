@@ -20,7 +20,7 @@ yield: 12
 | 40g | aged rum |
 | 85g | AP flour |
 | 15g | cornstarch |
-| | Beeswax for molds |
+| | Nonstick spray (or beeswax) for molds |
 
 ## Steps
 
@@ -34,11 +34,11 @@ yield: 12
 
 5. Strain through a sieve. Refrigerate overnight (24 hours minimum).
 
-6. Coat canelé molds with beeswax. Stir rested batter gently. Strain again if lumpy.
+6. Coat canelé molds with nonstick spray (beeswax also works but isn't needed here). Stir rested batter gently. Strain again if lumpy.
 
-7. Preheat oven to 475°F. Fill each mold with 70g of batter.
+7. Preheat oven to 525°F. Fill each mold with 70g of batter.
 
-8. Bake at 475°F for 11 minutes. Without opening the oven, drop to 350°F and continue baking for 50 minutes.
+8. Bake at 525°F for 11 minutes. Without opening the oven, drop to 375°F and continue baking for 50–55 minutes.
 
 9. Unmold immediately onto a cooling rack upside down. Cool 2 hours. Eat the same day.
 
@@ -46,7 +46,7 @@ yield: 12
 
 <div class="analysis" markdown="1">
 
-Total batter weight: **821g** (excludes beeswax)
+Total batter weight: **821g** (excludes mold coating)
 
 | Component | Amount | % |
 |---|---|---|
@@ -66,7 +66,9 @@ Total batter weight: **821g** (excludes beeswax)
 - A smaller-batch, more custardy version of the plain canelé. Makes ~12 instead of ~24.
 - Lower flour (85g) plus 15g cornstarch puts total starch at ~12% of batter (vs the standard 285g flour = ~17%) for a soft, very custardy interior — well clear of cakey.
 - The cornstarch sets the custard without forming gluten, so it firms gently rather than toughening. At 12% total this is about as custardy as you can go and still unmold.
-- All other technique is identical to the plain canelé. The high-heat start prevents mushrooming.
+- All other technique is identical to the plain canelé. The high-heat start prevents mushrooming — this lower-solids batter needs a hotter shock (525°F) than the chocolate canelés to set the shell fast.
+- Nonstick spray works fine here — no beeswax needed. Just spray the molds before filling.
+- Tested bake: 525°F for 11 minutes, then 375°F for 50–55 minutes. Turns out well.
 - If it comes out too soft to unmold cleanly, bump flour to 100g next time.
 - Same flavor variations apply: matcha/hojicha (12g), coffee (5g instant espresso paste).
 </div>
