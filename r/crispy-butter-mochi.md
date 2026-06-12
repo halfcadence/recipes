@@ -24,11 +24,11 @@ yield: 6
 
 1. Preheat oven to 350°F. Generously grease canelé molds with softened butter — use visible white streaks, not melted.
 
-2. Blend milk, egg, melted butter, sugar, mochiko, tapioca starch, and miso until smooth and slightly aerated (20–30 seconds in a blender). More air = lighter interior.
+2. Blend or whisk milk, egg, melted butter, sugar, mochiko, tapioca starch, and miso until smooth.
 
-3. Fill molds about 80–90% full.
+3. Fill molds about 70% full (leaves room for the rise — see notes on ballooning).
 
-4. Bake at 350°F for 35 minutes until tops are golden and bottoms are crispy.
+4. Bake at 500°F for 10 minutes to set the shell, then without opening the oven drop to 350°F and bake ~25 minutes more, until tops are golden and bottoms are crispy.
 
 5. Unmold onto a wire rack. Eat warm.
 
@@ -54,10 +54,10 @@ Total batter weight: **477g**
 ## Notes
 
 - The Seoul viral trend (상하이 버터떡 / Shanghai butter tteok). Crispy shell, chewy mochi interior — similar textural concept to canelé but with rice flour instead of wheat.
-- Unlike canelés, you WANT air in this batter — it makes the interior lighter and less dense. Blender is better than hand whisk for this reason.
 - Canelé molds work perfectly here — the butter + tall metal shape = crispy all around.
 - Gluten-free. The chew comes from glutinous rice flour (mochiko), not wheat gluten.
-- For a lighter result: use more milk (220g), fill molds 70%, and bake at 375°F for 25–28 min.
+- **Ballooning in tall molds?** In canelé molds the batter can puff up and over like a popover — that's trapped steam (the batter is ~47% liquid and the starch gels into a gas-tight film), made worse by the tall narrow shape, not from over-mixing. A hot shock fixes it: start at 500–525°F to set the shell fast, then drop to 350–375°F to finish. Filling only ~70% also gives the rise room to stay in the mold.
+- **Want it lighter / less dense?** This tteok style skips leavening for a dense, boba-like chew. Classic Hawaiian butter mochi (Just One Cookbook, Epicurious, Delish) adds baking powder for an open, cakier crumb. To lighten this one: add ~3–4g (¾–1 tsp) baking powder sifted in with the mochiko, and/or shift the starch ratio toward tapioca (e.g. 100g mochiko + 46g tapioca instead of 130/16) for a bouncier, airier bite. Keep the hot shock so the lift sets fast instead of ballooning. Untested here — next experiment.
 - Miso is optional but adds savory depth that makes the sweetness taste rounder.
 - For flavor variations: add 1 tbsp matcha, ube extract, black sesame paste, or pandan extract to the batter.
 - Coconut milk makes it richer and slightly more tropical. Regular milk is more neutral.
