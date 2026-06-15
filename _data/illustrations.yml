@@ -408,3 +408,7 @@ sour-cream-cherry-clafoutis:
   pink: "○ dish"
   blue: "○ cherry"
   combo: "centered"
+cherry-buckle:
+  pink: "▮ cake"
+  blue: "○ cherry"
+  combo: "inside top"
