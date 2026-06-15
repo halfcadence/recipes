@@ -37,6 +37,18 @@ This is the one real gotcha for dessert bakers. Acidic ingredients — and **che
 
 If you do bake acidic fruit in the bare Field, get it out of the pan reasonably soon after baking rather than letting it sit and soak.
 
+## Cast iron vs a cake tin
+
+You can bake any of these skillet desserts in a cake tin instead — it's mostly a tradeoff of crust versus convenience.
+
+**Cast iron gives you:** crisp, lacy edges and a browned bottom. A preheated, heat-retentive skillet fries the batter where it climbs the wall — that browned edge is much of the appeal of a clafoutis or far breton. It also goes stovetop-to-oven-to-table.
+
+**A cake tin gives you:** easy release and serving (especially a springform or loose-bottom tin), no acid worry (coated aluminum, glass, or ceramic doesn't react with cherries the way bare cast iron does), and lighter handling. The cost is weaker edges — a thin tin heats slower and holds less heat, so the result is paler and more uniformly soft, more "baked custard" than "crisp-edged."
+
+**Which recipe cares:** the clafoutis and sour cream clafoutis lean on those crisp edges, so they lose the most in a tin (still good, just softer). The far breton cares least — it's dense and sliceable by design, so a clean springform release is arguably a win.
+
+**If you use a tin:** butter it well (or line the base with parchment for a non-reactive tin), preheat a baking sheet and set the tin on it for a better bottom, and add a few minutes since it heats slower than preheated cast iron. A ~9-inch round is close to the Field No. 8's capacity.
+
 ## Recipes sized for the Field No. 8
 
 The 10¼-inch Field holds roughly **600–660g of batter** at a good clafoutis depth. A few recipes here are written or scaled to that:
