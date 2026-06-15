@@ -6,6 +6,7 @@ permalink: /changelog/
 
 ## 2026-06-07
 
+- Add The Field No. 8 skillet article (cast iron care, seasoning, the acid problem, recipes sized for it).
 - Add sour cream cherry clafoutis recipe (Ishikawa — custard-end of the clafoutis family, ~3% flour).
 - Add chocolate mochi canelé recipe (hybrid: butter-mochi base + chocolate canelé top).
 - Add cherry far breton recipe (dense, sliceable cousin of clafoutis).
