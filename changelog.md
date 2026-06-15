@@ -6,6 +6,12 @@ permalink: /changelog/
 
 ## 2026-06-07
 
+- Add sour cream cherry clafoutis recipe (Ishikawa — custard-end of the clafoutis family, ~3% flour).
+- Add chocolate mochi canelé recipe (hybrid: butter-mochi base + chocolate canelé top).
+- Add cherry far breton recipe (dense, sliceable cousin of clafoutis).
+- Update cherry clafoutis: swap 10% of milk for cream (tested), add analysis section.
+- Update custardy canelé: tested bake (525°F shock → 375°F 50–55min), nonstick spray works.
+- Update crispy butter mochi: hot-shock method to control ballooning, lighter-version note (baking powder, tapioca).
 - Add ingredient ratio analysis sections to all 26 baking recipes (% by weight of fat, sugar, structure, liquid, protein) with texture benchmarks — a teaching feature for learning how ratios drive texture.
 - Add `.analysis` styled block, batter-analysis on-page format, and steering convention for the analysis sections.
 - Add tteokbokki recipe (spicy rice cakes with anchovy-kelp stock).

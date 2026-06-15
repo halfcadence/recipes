@@ -396,3 +396,15 @@ kimbap:
   blue: "○ seaweed"
   pink: "○ filling"
   combo: "centered"
+chocolate-mochi-canele:
+  blue: "▮ canele"
+  pink: "▮ mochi base"
+  combo: "stacked"
+cherry-far-breton:
+  blue: "▮ dish"
+  pink: "○ cherry"
+  combo: "inside"
+sour-cream-cherry-clafoutis:
+  pink: "○ dish"
+  blue: "○ cherry"
+  combo: "centered"
