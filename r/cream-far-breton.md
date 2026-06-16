@@ -1,6 +1,7 @@
 ---
 title: Cream Far Breton
 category: sweets
+source: https://www.youtube.com/watch?v=8oQj64kLnFw
 number: 109
 yield: 8
 ---
@@ -24,7 +25,7 @@ A richer, cream-loaded far breton — closer to a canelé in spirit than the lea
 
 ## Steps
 
-1. Preheat oven to 375°F. Butter a 10¼-inch cast iron skillet (Field No. 8) well.
+1. Preheat oven to 350°F. Butter a 10¼-inch cast iron skillet (Field No. 8) well.
 
 2. Whisk eggs, sugar, and salt until smooth and slightly pale. Sift in the flour and whisk until no lumps remain.
 
@@ -32,7 +33,7 @@ A richer, cream-loaded far breton — closer to a canelé in spirit than the lea
 
 4. If using fruit, scatter it across the bottom of the buttered skillet. Pour the batter over (strain it first for the silkiest texture).
 
-5. Bake at 375°F for 10 minutes, then drop to 340°F and bake 60–70 minutes more, until deeply golden-brown on top and just set with a faint wobble.
+5. Bake at 350°F for 70 minutes (check at 65, give it up to 75–80), until deeply golden-brown on top and just set with a faint wobble.
 
 6. Cool to room temperature in the pan. It firms as it cools. Serve warm or chilled.
 
@@ -46,6 +47,7 @@ A richer, cream-loaded far breton — closer to a canelé in spirit than the lea
 - Straining the batter before baking gives the smoothest, most custard-like crumb.
 - For the original individual format: bake in buttered muffin or canelé molds (this batter fills ~13–14), same 70–80 min, for maximum caramelized surface per piece.
 - Best the day it's made, but holds 2 days refrigerated and slices cleanly cold.
+- Reference: [video recipe](https://www.youtube.com/watch?v=8oQj64kLnFw) this was adapted from.
 </div>
 
 ## Analysis
