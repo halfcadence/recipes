@@ -6,6 +6,7 @@ permalink: /changelog/
 
 ## 2026-06-07
 
+- Rename canelés: the custardy recipe is now "Canelé" (the default), the full-flour one is "Cakey Canelé".
 - Add cream far breton recipe (cream-rich, canelé-like, deeply caramelized; sized for the Field No. 8).
 - Add cherry buckle recipe (leavened coffee-cake batter, cherries, streusel top — the cakey counterpoint to the clafoutis family).
 - Add The Field No. 8 skillet article (cast iron care, seasoning, the acid problem, recipes sized for it).

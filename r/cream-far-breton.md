@@ -47,7 +47,6 @@ A richer, cream-loaded far breton — closer to a canelé in spirit than the lea
 - Straining the batter before baking gives the smoothest, most custard-like crumb.
 - For the original individual format: bake in buttered muffin or canelé molds (this batter fills ~13–14), same 70–80 min, for maximum caramelized surface per piece.
 - Best the day it's made, but holds 2 days refrigerated and slices cleanly cold.
-- Reference: [video recipe](https://www.youtube.com/watch?v=8oQj64kLnFw) this was adapted from.
 </div>
 
 ## Analysis

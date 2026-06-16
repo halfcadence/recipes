@@ -58,7 +58,7 @@ Total batter weight: **1699g** (excludes beeswax)
 | Liquid (milk, cream, bourbon, egg water) | 817g | 48.1% |
 | Egg/protein | 48g | 2.8% |
 
-**Ratios are identical to the plain canelé** — this is the standard formula with warm spices and bourbon swapped in, so structure at 16.8% gives the same firm, cleanly-unmolding canelé. The spices (~3g total) are flavor, not structure. Want it more custardy? Apply the same flour cut as the custardy variant.
+**Ratios are identical to the cakey canelé** — this is the full-flour formula with warm spices and bourbon swapped in, so structure at 16.8% gives the same firm, cleanly-unmolding canelé. The spices (~3g total) are flavor, not structure. Want it more custardy? Apply the same flour cut as the [Canelé](/r/custardy-canele).
 
 </div>
 
