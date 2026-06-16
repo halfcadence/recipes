@@ -43,7 +43,7 @@ Here's how our recipes stack up:
 | [Double Chocolate Chip Cookies](/r/double-chocolate-chip-cookies) | 125g | 0.5g | 0.4% | Low — but cocoa and chocolate carry bitterness that salt would normally balance. Could bump to 1–1.5g. |
 | [Matcha White Chocolate Cookies](/r/matcha-white-choco-cookies) | 150g | — (salted butter) | ~0.8% via butter | Fine — salted butter contributes roughly 1.2g salt. |
 | [Brown Butter Hojicha Cookies](/r/brown-butter-hojicha-cookies) | 150g | 2g | 1.3% | Normal range, plus flaky salt on top. Good for balancing white chocolate sweetness. |
-| [Canelé](/r/canele) | 285g | 3g (fleur de sel) | 1.1% | Right in range for a custard-heavy pastry. |
+| [Cakey Canelé](/r/cakey-canele) | 285g | 3g (fleur de sel) | 1.1% | Right in range for a custard-heavy pastry. |
 | [Matcha Gateau au Chocolat](/r/matcha-gateau-au-chocolat) | 20g | 0.5g | 2.5% | Looks high, but flour is minimal — salt is really balancing the 100g white chocolate + 38g×2 sugar. |
 | [Chocolate Gateau au Chocolat](/r/chocolate-gateau-au-chocolat) | 20g | 0.5g | 2.5% | Same as above — salt relative to total batter weight is actually very low. |
 

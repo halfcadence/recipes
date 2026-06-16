@@ -13,7 +13,7 @@ brown-butter-hojicha-cookies:
   blue: "○ cookie"
   blue2: "○ center"
   combo: "double pass"
-canele:
+cakey-canele:
   pink: "▮ body"
   blue: "○ dome"
   combo: "stacked"
@@ -372,7 +372,7 @@ cherry-clafoutis:
   pink: "○ skillet"
   blue: "○ cherry ○ cherry"
   combo: "inside"
-custardy-canele:
+canele:
   pink: "▮ body"
   blue: "○ dome"
   combo: "stacked"

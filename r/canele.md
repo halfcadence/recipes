@@ -1,45 +1,44 @@
 ---
-title: Cakey Canelé
+title: Canelé
 category: sweets
-number: 12
-source: https://hitosara.com/contents/chefstable/recipe/recipe_jill01.html
-chef: Gilles Marchal (simplified)
-yield: 24
+number: 99
+yield: 12
 ---
 
 ## Ingredients
 
 | | |
 |---|---|
-| 675g | milk |
-| 75g | heavy cream (35% fat) |
-| 90g | butter |
+| 340g | milk |
+| 38g | heavy cream |
+| 45g | butter |
 | 1 | vanilla bean (or 8g vanilla extract) |
-| 338g | granulated sugar |
-| 3g | fleur de sel |
-| 60g | whole egg (~1 large) |
-| 90g | egg yolk (~5 yolks) |
-| 80g | aged rum |
-| 285g | AP flour |
-| | Beeswax for molds |
+| 170g | granulated sugar |
+| 2g | fleur de sel |
+| 1 | whole egg (~50g) |
+| 2 | egg yolks (~36g) |
+| 40g | aged rum |
+| 85g | AP flour |
+| 15g | cornstarch |
+| | Nonstick spray (or beeswax) for molds |
 
 ## Steps
 
-1. In a pot, combine milk, cream, butter, and vanilla. Heat to 175°F — do not boil or it will split. Remove from heat. Let infuse 5 minutes.
+1. In a pot, combine milk, cream, butter, and vanilla. Heat to 175°F — do not boil. Remove from heat. Let infuse 5 minutes.
 
-2. In a large bowl, whisk sugar, salt, eggs, and yolks together.
+2. In a bowl, whisk sugar, salt, eggs, and yolks together.
 
-3. Slowly pour about ¼ of the hot milk into the egg mixture, whisking constantly to temper. Then sift in all the flour and whisk until smooth.
+3. Slowly pour about ¼ of the hot milk into the egg mixture, whisking constantly to temper. Sift in flour and cornstarch together, whisk until smooth.
 
-4. Gradually add the remaining hot milk, whisking until fully combined. Stir in rum.
+4. Gradually add the remaining milk, whisking until fully combined. Stir in rum.
 
-5. Strain through a sieve. Refrigerate overnight (24 hours minimum, 48 ideal).
+5. Strain through a sieve. Refrigerate overnight (24 hours minimum).
 
-6. Coat canelé molds with beeswax. Stir rested batter gently (don't introduce air). Strain again if lumpy.
+6. Coat canelé molds with nonstick spray (beeswax also works but isn't needed here). Stir rested batter gently. Strain again if lumpy.
 
-8. Preheat oven to 475°F. Fill each mold with 70g of batter.
+7. Preheat oven to 525°F. Fill each mold with 70g of batter.
 
-9. Bake at 475°F for 11 minutes. Without opening the oven, drop to 350°F and continue baking for 50 minutes.
+8. Bake at 525°F for 11 minutes. Without opening the oven, drop to 375°F and continue baking for 50–55 minutes.
 
 9. Unmold immediately onto a cooling rack upside down. Cool 2 hours. Eat the same day.
 
@@ -47,33 +46,29 @@ yield: 24
 
 <div class="analysis" markdown="1">
 
-Total batter weight: **1696g** (excludes beeswax)
+Total batter weight: **821g** (excludes mold coating)
 
 | Component | Amount | % |
 |---|---|---|
-| Structure solids (flour) | 285g | 16.8% |
-| Fat (butter, cream, milk, yolk) | 160g | 9.4% |
-| Sugar (added + milk lactose) | 374g | 22.0% |
-| Liquid (milk, cream, rum, egg water) | 816g | 48.1% |
-| Egg/protein | 48g | 2.8% |
+| Structure solids (flour + cornstarch) | 100g | 12.2% |
+| Fat (butter, cream, milk, yolk) | 79g | 9.6% |
+| Sugar (added + milk lactose) | 188g | 22.9% |
+| Liquid (milk, cream, rum, egg water) | 421g | 51.3% |
+| Egg/protein | 25g | 3.0% |
 
-**Structure at 16.8% sits above the custardy sweet spot (8–14%)** — this is the firmer, slightly cakey-edged canelé that unmolds cleanly, hence the name. Fat near 9% keeps it rich. For a softer, more custardy interior, see the [Canelé](/r/custardy-canele) (~12% structure) or read the [Canelé Ratio Analysis](/a/canele-ratio-analysis).
+**Structure at 12.2% lands inside the custardy sweet spot (8–14%)** — softer and more pudding-like than the cakey canelé's 16.8%. The cornstarch share of that structure sets the custard without gluten, so it stays tender. Fat near 10% keeps it rich.
 
 </div>
 
 <div class="notes" markdown="1">
 ## Notes
 
-- The firmer, more cake-textured canelé — full flour, full batch (~24). For a softer, more custardy interior, see the [Canelé](/r/custardy-canele).
-- The 24h rest is non-negotiable — it hydrates the flour, develops flavor, and improves texture. 48h is even better.
-- Cream can be replaced by adjusting milk and butter: use 750g milk and 105g butter instead. Same fat/liquid ratio, one fewer ingredient.
-- AP flour works well as a T45 substitute — most successful home bakers use it. Avoid the DIY "cake flour" hack (AP + cornstarch) as the cornstarch adds structure that works against custardy texture.
-- Fleur de sel is a coarse French sea salt — regular fine sea salt works as a substitute.
-- The high initial temperature creates the caramelized shell and prevents mushrooming.
-- 70g of batter per mold — use a scale for consistency.
-- Next experiment: try reducing flour by 10–15% (to ~240–255g) for a more custardy, less cakey interior. May need slightly longer bake or lower temp to set.
-- For matcha or hojicha canelés: add 12g powder per 500g of batter. Sift it in with the flour, or make a paste with 1 tbsp of batter and fold back in.
-- For coffee canelés: dissolve 5–6g instant espresso (or instant decaf) in 1 tbsp hot water, stir into batter. Can also add directly to the hot milk before combining.
-- Canelés are best eaten the day they're baked.
-- For a half batch (~12 canelés): halve all ingredients. Use 30g whole egg (weigh out half a beaten egg) and 45g yolk (~2–3 yolks). Batter keeps 4–5 days in the fridge — bake in batches of 6 as needed.
+- A soft, custardy canelé — lower flour and a touch of cornstarch for a tender, pudding-like interior. Makes ~12. For a firmer, more cake-textured version (and a full ~24 batch), see the [Cakey Canelé](/r/cakey-canele).
+- Lower flour (85g) plus 15g cornstarch puts total starch at ~12% of batter (vs ~17% in the cakey version) for a soft, very custardy interior — well clear of cakey.
+- The cornstarch sets the custard without forming gluten, so it firms gently rather than toughening. At 12% total this is about as custardy as you can go and still unmold.
+- The high-heat start prevents mushrooming — this lower-solids batter needs a hotter shock (525°F) than the chocolate canelés to set the shell fast.
+- Nonstick spray works fine here — no beeswax needed. Just spray the molds before filling.
+- Tested bake: 525°F for 11 minutes, then 375°F for 50–55 minutes. Turns out well.
+- If it comes out too soft to unmold cleanly, bump flour to 100g next time.
+- Same flavor variations apply: matcha/hojicha (12g), coffee (5g instant espresso paste).
 </div>
