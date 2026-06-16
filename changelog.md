@@ -6,6 +6,7 @@ permalink: /changelog/
 
 ## 2026-06-07
 
+- Add chocolate soufflé recipe (Robuchon's 3-ingredient version via Chris Young, Swiss meringue, no flour).
 - Add black tea pudding recipe (water-bath baked tea custard with Calvados).
 - Rename canelés: the custardy recipe is now "Canelé" (the default), the full-flour one is "Cakey Canelé".
 - Add cream far breton recipe (cream-rich, canelé-like, deeply caramelized; sized for the Field No. 8).
