@@ -6,6 +6,7 @@ permalink: /changelog/
 
 ## 2026-06-07
 
+- Add packing canelés article (gift-box sizing from 1 to a full batch, with sourcing links).
 - Add chocolate soufflé recipe (Robuchon's 3-ingredient version via Chris Young, Swiss meringue, no flour).
 - Add black tea pudding recipe (water-bath baked tea custard with Calvados).
 - Rename canelés: the custardy recipe is now "Canelé" (the default), the full-flour one is "Cakey Canelé".
