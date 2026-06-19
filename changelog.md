@@ -6,6 +6,7 @@ permalink: /changelog/
 
 ## 2026-06-07
 
+- Add evaporated milk article (what it is, baking uses, ratio-neutral substitution).
 - Add Earl Grey, Hong Kong milk tea, and Thai tea canelé recipes (tea-infused variants of the custardy canelé).
 - Add big-batch canelé recipe (custardy canelé scaled to fill 24 molds).
 - Add packing canelés article (gift-box sizing from 1 to a full batch, with sourcing links).
