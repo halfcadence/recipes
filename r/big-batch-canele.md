@@ -40,7 +40,7 @@ The custardy [Canelé](/r/canele) scaled to fill a full 24-mold tray. Same ratio
 
 7. Preheat oven to 525°F (550°F if baking a full tray — see notes). Fill each mold with ~75g of batter.
 
-8. Bake at 525°F for 11 minutes. Without opening the oven, drop to 375°F and continue baking for 50–55 minutes.
+8. Bake at 525°F for 11 minutes. Without opening the oven, drop to 400°F and continue baking for 50–55 minutes (see notes — a full tray browns slower, so it runs hotter than the single batch's 375°F second stage).
 
 9. Unmold immediately onto a cooling rack upside down. Cool 2 hours. Eat the same day.
 
@@ -51,6 +51,7 @@ The custardy [Canelé](/r/canele) scaled to fill a full 24-mold tray. Same ratio
 - Eggs are kept to whole counts (2 whole + 5 yolks); the rest scales to match their real weight. The extra yolk over a strict double makes it a hair richer — on-brand for the custardy version.
 - **Oven load matters.** A full rack of molds is a lot of cold mass, so the oven recovers slowly after loading and effectively runs cooler than the dial during the critical shock phase. With a full tray, set the start ~25°F higher (550°F) and use a preheated baking steel or stone to hold heat. An oven thermometer is worth it — dials are routinely off by 25–50°F, which is the difference between a clean rise and a mushroom-then-flat collapse.
 - Mushrooming then collapsing flat usually means the shell didn't set before the batter over-rose: don't pull them early, keep the start hot, and don't whisk air into the batter.
+- **Big-batch browning:** a full tray of cold molds is a big heat sink, so the oven runs effectively cooler and the canelés brown slower. Brown with heat, not time — run the second stage at 400°F (vs 375°F for the single batch) so they color within the normal ~55 min window. Chasing color by extending the bake at a lower temp just thickens the shell without adding much color. If they're still pale, push the second stage to 410–415°F next time rather than adding minutes.
 - Nonstick spray works fine — no beeswax needed.
 - Same flavor variations apply: matcha/hojicha (12g per ~500g batter), coffee (instant espresso paste).
 - Batter keeps 4–5 days refrigerated; bake in trays as needed rather than all at once.
