@@ -428,3 +428,15 @@ big-batch-canele:
   pink: "▮ body"
   blue: "▮ body"
   combo: "side by side"
+earl-grey-canele:
+  blue: "▮ body"
+  pink: "○ dome"
+  combo: "on top"
+hong-kong-milk-tea-canele:
+  pink: "▮ body"
+  blue: "▮ tea layer"
+  combo: "bottom band"
+thai-tea-canele:
+  blue: "▮ body"
+  pink: "▮ tea layer"
+  combo: "top band"
