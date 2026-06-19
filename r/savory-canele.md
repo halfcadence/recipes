@@ -52,6 +52,8 @@ Canelés salés — the apéritif version. The custard base with the sugar strip
 ## Notes
 
 - Savory canelés trade the dessert's caramelized sugar shell for a cheese-and-fat-browned one — expect a paler, softer shell than the dark sweet version, since there's almost no sugar to caramelize. The 10g sugar is just for a little color and browning.
+- Savory canelés mushroom less than sweet ones — the ~220g of bacon, cheese, and onion weighs the batter down and breaks up the smooth rise, so it puffs sluggishly rather than ballooning over. The hot 475°F start still helps set the shell fast; keep the batter cold and fill to ~80% and you won't have trouble.
+- **Baking temp ideas:** two approaches both work. The two-stage hot-then-moderate here (475°F → 375°F) gives the crispest shell. For a simpler, gentler bake, run a steady ~400–425°F for ~45–55 minutes — less shell contrast but easy and even. Either way you won't get the dark lacquered crust of a sweet canelé (no sugar to caramelize); browning comes from the cheese, fat, and milk solids, so judge doneness by golden color and a set interior, not darkness.
 - The cheese and bacon both bring salt, so taste before adding much more — 4g added salt assumes unsalted-ish bacon; cut to 2g if your bacon is very salty.
 - Mix-ins are folded in *after* the rest, not before, so they don't sink or stew in the batter overnight.
 - Swap freely within the meat + cheese + veg framework: ham or pancetta for bacon; gruyère, cheddar, or parmesan for Comté; sautéed leek, sun-dried tomato, or roasted pepper for the onion. Keep total mix-ins around 220g so the batter still binds.
