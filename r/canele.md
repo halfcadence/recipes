@@ -70,7 +70,5 @@ Total batter weight: **821g** (excludes mold coating)
 - Nonstick spray works fine here — no beeswax needed. Just spray the molds before filling.
 - Tested bake: 525°F for 11 minutes, then 375°F for 50–55 minutes. Turns out well.
 - If it comes out too soft to unmold cleanly, bump flour to 100g next time.
-- **For 24 molds (full fill):** scale to roughly 2×, keeping the eggs at 2 whole + 4 yolks — milk 745g, cream 83g, butter 99g, sugar 373g, salt 4.5g, 2 whole eggs, 4 yolks, rum 88g, flour 186g, cornstarch 33g (~1815g total, fills 24 at ~75g each). Eggs stay whole-number; the other ingredients scale to match the real weight of 2 large eggs + 4 yolks.
-- **Oven load matters.** A full rack of molds is a lot of cold mass — the oven recovers slowly after loading and effectively runs cooler than the dial during the all-important shock phase. With a full batch, set the start ~25°F higher (550°F) to compensate, and use a preheated baking steel/stone to hold heat. An oven thermometer is worth it — dials are routinely off by 25–50°F, which is the difference between a clean rise and a mushroom-then-flat collapse.
 - Same flavor variations apply: matcha/hojicha (12g), coffee (5g instant espresso paste).
 </div>
