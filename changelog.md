@@ -6,6 +6,7 @@ permalink: /changelog/
 
 ## 2026-06-07
 
+- Add savory canelé recipe (canelés salés — bacon, Comté, caramelized onion; sugar slashed).
 - Add evaporated milk article (what it is, baking uses, ratio-neutral substitution).
 - Add Earl Grey, Hong Kong milk tea, and Thai tea canelé recipes (tea-infused variants of the custardy canelé).
 - Add big-batch canelé recipe (custardy canelé scaled to fill 24 molds).
