@@ -70,5 +70,6 @@ Total batter weight: **821g** (excludes mold coating)
 - Nonstick spray works fine here — no beeswax needed. Just spray the molds before filling.
 - Tested bake: 525°F for 11 minutes, then 375°F for 50–55 minutes. Turns out well.
 - If it comes out too soft to unmold cleanly, bump flour to 100g next time.
+- **Gluten-free:** canelés barely rely on gluten — structure comes from egg and starch, and the long rest is there to *relax* gluten anyway — so they convert cleanly. Swap the AP flour 1:1 for fine white rice flour (or a GF all-purpose blend); the cornstarch is already gluten-free. Don't add xanthan gum — a canelé doesn't want stretch, and gums can turn it gummy. Use a fine/superfine rice flour so it isn't gritty; the overnight rest hydrates it smooth. Texture comes out a touch more tender and the shell still crisps normally.
 - Same flavor variations apply: matcha/hojicha (12g), coffee (5g instant espresso paste).
 </div>
