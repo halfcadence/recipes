@@ -4,6 +4,11 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-06-22
+
+- Add steeping tea into milk article (infusing without throwing off ratios; steep-and-measure-back; scales to any batch).
+- Tea canelés: steep tea in milk only, then weigh and measure the strained milk back to a clean 340g base; corrected absorption estimate to an honest 2–4× range.
+
 ## 2026-06-07
 
 - Add savory canelé recipe (canelés salés — bacon, Comté, caramelized onion; sugar slashed).
