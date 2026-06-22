@@ -69,6 +69,24 @@ That multiplier `(1 + k × r)` has no batch size in it. It depends only on how s
 
 Same ratio, same flavor strength, same method. The big batch just has bigger numbers — you steep ~31g of leaf in ~870g of milk, strain, and measure 745g back out.
 
+## What tea to use
+
+Here's the freeing part: for baking, **cheap tea is the right tea.** You're burying the leaf under sugar, milk, and a caramelized shell, so nuance is wasted — what you want is a brisk, tannic, assertive black tea that reads through everything else. The qualities that make a tea "low grade" for sipping are exactly what you want here:
+
+- **Broken leaf, fannings, and dust** — the small bits inside ordinary tea bags — have more surface area, so they extract faster and stronger. That bold, slightly bitter punch is what survives the oven.
+- **Bagged supermarket black is fine.** Just slit open a few bags and weigh the loose leaf. Lipton, Tetley, Twinings, Red Rose — all work.
+- **Don't waste good tea.** Fine first-flush Darjeeling, single-estate anything, delicate greens — their subtlety vanishes in baking. Save those for the cup.
+- **Skip cheap flavored blacks.** Bargain "vanilla" or "tropical" blacks lean on synthetic oils that can taste chemical. Plain black is safer; add your own flavor.
+
+For **Hong Kong milk tea**, Ceylon is the undisputed backbone — practically every authentic recipe agrees. But cafés (cha chaan teng) rarely use a single tea; they brew a proprietary blend of grades for body, color, and aroma. The common homemade approximation is **Ceylon plus a plain Lipton-style black, roughly 1:1** — Ceylon for bold flavor and aroma, Lipton for mellow consistency — often with some orange pekoe and broken grades for fast, strong extraction and deep reddish color. Steep it hard and astringent; that bite is the signature.
+
+Practical picks:
+
+- [Lipton Yellow Label loose black](https://www.amazon.com/Lipton-Yellow-Label-Tea-loose/dp/4639725043) — the classic HK-blend workhorse.
+- [Harney & Sons Orange Pekoe (Ceylon & India blend)](https://www.amazon.com/Harney-Sons-Orange-Pekoe-Ceylon/dp/B08X14VF1L) — a good single bag of brisk loose leaf.
+- [Moon Tea 100% Ceylon loose leaf](https://www.amazon.com/MOON-TEA-Traditional-Premium-Ceylon/dp/B0DTKPD1TZ) — marketed for milk and bubble tea.
+- [Twinings Ceylon tea bags](https://www.amazon.com/Twinings-Individually-Refreshing-Caffeinated-Packaging/dp/B003TQ780C) — proof that bags are perfectly fine; just open and weigh.
+
 ## Beyond tea
 
 The same steep-and-measure-back approach works for anything you infuse into a recipe's liquid:

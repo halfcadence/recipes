@@ -6,7 +6,7 @@ permalink: /changelog/
 
 ## 2026-06-22
 
-- Add steeping tea into milk article (infusing without throwing off ratios; steep-and-measure-back; scales to any batch).
+- Add steeping tea into milk article (infusing without throwing off ratios; steep-and-measure-back; scales to any batch; what tea to buy with links).
 - Tea canelés: steep tea in milk only, then weigh and measure the strained milk back to a clean 340g base; corrected absorption estimate to an honest 2–4× range.
 
 ## 2026-06-07
