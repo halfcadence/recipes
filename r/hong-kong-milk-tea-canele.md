@@ -11,7 +11,7 @@ The custardy [Canelé](/r/canele) built around strong black tea and evaporated m
 
 | | |
 |---|---|
-| 365g | milk |
+| 420g | milk |
 | 38g | heavy cream |
 | 50g | evaporated milk |
 | 18g | strong black tea, loose (Ceylon or a HK-style blend) |
@@ -27,9 +27,9 @@ The custardy [Canelé](/r/canele) built around strong black tea and evaporated m
 
 ## Steps
 
-1. In a pot, combine milk, cream, evaporated milk, butter, and vanilla. Heat to 175°F — do not boil. Off heat, add the loose tea, cover, and steep 12–15 minutes for a strong, slightly astringent infusion.
+1. Heat the milk to 175°F — do not boil. Off heat, add the loose tea, cover, and steep 12–15 minutes for a strong, slightly astringent infusion.
 
-2. Strain out the leaves. You should have roughly 410g infused dairy back.
+2. Strain out the leaves. **Weigh the infused milk and measure out 340g** — top up with fresh milk if short (the recipe starts with extra to cover absorption). Return the 340g to the pot with the cream, evaporated milk, butter, and vanilla and warm gently to melt the butter.
 
 3. In a bowl, whisk sugar, salt, eggs, and yolks together.
 
@@ -52,7 +52,7 @@ The custardy [Canelé](/r/canele) built around strong black tea and evaporated m
 - No alcohol here — the milk-tea flavor is the point and rum would muddy it.
 - Steep strong and slightly astringent; the sugar and shell will soften it. Use a real HK-style blend if you can find one, otherwise a strong Ceylon.
 - Sugar is trimmed to 160g (from the base 170g) to offset the evaporated milk's lactose and keep it on the less-sweet side HK milk tea is known for — the sweetness traditionally comes from condensed milk, so finish with a drizzle if you want it sweeter.
-- Milk starts at 365g to cover steeping absorption — strain and go, no measuring back.
+- Milk starts at 420g (vs the base 340g) because loose tea soaks up roughly 4× its dry weight in liquid — your 18g of leaf takes up ~70g. After steeping you weigh and measure back to 340g, so absorption never dilutes the batter.
 </div>
 
 ## Analysis

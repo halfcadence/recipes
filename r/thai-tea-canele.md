@@ -11,7 +11,7 @@ The custardy [Canelé](/r/canele) infused with Thai tea mix — that distinctive
 
 | | |
 |---|---|
-| 375g | milk |
+| 420g | milk |
 | 38g | heavy cream (or evaporated milk) |
 | 18g | Thai tea mix (ChaTraMue "Number One" brand) |
 | 45g | butter |
@@ -26,9 +26,9 @@ The custardy [Canelé](/r/canele) infused with Thai tea mix — that distinctive
 
 ## Steps
 
-1. In a pot, combine milk, cream, and butter. Heat to 175°F — do not boil. Off heat, add the Thai tea mix, cover, and steep 10–12 minutes.
+1. Heat the milk to 175°F — do not boil. Off heat, add the Thai tea mix, cover, and steep 10–12 minutes.
 
-2. Strain out the tea (a fine sieve or cloth — the mix is fine-cut). You should have roughly 340g infused milk back; it'll be a deep orange.
+2. Strain through a fine sieve or cloth (the mix is fine-cut). **Weigh the infused milk and measure out 340g** — top up with fresh milk if short (the recipe starts with extra to cover absorption). It'll be a deep orange. Return the 340g to the pot with the cream and butter and warm gently to melt the butter.
 
 3. In a bowl, whisk sugar, salt, eggs, and yolks together.
 
@@ -51,7 +51,7 @@ The custardy [Canelé](/r/canele) infused with Thai tea mix — that distinctive
 - The orange will mute once the dark caramelized shell forms — expect an orange-gold interior, not neon.
 - Rum suits this one: Thai tea is already vanilla- and spice-forward, so the rum reinforces rather than competes. No added vanilla needed (the mix has it).
 - Swap the cream for evaporated milk, or finish unmolded canelés with a drizzle of condensed milk, for a more authentic Thai-iced-tea richness.
-- Milk starts at 375g to cover steeping absorption — strain and go, no measuring back.
+- Milk starts at 420g because the Thai tea mix soaks up roughly 4× its dry weight (~70g for 18g of mix). After steeping you weigh and measure back to 340g, so absorption can't dilute the batter.
 - Other technique is identical to the custardy [Canelé](/r/canele).
 </div>
 

@@ -11,7 +11,7 @@ The custardy [Canelé](/r/canele) infused with Earl Grey and lifted with a littl
 
 | | |
 |---|---|
-| 375g | milk |
+| 400g | milk |
 | 38g | heavy cream |
 | 14g | Earl Grey leaves, loose (for steeping) |
 | 45g | butter |
@@ -28,9 +28,9 @@ The custardy [Canelé](/r/canele) infused with Earl Grey and lifted with a littl
 
 ## Steps
 
-1. In a pot, combine milk, cream, butter, and vanilla. Heat to 175°F — do not boil. Off heat, add the loose Earl Grey, cover, and steep 12–15 minutes.
+1. Heat the milk to 175°F — do not boil. Off heat, add the loose Earl Grey, cover, and steep 12–15 minutes.
 
-2. Strain out the leaves (they'll absorb some milk — the recipe starts with extra to cover it). You should have roughly 340g infused milk back.
+2. Strain out the leaves and **weigh the infused milk; measure out 340g** for the batter — if you're short, top up with fresh milk (the recipe starts with extra to cover what the leaves soak up). Return the 340g to the pot with the cream, butter, and vanilla and warm gently just to melt the butter.
 
 3. In a bowl, whisk sugar, salt, eggs, and yolks together.
 
@@ -51,7 +51,7 @@ The custardy [Canelé](/r/canele) infused with Earl Grey and lifted with a littl
 
 - Bergamot is volatile and fades in the oven, so the recipe over-steeps and adds a small amount of ground leaf plus orange liqueur to keep the citrus reading. The infused milk should taste aggressively strong before baking.
 - Orange liqueur replaces the usual rum — it echoes the bergamot rather than competing with molasses. Keep it modest (30g); more reads as orange dessert, not Earl Grey. A drop of bergamot or orange extract reinforces it further.
-- The milk starts at 375g (vs the base 340g) so the leaves can soak some up during steeping — no need to measure back, just strain and go.
+- The milk starts at 400g (vs the base 340g) because loose tea soaks up roughly 4× its dry weight in liquid — your 14g of leaf takes up ~55g. After steeping you weigh and measure back to 340g, so absorption never throws off the batter. (Tea bags hold a little less per gram, ~2–3×, plus the bag itself.)
 - Other technique is identical to the custardy [Canelé](/r/canele).
 - Use a good loose Earl Grey; the bergamot quality is what you taste.
 </div>
