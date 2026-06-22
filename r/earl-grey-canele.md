@@ -11,7 +11,7 @@ The custardy [Canelé](/r/canele) infused with Earl Grey and lifted with a littl
 
 | | |
 |---|---|
-| 400g | milk |
+| 420g | milk |
 | 38g | heavy cream |
 | 14g | Earl Grey leaves, loose (for steeping) |
 | 45g | butter |
@@ -51,7 +51,7 @@ The custardy [Canelé](/r/canele) infused with Earl Grey and lifted with a littl
 
 - Bergamot is volatile and fades in the oven, so the recipe over-steeps and adds a small amount of ground leaf plus orange liqueur to keep the citrus reading. The infused milk should taste aggressively strong before baking.
 - Orange liqueur replaces the usual rum — it echoes the bergamot rather than competing with molasses. Keep it modest (30g); more reads as orange dessert, not Earl Grey. A drop of bergamot or orange extract reinforces it further.
-- The milk starts at 400g (vs the base 340g) because loose tea soaks up roughly 4× its dry weight in liquid — your 14g of leaf takes up ~55g. After steeping you weigh and measure back to 340g, so absorption never throws off the batter. (Tea bags hold a little less per gram, ~2–3×, plus the bag itself.)
+- The milk starts at 420g (vs the base 340g) to cover what the leaves soak up. Spent tea leaves retain roughly 2–4× their dry weight in liquid — around 2–3× for broken or bagged tea, up to ~4× for big whole leaf — so your 14g takes up somewhere near 30–55g. You don't need to nail the exact figure: after steeping you weigh the strained milk and measure back to 340g, so absorption never throws off the batter. The extra start just guarantees you still have 340g left.
 - Other technique is identical to the custardy [Canelé](/r/canele).
 - Use a good loose Earl Grey; the bergamot quality is what you taste.
 </div>

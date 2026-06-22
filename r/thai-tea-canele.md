@@ -51,7 +51,7 @@ The custardy [Canelé](/r/canele) infused with Thai tea mix — that distinctive
 - The orange will mute once the dark caramelized shell forms — expect an orange-gold interior, not neon.
 - Rum suits this one: Thai tea is already vanilla- and spice-forward, so the rum reinforces rather than competes. No added vanilla needed (the mix has it).
 - Swap the cream for evaporated milk, or finish unmolded canelés with a drizzle of condensed milk, for a more authentic Thai-iced-tea richness.
-- Milk starts at 420g because the Thai tea mix soaks up roughly 4× its dry weight (~70g for 18g of mix). After steeping you weigh and measure back to 340g, so absorption can't dilute the batter.
+- Milk starts at 420g (vs the base 340g) to cover what the mix soaks up. Spent tea retains roughly 2–4× its dry weight; the fine-cut Thai mix lands on the lower-to-middle end per gram but there's a lot of it, so 18g takes up somewhere near 35–70g. The exact figure doesn't matter — after steeping you weigh the strained milk and measure back to a clean 340g, so absorption can't dilute the batter.
 - Other technique is identical to the custardy [Canelé](/r/canele).
 </div>
 

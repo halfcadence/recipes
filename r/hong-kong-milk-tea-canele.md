@@ -52,7 +52,7 @@ The custardy [Canelé](/r/canele) built around strong black tea and evaporated m
 - No alcohol here — the milk-tea flavor is the point and rum would muddy it.
 - Steep strong and slightly astringent; the sugar and shell will soften it. Use a real HK-style blend if you can find one, otherwise a strong Ceylon.
 - Sugar is trimmed to 160g (from the base 170g) to offset the evaporated milk's lactose and keep it on the less-sweet side HK milk tea is known for — the sweetness traditionally comes from condensed milk, so finish with a drizzle if you want it sweeter.
-- Milk starts at 420g (vs the base 340g) because loose tea soaks up roughly 4× its dry weight in liquid — your 18g of leaf takes up ~70g. After steeping you weigh and measure back to 340g, so absorption never dilutes the batter.
+- Milk starts at 420g (vs the base 340g) to cover what the leaves soak up. Spent tea leaves retain roughly 2–4× their dry weight (around 2–3× for broken/CTC tea, up to ~4× for whole leaf), so your 18g takes up somewhere near 35–70g. The exact rate doesn't matter — after steeping you weigh the strained milk and measure back to a clean 340g, so absorption can't dilute the batter. The extra start just makes sure you have 340g left.
 </div>
 
 ## Analysis
