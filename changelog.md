@@ -4,6 +4,11 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-06-25
+
+- Add galbi recipe (traditional Asian-pear marinade for LA-cut short ribs, grilled over high direct heat on a gas grill).
+- Steering: correct the Nova Canvas riso-PNG profile to `shiauas-personal` (the old `personal` profile's creds were stale).
+
 ## 2026-06-22
 
 - Add steeping tea into milk article (infusing without throwing off ratios; steep-and-measure-back; scales to any batch; what tea to buy with links).

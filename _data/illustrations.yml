@@ -444,3 +444,7 @@ savory-canele:
   blue: "▮ body"
   pink: "□ filling"
   combo: "inside"
+galbi:
+  blue: "▬ bar"
+  pink: "▮ bar"
+  combo: "crossing"
