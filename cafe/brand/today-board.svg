@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 850" font-family="monospace">
+  <rect width="600" height="850" fill="#fbfaf8"/>
+
+  <!-- header: wordmark + canelé glyph -->
+  <g transform="translate(255,40)">
+    <rect x="34" y="20" width="20" height="46" fill="#ff48b0" style="mix-blend-mode:multiply"/>
+    <circle cx="44" cy="20" r="10" fill="#0078bf" style="mix-blend-mode:multiply"/>
+  </g>
+  <text x="300" y="150" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-weight="600" font-size="34" fill="#0078bf" letter-spacing="-1">copper <tspan fill="#ff48b0">&amp;</tspan> cream</text>
+
+  <line x1="50" y1="185" x2="550" y2="185" stroke="#435060" stroke-width="1"/>
+  <text x="50"  y="215" font-size="20" fill="#435060">TODAY</text>
+  <text x="300" y="215" text-anchor="middle" font-size="20" fill="#435060">wed 25 jun</text>
+  <text x="550" y="215" text-anchor="end" font-size="20" fill="#435060">bake 7:30</text>
+  <line x1="50" y1="235" x2="550" y2="235" stroke="#435060" stroke-width="1"/>
+
+  <!-- ALL-STARS -->
+  <text x="50" y="278" font-size="18" fill="#cc2464" letter-spacing="3">ALL-STARS</text>
+
+  <!-- vanilla -->
+  <g transform="translate(50,300)">
+    <rect x="6" y="8" width="14" height="30" fill="#ff48b0" style="mix-blend-mode:multiply"/>
+    <circle cx="13" cy="8" r="7" fill="#0078bf" style="mix-blend-mode:multiply"/>
+    <text x="40" y="32" font-size="22" fill="#435060">vanilla</text>
+  </g>
+  <!-- chocolate -->
+  <g transform="translate(310,300)">
+    <rect x="6" y="8" width="14" height="30" fill="#0078bf" style="mix-blend-mode:multiply"/>
+    <circle cx="13" cy="8" r="7" fill="#ff48b0" style="mix-blend-mode:multiply"/>
+    <text x="40" y="32" font-size="22" fill="#435060">chocolate</text>
+  </g>
+  <!-- milk tea -->
+  <g transform="translate(50,350)">
+    <rect x="6" y="2" width="16" height="26" fill="#ff48b0" style="mix-blend-mode:multiply"/>
+    <rect x="6" y="28" width="16" height="10" fill="#0078bf" style="mix-blend-mode:multiply"/>
+    <text x="40" y="32" font-size="22" fill="#435060">milk tea</text>
+  </g>
+  <!-- pour over -->
+  <g transform="translate(310,350)">
+    <polygon points="6,4 28,4 17,30" fill="#0078bf" style="mix-blend-mode:multiply"/>
+    <circle cx="17" cy="32" r="6" fill="#ff48b0" style="mix-blend-mode:multiply"/>
+    <text x="44" y="32" font-size="22" fill="#435060">pour over</text>
+  </g>
+
+  <line x1="50" y1="415" x2="550" y2="415" stroke="#435060" stroke-width="1"/>
+
+  <!-- TODAY ONLY -->
+  <text x="50" y="455" font-size="18" fill="#cc2464" letter-spacing="3">TODAY ONLY</text>
+
+  <!-- earl grey: 5 of 8 left -->
+  <text x="90" y="500" font-size="22" fill="#435060">earl grey</text>
+  <g transform="translate(360,492)">
+    <circle cx="0"   cy="0" r="6" fill="#cc2464"/><circle cx="24" cy="0" r="6" fill="#cc2464"/><circle cx="48" cy="0" r="6" fill="#cc2464"/><circle cx="72" cy="0" r="6" fill="#cc2464"/><circle cx="96" cy="0" r="6" fill="#cc2464"/>
+    <circle cx="120" cy="0" r="6" fill="none" stroke="#88898a"/><circle cx="144" cy="0" r="6" fill="none" stroke="#88898a"/><circle cx="168" cy="0" r="6" fill="none" stroke="#88898a"/>
+  </g>
+
+  <!-- thai tea: 3 of 8 left -->
+  <text x="90" y="545" font-size="22" fill="#435060">thai tea</text>
+  <g transform="translate(360,537)">
+    <circle cx="0"  cy="0" r="6" fill="#cc2464"/><circle cx="24" cy="0" r="6" fill="#cc2464"/><circle cx="48" cy="0" r="6" fill="#cc2464"/>
+    <circle cx="72" cy="0" r="6" fill="none" stroke="#88898a"/><circle cx="96" cy="0" r="6" fill="none" stroke="#88898a"/><circle cx="120" cy="0" r="6" fill="none" stroke="#88898a"/><circle cx="144" cy="0" r="6" fill="none" stroke="#88898a"/><circle cx="168" cy="0" r="6" fill="none" stroke="#88898a"/>
+  </g>
+
+  <!-- eggnog: sold out -->
+  <text x="90" y="590" font-size="22" fill="#88898a">eggnog</text>
+  <line x1="88" y1="583" x2="232" y2="583" stroke="#ff48b0" stroke-width="3"/>
+  <text x="360" y="590" font-size="18" fill="#ff48b0" letter-spacing="2">SOLD OUT</text>
+
+  <!-- matcha: full -->
+  <text x="90" y="635" font-size="22" fill="#435060">white choc matcha</text>
+  <g transform="translate(360,627)">
+    <circle cx="0"  cy="0" r="6" fill="#cc2464"/><circle cx="24" cy="0" r="6" fill="#cc2464"/><circle cx="48" cy="0" r="6" fill="#cc2464"/><circle cx="72" cy="0" r="6" fill="#cc2464"/>
+    <circle cx="96" cy="0" r="6" fill="#cc2464"/><circle cx="120" cy="0" r="6" fill="#cc2464"/><circle cx="144" cy="0" r="6" fill="#cc2464"/><circle cx="168" cy="0" r="6" fill="#cc2464"/>
+  </g>
+
+  <line x1="50" y1="690" x2="550" y2="690" stroke="#435060" stroke-width="1"/>
+
+  <!-- honesty line -->
+  <text x="300" y="745" text-anchor="middle" font-size="19" fill="#cc2464">Best within hours. We sell out.</text>
+  <text x="300" y="775" text-anchor="middle" font-size="19" fill="#cc2464">Come early.</text>
+</svg>
