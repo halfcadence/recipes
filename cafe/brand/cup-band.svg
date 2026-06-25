@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" font-family="monospace">
+  <rect width="800" height="200" fill="#fbfaf8"/>
+  <!-- repeating canelé glyph band -->
+  <g fill="#ff48b0" style="mix-blend-mode:multiply">
+    <rect x="40"  y="78" width="16" height="44"/><rect x="140" y="78" width="16" height="44"/><rect x="240" y="78" width="16" height="44"/>
+    <rect x="540" y="78" width="16" height="44"/><rect x="640" y="78" width="16" height="44"/><rect x="740" y="78" width="16" height="44"/>
+  </g>
+  <g fill="#0078bf" style="mix-blend-mode:multiply">
+    <circle cx="48"  cy="78" r="8"/><circle cx="148" cy="78" r="8"/><circle cx="248" cy="78" r="8"/>
+    <circle cx="548" cy="78" r="8"/><circle cx="648" cy="78" r="8"/><circle cx="748" cy="78" r="8"/>
+  </g>
+  <!-- center label -->
+  <text x="400" y="92" text-anchor="middle" font-family="'Bricolage Grotesque', sans-serif" font-weight="600" font-size="30" fill="#0078bf" letter-spacing="-1">half <tspan fill="#ff48b0">/</tspan> cadence</text>
+  <text x="400" y="124" text-anchor="middle" font-size="15" letter-spacing="3" fill="#435060">POUR OVER · ~4 MIN · WORTH IT</text>
+</svg>

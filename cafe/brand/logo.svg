@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200" font-family="'Bricolage Grotesque', sans-serif">
-  <rect width="560" height="200" fill="#fbfaf8"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" font-family="'Bricolage Grotesque', sans-serif">
+  <rect width="600" height="200" fill="#fbfaf8"/>
   <!-- canelé glyph colophon (master mark: pink rect body + blue circle dome) -->
-  <g transform="translate(40,40)">
+  <g transform="translate(38,40)">
     <rect x="34" y="31" width="26" height="59" fill="#ff48b0" style="mix-blend-mode:multiply"/>
     <circle cx="47" cy="31" r="13" fill="#0078bf" style="mix-blend-mode:multiply"/>
   </g>
-  <!-- wordmark: words blue, ampersand pink -->
-  <text x="150" y="92" font-size="46" font-weight="600" fill="#0078bf" letter-spacing="-1">copper <tspan fill="#ff48b0">&amp;</tspan> cream</text>
+  <!-- wordmark: "half" blue, "cadence" blue, the unresolved caesura mark in pink -->
+  <text x="150" y="92" font-size="46" font-weight="600" fill="#0078bf" letter-spacing="-1">half <tspan fill="#ff48b0">/</tspan> cadence</text>
   <!-- monospace subline -->
-  <text x="151" y="128" font-family="monospace" font-size="17" letter-spacing="2" fill="#435060">caneles + coffee · capitol hill</text>
+  <text x="151" y="128" font-family="monospace" font-size="16" letter-spacing="2" fill="#435060">caneles + coffee · seattle</text>
 </svg>

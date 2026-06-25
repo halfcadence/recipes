@@ -1,5 +1,5 @@
 # Farmers-Market Validation Playbook
-### Copper & Cream — first move, before any lease
+### Half Cadence — first move, before any lease
 
 *Sell canelés at a Seattle farmers market for 6–8 weekends. Answer four questions with money, not opinion: is the demand real, does the price hold, do drinks attach, is the waste survivable. This gates the whole [`plan.md`](./plan.md) thesis. Run this before signing anything.*
 
@@ -7,19 +7,28 @@
 
 ## 0. Read this first — the regulatory constraint that shapes everything
 
-**A canelé is a baked egg-and-milk custard. Under Washington law it is a potentially hazardous food. You cannot sell it under the Cottage Food permit. Do not try.**
+**A canelé is almost certainly a potentially hazardous (TCS) food under Washington law, which means you should plan to bake it in a permitted commercial/commissary kitchen and sell under a temporary food permit — NOT under the home-kitchen Cottage Food permit. There is a narrow, cheap path to confirm whether a home-kitchen route is open; pursue it in parallel, but do not build the plan on it.**
 
-This is not a judgment call. The statute and rule are explicit:
+First, get the term right, because it's easy to misread. **"Potentially hazardous food" — now called TCS (Time/Temperature Control for Safety) — is a microbiology classification, not a freshness/quality one.** It asks one question: can pathogens (Salmonella, Staph, Listeria, botulism) grow or form toxin in the finished food at room temperature? That turns on two physical properties: **pH** (acidic? ≤ 4.6 = safe) and **water activity** (dry? aw ≤ 0.85 = safe). Hit *either* threshold and the food is automatically non-TCS. It has nothing to do with whether the item stales or "keeps for a day" — that's a separate axis.
 
-- **RCW 69.22.010** defines a cottage food operation as one that makes **"nonpotentially hazardous baked goods"** in a **home kitchen**, **direct to consumer**, and defines a potentially hazardous food as one requiring temperature control for safety.
-- **WAC 16-149-130** (prohibited cottage foods) bars **"bakery goods which require any type of refrigeration such as cream, custard or meringue pies and cakes or pastries with cream or cream cheese fillings"** and goods made with **uncooked eggs**.
-- **WAC 16-149-120** (allowable cottage foods) lists pies **"except that custard style pies, pies with fresh fruit that is unbaked or pies that require refrigeration after baking are not approved."**
+**Why a canelé lands on the TCS side (medium confidence):**
 
-A canelé is custard set in a shell. It reads to a Washington plan reviewer as a custard baked good that requires refrigeration after baking. **Excluded.** Plan around this; do not argue it.
+- **RCW 69.22.010** gates the *entire* cottage-food program on the food being **non-potentially-hazardous**. That gate is decided by the finished product's pH and water activity — **not** by what product category you name it into.
+- A canelé is a baked flour-egg-milk **batter** (eggs fully cooked at ~525°F), structurally a cousin of the madeleine/financier/far breton. It is near-neutral (~pH 6–7; the only acid is a splash of rum) and, by deliberate design, has a **moist, custardy interior** whose water activity is almost certainly **> 0.85, plausibly > 0.92.** Under the FDA Food Code interaction tables for heat-treated foods, pH > 4.6 **and** aw > 0.85 lands in TCS (or "Product Assessment required" — presumptively TCS until proven otherwise).
+- This is exactly where the canelé differs from its drier batter-cake cousins: a madeleine or financier finishes dry enough to clear the aw bar; the canelé's signature wet interior is what fails it.
 
-**The cheapest legal path: a Public Health — Seattle & King County (PHSKC) Temporary Food Establishment permit, with the canelés baked in a permitted commercial/commissary kitchen — NOT a home kitchen.** Not cottage food, not a WSDA Food Processor license (that path is for shelf-stable packaged goods sold wholesale/retail off-site, the wrong tool here). See §1.
+**What this corrects from earlier drafts:** a prior version shoved the canelé into WAC 16-149-130's "custard pie" prohibition. That was the wrong route. WAC 16-149-130 bars cream/custard/meringue **pies** and cakes/pastries with cream, cream-cheese, or fresh-fruit **fillings/garnishes**, plus anything with uncooked eggs. A canelé has **none** of these — no filling, no garnish, no frosting, eggs fully baked — so it is **not** squarely named in the prohibition, and WAC 16-149-120 would plausibly read it as an allowed "cake/pastry." So don't lean on the categorical "it's a custard pie" argument; it doesn't hold. The reason a canelé is still barred is the **TCS gate (moisture + near-neutral pH)**, which the category argument cannot defeat.
 
-> **Confidence:** The cottage-food exclusion is HIGH confidence — quoted directly from current RCW/WAC and verified. The permit *dollar figures* below are corrected to the live PHSKC/WSDA fee schedules where confirmed, and flagged as ranges where not; **call PHSKC and your target market manager to confirm current numbers and the required cold-holding plan before you commit.** Treat the legal path as settled, the exact dollars as planning estimates.
+**What would actually settle it — proof, not intuition:**
+
+1. **Lab water-activity test on the finished interior** (~$40/sample; pH ~$6.50). If aw ≤ 0.85, the canelé flips to non-TCS outright (pH won't help — it's near-neutral). For a moist canelé this is unlikely, which is why the working assumption is "TCS."
+2. **Written WSDA determination.** WA cottage approval is discretionary and per-product: you submit the specific recipe + label, a Public Health Advisor reviews it for "low risk," and lists it on your permit (or doesn't). A favorable lab number strengthens the argument but does not bind their call. Email **cottagefoods@agr.wa.gov** / call **(360) 902-1876**; describe it honestly as a baked flour-egg-milk batter (compare to a financier/madeleine, **not** a custard pie) and ask whether they will list it.
+
+**The safe operational route (reviewer-independent — works regardless of how the TCS question resolves): a Public Health — Seattle & King County (PHSKC) Temporary Food Establishment permit, with canelés baked in a permitted commercial/commissary kitchen — NOT a home kitchen.** This is the plan's primary path. See §1. Not a WSDA Food Processor license (that's for shelf-stable packaged goods sold wholesale/off-site — the wrong tool here).
+
+**Pursue the cottage path in parallel, as upside only.** If WSDA lists the recipe, you gain a low-cost home-kitchen channel. If they decline or demand testing, you're already operational via the commissary and lose nothing. **Do not delay launch waiting on a cottage reclassification — realistically it won't come, and the commissary path doesn't need it.**
+
+> **Confidence:** That a canelé is **TCS / barred from cottage food** is MEDIUM confidence — it rests on the finished interior's water activity being > 0.85, which is very likely but unproven without a lab test. The **commissary + temporary-permit path is HIGH confidence** as the safe default regardless of outcome. The permit *dollar figures* below are corrected to live PHSKC/WSDA fee schedules where confirmed and flagged as ranges where not; **call PHSKC and your target market manager to confirm current numbers and the required cold-holding plan before you commit.**
 
 ---
 
@@ -27,7 +36,7 @@ A canelé is custard set in a shell. It reads to a Washington plan reviewer as a
 
 | Path | Legal for canelés? | Cost | Why |
 |---|---|---|---|
-| **Cottage Food permit** (WSDA) | **NO** | **$355 / 2 yr**¹ | Custard/egg baked good is potentially hazardous and requires refrigeration after baking; explicitly prohibited (WAC 16-149-120/130). Even if it were legal, it is a home-kitchen permit — wrong route. |
+| **Cottage Food permit** (WSDA) | **Probably not** (TCS) | **$355 / 2 yr**¹ | The canelé's moist, near-neutral interior almost certainly clears no non-TCS threshold (§0), so it's gated out of cottage food. *Cheap upside path:* a ~$40 water-activity test + a written WSDA determination could open a home-kitchen channel — pursue in parallel, don't wait on it. |
 | **WSDA Food Processor license** | Wrong tool | ~$200/yr base² | For packaged, shelf-stable goods processed for off-site/wholesale sale. A canelé sold fresh at a booth is food service, regulated by the local health jurisdiction (PHSKC), not processing. |
 | **King County Temporary Food Establishment permit + commissary** | **YES — this is the route** | see §2 | PHSKC permits short-term/recurring food service. Bake in a permitted kitchen, hold/transport safe, sell at the booth under the temp permit. |
 
@@ -193,6 +202,6 @@ Lean needs the equivalent of **~170 canelé/day + ~140 drinks/day**, drink attac
 ---
 
 *Footnotes (regulatory, verified against current WA/King County sources):*
-*¹ The WSDA Cottage Food permit is **$355 for two years** (covers a home-kitchen inspection and up to $35,000 gross annual sales; a failed initial inspection adds a $125 reinspection fee). It does not change the conclusion: a custard/egg baked good is barred regardless (RCW 69.22.010, WAC 16-149-120/130).*
+*¹ The WSDA Cottage Food permit is **$355 for two years** (covers a home-kitchen inspection and up to $35,000 gross annual sales; a failed initial inspection adds a $125 reinspection fee). The exclusion rests on the **TCS gate** (moist, near-neutral interior → aw > 0.85), not on the "custard pie" category — see §0. A lab aw test + WSDA determination could in principle open it; treat as upside, not the plan.*
 *² The WSDA Food Processor license base fee (~$200/yr) was not independently confirmed; the reasoning for excluding it (it governs packaged/wholesale processing, not booth food service) stands regardless of the exact fee.*
 *³ King County Temporary Food Establishment permit fees are tiered: Minimal $126 single / $252 unlimited; Moderate $315 / $756 (5) / $882 unlimited; Complex $441 / $819 (5) / $1,008 unlimited. A cold-held TCS product lands in Moderate or Complex; multi-event/unlimited packages add a ~$126 Certified Booth Operator course. The "temporary = one location, fixed menu, <21 days or up to 3 days/week for an approved recurring event such as a farmers market" definition is verified verbatim. Food worker card ($10, valid 2 years) is confirmed. Confirm exact tier, the CBO requirement, and the required cold-holding plan directly with PHSKC and the market manager before paying.*

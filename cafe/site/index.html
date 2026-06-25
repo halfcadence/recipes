@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Half Cadence — canelés + coffee, Seattle</title>
+<meta name="description" content="A Seattle canelé bakery and slow pour-over bar. Four all-stars, rotating daily flavors, baked fresh, sold until gone.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#0078bf; --pink:#ff48b0; --over:#cc2464;
+    --paper:#fbfaf8; --ink:#435060; --gray:#88898a; --rule:#d2d4d6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    font-family:'Bricolage Grotesque',system-ui,sans-serif;
+    background:var(--paper); color:var(--ink);
+    font-size:17px; line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+  a{color:var(--blue);text-decoration:none}
+  a:hover{text-decoration:underline}
+
+  /* riso top bar */
+  .inkbar{height:14px;background:
+    linear-gradient(to right,
+      var(--over) 0 20%, var(--pink) 20% 40%, var(--blue) 40% 60%,
+      var(--over) 60% 80%, var(--pink) 80% 100%);}
+
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px}
+
+  /* nav */
+  nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0;border-bottom:1px solid var(--rule)}
+  nav .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;color:var(--blue);letter-spacing:-.5px}
+  nav .brand .slash{color:var(--pink)}
+  nav .glyph{width:18px;height:30px;position:relative;flex:none}
+  nav .glyph .body{position:absolute;bottom:0;left:2px;width:14px;height:24px;background:var(--pink);mix-blend-mode:multiply}
+  nav .glyph .dome{position:absolute;top:0;left:2px;width:14px;height:14px;border-radius:50%;background:var(--blue);mix-blend-mode:multiply}
+  nav .links{display:flex;gap:20px;font-family:ui-monospace,monospace;font-size:14px}
+  nav .links a{color:var(--ink)}
+
+  /* hero */
+  .hero{padding:64px 0 40px;text-align:center}
+  .hero h1{font-size:64px;font-weight:800;line-height:1.02;letter-spacing:-2px;color:var(--blue)}
+  .hero h1 .slash{color:var(--pink)}
+  .hero .tag{font-family:ui-monospace,monospace;font-size:15px;letter-spacing:2px;color:var(--ink);margin-top:14px}
+  .hero .lede{max-width:540px;margin:26px auto 0;font-size:20px;color:var(--ink)}
+
+  .cta{display:inline-flex;gap:14px;margin-top:30px;flex-wrap:wrap;justify-content:center}
+  .btn{font-family:ui-monospace,monospace;font-size:14px;letter-spacing:1px;padding:12px 20px;border:2px solid var(--blue);color:var(--blue);background:var(--paper)}
+  .btn.fill{background:var(--blue);color:#fff;border-color:var(--blue)}
+  .btn.pink{border-color:var(--pink);color:var(--pink)}
+  .btn:hover{text-decoration:none;background:var(--over);border-color:var(--over);color:#fff}
+
+  /* big canelé glyph divider */
+  .glyph-row{display:flex;justify-content:center;gap:28px;padding:36px 0}
+  .cg{width:46px;height:78px;position:relative}
+  .cg .b{position:absolute;bottom:0;width:40px;height:60px;mix-blend-mode:multiply}
+  .cg .d{position:absolute;top:0;left:3px;width:34px;height:34px;border-radius:50%;mix-blend-mode:multiply}
+  .cg.vanilla .b{background:var(--pink)} .cg.vanilla .d{background:var(--blue)}
+  .cg.choc .b{background:var(--blue)} .cg.choc .d{background:var(--pink)}
+  .cg.milk .b{background:var(--pink)} .cg.milk .d{background:var(--blue);top:auto;bottom:0;border-radius:0;height:16px;left:0;width:40px}
+  .cg.pour{width:46px}
+  .cg.pour .tri{position:absolute;top:4px;left:0;width:0;height:0;border-left:23px solid transparent;border-right:23px solid transparent;border-top:38px solid var(--blue);mix-blend-mode:multiply}
+  .cg.pour .drop{position:absolute;top:40px;left:15px;width:16px;height:16px;border-radius:50%;background:var(--pink);mix-blend-mode:multiply}
+
+  section{padding:44px 0;border-top:1px solid var(--rule)}
+  h2{font-size:14px;font-family:ui-monospace,monospace;letter-spacing:3px;color:var(--over);margin-bottom:18px;text-transform:uppercase}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+  .card h3{font-size:19px;font-weight:600;color:var(--blue);margin-bottom:4px}
+  .card p{font-size:16px}
+  .menu-line{display:flex;justify-content:space-between;font-family:ui-monospace,monospace;font-size:16px;padding:9px 0;border-bottom:1px dotted var(--rule)}
+  .menu-line .price{color:var(--over)}
+  .note{font-family:ui-monospace,monospace;font-size:14px;color:var(--gray);margin-top:14px}
+
+  blockquote{font-size:22px;color:var(--over);text-align:center;padding:8px 0;line-height:1.4}
+
+  footer{border-top:1px solid var(--rule);padding:32px 0 60px;font-family:ui-monospace,monospace;font-size:13px;color:var(--gray);text-align:center}
+  footer a{color:var(--ink)}
+
+  @media(max-width:600px){
+    .hero h1{font-size:44px}
+    .grid{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+<div class="inkbar"></div>
+<div class="wrap">
+
+  <nav>
+    <a class="brand" href="index.html">
+      <span class="glyph"><span class="body"></span><span class="dome"></span></span>
+      half <span class="slash">/</span> cadence
+    </a>
+    <div class="links">
+      <a href="today.html">today</a>
+      <a href="#menu">menu</a>
+      <a href="#visit">visit</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <h1>half <span class="slash">/</span> cadence</h1>
+    <div class="tag">CANELÉS + COFFEE · CAPITOL HILL, SEATTLE</div>
+    <p class="lede">A canelé bakery and slow pour-over bar. Four flavors always, a few more that change daily. Baked at dawn, sold until gone.</p>
+    <div class="cta">
+      <a class="btn fill" href="today.html">SEE TODAY'S FLAVORS →</a>
+      <a class="btn pink" href="#visit">RESERVE A BOX</a>
+    </div>
+  </header>
+
+  <div class="glyph-row">
+    <span class="cg vanilla" title="vanilla"><span class="b"></span><span class="d"></span></span>
+    <span class="cg choc" title="chocolate"><span class="b"></span><span class="d"></span></span>
+    <span class="cg milk" title="milk tea"><span class="b"></span><span class="d"></span></span>
+    <span class="cg pour" title="pour over"><span class="tri"></span><span class="drop"></span></span>
+  </div>
+
+  <section id="what">
+    <h2>What this is</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>One pastry, done seriously</h3>
+        <p>The canelé: a dark, caramelized crust over a custardy center. Rested 48 hours, baked at 525°F in copper molds. Nothing else gets that texture.</p>
+      </div>
+      <div class="card">
+        <h3>A half cadence never resolves</h3>
+        <p>In music, it's the phrase that stops on the dominant — unfinished, hanging, pulling you toward the next. So is a daily drop. We sell out on purpose. Come back tomorrow.</p>
+      </div>
+      <div class="card">
+        <h3>Slow bar</h3>
+        <p>Single-origin poured by hand, one cup at a time, plus espresso and batch brew for when you're moving. The milk tea and the coffee both come as a canelé, too.</p>
+      </div>
+      <div class="card">
+        <h3>Walk in, watch, leave happy</h3>
+        <p>See the case, read today's board, order, watch the pour. Grab a box for the road or take a window seat.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2>The four all-stars — always here</h2>
+    <div class="menu-line"><span>vanilla</span><span class="price">$4.25</span></div>
+    <div class="menu-line"><span>chocolate</span><span class="price">$4.25</span></div>
+    <div class="menu-line"><span>milk tea</span><span class="price">$4.50</span></div>
+    <div class="menu-line"><span>pour over (coffee)</span><span class="price">$4.50</span></div>
+    <p class="note">+ 2–4 rotating flavors daily. <a href="today.html">See what's baking today →</a></p>
+  </section>
+
+  <section>
+    <blockquote>Best within hours. We sell out.<br>Come early.</blockquote>
+  </section>
+
+  <section id="visit">
+    <h2>Visit</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Where</h3>
+        <p class="mono">Capitol Hill, Seattle<br>(address at lease)</p>
+      </div>
+      <div class="card">
+        <h3>When</h3>
+        <p class="mono">Wed–Sun<br>bake 7:30 · open 8:00<br>until sold out</p>
+      </div>
+    </div>
+    <p class="note">Reserve-a-box and order-ahead open with the storefront. Until then, find the pop-up at the farmers market.</p>
+  </section>
+
+  <footer>
+    half / cadence · caneles + coffee · seattle<br>
+    <a href="today.html">today</a> · <a href="https://halfcadence.github.io/recipes/">recipes</a> · instagram @halfcadence<br>
+    <span style="color:var(--gray)">A concept. Eat today.</span>
+  </footer>
+
+</div>
+</body>
+</html>

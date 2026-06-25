@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Today — Half Cadence</title>
+<meta name="description" content="Today's canelé flavors and counts at Half Cadence. Updated live. We sell out — come early.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{--blue:#0078bf;--pink:#ff48b0;--over:#cc2464;--paper:#fbfaf8;--ink:#435060;--gray:#88898a;--rule:#d2d4d6}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Bricolage Grotesque',system-ui,sans-serif;background:var(--paper);color:var(--ink);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  .mono{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+  a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+  .inkbar{height:14px;background:linear-gradient(to right,var(--over) 0 20%,var(--pink) 20% 40%,var(--blue) 40% 60%,var(--over) 60% 80%,var(--pink) 80% 100%)}
+  .wrap{max-width:620px;margin:0 auto;padding:0 24px}
+
+  nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0;border-bottom:1px solid var(--rule)}
+  nav .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;color:var(--blue);letter-spacing:-.5px}
+  nav .brand .slash{color:var(--pink)}
+  nav .glyph{width:18px;height:30px;position:relative;flex:none}
+  nav .glyph .body{position:absolute;bottom:0;left:2px;width:14px;height:24px;background:var(--pink);mix-blend-mode:multiply}
+  nav .glyph .dome{position:absolute;top:0;left:2px;width:14px;height:14px;border-radius:50%;background:var(--blue);mix-blend-mode:multiply}
+  nav .links{display:flex;gap:20px;font-family:ui-monospace,monospace;font-size:14px}
+  nav .links a{color:var(--ink)}
+
+  .head{text-align:center;padding:34px 0 10px}
+  .head h1{font-size:13px;font-family:ui-monospace,monospace;letter-spacing:4px;color:var(--over);text-transform:uppercase}
+  .head .date{font-size:30px;font-weight:800;color:var(--blue);letter-spacing:-1px;margin-top:6px}
+  .head .stamp{font-family:ui-monospace,monospace;font-size:13px;color:var(--gray);margin-top:6px}
+
+  .group{margin-top:18px}
+  .group-label{font-family:ui-monospace,monospace;font-size:12px;letter-spacing:3px;color:var(--over);border-bottom:1px solid var(--rule);padding-bottom:6px;margin-bottom:4px}
+
+  .flavor{display:flex;align-items:center;gap:14px;padding:13px 4px;border-bottom:1px dotted var(--rule)}
+  .flavor .name{flex:1;font-size:19px}
+  .flavor .price{font-family:ui-monospace,monospace;color:var(--over);font-size:15px;width:54px;text-align:right}
+  .flavor.out .name{color:var(--gray);text-decoration:line-through;text-decoration-color:var(--pink);text-decoration-thickness:2px}
+  .flavor.out .price{color:var(--gray)}
+
+  /* glyph tokens (built from 2 shapes) */
+  .gl{width:22px;height:36px;position:relative;flex:none}
+  .gl .b{position:absolute;bottom:0;left:2px;width:18px;height:28px;mix-blend-mode:multiply}
+  .gl .d{position:absolute;top:0;left:2px;width:18px;height:18px;border-radius:50%;mix-blend-mode:multiply}
+  .gl.vanilla .b{background:var(--pink)} .gl.vanilla .d{background:var(--blue)}
+  .gl.choc .b{background:var(--blue)} .gl.choc .d{background:var(--pink)}
+  .gl.milk .b{background:var(--pink)} .gl.milk .d{background:var(--blue);top:auto;bottom:0;border-radius:0;height:9px;left:2px;width:18px}
+  .gl.pour .tri{position:absolute;top:2px;left:0;width:0;height:0;border-left:11px solid transparent;border-right:11px solid transparent;border-top:20px solid var(--blue);mix-blend-mode:multiply}
+  .gl.pour .drop{position:absolute;top:20px;left:6px;width:10px;height:10px;border-radius:50%;background:var(--pink);mix-blend-mode:multiply}
+  .gl.rot .b{background:var(--pink)} .gl.rot .d{background:var(--blue);border-radius:0;top:2px;height:14px;transform:rotate(45deg)}
+  .gl.out .b,.gl.out .d,.gl.out .tri,.gl.out .drop{filter:grayscale(1);opacity:.4}
+
+  /* dot grid */
+  .dots{display:flex;gap:6px;flex-wrap:wrap;width:130px;justify-content:flex-end}
+  .dot{width:11px;height:11px;border-radius:50%;border:1px solid var(--gray)}
+  .dot.full{background:var(--over);border-color:var(--over)}
+  .soldout{font-family:ui-monospace,monospace;font-size:12px;letter-spacing:2px;color:var(--pink);width:130px;text-align:right}
+
+  .honesty{text-align:center;font-size:21px;color:var(--over);padding:30px 0 8px;line-height:1.4}
+  .sub{text-align:center;font-family:ui-monospace,monospace;font-size:13px;color:var(--gray);padding-bottom:30px}
+
+  footer{border-top:1px solid var(--rule);padding:28px 0 56px;font-family:ui-monospace,monospace;font-size:13px;color:var(--gray);text-align:center}
+  footer a{color:var(--ink)}
+  @media(max-width:520px){.dots,.soldout{width:96px}.flavor .name{font-size:17px}}
+</style>
+</head>
+<body>
+<div class="inkbar"></div>
+<div class="wrap">
+
+  <nav>
+    <a class="brand" href="index.html">
+      <span class="glyph"><span class="body"></span><span class="dome"></span></span>
+      half <span class="slash">/</span> cadence
+    </a>
+    <div class="links">
+      <a href="index.html">home</a>
+      <a href="#" id="reserve">reserve</a>
+    </div>
+  </nav>
+
+  <div class="head">
+    <h1>Today</h1>
+    <div class="date" id="date">—</div>
+    <div class="stamp" id="stamp">bake 7:30 · open 8:00 · until sold out</div>
+  </div>
+
+  <div id="allstars" class="group"></div>
+  <div id="rotating" class="group"></div>
+
+  <div class="honesty">Best within hours. We sell out.<br>Come early.</div>
+  <div class="sub" id="updated">updated —</div>
+
+  <footer>
+    half / cadence · <a href="index.html">home</a> · instagram @halfcadence<br>
+    <span>This board is the truth. If it says sold out, it's sold out.</span>
+  </footer>
+
+</div>
+
+<script>
+/* ───────────────────────────────────────────────────────────
+   THE ONLY THING TO EDIT EACH MORNING.
+   Set count + total per flavor; the board renders itself.
+   Knock counts down through the day (or wire to your POS).
+   ─────────────────────────────────────────────────────────── */
+const TODAY = {
+  date: "Wed 25 Jun",
+  updated: "9:14",
+  allStars: [
+    { name:"vanilla",    glyph:"vanilla", price:"$4.25", count:6, total:6 },
+    { name:"chocolate",  glyph:"choc",    price:"$4.25", count:4, total:6 },
+    { name:"milk tea",   glyph:"milk",    price:"$4.50", count:3, total:6 },
+    { name:"pour over",  glyph:"pour",    price:"$4.50", count:5, total:6 },
+  ],
+  rotating: [
+    { name:"earl grey",          glyph:"rot", price:"$4.50", count:5, total:8 },
+    { name:"thai tea",           glyph:"rot", price:"$5.00", count:3, total:8 },
+    { name:"eggnog",             glyph:"rot", price:"$5.00", count:0, total:8 },
+    { name:"white choc matcha",  glyph:"rot", price:"$5.00", count:8, total:8 },
+  ],
+};
+
+function glyphHTML(type){
+  if(type==="pour") return '<span class="tri"></span><span class="drop"></span>';
+  return '<span class="b"></span><span class="d"></span>';
+}
+function dotsHTML(count,total){
+  if(count<=0) return '<div class="soldout">SOLD OUT</div>';
+  let s='<div class="dots">';
+  for(let i=0;i<total;i++) s+=`<span class="dot${i<count?' full':''}"></span>`;
+  return s+'</div>';
+}
+function flavorHTML(f){
+  const out=f.count<=0?' out':'';
+  return `<div class="flavor${out}">
+    <span class="gl ${f.glyph}${out}">${glyphHTML(f.glyph)}</span>
+    <span class="name">${f.name}</span>
+    <span class="price">${f.price}</span>
+    ${dotsHTML(f.count,f.total)}
+  </div>`;
+}
+function group(title,items){
+  return `<div class="group-label">${title}</div>` + items.map(flavorHTML).join("");
+}
+
+document.getElementById("date").textContent   = TODAY.date;
+document.getElementById("updated").textContent= "updated "+TODAY.updated;
+document.getElementById("allstars").innerHTML  = group("ALL-STARS — ALWAYS HERE", TODAY.allStars);
+document.getElementById("rotating").innerHTML  = group("TODAY ONLY", TODAY.rotating);
+</script>
+</body>
+</html>

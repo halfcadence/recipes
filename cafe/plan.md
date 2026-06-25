@@ -1,13 +1,13 @@
-# Copper & Cream
+# Half Cadence
 ### A canelé café and slow pour-over bar, Seattle
 
-*Working name: Copper & Cream. Alternates retained: Demoulé, Forty-Eight.*
+*Working name: **Half Cadence** (ties to the owner's existing `halfcadence` recipe site + handle). Alternates retained: Copper & Cream, Demoulé, Forty-Eight.*
 
 ---
 
 ## Executive summary
 
-**Copper & Cream is a small, walkable Seattle café built around one pastry done seriously: the canelé** — dark caramelized crust, custardy center, baked at ~525°F in copper molds, batter rested 24–48h. The model copies what already works in Seattle (Flour Box, Temple Pastries): **four permanent "all-star" flavors** — chocolate, vanilla, milk tea, pour-over (coffee) — plus **2–4 rotating daily flavors**, capped daily quantities, a published "today's flavors" drop, and a deliberate sell-out. Drinks are a **single-group espresso + hand pour-over + batch brew** program (the Poursteady is dropped — see §5), plus a tea program; the milk-tea canelé and the pour-over canelé are direct cross-sells into the bar.
+**Half Cadence is a small, walkable Seattle café built around one pastry done seriously: the canelé** — dark caramelized crust, custardy center, baked at ~525°F in copper molds, batter rested 24–48h. The model copies what already works in Seattle (Flour Box, Temple Pastries): **four permanent "all-star" flavors** — chocolate, vanilla, milk tea, pour-over (coffee) — plus **2–4 rotating daily flavors**, capped daily quantities, a published "today's flavors" drop, and a deliberate sell-out. Drinks are a **single-group espresso + hand pour-over + batch brew** program (the Poursteady is dropped — see §5), plus a tea program; the milk-tea canelé and the pour-over canelé are direct cross-sells into the bar.
 
 **The design hook:** the whole thing wears an existing, owned **two-ink Risograph identity** (Blue `#0078bf`, Fluorescent Pink `#ff48b0`, overprint `#cc2464`, on cream `#fbfaf8`). The canelé is *already* drawn as a two-shape glyph — a pink rounded-bottom rectangle body capped by a blue circle dome, overprinting at the seam. Every flavor already has its own glyph. Brand work is translation, not invention, so recurring brand cost is near zero — which matters at a $21.30/hr wage floor. The daily flavor board, the box, the cup, and the website are all the same handful of shapes re-typeset.
 
@@ -354,13 +354,14 @@ Palette is fixed and non-negotiable: **Blue `#0078bf`, Fluorescent Pink `#ff48b0
 
 | Name | Rationale | Risk |
 |---|---|---|
-| **Copper & Cream** *(recommended)* | Names the two defining materials — the copper mold and the custard interior. Warm, walkable, alliterative, easy to say at a counter. The ampersand becomes a built-in two-ink demonstration (words in blue, `&` in pink). Avoids the generic Café/Bakery trap while still reading as a place. | Slightly soft / "pretty"; needs the spare type to keep it serious. Domain/handle crowding likely — verify. |
+| **Half Cadence** *(recommended)* | The owner's existing identity — the `halfcadence` recipe site and handle — so the café, the recipes, and the social all become one brand for free, and the domain/handle are already secured. A *half cadence* in music is a phrase that stops on the dominant: **unresolved, hanging, leaving you wanting the next one** — the exact emotional shape of a daily sell-out drop ("we never resolve; come back tomorrow"). The `/` between the words doubles as a two-ink caesura mark (words in blue, slash in pink). | Music reference is oblique to a cold walk-by — but it doesn't *need* decoding to read as a name, and the story rewards regulars. Not literally about pastry; the canelé glyph + subline carry that. |
+| **Copper & Cream** *(runner-up)* | Names the two defining materials — the copper mold and the custard interior. Warm, walkable, alliterative. The ampersand is a built-in two-ink demonstration. | Slightly soft / "pretty"; doesn't tie to the owner's existing identity; domain/handle crowding likely. |
 | **Demoulé** | French for *unmolded* — the exact moment a canelé leaves the copper. Insider, ties directly to the same-day "fresh out of the mold" drop culture, sits in the pastry register. | Pronunciation friction for English walk-by traffic. Needs a monospace subline to decode it. |
 | **Forty-Eight / 48** | References the 24–48h batter rest — the single hardest production constraint. Signals process to the in-the-know and makes a killer numeric riso motif (a wall-sized overprinted **48**). | Opaque without a one-line story on the door. Reads as an address, not a café. |
 | **Beeswax** | The beeswax-and-butter mold coating is the secret behind the crust. Unexpected, tactile, ownable, single word; riso-illustrates as a hexagon/circle. | Doesn't obviously say "café"; needs a clear pastry subline. |
 | **Slow Bar** | Names a pour-over-only, slow-bar stance as the promise. Turns the wait into the value. | "Slow" near food reads as slow *service*. And per the revised §5 the café now runs espresso in both formats — so this name overpromises a purism the business no longer commits to. Drop it. |
 
-**Pick: Copper & Cream.** It is the only candidate that needs no footnote at counter distance, names both halves of the product (pastry + the copper craft behind it), and hands you a wordmark mechanic for free. Hold **Demoulé** and **Forty-Eight** as insider/secondary marks — usable on the bag stamp, the staff side, or a single anniversary print. Before committing: print all three at counter distance on actual cream stock and check the domain/Instagram handle.
+**Pick: Half Cadence.** It unifies the café with the owner's existing recipe site and `halfcadence` handle — one brand, zero domain/handle scramble, and the recipe site becomes the café's built-in credibility story. The musical meaning (an unresolved phrase that pulls you toward the next) *is* the drop/sell-out model stated as a name, and the `/` gives the wordmark a two-ink caesura mechanic for free. Hold **Copper & Cream** as the runner-up if the music angle ever feels too oblique, and **Demoulé** / **Forty-Eight** as insider/secondary marks (bag stamp, staff side, anniversary print). Before committing: print the lockup at counter distance on actual cream stock; the `halfcadence` handle/domain is already the owner's.
 
 > Note: keep the accent on **Demoulé** if used — it sets the French register and disambiguates pronunciation.
 
@@ -368,7 +369,7 @@ Palette is fixed and non-negotiable: **Blue `#0078bf`, Fluorescent Pink `#ff48b0
 
 The master mark is the **existing canelé glyph, used verbatim**: pink rounded-bottom rectangle (body) + blue circle (dome), multiply at the seam → `#cc2464`. This is the brand's recurring period at the end of every sentence — favicon to wall graphic, one token at every scale.
 
-- **Primary wordmark:** "copper & cream" set lowercase in Bricolage Grotesque (600), tight and spare. Two words in **blue**, the **`&` in pink**, so the lockup itself states the two-ink rule. The canelé glyph sits as a colophon to the right, or substitutes for a letter (the dot of an *i*, the bowl of a lowercase *p*).
+- **Primary wordmark:** "half / cadence" set lowercase in Bricolage Grotesque (600), tight and spare. Two words in **blue**, the **`/` caesura in pink**, so the lockup itself states the two-ink rule *and* the unresolved-phrase idea. The canelé glyph sits as a colophon to the left of the name (see [`brand/logo.svg`](./brand/logo.svg)).
 - **Monospace subline** carries wayfinding: `caneles + pour over / capitol hill, seattle`. Lowercase, no accent, recipe-card register.
 - **Stacked lockup** for square formats (Instagram avatar, sticker, stamp): glyph centered above the Bricolage Grotesque name, subline below.
 - **The glyph alone** is the favicon, the cup stamp, and the door vinyl. It must read at 16px.
@@ -580,9 +581,9 @@ Brand-appropriate = analog, honest, on-palette. **A monospace punch card on crea
 
 ## 18. First things to design
 
-1. **Lock the name.** Print "Copper & Cream," "Demoulé," and "Forty-Eight" at counter distance on cream stock; confirm domain + Instagram handle; commit.
+1. **Lock the name.** Half Cadence is the pick (owner's existing handle/identity). Print the lockup at counter distance on cream stock to confirm the `/` caesura reads; commit.
 2. **Spec the two inks to Pantone/spot** and proof `#0078bf` + `#ff48b0` on actual cream — before any signage or packaging order.
-3. **Finalize the wordmark lockup** (Bricolage Grotesque name, pink `&`, canelé-glyph colophon) + the favicon-scale glyph. (Draft in [`brand/logo.svg`](./brand/logo.svg).)
+3. **Finalize the wordmark lockup** (Bricolage Grotesque name, pink `/` caesura, canelé-glyph colophon) + the favicon-scale glyph. (Draft in [`brand/logo.svg`](./brand/logo.svg).)
 4. **Design the "Today" poster template** (fixed all-star band + rotating glyph grid + dot-grid + pink sold-out strike) — the single highest-leverage artifact; it is the board, the menu, and the daily post.
 5. **Confirm the four all-star glyphs** (chocolate, vanilla, milk tea, pour over) reusing the existing SVGs, in their fixed board order.
 6. **Cut the door + window vinyl** (canelé glyph + monospace subline) and the flavor-board build.

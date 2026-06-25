@@ -1,13 +1,15 @@
-# Copper & Cream — brand kit
+# Half Cadence — brand kit
 
-Working brand assets for the café concept. Everything extends the recipe site's existing two-ink Risograph system — no new colors, no new fonts. See [`../plan.md`](../plan.md) for the full business + UX plan.
+Working brand assets for the café concept. Everything extends the recipe site's existing two-ink Risograph system — no new colors, no new fonts. See [`../plan.md`](../plan.md) for the full business + UX plan and [`../site/`](../site/) for the website.
+
+**The name.** A *half cadence* in music is a phrase that stops on the dominant chord — unresolved, hanging, pulling you toward the next. That's the daily-drop / sell-out model stated as a name: *we never resolve; come back tomorrow.* It also ties the café to the owner's existing `halfcadence` recipe site and handle, so it's one brand for free.
 
 ## Tokens (do not deviate)
 
 | Token | Hex | Use |
 |---|---|---|
-| Blue | `#0078bf` | Primary ink. Wordmark, body, all small type. |
-| Fluorescent Pink | `#ff48b0` | Accent ink. The `&`, fills, the sold-out strike. |
+| Blue | `#0078bf` | Primary ink. Wordmark words, body, all small type. |
+| Fluorescent Pink | `#ff48b0` | Accent ink. The `/` caesura, fills, the sold-out strike. |
 | Overprint | `#cc2464` | Blue × pink multiply. Earned by overlap — never a flat fill except for section labels / the honesty line. |
 | Cream | `#fbfaf8` | The only ground. |
 | Midnight | `#435060` | De-emphasized type (dates, sublines). |
@@ -17,12 +19,16 @@ Working brand assets for the café concept. Everything extends the recipe site's
 
 **Voice:** imperative, numeric, honest, no adjectives, no exclamation points. `Rest 48 hours. Bake at 525. Eat today.`
 
+**The wordmark mechanic:** "half / cadence" — words in blue, the **`/` caesura in pink**. The slash performs the two-ink rule *and* the unresolved-phrase idea in one mark. The canelé glyph (pink rectangle body + blue circle dome) sits as a colophon beside it.
+
 ## Assets
 
 | File | What it is |
 |---|---|
-| `logo.svg` | Primary wordmark — canelé-glyph colophon + "copper & cream" (blue words, pink `&`) + monospace subline. |
-| `today-board.svg` | **The hero artifact.** The daily flavor board: fixed all-star band + rotating roster with a remaining-count dot grid and a pink sold-out strike. This is simultaneously the in-store board, the menu, and the day's Instagram post. Re-typeset every morning. |
+| `logo.svg` | Primary horizontal wordmark — canelé-glyph colophon + "half / cadence" + monospace subline. |
+| `stamp.svg` | Circular mark for the IG avatar, stickers, and the rubber stamp — glyph + stacked wordmark + `EAT TODAY`. |
+| `today-board.svg` | **The hero artifact.** The daily flavor board: fixed all-star band + rotating roster with a remaining-count dot grid and a pink sold-out strike. Simultaneously the in-store board, the menu, and the day's Instagram post. Re-typeset every morning. |
+| `cup-band.svg` | Wrap/sleeve band for cups — repeating canelé glyph + `POUR OVER · ~4 MIN · WORTH IT`. |
 | `flavor-vanilla.svg` | All-star glyph — the master mark: pink rectangle body + blue circle dome. |
 | `flavor-chocolate.svg` | All-star glyph — the inverse: blue body + pink dome. |
 | `flavor-milk-tea.svg` | All-star glyph — pink body + blue base band (the milk layer). |
@@ -42,8 +48,8 @@ For real signage/packaging, lock `#0078bf` and `#ff48b0` to Pantone/spot equival
 
 ## The daily ritual
 
-1. Set today's counts → re-typeset `today-board.svg` (swap names, reset dot grids).
-2. Print on cream at A2. Hang it.
+1. Set today's counts → re-typeset `today-board.svg` (swap names, reset dot grids), or edit the `TODAY` object in [`../site/today.html`](../site/today.html) — same data, two surfaces.
+2. Print the board on cream at A2. Hang it.
 3. Photograph it → that's the day's social post. Caption in the recipe voice.
 4. As flavors sell out, knock down dots; at zero, strike the name in pink.
-5. The board, the website `/today` page, and the counts must never disagree.
+5. The printed board, the website `/today` page, and the counts must never disagree.
