@@ -5,13 +5,14 @@ number: 113
 yield: 12
 ---
 
-The custardy [Canelé](/r/canele) infused with Earl Grey and lifted with a little orange liqueur to reinforce the bergamot. A London-fog canelé.
+The custardy [Canelé](/r/canele) infused with Earl Grey, with orange zest and bergamot to reinforce the citrus. A London-fog canelé — alcohol-free.
 
 ## Ingredients
 
 | | |
 |---|---|
 | 420g | milk |
+| ½ | orange, zested (for steeping) |
 | 38g | heavy cream |
 | 14g | Earl Grey leaves, loose (for steeping) |
 | 45g | butter |
@@ -20,7 +21,8 @@ The custardy [Canelé](/r/canele) infused with Earl Grey and lifted with a littl
 | 2g | fleur de sel |
 | 1 | whole egg (~50g) |
 | 2 | egg yolks (~36g) |
-| 30g | orange liqueur (Cointreau) |
+| 30g | milk (added at the end, in place of the liqueur) |
+| 2–4 drops | bergamot extract (or orange extract) |
 | 85g | AP flour |
 | 15g | cornstarch |
 | 4g | Earl Grey, finely ground (optional, for punch) |
@@ -28,15 +30,15 @@ The custardy [Canelé](/r/canele) infused with Earl Grey and lifted with a littl
 
 ## Steps
 
-1. Heat the milk to 175°F — do not boil. Off heat, add the loose Earl Grey, cover, and steep 12–15 minutes.
+1. Heat the milk to 175°F — do not boil. Off heat, add the loose Earl Grey and the orange zest, cover, and steep 12–15 minutes.
 
-2. Strain out the leaves and **weigh the infused milk; measure out 340g** for the batter — if you're short, top up with fresh milk (the recipe starts with extra to cover what the leaves soak up). Return the 340g to the pot with the cream, butter, and vanilla and warm gently just to melt the butter.
+2. Strain out the leaves and zest and **weigh the infused milk; measure out 340g** for the batter — if you're short, top up with fresh milk (the recipe starts with extra to cover what the leaves soak up). Return the 340g to the pot with the cream, butter, and vanilla and warm gently just to melt the butter.
 
 3. In a bowl, whisk sugar, salt, eggs, and yolks together.
 
 4. Slowly pour about ¼ of the warm infused milk into the egg mixture, whisking to temper. Sift in flour, cornstarch, and the ground Earl Grey (if using), whisk until smooth.
 
-5. Gradually add the remaining milk, whisking until combined. Stir in the orange liqueur.
+5. Gradually add the remaining milk, whisking until combined. Stir in the 30g milk and the bergamot extract.
 
 6. Strain through a sieve. Refrigerate overnight (24 hours minimum).
 
@@ -49,8 +51,8 @@ The custardy [Canelé](/r/canele) infused with Earl Grey and lifted with a littl
 <div class="notes" markdown="1">
 ## Notes
 
-- Bergamot is volatile and fades in the oven, so the recipe over-steeps and adds a small amount of ground leaf plus orange liqueur to keep the citrus reading. The infused milk should taste aggressively strong before baking.
-- Orange liqueur replaces the usual rum — it echoes the bergamot rather than competing with molasses. Keep it modest (30g); more reads as orange dessert, not Earl Grey. A drop of bergamot or orange extract reinforces it further.
+- Bergamot is volatile and fades in the oven, so the recipe over-steeps and adds orange zest, a small amount of ground leaf, and a few drops of bergamot extract to keep the citrus reading. The infused milk should taste aggressively strong before baking.
+- **No alcohol.** The original used 30g Cointreau to echo the bergamot, but in a 60-minute bake the spirit is purely aromatic, not structural — orange zest steeped into the milk plus a couple drops of bergamot (or orange) extract reproduce the citrus more directly. The 30g is replaced gram-for-gram with milk so the batter's liquid balance is unchanged. For the boozy original, swap the 30g milk + extract back for 30g Cointreau.
 - The milk starts at 420g (vs the base 340g) to cover what the leaves soak up. Spent tea leaves retain roughly 2–4× their dry weight in liquid — around 2–3× for broken or bagged tea, up to ~4× for big whole leaf — so your 14g takes up somewhere near 30–55g. You don't need to nail the exact figure: after steeping you weigh the strained milk and measure back to 340g, so absorption never throws off the batter. The extra start just guarantees you still have 340g left.
 - Other technique is identical to the custardy [Canelé](/r/canele).
 - Use a good loose Earl Grey; the bergamot quality is what you taste.
@@ -66,10 +68,10 @@ Total batter weight: **~810g** (after straining the leaves; excludes mold coatin
 |---|---|---|
 | Structure solids (flour + cornstarch) | 100g | 12.3% |
 | Fat (butter, cream, milk, yolk) | 78g | 9.6% |
-| Sugar (added + liqueur + lactose) | 190g | 23.5% |
-| Liquid (milk, cream, liqueur, egg water) | 415g | 51.2% |
+| Sugar (added + lactose) | 181g | 22.3% |
+| Liquid (milk, cream, egg water) | 426g | 52.6% |
 | Egg/protein | 25g | 3.1% |
 
-**Essentially the custardy Canelé's ratios** (~12% structure) — the tea steeps into the milk as flavor without changing the structural math. The orange liqueur is sugary, so sugar nudges up slightly; the ground leaf (if used) is an inert solid, not structure.
+**Essentially the custardy Canelé's ratios** (~12% structure) — the tea steeps into the milk as flavor without changing the structural math. Replacing the Cointreau with milk drops the sugar a hair (the liqueur was ~24% sugar) but leaves the liquid fraction effectively identical; the ground leaf and orange zest (if used) are inert flavor, not structure.
 
 </div>

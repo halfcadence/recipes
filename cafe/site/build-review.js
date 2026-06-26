@@ -97,6 +97,7 @@ const docs = [
   { src: "canele-cost.md", title: "Canelé Cost per Unit" },
   { src: "flavor-cost.md", title: "Flavored Canelé Costs" },
   { src: "alcohol-in-pastry.md", title: "Alcohol in Pastry — rules + swaps" },
+  { src: "experiment-10pct-structure.md", title: "Experiment — structure % × cornstarch" },
   { src: path.join("brand","README.md"), title: "Brand Kit" },
 ];
 for(const d of docs){
@@ -135,6 +136,7 @@ const hub = head("Half Cadence — review hub") +
   <a class="card" href="canele-cost.html"><div class="t">Canelé Cost per Unit</div><div class="d">~$0.45/canelé from a Seattle grocery, line by line</div></a>
   <a class="card" href="flavor-cost.html"><div class="t">Flavored Canelé Costs</div><div class="d">choco + tea flavors with real products; $0.38–$0.64/unit</div></a>
   <a class="card" href="alcohol-in-pastry.html"><div class="t">Alcohol in Pastry</div><div class="d">WA rules (sub-1% = not "liquor") + non-alcoholic tea swaps</div></a>
+  <a class="card" href="experiment-10pct-structure.html"><div class="t">Experiment: structure × cornstarch</div><div class="d">2×2 next-batch test — 10% structure, and do you need cornstarch?</div></a>
   <a class="card" href="brand__README.html"><div class="t">Brand Kit</div><div class="d">tokens, voice, the daily ritual</div></a>
 </div>
 

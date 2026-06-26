@@ -4,6 +4,10 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-06-26
+
+- Earl Grey and Thai tea canelés: made alcohol-free. The spirit was aromatic, not structural, so Cointreau → orange zest + bergamot extract, and rum → added vanilla + a little more tea, each replaced gram-for-gram with milk to hold the batter balance. Original boozy versions noted inline.
+
 ## 2026-06-25
 
 - Add galbi recipe (traditional Asian-pear marinade for LA-cut short ribs, grilled over high direct heat on a gas grill).
