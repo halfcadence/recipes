@@ -67,4 +67,29 @@ Log which mold position was which arm + a photo of the cut interiors, so the res
 
 ---
 
+## Results log
+
+Fill this in after the bake. Copy the block per attempt so you build a history across batches/ovens.
+
+**Batch:** ______  **Date:** ______  **Oven (+ thermometer reading vs dial):** ______
+**Rest time:** ______ h  **Fill weight:** ______ g  **Bake:** 525°F __ min → ____°F __ min
+**Molds:** copper / silicone / other: ______  **Coating:** spray / beeswax
+
+| Arm | Flour / cornstarch | Structure % | Unmold (clean / delicate / tore / slumped) | Interior (set ←→ pudding, 1–5) | Crust (pale ←→ dark, 1–5) | Mushroom/collapse? | Taste notes |
+|---|---|---|---|---|---|---|---|
+| A control | 85 / 15 | 12.2% | | | | | |
+| B low+starch | 65 / 15 | 10.0% | | | | | |
+| C all-flour | 100 / 0 | 12.2% | | | | | |
+| D all-flour low | 80 / 0 | 10.0% | | | | | |
+
+**Verdicts:**
+- 10% question (A vs B, C vs D): does 10% still unmold? → ______
+- Cornstarch question (A vs C): better, or just softer? → ______
+- **Winner / house style:** ______
+- Next tweak (e.g. 11%, +5 min, +400°F second stage): ______
+
+> Tip: photograph the cut interiors side by side with arm labels — texture is hard to score from memory, and the photo makes A/B/C/D comparable across future batches.
+
+---
+
 *Basis: [`canele.md`](../r/canele.md) (821g, 12.2% structure), [`big-batch-canele.md`](../r/big-batch-canele.md) (1815g, 12.0%), and the custardy/cakey/collapse thresholds in `.kiro/skills/batter-analysis.md` (custardy 8–14%, collapse <7%). "Cornstarch sets without gluten" and the traditional all-flour formula are from the canelé recipe's own notes + the classic Bordeaux canelé.*

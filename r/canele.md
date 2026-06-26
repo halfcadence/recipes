@@ -66,6 +66,7 @@ Total batter weight: **821g** (excludes mold coating)
 - A soft, custardy canelé — lower flour and a touch of cornstarch for a tender, pudding-like interior. Makes ~12. For a firmer, more cake-textured version (and a full ~24 batch), see the [Cakey Canelé](/r/cakey-canele).
 - Lower flour (85g) plus 15g cornstarch puts total starch at ~12% of batter (vs ~17% in the cakey version) for a soft, very custardy interior — well clear of cakey.
 - The cornstarch sets the custard without forming gluten, so it firms gently rather than toughening. At 12% total this is about as custardy as you can go and still unmold.
+- **All-flour (traditional):** classic Bordeaux canelés use no cornstarch — just wheat flour. For the canonical, slightly chewier/denser interior, swap to **100g AP flour, 0 cornstarch** (keeps structure at ~12%). The cornstarch here is a deliberate tweak toward a softer, more custardy crumb, not a requirement; use it only if you prefer that texture over the traditional chew.
 - The high-heat start prevents mushrooming — this lower-solids batter needs a hotter shock (525°F) than the chocolate canelés to set the shell fast.
 - Nonstick spray works fine here — no beeswax needed. Just spray the molds before filling.
 - Tested bake: 525°F for 11 minutes, then 375°F for 50–55 minutes. Turns out well.

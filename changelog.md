@@ -7,6 +7,7 @@ permalink: /changelog/
 ## 2026-06-26
 
 - Earl Grey and Thai tea canelés: made alcohol-free. The spirit was aromatic, not structural, so Cointreau → orange zest + bergamot extract, and rum → added vanilla + a little more tea, each replaced gram-for-gram with milk to hold the batter balance. Original boozy versions noted inline.
+- Canelé: add an all-flour (traditional, no-cornstarch) option note — the cornstarch is a deliberate tweak toward a softer crumb, not a requirement.
 
 ## 2026-06-25
 
