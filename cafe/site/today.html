@@ -39,17 +39,10 @@
   .flavor.out .name{color:var(--gray);text-decoration:line-through;text-decoration-color:var(--pink);text-decoration-thickness:2px}
   .flavor.out .price{color:var(--gray)}
 
-  /* glyph tokens (built from 2 shapes) */
-  .gl{width:22px;height:36px;position:relative;flex:none}
-  .gl .b{position:absolute;bottom:0;left:2px;width:18px;height:28px;mix-blend-mode:multiply}
-  .gl .d{position:absolute;top:0;left:2px;width:18px;height:18px;border-radius:50%;mix-blend-mode:multiply}
-  .gl.vanilla .b{background:var(--pink)} .gl.vanilla .d{background:var(--blue)}
-  .gl.choc .b{background:var(--blue)} .gl.choc .d{background:var(--pink)}
-  .gl.milk .b{background:var(--pink)} .gl.milk .d{background:var(--blue);top:auto;bottom:0;border-radius:0;height:9px;left:2px;width:18px}
-  .gl.pour .tri{position:absolute;top:2px;left:0;width:0;height:0;border-left:11px solid transparent;border-right:11px solid transparent;border-top:20px solid var(--blue);mix-blend-mode:multiply}
-  .gl.pour .drop{position:absolute;top:20px;left:6px;width:10px;height:10px;border-radius:50%;background:var(--pink);mix-blend-mode:multiply}
-  .gl.rot .b{background:var(--pink)} .gl.rot .d{background:var(--blue);border-radius:0;top:2px;height:14px;transform:rotate(45deg)}
-  .gl.out .b,.gl.out .d,.gl.out .tri,.gl.out .drop{filter:grayscale(1);opacity:.4}
+  /* glyph token — inline SVG lifted from the recipe-site illustrations */
+  .gl{width:24px;height:40px;flex:none;display:block}
+  .gl svg{width:100%;height:100%;display:block}
+  .flavor.out .gl{filter:grayscale(1);opacity:.4}
 
   /* dot grid */
   .dots{display:flex;gap:6px;flex-wrap:wrap;width:130px;justify-content:flex-end}
@@ -109,22 +102,37 @@ const TODAY = {
   date: "Wed 25 Jun",
   updated: "9:14",
   allStars: [
-    { name:"vanilla",    glyph:"vanilla", price:"$4.25", count:6, total:6 },
-    { name:"chocolate",  glyph:"choc",    price:"$4.25", count:4, total:6 },
-    { name:"milk tea",   glyph:"milk",    price:"$4.50", count:3, total:6 },
-    { name:"pour over",  glyph:"pour",    price:"$4.50", count:5, total:6 },
+    { name:"vanilla",    glyph:"vanilla",   price:"$4.25", count:6, total:6 },
+    { name:"chocolate",  glyph:"chocolate", price:"$4.25", count:4, total:6 },
+    { name:"milk tea",   glyph:"milktea",   price:"$4.50", count:3, total:6 },
+    { name:"pour over",  glyph:"pour",      price:"$4.50", count:5, total:6 },
   ],
   rotating: [
-    { name:"earl grey",          glyph:"rot", price:"$4.50", count:5, total:8 },
-    { name:"thai tea",           glyph:"rot", price:"$5.00", count:3, total:8 },
-    { name:"eggnog",             glyph:"rot", price:"$5.00", count:0, total:8 },
-    { name:"white choc matcha",  glyph:"rot", price:"$5.00", count:8, total:8 },
+    { name:"earl grey",          glyph:"earlgrey", price:"$4.50", count:5, total:8 },
+    { name:"thai tea",           glyph:"thaitea",  price:"$5.00", count:3, total:8 },
+    { name:"eggnog",             glyph:"eggnog",   price:"$5.00", count:0, total:8 },
+    { name:"white choc matcha",  glyph:"matcha",   price:"$5.00", count:8, total:8 },
   ],
 };
 
+/* Glyph library — the actual 2-shape canelé illustrations from the recipe
+   site (assets/illustrations/*.svg), inlined so the board shows the real
+   artwork. viewBox 0 0 200 200; multiply on the overlapping shape. */
+const MUL = 'style="mix-blend-mode:multiply"';
+const GLYPHS = {
+  vanilla:   `<rect x="68" y="62" width="52" height="118" fill="#ff48b0" ${MUL}/><circle cx="94" cy="62" r="26" fill="#0078bf" ${MUL}/>`,
+  chocolate: `<rect x="65" y="65" width="55" height="115" fill="#0078bf" ${MUL}/><circle cx="93" cy="65" r="28" fill="#ff48b0" ${MUL}/>`,
+  milktea:   `<rect x="70" y="55" width="60" height="90" fill="#ff48b0" ${MUL}/><rect x="70" y="120" width="60" height="25" fill="#0078bf" ${MUL}/>`,
+  pour:      `<polygon points="50,55 150,55 100,150" fill="#0078bf" ${MUL}/><circle cx="100" cy="150" r="22" fill="#ff48b0" ${MUL}/>`,
+  earlgrey:  `<rect x="70" y="55" width="60" height="90" fill="#0078bf" ${MUL}/><circle cx="100" cy="55" r="26" fill="#ff48b0" ${MUL}/>`,
+  thaitea:   `<rect x="70" y="55" width="60" height="90" fill="#0078bf" ${MUL}/><rect x="70" y="55" width="60" height="30" fill="#ff48b0" ${MUL}/>`,
+  matcha:    `<rect x="65" y="65" width="55" height="115" fill="#0078bf" ${MUL}/><circle cx="93" cy="55" r="25" fill="#ff48b0" ${MUL}/>`,
+  eggnog:    `<rect x="65" y="60" width="55" height="120" fill="#ff48b0" ${MUL}/><circle cx="93" cy="60" r="28" fill="#0078bf" ${MUL}/>`,
+  mochi:     `<rect x="70" y="40" width="60" height="80" fill="#0078bf" ${MUL}/><rect x="70" y="115" width="60" height="45" fill="#ff48b0" ${MUL}/>`,
+};
 function glyphHTML(type){
-  if(type==="pour") return '<span class="tri"></span><span class="drop"></span>';
-  return '<span class="b"></span><span class="d"></span>';
+  const shapes = GLYPHS[type] || GLYPHS.vanilla;
+  return `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">${shapes}</svg>`;
 }
 function dotsHTML(count,total){
   if(count<=0) return '<div class="soldout">SOLD OUT</div>';
@@ -135,7 +143,7 @@ function dotsHTML(count,total){
 function flavorHTML(f){
   const out=f.count<=0?' out':'';
   return `<div class="flavor${out}">
-    <span class="gl ${f.glyph}${out}">${glyphHTML(f.glyph)}</span>
+    <span class="gl">${glyphHTML(f.glyph)}</span>
     <span class="name">${f.name}</span>
     <span class="price">${f.price}</span>
     ${dotsHTML(f.count,f.total)}
