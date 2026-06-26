@@ -153,10 +153,76 @@ function group(title,items){
   return `<div class="group-label">${title}</div>` + items.map(flavorHTML).join("");
 }
 
-document.getElementById("date").textContent   = TODAY.date;
-document.getElementById("updated").textContent= "updated "+TODAY.updated;
-document.getElementById("allstars").innerHTML  = group("ALL-STARS — ALWAYS HERE", TODAY.allStars);
-document.getElementById("rotating").innerHTML  = group("TODAY ONLY", TODAY.rotating);
+function render(data){
+  document.getElementById("date").textContent    = data.date || "";
+  document.getElementById("updated").textContent = "updated " + (data.updated || "");
+  document.getElementById("allstars").innerHTML  = group("ALL-STARS — ALWAYS HERE", data.allStars || []);
+  document.getElementById("rotating").innerHTML  = group("TODAY ONLY", data.rotating || []);
+}
+
+/* ───────────────────────────────────────────────────────────
+   OPTIONAL: live data from a Google Sheet (no API key needed).
+   1. Build a sheet with a header row:
+        group | name | glyph | price | count | total
+      (group = "all-star" or "rotating"; glyph = a key from GLYPHS:
+       vanilla chocolate milktea pour earlgrey thaitea matcha eggnog mochi)
+   2. Optionally add a "meta" row:  group=meta, name=date, price=<the date>
+      and another: group=meta, name=updated, price=<HH:MM>.
+   3. File → Share → Publish to web → choose the sheet → CSV → Publish.
+   4. Paste that published CSV URL below. Leave "" to use the static
+      TODAY object above (works offline / as the fallback).
+   ─────────────────────────────────────────────────────────── */
+const SHEET_CSV_URL = "";  // e.g. "https://docs.google.com/spreadsheets/d/e/XXXX/pub?gid=0&single=true&output=csv"
+
+// minimal CSV parser (handles quoted fields + commas in quotes)
+function parseCSV(text){
+  const rows=[]; let row=[], cur="", q=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i];
+    if(q){ if(c==='"'){ if(text[i+1]==='"'){cur+='"';i++;} else q=false; } else cur+=c; }
+    else if(c==='"') q=true;
+    else if(c===',') { row.push(cur); cur=""; }
+    else if(c==='\n'||c==='\r'){ if(cur!==""||row.length){ row.push(cur); rows.push(row); row=[]; cur=""; } if(c==='\r'&&text[i+1]==='\n')i++; }
+    else cur+=c;
+  }
+  if(cur!==""||row.length){ row.push(cur); rows.push(row); }
+  return rows;
+}
+function sheetToData(csv){
+  const rows=parseCSV(csv).filter(r=>r.length && r.some(c=>c.trim()!==""));
+  if(!rows.length) throw new Error("empty sheet");
+  const head=rows[0].map(h=>h.trim().toLowerCase());
+  const col=n=>head.indexOf(n);
+  const out={ date:TODAY.date, updated:TODAY.updated, allStars:[], rotating:[] };
+  for(let i=1;i<rows.length;i++){
+    const r=rows[i], g=(r[col("group")]||"").trim().toLowerCase();
+    if(g==="meta"){
+      const k=(r[col("name")]||"").trim().toLowerCase(), v=(r[col("price")]||"").trim();
+      if(k==="date") out.date=v; if(k==="updated") out.updated=v;
+      continue;
+    }
+    const f={
+      name:(r[col("name")]||"").trim(),
+      glyph:(r[col("glyph")]||"vanilla").trim(),
+      price:(r[col("price")]||"").trim(),
+      count:parseInt(r[col("count")]||"0",10)||0,
+      total:parseInt(r[col("total")]||"0",10)||0,
+    };
+    if(!f.name) continue;
+    (g.startsWith("all")?out.allStars:out.rotating).push(f);
+  }
+  if(!out.allStars.length && !out.rotating.length) throw new Error("no flavor rows");
+  return out;
+}
+
+// render the static data immediately, then upgrade from the sheet if configured
+render(TODAY);
+if(SHEET_CSV_URL){
+  fetch(SHEET_CSV_URL,{cache:"no-store"})
+    .then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.text(); })
+    .then(csv=>render(sheetToData(csv)))
+    .catch(e=>console.warn("Sheet load failed, showing static board:", e.message));
+}
 </script>
 </body>
 </html>

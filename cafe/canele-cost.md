@@ -49,9 +49,22 @@ A cheaper-salt swap (fleur de sel → plain sea salt) saves ~$0.41/batch (~$0.01
 
 Floor scenario (base-tax rum + reused whites + plain salt): batch ≈ **$8.4**, ~**$0.35/canelé**.
 
-## 5. Bottom line
+## 5. Profit per canelé
 
-**~$0.45/canelé in ingredients from a Seattle grocery (~$0.47–0.48 fully-loaded for spray; ~$0.40 if rum is costed pre-tax).** This lands right on the plan's assumed **~$0.44 ingredient** estimate — the recompute validates it — but sits well under the plan's **~$0.62 fully-loaded** figure, which is intentionally higher because it carries packaging + 10% waste that this ingredient-only sheet does not.
+Using **~$0.48/canelé** (ingredients + baking spray, WA rum, no packaging/labor/rent). This is **contribution margin** — what lands in your pocket baking at home for friends or a pop-up, where you pay no rent and no wage.
+
+| Price | Profit/canelé | Margin | Per batch (24) |
+|---|---|---|---|
+| **$2.50 friends & family** | **$2.02** | 81% | **~$48** |
+| **$4.00 retail** | **$3.52** | 88% | **~$84** |
+
+- **Even the F&F price clears ~$2/canelé.** Ingredients are so cheap that a steep discount is still very profitable — the $2.50 price isn't charity, it's ~$48/batch.
+- **Boxing it** subtracts ~$0.10–0.20/unit (6/dozen kraft box + liner + card) or ~$0.40–0.60 if individually windowed. A bare bag for F&F: ~$0.
+- **This is NOT net business profit.** Once the model carries labor (the $21.30/hr wage floor — the biggest line), rent, and ~10% waste, net falls to the café-benchmark ~5–12% of revenue — the "profitability is a demand bet" flag in [`plan.md`](./plan.md) §9. At the home/F&F/pop-up level there's no wage or rent being paid, so contribution ≈ take-home.
+
+## 6. Bottom line
+
+**~$0.45/canelé in ingredients from a Seattle grocery (~$0.47–0.48 fully-loaded for spray; ~$0.40 if rum is costed pre-tax).** This lands right on the plan's assumed **~$0.44 ingredient** estimate — the recompute validates it — but sits well under the plan's **~$0.62 fully-loaded** figure, which is intentionally higher because it carries packaging + 10% waste that this ingredient-only sheet does not. At $4 retail that's ~$3.50 contribution per unit; at $2.50 F&F, ~$2.00.
 
 ---
 
