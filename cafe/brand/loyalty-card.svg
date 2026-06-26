@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 240" font-family="'Bricolage Grotesque', sans-serif">
+  <rect width="560" height="240" fill="#fbfaf8"/>
+  <rect x="10" y="10" width="540" height="220" rx="6" fill="none" stroke="#0078bf" stroke-width="3"/>
+  <!-- header -->
+  <text x="36" y="58" font-size="30" font-weight="600" fill="#0078bf" letter-spacing="-1">half <tspan fill="#ff48b0">/</tspan> cadence</text>
+  <text x="37" y="84" font-family="monospace" font-size="13" letter-spacing="2" fill="#435060">TEN VISITS, ONE ON US</text>
+
+  <!-- ten glyph outlines (blue), first three "stamped" with a pink dome fill -->
+  <!-- row of 10: x from 40, step 50 -->
+  <g stroke="#0078bf" stroke-width="2" fill="none">
+    <!-- each slot: rounded-bottom rect outline + circle dome outline -->
+    <g transform="translate(40,120)"><rect x="6" y="14" width="22" height="46"/><circle cx="17" cy="14" r="11"/></g>
+    <g transform="translate(92,120)"><rect x="6" y="14" width="22" height="46"/><circle cx="17" cy="14" r="11"/></g>
+    <g transform="translate(144,120)"><rect x="6" y="14" width="22" height="46"/><circle cx="17" cy="14" r="11"/></g>
+    <g transform="translate(196,120)"><rect x="6" y="14" width="22" height="46"/><circle cx="17" cy="14" r="11"/></g>
+    <g transform="translate(248,120)"><rect x="6" y="14" width="22" height="46"/><circle cx="17" cy="14" r="11"/></g>
+    <g transform="translate(300,120)"><rect x="6" y="14" width="22" height="46"/><circle cx="17" cy="14" r="11"/></g>
+    <g transform="translate(352,120)"><rect x="6" y="14" width="22" height="46"/><circle cx="17" cy="14" r="11"/></g>
+    <g transform="translate(404,120)"><rect x="6" y="14" width="22" height="46"/><circle cx="17" cy="14" r="11"/></g>
+    <g transform="translate(456,120)"><rect x="6" y="14" width="22" height="46"/><circle cx="17" cy="14" r="11"/></g>
+  </g>
+  <!-- the 10th slot = the free one, marked in pink outline + label -->
+  <g transform="translate(508,120)" stroke="#ff48b0" stroke-width="2" fill="none"><rect x="6" y="14" width="22" height="46"/><circle cx="17" cy="14" r="11"/></g>
+
+  <!-- three stamped (pink overprint dome) to show the mechanic -->
+  <g fill="#ff48b0" style="mix-blend-mode:multiply">
+    <circle cx="57" cy="134" r="11"/><circle cx="109" cy="134" r="11"/><circle cx="161" cy="134" r="11"/>
+  </g>
+
+  <text x="514" y="208" text-anchor="middle" font-family="monospace" font-size="12" fill="#cc2464">FREE</text>
+  <text x="36" y="208" font-family="monospace" font-size="12" letter-spacing="1" fill="#88898a">one stamp per visit · canelé or pour-over on the tenth</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" font-family="'Bricolage Grotesque', sans-serif">
+  <rect width="500" height="300" fill="#fbfaf8"/>
+  <rect x="12" y="12" width="476" height="276" fill="none" stroke="#0078bf" stroke-width="3"/>
+  <!-- glyph -->
+  <g transform="translate(40,60)">
+    <rect x="20" y="34" width="34" height="74" fill="#ff48b0" style="mix-blend-mode:multiply"/>
+    <circle cx="37" cy="34" r="17" fill="#0078bf" style="mix-blend-mode:multiply"/>
+  </g>
+  <!-- wordmark -->
+  <text x="130" y="95" font-size="42" font-weight="600" fill="#0078bf" letter-spacing="-1">half <tspan fill="#ff48b0">/</tspan> cadence</text>
+  <text x="131" y="128" font-family="monospace" font-size="15" letter-spacing="2" fill="#435060">CANELÉS · SEATTLE</text>
+  <line x1="40" y1="158" x2="460" y2="158" stroke="#d2d4d6" stroke-width="1"/>
+  <!-- count box -->
+  <text x="40" y="200" font-family="monospace" font-size="16" fill="#435060">BOX OF __</text>
+  <text x="40" y="228" font-family="monospace" font-size="14" fill="#435060">flavors: ________________________</text>
+  <!-- honesty footer -->
+  <text x="250" y="266" text-anchor="middle" font-family="monospace" font-size="12.5" letter-spacing="0.5" fill="#cc2464">EAT TODAY · DON'T REFRIGERATE · THE SHELL GOES SOFT</text>
+</svg>
