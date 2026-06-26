@@ -36,7 +36,8 @@ Working brand assets for the café concept. Everything extends the recipe site's
 | `box-label.svg` | Gift-box label — wordmark + "box of __ / flavors" fill-in + the "eat today" honesty line. |
 | `eat-today-card.svg` | The card that tucks into every box: *eat today, don't refrigerate, the shell goes soft.* |
 | `loyalty-card.svg` | Punch card — ten blue canelé-glyph outlines; each visit gets a pink dome stamp; the tenth is free. The stamp performs the two-ink rule every visit. |
-| `gen-riso/canele-riso.png` | Nova Canvas riso print of the canelé form (flat pink column + blue dome, halftone grain). |
+| `gen-riso/canele-riso.png` | Nova Canvas riso print — the fluted canelé silhouette on cream, pink/blue two-ink with halftone grain. The warm, classic version. |
+| `gen-riso/canele-riso-bold.png` | Same fluted canelé, pink-ground bold poster variant (blue overprint). |
 | `gen-riso/cadence-bars-riso.png` | Nova Canvas abstract riso print — blue bars + pink caesura slash (the "cadence" motif). A poster/wall option. |
 
 The flavor glyphs are lifted directly from the recipe site's existing illustrations (`canele.svg`, `chocolate-canele.svg`, `hong-kong-milk-tea-canele.svg`, `iced-pour-over.svg`), so the café and the recipes read as one hand. New rotating flavors follow the site's illustration rules: max 2 primary shapes, blue/pink only, `viewBox="0 0 200 200"`, multiply on the overlapping shape.
