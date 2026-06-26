@@ -95,6 +95,7 @@ const docs = [
   { src: "farmers-market-playbook.md", title: "Farmers-Market Playbook" },
   { src: "water-activity-test-plan.md", title: "Water-Activity Test Plan" },
   { src: "canele-cost.md", title: "Canelé Cost per Unit" },
+  { src: "flavor-cost.md", title: "Flavored Canelé Costs" },
   { src: path.join("brand","README.md"), title: "Brand Kit" },
 ];
 for(const d of docs){
@@ -131,6 +132,7 @@ const hub = head("Half Cadence — review hub") +
   <a class="card" href="farmers-market-playbook.html"><div class="t">Farmers-Market Playbook</div><div class="d">the validation phase + the WA TCS/cottage reality</div></a>
   <a class="card" href="water-activity-test-plan.html"><div class="t">Water-Activity Test Plan</div><div class="d">chasing the home-kitchen channel — email WSDA first</div></a>
   <a class="card" href="canele-cost.html"><div class="t">Canelé Cost per Unit</div><div class="d">~$0.45/canelé from a Seattle grocery, line by line</div></a>
+  <a class="card" href="flavor-cost.html"><div class="t">Flavored Canelé Costs</div><div class="d">choco + tea flavors with real products; $0.38–$0.64/unit</div></a>
   <a class="card" href="brand__README.html"><div class="t">Brand Kit</div><div class="d">tokens, voice, the daily ritual</div></a>
 </div>
 
