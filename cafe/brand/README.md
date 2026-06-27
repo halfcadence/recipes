@@ -34,6 +34,7 @@ Working brand assets for the café concept. Everything extends the recipe site's
 | `bag-mockup-flatbottom.svg` | A flat-bottom (SOS) kraft bag that **stands up** — box-like prism, fold-top + seal sticker, stacked wordmark on the face. |
 | `bag-mockup-triangle.svg` | A flat kraft bag with the top **rolled into a triangular prism** (candy-bag fold) — stands on its bottom seam. |
 | `bag-mockup-triangle-pair.svg` | The wider (~5.5") roll-top bag shown **open with two canelés** inside — sanity-checks the pair fit before you roll the top. |
+| `box-mockup-ballotin.svg` | The elevated gift option — a kraft **ballotin** box with a riso **belly-band** (the recommended "nice without going custom" path). |
 | `flavor-vanilla.svg` | All-star glyph — the master mark: pink rectangle body + blue circle dome. |
 | `flavor-chocolate.svg` | All-star glyph — the inverse: blue body + pink dome. |
 | `flavor-milk-tea.svg` | All-star glyph — pink body + blue base band (the milk layer). |

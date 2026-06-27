@@ -10,6 +10,7 @@ permalink: /changelog/
 - Canelé: add an all-flour (traditional, no-cornstarch) option note — the cornstarch is a deliberate tweak toward a softer crumb, not a requirement.
 - Add "Buying Bags for Canelés" article — waxed/glassine/kraft single-and-pair bags ranked by fit, cost (~$0.03–0.16/bag), and stamp-friendliness; companion to Packing Canelés.
 - Bags article: add a "Stand-up & flat-bottom bags" section — flat-bottom/SOS box bags and roll-top triangle bags that stand on a stall table, with the base-dimension sizing rule and closures.
+- Bags article: add a "Boxes & the elevated tier" section — giftable stock boxes (ballotin, rigid, drawer, window), the honest custom-print MOQ/cost reality, and the recommended middle path (stock box + riso sticker/belly-band).
 
 ## 2026-06-25
 

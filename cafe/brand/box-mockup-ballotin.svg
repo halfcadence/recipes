@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 600" font-family="'Bricolage Grotesque', sans-serif">
+  <rect width="460" height="600" fill="#fbfaf8"/>
+
+  <!-- ===== kraft ballotin: tapered (wider at top), 3/4 view ===== -->
+  <!-- right side face (shadow) -->
+  <polygon points="300,210 360,250 330,520 285,500" fill="#b88f5d"/>
+  <!-- front face: tapered trapezoid, wider at top -->
+  <polygon points="120,210 300,210 285,500 145,500" fill="#c9a06a"/>
+  <!-- left edge fold -->
+  <polygon points="120,210 130,212 152,498 145,500" fill="#000000" opacity="0.06"/>
+  <!-- front/side ridge -->
+  <line x1="300" y1="210" x2="285" y2="500" stroke="#000000" stroke-width="1" opacity="0.12"/>
+
+  <!-- top lid: the double-lock tabs fold up; show the slightly open seam + tab peaks -->
+  <polygon points="120,210 300,210 360,250 178,250" fill="#d2ab74"/>
+  <!-- the two lid tabs meeting at center -->
+  <polygon points="150,210 240,210 240,188 165,188" fill="#cda472"/>
+  <polygon points="240,210 330,210 318,188 240,188" fill="#c19a64"/>
+  <line x1="240" y1="188" x2="240" y2="210" stroke="#000000" stroke-width="1" opacity="0.15"/>
+
+  <!-- ===== riso BELLY BAND wrapped across the box ===== -->
+  <g>
+    <!-- band front -->
+    <polygon points="128,330 292,330 282,400 138,400" fill="#fbfaf8"/>
+    <polygon points="128,330 292,330 282,400 138,400" fill="none" stroke="#cc2464" stroke-width="1.5"/>
+    <!-- band wrap onto side -->
+    <polygon points="292,330 322,352 312,418 282,400" fill="#ede9e2"/>
+    <polygon points="292,330 322,352 312,418 282,400" fill="none" stroke="#cc2464" stroke-width="1.5"/>
+
+    <!-- printed mark on the band -->
+    <g transform="translate(210,352)">
+      <!-- glyph -->
+      <g transform="translate(-8,-22)">
+        <rect x="0" y="8" width="13" height="22" rx="2" fill="#ff48b0" style="mix-blend-mode:multiply"/>
+        <circle cx="6.5" cy="8" r="6.5" fill="#0078bf" style="mix-blend-mode:multiply"/>
+      </g>
+      <text x="0" y="18" text-anchor="middle" font-size="22" font-weight="700" fill="#0078bf" letter-spacing="-1" style="mix-blend-mode:multiply">half <tspan fill="#ff48b0">/</tspan> cadence</text>
+      <text x="0" y="36" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="2" fill="#cc2464" style="mix-blend-mode:multiply">CANELÉS · EAT TODAY</text>
+    </g>
+  </g>
+
+  <text x="230" y="560" text-anchor="middle" font-family="monospace" font-size="13" fill="#88898a">kraft ballotin + riso belly-band · gift box of 2–4 · ~$1 + sticker</text>
+</svg>
