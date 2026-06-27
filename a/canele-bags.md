@@ -82,6 +82,18 @@ Three closures, matched to the shapes. **Fold-down top + sticker** is the defaul
 
 (Mockups of both stand-up shapes — the SOS box bag and the rolled triangle — are in the brand kit.)
 
+### Small quantities (Amazon)
+
+The WebstaurantStore picks above ship in 500–2,000 ct cases. To test with 50–100 ct first, search Amazon — listings and ASINs rotate constantly, so these are searches, not fixed products. Verify size (especially the base/gusset) and grease lining on the page before ordering.
+
+- **Roll-top, grease-safe + stampable (best first buy):** [glassine-lined kraft flat bags ~5.5×7.75"](https://www.amazon.com/s?k=glassine+lined+kraft+flat+paper+bags+5.5x7.75) — the lining stops butter bleed and the kraft face still takes a stamp.
+- **Roll-top, translucent:** [glassine wax paper bags 4×6"](https://www.amazon.com/s?k=glassine+wax+paper+bags+4x6) (label with a sticker, not a stamp).
+- **Flat-bottom that stands + shows the canelé:** [kraft stand-up bags with window](https://www.amazon.com/s?k=kraft+stand+up+bags+window+small).
+- **Flat-bottom bakery look:** [kraft tin-tie coffee/bakery bags ½–1 lb](https://www.amazon.com/s?k=kraft+tin+tie+coffee+bags+half+lb+100) — poly-lined ones resist grease; the kraft exterior stamps.
+- **Cheapest stander (plain kraft):** [mini kraft SOS flat-bottom bags](https://www.amazon.com/s?k=mini+kraft+sos+flat+bottom+paper+bags) — *not* grease-resistant, so cool the canelé fully or drop in a glassine square first.
+
+**Grease is the deciding factor at small scale:** plain uncoated kraft spots through if the canelé is even slightly warm. Pick a glassine-lined or poly-lined bag, or insert a glassine/parchment liner. A sensible first order: one 100-ct glassine-lined roll-top + one 50-ct flat-bottom window bag, then test-fit a real canelé and check for grease bleed before committing.
+
 ### More honest flags
 
 - **Confidence:** High on shape behavior (flat-bottom stands, roll-top leans), the base-dimension sizing rule, and the WebstaurantStore specs/per-bag math at the listed pack counts. Medium on the *exact* two-canelé fit — "side-by-side" assumes the 55–60mm base; verify with one bag before committing to a case.
