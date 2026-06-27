@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 600" font-family="'Bricolage Grotesque', sans-serif">
+  <!-- backdrop -->
+  <rect width="440" height="600" fill="#fbfaf8"/>
+
+  <!-- ===== flat kraft bag (4x6 proportion) ===== -->
+  <!-- bag body (kraft) -->
+  <rect x="90" y="70" width="260" height="470" rx="3" fill="#c9a06a"/>
+  <!-- subtle side seam (back panel shadow) -->
+  <rect x="90" y="70" width="22" height="470" fill="#000000" opacity="0.06"/>
+  <rect x="328" y="70" width="22" height="470" fill="#000000" opacity="0.06"/>
+  <!-- folded top: pinked/serrated edge -->
+  <g fill="#bd9460">
+    <polygon points="90,70 104,58 118,70 132,58 146,70 160,58 174,70 188,58 202,70 216,58 230,70 244,58 258,70 272,58 286,70 300,58 314,70 328,58 342,70 350,62 350,70"/>
+  </g>
+  <!-- top fold band -->
+  <rect x="90" y="70" width="260" height="30" fill="#000000" opacity="0.05"/>
+
+  <!-- ===== the stamped impression (two-ink riso, slightly rough) ===== -->
+  <!-- group given a faint rotation + opacity to read like an ink stamp on kraft -->
+  <g transform="translate(220,250) rotate(-1.5)" opacity="0.92">
+    <!-- canelé glyph: pink rounded-bottom rect body + blue circle dome -->
+    <g transform="translate(-16,-150)">
+      <rect x="0" y="34" width="32" height="74" rx="4" fill="#ff48b0" style="mix-blend-mode:multiply"/>
+      <circle cx="16" cy="34" r="16" fill="#0078bf" style="mix-blend-mode:multiply"/>
+    </g>
+    <!-- wordmark: half / cadence, blue words + pink slash -->
+    <text x="0" y="0" text-anchor="middle" font-size="40" font-weight="700" fill="#0078bf" letter-spacing="-1" style="mix-blend-mode:multiply">half <tspan fill="#ff48b0">/</tspan> cadence</text>
+    <!-- monospace subline -->
+    <text x="0" y="34" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="3" fill="#0078bf" style="mix-blend-mode:multiply">CANELÉS · SEATTLE</text>
+    <!-- rule -->
+    <line x1="-95" y1="58" x2="95" y2="58" stroke="#cc2464" stroke-width="1.5" style="mix-blend-mode:multiply"/>
+    <!-- honesty line -->
+    <text x="0" y="84" text-anchor="middle" font-family="monospace" font-size="13" letter-spacing="1" fill="#cc2464" style="mix-blend-mode:multiply">EAT TODAY</text>
+  </g>
+
+  <!-- caption -->
+  <text x="220" y="578" text-anchor="middle" font-family="monospace" font-size="13" fill="#88898a">kraft 4×6" · two-ink stamp · fits 1 (snug 2)</text>
+</svg>
