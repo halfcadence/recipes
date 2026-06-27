@@ -26,7 +26,7 @@
 
 **Recommendation: open Lean, validate demand at a market-realistic price, then decide on Full.** The first move isn't a lease — it's a farmers-market pop-up (see the companion [`farmers-market-playbook.md`](./farmers-market-playbook.md)).
 
-> **Companion docs:** [`farmers-market-playbook.md`](./farmers-market-playbook.md) (the validation phase + the WA cottage-food blocker) · [`brand/`](./brand/) (logo, the daily "today" board, the four all-star flavor glyphs). **Note on the beverage program:** §5 below has been revised — the café opens with a **single-group espresso machine + hand pour-over + batch brew** (the Poursteady is dropped). This is your call, and the better one.
+> **Companion docs:** [`farmers-market-playbook.md`](./farmers-market-playbook.md) (validation phase + the WA cottage-food blocker) · [`flavor-strategy.md`](./flavor-strategy.md) (permanent core + rotating lanes) · [`box-strategy.md`](./box-strategy.md) (the "Today's Six" hero) · [`combo-pricing.md`](./combo-pricing.md) (the breakfast combo) · [`canele-cost.md`](./canele-cost.md) + [`flavor-cost.md`](./flavor-cost.md) (per-unit economics) · [`alcohol-in-pastry.md`](./alcohol-in-pastry.md) · [`water-activity-test-plan.md`](./water-activity-test-plan.md) · [`brand/`](./brand/) (logo, the daily board, flavor glyphs, packaging mockups) · [`site/`](./site/) (landing + live `today` page). **Note on the beverage program:** §5 below has been revised — the café opens with a **single-group espresso machine + hand pour-over + batch brew** (the Poursteady is dropped). This is your call, and the better one.
 
 ---
 ---
@@ -93,27 +93,31 @@ Seattle metro retail asking averages ~$23.40/SF/yr; metro vacancy 4.0% Q1 2026 (
 
 ## 4. Product & menu strategy
 
-**Structure (the Flour Box model):**
+**Structure (the Flour Box model):** a small permanent core for frequency + a rotating engine for the visit. Full detail in the companion [`flavor-strategy.md`](./flavor-strategy.md).
 
-- **Four permanent all-stars:** chocolate, vanilla, milk tea, pour-over (coffee). Reliability anchors.
-- **2–4 rotating daily flavors** from the recipe library (earl grey, Thai tea, matcha, chocolate-mochi, eggnog seasonal, savory experiment).
-- **Limited daily quantities, published "today's flavors," sell-out as the heartbeat.**
+- **Permanent core (the all-stars):** vanilla, chocolate, Hong Kong milk tea, and (optional 4th) a pour-over/coffee canelé. Reliability anchors — these basically never change; regulars order them without looking. Milk tea takes the permanent tea slot over Earl Grey (cheapest flavor at ~$0.38, sits "rich and familiar" next to the core; Earl Grey's bergamot is polarizing → better in rotation).
+- **Rotating engine (2–4 daily slots), structured into lanes** so the rotation is designed, not random: (A) seasonal/fruit/holiday, (B) tea/coffee — the cheap, reliable strength, (C) chocolate-plus riffs, (D) wildcard/collab. Pull from tested recipes (earl grey, Thai tea, matcha, chocolate-mochi, eggnog) + a 4-season calendar.
+- **Fruit is technique-gated:** fresh fruit weeps and kills the shell — always route through zest, freeze-dried powder, extract, or a post-bake fill, never folded in fresh.
+- **Limited daily quantities, published "today's flavors," sell-out as the heartbeat.** The daily drop doubles as a free test rig: small-batch a candidate, winners graduate to the weekly rotation.
 
 **Pricing.** Market comps cluster at **$3–4/canelé** (Musk Bakery $4.00, Canelé Bakery $3.00, multipacks pencil to ~$3–4). The premium $4.75–5.25 the original model leaned on is a *positioning bet at or above the top of comps*, not a market norm.
 
 > **Honest pricing recommendation:** open at a **defensible premium of $4.00–4.50 single**, test willingness-to-pay, and only push toward $5.00 if sell-outs are consistent. The pro forma below shows both. A $0.50 cut plus weaker attach is most of the gap between base and downside cases — price discipline is doing most of the margin work, so it must be validated, not assumed.
 
-| Item | Open price | Stretch price |
-|---|---|---|
-| Single canelé (all-star) | $4.25 | $4.75 |
-| Single canelé (rotating/premium) | $4.50 | $5.00 |
-| Box of 4 (divided 6×6 kraft window box) | $16 | $18 |
-| Box of 6 (divided box) | $23 | $26 |
-| Box of 12 (12-slot 14×10×4" muffin box) | $44 | $50 |
+| Item | Open price | Per-unit | Role |
+|---|---|---|---|
+| Single canelé (all-star) | $4.25 | $4.25 | Impulse / try-one; combo on-ramp |
+| Single canelé (rotating/premium) | $4.50–5.00 | — | Premium — never discounted |
+| Box of 2 | $8.25 | $4.13 | The pair; combo workhorse |
+| Box of 4 (all-stars) | $16 | $4.00 | Core flight |
+| **Box of 6 — "Today's Six"** | **$23** | **$3.83** | **Hero / default** — 4 all-stars + 2 rotating |
+| Box of 12 | $44 | $3.67 | Gift / sharing / office — anchors the ladder |
 
-Box sizing maps directly to the existing packing article: ~60mm footprint per canelé with liner; the 4-cell divided 6×6, the divided 6-box, and the purpose-built 12-slot 14×10×4" box are the SKUs. Each box gets a riso "best eaten today" card — scarcity told honestly, not hidden.
+**The hero box is the "Today's Six" sampler (4 all-stars + 2 rotating), NOT the dozen** — a dozen rich same-day custards is too much as an everyday default (a canelé ≠ a cheap, shareable donut). The sampler resolves the "which flavor?" indecision a rotating board creates, packages the rotation *as the product* (every Today's Six is a different box daily), and lifts AOV without over-asking. The dozen stays as the gift/anchor SKU. The gentle quantity break ($4.25→$3.67) is funded entirely out of the ~88% margin — even the dozen clears ~84%. Detail + the sampler logic in [`box-strategy.md`](./box-strategy.md). Box sizing maps to the [packing article](../a/packing-caneles.md) and the [bags article](../a/canele-bags.md) (elevated tier); each box gets a riso "best eaten today" card.
 
-**Track COGS by flavor.** Plain/vanilla ingredient cost is ~$0.39–0.44/unit (recomputed from the 821g recipe; dominated by vanilla bean ~$1.50/batch and aged rum ~$1.00/batch — both volatile, re-quote before finalizing). Chocolate (couverture) and matcha (ceremonial) roughly double that to ~$0.75–1.05. Price premium flavors a touch higher or rotate the expensive ones to manage blended margin.
+**The breakfast combo (the daily-habit engine).** Coffee + 1 canelé (~$0.50 off) and coffee + 2 (~$1.25 off), breakfast hours, fast drinks only — discounting off a fat margin to build a morning ritual and lift attach + units. This is a direct argument for the espresso machine (a discounted rush needs espresso + batch, not slow hand pour-over) and a second reason §5 lands where it does. Full math + breakeven in [`combo-pricing.md`](./combo-pricing.md). The box ladder and the combo do different jobs: the combo owns the daily single/pair habit, the ladder owns the take-home and gift baskets.
+
+**Track COGS by flavor.** Per-canelé ingredient+spray cost runs **~$0.38 (HK milk tea) to ~$0.64 (Earl Grey)**, blended ~$0.50 — verified against Seattle grocery + Amazon prices in [`flavor-cost.md`](./flavor-cost.md) (plain ~$0.45 in [`canele-cost.md`](./canele-cost.md)). The surprise driver is **spirits, not the fancy add-ins**: WA's spirits tax makes rum/brandy/Cointreau the biggest line in any boozy recipe — which is part of why the tea flavors went alcohol-free (cheaper *and* simpler; see [`alcohol-in-pastry.md`](./alcohol-in-pastry.md)). Lead the permanent core with the cheap flavors; let premium/limited flavors carry a higher price and stay off every discount.
 
 ---
 
