@@ -30,6 +30,7 @@ Working brand assets for the café concept. Everything extends the recipe site's
 | `today-board.svg` | **The hero artifact.** The daily flavor board: fixed all-star band + rotating roster with a remaining-count dot grid and a pink sold-out strike. Simultaneously the in-store board, the menu, and the day's Instagram post. Re-typeset every morning. |
 | `cup-band.svg` | Wrap/sleeve band for cups — repeating canelé glyph + `POUR OVER · ~4 MIN · WORTH IT`. |
 | `bag-mockup.svg` | Mockup of the kraft 4×6" single-serve bag with the two-ink stamp on the face (see [`../canele-bags`](../../a/canele-bags.md)). Idealized — a real pigment-stamp impression has more texture. |
+| `bag-mockup-glassine.svg` | The gift version — translucent glassine showing the dark fluted shell, with the brand on a stamped **kraft band** (you can't stamp slick glassine directly). |
 | `flavor-vanilla.svg` | All-star glyph — the master mark: pink rectangle body + blue circle dome. |
 | `flavor-chocolate.svg` | All-star glyph — the inverse: blue body + pink dome. |
 | `flavor-milk-tea.svg` | All-star glyph — pink body + blue base band (the milk layer). |

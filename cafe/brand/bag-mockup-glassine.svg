@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 600" font-family="'Bricolage Grotesque', sans-serif">
+  <rect width="440" height="600" fill="#fbfaf8"/>
+
+  <!-- ===== translucent glassine bag (semi-transparent, cool tint) ===== -->
+  <!-- bag body: pale, slightly translucent -->
+  <rect x="100" y="60" width="240" height="480" rx="3" fill="#eef0ee" opacity="0.85"/>
+  <rect x="100" y="60" width="240" height="480" rx="3" fill="none" stroke="#d2d4d6" stroke-width="1.5"/>
+  <!-- soft vertical sheen to read as glassine -->
+  <rect x="150" y="60" width="40" height="480" fill="#ffffff" opacity="0.5"/>
+  <rect x="285" y="60" width="16" height="480" fill="#ffffff" opacity="0.4"/>
+  <!-- folded serrated top -->
+  <g fill="#e3e6e3">
+    <polygon points="100,60 114,48 128,60 142,48 156,60 170,48 184,60 198,48 212,60 226,48 240,60 254,48 268,60 282,48 296,60 310,48 324,60 338,48 340,50 340,60"/>
+  </g>
+
+  <!-- the dark canelé visible THROUGH the translucent bag (muted, behind) -->
+  <g opacity="0.5" transform="translate(220,360)">
+    <!-- fluted canelé silhouette, dark, slightly washed by the glassine -->
+    <path d="M -44,40 Q -50,-40 -30,-58 Q 0,-72 30,-58 Q 50,-40 44,40 Z" fill="#5a3a28"/>
+    <!-- a couple flute lines -->
+    <line x1="-22" y1="-50" x2="-20" y2="38" stroke="#3f2818" stroke-width="2" opacity="0.5"/>
+    <line x1="0" y1="-58" x2="0" y2="42" stroke="#3f2818" stroke-width="2" opacity="0.5"/>
+    <line x1="22" y1="-50" x2="20" y2="38" stroke="#3f2818" stroke-width="2" opacity="0.5"/>
+  </g>
+
+  <!-- ===== stamped KRAFT BAND wrapped across the bag (you stamp this, not the slick glassine) ===== -->
+  <g transform="translate(0,144)">
+    <!-- band -->
+    <rect x="100" y="0" width="240" height="112" fill="#c9a06a"/>
+    <rect x="100" y="0" width="240" height="112" fill="#000000" opacity="0.04"/>
+    <!-- band edges (fold shadow) -->
+    <rect x="100" y="0" width="240" height="4" fill="#000000" opacity="0.08"/>
+    <rect x="100" y="108" width="240" height="4" fill="#000000" opacity="0.08"/>
+
+    <!-- stamp on the band: wordmark centered, glyph as a small colophon above -->
+    <g transform="translate(220,42) rotate(-1)" opacity="0.92">
+      <!-- glyph colophon, centered above the name -->
+      <g transform="translate(-7,-26)">
+        <rect x="0" y="9" width="14" height="20" rx="2" fill="#ff48b0" style="mix-blend-mode:multiply"/>
+        <circle cx="7" cy="9" r="7" fill="#0078bf" style="mix-blend-mode:multiply"/>
+      </g>
+      <text x="0" y="14" text-anchor="middle" font-size="28" font-weight="700" fill="#0078bf" letter-spacing="-1" style="mix-blend-mode:multiply">half <tspan fill="#ff48b0">/</tspan> cadence</text>
+      <text x="0" y="38" text-anchor="middle" font-family="monospace" font-size="11" letter-spacing="3" fill="#cc2464" style="mix-blend-mode:multiply">CANELÉS · EAT TODAY</text>
+    </g>
+  </g>
+
+  <!-- caption -->
+  <text x="220" y="578" text-anchor="middle" font-family="monospace" font-size="13" fill="#88898a">glassine · shows the shell · brand on a stamped kraft band</text>
+</svg>
