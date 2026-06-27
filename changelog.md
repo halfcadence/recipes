@@ -9,6 +9,7 @@ permalink: /changelog/
 - Earl Grey and Thai tea canelés: made alcohol-free. The spirit was aromatic, not structural, so Cointreau → orange zest + bergamot extract, and rum → added vanilla + a little more tea, each replaced gram-for-gram with milk to hold the batter balance. Original boozy versions noted inline.
 - Canelé: add an all-flour (traditional, no-cornstarch) option note — the cornstarch is a deliberate tweak toward a softer crumb, not a requirement.
 - Add "Buying Bags for Canelés" article — waxed/glassine/kraft single-and-pair bags ranked by fit, cost (~$0.03–0.16/bag), and stamp-friendliness; companion to Packing Canelés.
+- Bags article: add a "Stand-up & flat-bottom bags" section — flat-bottom/SOS box bags and roll-top triangle bags that stand on a stall table, with the base-dimension sizing rule and closures.
 
 ## 2026-06-25
 

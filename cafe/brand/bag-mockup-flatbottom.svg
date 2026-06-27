@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 600" font-family="'Bricolage Grotesque', sans-serif">
+  <rect width="440" height="600" fill="#fbfaf8"/>
+
+  <!-- ===== flat-bottom (SOS) kraft bag, drawn in slight 3/4 so the box depth reads ===== -->
+  <!-- back/depth panel (the gusset side, darker) -->
+  <polygon points="300,120 360,150 360,560 300,540" fill="#b88f5d"/>
+  <!-- front face (kraft) -->
+  <rect x="100" y="120" width="200" height="420" fill="#c9a06a"/>
+  <!-- left edge fold shadow -->
+  <rect x="100" y="120" width="14" height="420" fill="#000000" opacity="0.06"/>
+  <!-- right vertical fold where face meets gusset -->
+  <line x1="300" y1="120" x2="300" y2="540" stroke="#000000" stroke-width="1" opacity="0.12"/>
+
+  <!-- folded-down top flap (front) -->
+  <rect x="100" y="120" width="200" height="46" fill="#bd9460"/>
+  <polygon points="300,120 360,150 360,166 300,166" fill="#a8814f"/>
+  <line x1="100" y1="166" x2="300" y2="166" stroke="#000000" stroke-width="1" opacity="0.12"/>
+  <!-- round seal sticker on the fold -->
+  <circle cx="200" cy="143" r="15" fill="#fbfaf8" stroke="#0078bf" stroke-width="1.5"/>
+  <!-- mini canelé glyph on the sticker -->
+  <g transform="translate(193,135)">
+    <rect x="5" y="7" width="6" height="13" rx="1.5" fill="#ff48b0" style="mix-blend-mode:multiply"/>
+    <circle cx="8" cy="7" r="3.2" fill="#0078bf" style="mix-blend-mode:multiply"/>
+  </g>
+
+  <!-- flat bottom base line (so it reads as standing) -->
+  <line x1="100" y1="540" x2="300" y2="540" stroke="#000000" stroke-width="1.5" opacity="0.15"/>
+  <polygon points="100,540 300,540 360,560 160,560" fill="#bd9460"/>
+
+  <!-- ===== stamp on the front face ===== -->
+  <g transform="translate(200,310) rotate(-1)" opacity="0.92">
+    <!-- glyph colophon above -->
+    <g transform="translate(-9,-66)">
+      <rect x="0" y="11" width="18" height="40" rx="2" fill="#ff48b0" style="mix-blend-mode:multiply"/>
+      <circle cx="9" cy="11" r="9" fill="#0078bf" style="mix-blend-mode:multiply"/>
+    </g>
+    <!-- wordmark stacked (narrow face → stack the two words) -->
+    <text x="0" y="6" text-anchor="middle" font-size="30" font-weight="700" fill="#0078bf" letter-spacing="-1" style="mix-blend-mode:multiply">half <tspan fill="#ff48b0">/</tspan></text>
+    <text x="0" y="40" text-anchor="middle" font-size="30" font-weight="700" fill="#0078bf" letter-spacing="-1" style="mix-blend-mode:multiply">cadence</text>
+    <line x1="-60" y1="60" x2="60" y2="60" stroke="#cc2464" stroke-width="1.5" style="mix-blend-mode:multiply"/>
+    <text x="0" y="82" text-anchor="middle" font-family="monospace" font-size="12" letter-spacing="2" fill="#cc2464" style="mix-blend-mode:multiply">CANELÉS · EAT TODAY</text>
+  </g>
+
+  <text x="220" y="585" text-anchor="middle" font-family="monospace" font-size="13" fill="#88898a">flat-bottom (SOS) kraft · stands up · fold + sticker · fits 1–2</text>
+</svg>

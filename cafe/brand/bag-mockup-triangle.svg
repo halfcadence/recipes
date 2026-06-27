@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 600" font-family="'Bricolage Grotesque', sans-serif">
+  <rect width="440" height="600" fill="#fbfaf8"/>
+
+  <!-- ===== flat kraft bag folded into a standing triangular prism =====
+       Body is a tall prism: a front triangular face + a side face catching light.
+       Bottom is the flat seam it stands on; top is the rolled-over fold. -->
+
+  <!-- side face (right, in shadow) -->
+  <polygon points="220,150 300,200 300,520 220,500" fill="#b88f5d"/>
+  <!-- front face (left, lit) -->
+  <polygon points="220,150 220,500 140,520 140,200" fill="#c9a06a"/>
+  <!-- the front vertical ridge (where the two faces meet) -->
+  <line x1="220" y1="150" x2="220" y2="500" stroke="#000000" stroke-width="1" opacity="0.12"/>
+  <!-- left edge fold -->
+  <polygon points="140,200 140,520 150,522 150,202" fill="#000000" opacity="0.06"/>
+
+  <!-- rolled top: two-three rolled bands of kraft -->
+  <g>
+    <rect x="132" y="150" width="172" height="20" rx="9" fill="#bd9460" transform="rotate(-2 218 160)"/>
+    <rect x="134" y="134" width="168" height="20" rx="9" fill="#c4985f" transform="rotate(-2 218 144)"/>
+    <rect x="138" y="120" width="160" height="18" rx="9" fill="#cda472" transform="rotate(-2 218 129)"/>
+  </g>
+
+  <!-- flat bottom seam it stands on -->
+  <polygon points="140,520 220,500 300,520 220,540" fill="#a8814f"/>
+  <line x1="140" y1="520" x2="220" y2="540" stroke="#000000" stroke-width="1" opacity="0.12"/>
+  <line x1="220" y1="540" x2="300" y2="520" stroke="#000000" stroke-width="1" opacity="0.12"/>
+
+  <!-- ===== stamp on the front triangular face (narrow → stacked) ===== -->
+  <g transform="translate(184,360) rotate(-1)" opacity="0.92">
+    <g transform="translate(-8,-58)">
+      <rect x="0" y="9" width="16" height="34" rx="2" fill="#ff48b0" style="mix-blend-mode:multiply"/>
+      <circle cx="8" cy="9" r="8" fill="#0078bf" style="mix-blend-mode:multiply"/>
+    </g>
+    <text x="0" y="6" text-anchor="middle" font-size="26" font-weight="700" fill="#0078bf" letter-spacing="-1" style="mix-blend-mode:multiply">half <tspan fill="#ff48b0">/</tspan></text>
+    <text x="0" y="34" text-anchor="middle" font-size="26" font-weight="700" fill="#0078bf" letter-spacing="-1" style="mix-blend-mode:multiply">cadence</text>
+    <text x="0" y="60" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="2" fill="#cc2464" style="mix-blend-mode:multiply">EAT TODAY</text>
+  </g>
+
+  <text x="220" y="585" text-anchor="middle" font-family="monospace" font-size="13" fill="#88898a">flat bag, rolled top → triangular prism · stands · fits 1</text>
+</svg>

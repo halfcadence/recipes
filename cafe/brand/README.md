@@ -31,6 +31,8 @@ Working brand assets for the café concept. Everything extends the recipe site's
 | `cup-band.svg` | Wrap/sleeve band for cups — repeating canelé glyph + `POUR OVER · ~4 MIN · WORTH IT`. |
 | `bag-mockup.svg` | Mockup of the kraft 4×6" single-serve bag with the two-ink stamp on the face (see [`../canele-bags`](../../a/canele-bags.md)). Idealized — a real pigment-stamp impression has more texture. |
 | `bag-mockup-glassine.svg` | The gift version — translucent glassine showing the dark fluted shell, with the brand on a stamped **kraft band** (you can't stamp slick glassine directly). |
+| `bag-mockup-flatbottom.svg` | A flat-bottom (SOS) kraft bag that **stands up** — box-like prism, fold-top + seal sticker, stacked wordmark on the face. |
+| `bag-mockup-triangle.svg` | A flat kraft bag with the top **rolled into a triangular prism** (candy-bag fold) — stands on its bottom seam. |
 | `flavor-vanilla.svg` | All-star glyph — the master mark: pink rectangle body + blue circle dome. |
 | `flavor-chocolate.svg` | All-star glyph — the inverse: blue body + pink dome. |
 | `flavor-milk-tea.svg` | All-star glyph — pink body + blue base band (the milk layer). |
