@@ -4,6 +4,10 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-06-29
+
+- Big-Batch Canelé: add non-convection-oven troubleshooting for a full 24-mold tray — preheated baking steel (the key fix), 550°F start, stop opening the oven to fight mushrooms, rotate-once-late, and the bake-12-at-a-time fallback.
+
 ## 2026-06-26
 
 - Earl Grey and Thai tea canelés: made alcohol-free. The spirit was aromatic, not structural, so Cointreau → orange zest + bergamot extract, and rum → added vanilla + a little more tea, each replaced gram-for-gram with milk to hold the batter balance. Original boozy versions noted inline.

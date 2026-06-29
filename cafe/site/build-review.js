@@ -90,6 +90,7 @@ const foot = `</div></body></html>`;
 
 // render markdown docs
 const docs = [
+  { src: "pitch.md", title: "One-page pitch" },
   { src: "README.md", title: "Half Cadence — overview" },
   { src: "plan.md", title: "Business + UX Plan" },
   { src: "farmers-market-playbook.md", title: "Farmers-Market Playbook" },
@@ -132,6 +133,7 @@ const hub = head("Half Cadence — review hub") +
 
 <h2>Documents</h2>
 <div class="grid2">
+  <a class="card" href="pitch.html"><div class="t">One-page pitch</div><div class="d">the whole concept distilled for someone who won't read the rest</div></a>
   <a class="card" href="README.html"><div class="t">Overview</div><div class="d">what this is, the shape of the plan</div></a>
   <a class="card" href="plan.html"><div class="t">Business + UX Plan</div><div class="d">numbers, location, beverage program, brand, floor plan</div></a>
   <a class="card" href="farmers-market-playbook.html"><div class="t">Farmers-Market Playbook</div><div class="d">the validation phase + the WA TCS/cottage reality</div></a>
