@@ -102,6 +102,7 @@ const docs = [
   { src: "box-strategy.md", title: "Box Sizes & Bundles" },
   { src: "alcohol-in-pastry.md", title: "Alcohol in Pastry — rules + swaps" },
   { src: "experiment-10pct-structure.md", title: "Experiment — structure % × cornstarch" },
+  { src: "baking-steel-notes.md", title: "Baking steels — time, temp, hacks" },
   { src: path.join("brand","README.md"), title: "Brand Kit" },
 ];
 for(const d of docs){
@@ -145,6 +146,7 @@ const hub = head("Half Cadence — review hub") +
   <a class="card" href="box-strategy.html"><div class="t">Box Sizes & Bundles</div><div class="d">why the hero is a "Today's Six" sampler, not a dozen</div></a>
   <a class="card" href="alcohol-in-pastry.html"><div class="t">Alcohol in Pastry</div><div class="d">WA rules (sub-1% = not "liquor") + non-alcoholic tea swaps</div></a>
   <a class="card" href="experiment-10pct-structure.html"><div class="t">Experiment: structure × cornstarch</div><div class="d">2×2 next-batch test — 10% structure, and do you need cornstarch?</div></a>
+  <a class="card" href="baking-steel-notes.html"><div class="t">Baking steels</div><div class="d">preheat by thickness, the thermal-battery win, and the lazy hacks</div></a>
   <a class="card" href="brand__README.html"><div class="t">Brand Kit</div><div class="d">tokens, voice, the daily ritual</div></a>
 </div>
 
