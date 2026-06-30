@@ -7,6 +7,7 @@ permalink: /changelog/
 ## 2026-06-30
 
 - Add "Condensed Milk" article — what it is vs evaporated milk, the DIY evaporated-milk-plus-sugar substitute, and the sugar-subtraction rule for baking with it (cut ~0.55g sugar per g condensed milk). Companion to the Evaporated Milk article.
+- Evaporated Milk article: add a "why cook milk twice?" section — the custard cook (structure) vs the can's retort cook (caramel flavor) are different jobs; the double cook is the backbone of flan/leche-flan/tres-leches, worth it only when you want the cooked-milk note.
 
 ## 2026-06-29
 

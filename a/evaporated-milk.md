@@ -33,6 +33,17 @@ Two things fall out of this table:
 - **Richness without heaviness.** It adds creamy body and milk-solid mouthfeel without cream's fat load — useful when you want a fuller dairy taste but a lighter fat percentage.
 - **A structure caveat.** Because it's concentrated, swapping it 1:1 for regular milk pushes fat and sugar up and water down enough to interfere with structure in delicate baked goods. America's Test Kitchen calls it "a poor substitute for regular milk" for exactly this reason. Use it deliberately, not as a casual milk stand-in.
 
+## "Isn't a custard already cooked milk? Why cook it twice?"
+
+A fair question, and the answer is that "cooked milk" means two completely different things here — two different cooks doing two different jobs:
+
+- **Your custard's cook is about *structure*.** Scalding milk to ~175°F and setting it in the oven coagulates egg proteins and gelatinizes starch — it turns liquid into a set custard. It's gentle and short, and it does almost nothing to the milk's *own* flavor (no real browning, barely any caramelization).
+- **Evaporated milk's cook is about *flavor and body*.** It's boiled down ~2× and then sterilized in the can at ~240–260°F for 15+ minutes — a hard, hot, long cook that caramelizes the lactose and drives Maillard browning. That's where the tan color and the deep cooked/caramel "canned-milk" note come from.
+
+So you're not doing the same thing twice. You're importing a flavor your custard cook **fundamentally cannot make** — you'd scorch fresh milk in your kitchen long before you matched a factory retort. This double cook is the backbone of an entire dessert family: **flan / crème caramel, Filipino leche flan, Vietnamese bánh flan, tres leches** all get their dense, caramel-milk character exactly this way. There's a texture bonus too — evaporated milk's already-denatured proteins and concentrated solids tend to give a firmer, silkier, cleaner-slicing set.
+
+The instinct *is* worth acting on, though, as a flavor test: if you want that cooked-milk/caramel character (milk teas, Thai tea, flan), the double cook is the whole point; if you just want a clean, fresh dairy custard, evaporated milk only adds an off "tinny" note — use fresh milk and cream instead. And more isn't better: past a point the cooked flavor reads as *canned* rather than rich, which is why it's used as a fraction of the dairy, not all of it.
+
 ## How to substitute without changing ratios
 
 The fix is reconstitution — add the water back:
