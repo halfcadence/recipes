@@ -28,13 +28,15 @@ Bake small sets (3–6 molds) so you can run several arms cheaply. Hold everythi
 
 ### Part B — second-stage handling (run at your Part-A winner temp)
 
+**Default to leaving the tray on the steel the whole bake — that's how real canelé-on-steel recipes work** (The Perfect Loaf bakes directly on the steel start to finish, 450→350°F, never lifts it). Opening the door to relocate a tray mid-bake fights the whole point of the steel (heat recovery in a fanless oven), and moving up toward the top element risks over-browning the *top*. And a too-dark *bottom* is forgiving on a canelé — it wants a dark crust anyway — so the scorch risk is smaller here than on a cookie. So test the no-fuss options first; only reach for lifting if bottoms actually come out **burnt** (not merely dark).
+
 | Arm | After the ~11-min shock | Watching for |
 |---|---|---|
-| B1 | Tray **stays on the steel**, drop to 400°F | bottoms over-dark / scorched? |
-| B2 | Tray **lifted one rack up, off the steel**, drop to 375–400°F | bottoms even with the rest? top color OK? |
-| B3 | Tray stays on steel but **let the steel coast** (don't reheat), drop to 375°F | a middle path — does coasting alone tame the bottoms? |
+| B1 *(default)* | Tray **stays on the steel**, drop to **375°F**, let the steel coast (don't reheat) | bottoms dark-but-fine, or actually burnt? |
+| B2 | Stays on steel, drop to 375°F, **second sheet pan slid under the tray** as a buffer | does the buffer alone tame the bottom? (no door-shuffle) |
+| B3 *(only if B1/B2 burn)* | Tray **lifted one rack up, off the steel** | bottoms even now — but did the top over-brown / did the open door cost you? |
 
-**Judge on:** bottom color vs. sides/top (even = good; darker base = the steel's still scorching), and whether the interior still cooks through. *Hypothesis: B2 (lift off after the shock) gives the most even result; B3 is the lazy compromise if lifting a hot tray is a pain.*
+**Judge on:** is the bottom *burnt* (bitter, hard) or just dark (fine — a canelé wants dark)? Only escalate B1 → B2 → B3 if the previous arm actually scorches. Most likely **B1 is enough** — coasting at 375 is the whole fix. *Hypothesis: B1 wins; the lift is a remedy you probably never need.*
 
 ## What you're NOT changing
 
@@ -49,15 +51,15 @@ Bake small sets (3–6 molds) so you can run several arms cheaply. Hold everythi
 | A2 | 500 | 400 | on | | | | | |
 | A3 | 475 | 400 | on | | | | | |
 | A4 | 450 | 400 | on | | | | | |
-| B1 | (winner) | 400 | on | | | | | |
-| B2 | (winner) | 375–400 | **lifted off** | | | | | |
-| B3 | (winner) | 375 | on, coasting | | | | | |
+| B1 | (winner) | 375, coasting | on | | | | | |
+| B2 | (winner) | 375, coasting | on + buffer pan | | | | | |
+| B3 | (winner) | — | lifted off | | | | | |
 
 Photograph bottoms + a cut interior per arm; bottom scorch and shell color are hard to score from memory.
 
 ## Likely landing (the hypothesis to beat)
 
-**Steel in: start ~475–500°F → at ~11 min, drop to 375–400°F and lift the tray off the steel → finish; let the steel coast, never reheat.** If lifting is annoying, B3 (coast on the steel at 375) may be close enough. Your oven + steel mass set the exact numbers — this experiment finds them; don't trust a generic recipe number over your own logged result.
+**Steel in, tray on it the whole bake: start ~475–500°F → at ~11 min, drop to 375°F and let the steel coast (never reheat) → finish.** No door-shuffle, no lifting — that's how real canelé-on-steel recipes run, and a dark bottom is on-brand for a canelé. Only add a buffer pan, or lift the tray, if bottoms come out genuinely *burnt*. Your oven + steel mass set the exact numbers — this experiment finds them; don't trust a generic recipe number over your own logged result.
 
 ---
 
