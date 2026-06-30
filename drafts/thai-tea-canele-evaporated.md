@@ -1,13 +1,12 @@
 ---
 title: Thai Tea Canelé (Evaporated-Forward)
 category: sweets
-number: TODO
+permalink: /drafts/thai-tea-canele-evaporated
 yield: 12
 ---
 
-<!-- DRAFT for owner review — do not assign `number:` until approved. A third Thai-tea arm: pushes evaporated milk to ~36% of the dairy so the cooked-milk note actually reads, the way the Hong Kong milk tea canelé uses it. A/B against thai-tea-canele-v2 (which only has it as a cream-sub). Built on the verified HK-milk-tea decomposition, not hand-jammed — see ../evap-condensed-milk.md. -->
 
-The custardy [Canelé](/r/canele) where evaporated milk is a real ingredient, not a garnish — ~36% of the dairy, for the cooked-milk-solid body that defines authentic Thai iced tea (its sweetness traditionally comes from condensed milk on top of evaporated). Alcohol-free. A richer, creamier Thai tea than the [clean version](/r/thai-tea-canele-v2).
+The custardy [Canelé](/r/canele) where evaporated milk is a real ingredient, not a garnish — ~36% of the dairy, for the cooked-milk-solid body that defines authentic Thai iced tea (its sweetness traditionally comes from condensed milk on top of evaporated). Alcohol-free. A richer, creamier Thai tea than the [clean version](/drafts/thai-tea-canele-v2).
 
 ## Ingredients
 
@@ -51,11 +50,11 @@ The custardy [Canelé](/r/canele) where evaporated milk is a real ingredient, no
 <div class="notes" markdown="1">
 ## Notes
 
-- **Why so much evaporated milk.** This is the lever the [clean Thai Tea Canelé](/r/thai-tea-canele-v2) doesn't pull. Evaporated milk's cooked, faintly caramelized note is *subtle* — to actually taste it (not just have it on the label) it needs to be a real fraction of the dairy. Here it's ~36% (160g of ~448g total dairy), modeled on how the [Hong Kong Milk Tea Canelé](/r/hong-kong-milk-tea-canele) uses it. The cream stays in for fat; the evaporated milk is the flavor *and* a body upgrade. See [`../evap-condensed-milk.md`](../evap-condensed-milk.md) for the full swap science.
+- **Why so much evaporated milk.** This is the lever the [clean Thai Tea Canelé](/drafts/thai-tea-canele-v2) doesn't pull. Evaporated milk's cooked, faintly caramelized note is *subtle* — to actually taste it (not just have it on the label) it needs to be a real fraction of the dairy. Here it's ~36% (160g of ~448g total dairy), modeled on how the [Hong Kong Milk Tea Canelé](/r/hong-kong-milk-tea-canele) uses it. The cream stays in for fat; the evaporated milk is the flavor *and* a body upgrade. See [Evaporated Milk](/a/evaporated-milk) and [Condensed Milk](/a/condensed-milk) for the swap science.
 - **Steep into plain milk, add the evaporated after.** You steep into 290g milk and measure back to a clean 250g, *then* add the 160g evaporated — so the tea strength is set against the milk only and absorption can't throw off the ratio. Don't steep into the evaporated milk (it scorches more easily and you can't measure-back cleanly).
 - **Sugar trimmed to 155g.** The evaporated milk brings ~16g of its own lactose, so the granulated sugar comes down from the base 170g to land the total sugar back near ~22%. This also keeps it on the less-sweet side, which suits Thai tea — the traditional sweetness is meant to come from a **condensed-milk drizzle** on top, not from a sugar-loaded crumb. Add that drizzle on the unmolded canelé if you want the full cha-yen sweetness.
 - **It browns faster** — see step 8. More milk solids = more Maillard. If the shells are darkening too fast, drop the second stage to 350°F.
-- **No alcohol.** Unlike the [Spiced Thai Tea Canelé](/r/spiced-thai-tea-canele), this stays clean and sellable with zero alcohol disclosure.
+- **No alcohol.** Unlike the [Spiced Thai Tea Canelé](/drafts/spiced-thai-tea-canele), this stays clean and sellable with zero alcohol disclosure.
 - **Baking steel option:** with a preheated baking steel, the Perfect-Loaf-style 450°F for 15 min → 350°F for 50–60 min is a viable alternative — and the lower 350°F second stage pairs well with this batter's faster browning.
 - **Use real ChaTraMue mix** (the orange "Number One" bag), not plain black tea — the malty body, vanilla note, and signature orange all come from the blend (Assam dust + vanilla-forward flavor + FD&C Yellow #6; not meaningfully pre-sweetened).
 - Other technique is identical to the custardy [Canelé](/r/canele).
@@ -63,9 +62,9 @@ The custardy [Canelé](/r/canele) where evaporated milk is a real ingredient, no
 ## Which Thai tea draft to keep
 
 Three arms to A/B as daily drops, then retire the losers:
-- [**Thai Tea Canelé**](/r/thai-tea-canele-v2) — clean, cheapest, evaporated only as a cream-sub. The baseline.
+- [**Thai Tea Canelé**](/drafts/thai-tea-canele-v2) — clean, cheapest, evaporated only as a cream-sub. The baseline.
 - **This one (evaporated-forward)** — creamier, more authentic cha-yen body, browns faster. The "milk tea, but Thai" reading.
-- [**Spiced Thai Tea Canelé**](/r/spiced-thai-tea-canele) — rum + chai spice, cool-weather rotating SKU.
+- [**Spiced Thai Tea Canelé**](/drafts/spiced-thai-tea-canele) — rum + chai spice, cool-weather rotating SKU.
 </div>
 
 ## Analysis
@@ -82,6 +81,6 @@ Total batter weight: **~834g** (after straining the tea; excludes mold coating)
 | Liquid (milk, cream, evaporated milk, egg water) | 438g | 52.5% |
 | Egg/milk protein | 28g | 3.4% |
 
-**Custardy-Canelé ratios (~12% structure), pushed a touch richer** — modeled on the verified [Hong Kong Milk Tea Canelé](/r/hong-kong-milk-tea-canele) decomposition. Bumping evaporated milk to 160g (36% of the dairy) lifts fat to ~10.3% and milk-solid body; trimming sugar to 155g offsets the extra lactose and keeps total sugar near 22%. Structure is untouched at 12%, so it stays custardy — just creamier and more cooked-milk-forward than the [clean version](/r/thai-tea-canele-v2).
+**Custardy-Canelé ratios (~12% structure), pushed a touch richer** — modeled on the verified [Hong Kong Milk Tea Canelé](/r/hong-kong-milk-tea-canele) decomposition. Bumping evaporated milk to 160g (36% of the dairy) lifts fat to ~10.3% and milk-solid body; trimming sugar to 155g offsets the extra lactose and keeps total sugar near 22%. Structure is untouched at 12%, so it stays custardy — just creamier and more cooked-milk-forward than the [clean version](/drafts/thai-tea-canele-v2).
 
 </div>
