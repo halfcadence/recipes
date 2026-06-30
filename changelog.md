@@ -4,6 +4,10 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-06-30
+
+- Add "Condensed Milk" article — what it is vs evaporated milk, the DIY evaporated-milk-plus-sugar substitute, and the sugar-subtraction rule for baking with it (cut ~0.55g sugar per g condensed milk). Companion to the Evaporated Milk article.
+
 ## 2026-06-29
 
 - Big-Batch Canelé: add non-convection-oven troubleshooting for a full 24-mold tray — preheated baking steel (the key fix), 550°F start, stop opening the oven to fight mushrooms, rotate-once-late, and the bake-12-at-a-time fallback.
