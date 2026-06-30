@@ -7,6 +7,7 @@ permalink: /changelog/
 ## 2026-06-29
 
 - Big-Batch Canelé: add non-convection-oven troubleshooting for a full 24-mold tray — preheated baking steel (the key fix), 550°F start, stop opening the oven to fight mushrooms, rotate-once-late, and the bake-12-at-a-time fallback.
+- Big-Batch Canelé: clarify start-temp logic — 550°F is a no-steel compensation; with a steel set ~475–500°F instead (don't stack 550 + steel = scorched bottoms). And you can't bake low-only (350–375°F) — caramelization needs a ~320–340°F surface, which a low oven can't drive past the wet-surface 212°F plateau.
 
 ## 2026-06-26
 
