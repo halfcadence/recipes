@@ -104,6 +104,7 @@ const docs = [
   { src: "experiment-10pct-structure.md", title: "Experiment — structure % × cornstarch" },
   { src: "experiment-start-temp.md", title: "Experiment — start temp & steel handling" },
   { src: "baking-steel-notes.md", title: "Baking steels — time, temp, hacks" },
+  { src: "evap-condensed-milk.md", title: "Evaporated & condensed milk in canelés" },
   { src: path.join("brand","README.md"), title: "Brand Kit" },
 ];
 for(const d of docs){
@@ -149,6 +150,7 @@ const hub = head("Half Cadence — review hub") +
   <a class="card" href="experiment-10pct-structure.html"><div class="t">Experiment: structure × cornstarch</div><div class="d">2×2 next-batch test — 10% structure, and do you need cornstarch?</div></a>
   <a class="card" href="experiment-start-temp.html"><div class="t">Experiment: start temp & steel</div><div class="d">dial-in the shock temp (475–525) + whether to lift the tray off the steel</div></a>
   <a class="card" href="baking-steel-notes.html"><div class="t">Baking steels</div><div class="d">preheat by thickness, the thermal-battery win, and the lazy hacks</div></a>
+  <a class="card" href="evap-condensed-milk.html"><div class="t">Evaporated & condensed milk</div><div class="d">flavor without wrecking texture — the swap math + 3 recipes</div></a>
   <a class="card" href="brand__README.html"><div class="t">Brand Kit</div><div class="d">tokens, voice, the daily ritual</div></a>
 </div>
 
