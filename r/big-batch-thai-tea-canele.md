@@ -1,13 +1,11 @@
 ---
-title: Big-Batch Thai Tea Canelé (Evaporated-Forward)
+title: Big-Batch Thai Tea Canelé
 category: sweets
-number: TODO
+number: 119
 yield: 24
 ---
 
-<!-- DRAFT for experiment — do not assign `number:` until tested. The evaporated-forward Thai tea draft (cafe/recipe-drafts/thai-tea-canele-evaporated) scaled to a 24-mold tray (x2.2, eggs snapped to whole counts). Analysis = single-batch analysis x2.2. Run alongside the big-batch HK milk tea for a full-tray evap experiment. -->
-
-The evaporated-forward [Thai Tea Canelé](/r/thai-tea-canele-v2) scaled to a 24-mold tray — evaporated milk at ~36% of the dairy for the cooked-milk body that reads as authentic cha yen. Same ratios as the single batch; sized for the full tray.
+A Thai tea canelé scaled to fill a 24-mold tray, with evaporated milk at ~36% of the dairy for the cooked-milk body that reads as authentic cha yen. A custardy [Canelé](/r/canele) sized for the full tray.
 
 ## Ingredients
 
@@ -51,7 +49,7 @@ The evaporated-forward [Thai Tea Canelé](/r/thai-tea-canele-v2) scaled to a 24-
 <div class="notes" markdown="1">
 ## Notes
 
-- **Straight 2.2× scale-up** of the single evaporated-forward Thai tea draft, eggs snapped to whole counts. Evaporated milk is ~36% of the dairy (352g of ~974g) — the lever that makes the cooked-milk note actually read; see [`../evap-condensed-milk.md`](../evap-condensed-milk.md).
+- **Evaporated milk is ~36% of the dairy** (352g of ~974g) — the lever that makes the cooked-milk note actually read, rather than just sitting on the label. See [Evaporated Milk](/a/evaporated-milk) and [Condensed Milk](/a/condensed-milk) for the swap science.
 - **Steep into plain milk, add the evaporated after** — set tea strength against the milk only, measure back to 550g, *then* add the 352g evaporated. Don't steep into the evaporated milk (scorches; can't measure-back cleanly).
 - **Full-tray oven handling** (steel, preheat, no door-opening, bake-12 fallback) is in [Big-Batch Canelé](/r/big-batch-canele) and applies here.
 - Sugar trimmed to 341g to offset the evaporated lactose; the traditional cha-yen sweetness is meant to come from a **condensed-milk drizzle** on top — add it on the unmolded canelés for the full effect.
@@ -60,7 +58,7 @@ The evaporated-forward [Thai Tea Canelé](/r/thai-tea-canele-v2) scaled to a 24-
 
 ## Experiment note
 
-This is the **evaporated-forward** arm at full-tray scale. To A/B the dairy structure on a real tray, also bake the [Big-Batch HK Milk Tea Canelé](./big-batch-hong-kong-milk-tea-canele.md) (lighter evaporated, different tea) — or split a tray: 12 molds evaporated-forward vs 12 of the clean [v2](/r/thai-tea-canele-v2) build. For a condensed-milk arm, add ~175g sweetened condensed milk and cut granulated sugar by ~95g (the ~0.55g-sugar-per-g rule, see [`../evap-condensed-milk.md`](../evap-condensed-milk.md)) — expect a softer, gooier set, so bump cornstarch to ~40g and bake a touch cooler.
+This pushes evaporated milk hard (~36% of the dairy) for a creamy, authentic cha-yen body. To compare on a real tray, bake it alongside the [Big-Batch Hong Kong Milk Tea Canelé](/r/big-batch-hong-kong-milk-tea-canele), which uses evaporated milk more lightly. For a **condensed-milk arm**, add ~175g sweetened condensed milk and cut granulated sugar by ~95g (the ~0.55g-sugar-per-gram rule from the [Condensed Milk](/a/condensed-milk) article) — expect a softer, gooier set, so bump cornstarch to ~40g and bake a touch cooler.
 </div>
 
 ## Analysis

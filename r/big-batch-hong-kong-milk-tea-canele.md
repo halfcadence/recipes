@@ -1,11 +1,9 @@
 ---
 title: Big-Batch Hong Kong Milk Tea Canelé
 category: sweets
-number: TODO
+number: 118
 yield: 24
 ---
-
-<!-- DRAFT for experiment — do not assign `number:` until tested. The published [Hong Kong Milk Tea Canelé](/r/hong-kong-milk-tea-canele) scaled to a full 24-mold tray (x2.2, eggs snapped to whole counts), so you can run a full-tray evap experiment without scaling by eye. Analysis = single-batch analysis x2.2. -->
 
 The [Hong Kong Milk Tea Canelé](/r/hong-kong-milk-tea-canele) scaled to fill a 24-mold tray. Strong Ceylon steeped into the milk + evaporated milk for the cooked-milk note. Same ratios, same method as the single batch — just sized for the full tray (and the full-tray oven handling).
 
