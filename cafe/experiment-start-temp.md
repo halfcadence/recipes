@@ -13,18 +13,22 @@ A charged steel is a thermal flywheel. It (1) restores the effective shock temp 
 
 ## The grid (steel in, ~½″, preheated 45–60 min)
 
-Bake small sets (3–6 molds) so you can run several arms cheaply. Hold everything else fixed: same rested batter, 75g fill, fridge-cold, ~11-min shock, second stage 375–400°F, rotate once late.
+Bake small sets (3–6 molds) so you can run several arms cheaply. Hold everything else fixed: same rested batter, 75g fill, fridge-cold, ~11-min shock, second stage 350°F (see below), rotate once late.
 
 ### Part A — start temp ladder
 
-| Arm | Start temp | Watching for |
-|---|---|---|
-| A1 | **525°F** (current) | baseline — darkest shell, known-good |
-| A2 | **500°F** | shell still dark? mushroom still controlled? |
-| A3 | **475°F** | the likely steel sweet spot — enough shock, gentler |
-| A4 | **450°F** | your small-batch floor — does a *fuller* tray still set + brown here? |
+All arms drop to **350°F** for the second stage (the Perfect Loaf canelé-on-steel number) — *not* 375–400. Reasoning: the steel coasts hot after the temp drop, so a lower set point counteracts it; 350 + hot-coasting-steel ≈ the old 375–400 + a non-coasting oven, and it's the documented steel profile. The start temp is the variable here.
 
-**Judge on, in order:** (1) does it mushroom / cul-blanc? (2) is the shell a deep mahogany, or going pale/blonde? (3) interior set. Stop going lower at the arm where the shell turns pale or mushrooming returns. *Hypothesis: ~475–500 is the floor for a full tray with a steel.*
+| Arm | Profile | Watching for |
+|---|---|---|
+| A1 | **525 → 350** (current shock, lower 2nd stage) | baseline — darkest shell, known-good shock |
+| A2 | **500 → 350** | shell still dark? mushroom still controlled? |
+| A3 | **475 → 350** | the likely steel sweet spot — enough shock, gentler |
+| A4 | **450 → 350** | the full Perfect-Loaf profile — does a *full custardy tray* still brown dark + set here? |
+
+**Judge on, in order:** (1) does it mushroom / cul-blanc? (2) is the shell a deep mahogany, or going pale/blonde — **on the top and sides, not just the bottom** (the steel browns the base; in a fanless oven the top/sides only see the dial-temp air, so they're where a too-low start shows up first)? (3) interior set. Stop going lower at the arm where the *top* shell turns pale or mushrooming returns.
+
+*Hypothesis: ~475–500 → 350 is the sweet spot. 450→350 is the documented profile and may well work — but The Perfect Loaf is a different (likely firmer) batter and setup; our custardy, low-structure batter is the most mushroom-prone and wants a touch more shock, and a full 24-mold fanless tray lags the top/sides more than their bake did. So test 450 rather than adopt it on faith — if it browns dark on top at full tray, take it (gentlest, least-scorchy, most hands-off); if it's blonde on top, step up.*
 
 ### Part B — second-stage handling (run at your Part-A winner temp)
 
@@ -32,11 +36,11 @@ Bake small sets (3–6 molds) so you can run several arms cheaply. Hold everythi
 
 | Arm | After the ~11-min shock | Watching for |
 |---|---|---|
-| B1 *(default)* | Tray **stays on the steel**, drop to **375°F**, let the steel coast (don't reheat) | bottoms dark-but-fine, or actually burnt? |
-| B2 | Stays on steel, drop to 375°F, **second sheet pan slid under the tray** as a buffer | does the buffer alone tame the bottom? (no door-shuffle) |
+| B1 *(default)* | Tray **stays on the steel**, drop to **350°F**, let the steel coast (don't reheat) | bottoms dark-but-fine, or actually burnt? |
+| B2 | Stays on steel, drop to 350°F, **second sheet pan slid under the tray** as a buffer | does the buffer alone tame the bottom? (no door-shuffle) |
 | B3 *(only if B1/B2 burn)* | Tray **lifted one rack up, off the steel** | bottoms even now — but did the top over-brown / did the open door cost you? |
 
-**Judge on:** is the bottom *burnt* (bitter, hard) or just dark (fine — a canelé wants dark)? Only escalate B1 → B2 → B3 if the previous arm actually scorches. Most likely **B1 is enough** — coasting at 375 is the whole fix. *Hypothesis: B1 wins; the lift is a remedy you probably never need.*
+**Judge on:** is the bottom *burnt* (bitter, hard) or just dark (fine — a canelé wants dark)? Only escalate B1 → B2 → B3 if the previous arm actually scorches. Most likely **B1 is enough** — coasting at 350 is the whole fix. *Hypothesis: B1 wins; the lift is a remedy you probably never need.*
 
 ## What you're NOT changing
 
@@ -47,19 +51,19 @@ Bake small sets (3–6 molds) so you can run several arms cheaply. Hold everythi
 
 | Arm | Start °F | 2nd stage | On/off steel | Mushroom? | Shell color (pale→mahogany 1–5) | Bottom vs sides (even? darker?) | Interior set | Notes |
 |---|---|---|---|---|---|---|---|---|
-| A1 | 525 | 400 | on | | | | | |
-| A2 | 500 | 400 | on | | | | | |
-| A3 | 475 | 400 | on | | | | | |
-| A4 | 450 | 400 | on | | | | | |
-| B1 | (winner) | 375, coasting | on | | | | | |
-| B2 | (winner) | 375, coasting | on + buffer pan | | | | | |
-| B3 | (winner) | — | lifted off | | | | | |
+| A1 | 525 | 350 | on | | | | | |
+| A2 | 500 | 350 | on | | | | | |
+| A3 | 475 | 350 | on | | | | | |
+| A4 | 450 | 350 | on | | | | | |
+| B1 | (winner) | 350, coasting | on | | | | | |
+| B2 | (winner) | 350, coasting | on + buffer pan | | | | | |
+| B3 | (winner) | 350 | lifted off | | | | | |
 
 Photograph bottoms + a cut interior per arm; bottom scorch and shell color are hard to score from memory.
 
 ## Likely landing (the hypothesis to beat)
 
-**Steel in, tray on it the whole bake: start ~475–500°F → at ~11 min, drop to 375°F and let the steel coast (never reheat) → finish.** No door-shuffle, no lifting — that's how real canelé-on-steel recipes run, and a dark bottom is on-brand for a canelé. Only add a buffer pan, or lift the tray, if bottoms come out genuinely *burnt*. Your oven + steel mass set the exact numbers — this experiment finds them; don't trust a generic recipe number over your own logged result.
+**Steel in, tray on it the whole bake: start ~475–500°F → at ~11 min, drop to 350°F and let the steel coast (never reheat) → finish.** (450→350 is the documented Perfect-Loaf profile and may work outright — test it as arm A4; step up to 475–500 only if the top shell comes out blonde.) No door-shuffle, no lifting — that's how real canelé-on-steel recipes run, and a dark bottom is on-brand for a canelé. Only add a buffer pan, or lift the tray, if bottoms come out genuinely *burnt*. Your oven + steel mass set the exact numbers — this experiment finds them; don't trust a generic recipe number over your own logged result.
 
 ---
 
