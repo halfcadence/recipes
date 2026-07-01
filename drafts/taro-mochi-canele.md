@@ -20,15 +20,15 @@ A hybrid: a layer of chewy butter-mochi batter on the bottom, taro canelé batte
 | 8g | tapioca starch |
 | | pinch of salt |
 | | **Taro canelé layer** |
-| 400g | milk |
-| 90g | sweet taro paste (芋泥), or 90g homemade steamed-and-mashed taro whipped with a little sugar and fat |
-| 20g | freeze-dried taro powder (pure taro, not milk-tea mix) |
-| 175g | granulated sugar |
-| 30g | unsalted butter, melted |
+| 400g | milk (or swap ~50g for coconut milk, the traditional taro fat) |
+| 120g | sweet taro paste (芋泥), or homemade steamed-and-mashed taro cooked down with a little sugar and fat |
+| 30g | freeze-dried taro powder (pure taro, not milk-tea mix) |
+| 185g | granulated sugar |
+| 35g | unsalted butter |
 | 2g | fleur de sel |
 | 110g | whole egg (~2 large, lightly beaten) |
 | 40g | egg yolk (~2 yolks) |
-| 45g | cake flour (or AP flour) |
+| 40g | cake flour (or AP flour) |
 | 18g | cornstarch |
 | 30g | milk (added at the end, in place of the rum) |
 | 1 | vanilla bean (or 8g vanilla extract) |
@@ -37,29 +37,32 @@ A hybrid: a layer of chewy butter-mochi batter on the bottom, taro canelé batte
 
 ## Steps
 
-1. **Canelé batter (make first, needs a rest):** heat the 400g milk with the vanilla and the melted butter to 150°F. Off heat, whisk in the taro paste until fully dispersed, then whisk in the taro powder. Cover, let sit 3 minutes, then whisk smooth again.
+1. **Fry the taro paste (炒芋泥):** melt the 35g butter in a small pan over medium-low heat, add the taro paste, and cook 2–4 minutes, stirring constantly, until it smells nutty and looks a shade darker. This concentrates the quiet taro flavor and drives off water so it survives the bake — the single biggest thing that keeps taro tasteable under the caramelized shell.
 
-2. Whisk sugar, salt, eggs, and yolks until slightly pale. Sift in cake flour and cornstarch, fold until smooth. Whisk in the warm taro milk, then the 30g milk.
+2. **Canelé batter (make first, needs a rest):** add the 400g milk and the vanilla to the pan and heat to 150°F, whisking the fried paste into the milk until fully dispersed and suspended. Off heat, whisk in the taro powder until smooth.
 
-3. Strain through a sieve — press the taro through to catch any fibers. Refrigerate 12 hours (overnight).
+3. Whisk sugar, salt, eggs, and yolks until slightly pale. Sift in cake flour and cornstarch, fold until smooth. Whisk in the warm taro milk, then the 30g milk.
 
-4. **Mochi batter (make the day of baking):** blend or whisk the milk, egg, melted butter, sugar, mochiko, tapioca, and salt until smooth.
+5. Strain through a sieve — press the taro through to catch any fibers. Refrigerate 12 hours (overnight).
 
-5. Preheat oven to 500°F. Spray the canelé molds with nonstick spray.
+6. **Mochi batter (make the day of baking):** blend or whisk the milk, egg, melted butter, sugar, mochiko, tapioca, and salt until smooth.
 
-6. Spoon the mochi batter into each mold first, filling about ⅓ (~20g). Stir the rested canelé batter and pour on top, filling to ~5mm below the rim (~50g). Don't mix the layers — they fuse during baking.
+7. Preheat oven to 500°F. Spray the canelé molds with nonstick spray.
 
-7. Bake at 500°F for 11 minutes to set the shells. Without opening the oven, drop to 375°F and continue baking for 50 minutes.
+8. Spoon the mochi batter into each mold first, filling about ⅓ (~20g). Stir the rested canelé batter and pour on top, filling to ~5mm below the rim (~50g). Don't mix the layers — they fuse during baking.
 
-8. Unmold immediately onto a cooling rack. Cool before eating. Best the same day.
+9. Bake at 500°F for 11 minutes to set the shells. Without opening the oven, drop to 375°F and continue baking for 50 minutes.
+
+10. Unmold immediately onto a cooling rack. Cool before eating. Best the same day.
 
 <div class="notes" markdown="1">
 ## Notes
 
-- **Getting taro flavor into a canelé is the whole problem.** Taro is a *quiet* flavor — mild, nutty, faintly sweet, a little earthy — and a canelé crust is loud (dark caramelized sugar, vanilla, high-heat Maillard). Baked long and hot, raw taro all but disappears. This uses two concentrated forms rather than fresh mash: sweet taro paste (芋泥) whisked into the warm milk for body and flavor, plus freeze-dried taro powder for clean flavor with almost no added water. If a test batch reads faint, push the powder to 25–30g (and trim the cake flour a touch to match) rather than adding more wet paste.
+- **Getting taro flavor into a canelé is the whole problem.** Taro is a *quiet* flavor — mild, nutty, faintly sweet, a little earthy — and a canelé crust is loud (dark caramelized sugar, vanilla, high-heat Maillard). Baked long and hot, raw taro all but disappears. Three things fight that: (1) **fry the paste first (炒芋泥)** — cooking it down in the butter until it smells nutty concentrates the flavor and toasts the taro sugars, and it's what survives the bake; (2) **sweet taro paste (芋泥)** whisked into the warm milk for body; (3) **freeze-dried taro powder** for clean flavor with almost no added water. This draft loads taro deliberately heavy (120g paste + 30g powder) because it's fighting a caramelized shell — real chiffon recipes, the closest thing that puts taro *in* a batter, use paste roughly equal to the flour weight, so we're still on the conservative side. If a test batch still reads faint, push the powder further before adding more wet paste.
+- **The powder is our move, not tradition.** Reputable Asian bakers (Woks of Life, Omnivore's Cookbook, Catherine Zhang, Constellation Inspiration) get taro into baked goods almost entirely as **cooked paste** — freeze-dried taro powder is a boba-shop / convenience ingredient, not the pastry canon. It earns its place here only because a canelé needs concentrated flavor with near-zero added water; the honest core of the recipe is the fried paste.
 - **Fresh taro is fine — cook it into a paste first, don't fold in wet mash.** Sweet taro paste (芋泥) *is* fresh taro: steamed, mashed, and cooked down with a little sugar and fat. Making it yourself is the authentic route. The one thing to avoid is dumping plain, loosely-mashed raw-wet taro straight into this thin batter — cooked taro is ~64% water and ~35% starch, so unbound wet purée weeps and gums the crumb (the same lesson as fresh fruit). Cooking it into a paste drives off some water and binds the rest, so it behaves; freeze-dried powder carries essentially no water at all. Raw taro must be cooked before eating regardless (it's irritating raw), so there's no "just fold it in raw" shortcut anyway.
-- **Taro is starchy — count it as structure.** The paste and powder add gelatinizable starch on top of the flour and cornstarch. Left unaccounted, that pushes the crumb toward dense and pasty (this is exactly why savory taro cake, 芋頭糕, is "ultra soft and pasty" — starch on starch). So the cake flour and cornstarch are cut (50→45g flour, 20→18g cornstarch) to make room for the taro starch and keep the layer near the ~10–12% structure of a custardy canelé.
-- **The paste is pre-sweetened and fatted, so the sugar is rebalanced.** Sweet taro paste (芋泥) is steamed taro whipped with sugar and fat, roughly taro : sugar : fat ≈ 3.5 : 1 : 1 by weight. The 90g here carries ~16g sugar and ~16g fat of its own, so the granulated sugar drops 200→175g to hold sugar near ~23%. Taro paste has far less fat than the chocolate it replaces, so 30g melted butter goes back in to keep the layer rich (~8% fat), and the rum's liquid is replaced with just 30g milk (not more) so the layer doesn't turn thin. If your paste is much sweeter or richer, drop the added sugar and butter further. (Ratios vary by brand and recipe; taste the paste and adjust.)
+- **Taro is starchy — count it as structure.** The paste and powder add gelatinizable starch on top of the flour and cornstarch. Left unaccounted, that pushes the crumb toward dense and pasty (this is exactly why savory taro cake, 芋頭糕, is "ultra soft and pasty" — starch on starch). So the cake flour and cornstarch are cut (50→40g flour, 20→18g cornstarch) to make room for the taro starch — more so now that the taro is loaded heavier — and keep the layer near the ~10–12% structure of a custardy canelé.
+- **The paste is pre-sweetened and fatted, so the sugar is rebalanced.** Sweet taro paste (芋泥) is steamed taro cooked down with sugar and a fat, roughly **taro : sugar : fat ≈ 4 : 1 : 0.75** by weight across reputable recipes (Woks of Life, SugarYums, Constellation, Nana) — and the traditional fat is usually **coconut milk**, not butter, with condensed-milk-plus-butter as the second school. The 120g here carries roughly ~20g sugar and ~15g fat of its own, so the granulated sugar drops 200→185g to hold sugar near ~23%. Taro paste still brings far less fat than the chocolate it replaces, so 35g butter goes in (frying the paste, then enriching the layer to ~8% fat), and the rum's liquid is replaced with just 30g milk (not more) so the layer doesn't turn thin. Swapping ~50g of the milk for coconut milk is on-tradition and reinforces the taro/milk-tea note. (Ratios vary by brand; taste your paste and adjust.)
 - **No alcohol.** A taro / milk-tea profile is cleaner without spirits, like the tea canelés. The original 60g rum is replaced gram-for-gram with milk to hold the liquid balance; the vanilla bean backfills the volatile aromatic that bakes off.
 - **⚠️ Color: real taro is NOT purple.** Natural taro flesh is white / off-white flecked with pale lavender, and steamed-and-mashed it reads as a muted greyish-lavender — not Instagram purple. Under a dark caramelized canelé shell it mutes further, so expect a beige-brown crust over a pale greyish-lavender crumb. The vivid purple you associate with "taro" (boba, taro ice cream) is almost always dye or **ube** (an unrelated purple yam that is naturally violet from anthocyanins). If you want visible purple, treat it as an honest cosmetic addition — a few drops of dye, or swap 5–10g of the taro powder for ube or purple-sweet-potato powder. Don't expect natural taro to deliver it.
 - **Use pure taro powder, not "taro milk tea powder."** The milk-tea mix is mostly sugar, non-dairy creamer, flavor, and color (often ube or dye) with only a little real taro — it will sweeten, color, and give a boba-shop taste, but it isn't real taro and throws off the sugar and fat accounting. Freeze-dried / dehydrated *pure* taro powder is just ground taro: concentrated flavor, pale lavender, minimal moisture.
@@ -90,16 +93,16 @@ This bake is two batters in one mold, so each layer is analyzed separately again
 | Liquid (milk, egg water) | 107g | 45.0% |
 | Egg/milk protein | 7g | 2.8% |
 
-**Taro canelé layer** — total ~928g (excludes mold spray; taro's water and fiber aren't tallied as a component)
+**Taro canelé layer** — total ~978g (excludes mold spray and taro fiber)
 
 | Component | Amount | % |
 |---|---|---|
-| Structure solids (flour + cornstarch + taro starch) | 100g | 10.8% |
-| Fat (butter, taro paste, milk, yolk, egg) | 77g | 8.3% |
-| Sugar (added + taro paste + lactose) | 213g | 23.0% |
-| Liquid (milk, egg water) | 518g | 55.8% |
-| Egg/milk protein | 20g | 2.2% |
+| Structure solids (flour + cornstarch + taro starch) | 112g | 11.5% |
+| Fat (butter, taro paste, milk, yolk, egg) | 85g | 8.7% |
+| Sugar (added + taro paste + lactose) | 228g | 23.3% |
+| Liquid (milk, egg water, taro water) | 533g | 54.5% |
+| Egg/milk protein | 20g | 2.0% |
 
-**Two contrasting sets in one bite:** the mochi layer is a high-structure (~31%), all-starch gel that bakes crisp-then-chewy, while the taro layer is low-structure (~10%) and custardy, set by egg and the taro's own fine starch. The taro paste and powder do double duty — flavor plus starch — so the cake flour and cornstarch are trimmed to keep the layer in the custardy ~11% band rather than tipping it into dense-and-pasty taro-cake territory; the paste's built-in sugar lets the added sugar drop, while a little melted butter backfills the fat the chocolate used to bring, holding sugar near ~23% and liquid near ~56%. Both layers share the same hot-shock schedule because both need a fast-set shell — the mochi to stop ballooning, the canelé to caramelize without mushrooming.
+**Two contrasting sets in one bite:** the mochi layer is a high-structure (~31%), all-starch gel that bakes crisp-then-chewy, while the taro layer is low-structure (~11%) and custardy, set by egg and the taro's own fine starch. The taro paste and powder do double duty — flavor plus starch — so the cake flour and cornstarch are trimmed to keep the layer in the custardy band rather than tipping it into dense-and-pasty taro-cake territory, even with the taro loaded heavier (120g paste + 30g powder) so it reads under the shell. The paste's built-in sugar lets the added sugar drop, while butter backfills the fat the chocolate used to bring, holding sugar near ~23% and liquid near ~55%. Both layers share the same hot-shock schedule because both need a fast-set shell — the mochi to stop ballooning, the canelé to caramelize without mushrooming.
 
 </div>
