@@ -12,6 +12,7 @@ Recipes that aren't finished. These are **untested** — written, the ratios che
 - [Thai Tea Canelé](/drafts/thai-tea-canele-v2) — clean, alcohol-free, a strong steep of ChaTraMue mix. The baseline Thai tea.
 - [Thai Tea Canelé (Evaporated-Forward)](/drafts/thai-tea-canele-evaporated) — the same, but evaporated milk pushed to ~36% of the dairy for a creamier, cooked-milk body.
 - [Spiced Thai Tea Canelé](/drafts/spiced-thai-tea-canele) — rum restored plus a chai-style warm spice. A cool-weather version.
+- [Taro Mochi Canelé](/drafts/taro-mochi-canele) — a chewy mochi base under a taro custard layer; the taro-mochi answer to the Chocolate Mochi Canelé.
 
 ## Drinks
 
