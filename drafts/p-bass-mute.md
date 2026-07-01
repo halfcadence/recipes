@@ -1,4 +1,8 @@
-# P Bass Foam Mute for Jazz and Latin Tones
+---
+layout: page
+title: P Bass Foam Mute
+permalink: /drafts/p-bass-mute
+---
 
 A foam mute under the strings near the bridge shortens sustain and kills overtones. The result is a rounder, thumpier note with faster decay — closer to an upright bass than a ringing electric. This is the sound of Motown (James Jamerson), '60s session work (Carol Kaye), and a lot of classic Latin and jazz recordings where the bass needs to stay out of the way of horns and piano.
 

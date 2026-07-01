@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ttukbaegi Comparison
-permalink: /ttukbaegi/
+permalink: /drafts/ttukbaegi
 ---
 
 A quick comparison of Korean earthenware pots (뚝배기) for serving samgyetang, jjigae, and soups. Unlisted page for personal reference.

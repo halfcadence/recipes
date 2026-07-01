@@ -8,6 +8,8 @@ permalink: /changelog/
 
 - Add Big-Batch Hong Kong Milk Tea Canelé and Big-Batch Thai Tea Canelé (24-mold scale-ups of the tea canelés, ×2.2 with eggs snapped to whole counts; the Thai version pushes evaporated milk to ~36% of the dairy for a fuller cooked-milk body). Both note full-tray oven handling and a condensed-milk experiment arm.
 - Add a Drafts page (/drafts, linked from Colophon) — untested recipes (the three Thai tea canelés + the Thai iced tea drink) now readable on the site, kept out of the main index until baked and proven.
+- Move the two unlisted pages (P Bass Foam Mute, Ttukbaegi Comparison) into /drafts and list them there; the ttukbaegi permalink moves from /ttukbaegi to /drafts/ttukbaegi.
+- Add README architecture map + an AGENTS.md documenting repo conventions (both build-excluded).
 - Add "Cream in Custards" article — what replacing milk with cream does to a custard/canelé: richer then greasy past a point, browns faster (bake the second stage ~15–25°F cooler), sweet spot is swapping ¼–⅓ of the milk.
 - Add "Condensed Milk" article — what it is vs evaporated milk, the DIY evaporated-milk-plus-sugar substitute, and the sugar-subtraction rule for baking with it (cut ~0.55g sugar per g condensed milk). Companion to the Evaporated Milk article.
 - Evaporated Milk article: add a "why cook milk twice?" section — the custard cook (structure) vs the can's retort cook (caramel flavor) are different jobs; the double cook is the backbone of flan/leche-flan/tres-leches, worth it only when you want the cooked-milk note.

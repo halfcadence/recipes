@@ -53,4 +53,5 @@ header_pages: []
 #   - vendor/ruby/
 exclude:
   - README.md
+  - AGENTS.md
   - cafe/

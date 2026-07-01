@@ -17,6 +17,13 @@ Recipes that aren't finished. These are **untested** — written, the ratios che
 
 - [Thai Iced Tea](/drafts/thai-iced-tea) — cha yen from the mix, sweetened lightly (condensed + evaporated milk, no added sugar), well below the café default.
 
+## Also here
+
+Unlisted odds and ends that aren't recipes.
+
+- [P Bass Foam Mute](/drafts/p-bass-mute) — a DIY bridge mute for a thumpier, upright-like bass tone.
+- [Ttukbaegi Comparison](/drafts/ttukbaegi) — notes comparing Korean clay pots.
+
 <div class="notes" markdown="1">
 - The three Thai tea canelés are meant to be A/B'd as a small batch — bake them side by side, keep the one you like, retire the others.
 - Once a draft is tested and kept, it graduates to the main [recipe index](/) with a number and illustration.
