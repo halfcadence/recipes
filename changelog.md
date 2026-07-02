@@ -4,6 +4,10 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-07-02
+
+- Chocolate Mochi Canelé: fix the layer-yield mismatch — the chocolate layer is the full Ferrandi batch (~1007g, ~24 molds) but the mochi was sized for ~12, leaving a big chocolate surplus. Double the mochi (whole egg now, no weighing half an egg) so both layers finish together across 24 molds (~20g mochi + ~42g chocolate each). Yield 12 → 24; note the fuller ~21-mold option.
+
 ## 2026-06-30
 
 - Add Big-Batch Hong Kong Milk Tea Canelé and Big-Batch Thai Tea Canelé (24-mold scale-ups of the tea canelés, ×2.2 with eggs snapped to whole counts; the Thai version pushes evaporated milk to ~36% of the dairy for a fuller cooked-milk body). Both note full-tray oven handling and a condensed-milk experiment arm.

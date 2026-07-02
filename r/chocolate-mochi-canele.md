@@ -2,7 +2,7 @@
 title: Chocolate Mochi Canelé
 category: sweets
 number: 105
-yield: 12
+yield: 24
 ---
 
 A hybrid: a layer of chewy butter-mochi batter on the bottom, chocolate canelé (Ferrandi) batter on top. The mochi bakes into a crisp-chewy base while the canelé sets custardy and intense above it.
@@ -12,12 +12,12 @@ A hybrid: a layer of chewy butter-mochi batter on the bottom, chocolate canelé 
 | | |
 |---|---|
 | | **Mochi layer** |
-| 100g | milk |
-| 25g | whole egg (~half a beaten egg) |
-| 14g | unsalted butter, melted |
-| 25g | granulated sugar |
-| 65g | mochiko (glutinous rice flour) |
-| 8g | tapioca starch |
+| 200g | milk |
+| 50g | whole egg (~1 large) |
+| 28g | unsalted butter, melted |
+| 50g | granulated sugar |
+| 130g | mochiko (glutinous rice flour) |
+| 16g | tapioca starch |
 | | pinch of salt |
 | | **Chocolate canelé layer** |
 | 400g | milk |
@@ -44,7 +44,7 @@ A hybrid: a layer of chewy butter-mochi batter on the bottom, chocolate canelé 
 
 5. Preheat oven to 500°F. Spray the canelé molds with nonstick spray.
 
-6. Spoon the mochi batter into each mold first, filling about ⅓ (~20g). Stir the rested canelé batter and pour on top, filling to ~5mm below the rim (~50g). Don't mix the layers — they fuse during baking.
+6. Spoon the mochi batter into each mold first, filling about ⅓ (~20g). Stir the rested canelé batter and pour on top, filling to ~5mm below the rim (~42g). Don't mix the layers — they fuse during baking.
 
 7. Bake at 500°F for 11 minutes to set the shells. Without opening the oven, drop to 375°F and continue baking for 50 minutes.
 
@@ -54,6 +54,7 @@ A hybrid: a layer of chewy butter-mochi batter on the bottom, chocolate canelé 
 ## Notes
 
 - The ratio is roughly ⅓ mochi batter to ⅔ chocolate canelé batter per mold. Both layers love a hot shock start, so they bake on the same schedule.
+- **The two layers are sized to finish together across 24 molds** (~20g mochi + ~42g chocolate each). The chocolate layer is the full standalone Ferrandi batter (~1007g); the mochi is doubled (~474g) so a whole egg comes out even — no weighing half an egg. Want fuller, taller canelés instead? Spread the same batter across ~21 molds (~70g each) and you'll get a taller bake with fewer pieces.
 - The mochi layer goes on the bottom of the mold (which becomes the top once unmolded) — it crisps against the metal and stays chewy inside, a textural counterpoint to the custardy chocolate.
 - The canelé batter must rest overnight; the mochi batter is made fresh the day of baking and used right away.
 - Layers fuse at the interface during baking — no need to swirl. If you want a marbled look instead, swirl them once with a skewer.
@@ -68,15 +69,15 @@ A hybrid: a layer of chewy butter-mochi batter on the bottom, chocolate canelé 
 
 This bake is two batters in one mold, so each layer is analyzed separately against its own benchmark.
 
-**Mochi layer** — total ~237g (excludes mold spray)
+**Mochi layer** — total ~474g (excludes mold spray)
 
 | Component | Amount | % |
 |---|---|---|
-| Structure solids (mochiko + tapioca) | 73g | 30.8% |
-| Fat (butter, egg) | 14g | 5.9% |
-| Sugar | 26g | 11.0% |
-| Liquid (milk, egg water) | 120g | 50.6% |
-| Egg/protein | 4g | 1.7% |
+| Structure solids (mochiko + tapioca) | 146g | 30.8% |
+| Fat (butter, egg) | 28g | 5.9% |
+| Sugar | 52g | 11.0% |
+| Liquid (milk, egg water) | 240g | 50.6% |
+| Egg/protein | 8g | 1.7% |
 
 **Chocolate canelé layer** — total ~1007g (excludes mold spray)
 
