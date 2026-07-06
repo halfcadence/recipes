@@ -11,9 +11,9 @@ source: https://www.justonecookbook.com/custard-pudding/
 
 | | |
 |---|---|
-| 70g | granulated sugar |
-| 15g | water (room temperature) |
-| 15g | hot water |
+| 100g | granulated sugar |
+| 20g | water (room temperature) |
+| 20g | hot water |
 
 ### Custard
 
@@ -29,7 +29,7 @@ source: https://www.justonecookbook.com/custard-pudding/
 
 1. Preheat oven to 300°F. Boil 3–4 cups water and keep hot.
 
-2. Make the caramel: combine 70g sugar and room-temperature water in a heavy-bottomed saucepan over medium-low. Let dissolve without stirring. Increase heat to medium. Swirl the pan occasionally — do not use a utensil. When amber and smoking slightly, remove from heat. Carefully add hot water via a spatula (it will sputter). Swirl to combine. Immediately pour into molds.
+2. Make the caramel: combine 100g sugar and room-temperature water in a heavy-bottomed saucepan over medium-low. Let dissolve without stirring. Increase heat to medium. Swirl the pan occasionally — do not use a utensil. When amber and smoking slightly, remove from heat. Carefully add hot water via a spatula (it will sputter). Swirl to combine. Immediately pour into molds.
 
 3. Heat milk, cream, and vanilla in a saucepan until just before simmering. Remove from heat.
 
@@ -57,7 +57,7 @@ Total custard base: **723g** (caramel sauce excluded — it's a separate layer)
 | Liquid (milk, cream, egg water) | 558g | 77.2% |
 | Egg/protein | 22g | 3.0% |
 
-**A pure egg-set custard — no flour or starch at all.** With zero structure solids, the entire set comes from egg protein coagulating (~3% protein) in a very high-liquid base (~77%). That's why it's so delicate and why the gentle bain-marie matters: too much heat and the protein over-coagulates into holes ("su"). The caramel layer (70g sugar) sits separately and isn't part of these numbers.
+**A pure egg-set custard — no flour or starch at all.** With zero structure solids, the entire set comes from egg protein coagulating (~3% protein) in a very high-liquid base (~77%). That's why it's so delicate and why the gentle bain-marie matters: too much heat and the protein over-coagulates into holes ("su"). The caramel layer (100g sugar) sits separately and isn't part of these numbers.
 
 </div>
 

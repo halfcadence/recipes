@@ -4,6 +4,10 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-07-06
+
+- Purin: bump the caramel to 100g sugar (from 70g), water scaled to 20g + 20g. Gives a thicker, saucier amber layer — enough to pool nicely when unmolded, and better suited to a wide single pan (e.g. a 6-inch round) where the caramel spreads thin.
+
 ## 2026-07-02
 
 - Chocolate Mochi Canelé: fix the layer-yield mismatch — the chocolate layer is the full Ferrandi batch (~1007g, ~24 molds) but the mochi was sized for ~12, leaving a big chocolate surplus. Double the mochi (whole egg now, no weighing half an egg) so both layers finish together across 24 molds (~20g mochi + ~42g chocolate each). Yield 12 → 24; note the fuller ~21-mold option.
