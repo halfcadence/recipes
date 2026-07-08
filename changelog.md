@@ -4,6 +4,10 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-07-08
+
+- Gateau au Chocolat: tune the dark version moister (it ran drier/firmer than the matcha sibling). Milk 90→100g, Dutch cocoa 18→12g (fewer liquid-absorbing solids), and add 1 extra egg yolk for fat + emulsification; flour held at 20g on purpose (it's the binder, not a moisture lever). Recompute analysis (519g batter: structure 13.5→11.8%, liquid 40.2→42.4%). Notes: why cocoa/dark chocolate dry the crumb, the more-chocolate-punch alternative (raise cocoa + milk, or higher-fat cocoa), and why butter is a weaker moisture fat than yolk/oil.
+
 ## 2026-07-06
 
 - Purin: bump the caramel to 100g sugar (from 70g), water scaled to 20g + 20g. Gives a thicker, saucier amber layer — enough to pool nicely when unmolded, and better suited to a wide single pan (e.g. a 6-inch round) where the caramel spreads thin.
