@@ -456,3 +456,7 @@ big-batch-thai-tea-canele:
   blue: "▮ body"
   pink: "▬ top band"
   combo: "two, side by side"
+whipped-cream:
+  blue: "○ base"
+  pink: "△ peak"
+  combo: "peak over base"

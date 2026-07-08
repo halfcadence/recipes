@@ -6,6 +6,7 @@ permalink: /changelog/
 
 ## 2026-07-08
 
+- Add Whipped Cream recipe — the immersion-blender-in-a-deli-container method (soft peaks in under a minute), the tall-narrow-container/half-full/keep-the-blade-submerged technique, the three-stage lift-and-look test, cold-everything rationale, over-whip rescue (fold in cold cream), and stabilizer options. SVG + riso PNG (blue circle base, pink triangle peak).
 - Gateau au Chocolat: tune the dark version moister (it ran drier/firmer than the matcha sibling). Milk 90→100g, Dutch cocoa 18→12g (fewer liquid-absorbing solids), and add 1 extra egg yolk for fat + emulsification; flour held at 20g on purpose (it's the binder, not a moisture lever). Recompute analysis (519g batter: structure 13.5→11.8%, liquid 40.2→42.4%). Notes: why cocoa/dark chocolate dry the crumb, the more-chocolate-punch alternative (raise cocoa + milk, or higher-fat cocoa), and why butter is a weaker moisture fat than yolk/oil.
 
 ## 2026-07-06
