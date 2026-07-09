@@ -464,3 +464,7 @@ cherry-pie:
   pink: "○ pie"
   blue: "△ slice"
   combo: "wedge cut out"
+banana-bread:
+  blue: "▮ loaf"
+  pink: "○ dome"
+  combo: "dome over loaf"
