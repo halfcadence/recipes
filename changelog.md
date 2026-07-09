@@ -6,7 +6,7 @@ permalink: /changelog/
 
 ## 2026-07-09
 
-- Add Cherry Pie recipe — easy fresh-cherry pie in a store-bought crust. Cornstarch thickener sized for juicy fresh fruit (32g sweet / 40g sour), sweet-vs-sour sugar and acid adjustments, hot-start-on-a-preheated-sheet-pan for the bottom crust (no blind bake), the bubbling-center doneness cue, and full cool-down to set. Analysis on the filling only (crust excluded, per French Silk Pie / Tarte Tatin precedent). SVG + riso PNG (pink pie circle, blue slice wedge).
+- Add Cherry Pie recipe — easy fresh-cherry pie in a store-bought crust. Cornstarch thickener sized for juicy fresh fruit (32g sweet / 40g sour), sweet-vs-sour sugar and acid adjustments, hot-start-on-a-preheated-sheet-pan for the bottom crust (no blind bake), the bubbling-center doneness cue, and full cool-down to set. Reduce the macerated juice on the stove before filling (a reliable anti-runny step). Corrected the whole-cherry buy weight to ~2.25 lb (10–12% pitting loss). Adds a cast-iron skillet method (Field No. 8: ~1150g cherries scaled up, assemble cold, move up a rack at 375°F; bake directly in a seasoned pan, clean and re-oil after). Analysis on the filling only (crust excluded, per French Silk Pie / Tarte Tatin precedent). SVG + riso PNG (pink pie circle, blue slice wedge).
 
 ## 2026-07-08
 
