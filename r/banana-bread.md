@@ -26,7 +26,7 @@ Yoshida Morihide's banana bread — leavened with baking soda, not yeast, so it 
 
 ## Steps
 
-1. Butter a 6-inch round cake pan (or a 9×5 loaf) and line with parchment. Preheat the oven to 340°F.
+1. Butter a 6-inch round cake pan (or a 9×5 loaf) and line with parchment. Preheat the oven to 340°F (or start at 350°F to set the top, then drop to 325°F after 15–20 minutes — see notes).
 
 2. Cream the softened butter, salt, and brown sugar 2–3 minutes until light.
 
@@ -36,7 +36,7 @@ Yoshida Morihide's banana bread — leavened with baking soda, not yeast, so it 
 
 5. Fold in the walnuts last.
 
-6. Scrape into the pan. Bake at 340°F until a skewer in the center comes out with a few moist crumbs (no wet batter) — about 55–70 minutes for a deep 6-inch, 45–55 for a loaf. Tent with foil around 40 minutes if the top browns before the center sets.
+6. Scrape into the pan. Bake at 340°F until a skewer in the center comes out with a few moist crumbs (no wet batter) — about 55–70 minutes for a deep 6-inch, 45–55 for a loaf. Tent with foil around 35–40 minutes if the top browns before the center sets. The center should read 205–208°F internally if you have a thermometer.
 
 7. Cool in the pan 10 minutes, then turn out. Best the next day; eat within 1–2 days.
 
@@ -65,6 +65,8 @@ Total batter weight: **842g** (banana is ~40% of it)
 - **Cassonade → light brown sugar.** The original calls for cassonade (French unrefined cane sugar); light brown sugar is the clean 1:1 sub for its caramel/molasses note and moisture. Turbinado or demerara is more flavor-accurate but coarser — pulse it fine or it can stay gritty.
 - **The two-flour blend is deliberate.** The original pairs a weak flour (薄力粉, cake) with a "medium-strong" flour (中強力粉, ~10.5–11.5% protein) — cake flour alone would be too fragile to carry 340g of wet banana and would gum in the center; all bread flour would go tough. All-purpose is the clean stand-in for the medium-strong half, giving an effective ~9.5–10% protein: tender but sturdy. In a pinch, all-AP (172g) works fine — this is a forgiving quick bread.
 - **Baking soda only — don't add baking powder.** Whisk the soda evenly into the flour; a stray clump leaves a soapy, yellowish spot. That's the only real risk, and it's low.
+- **No 340°F on your oven?** 340°F is just "between 325 and 350." For a deep pan, either bake straight at **325°F** (add ~5–10 min, gentlest on the center) or **start at 350°F for 15–20 minutes** to set the domed top, then **drop to 325°F** for the rest — the "start hot, finish gentle" route gives good lift and a fully-cooked middle. Plain 350°F works too but browns fast, so tent earlier (~30 min) and watch the center.
+- **Original vs our deep-pan bake.** Yoshida bakes this at **180°C (356°F) for 35 min**, splitting the batter between **two small shallow bread pans** — split into two shallow masses, the centers heat fast, so a short, hot bake works. Baked as **one tall column in a single deep 6×3-inch round**, the center sits far from every surface, and 180°C would scorch the dome before the middle set — so drop the oven ~25°F and roughly double the time, as above. Two small loaf pans? Use his original 180°C / 35 min.
 - **Scaling.** The full recipe (~842g) fills a **9×5 loaf** or a **deep 6×3-inch round** (bakes tall — tent the top and give it the longer time). For a standard **6×2-inch** round, scale to ~0.71× (butter 36g, brown sugar 61g, egg 75g, cake + AP 61g each, soda 3g, honey 31g, banana 243g, walnuts 29g) and bake ~40–50 min.
 - **Serving it as a cake.** Lovely warm with lightly whipped or brown-butter [whipped cream](/r/whipped-cream), a spoon of [salted caramel](/r/salted-caramel-sauce), or vanilla/salted-caramel ice cream; caramelized banana and toasted walnuts on top push it fully into dessert.
 - **Keeps poorly by design** — 40% banana means it's best day-of to next-day. Freezes well wrapped tight if you want to hold it longer.
