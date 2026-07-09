@@ -4,6 +4,10 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-07-09
+
+- Add Cherry Pie recipe — easy fresh-cherry pie in a store-bought crust. Cornstarch thickener sized for juicy fresh fruit (32g sweet / 40g sour), sweet-vs-sour sugar and acid adjustments, hot-start-on-a-preheated-sheet-pan for the bottom crust (no blind bake), the bubbling-center doneness cue, and full cool-down to set. Analysis on the filling only (crust excluded, per French Silk Pie / Tarte Tatin precedent). SVG + riso PNG (pink pie circle, blue slice wedge).
+
 ## 2026-07-08
 
 - Add Whipped Cream recipe — the three-stage lift-and-look test (soft/medium/stiff), cold-everything rationale, over-whip rescue (fold in cold cream), and stabilizer options. Leads with the hand mixer (deep chilled bowl, start low then medium-high) as the everyday tool; immersion blender, stand mixer, whisk, food processor, and jar-shake given as alternatives. SVG + riso PNG (blue circle base, pink triangle peak).

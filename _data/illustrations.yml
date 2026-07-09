@@ -460,3 +460,7 @@ whipped-cream:
   blue: "○ base"
   pink: "△ peak"
   combo: "peak over base"
+cherry-pie:
+  pink: "○ pie"
+  blue: "△ slice"
+  combo: "wedge cut out"
