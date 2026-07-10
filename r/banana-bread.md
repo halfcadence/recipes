@@ -61,7 +61,7 @@ Total batter weight: **842g** (banana is ~40% of it)
 <div class="notes" markdown="1">
 ## Notes
 
-- **Ripeness is everything.** Use heavily black-spotted to nearly-black bananas — riper means sweeter, softer, and far more banana aroma, and the acid is what drives the baking soda. Underripe banana gives a bland, pale, under-risen loaf.
+- **Ripeness is everything.** Use heavily black-spotted to nearly-black bananas — riper means sweeter, softer, and far more banana aroma, and the acid is what drives the baking soda. Underripe banana gives a bland, pale, under-risen loaf. Not there yet? See [Ripening Bananas](/a/ripening-bananas) — and note the oven/microwave shortcuts soften without really sweetening, so nudge the sugar up if you use them.
 - **Cassonade → light brown sugar.** The original calls for cassonade (French unrefined cane sugar); light brown sugar is the clean 1:1 sub for its caramel/molasses note and moisture. Turbinado or demerara is more flavor-accurate but coarser — pulse it fine or it can stay gritty.
 - **The two-flour blend is deliberate.** The original pairs a weak flour (薄力粉, cake) with a "medium-strong" flour (中強力粉, ~10.5–11.5% protein) — cake flour alone would be too fragile to carry 340g of wet banana and would gum in the center; all bread flour would go tough. All-purpose is the clean stand-in for the medium-strong half, giving an effective ~9.5–10% protein: tender but sturdy. In a pinch, all-AP (172g) works fine — this is a forgiving quick bread.
 - **Baking soda only — don't add baking powder.** Whisk the soda evenly into the flour; a stray clump leaves a soapy, yellowish spot. That's the only real risk, and it's low.

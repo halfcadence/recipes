@@ -4,6 +4,10 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-07-10
+
+- Add "Ripening Bananas" article — the ethylene/starch→sugar science, and the honest ranking of ripening methods: counter-ripen (best) and frozen-already-ripe, paper bag (~1–2 days), and the oven/microwave shortcuts that soften but barely sweeten. Busts the apple-in-the-bag myth. Linked from the Banana Bread recipe's ripeness note.
+
 ## 2026-07-09
 
 - Add Banana Bread recipe (Morihide Yoshida) — baking-soda-leavened, pound-cake-style, ~40% ripe banana. Translated from the original (cassonade → light brown sugar; 中強力粉 medium-strong flour → all-purpose, blended 1:1 with cake flour for a tender-but-sturdy crumb), with scaling for a 6-inch round or 9×5 loaf and a serving-as-cake note. Notes cite Yoshida's original 180°C/35min in two small shallow pans and explain the single-deep-pan adaptation (drop ~25°F, ~1.5–2× the time), plus oven-without-340°F options (325°F straight, or 350°F→325°F). SVG + riso PNG (blue loaf, pink dome).
