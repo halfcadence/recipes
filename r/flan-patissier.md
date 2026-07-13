@@ -5,7 +5,7 @@ number: 123
 yield: one 8-inch flan
 ---
 
-The Parisian custard tart: a thick, sliceable vanilla custard — thickened with cornstarch and set by eggs — poured hot into a raw pâte brisée shell and baked hot for a dark, blistered top. Cooked like a pastry cream first, then baked, then chilled overnight. Sized for an 8-inch × 2-inch tart ring.
+The Parisian custard tart: a thick, sliceable vanilla custard — thickened with cornstarch and set by eggs — poured hot into a raw pâte brisée shell and baked hot for a dark, blistered top. The custard is a one-pot pastry cream (everything whisked cold and boiled, no tempering), then baked, then chilled overnight. Sized for an 8-inch × 2-inch tart ring.
 
 ## Ingredients
 
@@ -18,13 +18,13 @@ The Parisian custard tart: a thick, sliceable vanilla custard — thickened with
 | 40g | ice water |
 | 3g | salt |
 | | **Custard** |
-| 760g | whole milk |
-| 100g | whole milk, cold (reserved) |
+| 860g | whole milk |
 | 100g | whole egg (~2 large) |
 | 36g | egg yolk (~2 yolks) |
 | 100g | sugar |
 | 50g | cornstarch |
-| 2 | vanilla beans (or 10g vanilla paste) |
+| 10g | vanilla bean paste (or 2 vanilla beans, steeped — see notes) |
+| | pinch of salt |
 
 ## Steps
 
@@ -32,17 +32,15 @@ The Parisian custard tart: a thick, sliceable vanilla custard — thickened with
 
 2. Roll the dough 2–3mm thick. Set the 8×2-inch ring on a parchment-lined baking sheet and line it — base and full tall sides — pressing into the corner and leaving a slight overhang. Dock the base with a fork. **Freeze the lined shell hard, at least 30 minutes** (no blind-baking needed — see notes). Preheat the oven to 400°F.
 
-3. **Custard:** split the vanilla beans and scrape the seeds into the 760g milk with the pods. Heat to a bare simmer, then take off the heat, cover, and steep 15 minutes. Fish out the pods.
+3. **Custard (one pot, no tempering):** in a saucepan off the heat, whisk the milk, eggs, yolks, sugar, cornstarch, vanilla paste, and salt together cold until completely smooth with no cornstarch streaks.
 
-4. Whisk the eggs, yolks, sugar, and cornstarch smooth, then whisk in the cold 100g milk. Rewarm the infused milk, then pour it into the egg mixture in a stream, whisking.
+4. Set over medium heat and whisk constantly, scraping the bottom and corners with a spatula, until it thickens and comes to a **full boil** — let it bubble 1–2 minutes, whisking hard, until thick and glossy (~200°F). Boiling is essential: it sets the starch and denatures the yolks' amylase, or the custard turns runny later. For insurance, pass it through a sieve.
 
-5. Return everything to the pan over medium heat and whisk constantly. It will thicken, then must come to a **full boil** — let it bubble 1–2 minutes, whisking hard, until thick and glossy (~200°F). Boiling is essential: it denatures the yolks' amylase, or the set turns runny later.
+5. Pour the hot custard straight onto the frozen shell, filling to ~1cm below the rim. Smooth the top. (Pouring it hot sets the base fast — part of why the raw shell doesn't go soggy.)
 
-6. Pour the hot custard straight onto the frozen shell, filling to ~1cm below the rim. Smooth the top. (Pouring it hot sets the base fast — part of why the raw shell doesn't go soggy.)
+6. Bake at 400°F for 15 minutes to blister the top, then drop to 350°F and bake 40–55 minutes more, until the top is deeply browned (even a little scorched) and the center wobbles like set jelly. Tent with foil if the top darkens too fast.
 
-7. Bake at 400°F for 15 minutes to blister the top, then drop to 350°F and bake 40–55 minutes more, until the top is deeply browned (even a little scorched) and the center wobbles like set jelly. Tent with foil if the top darkens too fast.
-
-8. Cool completely (~2 hours), then refrigerate at least 4 hours, ideally overnight. Run a knife around the ring and lift it off. Serve cold. Best the next day.
+7. Cool completely (~2 hours), then refrigerate at least 4 hours, ideally overnight. Run a knife around the ring and lift it off. Serve cold. Best the next day.
 
 ## Analysis
 
@@ -65,7 +63,9 @@ Total custard: **1046g** (pâte brisée shell excluded)
 <div class="notes" markdown="1">
 ## Notes
 
-- **Boil the custard — really boil it.** The single most important step. It has to reach a full, glossy, bubbling boil for 1–2 minutes so the yolks' amylase is denatured; stop at "thick" without boiling and the enzyme keeps digesting the starch as it cools, and the flan sets runny. Whisk constantly so the bottom doesn't scorch.
+- **Boil the custard — really boil it.** The single most important step, and the one thing laziness can't touch. It has to reach a full, glossy, bubbling boil for 1–2 minutes so the yolks' amylase is denatured; stop at "thick" without boiling and the enzyme keeps digesting the starch as it cools, and the flan sets runny. Whisk constantly and scrape the corners so the bottom doesn't scorch.
+- **The one-pot method is the lazy way, and it's genuinely as good.** Whisking everything cold and heating it together skips tempering entirely — tempering only exists to keep hot milk from scrambling raw egg, and here nothing starts hot. The cornstarch and sugar shield the egg proteins so it can boil without curdling (Stella Parks endorses exactly this). Since the flan bakes again, it's the most forgiving pastry cream there is. The only care points: whisk on **medium** (not high) so it doesn't scorch, and **sieve it** after as cheap insurance against lumps.
+- **Deeper vanilla, if you're not lazy.** Vanilla paste whisked in cold gets you ~90% of the flavor with zero extra steps. For the fullest vanilla, steep 2 split-and-scraped beans in the milk: heat the milk to a bare simmer, cover, steep 15 minutes, fish out the pods — then proceed. (Heating the milk means you'll want to temper it into the eggs; the cold one-pot method is simpler and nearly as good.)
 - **Cornstarch, not flour.** Cornstarch gives the smooth, dense, clean-slicing set; flour would taste pasty and cloud it. This isn't a clafoutis/far breton batter — it's a pastry cream that happens to be baked.
 - **No par-baking — but freeze the shell.** A pre-cooked pastry cream carries little free water (the cornstarch locks it into a gel), so it doesn't soak into the crust the way a thin raw liquid does in a quiche or crème caramel — and a long, hot bake cooks the raw base through. This is how nearly every French brisée and sucrée flan is made (Conticini, Lignac, Empreinte Sucrée). The three things that keep the raw base from going soggy: **freeze the lined shell hard** before filling (also stops the tall walls slumping), **pour the custard in hot** (sets the base fast), and use the **metal ring** (conducts bottom heat — the rare soggy failures happen in insulating ceramic dishes). *If you'd rather have insurance* — a cooler oven, a ceramic dish, or you just want a crisper base — blind-bake the frozen shell at 425°F for 25 min with weights, then 5 min uncovered, before filling.
 - **The dark top is the signature — chase it.** Flan parisien wants a deeply browned, blistered, almost-burnt top, which is why it starts hot. If yours is going pale, push the initial heat or hit it under the broiler for a minute at the end. A blonde top tastes underdone.
