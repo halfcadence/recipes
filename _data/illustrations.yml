@@ -468,6 +468,10 @@ banana-bread:
   blue: "▮ loaf"
   pink: "○ dome"
   combo: "dome over loaf"
+bakery-style-banana-bread:
+  blue: "□ square"
+  pink: "□ square"
+  combo: "offset overlap"
 flan-patissier:
   pink: "▮ slice"
   blue: "▬ dark top"
