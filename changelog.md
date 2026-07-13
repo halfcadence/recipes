@@ -4,6 +4,10 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-07-12
+
+- Add Flan Pâtissier recipe — the Parisian custard tart: a cornstarch-and-egg-set vanilla custard cooked like a pastry cream (boiled to kill the yolks' amylase), poured into a par-baked pâte brisée shell, baked hot for the dark blistered top, then chilled overnight. Sized for an 8×2-inch tart ring; notes cover the boil-the-custard rule, par-baking, chasing the dark top, and a mascarpone-enriched variant. Analysis on the custard only (crust excluded). SVG + riso PNG (pink slice, blue dark top).
+
 ## 2026-07-10
 
 - Add "Ripening Bananas" article — the ethylene/starch→sugar science, and the honest ranking of ripening methods: counter-ripen (best) and frozen-already-ripe, paper bag (~1–2 days), and the oven/microwave shortcuts that soften but barely sweeten. Busts the apple-in-the-bag myth. Linked from the Banana Bread recipe's ripeness note.

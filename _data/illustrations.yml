@@ -468,3 +468,7 @@ banana-bread:
   blue: "▮ loaf"
   pink: "○ dome"
   combo: "dome over loaf"
+flan-patissier:
+  pink: "▮ slice"
+  blue: "▬ dark top"
+  combo: "cap over tall slice"
