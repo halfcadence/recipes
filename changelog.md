@@ -9,6 +9,7 @@ permalink: /changelog/
 - Banana Bread: rescale the base to a full, tall 9×5 loaf (×1.3, now 3 whole eggs). Ingredients up proportionally (banana 340→442g, flours 96→125g each, etc.); recompute analysis (1232g batter — ratios unchanged: fat 13.1%, sugar 20.0%, structure 21.8%, banana ~36%). Bake time now ~55–70 min for the single tall loaf; the deep-6×3 and 6×2 rounds move to a "scaling down" note.
 - Fix broken internal cross-links site-wide. Recipe/article body links written as `[text](/r/slug)` rendered as root-absolute `/r/slug`, dropping the `/recipes` baseurl and 404'ing (e.g. the flan's "Related custards" links). Wrap all 72 such links across 26 files in Jekyll's `relative_url` filter (`[text]({{ '/r/slug' | relative_url }})`), which prepends the baseurl → `/recipes/r/slug`. Index links already used relative `./` paths and were unaffected. Verified live via a real browser click (flan → Purin resolves).
 - Add a rule to steering (and AGENTS.md) requiring body-text cross-links to use `relative_url` rather than a bare `/r/slug`, so the baseurl bug doesn't recur.
+- Flan Pâtissier: sharpen the cream note — all-milk is the classic and is rich enough (yolk fat + ~5% starch); quantify the optional cream upgrade (~100–170g / up to ~20% of the dairy, since cream fat inhibits the set past that) and keep the mascarpone variant.
 
 ## 2026-07-12
 
