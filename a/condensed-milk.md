@@ -4,7 +4,7 @@ category: articles
 permalink: /a/condensed-milk
 ---
 
-What sweetened condensed milk actually is, how it behaves differently from [evaporated milk](/a/evaporated-milk), whether you can fake it from evaporated milk + sugar, and how to bake with it without turning a custard into candy.
+What sweetened condensed milk actually is, how it behaves differently from [evaporated milk]({{ '/a/evaporated-milk' | relative_url }}), whether you can fake it from evaporated milk + sugar, and how to bake with it without turning a custard into candy.
 
 ## What it is
 
@@ -33,7 +33,7 @@ Two honest caveats:
 - **It's slightly thinner and less caramelized.** Real SCM is cooked down a touch further, so it's more viscous and a hair more dulce-flavored. For most baking — where you're dispersing it into a batter or filling anyway — the difference is invisible. For something where the texture of the SCM itself matters (a no-cook fudge, a key lime pie set by the condensed milk's body), the real can is safer.
 - **The reverse fails.** You cannot turn condensed milk into evaporated milk by leaving the sugar out — there's no way to remove the ~55% sugar that's already dissolved in. Evap → condensed is easy; condensed → evap is impossible.
 
-So if you keep evaporated milk and sugar on hand, you don't strictly need to stock condensed milk too. (For the cooked-milk flavor *without* the sweetness, reach for plain [evaporated milk](/a/evaporated-milk).)
+So if you keep evaporated milk and sugar on hand, you don't strictly need to stock condensed milk too. (For the cooked-milk flavor *without* the sweetness, reach for plain [evaporated milk]({{ '/a/evaporated-milk' | relative_url }}).)
 
 ## What it does in baking
 

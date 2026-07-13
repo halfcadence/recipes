@@ -7,7 +7,7 @@ chef: Eric King
 yield: one 9×5 loaf
 ---
 
-An American bakery-style banana bread: butter *and* oil, brown and white sugar, Greek yogurt, and both baking soda and powder give a light, tender, open crumb. Sweeter and less banana-forward than the creamed, honey-and-walnut [Banana Bread](/r/banana-bread), and built by the muffin method (melted butter, no creaming) for an even softer crumb.
+An American bakery-style banana bread: butter *and* oil, brown and white sugar, Greek yogurt, and both baking soda and powder give a light, tender, open crumb. Sweeter and less banana-forward than the creamed, honey-and-walnut [Banana Bread]({{ '/r/banana-bread' | relative_url }}), and built by the muffin method (melted butter, no creaming) for an even softer crumb.
 
 ## Ingredients
 
@@ -59,7 +59,7 @@ Total batter weight: **1237g**
 | Liquid (banana, egg, yogurt, butter water) | 407g | 32.9% |
 | Egg/dairy/fruit protein | 22g | 1.8% |
 
-**A sugar-forward, double-leavened loaf.** Fat lands at ~13% (from butter *and* oil), close to the loosened [Banana Bread](/r/banana-bread), but this one carries noticeably more sugar (26.7% vs ~20%) from the granulated-plus-brown blend, and less of its liquid comes from banana — so it reads sweeter and less banana-forward. Greek yogurt adds acid and tenderness, and both baking soda and baking powder keep the crumb open and fluffy. Structure sits at the high end for a quick bread (24.7%), giving it the sturdy-but-tender bakery-loaf chew.
+**A sugar-forward, double-leavened loaf.** Fat lands at ~13% (from butter *and* oil), close to the loosened [Banana Bread]({{ '/r/banana-bread' | relative_url }}), but this one carries noticeably more sugar (26.7% vs ~20%) from the granulated-plus-brown blend, and less of its liquid comes from banana — so it reads sweeter and less banana-forward. Greek yogurt adds acid and tenderness, and both baking soda and baking powder keep the crumb open and fluffy. Structure sits at the high end for a quick bread (24.7%), giving it the sturdy-but-tender bakery-loaf chew.
 
 </div>
 
@@ -68,8 +68,8 @@ Total batter weight: **1237g**
 
 - **Measure the banana.** 1½ cups mashed ≈ 340g — depending on size that's 3–5 bananas, so weigh or measure rather than counting. Too little and the loaf bakes dry; too much and the center gums.
 - **Go by temperature.** Quick breads are hard to skewer-test cleanly; the center should read **200–205°F**. About 1 hour at 350°F, but start checking at 55 minutes.
-- **Ripeness drives flavor and moisture.** Use heavily brown-spotted to nearly-black bananas. Not there yet? See [Ripening Bananas](/a/ripening-bananas).
-- **Why it's tender.** Melting the butter (rather than creaming it) plus the added oil means little gluten develops and the fat stays soft at room temperature — the crumb reads loose and moist. Fold the flour in just until the streaks vanish; overmixing turns it tough and tunnelly. This melt-and-whisk method is the main structural difference from the creamed [Banana Bread](/r/banana-bread).
+- **Ripeness drives flavor and moisture.** Use heavily brown-spotted to nearly-black bananas. Not there yet? See [Ripening Bananas]({{ '/a/ripening-bananas' | relative_url }}).
+- **Why it's tender.** Melting the butter (rather than creaming it) plus the added oil means little gluten develops and the fat stays soft at room temperature — the crumb reads loose and moist. Fold the flour in just until the streaks vanish; overmixing turns it tough and tunnelly. This melt-and-whisk method is the main structural difference from the creamed [Banana Bread]({{ '/r/banana-bread' | relative_url }}).
 - **Yogurt swaps.** Greek yogurt adds fat, moisture, and a little acid (which tenderizes and feeds the baking soda). Sour cream subs 1:1; plain whole-milk yogurt works too, or 60g heavy cream or milk for a milder tang.
 - **Pan.** A 9×5 loaf is the default; a narrower pullman tin gives a taller loaf — either works, just give a taller loaf a few extra minutes.
 - **Storage.** Keeps 2–3 days well-wrapped at room temperature (the oil and yogurt hold moisture longer than the lean pound-cake style), and freezes well sliced.

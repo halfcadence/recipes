@@ -4,6 +4,10 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-07-13
+
+- Fix broken internal cross-links site-wide. Recipe/article body links written as `[text](/r/slug)` rendered as root-absolute `/r/slug`, dropping the `/recipes` baseurl and 404'ing (e.g. the flan's "Related custards" links). Wrap all 72 such links across 26 files in Jekyll's `relative_url` filter (`[text]({{ '/r/slug' | relative_url }})`), which prepends the baseurl → `/recipes/r/slug`. Index links already used relative `./` paths and were unaffected.
+
 ## 2026-07-12
 
 - Add Bakery-Style Banana Bread recipe (Eric King / easygayoven) — the American bakery-loaf counterpart to the Yoshida base: butter *and* oil, granulated + brown sugar, Greek yogurt, both baking soda and powder, mixed by the muffin method (melted butter, no creaming) for a light, tender, open crumb. Analysis (1237g batter): fat 13.0%, sugar 26.7%, structure 24.7%. Notes cover measuring the banana, temp-based doneness (200–205°F), yogurt/cream/milk swaps, and why melt-and-whisk keeps it loose. SVG + riso PNG (two offset squares, blue/pink overprint).

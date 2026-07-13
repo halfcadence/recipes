@@ -88,7 +88,7 @@ You can also add acid to syrups. Lactic acid (the acid in yogurt and fermented f
 
 ## Our Recipes That Use This
 
-- [Whiskey Sour (Acid-Adjusted OJ)](/r/whiskey-sour-acid-adjusted-oj) — a whiskey sour with orange juice adjusted to lemon acidity.
+- [Whiskey Sour (Acid-Adjusted OJ)]({{ '/r/whiskey-sour-acid-adjusted-oj' | relative_url }}) — a whiskey sour with orange juice adjusted to lemon acidity.
 
 ## Sources
 

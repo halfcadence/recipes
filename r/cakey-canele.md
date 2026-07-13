@@ -57,14 +57,14 @@ Total batter weight: **1696g** (excludes beeswax)
 | Liquid (milk, cream, rum, egg water) | 816g | 48.1% |
 | Egg/protein | 48g | 2.8% |
 
-**Structure at 16.8% sits above the custardy sweet spot (8–14%)** — this is the firmer, slightly cakey-edged canelé that unmolds cleanly, hence the name. Fat near 9% keeps it rich. For a softer, more custardy interior, see the [Canelé](/r/canele) (~12% structure) or read the [Canelé Ratio Analysis](/a/canele-ratio-analysis).
+**Structure at 16.8% sits above the custardy sweet spot (8–14%)** — this is the firmer, slightly cakey-edged canelé that unmolds cleanly, hence the name. Fat near 9% keeps it rich. For a softer, more custardy interior, see the [Canelé]({{ '/r/canele' | relative_url }}) (~12% structure) or read the [Canelé Ratio Analysis]({{ '/a/canele-ratio-analysis' | relative_url }}).
 
 </div>
 
 <div class="notes" markdown="1">
 ## Notes
 
-- The firmer, more cake-textured canelé — full flour, full batch (~24). For a softer, more custardy interior, see the [Canelé](/r/canele).
+- The firmer, more cake-textured canelé — full flour, full batch (~24). For a softer, more custardy interior, see the [Canelé]({{ '/r/canele' | relative_url }}).
 - The 24h rest is non-negotiable — it hydrates the flour, develops flavor, and improves texture. 48h is even better.
 - Cream can be replaced by adjusting milk and butter: use 750g milk and 105g butter instead. Same fat/liquid ratio, one fewer ingredient.
 - AP flour works well as a T45 substitute — most successful home bakers use it. Avoid the DIY "cake flour" hack (AP + cornstarch) as the cornstarch adds structure that works against custardy texture.

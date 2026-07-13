@@ -53,9 +53,9 @@ You can bake any of these skillet desserts in a cake tin instead — it's mostly
 
 The 10¼-inch Field holds roughly **600–660g of batter** at a good clafoutis depth. A few recipes here are written or scaled to that:
 
-- [Cherry Clafoutis](/r/cherry-clafoutis) — sized directly for the Field No. 8 (~656g batter). The reference bake.
-- [Sour Cream Cherry Clafoutis](/r/sour-cream-cherry-clafoutis) — the base is for a small dish; the notes include a 2× version that fills the Field No. 8.
-- [Cherry Far Breton](/r/cherry-far-breton) — the dense, sliceable cousin; bakes happily in the skillet too (use enameled or stoneware if your seasoning is young, since it's also cherry-and-rum acidic).
+- [Cherry Clafoutis]({{ '/r/cherry-clafoutis' | relative_url }}) — sized directly for the Field No. 8 (~656g batter). The reference bake.
+- [Sour Cream Cherry Clafoutis]({{ '/r/sour-cream-cherry-clafoutis' | relative_url }}) — the base is for a small dish; the notes include a 2× version that fills the Field No. 8.
+- [Cherry Far Breton]({{ '/r/cherry-far-breton' | relative_url }}) — the dense, sliceable cousin; bakes happily in the skillet too (use enameled or stoneware if your seasoning is young, since it's also cherry-and-rum acidic).
 
 As a rule of thumb, any custard-batter or skillet dessert written for a "9–10 inch dish" or "9-inch skillet" will scale to the Field No. 8 at roughly 1.2–1.3× — or just fill it to the same depth and adjust the bake time up a few minutes for the extra batter.
 

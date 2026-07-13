@@ -30,7 +30,7 @@ yield: ~250g
 - White sugar keeps the coffee flavor cleanest. Brown sugar adds toffee notes. Demerara works well with darker roasts.
 - Good use for stale beans. The sugar and concentration mask flat or papery notes that show up in a regular brew.
 - Keeps 2–3 weeks refrigerated in a sealed container.
-- Use 15–30g in a [coffee manhattan](/r/coffee-manhattan) or espresso martini in place of simple syrup. Start with 15g and adjust.
+- Use 15–30g in a [coffee manhattan]({{ '/r/coffee-manhattan' | relative_url }}) or espresso martini in place of simple syrup. Start with 15g and adjust.
 - Stir 30g into 240g cold milk for Rhode Island coffee milk.
 - To scale: for every 100g water, use 15g coffee. Weigh the output and match sugar 1:1 to the liquid you collect.
 </div>

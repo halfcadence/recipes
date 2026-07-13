@@ -36,7 +36,7 @@ This table explains a lot of common baking failures:
 
 The general rule when substituting a more absorbent dry ingredient: add extra liquid equal to the difference in absorption.
 
-For example, in our [Chocolate Gateau au Chocolat](/r/chocolate-gateau-au-chocolat) adapted from the [Matcha Gateau au Chocolat](/r/matcha-gateau-au-chocolat):
+For example, in our [Chocolate Gateau au Chocolat]({{ '/r/chocolate-gateau-au-chocolat' | relative_url }}) adapted from the [Matcha Gateau au Chocolat]({{ '/r/matcha-gateau-au-chocolat' | relative_url }}):
 
 - Original: 18g matcha + 60ml milk
 - Matcha absorbs roughly 10–20% of its weight → ~2–4ml absorbed
@@ -74,7 +74,7 @@ For cookies specifically, there's a classic ratio that serves as a useful baseli
 - Extra egg yolk → richer, more fudgy
 - Extra egg white → crisper, drier
 
-When you add cocoa powder to a cookie recipe (like our [Double Chocolate Chip Cookies](/r/double-chocolate-chip-cookies)), you're effectively adding a very thirsty dry ingredient. That's why chocolate cookie recipes typically have slightly more fat or liquid than their vanilla counterparts — the cocoa needs it.
+When you add cocoa powder to a cookie recipe (like our [Double Chocolate Chip Cookies]({{ '/r/double-chocolate-chip-cookies' | relative_url }})), you're effectively adding a very thirsty dry ingredient. That's why chocolate cookie recipes typically have slightly more fat or liquid than their vanilla counterparts — the cocoa needs it.
 
 ## Applying This to Cakes
 
@@ -88,7 +88,7 @@ For meringue-based cakes like our chiffon cakes and gateau au chocolat, the bala
 
 ## Flavor Intensity vs. Hydration: The Espresso Powder Trick
 
-Sometimes you want more flavor without changing hydration at all. This is where espresso powder shines in chocolate baking — 1–2g of espresso powder dramatically intensifies chocolate flavor without absorbing any meaningful liquid. It doesn't make things taste like coffee; it amplifies the existing chocolate notes. This is why we recommend it in the [Chocolate Gateau au Chocolat](/r/chocolate-gateau-au-chocolat) notes as an alternative to increasing cocoa powder.
+Sometimes you want more flavor without changing hydration at all. This is where espresso powder shines in chocolate baking — 1–2g of espresso powder dramatically intensifies chocolate flavor without absorbing any meaningful liquid. It doesn't make things taste like coffee; it amplifies the existing chocolate notes. This is why we recommend it in the [Chocolate Gateau au Chocolat]({{ '/r/chocolate-gateau-au-chocolat' | relative_url }}) notes as an alternative to increasing cocoa powder.
 
 ## Quick Reference: Common Substitution Adjustments
 

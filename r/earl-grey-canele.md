@@ -5,7 +5,7 @@ number: 113
 yield: 12
 ---
 
-The custardy [Canelé](/r/canele) infused with Earl Grey, with orange zest and bergamot to reinforce the citrus. A London-fog canelé — alcohol-free.
+The custardy [Canelé]({{ '/r/canele' | relative_url }}) infused with Earl Grey, with orange zest and bergamot to reinforce the citrus. A London-fog canelé — alcohol-free.
 
 ## Ingredients
 
@@ -54,7 +54,7 @@ The custardy [Canelé](/r/canele) infused with Earl Grey, with orange zest and b
 - Bergamot is volatile and fades in the oven, so the recipe over-steeps and adds orange zest, a small amount of ground leaf, and a few drops of bergamot extract to keep the citrus reading. The infused milk should taste aggressively strong before baking.
 - **No alcohol.** The original used 30g Cointreau to echo the bergamot, but in a 60-minute bake the spirit is purely aromatic, not structural — orange zest steeped into the milk plus a couple drops of bergamot (or orange) extract reproduce the citrus more directly. The 30g is replaced gram-for-gram with milk so the batter's liquid balance is unchanged. For the boozy original, swap the 30g milk + extract back for 30g Cointreau.
 - The milk starts at 420g (vs the base 340g) to cover what the leaves soak up. Spent tea leaves retain roughly 2–4× their dry weight in liquid — around 2–3× for broken or bagged tea, up to ~4× for big whole leaf — so your 14g takes up somewhere near 30–55g. You don't need to nail the exact figure: after steeping you weigh the strained milk and measure back to 340g, so absorption never throws off the batter. The extra start just guarantees you still have 340g left.
-- Other technique is identical to the custardy [Canelé](/r/canele).
+- Other technique is identical to the custardy [Canelé]({{ '/r/canele' | relative_url }}).
 - Use a good loose Earl Grey; the bergamot quality is what you taste.
 </div>
 

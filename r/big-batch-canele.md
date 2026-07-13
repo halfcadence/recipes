@@ -5,7 +5,7 @@ number: 112
 yield: 24
 ---
 
-The custardy [Canelé](/r/canele) scaled to fill a full 24-mold tray. Same ratios, same method — just sized so you're not left with two empty molds.
+The custardy [Canelé]({{ '/r/canele' | relative_url }}) scaled to fill a full 24-mold tray. Same ratios, same method — just sized so you're not left with two empty molds.
 
 ## Ingredients
 
@@ -47,7 +47,7 @@ The custardy [Canelé](/r/canele) scaled to fill a full 24-mold tray. Same ratio
 <div class="notes" markdown="1">
 ## Notes
 
-- This is a straight scale-up of the custardy [Canelé](/r/canele) (~2.2×) sized to fill 24 molds at a full ~75g each. The ratios are unchanged, so it bakes identically.
+- This is a straight scale-up of the custardy [Canelé]({{ '/r/canele' | relative_url }}) (~2.2×) sized to fill 24 molds at a full ~75g each. The ratios are unchanged, so it bakes identically.
 - Eggs are kept to whole counts (2 whole + 5 yolks); the rest scales to match their real weight. The extra yolk over a strict double makes it a hair richer — on-brand for the custardy version.
 - **Oven load + start temp — don't double-compensate.** A full rack of cold molds craters the oven during the shock phase, so the *effective* temp at the molds runs well below the dial. There are two ways to fix that, and they're alternatives, not a stack:
   - **No steel, full tray:** crank the dial to **550°F** start to brute-force the effective temp back up to the ~525°F the batter wants. (Then drop to 400°F.)

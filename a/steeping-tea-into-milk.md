@@ -97,7 +97,7 @@ The same steep-and-measure-back approach works for anything you infuse into a re
 
 In every case: start over, steep, strain, weigh, and measure back to the amount the recipe needs. You get the flavor of a long infusion with none of the ratio drift.
 
-This is the method used in the [Earl Grey](/r/earl-grey-canele), [Hong Kong Milk Tea](/r/hong-kong-milk-tea-canele), and [Thai Tea](/r/thai-tea-canele) canelés.
+This is the method used in the [Earl Grey]({{ '/r/earl-grey-canele' | relative_url }}), [Hong Kong Milk Tea]({{ '/r/hong-kong-milk-tea-canele' | relative_url }}), and [Thai Tea]({{ '/r/thai-tea-canele' | relative_url }}) canelés.
 
 ## Sources
 

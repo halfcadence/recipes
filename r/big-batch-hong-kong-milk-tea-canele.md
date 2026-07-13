@@ -5,7 +5,7 @@ number: 118
 yield: 24
 ---
 
-The [Hong Kong Milk Tea Canelé](/r/hong-kong-milk-tea-canele) scaled to fill a 24-mold tray. Strong Ceylon steeped into the milk + evaporated milk for the cooked-milk note. Same ratios, same method as the single batch — just sized for the full tray (and the full-tray oven handling).
+The [Hong Kong Milk Tea Canelé]({{ '/r/hong-kong-milk-tea-canele' | relative_url }}) scaled to fill a 24-mold tray. Strong Ceylon steeped into the milk + evaporated milk for the cooked-milk note. Same ratios, same method as the single batch — just sized for the full tray (and the full-tray oven handling).
 
 ## Ingredients
 
@@ -39,7 +39,7 @@ The [Hong Kong Milk Tea Canelé](/r/hong-kong-milk-tea-canele) scaled to fill a 
 
 6. Strain through a sieve. Refrigerate overnight (24 hours minimum).
 
-7. Coat 24 molds with nonstick spray. Stir rested batter gently. Preheat oven to 525°F (550°F for a full tray with no steel — see the full-tray oven notes in [Big-Batch Canelé](/r/big-batch-canele)). Fill each mold with ~75g.
+7. Coat 24 molds with nonstick spray. Stir rested batter gently. Preheat oven to 525°F (550°F for a full tray with no steel — see the full-tray oven notes in [Big-Batch Canelé]({{ '/r/big-batch-canele' | relative_url }})). Fill each mold with ~75g.
 
 8. Bake at 525°F for 11 minutes, then drop to 400°F and bake 50–55 minutes more (a full tray browns slower; evaporated milk also browns faster, so watch the last ~10 min and pull at a deep mahogany).
 
@@ -48,8 +48,8 @@ The [Hong Kong Milk Tea Canelé](/r/hong-kong-milk-tea-canele) scaled to fill a 
 <div class="notes" markdown="1">
 ## Notes
 
-- **Straight 2.2× scale-up** of the single [Hong Kong Milk Tea Canelé](/r/hong-kong-milk-tea-canele), eggs snapped to whole counts (2 whole + 5 yolks), the rest scaled to match — identical ratios, so it bakes the same. Only the full-tray oven behavior changes.
-- **Full-tray oven handling** is the real variable at 24 molds in a home oven — preheated baking steel, hotter/longer preheat, don't open the oven to fight mushrooms, bake-12-at-a-time fallback. All of it is in [Big-Batch Canelé](/r/big-batch-canele)'s notes; it applies here unchanged.
+- **Straight 2.2× scale-up** of the single [Hong Kong Milk Tea Canelé]({{ '/r/hong-kong-milk-tea-canele' | relative_url }}), eggs snapped to whole counts (2 whole + 5 yolks), the rest scaled to match — identical ratios, so it bakes the same. Only the full-tray oven behavior changes.
+- **Full-tray oven handling** is the real variable at 24 molds in a home oven — preheated baking steel, hotter/longer preheat, don't open the oven to fight mushrooms, bake-12-at-a-time fallback. All of it is in [Big-Batch Canelé]({{ '/r/big-batch-canele' | relative_url }})'s notes; it applies here unchanged.
 - **Evaporated milk browns faster** (more lactose + milk solids), on top of the deep shell canelés already want — so favor the 400°F second stage and judge by color, not the clock.
 - Sugar is trimmed (352g vs a strict scale of the base's 374g) to offset the evaporated milk's lactose, keeping it on the less-sweet side HK milk tea is known for — finish with a condensed-milk drizzle if you want it sweeter.
 - Milk starts at 924g (vs the 748g measure-back) to cover what the leaves soak up; weigh the strained milk and measure back to 748g so absorption can't dilute the batter.
@@ -69,6 +69,6 @@ Total batter weight: **~1804g** (after straining the leaves; excludes mold coati
 | Liquid (milk, cream, evaporated milk, egg water) | 933g | 51.7% |
 | Egg/milk protein | 62g | 3.4% |
 
-**The single-batch HK milk tea ratios at 2.2× the volume** — structure ~12% (custardy), fat ~10% (the cream + evaporated milk richness), sugar trimmed to offset the evaporated lactose. Nothing about the larger batch changes the texture; only the oven's heat recovery does (see [Big-Batch Canelé](/r/big-batch-canele)).
+**The single-batch HK milk tea ratios at 2.2× the volume** — structure ~12% (custardy), fat ~10% (the cream + evaporated milk richness), sugar trimmed to offset the evaporated lactose. Nothing about the larger batch changes the texture; only the oven's heat recovery does (see [Big-Batch Canelé]({{ '/r/big-batch-canele' | relative_url }})).
 
 </div>

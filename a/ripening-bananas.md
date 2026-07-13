@@ -38,4 +38,4 @@ Use it as a rescue when your bananas are only so-so and you're baking now, but c
 - **Too far gone = fully liquid with an alcohol or acetone smell** (the sugars have fermented). Heavily black-spotted and soft is perfect; boozy and liquefied is compost.
 - **Fridge is for holding, not ripening.** It stalls an underripe banana; it only helps once the fruit is already ripe and you want to slow it down.
 
-Related: [Banana Bread](/r/banana-bread) — where all of this pays off; it's ~40% banana, so ripeness drives the flavor more than anything else.
+Related: [Banana Bread]({{ '/r/banana-bread' | relative_url }}) — where all of this pays off; it's ~40% banana, so ripeness drives the flavor more than anything else.

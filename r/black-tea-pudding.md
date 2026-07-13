@@ -37,7 +37,7 @@ A water-bath baked custard infused with black tea, finished with a little Calvad
 <div class="notes" markdown="1">
 ## Notes
 
-- A baked custard in the purin family but with no caramel — the black tea and Calvados carry the flavor. For a caramel-lined version, see [purin](/r/purin) and pour caramel into the molds first.
+- A baked custard in the purin family but with no caramel — the black tea and Calvados carry the flavor. For a caramel-lined version, see [purin]({{ '/r/purin' | relative_url }}) and pour caramel into the molds first.
 - Steep the tea strong; the milk dilutes it and the custard mutes flavors. A robust black tea (Assam, Ceylon, English Breakfast) stands up best. Earl Grey works for a bergamot version.
 - The bain-marie (water bath) is essential for gentle, even heat. Without it the custard overcooks at the edges and develops holes ("su").
 - Don't whip air into the eggs and skim the foam before baking — bubbles bake into a pitted surface.

@@ -4,7 +4,7 @@ category: articles
 permalink: /a/cream-in-custards
 ---
 
-What happens when you push the cream up in a custard — replacing some or all of the milk with heavy cream. More fat, less water, slightly less sugar: it makes a custard richer and silkier up to a point, then heavy and greasy past it, and it browns the surface faster — so you bake it a touch cooler. Written against the [Canelé](/r/canele), but the logic carries to flan, bread pudding, and quiche.
+What happens when you push the cream up in a custard — replacing some or all of the milk with heavy cream. More fat, less water, slightly less sugar: it makes a custard richer and silkier up to a point, then heavy and greasy past it, and it browns the surface faster — so you bake it a touch cooler. Written against the [Canelé]({{ '/r/canele' | relative_url }}), but the logic carries to flan, bread pudding, and quiche.
 
 ## The one swap, by the numbers
 

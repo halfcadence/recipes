@@ -63,7 +63,7 @@ Total batter weight: **821g** (excludes mold coating)
 <div class="notes" markdown="1">
 ## Notes
 
-- A soft, custardy canelé — lower flour and a touch of cornstarch for a tender, pudding-like interior. Makes ~12. For a firmer, more cake-textured version (and a full ~24 batch), see the [Cakey Canelé](/r/cakey-canele).
+- A soft, custardy canelé — lower flour and a touch of cornstarch for a tender, pudding-like interior. Makes ~12. For a firmer, more cake-textured version (and a full ~24 batch), see the [Cakey Canelé]({{ '/r/cakey-canele' | relative_url }}).
 - Lower flour (85g) plus 15g cornstarch puts total starch at ~12% of batter (vs ~17% in the cakey version) for a soft, very custardy interior — well clear of cakey.
 - The cornstarch sets the custard without forming gluten, so it firms gently rather than toughening. At 12% total this is about as custardy as you can go and still unmold.
 - **All-flour (traditional):** classic Bordeaux canelés use no cornstarch — just wheat flour. For the canonical, slightly chewier/denser interior, swap to **100g AP flour, 0 cornstarch** (keeps structure at ~12%). The cornstarch here is a deliberate tweak toward a softer, more custardy crumb, not a requirement; use it only if you prefer that texture over the traditional chew.

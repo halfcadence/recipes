@@ -73,5 +73,5 @@ Total custard: **1046g** (pâte brisée shell excluded)
 - **Tart ring.** The 8×2-inch ring is bottomless — it sits directly on the parchment so the base crisps against the tray. Lift the ring off after baking once the crust has set.
 - **Richer / taller version.** For a more custardy, modern flan, whisk 100–120g mascarpone into the finished custard (Grolet-style) and push the vanilla up. All-milk is the traditional lean version; a splash of cream in place of some milk also enriches it.
 - **Make-ahead.** This is a next-day dessert by design — the flavor and set are both better after a night in the fridge. Keeps 3–4 days refrigerated.
-- Related custards on this site: [Purin](/r/purin) (pure egg-set, no starch), [Black Tea Pudding](/r/black-tea-pudding), and the [Cream in Custards](/a/cream-in-custards) article.
+- Related custards on this site: [Purin]({{ '/r/purin' | relative_url }}) (pure egg-set, no starch), [Black Tea Pudding]({{ '/r/black-tea-pudding' | relative_url }}), and the [Cream in Custards]({{ '/a/cream-in-custards' | relative_url }}) article.
 </div>
