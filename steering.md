@@ -69,6 +69,7 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - Filenames MUST be kebab-case in the `r/` directory (e.g., `r/doenjang-jjigae.md`).
 - A link to the recipe MUST be added to `index.md` under the appropriate category.
 - Recipes not linked from `index.md` will not appear on the site.
+- Cross-links in recipe/article **body text** MUST use Jekyll's `relative_url` filter, not a bare root path: write `[Purin]({{ '/r/purin' | relative_url }})`, NOT `[Purin](/r/purin)`. A bare `/r/slug` renders as a root-absolute link that drops the site's `/recipes` baseurl and 404s. (Links in `index.md` use relative `./r/slug` paths and are fine as-is.)
 
 ## Colors
 

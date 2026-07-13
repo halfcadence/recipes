@@ -15,6 +15,7 @@ A Jekyll / GitHub Pages recipe site (`halfcadence.github.io/recipes`), risograph
 ## Hard rules (easy to get wrong)
 
 - **A recipe/article is invisible until linked from `index.md`.** Creating the file isn't enough.
+- **Body-text cross-links MUST use `relative_url`, not a bare root path.** Write `[Purin]({{ '/r/purin' | relative_url }})`, never `[Purin](/r/purin)` — a bare `/r/slug` drops the `/recipes` baseurl and 404s on the live site. (`index.md` uses relative `./r/slug` and is exempt.) Grep for regressions: `grep -rn '](/[ra]/' r/ a/`.
 - **Any change to a published page requires a `changelog.md` entry in the same commit** (steering rule). Draft/`cafe/` changes don't.
 - **Recipe numbers are sequential and unique.** Check `grep -rh "^number:" r/*.md` for the max before assigning. Drafts get **no** number.
 - **New published recipe = the full New Recipe Checklist** (steering.md): `r/{slug}.md` + SVG in `assets/illustrations/` + `_data/illustrations.yml` entry + Nova Canvas riso PNG in `assets/illustrations/gen-riso/` + `index.md` link + `changelog.md`. Each illustration must be visually distinct (max 2 shapes, blue/pink only, `viewBox="0 0 200 200"`, multiply on overlaps).
