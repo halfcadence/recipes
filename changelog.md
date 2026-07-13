@@ -6,7 +6,7 @@ permalink: /changelog/
 
 ## 2026-07-12
 
-- Add Flan Pâtissier recipe — the Parisian custard tart: a cornstarch-and-egg-set vanilla custard cooked like a pastry cream (boiled to kill the yolks' amylase), poured into a par-baked pâte brisée shell, baked hot for the dark blistered top, then chilled overnight. Sized for an 8×2-inch tart ring; notes cover the boil-the-custard rule, par-baking, chasing the dark top, and a mascarpone-enriched variant. Analysis on the custard only (crust excluded). SVG + riso PNG (pink slice, blue dark top).
+- Add Flan Pâtissier recipe — the Parisian custard tart: a cornstarch-and-egg-set vanilla custard cooked like a pastry cream (boiled to kill the yolks' amylase), poured hot into a raw (not par-baked) pâte brisée shell, baked hot for the dark blistered top, then chilled overnight. No par-bake needed — the set custard carries little free water and the long hot bake cooks the base; keep it crisp by freezing the shell hard, pouring the custard hot, and using a metal ring (par-bake given as optional insurance). Sized for an 8×2-inch tart ring; notes cover the boil-the-custard rule, chasing the dark top, and a mascarpone-enriched variant. Analysis on the custard only (crust excluded). SVG + riso PNG (pink slice, blue dark top).
 
 ## 2026-07-10
 

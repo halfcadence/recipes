@@ -5,7 +5,7 @@ number: 123
 yield: one 8-inch flan
 ---
 
-The Parisian custard tart: a thick, sliceable vanilla custard — thickened with cornstarch and set by eggs — poured into a par-baked pâte brisée shell and baked hot for a dark, blistered top. Cooked like a pastry cream first, then baked, then chilled overnight. Sized for an 8-inch × 2-inch tart ring.
+The Parisian custard tart: a thick, sliceable vanilla custard — thickened with cornstarch and set by eggs — poured hot into a raw pâte brisée shell and baked hot for a dark, blistered top. Cooked like a pastry cream first, then baked, then chilled overnight. Sized for an 8-inch × 2-inch tart ring.
 
 ## Ingredients
 
@@ -30,27 +30,25 @@ The Parisian custard tart: a thick, sliceable vanilla custard — thickened with
 
 1. **Pâte brisée:** rub the cold butter into the flour and salt until sandy with some pea-sized bits. Mix the yolk into the ice water, add, and bring together into a dough — don't overwork. Flatten, wrap, and chill at least 1 hour.
 
-2. Roll the dough 2–3mm thick. Set the 8×2-inch ring on a parchment-lined baking sheet and line it — base and full tall sides — pressing into the corner and leaving a slight overhang. Dock the base with a fork. Chill the lined ring 1 hour (or freeze 20 minutes).
+2. Roll the dough 2–3mm thick. Set the 8×2-inch ring on a parchment-lined baking sheet and line it — base and full tall sides — pressing into the corner and leaving a slight overhang. Dock the base with a fork. **Freeze the lined shell hard, at least 30 minutes** (no blind-baking needed — see notes). Preheat the oven to 400°F.
 
-3. **Blind bake:** line the shell with parchment and fill with weights. Bake at 425°F for 25 minutes, remove the weights, and bake 5 minutes more until the base is dry and pale-gold. Leave the ring on. Cool while you make the custard.
+3. **Custard:** split the vanilla beans and scrape the seeds into the 760g milk with the pods. Heat to a bare simmer, then take off the heat, cover, and steep 15 minutes. Fish out the pods.
 
-4. **Custard:** split the vanilla beans and scrape the seeds into the 760g milk with the pods. Heat to a bare simmer, then take off the heat, cover, and steep 15 minutes. Fish out the pods.
+4. Whisk the eggs, yolks, sugar, and cornstarch smooth, then whisk in the cold 100g milk. Rewarm the infused milk, then pour it into the egg mixture in a stream, whisking.
 
-5. Whisk the eggs, yolks, sugar, and cornstarch smooth, then whisk in the cold 100g milk. Rewarm the infused milk, then pour it into the egg mixture in a stream, whisking.
+5. Return everything to the pan over medium heat and whisk constantly. It will thicken, then must come to a **full boil** — let it bubble 1–2 minutes, whisking hard, until thick and glossy (~200°F). Boiling is essential: it denatures the yolks' amylase, or the set turns runny later.
 
-6. Return everything to the pan over medium heat and whisk constantly. It will thicken, then must come to a **full boil** — let it bubble 1–2 minutes, whisking hard, until thick and glossy (~200°F). Boiling is essential: it denatures the yolks' amylase, or the set turns runny later.
+6. Pour the hot custard straight onto the frozen shell, filling to ~1cm below the rim. Smooth the top. (Pouring it hot sets the base fast — part of why the raw shell doesn't go soggy.)
 
-7. Pour the hot custard into the par-baked shell, filling to ~1cm below the rim. Smooth the top.
+7. Bake at 400°F for 15 minutes to blister the top, then drop to 350°F and bake 40–55 minutes more, until the top is deeply browned (even a little scorched) and the center wobbles like set jelly. Tent with foil if the top darkens too fast.
 
-8. Bake at 400°F for 15 minutes to blister the top, then drop to 350°F and bake 40–55 minutes more, until the top is deeply browned (even a little scorched) and the center wobbles like set jelly. Tent with foil if the top darkens too fast.
-
-9. Cool completely (~2 hours), then refrigerate at least 4 hours, ideally overnight. Run a knife around the ring and lift it off. Serve cold. Best the next day.
+8. Cool completely (~2 hours), then refrigerate at least 4 hours, ideally overnight. Run a knife around the ring and lift it off. Serve cold. Best the next day.
 
 ## Analysis
 
 <div class="analysis" markdown="1">
 
-Total custard: **1046g** (par-baked pâte brisée shell excluded)
+Total custard: **1046g** (pâte brisée shell excluded)
 
 | Component | Amount | % of custard |
 |---|---|---|
@@ -69,7 +67,7 @@ Total custard: **1046g** (par-baked pâte brisée shell excluded)
 
 - **Boil the custard — really boil it.** The single most important step. It has to reach a full, glossy, bubbling boil for 1–2 minutes so the yolks' amylase is denatured; stop at "thick" without boiling and the enzyme keeps digesting the starch as it cools, and the flan sets runny. Whisk constantly so the bottom doesn't scorch.
 - **Cornstarch, not flour.** Cornstarch gives the smooth, dense, clean-slicing set; flour would taste pasty and cloud it. This isn't a clafoutis/far breton batter — it's a pastry cream that happens to be baked.
-- **Par-bake the shell.** A raw brisée base under all that wet custard is the classic soggy-bottom trap. Blind-baking sets and dries it first. Keep the dough cold and chill the lined ring before baking so the tall walls don't slump.
+- **No par-baking — but freeze the shell.** A pre-cooked pastry cream carries little free water (the cornstarch locks it into a gel), so it doesn't soak into the crust the way a thin raw liquid does in a quiche or crème caramel — and a long, hot bake cooks the raw base through. This is how nearly every French brisée and sucrée flan is made (Conticini, Lignac, Empreinte Sucrée). The three things that keep the raw base from going soggy: **freeze the lined shell hard** before filling (also stops the tall walls slumping), **pour the custard in hot** (sets the base fast), and use the **metal ring** (conducts bottom heat — the rare soggy failures happen in insulating ceramic dishes). *If you'd rather have insurance* — a cooler oven, a ceramic dish, or you just want a crisper base — blind-bake the frozen shell at 425°F for 25 min with weights, then 5 min uncovered, before filling.
 - **The dark top is the signature — chase it.** Flan parisien wants a deeply browned, blistered, almost-burnt top, which is why it starts hot. If yours is going pale, push the initial heat or hit it under the broiler for a minute at the end. A blonde top tastes underdone.
 - **Wobble, then chill — don't overbake.** Pull it while the center still jiggles like set jelly; it firms entirely on cooling. Bake until the middle is firm and it'll crack, dome, and sink. The overnight chill is not optional — slice it warm and the center runs.
 - **Tart ring.** The 8×2-inch ring is bottomless — it sits directly on the parchment so the base crisps against the tray. Lift the ring off after baking once the crust has set.
