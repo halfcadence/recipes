@@ -24,6 +24,23 @@ $dark-hair:  #2a2a2c;
 $sans: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", system-ui, sans-serif;
 $measure: 48rem;
 
+// ── Per-section palette — one color per section (a sanctioned deviation
+// from strict one-ink). Each has a saturated GROUND (white text on it,
+// used for the title field) and a lighter INK variant (used for text/rules
+// so it stays legible on the near-black dark-mode background). All pass AA.
+$sections: (
+  mains:    (#1c1cd6, #93a9ff),
+  soups:    (#c1272d, #ff8a8a),
+  sides:    (#1f7a4d, #5fd39b),
+  sweets:   (#b5157e, #ff8ad0),
+  drinks:   (#0b6e99, #57c4ea),
+  pantry:   (#5b3a9b, #b79cf0),
+  articles: (#9a5b1f, #e0a561),
+  colophon: (#3d4451, #aab4c4),
+);
+@function sec-ground($name) { @return nth(map-get($sections, $name), 1); }
+@function sec-ink($name)    { @return nth(map-get($sections, $name), 2); }
+
 // ── Reset ────────────────────────────────────────────────────────────
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -267,6 +284,36 @@ code, pre {
 code { border: 1px solid $ink; padding: 0.05em 0.3em; }
 pre { border: 1px solid $ink; padding: 0.8rem 1rem; overflow: auto; }
 pre code { border: none; padding: 0; }
+
+// ── Per-section color ────────────────────────────────────────────────
+// On a recipe page (body.section-NAME): the title field takes the section
+// GROUND, and step counters use it too. On the home directory, each
+// category head + list is tinted. Light mode uses the ground; dark mode
+// swaps to the lighter ink variant for the text/rule roles (fills keep the
+// ground, which stays legible with white text on black).
+@each $name, $pair in $sections {
+  $ground: nth($pair, 1);
+  $inkv:   nth($pair, 2);
+
+  body.section-#{$name} {
+    .post-title { background: $ground; }
+    .post-content ol > li::before { color: $ground; }
+    .analysis { border-left-color: $ground; }
+  }
+  // home directory: color the category head + item rules
+  ##{$name}.cat .cat-h,
+  .cat.section-#{$name} .cat-h { border-bottom-color: $ground; color: $ground; }
+
+  @media (prefers-color-scheme: dark) {
+    body.section-#{$name} {
+      .post-content ol > li::before { color: $inkv; }
+      .analysis { border-left-color: $inkv; }
+      // title field keeps the saturated ground (white text stays legible)
+    }
+    ##{$name}.cat .cat-h,
+    .cat.section-#{$name} .cat-h { border-bottom-color: $inkv; color: $inkv; }
+  }
+}
 
 // ── Riso-color article swatches — REAL ink colors kept (content) ─────
 .pill-sample {
