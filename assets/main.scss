@@ -2,191 +2,182 @@
 ---
 
 @import "minima";
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600&display=swap');
 
-// ── Brutalist overrides ─────────────────────────────────────────────
+// ═══════════════════════════════════════════════════════════════════
+// EXPERIMENTAL JETSET restyle
+// Helvetica only · pure black-on-white (inverts to white-on-black in
+// dark) · exactly ONE flat spot color (EJ ultramarine) · hard 1px
+// rules, zero decoration. The riso rainbow is collapsed to monochrome;
+// illustrations render grayscale. The riso-color article keeps its real
+// ink swatches — those are content, not chrome.
+// ═══════════════════════════════════════════════════════════════════
 
-// Section colors — Risograph ink colors (hex from stencil.wiki)
-// Section colors — Riso Overprint palette (Blue + Fluorescent Pink)
-// Base inks: Blue #0078bf, Fluorescent Pink #ff48b0
-// All other colors are overprints (multiply blend) or tints
-$mains: #cc2464;      // overprint (blue × pink)
-$soups: #ff48b0;      // fluorescent pink
-$sides: #80bce0;      // blue 50% tint
-$sweets: #ffa4d8;     // pink 50% tint
-$drinks: #0078bf;     // blue
-$pantry: #663878;     // overprint dark
-$articles: #804090;   // overprint mid
-$colophon: #3360a0;   // blue deep
+// ── Two base tones + one spot ────────────────────────────────────────
+$paper:    #ffffff;   // pure white
+$ink:      #000000;   // pure black — type + rules
+$grey:     #767676;   // secondary caption ONLY, used sparingly
+$spot:     #1c1cd6;   // the ONE accent — EJ ultramarine (same in both modes)
+$on-spot:  #ffffff;   // text on the spot field
 
-// Dark-mode variant for Articles — overprint mid is dark, needs lighter variant
-$articles-dark: #b080c0;
+// Dark colorway (only the two base tones swap; spot is unchanged)
+$dark-paper: #000000;
+$dark-ink:   #ffffff;
+$dark-grey:  #8f8f8f;
 
-// UI greys — all riso-derived from Midnight (#435060) + Light Gray (#88898a)
-$grey-light: #6e6f70;   // riso Light Gray ink (darkened for a11y) — notes, step counters, labels
-$grey-rule: #d2d4d6;    // 20% Midnight tint — table/note separators
-$grey-dark: #435060;    // Midnight — body text, strong de-emphasis
-$ink-black: #111;       // near-black for pills, headers
+$sans: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", system-ui, sans-serif;
 
-// Dark mode — derived from Midnight by shifting lightness
-$dark-bg:      #14181d;  // Midnight at ~8% lightness — page background
-$dark-surface: #222a34;  // Midnight at ~16% lightness — code blocks
-$dark-text:    #c9ced5;  // Midnight at ~82% lightness — body text
-$dark-muted:   $grey-light; // Light Gray — notes, meta
-$dark-rule:    #2e3843;  // Midnight at ~22% — table/note separators
-
-// Paper-colored background — warm off-white like uncoated riso stock
-$paper: #fbfaf8;
-
+// ── Base ─────────────────────────────────────────────────────────────
 body {
-  font-family: 'Bricolage Grotesque', sans-serif;
-  color: $grey-dark;
+  font-family: $sans;
+  color: $ink;
   background-color: $paper;
-  font-size: 1.0625rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: -0.006em;
+  -webkit-font-smoothing: antialiased;
 }
 
-// Header
-.site-header {
-  border-top: 1rem solid;
-  border-image: linear-gradient(to right,
-    $mains 0%, $mains 12.5%,
-    $soups 12.5%, $soups 25%,
-    $sides 25%, $sides 37.5%,
-    $sweets 37.5%, $sweets 50%,
-    $drinks 50%, $drinks 62.5%,
-    $pantry 62.5%, $pantry 75%,
-    $articles 75%, $articles 87.5%,
-    $colophon 87.5%, $colophon 100%
-  ) 1;
-  border-bottom: none;
-  min-height: auto;
-  padding: 0.625rem 0;
-}
+.wrapper { max-width: 46rem; }
 
-.site-title {
-  font-size: 1.125rem;
-  font-weight: 600;
-}
-
-// All text same size, headings just bold
+// Uniform, bold, tight — EJ sets everything in one size; scale is rationed.
 h1, h2, h3, h4, h5, h6,
-.post-content h2, .post-content h3, .post-content h4 { font-size: 1rem; font-weight: 600; }
-.post-content h2 { margin-top: 1.25rem; margin-bottom: 0.3rem; }
+.post-content h2, .post-content h3, .post-content h4 {
+  font-family: $sans;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: $ink;
+}
+.post-content h2 { margin-top: 1.4rem; margin-bottom: 0.3rem; text-transform: uppercase; letter-spacing: 0.02em; font-size: 0.8125rem; }
 .post-content h3 { margin-top: 0.9rem; margin-bottom: 0.3rem; }
-// Shared inverted pill style
+
+// ── Links: ink + underline, never colored ────────────────────────────
+a, a:visited { color: $ink; text-decoration: underline; text-underline-offset: 2px; }
+a:hover { text-decoration: none; }
+a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
+::selection { background: $spot; color: $on-spot; }
+
+// ── Site header — single ink rule, no rainbow gradient ───────────────
+.site-header {
+  border-top: 2px solid $ink;
+  border-bottom: 1px solid $ink;
+  border-image: none;
+  min-height: auto;
+  padding: 0.6rem 0;
+}
+.site-title, .site-title:visited {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+}
+.site-title a { text-decoration: none; }
+.site-title a:hover { text-decoration: underline; }
+
+// ── The inverted chip (EJ tag) — used by pills below ─────────────────
 %pill {
-  background: $ink-black;
-  color: #fff;
-  padding: 0.125em 0.375em;
+  background: $ink;
+  color: $paper;
+  padding: 0.125em 0.4em;
+  border: none;
 }
 
-// Reusable pill for color swatches (articles, colophon pages)
+// ── Recipe header ────────────────────────────────────────────────────
+.post-header { margin-bottom: 0.75rem; padding-bottom: 0.5rem; border-bottom: 1px solid $ink; }
+
+// section label — small, uppercase, ink (color is reserved for the title field)
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+  color: $ink;
+}
+.section-label a, .section-label a:visited { color: inherit; text-decoration: none; }
+.section-label a:hover { text-decoration: underline; }
+
+// recipe title — THE one spot field (the single big color moment per page)
+.post-title {
+  background: $spot;
+  color: $on-spot;
+  padding: 0.18em 0.5em;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.9rem;
+  display: inline-flex;
+  align-items: baseline;
+  line-height: 1.2;
+}
+.recipe-number {
+  font-family: $sans;
+  font-weight: 700;
+  font-size: 0.85em;
+  color: rgba($on-spot, 0.62);
+  margin-right: 0.45em;
+  letter-spacing: 0;
+}
+
+// ── Home index — section headers as ink inverted chips, auto-numbered ─
+.index { counter-reset: section; }
+.index strong {
+  @extend %pill;
+  margin-right: 0.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  counter-increment: section;
+  display: block;
+  width: fit-content;
+  margin-bottom: 0.25rem;
+}
+.index strong::before {
+  content: counter(section, decimal-leading-zero);
+  font-family: $sans;
+  font-weight: 700;
+  font-size: 0.85em;
+  color: rgba($on-spot, 0.62);
+  margin-right: 0.45em;
+}
+.index span[id] { display: block; margin-top: 0.9rem; }
+.index span[id]:first-of-type { margin-top: 0; }
+.index strong { transition: transform 0.1s ease; }
+.index strong:hover { transform: translate(1px, 1px); }
+
+// ── Riso-color article swatches — REAL ink colors kept (this is content) ─
 .pill-sample {
   display: inline-flex;
   align-items: center;
   color: #fff;
-  padding: 0.125em 0.375em;
+  padding: 0.125em 0.4em;
   margin-right: 0.2em;
   margin-bottom: 0.3em;
-  font-weight: 600;
+  font-weight: 700;
   line-height: normal;
   border: none;
 }
 .pill-sample::before {
   content: attr(data-num);
-  font-family: monospace;
-  font-size: 0.9em;
+  font-family: $sans;
+  font-size: 0.85em;
   color: rgba(255, 255, 255, 0.6);
   margin-right: 0.4em;
 }
-
-// Riso article swatch tables — swatch first, constrained widths
-.riso-swatches {
-  width: 100%;
-}
+.riso-swatches { width: 100%; }
 .riso-swatches td:first-child { width: 1%; white-space: nowrap; }
 .riso-swatches td:nth-child(2) { white-space: nowrap; }
-.riso-swatches .pill-sample {
-  display: inline-block;
-}
-.riso-swatches .section-row td {
-  font-weight: 600;
-  padding-top: 0.6rem;
-  border-bottom: none;
-}
+.riso-swatches .pill-sample { display: inline-block; }
+.riso-swatches .section-row td { font-weight: 700; padding-top: 0.6rem; border-bottom: none; }
 
-.post-title {
-  @extend %pill;
-  font-size: 1rem;
-  margin-bottom: 0.9rem;
-  display: inline-flex;
-  align-items: center;
-  line-height: normal;
-}
-.recipe-number {
-  font-family: monospace;
-  font-size: 0.9em;
-  color: rgba(255, 255, 255, 0.6);
-  margin-right: 0.4em;
-  letter-spacing: 0em;
-  line-height: 1;
-}
-.post-header { margin-bottom: 0.625rem; }
-
-// Index — section titles as inverted pills with auto-numbered counter
-.index {
-  counter-reset: section;
-}
-.index strong {
-  @extend %pill;
-  margin-right: 0.2em;
-  font-weight: 600;
-  counter-increment: section;
-  display: inline-flex;
-  align-items: center;
-  line-height: normal;
-}
-.index strong::before {
-  content: counter(section, decimal-leading-zero);
-  font-family: monospace;
-  font-size: 0.9em;
-  color: rgba(255, 255, 255, 0.6);
-  margin-right: 0.4em;
-  line-height: 1;
-}
-
-// ── Index layout toggle ──────────────────────────────────────────────
-// Set to true for block layout (pill on its own line, links below).
-// Set to false for inline layout (pill and links flow together).
-$index-block-layout: true;
-
-// Break between sections — anchor spans force a new block before each pill
-.index span[id] {
-  display: block;
-  margin-top: 0.75rem;
-}
-.index span[id]:first-of-type {
-  margin-top: 0;
-}
-
-@if $index-block-layout {
-  // Block: pill on its own line, links wrap below
-  .index strong {
-    display: block;
-    width: fit-content;
-    margin-bottom: 0.2rem;
-  }
-}
-
-
-// Tighter spacing
-.page-content { padding: 1.25rem 0; }
+// ── Spacing ──────────────────────────────────────────────────────────
+.page-content { padding: 1.5rem 0; }
 .post-content ul, .post-content ol { margin-left: 1.25rem; margin-bottom: 0.625rem; }
 .post-content li { margin-bottom: 0.125rem; }
 .post-content p { margin-bottom: 0.5rem; }
 
-// Steps — monospace counter hanging in left margin
+// Steps — bold counter hanging in the left margin (ink)
 .post-content ol {
   list-style: none;
   counter-reset: step;
@@ -198,232 +189,129 @@ $index-block-layout: true;
   margin-bottom: 0.5rem;
   position: relative;
 }
-.post-content ol > li > p {
-  margin: 0;
-}
+.post-content ol > li > p { margin: 0; }
 .post-content ol > li::before {
   content: counter(step, decimal-leading-zero);
-  font-family: monospace;
-  font-weight: 600;
+  font-family: $sans;
+  font-weight: 700;
   font-size: 0.8125em;
-  color: $grey-light;
+  color: $ink;
   position: absolute;
   left: -2.5rem;
-  top: 0.3em;
+  top: 0.25em;
 }
 
-// Links — all identical, inherit color
-a, a:visited { color: inherit; text-decoration: underline; }
-a:hover { text-decoration: none; color: inherit; }
-a:focus-visible { outline: 2px solid #0078bf; outline-offset: 2px; }
-
-// Default selection color — blue base ink
-::selection { background: rgba(#0078bf, 0.25); }
-
-// Notes — de-emphasized, tight stack with thin separators
-.notes { color: $grey-light; }
+// Notes — de-emphasized grey, thin ink separators
+.notes { color: $grey; }
 .notes h2, .notes h3 { color: inherit; }
-.notes a, .notes a:visited { color: $grey-light; }
+.notes a, .notes a:visited { color: $grey; }
 .notes ul { list-style: none; margin: 0; padding: 0; }
 .notes li { margin-bottom: 0; }
-.notes li + li { border-top: 1px solid $grey-rule; padding-top: 0.2rem; margin-top: 0.2rem; }
+.notes li + li { border-top: 1px solid $ink; padding-top: 0.2rem; margin-top: 0.2rem; }
 
-// Analysis — ingredient % breakdown on baking recipes. Distinct from notes:
-// a left accent rule in the section color, slightly inset, with its own table.
+// Analysis — left accent rule in the spot color
 .analysis {
-  border-left: 3px solid $grey-rule;
+  border-left: 3px solid $spot;
   padding-left: 1rem;
   margin: 1.5rem 0;
   font-size: 0.9375em;
 }
-.analysis h2 { font-size: 1em; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.5rem; }
+.analysis h2 { font-size: 0.8125rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.5rem; }
 .analysis table { margin-bottom: 0.6rem; }
 .analysis td:last-child { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .analysis td:first-child { width: auto; }
 
-// Sharp edges
-pre, code { border: 1px solid $ink-black; border-radius: 0; background-color: darken($paper, 3%); }
+// ── Hard edges ───────────────────────────────────────────────────────
+pre, code { border: 1px solid $ink; border-radius: 0; background-color: $paper; color: $ink; }
 
-// Minimal tables — borderless, clean
+// ── Minimal tables — borderless, 1px ink separators ──────────────────
 table { border: none; border-collapse: collapse; margin-bottom: 0.9rem; }
 table thead { display: none; }
 table tr:nth-child(even) { background: none; }
-table td { border: none; border-bottom: 1px solid $grey-rule; padding: 0.2rem 0.75rem 0.2rem 0; vertical-align: top; }
+table td { border: none; border-bottom: 1px solid $ink; padding: 0.2rem 0.75rem 0.2rem 0; vertical-align: top; }
 table tr:last-child td { border-bottom: none; }
-table td:first-child { font-weight: 600; white-space: nowrap; width: 1%; }
+table td:first-child { font-weight: 700; white-space: nowrap; width: 1%; }
 
-// ── Section theming ─────────────────────────────────────────────────
-
-.section-label {
-  font-family: monospace;
-  font-size: 0.8125em;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  margin-bottom: 0.4rem;
+// ── Section theming COLLAPSED to monochrome ──────────────────────────
+// The 8 riso section colors are gone; every section resolves to the same
+// ink + one spot. Body.section-* classes still exist harmlessly.
+body[class*="section-"] {
+  .post-title { background: $spot; color: $on-spot; }
+  .section-label { color: $ink; }
+  .site-header { border-top-color: $ink; }
+  .post-content ol > li::before { color: $ink; }
+  .post-header { border-bottom-color: $ink; }
+  .analysis { border-left-color: $spot; }
 }
-.section-label a,
-.section-label a:visited {
-  color: inherit;
-  text-decoration: none;
-}
-.section-label a:hover {
-  text-decoration: underline;
-}
+// Home index chips — all ink (no per-section color)
+.index strong { background: $ink; }
 
-@mixin themed($color) {
-  .post-title { background: $color; }
-  .section-label { color: $color; }
-  .site-header { border-image: none; border-top-color: $color; }
-  .post-content ol > li::before { color: $color; }
-  .post-header { border-bottom: 2px solid $color; padding-bottom: 0.5rem; }
-  .analysis { border-left-color: $color; }
-  ::selection { background: rgba($color, 0.25); }
-}
-
-body.section-mains { @include themed($mains); }
-body.section-soups { @include themed($soups); }
-body.section-sides { @include themed($sides); }
-body.section-sweets { @include themed($sweets); }
-body.section-drinks { @include themed($drinks); }
-body.section-pantry { @include themed($pantry); }
-body.section-articles { @include themed($articles); }
-body.section-colophon { @include themed($colophon); }
-
-// Index — keep pills in section colors
-.index strong:nth-of-type(1) { background: $mains; }
-.index strong:nth-of-type(2) { background: $soups; }
-.index strong:nth-of-type(3) { background: $sides; }
-.index strong:nth-of-type(4) { background: $sweets; }
-.index strong:nth-of-type(5) { background: $drinks; }
-.index strong:nth-of-type(6) { background: $pantry; }
-.index strong:nth-of-type(7) { background: $articles; }
-.index strong:nth-of-type(8) { background: $colophon; }
-
-// Pill hover — slight press into paper
-.index strong {
-  transition: transform 0.1s ease;
-}
-.index strong:hover {
-  transform: translate(1px, 1px);
-}
-
-// ── Dark mode ───────────────────────────────────────────────────────
-
-@media (prefers-color-scheme: dark) {
-  body { background-color: $dark-bg; color: $dark-text; }
-  a, a:visited { color: $dark-text; }
-  h1, h2, h3, h4, h5, h6 { color: $dark-text; }
-
-  // Unthemed pages (home, about, etc.) — pills become light on dark
-  .post-title { background: $dark-text; color: $dark-bg; }
-  .post-title .recipe-number { color: rgba($dark-bg, 0.5); }
-  .site-header { border-top-color: $dark-text; }
-
-  .post-meta { color: $dark-muted; }
-  .notes { color: $dark-muted; }
-  .notes h2, .notes h3 { color: inherit; }
-  .notes a, .notes a:visited { color: $dark-muted; }
-  .notes li + li { border-top-color: $dark-rule; }
-  .analysis { border-left-color: $dark-rule; }
-  blockquote { color: $dark-muted; border-left-color: $dark-rule; }
-
-  pre, code { background-color: $dark-surface; border-color: $dark-rule; color: $dark-text; }
-  .highlight, .highlighter-rouge .highlight { background: $dark-surface; }
-
-  // Syntax highlighting
-  .highlight .c, .highlight .cm, .highlight .c1, .highlight .cs { color: #6a9955; }
-  .highlight .k, .highlight .kc, .highlight .kd, .highlight .kp,
-  .highlight .kr, .highlight .kt, .highlight .o, .highlight .ow { color: #569cd6; }
-  .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd,
-  .highlight .s2, .highlight .se, .highlight .sh, .highlight .si,
-  .highlight .sx, .highlight .s1, .highlight .ss { color: #ce9178; }
-  .highlight .m, .highlight .mf, .highlight .mh, .highlight .mi,
-  .highlight .mo, .highlight .il { color: #b5cea8; }
-  .highlight .na, .highlight .nb, .highlight .no, .highlight .nv,
-  .highlight .vc, .highlight .vg, .highlight .vi, .highlight .bp { color: #9cdcfe; }
-  .highlight .nc, .highlight .ne, .highlight .nf { color: #dcdcaa; }
-  .highlight .nn, .highlight .nt { color: #4ec9b0; }
-  .highlight .ni { color: #c586c0; }
-  .highlight .err { color: #f44747; background-color: transparent; }
-  .highlight .gd { color: #f44747; }
-  .highlight .gi { color: #6a9955; }
-
-  table { color: $dark-text; }
-  table tr:nth-child(even) { background: none; }
-  table td { border-bottom-color: $dark-rule; }
-  .post-content ol > li::before { color: $dark-muted; }
-
-  // Re-apply section colors so themed pages keep their riso pills
-  @mixin themed-dark($color) {
-    .post-title { background: $color; color: #fff; }
-    .post-title .recipe-number { color: rgba(255, 255, 255, 0.6); }
-    .section-label { color: $color; }
-    .site-header { border-top-color: $color; }
-    .post-content ol > li::before { color: $color; }
-    .post-header { border-bottom-color: $color; }
-  }
-
-  body.section-mains { @include themed-dark($mains); }
-  body.section-soups { @include themed-dark($soups); }
-  body.section-sides { @include themed-dark($sides); }
-  body.section-sweets { @include themed-dark($sweets); }
-  body.section-drinks { @include themed-dark($drinks); }
-  body.section-pantry { @include themed-dark($pantry); }
-  body.section-articles { @include themed-dark($articles-dark); }
-  body.section-colophon { @include themed-dark($colophon); }
-
-  // Index Articles pill — Midnight is too dark, use lighter variant
-  .index strong:nth-of-type(7) { background: $articles-dark; }
-}
-
-// ── Image loading ───────────────────────────────────────────────────
-
-// Placeholder background while image loads, then fade in
-.illus-stamp img,
-.illus-card img {
+// ── Illustrations — duotone toward the ONE spot ink (ultramarine) ────
+// grayscale() first neutralizes the original riso inks, then the
+// sepia→hue-rotate→saturate chain pushes the neutral image toward the
+// spot blue so the drawings read as part of the single-ink system.
+// (Filter-chain is an approximation of #1c1cd6 — verify on the Mac build.)
+.illus-stamp img, .illus-card img {
   background-color: $paper;
+  filter: grayscale(1) contrast(1.05) sepia(1) hue-rotate(200deg) saturate(4.5) brightness(0.95);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-.illus-stamp img.loaded,
-.illus-card img.loaded {
-  opacity: 1;
-}
+.illus-stamp img.loaded, .illus-card img.loaded { opacity: 1; }
 
+// ═══════════════════════════════════════════════════════════════════
+// DARK — white-on-black. Only the two base tones swap; spot is unchanged.
+// ═══════════════════════════════════════════════════════════════════
 @media (prefers-color-scheme: dark) {
-  .illus-stamp img,
-  .illus-card img {
-    background-color: $dark-surface;
+  body { background-color: $dark-paper; color: $dark-ink; }
+  a, a:visited { color: $dark-ink; }
+  h1, h2, h3, h4, h5, h6 { color: $dark-ink; }
+  .site-title, .site-title a { color: $dark-ink; }
+
+  .site-header { border-top-color: $dark-ink; border-bottom-color: $dark-ink; }
+  .post-header { border-bottom-color: $dark-ink; }
+  .section-label { color: $dark-ink; }
+
+  // pills flip to white-on-black inverted chips…
+  .index strong { background: $dark-ink; color: $dark-paper; }
+  .index strong::before { color: rgba($dark-paper, 0.55); }
+
+  // …but the recipe title stays the spot field (white on ultramarine, both modes)
+  .post-title { background: $spot; color: $on-spot; }
+  .post-title .recipe-number { color: rgba($on-spot, 0.62); }
+
+  .post-meta, .notes { color: $dark-grey; }
+  .notes h2, .notes h3 { color: inherit; }
+  .notes a, .notes a:visited { color: $dark-grey; }
+  .notes li + li { border-top-color: $dark-ink; }
+  .analysis { border-left-color: $spot; }
+  blockquote { color: $dark-grey; border-left-color: $dark-ink; }
+
+  pre, code { background-color: $dark-paper; border-color: $dark-ink; color: $dark-ink; }
+  .highlight, .highlighter-rouge .highlight { background: $dark-paper; }
+
+  table { color: $dark-ink; }
+  table td { border-bottom-color: $dark-ink; }
+  .post-content ol > li::before { color: $dark-ink; }
+
+  body[class*="section-"] {
+    .post-title { background: $spot; color: $on-spot; }
+    .section-label { color: $dark-ink; }
+    .site-header { border-top-color: $dark-ink; }
+    .post-content ol > li::before { color: $dark-ink; }
+    .post-header { border-bottom-color: $dark-ink; }
   }
+
+  .illus-stamp img, .illus-card img { background-color: $dark-paper; }
 }
 
-// ── Print ───────────────────────────────────────────────────────────
-
+// ── Print ────────────────────────────────────────────────────────────
 @media print {
-  // Strip chrome
   .site-header { display: none; }
   .page-content { padding: 0; }
-
-  // Section color header bar
-  .post-header {
-    border-bottom-width: 4px;
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-  }
-
-  // Force colors to print
-  * {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-  }
-
-  // Clean single-column layout
-  body { background: #fff; font-size: 11pt; }
+  .post-header { border-bottom-width: 2px; margin-bottom: 1rem; padding-bottom: 0.5rem; }
+  * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+  body { background: #fff; color: #000; font-size: 11pt; }
   .wrapper { max-width: none; padding: 0; }
-
-  // Hide notes section label link
-  .section-label a { color: inherit; }
-
-  // No link underlines in print
   a { text-decoration: none !important; }
 }
