@@ -57,23 +57,41 @@ a:hover { text-decoration: none; }
 a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
 ::selection { background: $spot; color: $on-spot; }
 
-// ── Site header — single ink rule, no rainbow gradient ───────────────
+// ── Site header — EJ masthead: three-point baseline over a heavy rule ─
 .site-header {
-  border-top: 2px solid $ink;
-  border-bottom: 1px solid $ink;
+  border-top: none;
+  border-bottom: 2px solid $ink;
   border-image: none;
   min-height: auto;
-  padding: 0.6rem 0;
+  padding: 1.1rem 0 0.7rem;
 }
-.site-title, .site-title:visited {
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.mh-title, .mh-title:visited {
+  font-weight: 700;
+  font-size: 1.35rem;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $ink;
+}
+.mh-mid { color: $grey; font-size: 0.8125rem; }
+.mh-right, .mh-right:visited {
   font-size: 0.8125rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-decoration: none;
+  color: $ink;
 }
-.site-title a { text-decoration: none; }
-.site-title a:hover { text-decoration: underline; }
+.mh-right:hover { text-decoration: underline; }
+@media (max-width: 34rem) {
+  .masthead { flex-direction: column; gap: 0.15rem; align-items: flex-start; }
+}
 
 // ── The inverted chip (EJ tag) — used by pills below ─────────────────
 %pill {
@@ -83,68 +101,115 @@ a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
   border: none;
 }
 
-// ── Recipe header ────────────────────────────────────────────────────
-.post-header { margin-bottom: 0.75rem; padding-bottom: 0.5rem; border-bottom: 1px solid $ink; }
+// ── Recipe header — NUMERAL HERO: big number + spot-field title ──────
+.post-header { margin-bottom: 1.25rem; padding-bottom: 0; border-bottom: none; position: relative; }
 
-// section label — small, uppercase, ink (color is reserved for the title field)
+// section label — small, uppercase, ink
 .section-label {
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
   color: $ink;
 }
 .section-label a, .section-label a:visited { color: inherit; text-decoration: none; }
 .section-label a:hover { text-decoration: underline; }
 
-// recipe title — THE one spot field (the single big color moment per page)
+// the hero row: oversized number, then the title as the one spot field
+.post-hero {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  border-bottom: 2px solid $ink;
+  padding-bottom: 0.7rem;
+}
+.hero-no {
+  font-weight: 700;
+  font-size: clamp(3rem, 11vw, 5.5rem);
+  line-height: 0.8;
+  letter-spacing: -0.05em;
+  color: $ink;
+  font-variant-numeric: tabular-nums;
+}
 .post-title {
   background: $spot;
   color: $on-spot;
-  padding: 0.18em 0.5em;
-  font-size: 1.0625rem;
+  padding: 0.12em 0.4em;
+  font-size: clamp(1.5rem, 4.5vw, 2.4rem);
   font-weight: 700;
-  letter-spacing: -0.01em;
-  margin-bottom: 0.9rem;
-  display: inline-flex;
-  align-items: baseline;
-  line-height: 1.2;
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+  margin: 0;
+  display: inline;
+  text-transform: uppercase;
 }
-.recipe-number {
-  font-family: $sans;
-  font-weight: 700;
-  font-size: 0.85em;
-  color: rgba($on-spot, 0.62);
-  margin-right: 0.45em;
-  letter-spacing: 0;
-}
+.recipe-number { display: none; }  // legacy hook, superseded by .hero-no
 
-// ── Home index — section headers as ink inverted chips, auto-numbered ─
-.index { counter-reset: section; }
-.index strong {
-  @extend %pill;
-  margin-right: 0.2em;
+// duotone illustration — a small stamp hung top-right of the header
+.hero-stamp {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.hero-stamp img {
+  width: 96px; height: 96px;
+  opacity: 0; transition: opacity 0.3s ease;
+}
+.hero-stamp img.loaded { opacity: 1; }
+@media (max-width: 34rem) { .hero-stamp { display: none; } }
+
+// ── Home directory — EJ archive-style dense listing ──────────────────
+// A three-point directory bar over a heavy rule, then category blocks
+// that flow into tight multi-column lists of one-item-per-row links.
+
+.dir-bar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1.6rem 0 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid $ink;
+  font-size: 0.8125rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  counter-increment: section;
-  display: block;
-  width: fit-content;
-  margin-bottom: 0.25rem;
 }
-.index strong::before {
-  content: counter(section, decimal-leading-zero);
-  font-family: $sans;
+.dir-bar .dir-mid { color: $grey; font-weight: 400; text-transform: none; letter-spacing: 0; }
+
+.dir { margin-top: 1.6rem; }
+
+.cat { margin: 0 0 2rem; break-inside: avoid; }
+.cat-h {
+  font-size: 0.75rem;
   font-weight: 700;
-  font-size: 0.85em;
-  color: rgba($on-spot, 0.62);
-  margin-right: 0.45em;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin: 0 0 0.5rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid $ink;
 }
-.index span[id] { display: block; margin-top: 0.9rem; }
-.index span[id]:first-of-type { margin-top: 0; }
-.index strong { transition: transform 0.1s ease; }
-.index strong:hover { transform: translate(1px, 1px); }
+// dense multi-column flow — the archive grid. One item per row, tight.
+.cat-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 3 12rem;
+  column-gap: 2rem;
+}
+@media (max-width: 40rem) { .cat-list { columns: 2 9rem; column-gap: 1.25rem; } }
+.cat-list li {
+  break-inside: avoid;
+  margin: 0;
+  padding: 0.18rem 0;
+  border-bottom: 1px solid #dddddd;
+  font-size: 0.9375rem;
+  line-height: 1.25;
+}
+.cat-list a, .cat-list a:visited { text-decoration: none; display: block; }
+.cat-list a:hover { text-decoration: underline; }
 
 // ── Riso-color article swatches — REAL ink colors kept (this is content) ─
 .pill-sample {
@@ -243,21 +308,12 @@ body[class*="section-"] {
   .post-header { border-bottom-color: $ink; }
   .analysis { border-left-color: $spot; }
 }
-// Home index chips — all ink (no per-section color)
-.index strong { background: $ink; }
 
-// ── Illustrations — duotone toward the ONE spot ink (ultramarine) ────
-// grayscale() first neutralizes the original riso inks, then the
-// sepia→hue-rotate→saturate chain pushes the neutral image toward the
-// spot blue so the drawings read as part of the single-ink system.
-// (Filter-chain is an approximation of #1c1cd6 — verify on the Mac build.)
-.illus-stamp img, .illus-card img {
-  background-color: $paper;
-  filter: grayscale(1) contrast(1.05) sepia(1) hue-rotate(200deg) saturate(4.5) brightness(0.95);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-.illus-stamp img.loaded, .illus-card img.loaded { opacity: 1; }
+// ── Illustrations ────────────────────────────────────────────────────
+// The SVGs are recolored at source to single-ink ultramarine (paper made
+// transparent), so NO CSS filter — they sit clean on white or black.
+.illus-card img { opacity: 0; transition: opacity 0.3s ease; }
+.illus-card img.loaded { opacity: 1; }
 
 // ═══════════════════════════════════════════════════════════════════
 // DARK — white-on-black. Only the two base tones swap; spot is unchanged.
@@ -269,16 +325,18 @@ body[class*="section-"] {
   .site-title, .site-title a { color: $dark-ink; }
 
   .site-header { border-top-color: $dark-ink; border-bottom-color: $dark-ink; }
+  .mh-title, .mh-title:visited, .mh-right, .mh-right:visited { color: $dark-ink; }
   .post-header { border-bottom-color: $dark-ink; }
   .section-label { color: $dark-ink; }
+  .hero-no { color: $dark-ink; }
 
-  // pills flip to white-on-black inverted chips…
-  .index strong { background: $dark-ink; color: $dark-paper; }
-  .index strong::before { color: rgba($dark-paper, 0.55); }
+  // directory: rules flip to white, item separators to a dark grey
+  .dir-bar { border-bottom-color: $dark-ink; }
+  .cat-h { border-bottom-color: $dark-ink; }
+  .cat-list li { border-bottom-color: #2a2a2a; }
 
-  // …but the recipe title stays the spot field (white on ultramarine, both modes)
+  // the recipe title stays the spot field (white on ultramarine, both modes)
   .post-title { background: $spot; color: $on-spot; }
-  .post-title .recipe-number { color: rgba($on-spot, 0.62); }
 
   .post-meta, .notes { color: $dark-grey; }
   .notes h2, .notes h3 { color: inherit; }

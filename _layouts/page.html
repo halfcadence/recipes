@@ -4,30 +4,41 @@ layout: default
 <article class="post">
 
   {% assign slug = page.url | split: "/" | last | replace: ".html", "" %}
-  {% assign riso_path = "/assets/illustrations/gen-riso/" | append: slug | append: ".png" %}
   {% assign svg_path = "/assets/illustrations/" | append: slug | append: ".svg" %}
+  {% assign riso_path = "/assets/illustrations/gen-riso/" | append: slug | append: ".png" %}
   {% assign found_illus = false %}
+  {% comment %} Prefer the recolored duotone SVG; fall back to the riso PNG. {% endcomment %}
   {% for static_file in site.static_files %}
-    {% if static_file.path == riso_path %}{% assign found_illus = riso_path %}{% endif %}
+    {% if static_file.path == svg_path %}{% assign found_illus = svg_path %}{% endif %}
   {% endfor %}
   {% unless found_illus %}
     {% for static_file in site.static_files %}
-      {% if static_file.path == svg_path %}{% assign found_illus = svg_path %}{% endif %}
+      {% if static_file.path == riso_path %}{% assign found_illus = riso_path %}{% endif %}
     {% endfor %}
   {% endunless %}
+
+  {%- assign num = page.number -%}
+  {%- if num -%}
+    {%- if num < 10 -%}{%- assign padnum = num | prepend: "00" -%}
+    {%- elsif num < 100 -%}{%- assign padnum = num | prepend: "0" -%}
+    {%- else -%}{%- assign padnum = num -%}{%- endif -%}
+  {%- endif -%}
+
   <header class="post-header">
     {% if page.category %}<div class="section-label"><a href="{{ site.baseurl }}/#{{ page.category }}">{{ page.category | replace: "soups", "Soups & Hot Pots" | replace: "colophon", "Colophon" | capitalize }}</a></div>{% endif %}
-    <h1 class="post-title">{% if page.number %}<span class="recipe-number">{% if page.number < 10 %}00{{ page.number }}{% elsif page.number < 100 %}0{{ page.number }}{% else %}{{ page.number }}{% endif %}</span> {% endif %}{{ page.title | escape }}</h1>
+    <div class="post-hero">
+      {% if num %}<span class="hero-no">{{ padnum }}</span>{% endif %}
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+    </div>
+    {% if found_illus %}
+    <div class="hero-stamp">
+      <img src="{{ found_illus | relative_url }}" alt="" width="120" height="120" decoding="async" onload="this.classList.add('loaded')">
+    </div>
+    {% endif %}
   </header>
 
   <div class="post-content">
     {{ content }}
   </div>
-
-  {% if found_illus %}
-  <div class="illus-stamp" style="text-align:center;margin:3rem 0 1rem;">
-    <img src="{{ found_illus | relative_url }}" alt="" width="180" height="180" decoding="async" style="width:180px;height:180px;" onload="this.classList.add('loaded')">
-  </div>
-  {% endif %}
 
 </article>
