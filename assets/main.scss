@@ -1,248 +1,209 @@
 ---
 ---
 
-@import "minima";
-
 // ═══════════════════════════════════════════════════════════════════
-// EXPERIMENTAL JETSET restyle
-// Helvetica only · pure black-on-white (inverts to white-on-black in
-// dark) · exactly ONE flat spot color (EJ ultramarine) · hard 1px
-// rules, zero decoration. The riso rainbow is collapsed to monochrome;
-// illustrations render grayscale. The riso-color article keeps its real
-// ink swatches — those are content, not chrome.
+// Recipes — self-owned base (no minima). Experimental-Jetset spirit:
+// Helvetica, pure black-on-white inverting to white-on-black, exactly
+// ONE flat spot color (EJ ultramarine), hard 1px rules, type does the
+// work — no illustrations. Recipe-specific components, not a theme port.
 // ═══════════════════════════════════════════════════════════════════
 
-// ── Two base tones + one spot ────────────────────────────────────────
-$paper:    #ffffff;   // pure white
-$ink:      #000000;   // pure black — type + rules
-$grey:     #767676;   // secondary caption ONLY, used sparingly
-$spot:     #1c1cd6;   // the ONE accent — EJ ultramarine (same in both modes)
-$on-spot:  #ffffff;   // text on the spot field
+// ── Tokens ───────────────────────────────────────────────────────────
+$paper:    #ffffff;
+$ink:      #111111;   // near-black, softer than pure #000 for long reading
+$grey:     #6b6b6b;   // secondary text/captions
+$hair:     #e4e4e4;   // hairline row separators (light)
+$spot:     #1c1cd6;   // the ONE accent — EJ ultramarine (fixed in both modes)
+$on-spot:  #ffffff;
 
-// Dark colorway (only the two base tones swap; spot is unchanged)
-$dark-paper: #000000;
-$dark-ink:   #ffffff;
-$dark-grey:  #8f8f8f;
+$dark-paper: #0c0c0d;
+$dark-ink:   #f2f2f0;
+$dark-grey:  #9a9a98;
+$dark-hair:  #2a2a2c;
 
 $sans: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", system-ui, sans-serif;
+$measure: 48rem;
 
-// ── Base ─────────────────────────────────────────────────────────────
+// ── Reset ────────────────────────────────────────────────────────────
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
 body {
-  font-family: $sans;
+  margin: 0;
+  background: $paper;
   color: $ink;
-  background-color: $paper;
-  font-size: 1rem;
+  font-family: $sans;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: -0.006em;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
+img, svg { max-width: 100%; display: block; }
+h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: 700; }
+p { margin: 0 0 0.6rem; }
+ul, ol { margin: 0 0 0.7rem; padding-left: 1.2rem; }
+strong, b { font-weight: 700; }
 
-.wrapper { max-width: 46rem; }
+.wrapper { max-width: $measure; margin: 0 auto; padding: 0 1.5rem; }
 
-// Uniform, bold, tight — EJ sets everything in one size; scale is rationed.
-h1, h2, h3, h4, h5, h6,
-.post-content h2, .post-content h3, .post-content h4 {
-  font-family: $sans;
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  color: $ink;
-}
-.post-content h2 { margin-top: 1.4rem; margin-bottom: 0.3rem; text-transform: uppercase; letter-spacing: 0.02em; font-size: 0.8125rem; }
-.post-content h3 { margin-top: 0.9rem; margin-bottom: 0.3rem; }
-
-// ── Links: ink + underline, never colored ────────────────────────────
-a, a:visited { color: $ink; text-decoration: underline; text-underline-offset: 2px; }
+// ── Links: ink + underline, never colored (color is the one spot) ────
+a, a:visited { color: $ink; text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
 a:hover { text-decoration: none; }
 a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
 ::selection { background: $spot; color: $on-spot; }
 
-// ── Site header — EJ masthead: three-point baseline over a heavy rule ─
-.site-header {
-  border-top: none;
-  border-bottom: 2px solid $ink;
-  border-image: none;
-  min-height: auto;
-  padding: 1.1rem 0 0.7rem;
-}
+// ── Masthead — three-point baseline over a heavy rule ────────────────
+// Only the wordmark is a "title"; the middle is a quiet descriptor, the
+// right is a nav link. Sizes are deliberately different so it can't read
+// as two competing titles.
+.site-header { border-bottom: 3px solid $ink; }
 .masthead {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 1.5rem;
+  padding: 1.4rem 0 0.8rem;
 }
 .mh-title, .mh-title:visited {
   font-weight: 700;
-  font-size: 1.35rem;
-  letter-spacing: -0.03em;
+  font-size: 1.5rem;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
   text-decoration: none;
   color: $ink;
+  white-space: nowrap;
 }
-.mh-mid { color: $grey; font-size: 0.8125rem; }
-.mh-right, .mh-right:visited {
+.mh-mid {
+  flex: 1;
+  color: $grey;
   font-size: 0.8125rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-  color: $ink;
+  letter-spacing: 0;
 }
-.mh-right:hover { text-decoration: underline; }
-@media (max-width: 34rem) {
-  .masthead { flex-direction: column; gap: 0.15rem; align-items: flex-start; }
-}
-
-// ── The inverted chip (EJ tag) — used by pills below ─────────────────
-%pill {
-  background: $ink;
-  color: $paper;
-  padding: 0.125em 0.4em;
-  border: none;
-}
-
-// ── Recipe header — NUMERAL HERO: big number + spot-field title ──────
-.post-header { margin-bottom: 1.25rem; padding-bottom: 0; border-bottom: none; position: relative; }
-
-// section label — small, uppercase, ink
-.section-label {
+.mh-right, .mh-right:visited {
   font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
   text-transform: uppercase;
-  margin-bottom: 0.6rem;
+  letter-spacing: 0.08em;
+  text-decoration: none;
   color: $ink;
+  white-space: nowrap;
 }
-.section-label a, .section-label a:visited { color: inherit; text-decoration: none; }
-.section-label a:hover { text-decoration: underline; }
+.mh-right:hover { text-decoration: underline; }
+@media (max-width: 32rem) {
+  .masthead { flex-wrap: wrap; gap: 0.1rem 1rem; }
+  .mh-mid { flex-basis: 100%; order: 3; }
+}
 
-// the hero row: oversized number, then the title as the one spot field
-.post-hero {
-  display: flex;
-  align-items: baseline;
-  gap: 0.6rem;
-  flex-wrap: wrap;
-  border-bottom: 2px solid $ink;
-  padding-bottom: 0.7rem;
-}
-.hero-no {
-  font-weight: 700;
-  font-size: clamp(3rem, 11vw, 5.5rem);
-  line-height: 0.8;
-  letter-spacing: -0.05em;
-  color: $ink;
-  font-variant-numeric: tabular-nums;
-}
-.post-title {
-  background: $spot;
-  color: $on-spot;
-  padding: 0.12em 0.4em;
-  font-size: clamp(1.5rem, 4.5vw, 2.4rem);
-  font-weight: 700;
-  letter-spacing: -0.025em;
-  line-height: 1.05;
-  margin: 0;
-  display: inline;
-  text-transform: uppercase;
-}
-.recipe-number { display: none; }  // legacy hook, superseded by .hero-no
+.page-content { padding: 2rem 0 5rem; }
 
-// duotone illustration — a small stamp hung top-right of the header
-.hero-stamp {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.hero-stamp img {
-  width: 96px; height: 96px;
-  opacity: 0; transition: opacity 0.3s ease;
-}
-.hero-stamp img.loaded { opacity: 1; }
-@media (max-width: 34rem) { .hero-stamp { display: none; } }
-
-// ── Home directory — EJ archive-style dense listing ──────────────────
-// A three-point directory bar over a heavy rule, then category blocks
-// that flow into tight multi-column lists of one-item-per-row links.
-
+// ═══════════════════════════════════════════════════════════════════
+// HOME — archive directory
+// ═══════════════════════════════════════════════════════════════════
 .dir-bar {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 1rem;
-  margin: 1.6rem 0 0;
+  margin: 0 0 1.6rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid $ink;
-  font-size: 0.8125rem;
+  border-bottom: 1px solid $ink;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.1em;
 }
 .dir-bar .dir-mid { color: $grey; font-weight: 400; text-transform: none; letter-spacing: 0; }
+@media (max-width: 32rem) { .dir-bar .dir-mid { display: none; } }
 
-.dir { margin-top: 1.6rem; }
-
-.cat { margin: 0 0 2rem; break-inside: avoid; }
+.cat { margin: 0 0 2.4rem; }
 .cat-h {
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
-  margin: 0 0 0.5rem;
-  padding-bottom: 0.3rem;
-  border-bottom: 1px solid $ink;
+  letter-spacing: 0.16em;
+  margin: 0 0 0.55rem;
+  padding-bottom: 0.32rem;
+  border-bottom: 2px solid $ink;
 }
-// dense multi-column flow — the archive grid. One item per row, tight.
 .cat-list {
   list-style: none;
   margin: 0;
   padding: 0;
-  columns: 3 12rem;
-  column-gap: 2rem;
+  columns: 3 13rem;
+  column-gap: 2.2rem;
 }
-@media (max-width: 40rem) { .cat-list { columns: 2 9rem; column-gap: 1.25rem; } }
+@media (max-width: 40rem) { .cat-list { columns: 2 9rem; column-gap: 1.4rem; } }
 .cat-list li {
   break-inside: avoid;
   margin: 0;
-  padding: 0.18rem 0;
-  border-bottom: 1px solid #dddddd;
+  padding: 0.22rem 0;
+  border-bottom: 1px solid $hair;
   font-size: 0.9375rem;
-  line-height: 1.25;
+  line-height: 1.3;
 }
 .cat-list a, .cat-list a:visited { text-decoration: none; display: block; }
 .cat-list a:hover { text-decoration: underline; }
 
-// ── Riso-color article swatches — REAL ink colors kept (this is content) ─
-.pill-sample {
-  display: inline-flex;
-  align-items: center;
-  color: #fff;
-  padding: 0.125em 0.4em;
-  margin-right: 0.2em;
-  margin-bottom: 0.3em;
+// ═══════════════════════════════════════════════════════════════════
+// RECIPE / ARTICLE PAGE
+// ═══════════════════════════════════════════════════════════════════
+.post-header { margin: 0 0 1.6rem; }
+
+.section-label {
+  font-size: 0.75rem;
   font-weight: 700;
-  line-height: normal;
-  border: none;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 0.55rem;
+  color: $ink;
 }
-.pill-sample::before {
-  content: attr(data-num);
-  font-family: $sans;
-  font-size: 0.85em;
-  color: rgba(255, 255, 255, 0.6);
-  margin-right: 0.4em;
+.section-label a, .section-label a:visited { color: inherit; text-decoration: none; }
+.section-label a:hover { text-decoration: underline; }
+
+// numeral hero: oversized number + title as the one spot field
+.post-hero {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  border-bottom: 3px solid $ink;
+  padding-bottom: 0.8rem;
 }
-.riso-swatches { width: 100%; }
-.riso-swatches td:first-child { width: 1%; white-space: nowrap; }
-.riso-swatches td:nth-child(2) { white-space: nowrap; }
-.riso-swatches .pill-sample { display: inline-block; }
-.riso-swatches .section-row td { font-weight: 700; padding-top: 0.6rem; border-bottom: none; }
+.hero-no {
+  font-weight: 700;
+  font-size: clamp(2.6rem, 9vw, 4.5rem);
+  line-height: 0.8;
+  letter-spacing: -0.055em;
+  font-variant-numeric: tabular-nums;
+}
+.post-title {
+  background: $spot;
+  color: $on-spot;
+  padding: 0.1em 0.35em;
+  font-size: clamp(1.4rem, 4vw, 2.2rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.08;
+  text-transform: uppercase;
+}
+// pages with no number (about, colophon): title still the spot field, flush-left
+.post-title--plain { display: inline-block; margin-bottom: 1.4rem; }
 
-// ── Spacing ──────────────────────────────────────────────────────────
-.page-content { padding: 1.5rem 0; }
-.post-content ul, .post-content ol { margin-left: 1.25rem; margin-bottom: 0.625rem; }
-.post-content li { margin-bottom: 0.125rem; }
-.post-content p { margin-bottom: 0.5rem; }
+// ── Body content ─────────────────────────────────────────────────────
+.post-content { font-size: 1rem; }
+.post-content > p:first-child { font-size: 1.0625rem; color: $ink; }
+.post-content h2 {
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 1.8rem 0 0.5rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid $ink;
+}
+.post-content h3 { font-size: 0.9375rem; margin: 1.1rem 0 0.3rem; }
+.post-content li { margin-bottom: 0.15rem; }
 
-// Steps — bold counter hanging in the left margin (ink)
+// steps — bold number hanging in the margin
 .post-content ol {
   list-style: none;
   counter-reset: step;
@@ -251,125 +212,115 @@ a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
 }
 .post-content ol > li {
   counter-increment: step;
-  margin-bottom: 0.5rem;
   position: relative;
+  padding-left: 2.6rem;
+  margin-bottom: 0.6rem;
+  min-height: 1.4em;
 }
 .post-content ol > li > p { margin: 0; }
 .post-content ol > li::before {
   content: counter(step, decimal-leading-zero);
-  font-family: $sans;
-  font-weight: 700;
-  font-size: 0.8125em;
-  color: $ink;
   position: absolute;
-  left: -2.5rem;
-  top: 0.25em;
+  left: 0;
+  top: 0.05em;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  color: $spot;
+  font-variant-numeric: tabular-nums;
 }
 
-// Notes — de-emphasized grey, thin ink separators
-.notes { color: $grey; }
+// ── Tables — borderless, 1px hairline rows (ingredients/grind) ───────
+table { border: none; border-collapse: collapse; width: 100%; margin: 0 0 1rem; }
+table thead { display: none; }
+table td {
+  border: none;
+  border-bottom: 1px solid $hair;
+  padding: 0.3rem 0.75rem 0.3rem 0;
+  vertical-align: top;
+}
+table tr:last-child td { border-bottom: none; }
+table td:first-child { font-weight: 700; white-space: nowrap; width: 1%; font-variant-numeric: tabular-nums; }
+
+// ── Notes — de-emphasized, hairline stack ────────────────────────────
+.notes { color: $grey; font-size: 0.9375rem; margin-top: 2rem; }
 .notes h2, .notes h3 { color: inherit; }
 .notes a, .notes a:visited { color: $grey; }
 .notes ul { list-style: none; margin: 0; padding: 0; }
-.notes li { margin-bottom: 0; }
-.notes li + li { border-top: 1px solid $ink; padding-top: 0.2rem; margin-top: 0.2rem; }
+.notes li { margin: 0; }
+.notes li + li { border-top: 1px solid $hair; padding-top: 0.25rem; margin-top: 0.25rem; }
 
-// Analysis — left accent rule in the spot color
+// ── Analysis — left accent rule in the spot color ────────────────────
 .analysis {
   border-left: 3px solid $spot;
   padding-left: 1rem;
-  margin: 1.5rem 0;
-  font-size: 0.9375em;
+  margin: 1.8rem 0;
+  font-size: 0.9375rem;
 }
-.analysis h2 { font-size: 0.8125rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.5rem; }
-.analysis table { margin-bottom: 0.6rem; }
+.analysis h2 { border: none; padding: 0; margin-bottom: 0.4rem; }
 .analysis td:last-child { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
-.analysis td:first-child { width: auto; }
 
-// ── Hard edges ───────────────────────────────────────────────────────
-pre, code { border: 1px solid $ink; border-radius: 0; background-color: $paper; color: $ink; }
-
-// ── Minimal tables — borderless, 1px ink separators ──────────────────
-table { border: none; border-collapse: collapse; margin-bottom: 0.9rem; }
-table thead { display: none; }
-table tr:nth-child(even) { background: none; }
-table td { border: none; border-bottom: 1px solid $ink; padding: 0.2rem 0.75rem 0.2rem 0; vertical-align: top; }
-table tr:last-child td { border-bottom: none; }
-table td:first-child { font-weight: 700; white-space: nowrap; width: 1%; }
-
-// ── Section theming COLLAPSED to monochrome ──────────────────────────
-// The 8 riso section colors are gone; every section resolves to the same
-// ink + one spot. Body.section-* classes still exist harmlessly.
-body[class*="section-"] {
-  .post-title { background: $spot; color: $on-spot; }
-  .section-label { color: $ink; }
-  .site-header { border-top-color: $ink; }
-  .post-content ol > li::before { color: $ink; }
-  .post-header { border-bottom-color: $ink; }
-  .analysis { border-left-color: $spot; }
+// ── Code — hard-edged, mono ──────────────────────────────────────────
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
 }
+code { border: 1px solid $ink; padding: 0.05em 0.3em; }
+pre { border: 1px solid $ink; padding: 0.8rem 1rem; overflow: auto; }
+pre code { border: none; padding: 0; }
 
-// ── Illustrations ────────────────────────────────────────────────────
-// The SVGs are recolored at source to single-ink ultramarine (paper made
-// transparent), so NO CSS filter — they sit clean on white or black.
-.illus-card img { opacity: 0; transition: opacity 0.3s ease; }
-.illus-card img.loaded { opacity: 1; }
+// ── Riso-color article swatches — REAL ink colors kept (content) ─────
+.pill-sample {
+  display: inline-flex; align-items: center; color: #fff;
+  padding: 0.125em 0.4em; margin: 0 0.2em 0.3em 0; font-weight: 700; line-height: normal;
+}
+.pill-sample::before { content: attr(data-num); font-size: 0.85em; color: rgba(255,255,255,0.6); margin-right: 0.4em; }
+.riso-swatches { width: 100%; }
+.riso-swatches td:first-child { width: 1%; white-space: nowrap; }
+.riso-swatches td:nth-child(2) { white-space: nowrap; }
+.riso-swatches .pill-sample { display: inline-block; }
+.riso-swatches .section-row td { font-weight: 700; padding-top: 0.6rem; border-bottom: none; }
 
 // ═══════════════════════════════════════════════════════════════════
-// DARK — white-on-black. Only the two base tones swap; spot is unchanged.
+// DARK — white-on-black. Base tones swap; spot stays fixed.
 // ═══════════════════════════════════════════════════════════════════
 @media (prefers-color-scheme: dark) {
-  body { background-color: $dark-paper; color: $dark-ink; }
+  body { background: $dark-paper; color: $dark-ink; }
   a, a:visited { color: $dark-ink; }
   h1, h2, h3, h4, h5, h6 { color: $dark-ink; }
-  .site-title, .site-title a { color: $dark-ink; }
 
-  .site-header { border-top-color: $dark-ink; border-bottom-color: $dark-ink; }
+  .site-header { border-bottom-color: $dark-ink; }
   .mh-title, .mh-title:visited, .mh-right, .mh-right:visited { color: $dark-ink; }
-  .post-header { border-bottom-color: $dark-ink; }
-  .section-label { color: $dark-ink; }
-  .hero-no { color: $dark-ink; }
+  .mh-mid { color: $dark-grey; }
 
-  // directory: rules flip to white, item separators to a dark grey
   .dir-bar { border-bottom-color: $dark-ink; }
+  .dir-bar .dir-mid { color: $dark-grey; }
   .cat-h { border-bottom-color: $dark-ink; }
-  .cat-list li { border-bottom-color: #2a2a2a; }
+  .cat-list li { border-bottom-color: $dark-hair; }
 
-  // the recipe title stays the spot field (white on ultramarine, both modes)
-  .post-title { background: $spot; color: $on-spot; }
+  .section-label { color: $dark-ink; }
+  .post-hero { border-bottom-color: $dark-ink; }
+  .hero-no { color: $dark-ink; }
+  .post-title { background: $spot; color: $on-spot; }  // spot unchanged
+  .post-content > p:first-child { color: $dark-ink; }
+  .post-content h2 { border-bottom-color: $dark-ink; }
+  .post-content ol > li::before { color: $spot; }
 
-  .post-meta, .notes { color: $dark-grey; }
-  .notes h2, .notes h3 { color: inherit; }
+  table td { border-bottom-color: $dark-hair; }
+  .notes { color: $dark-grey; }
   .notes a, .notes a:visited { color: $dark-grey; }
-  .notes li + li { border-top-color: $dark-ink; }
+  .notes li + li { border-top-color: $dark-hair; }
   .analysis { border-left-color: $spot; }
-  blockquote { color: $dark-grey; border-left-color: $dark-ink; }
-
-  pre, code { background-color: $dark-paper; border-color: $dark-ink; color: $dark-ink; }
-  .highlight, .highlighter-rouge .highlight { background: $dark-paper; }
-
-  table { color: $dark-ink; }
-  table td { border-bottom-color: $dark-ink; }
-  .post-content ol > li::before { color: $dark-ink; }
-
-  body[class*="section-"] {
-    .post-title { background: $spot; color: $on-spot; }
-    .section-label { color: $dark-ink; }
-    .site-header { border-top-color: $dark-ink; }
-    .post-content ol > li::before { color: $dark-ink; }
-    .post-header { border-bottom-color: $dark-ink; }
-  }
-
-  .illus-stamp img, .illus-card img { background-color: $dark-paper; }
+  code, pre { border-color: $dark-ink; }
+  blockquote { color: $dark-grey; }
 }
 
 // ── Print ────────────────────────────────────────────────────────────
 @media print {
   .site-header { display: none; }
   .page-content { padding: 0; }
-  .post-header { border-bottom-width: 2px; margin-bottom: 1rem; padding-bottom: 0.5rem; }
-  * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
   body { background: #fff; color: #000; font-size: 11pt; }
   .wrapper { max-width: none; padding: 0; }
   a { text-decoration: none !important; }
+  .post-title { background: none; color: #000; padding: 0; }
+  * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
 }
