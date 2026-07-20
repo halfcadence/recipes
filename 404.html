@@ -4,36 +4,28 @@ layout: default
 ---
 
 <style>
-.four-oh-four {
-  padding: 3rem 0;
-}
+.four-oh-four { padding: 3rem 0; }
+/* single-ink misregistration: ink 404 with ONE ultramarine offset copy */
 .misreg {
   position: relative;
   display: inline-block;
-  font-size: 4rem;
-  font-weight: 600;
-  line-height: 1;
-  color: transparent;
+  font-size: clamp(4rem, 16vw, 8rem);
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  color: var(--ink, #111);
   margin-bottom: 1rem;
   isolation: isolate;
 }
-.misreg::before,
-.misreg::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 .misreg::before {
   content: "404";
-  color: #0078bf;
-  transform: translate(-3px, -2px);
+  position: absolute;
+  top: 0; left: 0;
+  color: #1c1cd6;
+  transform: translate(4px, 3px);
+  z-index: -1;
 }
-.misreg::after {
-  content: "404";
-  color: #ff48b0;
-  transform: translate(3px, 2px);
-  mix-blend-mode: multiply;
-}
+@media (prefers-color-scheme: dark) { .misreg { color: #f2f2f0; } }
 </style>
 
 <div class="four-oh-four">
