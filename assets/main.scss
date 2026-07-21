@@ -4,7 +4,8 @@
 // ═══════════════════════════════════════════════════════════════════
 // Recipes — monochrome Müller-Brockmann grid system.
 // Pure black-on-white inverting to white-on-black. NO section colors,
-// NO spot color. Helvetica everywhere + a serif accent for recipe notes.
+// NO spot color. ONE typeface — Helvetica — throughout; hierarchy comes
+// from size/weight/case, never a second family.
 // A responsive modular grid (12 → 8 → 4 columns) underlies every page.
 // ═══════════════════════════════════════════════════════════════════
 
@@ -20,7 +21,7 @@ $dark-grey:  #9a9a98;
 $dark-hair:  #2a2a2c;
 
 $sans:  "Helvetica Neue", Helvetica, Arial, "Liberation Sans", system-ui, sans-serif;
-$serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+$serif: $sans;   // single-typeface site — the old serif accent now resolves to Helvetica
 $base:  0.5rem;
 
 // ── Reset ────────────────────────────────────────────────────────────
@@ -97,17 +98,21 @@ body.home .mh-title, body.home .mh-title:visited {
 // ═══════════════════════════════════════════════════════════════════
 // HOME — directory of category modules (cQ heads)
 // ═══════════════════════════════════════════════════════════════════
-.dir { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(var(--cols), 1fr);
-  column-gap: 1.25rem; row-gap: calc(#{$base} * 6); margin-top: calc(#{$base} * 6); }
-.cat { grid-column: span 4; margin: 0; }        // 12/4 = 3-up
-.cat-h { display: flex; flex-direction: column; margin: 0 0 calc(#{$base} * 1.5); }
-.cat-h .ix { font-weight: 700; font-size: .7rem; letter-spacing: .1em; color: $grey; font-variant-numeric: tabular-nums; }
-.cat-h .lb { font-size: 1.5rem; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; line-height: .95; }
-// legacy: plain .cat-h text (if an .ix/.lb isn't present) still reads as a label
-.cat-h { font-size: 1.5rem; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; }
-.cat-list { list-style: none; margin: 0; padding: 0; }
-.cat-list li { padding: .2rem 0; border-bottom: 1px solid $hair; font-size: .9rem; line-height: 1.3; }
-.cat-list li:last-child { border-bottom: none; }
+// Each category is a full-width band; its list auto-flows into as many columns as the
+// width allows (`columns: 12rem`). This packs perfectly in numbered order (no grid gaps)
+// and lets long lists (sweets = 51) grow in WIDTH not height — no crazy vertical scroll.
+// Column count is responsive for free: ~5 cols wide → fewer → 1 on a phone.
+.dir { grid-column: 1 / -1; display: block; margin-top: calc(#{$base} * 5); }
+.cat { margin: 0 0 calc(#{$base} * 6); }
+.cat:last-child { margin-bottom: 0; }
+.cat-h { display: flex; align-items: baseline; gap: .55rem; margin: 0 0 calc(#{$base} * 1.5);
+  border-bottom: 1px solid $ink; padding-bottom: calc(#{$base} * 1);
+  font-size: 1.5rem; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; }
+.cat-h .ix { font-weight: 700; font-size: .8rem; letter-spacing: .1em; color: $grey; font-variant-numeric: tabular-nums; text-transform: none; }
+.cat-h .lb { font-size: 1.5rem; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; line-height: 1; }
+.cat-list { list-style: none; margin: 0; padding: 0;
+  columns: 12rem; column-gap: 2rem; }
+.cat-list li { padding: .2rem 0; border-bottom: 1px solid $hair; font-size: .9rem; line-height: 1.3; break-inside: avoid; }
 .cat-list a, .cat-list a:visited { text-decoration: none; display: block; }
 .cat-list a:hover { text-decoration: underline; }
 
@@ -190,19 +195,35 @@ body.section-articles .post-content tbody tr:last-child td { border-bottom: none
 .notes li { margin: 0; padding-left: 1.4em; text-indent: -1.4em; counter-increment: note; }
 .notes li::before { content: counter(note); font-family: $sans; font-weight: 700; font-size: .78em; color: $ink; margin-right: .5em; font-variant-numeric: tabular-nums; }
 
-// ── ARTICLE body (body.section-articles): prose-forward, serif standfirst ──
-body.section-articles .post-title { }
+// ── ARTICLE body (body.section-articles): prose-forward, marginalia subheads ──
+// Standfirst = the lede paragraph, set larger. More air beneath the title.
+body.section-articles .post-hero { padding-bottom: calc(#{$base} * 3); }
+body.section-articles .post-content { margin-top: calc(#{$base} * 4); }
 body.section-articles .post-content > p:first-child {
-  grid-column: 1 / 9; font-family: $serif; font-size: 1.3rem; line-height: 1.45; color: $ink; margin-top: calc(#{$base} * 3);
+  grid-column: 1 / 10; font-size: 1.3rem; line-height: 1.45; color: $ink; margin: 0 0 calc(#{$base} * 3); max-width: 40rem;
 }
+// Marginalia subhead sits in the left margin (cols 1–3); the section body reads in cols 4–10.
+// align-self:start + a matching top offset on the block that shares its row → they top-align.
 body.section-articles .post-content h2 {
-  grid-column: 1 / 4; font-size: .95rem; text-transform: lowercase; letter-spacing: -0.02em; margin: calc(#{$base} * 7) 0 0;
+  grid-column: 1 / 4; align-self: start;
+  font-size: .95rem; font-weight: 700; text-transform: lowercase; letter-spacing: -0.02em;
+  line-height: 1.4; margin: calc(#{$base} * 7) 0 0;
 }
-// article paragraphs after an h2 sit in the reading measure (cols 4–11) beside the margin head
 body.section-articles .post-content p,
-body.section-articles .post-content ul { grid-column: 4 / 11; max-width: 36rem; margin: 0 0 1rem; }
-body.section-articles .post-content > p:first-child { grid-column: 1 / 9; }
-body.section-articles .post-content ul { padding-left: 1.1rem; }
+body.section-articles .post-content ul,
+body.section-articles .post-content ol {
+  grid-column: 4 / 11; align-self: start; max-width: 36rem; margin: 0 0 1rem;
+}
+body.section-articles .post-content h2 + * { margin-top: calc(#{$base} * 7); }   // body rises with its subhead
+// undo the recipe steps/ingredient transforms so article lists render as plain lists
+body.section-articles .post-content ol { display: block; list-style: decimal; padding-left: 1.3rem; }
+body.section-articles .post-content ul { display: block; list-style: disc; padding-left: 1.3rem; }
+body.section-articles .post-content ol > li,
+body.section-articles .post-content ul > li {
+  display: list-item; grid-column: auto; margin: 0 0 .55rem; min-height: 0; }
+body.section-articles .post-content ol > li::after { content: none; }
+body.section-articles .post-content ol > li > p,
+body.section-articles .post-content ul > li > p { display: inline; grid-column: auto; max-width: none; margin: 0; }
 
 // ── Analysis block (kept, monochrome) ──
 .analysis { grid-column: 1 / 10; border-left: 3px solid $ink; padding-left: 1rem; margin: calc(#{$base} * 4) 0; }
@@ -224,21 +245,27 @@ pre code { border: none; padding: 0; }
 // ═══════════════════════════════════════════════════════════════════
 @media (max-width: 56rem) {
   :root { --cols: 8; }
-  .cat { grid-column: span 4; }                                  // 2-up
+  // home .cat bands auto-reflow via `columns:12rem` — no per-tier tuning needed.
   .post-content table { grid-column: 1 / -1; }
-  .post-content ul, body.section-articles .post-content ul { grid-column: 1 / -1; }
+  .post-content > ul { grid-column: 1 / -1; }
   body.section-articles .post-content h2 { grid-column: 1 / 3; }
-  body.section-articles .post-content p, body.section-articles .post-content > p:first-child { grid-column: 3 / -1; }
+  body.section-articles .post-content p,
+  body.section-articles .post-content ul,
+  body.section-articles .post-content ol,
+  body.section-articles .post-content > p:first-child,
   body.section-articles .post-content table { grid-column: 3 / -1; }
   .notes { grid-template-columns: repeat(2, 1fr); }        // 2-up footnotes on tablet
 }
 @media (max-width: 34rem) {
   :root { --cols: 4; }
   .mh-title { grid-column: 1 / -1; }
-  .cat { grid-column: 1 / -1; }
   .post-content table { columns: 1; }
-  body.section-articles .post-content h2 { grid-column: 1 / -1; margin-bottom: calc(#{$base} * 1); }
-  body.section-articles .post-content p { grid-column: 1 / -1; }
+  body.section-articles .post-content h2 { grid-column: 1 / -1; margin: calc(#{$base} * 5) 0 calc(#{$base} * 1); }
+  body.section-articles .post-content h2 + * { margin-top: 0; }
+  body.section-articles .post-content p,
+  body.section-articles .post-content ul,
+  body.section-articles .post-content ol,
+  body.section-articles .post-content > p:first-child,
   body.section-articles .post-content table { grid-column: 1 / -1; }
   .notes { grid-template-columns: 1fr; }                   // single-column footnotes on phones
 }
