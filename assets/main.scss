@@ -174,31 +174,44 @@ a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
 // Title, archive-style: plain flush-left text, one modest size. No color
 // fill, no oversized numeral — the restraint IS the style. The number is a
 // small tabular prefix (like the archive's date), tinted the section color.
+// Poster moment: the title as type-as-image — huge, heavy, tight, LOWERCASE
+// (the EJ move, cf. "seizoen 006/007"). Number is a big section-colored prefix
+// on its own line above; title dominates.
 .post-hero {
-  display: flex;
-  align-items: baseline;
-  gap: 0.6rem;
-  flex-wrap: nowrap;
-  border-bottom: 1px solid $ink;
-  padding-bottom: 0.5rem;
+  display: block;
+  border-bottom: 3px solid $ink;
+  padding-bottom: 0.7rem;
 }
 .hero-no {
+  display: block;
   font-weight: 700;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   line-height: 1;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
   color: $spot;                 // themed per section — the accent moment
   font-variant-numeric: tabular-nums;
-  flex: 0 0 auto;
+  margin-bottom: 0.15rem;
 }
 .post-title {
-  font-size: 1.75rem;
+  display: block;
+  font-size: clamp(2.6rem, 8vw, 5rem);
   font-weight: 700;
-  letter-spacing: -0.03em;
-  line-height: 1.05;
+  letter-spacing: -0.045em;
+  line-height: 0.9;
+  text-transform: lowercase;
   color: $ink;
 }
-.post-title--plain { display: block; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid $ink; }
+.post-title--plain {
+  display: block;
+  font-size: clamp(2.6rem, 8vw, 5rem);
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  line-height: 0.9;
+  text-transform: lowercase;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 3px solid $ink;
+}
 
 // ── Body content ─────────────────────────────────────────────────────
 .post-content { font-size: 0.9375rem; }  // 15px, matches body/explainer
