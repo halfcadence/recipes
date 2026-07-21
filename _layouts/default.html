@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body{% if page.category %} class="section-{{ page.category }}"{% endif %}>
+  <body class="{% if page.url == '/' %}home {% endif %}{% if page.category %}section-{{ page.category }}{% endif %}">
 
     {%- include header.html -%}
 

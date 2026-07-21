@@ -73,32 +73,30 @@ a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
 // Only the wordmark is a "title"; the middle is a quiet descriptor, the
 // right is a nav link. Sizes are deliberately different so it can't read
 // as two competing titles.
-.site-header { border-bottom: 3px solid $ink; }
+// Minimal masthead — small text over a thin rule (like jetset.nl's own
+// header). No big wordmark, no heavy bar. The directory bar below carries
+// the descriptor, so this stays quiet and doesn't read as a doubled header.
+.site-header { border-bottom: 1px solid $ink; }
 .masthead {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 1.5rem;
-  padding: 1.4rem 0 0.8rem;
+  padding: 0.9rem 0;
+  font-size: 0.8125rem;
 }
 .mh-title, .mh-title:visited {
   font-weight: 700;
-  font-size: 1.5rem;
-  letter-spacing: -0.04em;
+  font-size: 0.8125rem;
+  letter-spacing: 0;
   text-decoration: none;
   color: $ink;
   white-space: nowrap;
 }
-.mh-mid {
-  flex: 1;
-  color: $grey;
-  font-size: 0.8125rem;
-  letter-spacing: 0;
-}
 .mh-right, .mh-right:visited {
-  font-size: 0.875rem;
-  font-weight: 700;
-  letter-spacing: -0.01em;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  letter-spacing: 0;
   text-decoration: none;
   color: $ink;
   white-space: nowrap;
@@ -112,8 +110,17 @@ a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
 .page-content { padding: 2rem 0 5rem; }
 
 // ═══════════════════════════════════════════════════════════════════
-// HOME — archive directory
+// HOME — full-width archive directory (edge-to-edge, like jetset.nl)
 // ═══════════════════════════════════════════════════════════════════
+// The home page breaks out of the reading measure and fills the viewport,
+// with the category lists flowing into as many columns as fit — dense,
+// text-only, the way their archive index does it.
+body.home .wrapper { max-width: none; padding: 0 1.75rem; }
+body.home .page-content { padding: 1.5rem 0 5rem; }
+body.home .cat-list { columns: 4 15rem; }
+@media (min-width: 90rem) { body.home .cat-list { columns: 5 15rem; } }
+@media (max-width: 40rem) { body.home .cat-list { columns: 2 9rem; } }
+
 .dir-bar {
   display: flex;
   align-items: baseline;
