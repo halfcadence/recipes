@@ -106,7 +106,6 @@ a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
 .mh-right:hover { text-decoration: underline; }
 @media (max-width: 32rem) {
   .masthead { flex-wrap: wrap; gap: 0.1rem 1rem; }
-  .mh-mid { flex-basis: 100%; order: 3; }
 }
 
 .page-content { padding: 2rem 0 5rem; }
@@ -343,7 +342,6 @@ pre code { border: none; padding: 0; }
 
   .site-header { border-bottom-color: $dark-ink; }
   .mh-title, .mh-title:visited, .mh-right, .mh-right:visited { color: $dark-ink; }
-  .mh-mid { color: $dark-grey; }
 
   .cat-h { border-bottom-color: $dark-ink; }
   .cat-list li { border-bottom-color: $dark-hair; }
