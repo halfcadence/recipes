@@ -2,11 +2,11 @@
 
 https://halfcadence.github.io/recipes/
 
-A recipe collection styled after risograph printing. Two inks — Blue (`#0078bf`) and Fluorescent Pink (`#ff48b0`). All other colors are overprints, tints, or blends of those two.
+A recipe collection in an Experimental-Jetset style: Helvetica, pure black-on-white (inverting to white-on-black), sentence case, one accent color per section, no illustrations. Recipe titles are a big lowercase type-as-image moment; the homepage is a full-width text-only archive. (Previously a two-ink risograph look — retired; kept as an archive on the colophon pages.)
 
 ## Stack
 
-Jekyll · minima · GitHub Pages · Bricolage Grotesque · Amazon Nova Canvas (illustrations)
+Jekyll · GitHub Pages · self-owned CSS (no theme) · system Helvetica
 
 ## Layout
 
@@ -27,7 +27,7 @@ Three tiers: the published site, unfinished drafts, and repo-only planning that 
 
 ## Adding a recipe
 
-Follow the New Recipe Checklist in the [steering doc](https://halfcadence.github.io/recipes/steering/) — in short: `r/{slug}.md` with front matter (next `number`), an SVG illustration + `_data/illustrations.yml` entry + a Nova Canvas riso PNG, a link in `index.md`, and a `changelog.md` entry. Baking recipes also need an `## Analysis` block (via the `batter-analysis` skill).
+Follow the New Recipe Checklist in the [steering doc](https://halfcadence.github.io/recipes/steering/) — in short: `r/{slug}.md` with front matter (next `number`), a link in `index.md`, and a `changelog.md` entry. No illustration needed (recipe pages are type-only). Baking recipes also need an `## Analysis` block (via the `batter-analysis` skill).
 
 Untested recipes live in `drafts/` (no `number`, `permalink: /drafts/{slug}`) until baked and proven, then graduate to `r/`.
 

@@ -4,7 +4,7 @@ Conventions and gotchas for AI agents working in this repo. Read this and `steer
 
 ## What this repo is
 
-A Jekyll / GitHub Pages recipe site (`halfcadence.github.io/recipes`), risograph-styled: two inks only — Blue `#0078bf`, Fluorescent Pink `#ff48b0`, on cream `#fbfaf8`; everything else is an overprint/tint. See the README for the full layout table.
+A Jekyll / GitHub Pages recipe site (`halfcadence.github.io/recipes`), **Experimental-Jetset–styled**: self-owned CSS (no theme gem), Helvetica only, pure black-on-white inverting to white-on-black, **sentence case** (no all-caps / letter-spacing), one **per-section accent color**, no illustrations. Recipe titles are a big lowercase type-as-image moment; the homepage is a full-width text-only archive. Full rules in `steering.md` ("Design system"). See the README for the layout table. (The site was previously a two-ink risograph look with Bricolage Grotesque — retired; the `colors.html`/`illustrations*` colophon pages keep it as a labeled archive.)
 
 ## The three tiers — know which one you're touching
 
@@ -18,17 +18,24 @@ A Jekyll / GitHub Pages recipe site (`halfcadence.github.io/recipes`), risograph
 - **Body-text cross-links MUST use `relative_url`, not a bare root path.** Write `[Purin]({{ '/r/purin' | relative_url }})`, never `[Purin](/r/purin)` — a bare `/r/slug` drops the `/recipes` baseurl and 404s on the live site. (`index.md` uses relative `./r/slug` and is exempt.) Grep for regressions: `grep -rn '](/[ra]/' r/ a/`.
 - **Any change to a published page requires a `changelog.md` entry in the same commit** (steering rule). Draft/`cafe/` changes don't.
 - **Recipe numbers are sequential and unique.** Check `grep -rh "^number:" r/*.md` for the max before assigning. Drafts get **no** number.
-- **New published recipe = the full New Recipe Checklist** (steering.md): `r/{slug}.md` + SVG in `assets/illustrations/` + `_data/illustrations.yml` entry + Nova Canvas riso PNG in `assets/illustrations/gen-riso/` + `index.md` link + `changelog.md`. Each illustration must be visually distinct (max 2 shapes, blue/pink only, `viewBox="0 0 200 200"`, multiply on overlaps).
+- **New published recipe = the New Recipe Checklist** (steering.md): `r/{slug}.md` with front matter (next `number`) + `index.md` link + `changelog.md` entry. That's it — **no illustration** (recipe pages are type-only now; don't create SVGs or Nova PNGs for new recipes).
 - **Baking recipes (batters/doughs) need an `## Analysis` block** between Steps and Notes. Component grams must sum within ~2g of the stated total and percentages to ~100%. The decomposition rules + benchmarks are the single source of truth in `.kiro/skills/batter-analysis.md` — use them; don't hand-invent the numbers. Custardy canelé target: ~12% structure.
 - **Voice:** minimal, imperative, numeric, no marketing adjectives, no exclamation points. Notes are bullets in a `<div class="notes" markdown="1">`. Weights in grams (cocktails in oz); temps in °F.
 
-## Illustrations gallery is auto-generated
+## Illustrations are retired (archive only)
 
-`illustrations.html` and `illustrations-riso.html` glob `assets/illustrations/` — you don't hand-edit them. Just drop the SVG/PNG in and add the `_data/illustrations.yml` shape entry.
+Recipe pages have no illustrations. The old per-recipe SVGs + `gen-riso/*.png`
+remain only to feed the `/illustrations/` and `/illustrations-riso/` colophon
+galleries (auto-globbed from `assets/illustrations/`), which are now an archive
+of the previous system. Don't add new ones or hand-edit those gallery pages.
 
-## Nova Canvas (riso PNGs)
+## Styling lives in one place
 
-Generated via `amazon.nova-canvas-v1:0` on Bedrock using AWS profile **`shiauas-personal`** (an ada/conduit profile, `us-east-1`, auto-refreshing). The steering doc's prompt template applies. Nova is approximate — expect to generate a few and keep the best; it often ignores exact composition, which is acceptable for the abstract gallery.
+`assets/main.scss` is the entire stylesheet — self-contained, no `minima`/theme
+gem. Section colors are the `$sections` SCSS map (`(ground, ink)` per category;
+`ground` = text on white, `ink` = lighter variant for dark mode; both must pass
+AA). Color is a quiet accent only (kicker, number, step counters, rules) — never
+a filled title. Homepage full-width via `body.home`.
 
 ## Publishing / deploy
 
