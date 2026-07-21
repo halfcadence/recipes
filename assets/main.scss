@@ -85,10 +85,12 @@ a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
   padding: 0.9rem 0;
   font-size: 0.8125rem;
 }
+// wordmark: the one caps moment — tight, compressed logotype
 .mh-title, .mh-title:visited {
   font-weight: 700;
-  font-size: 0.8125rem;
-  letter-spacing: 0;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
   text-decoration: none;
   color: $ink;
   white-space: nowrap;
