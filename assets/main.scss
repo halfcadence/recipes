@@ -2,45 +2,26 @@
 ---
 
 // ═══════════════════════════════════════════════════════════════════
-// Recipes — self-owned base (no minima). Experimental-Jetset spirit:
-// Helvetica, pure black-on-white inverting to white-on-black, exactly
-// ONE flat spot color (EJ ultramarine), hard 1px rules, type does the
-// work — no illustrations. Recipe-specific components, not a theme port.
+// Recipes — monochrome Müller-Brockmann grid system.
+// Pure black-on-white inverting to white-on-black. NO section colors,
+// NO spot color. Helvetica everywhere + a serif accent for recipe notes.
+// A responsive modular grid (12 → 8 → 4 columns) underlies every page.
 // ═══════════════════════════════════════════════════════════════════
 
 // ── Tokens ───────────────────────────────────────────────────────────
 $paper:    #ffffff;
-$ink:      #111111;   // near-black, softer than pure #000 for long reading
-$grey:     #6b6b6b;   // secondary text/captions
-$hair:     #e4e4e4;   // hairline row separators (light)
-$spot:     #1c1cd6;   // the ONE accent — EJ ultramarine (fixed in both modes)
-$on-spot:  #ffffff;
+$ink:      #111111;
+$grey:     #6b6b6b;
+$hair:     #e4e4e4;
 
 $dark-paper: #0c0c0d;
 $dark-ink:   #f2f2f0;
 $dark-grey:  #9a9a98;
 $dark-hair:  #2a2a2c;
 
-$sans: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", system-ui, sans-serif;
-$measure: 48rem;
-
-// ── Per-section palette — one color per section (a sanctioned deviation
-// from strict one-ink). Colors are sampled from EJ's actual archive work
-// (dtc-season-0607, jean-prouvé, whitney-tapes, susan-bijl) — their bright
-// ink hues. Each: GROUND (accent text on white, deepened to pass AA) +
-// lighter INK (accent text on the near-black dark bg). All pass WCAG AA.
-$sections: (
-  mains:    (#0a5bd6, #4aa8ff),   // EJ blue        (#0090f0)
-  soups:    (#d81f1a, #ff7a6b),   // EJ signal red
-  sides:    (#0a7d48, #3fd98f),   // EJ green       (#00a860)
-  sweets:   (#d10a72, #ff7ac0),   // EJ pink        (#ff4890)
-  drinks:   (#0a76a3, #3fc4e5),   // EJ cyan        (#00a8d8)
-  pantry:   (#6a2bc9, #b79cff),   // violet
-  articles: (#b85c0f, #ffb04f),   // EJ orange      (#ffa848)
-  colophon: (#414753, #9aa6b8),   // neutral slate
-);
-@function sec-ground($name) { @return nth(map-get($sections, $name), 1); }
-@function sec-ink($name)    { @return nth(map-get($sections, $name), 2); }
+$sans:  "Helvetica Neue", Helvetica, Arial, "Liberation Sans", system-ui, sans-serif;
+$serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+$base:  0.5rem;
 
 // ── Reset ────────────────────────────────────────────────────────────
 *, *::before, *::after { box-sizing: border-box; }
@@ -50,299 +31,249 @@ body {
   background: $paper;
   color: $ink;
   font-family: $sans;
-  font-size: 15px;          // match the explainer's tighter, sharper scale
-  line-height: 1.46;
+  font-size: 15px;
+  line-height: 1.5;
   letter-spacing: -0.006em;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 img, svg { max-width: 100%; display: block; }
 h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: 700; }
-p { margin: 0 0 0.6rem; }
-ul, ol { margin: 0 0 0.7rem; padding-left: 1.2rem; }
 strong, b { font-weight: 700; }
-
-.wrapper { max-width: $measure; margin: 0 auto; padding: 0 1.5rem; }
-
-// ── Links: ink + underline, never colored (color is the one spot) ────
-a, a:visited { color: $ink; text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
+a, a:visited { color: $ink; text-underline-offset: 2px; text-decoration-thickness: 1px; }
 a:hover { text-decoration: none; }
-a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
-::selection { background: #ffe100; color: #111; }  // neutral yellow highlight — doesn't clash with any section color
+a:focus-visible { outline: 2px solid $ink; outline-offset: 2px; }
+::selection { background: $ink; color: $paper; }
 
-// ── Masthead — three-point baseline over a heavy rule ────────────────
-// Only the wordmark is a "title"; the middle is a quiet descriptor, the
-// right is a nav link. Sizes are deliberately different so it can't read
-// as two competing titles.
-// Minimal masthead — small text over a thin rule (like jetset.nl's own
-// header). No big wordmark, no heavy bar. The directory bar below carries
-// the descriptor, so this stays quiet and doesn't read as a doubled header.
-.site-header { border-bottom: 1px solid $ink; }
-.masthead { padding: 0.9rem 0; }
-// wordmark: the one caps moment — tight, compressed logotype
+// number helper
+.num, %num { font-variant-numeric: tabular-nums; letter-spacing: -0.05em; }
+
+// ── The responsive modular grid ──────────────────────────────────────
+// --cols scales 12 → 8 → 4. The wrapper IS the grid; everything places onto it.
+:root { --cols: 12; }
+.wrapper {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1.75rem;
+  display: grid;
+  grid-template-columns: repeat(var(--cols), 1fr);
+  column-gap: 1.25rem;
+}
+.wrapper > * { grid-column: 1 / -1; }         // default: full width
+body.home .wrapper { max-width: 72rem; }       // home directory is wider
+.page-content { padding: 0 0 calc(#{$base} * 12); }
+
+// ═══════════════════════════════════════════════════════════════════
+// SITE HEADER
+// ═══════════════════════════════════════════════════════════════════
+// Home gets the giant M8 wordmark. Inner pages get a thin right-aligned strip.
+.site-header .wrapper { padding-top: 0; padding-bottom: 0; }
+.masthead { grid-column: 1 / -1; }
+
+// default (inner pages): thin, right-aligned, no heavy rule
 .mh-title, .mh-title:visited {
-  font-weight: 700;
-  font-size: 0.9375rem;
-  text-transform: uppercase;
-  letter-spacing: -0.04em;
-  text-decoration: none;
-  color: $ink;
-  white-space: nowrap;
+  display: block;
+  grid-column: 7 / 13;
+  text-align: right;
+  font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+  color: $grey; text-decoration: none;
+  padding: calc(#{$base} * 1.5) 0 calc(#{$base} * 4);
 }
 
-.page-content { padding: 2rem 0 5rem; }
+// home: giant type-as-image wordmark + baseline count + "by halfcadence"
+body.home .masthead {
+  display: flex; align-items: baseline; gap: .6rem;
+  border-bottom: 3px solid $ink;
+  padding: calc(#{$base} * 3) 0 calc(#{$base} * 1.5);
+}
+body.home .mh-title, body.home .mh-title:visited {
+  display: inline; grid-column: auto; text-align: left; padding: 0;
+  font-weight: 700; font-size: clamp(2.6rem, 10vw, 6rem);
+  text-transform: uppercase; letter-spacing: -0.06em; line-height: .82; color: $ink;
+}
+.mh-count { font-weight: 700; font-size: clamp(1rem, 2.4vw, 1.5rem); letter-spacing: -0.02em; color: $grey; font-variant-numeric: tabular-nums; }
+.mh-by { margin-left: auto; align-self: flex-end; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: $grey; text-align: right; line-height: 1.5; }
 
 // ═══════════════════════════════════════════════════════════════════
-// HOME — full-width archive directory (edge-to-edge, like jetset.nl)
+// HOME — directory of category modules (cQ heads)
 // ═══════════════════════════════════════════════════════════════════
-// The home page breaks out of the reading measure and fills the viewport,
-// with the category lists flowing into as many columns as fit — dense,
-// text-only, the way their archive index does it.
-body.home .wrapper { max-width: none; padding: 0 1.75rem; }
-body.home .page-content { padding: 1.5rem 0 5rem; }
-body.home .cat-list { columns: 4 15rem; }
-@media (min-width: 90rem) { body.home .cat-list { columns: 5 15rem; } }
-@media (max-width: 40rem) { body.home .cat-list { columns: 2 9rem; } }
-
-
-.cat { margin: 0 0 2.4rem; }
-.cat-h {
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  margin: 0 0 0.55rem;
-}
-.cat-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  columns: 3 13rem;
-  column-gap: 2.2rem;
-}
-@media (max-width: 40rem) { .cat-list { columns: 2 9rem; column-gap: 1.4rem; } }
-.cat-list li {
-  break-inside: avoid;
-  margin: 0;
-  padding: 0.22rem 0;
-  border-bottom: 1px solid $hair;
-  font-size: 0.9375rem;
-  line-height: 1.3;
-}
+.dir { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(var(--cols), 1fr);
+  column-gap: 1.25rem; row-gap: calc(#{$base} * 6); margin-top: calc(#{$base} * 6); }
+.cat { grid-column: span 4; margin: 0; }        // 12/4 = 3-up
+.cat-h { display: flex; flex-direction: column; margin: 0 0 calc(#{$base} * 1.5); }
+.cat-h .ix { font-weight: 700; font-size: .7rem; letter-spacing: .1em; color: $grey; font-variant-numeric: tabular-nums; }
+.cat-h .lb { font-size: 1.5rem; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; line-height: .95; }
+// legacy: plain .cat-h text (if an .ix/.lb isn't present) still reads as a label
+.cat-h { font-size: 1.5rem; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; }
+.cat-list { list-style: none; margin: 0; padding: 0; }
+.cat-list li { padding: .2rem 0; border-bottom: 1px solid $hair; font-size: .9rem; line-height: 1.3; }
+.cat-list li:last-child { border-bottom: none; }
 .cat-list a, .cat-list a:visited { text-decoration: none; display: block; }
 .cat-list a:hover { text-decoration: underline; }
 
 // ═══════════════════════════════════════════════════════════════════
-// RECIPE / ARTICLE PAGE
+// RECIPE / ARTICLE PAGE — shared hero, then per-type body
 // ═══════════════════════════════════════════════════════════════════
-.post-header { margin: 0 0 1.6rem; }
+.post { display: contents; }
+.post-header { grid-column: 1 / -1; }
 
-.section-label {
-  font-size: 0.8125rem;
-  font-weight: 700;
-  letter-spacing: -0.005em;
-  margin-bottom: 0.5rem;
-  color: $ink;
-}
+.section-label { grid-column: 1 / -1; font-size: .72rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; margin-bottom: calc(#{$base} * 1.5); }
 .section-label a, .section-label a:visited { color: inherit; text-decoration: none; }
 .section-label a:hover { text-decoration: underline; }
 
-// Title, archive-style: plain flush-left text, one modest size. No color
-// fill, no oversized numeral — the restraint IS the style. The number is a
-// small tabular prefix (like the archive's date), tinted the section color.
-// Poster moment: the title as type-as-image — huge, heavy, tight, LOWERCASE
-// (the EJ move, cf. "seizoen 006/007"). Number is a big section-colored prefix
-// on its own line above; title dominates.
-.post-hero {
-  display: block;
-  border-bottom: 3px solid $ink;
-  padding-bottom: 0.7rem;
+// H7 hero: big lowercase title with a trailing superscript recipe number.
+.post-hero { grid-column: 1 / -1; padding-bottom: $base; }
+.post-title, .post-title--plain {
+  font-size: clamp(2.6rem, 9vw, 5rem); margin: 0;
+  text-transform: lowercase; font-weight: 700; letter-spacing: -0.045em; line-height: .9;
 }
-.hero-no {
-  display: block;
-  font-weight: 700;
-  font-size: 1.25rem;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  color: $spot;                 // themed per section — the accent moment
-  font-variant-numeric: tabular-nums;
-  margin-bottom: 0.15rem;
-}
-.post-title {
-  display: block;
-  font-size: clamp(2.6rem, 8vw, 5rem);
-  font-weight: 700;
-  letter-spacing: -0.045em;
-  line-height: 0.9;
-  text-transform: lowercase;
-  color: $ink;
-}
-.post-title--plain {
-  display: block;
-  font-size: clamp(2.6rem, 8vw, 5rem);
-  font-weight: 700;
-  letter-spacing: -0.045em;
-  line-height: 0.9;
-  text-transform: lowercase;
-  margin-bottom: 1.2rem;
-  padding-bottom: 0.7rem;
-  border-bottom: 3px solid $ink;
-}
+.hero-no { font-size: .3em; vertical-align: super; margin-left: .3em; color: $grey; font-weight: 700; letter-spacing: 0; font-variant-numeric: tabular-nums; }
 
-// ── Body content ─────────────────────────────────────────────────────
-.post-content { font-size: 0.9375rem; }  // 15px, matches body/explainer
-.post-content > p:first-child { font-size: 1.15rem; line-height: 1.4; color: $ink; }  // lede, like the explainer's big statement
+// lede — first paragraph of the body reads large
+.post-content { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(var(--cols), 1fr); column-gap: 1.25rem; margin-top: calc(#{$base} * 2); }
+.post-content > * { grid-column: 1 / -1; }
+.post-content > p:first-child { font-size: 1.15rem; line-height: 1.44; margin: calc(#{$base} * 3) 0 0; }
+
+// ── RECIPE body: section headers + ingredient table + steps ──
+// section headers (## Ingredients / ## Steps → h2)
 .post-content h2 {
-  font-size: 1rem;
-  letter-spacing: -0.01em;
-  margin: 1.8rem 0 0.5rem;
-  padding-bottom: 0.3rem;
-  border-bottom: 1px solid $ink;
+  grid-column: 1 / -1;
+  font-size: 1.3rem; font-weight: 700; letter-spacing: -0.035em; text-transform: lowercase;
+  line-height: 1; margin: calc(#{$base} * 8) 0 calc(#{$base} * 2.5); border: none; padding: 0;
 }
-.post-content h3 { font-size: 0.9375rem; margin: 1.1rem 0 0.3rem; }
-.post-content li { margin-bottom: 0.15rem; }
+.post-content h3 { grid-column: 1 / -1; font-size: 1rem; margin: calc(#{$base} * 3) 0 calc(#{$base} * .5); }
 
-// steps — bold number hanging in the margin
-.post-content ol {
-  list-style: none;
-  counter-reset: step;
-  padding-left: 0;
-  margin-left: 0;
+// ingredients (RECIPE markdown table only): two-col flow, quantities right, names share edge.
+// Scoped away from articles so real data tables there aren't hijacked into the qty|name grid.
+body:not(.section-articles) {
+  .post-content table { grid-column: 1 / 9; border-collapse: collapse; width: 100%; margin: 0; display: block; columns: 2 12rem; column-gap: 2.5rem; }
+  .post-content thead { display: none; }
+  .post-content tbody { display: contents; }
+  .post-content table tr { break-inside: avoid; display: grid; grid-template-columns: 3.5rem 1fr; column-gap: 1rem; padding: calc(#{$base} * .55) 0; align-items: baseline; }
+  .post-content table td { border: none; padding: 0; }
+  .post-content table td:first-child { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
 }
-.post-content ol > li {
-  counter-increment: step;
-  position: relative;
-  padding-left: 2.6rem;
-  margin-bottom: 0.6rem;
-  min-height: 1.4em;
-}
-.post-content ol > li > p { margin: 0; }
-.post-content ol > li::before {
+
+// ARTICLE data tables (comparison grids etc.): plain hairline table, header row kept.
+body.section-articles .post-content table {
+  grid-column: 4 / 11; max-width: 36rem; border-collapse: collapse; width: 100%; margin: calc(#{$base} * 1) 0 calc(#{$base} * 2); font-size: .85rem; }
+body.section-articles .post-content thead th { text-align: left; font-weight: 700; border-bottom: 1.5px solid $ink; padding: .35em .8em .35em 0; vertical-align: bottom; }
+body.section-articles .post-content tbody td { text-align: left; border-bottom: 1px solid $hair; padding: .4em .8em .4em 0; vertical-align: top; }
+body.section-articles .post-content tbody tr:last-child td { border-bottom: none; }
+
+// steps (markdown ol): text left in a reading measure, number pinned to the far-right column.
+// Each li is a subgrid row → the number lands in the last column at any --cols, never off-screen.
+.post-content ol { grid-column: 1 / -1; list-style: none; counter-reset: step; padding: 0; margin: 0;
+  display: grid; grid-template-columns: repeat(var(--cols), 1fr); column-gap: 1.25rem; row-gap: calc(#{$base} * 3.5); }
+.post-content ol > li { counter-increment: step; grid-column: 1 / -1;
+  display: grid; grid-template-columns: subgrid; }
+.post-content ol > li > p { grid-column: 1 / -2; max-width: 34rem; margin: 0; }
+.post-content ol > li::after {
   content: counter(step, decimal-leading-zero);
-  position: absolute;
-  left: 0;
-  top: 0.05em;
-  font-weight: 700;
-  font-size: 0.8125rem;
-  color: $spot;
-  font-variant-numeric: tabular-nums;
+  grid-column: -2 / -1; align-self: end; justify-self: end; text-align: right;
+  font-size: .8rem; font-weight: 400; letter-spacing: .06em; color: $grey; font-variant-numeric: tabular-nums;
 }
+// unordered lists inside content (rare): normal
+.post-content ul { grid-column: 1 / 9; margin: 0 0 1rem; padding-left: 1.1rem; }
+.post-content li { margin-bottom: .2rem; }
 
-// ── Tables — borderless, 1px hairline rows (ingredients/grind) ───────
-table { border: none; border-collapse: collapse; width: 100%; margin: 0 0 1rem; }
-table thead { display: none; }
-table td {
-  border: none;
-  border-bottom: 1px solid $hair;
-  padding: 0.3rem 0.75rem 0.3rem 0;
-  vertical-align: top;
+// ── NOTES (recipe): footnote block — serif, 3 EQUAL cols reading across (1 2 3 / 4 5 6),
+//    hairline rule over exactly the first column. One markdown <ul> → subgrid row-major flow. ──
+.notes { grid-column: 1 / -1; margin-top: calc(#{$base} * 10);
+  display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 1.25rem; }
+.notes h2 { display: none; }                     // no "notes" header (footnote convention)
+.notes::before { content: ""; grid-column: 1 / 2; grid-row: 1; border-top: 1px solid $ink; }
+.notes ul { grid-row: 2; grid-column: 1 / -1; display: grid; grid-template-columns: subgrid;
+  column-gap: 1.25rem; row-gap: calc(#{$base} * 1.5);
+  list-style: none; margin: 0; padding-top: calc(#{$base} * 1.5);
+  font-family: $serif; font-size: .85rem; line-height: 1.5; color: $grey; counter-reset: note; }
+.notes li { margin: 0; padding-left: 1.4em; text-indent: -1.4em; counter-increment: note; }
+.notes li::before { content: counter(note); font-family: $sans; font-weight: 700; font-size: .78em; color: $ink; margin-right: .5em; font-variant-numeric: tabular-nums; }
+
+// ── ARTICLE body (body.section-articles): prose-forward, serif standfirst ──
+body.section-articles .post-title { }
+body.section-articles .post-content > p:first-child {
+  grid-column: 1 / 9; font-family: $serif; font-size: 1.3rem; line-height: 1.45; color: $ink; margin-top: calc(#{$base} * 3);
 }
-table tr:last-child td { border-bottom: none; }
-table td:first-child { font-weight: 700; white-space: nowrap; width: 1%; font-variant-numeric: tabular-nums; }
-
-// ── Notes — de-emphasized, hairline stack ────────────────────────────
-.notes { color: $grey; font-size: 0.9375rem; margin-top: 2rem; }
-.notes h2, .notes h3 { color: inherit; }
-.notes a, .notes a:visited { color: $grey; }
-.notes ul { list-style: none; margin: 0; padding: 0; }
-.notes li { margin: 0; }
-.notes li + li { border-top: 1px solid $hair; padding-top: 0.25rem; margin-top: 0.25rem; }
-
-// ── Analysis — left accent rule in the spot color ────────────────────
-.analysis {
-  border-left: 3px solid $spot;
-  padding-left: 1rem;
-  margin: 1.8rem 0;
-  font-size: 0.9375rem;
+body.section-articles .post-content h2 {
+  grid-column: 1 / 4; font-size: .95rem; text-transform: lowercase; letter-spacing: -0.02em; margin: calc(#{$base} * 7) 0 0;
 }
-.analysis h2 { border: none; padding: 0; margin-bottom: 0.4rem; }
+// article paragraphs after an h2 sit in the reading measure (cols 4–11) beside the margin head
+body.section-articles .post-content p,
+body.section-articles .post-content ul { grid-column: 4 / 11; max-width: 36rem; margin: 0 0 1rem; }
+body.section-articles .post-content > p:first-child { grid-column: 1 / 9; }
+body.section-articles .post-content ul { padding-left: 1.1rem; }
+
+// ── Analysis block (kept, monochrome) ──
+.analysis { grid-column: 1 / 10; border-left: 3px solid $ink; padding-left: 1rem; margin: calc(#{$base} * 4) 0; }
+.analysis h2 { grid-column: auto; border: none; padding: 0; margin: 0 0 .4rem; }
 .analysis td:last-child { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
 
-// ── Code — hard-edged, mono ──────────────────────────────────────────
-code, pre {
-  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-  font-size: 0.875em;
-}
-code { border: 1px solid $ink; padding: 0.05em 0.3em; }
-pre { border: 1px solid $ink; padding: 0.8rem 1rem; overflow: auto; }
+// ── Code ──
+code, pre { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .875em; }
+code { border: 1px solid $ink; padding: .05em .3em; }
+pre { grid-column: 1 / 10; border: 1px solid $ink; padding: .8rem 1rem; overflow: auto; }
 pre code { border: none; padding: 0; }
 
-// ── Per-section color ────────────────────────────────────────────────
-// On a recipe page (body.section-NAME): the title field takes the section
-// GROUND, and step counters use it too. On the home directory, each
-// category head + list is tinted. Light mode uses the ground; dark mode
-// swaps to the lighter ink variant for the text/rule roles (fills keep the
-// ground, which stays legible with white text on black).
-@each $name, $pair in $sections {
-  $ground: nth($pair, 1);
-  $inkv:   nth($pair, 2);
-
-  // color is a QUIET accent only: the number prefix, the section kicker,
-  // step counters, the analysis rule. Never a filled title.
-  body.section-#{$name} {
-    .hero-no { color: $ground; }
-    .section-label { color: $ground; }
-    .post-content ol > li::before { color: $ground; }
-    .analysis { border-left-color: $ground; }
-  }
-
-  @media (prefers-color-scheme: dark) {
-    body.section-#{$name} {
-      .hero-no { color: $inkv; }
-      .section-label { color: $inkv; }
-      .post-content ol > li::before { color: $inkv; }
-      .analysis { border-left-color: $inkv; }
-    }
-  }
-}
-
-// ── Riso-color article swatches — REAL ink colors kept (content) ─────
-.pill-sample {
-  display: inline-flex; align-items: center; color: #fff;
-  padding: 0.125em 0.4em; margin: 0 0.2em 0.3em 0; font-weight: 700; line-height: normal;
-}
-.pill-sample::before { content: attr(data-num); font-size: 0.85em; color: rgba(255,255,255,0.6); margin-right: 0.4em; }
-.riso-swatches { width: 100%; }
-.riso-swatches td:first-child { width: 1%; white-space: nowrap; }
-.riso-swatches td:nth-child(2) { white-space: nowrap; }
-.riso-swatches .pill-sample { display: inline-block; }
-.riso-swatches .section-row td { font-weight: 700; padding-top: 0.6rem; border-bottom: none; }
+// riso article swatches — REAL ink colors kept (content, not chrome)
+.pill-sample { display: inline-flex; align-items: center; color: #fff; padding: .125em .4em; margin: 0 .2em .3em 0; font-weight: 700; line-height: normal; }
+.pill-sample::before { content: attr(data-num); font-size: .85em; color: rgba(255,255,255,.6); margin-right: .4em; }
 
 // ═══════════════════════════════════════════════════════════════════
-// DARK — white-on-black. Base tones swap; spot stays fixed.
+// RESPONSIVE COLUMN COUNT
+// ═══════════════════════════════════════════════════════════════════
+@media (max-width: 56rem) {
+  :root { --cols: 8; }
+  .cat { grid-column: span 4; }                                  // 2-up
+  .post-content table { grid-column: 1 / -1; }
+  .post-content ul, body.section-articles .post-content ul { grid-column: 1 / -1; }
+  body.section-articles .post-content h2 { grid-column: 1 / 3; }
+  body.section-articles .post-content p, body.section-articles .post-content > p:first-child { grid-column: 3 / -1; }
+  body.section-articles .post-content table { grid-column: 3 / -1; }
+  .notes { grid-template-columns: repeat(2, 1fr); }        // 2-up footnotes on tablet
+}
+@media (max-width: 34rem) {
+  :root { --cols: 4; }
+  .mh-title { grid-column: 1 / -1; }
+  .cat { grid-column: 1 / -1; }
+  .post-content table { columns: 1; }
+  body.section-articles .post-content h2 { grid-column: 1 / -1; margin-bottom: calc(#{$base} * 1); }
+  body.section-articles .post-content p { grid-column: 1 / -1; }
+  body.section-articles .post-content table { grid-column: 1 / -1; }
+  .notes { grid-template-columns: 1fr; }                   // single-column footnotes on phones
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// DARK — white-on-black. Base tones swap; no color to preserve.
 // ═══════════════════════════════════════════════════════════════════
 @media (prefers-color-scheme: dark) {
   body { background: $dark-paper; color: $dark-ink; }
-  a, a:visited { color: $dark-ink; }
-  h1, h2, h3, h4, h5, h6 { color: $dark-ink; }
-
-  .site-header { border-bottom-color: $dark-ink; }
-  .mh-title, .mh-title:visited { color: $dark-ink; }
-
+  a, a:visited, h1, h2, h3, h4, h5, h6 { color: $dark-ink; }
+  ::selection { background: $dark-ink; color: $dark-paper; }
+  body.home .masthead { border-bottom-color: $dark-ink; }
+  body.home .mh-title, body.home .mh-title:visited { color: $dark-ink; }
+  .mh-title, .mh-count, .mh-by, .section-label:not(.section-label a) { color: $dark-grey; }
+  body.home .mh-title { color: $dark-ink; }
   .cat-list li { border-bottom-color: $dark-hair; }
-
-  // section-label / hero-no / step counter colors are set per-section in the
-  // @each block above (dark variant). Don't override them here.
-  .post-hero { border-bottom-color: $dark-ink; }
-  .post-title { color: $dark-ink; }              // plain title, no fill
-  .post-content > p:first-child { color: $dark-ink; }
-  .post-content h2 { border-bottom-color: $dark-ink; }
-
-  table td { border-bottom-color: $dark-hair; }
-  .notes { color: $dark-grey; }
-  .notes a, .notes a:visited { color: $dark-grey; }
-  .notes li + li { border-top-color: $dark-hair; }
-  .analysis { border-left-color: $spot; }
+  .post-content table td:first-child { color: $dark-ink; }
+  .post-content ol > li::after { color: $dark-grey; }
+  .post-content h2 { color: $dark-ink; }
+  .notes::before { border-top-color: $dark-ink; }
+  .notes ul { color: $dark-grey; }
+  .notes li::before { color: $dark-ink; }
+  body.section-articles .post-content > p:first-child { color: $dark-ink; }
+  body.section-articles .post-content thead th { border-bottom-color: $dark-ink; }
+  body.section-articles .post-content tbody td { border-bottom-color: $dark-hair; }
+  .analysis { border-left-color: $dark-ink; }
   code, pre { border-color: $dark-ink; }
-  blockquote { color: $dark-grey; }
 }
 
 // ── Print ────────────────────────────────────────────────────────────
 @media print {
   .site-header { display: none; }
-  .page-content { padding: 0; }
   body { background: #fff; color: #000; font-size: 11pt; }
-  .wrapper { max-width: none; padding: 0; }
+  .wrapper { max-width: none; padding: 0; display: block; }
+  .post, .post-content, .dir, .notes, .post-content ol, .post-content table { display: block; }
   a { text-decoration: none !important; }
-  .post-title { background: none; color: #000; padding: 0; }
   * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
 }

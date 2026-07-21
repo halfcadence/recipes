@@ -12,14 +12,9 @@ layout: default
 
   <header class="post-header">
     {% if page.category %}<div class="section-label"><a href="{{ site.baseurl }}/#{{ page.category }}">{{ page.category | replace: "soups", "Soups & Hot Pots" | replace: "colophon", "Colophon" | capitalize }}</a></div>{% endif %}
-    {% if num %}
     <div class="post-hero">
-      <span class="hero-no">{{ padnum }}</span>
-      <h1 class="post-title">{{ page.title | escape }}</h1>
+      <h1 class="post-title">{{ page.title | escape }}{% if num %}<span class="hero-no">{{ padnum }}</span>{% endif %}</h1>
     </div>
-    {% else %}
-    <h1 class="post-title post-title--plain">{{ page.title | escape }}</h1>
-    {% endif %}
   </header>
 
   <div class="post-content">

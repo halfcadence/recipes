@@ -2,6 +2,10 @@
   <div class="wrapper">
     <div class="masthead">
       <a class="mh-title" rel="author" href="{{ "/" | relative_url }}">Recipes</a>
+      {%- if page.url == '/' -%}
+        <span class="mh-count">124</span>
+        <span class="mh-by">by<br>halfcadence</span>
+      {%- endif -%}
     </div>
   </div>
 </header>
