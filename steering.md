@@ -71,35 +71,39 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - Recipes not linked from `index.md` will not appear on the site.
 - Cross-links in recipe/article **body text** MUST use Jekyll's `relative_url` filter, not a bare root path: write `[Purin]({{ '/r/purin' | relative_url }})`, NOT `[Purin](/r/purin)`. A bare `/r/slug` renders as a root-absolute link that drops the site's `/recipes` baseurl and 404s. (Links in `index.md` use relative `./r/slug` paths and are fine as-is.)
 
-## Colors
+## Design system — Experimental Jetset
 
-- The site uses Risograph ink colors exclusively. All UI colors MUST be actual riso ink hex values from [stencil.wiki](https://stencil.wiki/colors).
-- Each category has a riso ink color defined in `assets/main.scss`. New categories MUST be assigned a riso ink color and added to both the light and dark themed mixins.
-- UI grays are derived from Riso Midnight (`#435060`) and Riso Light Gray (`#88898a`). Generic grays like `#666`, `#999`, `#ccc` MUST NOT be used.
-- Dark mode colors MUST be derived from Midnight at varying lightness levels, not arbitrary neutral grays.
-- The Articles section uses a lighter Midnight variant (`#8b96a3`) in dark mode because the standard Midnight is too dark against the dark background.
-- Inline color swatches (e.g., in the riso article) SHOULD use the `.pill-sample` class for consistency with homepage pills.
+The site follows an **Experimental Jetset** house style: Helvetica only, pure
+black-on-white inverting to white-on-black, hard 1px rules, and **hierarchy by
+weight + one color accent — never by all-caps or letter-spacing.** (Previously
+the site used a two-ink risograph look with Bricolage Grotesque; that is retired.
+The `colors.html` / `illustrations*` colophon pages preserve the riso palette as
+a labeled archive, and the riso-color *article* keeps its swatches as content.)
+
+- **Type:** `Helvetica Neue, Helvetica, Arial, sans-serif`. Base 15px / 1.46.
+  Sentence case everywhere — `text-transform: uppercase` MUST NOT be used, and
+  `letter-spacing` stays near-normal (tight negative on large type, ~0 on small).
+  Hierarchy is weight (400 body / 700 headings) plus the accent color.
+- **Base tones:** pure `#111` on `#fff` (light), inverting to `#f2f2f0` on
+  `#0c0c0d` (dark). Only the two base tones swap between modes.
+- **Per-section color:** each category has ONE color, defined in the `$sections`
+  SCSS map with a `(ground, ink)` pair — `ground` for text on white (light mode),
+  the lighter `ink` variant for text on black (dark mode). Both MUST pass WCAG AA
+  (≥4.5:1) on their background. A new category MUST be added to `$sections`.
+- Color is a **quiet accent only** — the section kicker, the recipe number prefix,
+  step counters, and rules. NEVER a filled title field or a big color block.
 - `print-color-adjust: exact` SHOULD be used when colors need to survive printing.
-- The header bar on unthemed pages (homepage, about) shows all 8 section colors as segments. Themed pages show a solid bar in the section color.
 
-## Illustrations
+## Illustrations — none
 
-- Illustrations MUST use only the two base inks: Blue (`#0078bf`) and Fluorescent Pink (`#ff48b0`).
-- Each illustration MUST be an SVG file in `assets/illustrations/`, named to match the recipe slug (e.g., `clam-miso-soup.svg`).
-- Each illustration MUST use at most 2 shapes. 1 shape is better than an ugly 2nd shape.
-- Shapes MAY be pink only, blue only, or one pink + one blue. Single-shape illustrations are encouraged when they read clearly.
-- When using both colors, the overlapping shape SHOULD use `mix-blend-mode: multiply` to create the overprint where they overlap.
-- When using a single shape, it MAY be either pink or blue.
-- Same-color pairs (two pink or two blue) are valid. To get a visible overprint at the intersection, add a paper-colored background rect (`#fbfaf8`) inside the SVG and apply `mix-blend-mode: multiply` to both shapes. The overlap will darken like a double ink pass.
-- Shapes MUST be primary geometric forms only: circle, rectangle, square, triangle (polygon). No paths, no curves, no organic shapes.
-- Illustrations SHOULD prioritize symmetry and minimalism. Clean, centered, balanced.
-- Each illustration MUST be visually distinct from the others. Vary the shape combination: circle+circle, rectangle+rectangle, triangle+triangle, circle+rectangle, circle+square, etc. Reversing which color is pink vs blue is a valid way to differentiate similar compositions.
-- The viewBox MUST be `0 0 200 200`.
-- The illustration gallery page is at `/illustrations/` and MUST be linked from the Colophon section of `index.md`.
-- When adding a new recipe, BOTH an SVG illustration and a riso PNG illustration MUST be created.
-- The SVG goes in `assets/illustrations/{slug}.svg` and MUST be added to the SVG illustrations gallery page.
-- The riso PNG is generated via Amazon Nova Canvas (`amazon.nova-canvas-v1:0`) on AWS Bedrock using `--profile shiauas-personal` (an ada/conduit profile that auto-refreshes; in `us-east-1`). The prompt template is: `Risograph print on lightly textured cream paper. {composition}. Completely flat solid color, no 3D, no shading, no gradients, no shadows, no perspective, no outlines. Visible halftone dot grain from stencil printing. Slight misregistration between color passes. Perfectly centered and symmetrical. Abstract geometric art print.` where `{composition}` describes the SVG shapes in words (no food references). The PNG goes in `assets/illustrations/gen-riso/{slug}.png`.
-- The riso illustrations gallery page is at `/illustrations-riso/`.
+- Recipe/article pages have **no illustrations.** The type + the numbered hero
+  carry the page (the EJ archive uses no per-item art). Do NOT add illustration
+  stamps to recipe pages, and do NOT generate riso PNGs for new recipes.
+- The old per-recipe SVGs remain in `assets/illustrations/` (recolored to the
+  single spot ink) only to feed the `/illustrations/` colophon gallery, which is
+  now an archive of the earlier illustration system. New recipes do NOT need one.
+- The `/illustrations-riso/` gallery and `gen-riso/*.png` set are likewise a
+  retired archive; leave them, but don't extend them.
 
 ## AI Artifacts
 
@@ -132,9 +136,8 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 When adding a new recipe, ALL of the following MUST be completed:
 
 1. Create `r/{slug}.md` with front matter (`title`, `category`, `number` — next sequential).
-2. Add a link to `index.md` under the appropriate category. Base recipes MUST be listed before variants.
-3. Create `assets/illustrations/{slug}.svg` — max 2 shapes, blue/pink only, viewBox `0 0 200 200`.
-4. Add a shape description entry to `_data/illustrations.yml` (pink, blue, combo fields).
-5. Generate `assets/illustrations/gen-riso/{slug}.png` via Nova Canvas on Bedrock using the prompt template with the SVG composition described in words.
-6. Update `changelog.md` with the new recipe.
-7. For baking recipes (batter/dough), add an `## Analysis` section between Steps and Notes, computed via the `batter-analysis` skill.
+2. Add a link to `index.md` under the appropriate category. Base recipes MUST be listed before variants. (A recipe is invisible until it's linked here — the homepage is the gate.)
+3. Update `changelog.md` with the new recipe, in the same commit.
+4. For baking recipes (batter/dough), add an `## Analysis` section between Steps and Notes, computed via the `batter-analysis` skill.
+
+No illustration is needed — recipe pages are type-only (see Illustrations above).
