@@ -1,0 +1,392 @@
+[    1799ms] [LOG] Currently configured to use Space stages: {"domain":"harmony.a2z.com","stage":"prod","spaceId":"harmony","mode":"multi-app-subdomain"} @ https://stores-designer.harmony.a2z.com/navigation/harmony-navbar.js:53
+[    2221ms] [LOG] AUI Debug: Reapplying overrides after page change @ chrome-extension://dcfoehjpoialdhneckhclkljejggicle/scripts.js:54
+[    2328ms] [LOG] AUI Debug: Reapplying overrides after page change @ chrome-extension://dcfoehjpoialdhneckhclkljejggicle/scripts.js:54
+[    3297ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[   12476ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[   13298ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  213876ms] [LOG] trackMetric: ux.user.action 1 {action: ds_project_create_confirmed, package: @amzn/sds-components, version: 0.2.363} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  215351ms] [LOG] trackMetric: ux.user.action 1 {action: project_created, template: blank} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  215368ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  216414ms] [LOG] Currently configured to use Space stages: {"domain":"harmony.a2z.com","stage":"prod","spaceId":"harmony","mode":"multi-app-subdomain"} @ https://stores-designer.harmony.a2z.com/navigation/harmony-navbar.js:53
+[  216803ms] [LOG] AUI Debug: Reapplying overrides after page change @ chrome-extension://dcfoehjpoialdhneckhclkljejggicle/scripts.js:54
+[  217963ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  217972ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  222892ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  222994ms] [LOG] [useOpenCode:bootProject] Starting boot for project: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 template: blank @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  223000ms] [LOG] [useOpenCode:bootProject] Starting boot for project: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 template: blank @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  223000ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  223000ms] [INFO] [SdRpc] Starting iframe relay for project: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:6
+[  223211ms] [LOG] [opencode] → GET /session projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 correlationId: r_1784225078633_1 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  223211ms] [LOG] [opencode] → GET /session/status projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 correlationId: r_1784225078634_2 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  223394ms] [ERROR] Access to fetch at 'https://env-ed24629d6b5545fb98f9c4f5857fc5a7.mde.prod.design-assistant.sdt.amazon.dev/__frame_ready__' from origin 'https://stores-designer.harmony.a2z.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://stores-designer.harmony.a2z.com/projects/a50396a0-b82d-41a1-ba87-0ab8eae68ee2?template=blank&dsPackage=%40amzn%2Fsds-components&dsVersion=0.2.363&new=true:0
+[  223394ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://env-ed24629d6b5545fb98f9c4f5857fc5a7.mde.prod.design-assistant.sdt.amazon.dev/__frame_ready__:0
+[  223396ms] [LOG] trackMetric: page.error 1 {errorName: frame.ready.check.failed, error: frame_ready responded undefined} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  223868ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://prod.design-assistant.sdt.amazon.dev/agents/designer-agent:0
+[  223877ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://prod.design-assistant.sdt.amazon.dev/agents/designer-agent:0
+[  223880ms] [LOG] trackMetric: ai.error 1 {errorName: response.failed, error: HTTP 503: Connection refused by environment on port 8080} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  223881ms] [LOG] trackMetric: ai.request 1 {route: /session, method: GET, projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2, correlationId: r_1784225078633_1, outcome: error} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  223890ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://prod.design-assistant.sdt.amazon.dev/agents/designer-agent:0
+[  223892ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  223893ms] [LOG] trackMetric: ai.error 1 {errorName: response.failed, error: HTTP 503: Connection refused by environment on port 8080} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  223893ms] [LOG] trackMetric: ai.request 1 {route: /session/status, method: GET, projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2, correlationId: r_1784225078634_2, outcome: error} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  223894ms] [LOG] trackMetric: runtime.error 1 {errorName: boot.failed, error: HTTP 503: Connection refused by environment on port 8080 (attempt 1/3)} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  223895ms] [WARNING] [useOpenCode] Boot failed (attempt 1/3), retrying in 2000ms: Error: HTTP 503: Connection refused by environment on port 8080
+    at nl.request (https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:9:1552)
+    at async Promise.all (index 0)
+    at async https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:2:30828 @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  223932ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  225895ms] [LOG] [useOpenCode:bootProject] Starting boot for project: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 template: blank @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  225896ms] [LOG] [opencode] → GET /session projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 correlationId: r_1784225081535_3 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  225897ms] [LOG] [opencode] → GET /session/status projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 correlationId: r_1784225081535_4 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  227097ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  227176ms] [ERROR] Creating a worker from 'blob:https://stores-designer.harmony.a2z.com/d58bf03c-c9f3-4b75-bb50-3ce0697d4683' violates the following Content Security Policy directive: "worker-src blob". The action has been blocked. @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:3
+[  227178ms] [ERROR] Harmony tip: Looks like you could use some help with your Content Security Policy (CSP). You may need to add the following to your .harmony/harmony-metadata.json file under "content-security-policy": 
+
+    "worker-src": ["blob"]
+
+* If your current CSP is an empty object {}, add the directive listed above.
+* If your CSP already specifies the "worker-src" directive, add "blob" to its array.
+
+Example harmony-metadata.json:
+    "content-security-policy": {
+        "worker-src": ["blob"]
+    }
+
+If your application does not have a .harmony folder, run: "harmony app create-harmony-folder" to migrate to the recommended method of managing your App's configuration.
+
+More info: https://docs.harmony.a2z.com/application-development.html#Content%20Security%20Policies @ https://stores-designer.harmony.a2z.com/navigation/harmony-navbar.js:125
+[  227952ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  228536ms] [LOG] trackMetric: ai.request 1 {route: /session/status, method: GET, projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2, correlationId: r_1784225081535_4, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  228537ms] [LOG] [opencode] ← /session/status 2637ms correlationId: r_1784225081535_4 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  228537ms] [LOG] trackMetric: ai.request 1 {route: /session, method: GET, projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2, correlationId: r_1784225081535_3, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  228539ms] [LOG] [opencode] ← /session 2639ms correlationId: r_1784225081535_3 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  228539ms] [LOG] [useOpenCode:bootProject] Found 0 existing sessions @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  228539ms] [LOG] [useOpenCode:bootProject] No sessions - creating new session @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  228544ms] [LOG] [useOpenCode:bootProject] Starting boot for project: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 template: blank @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  228544ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  228544ms] [LOG] [useAutoProjectTitle] No description captured, skipping @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:37
+[  228546ms] [LOG] [opencode] → POST /session projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 correlationId: r_1784225084178_5 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  228547ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784225084182_6 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  228548ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784225084183_7 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  228548ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784225084183_8 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  228548ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784225084184_9 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  229100ms] [LOG] trackMetric: ai.request 1 {route: /session, method: POST, projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2, correlationId: r_1784225084178_5, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  229104ms] [LOG] [opencode] ← /session 554ms correlationId: r_1784225084178_5 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  229106ms] [LOG] [useOpenCode] Runtime ready for project: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 template: blank retries: 1 totalBootMs: 6112 @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  229106ms] [LOG] trackLatency: boot.duration 3211ms {projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  229118ms] [LOG] [useOpenCode:bootProject] Starting boot for project: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 template: blank @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  229118ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  229122ms] [LOG] [opencode] → GET /model-info projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 correlationId: r_1784225084747_a @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  229122ms] [LOG] [opencode] → GET /file/content projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 correlationId: r_1784225084757_b @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  229132ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2, correlationId: r_1784225084183_8, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  229136ms] [LOG] [opencode] ← SSE connected 584ms correlationId: r_1784225084183_8 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  229140ms] [LOG] [useOpenCode:bootProject] Starting boot for project: a50396a0-b82d-41a1-ba87-0ab8eae68ee2 template: blank @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  229141ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  229142ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  229161ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2, correlationId: r_1784225084183_7, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  229162ms] [LOG] [opencode] ← SSE connected 614ms correlationId: r_1784225084183_7 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  229182ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2, correlationId: r_1784225084182_6, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  229183ms] [LOG] [opencode] ← SSE connected 635ms correlationId: r_1784225084182_6 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  229214ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2, correlationId: r_1784225084184_9, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  229216ms] [LOG] [opencode] ← SSE connected 666ms correlationId: r_1784225084184_9 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  229219ms] [ERROR] Access to fetch at 'https://env-ed24629d6b5545fb98f9c4f5857fc5a7.mde.prod.design-assistant.sdt.amazon.dev/__frame_ready__' from origin 'https://stores-designer.harmony.a2z.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://stores-designer.harmony.a2z.com/projects/a50396a0-b82d-41a1-ba87-0ab8eae68ee2/sessions/ses_093e5ca64ffeTqm83qmoEWKSos?template=blank&dsPackage=%40amzn%2Fsds-components&dsVersion=0.2.363&new=true:0
+[  229219ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://env-ed24629d6b5545fb98f9c4f5857fc5a7.mde.prod.design-assistant.sdt.amazon.dev/__frame_ready__:0
+[  229220ms] [LOG] trackMetric: page.error 1 {errorName: frame.ready.check.failed, error: frame_ready responded undefined} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  229221ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  229428ms] [LOG] [useOpenCode] build.completed frameIds: undefined sessionId: ses_093e5ca64ffeTqm83qmoEWKSos @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  229430ms] [LOG] [useOpenCode] build.completed frameIds: undefined sessionId: ses_093e5ca64ffeTqm83qmoEWKSos @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  229431ms] [LOG] [useOpenCode] build.completed frameIds: undefined sessionId: ses_093e5ca64ffeTqm83qmoEWKSos @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  229431ms] [LOG] [useOpenCode] build.completed frameIds: undefined sessionId: ses_093e5ca64ffeTqm83qmoEWKSos @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[  229581ms] [LOG] trackMetric: ai.request 1 {route: /model-info, method: GET, projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2, correlationId: r_1784225084747_a, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  229584ms] [LOG] [opencode] ← /model-info 459ms correlationId: r_1784225084747_a @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  230869ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://env-ed24629d6b5545fb98f9c4f5857fc5a7.mde.prod.design-assistant.sdt.amazon.dev/oauth2/idpresponse?code=eyJmZWRlcmF0ZUNvZGUiOiI4MWI5Mzg5Yy1jYzlmLTQ0ZjQtODBmNC1mZmM0ZjZhZDE0NzNAdXMtZWFzdC0xIiwiZW52aXJvbm1lbnRJZCI6ImUtZWQyNDYyOWQ2YjU1NDVmYjk4ZjljNGY1ODU3ZmM1YTcifQ%3D%3D&state=cIECBI0bvxq53sVZmDuhX%2Bpnx8irhG0jJBDBJA8xmtROYA7uSHBBNU1W8gkLGNp8x0zdsnQhp6fw4oxM2vgROO8NIA%2BI5ZISM44FMc0isKvBW38bC5D4LSv6IrOnQiFqZKvhx4Ips6UT7%2BzcMneaIxduwj5m9VlUMrzzwBg7sPx7oRSYuoJP1GTam7dpP6CqB4OMSEnnMzjsIXeTzHcOzYktsjkO0zptkM28pF7FZrURdgcWpfxeeP8%3D:0
+[  230921ms] [LOG] trackMetric: ai.request 1 {route: /file/content, method: GET, projectId: a50396a0-b82d-41a1-ba87-0ab8eae68ee2, correlationId: r_1784225084757_b, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  230926ms] [LOG] [opencode] ← /file/content 1798ms correlationId: r_1784225084757_b @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  230928ms] [LOG] [usePageFramesQuery] Raw page.json frames: [Object] @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:59
+[  230931ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  230935ms] [LOG] [useBackendSync] sync triggered {isInitialized: false, prevIds: Array(0), queryIds: Array(1), storeIds: Array(0), queryCount: 1} @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:60
+[  230952ms] [LOG] [useElementCapture] Browser support check: {hasNavigator: true, hasMediaDevices: true, hasGetDisplayMedia: true, isSupported: true} @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:17
+[  232894ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  234147ms] [LOG] %c[SD]%c RPC client connected via HMR color:#10B981;font-weight:bold  @ https://env-ed24629d6b5545fb98f9c4f5857fc5a7.mde.prod.design-assistant.sdt.amazon.dev/node_modules/@amzn/sd-harness-client/src/client-runtime/rpc-client.ts?v=e4cd1ecb:6
+[  234149ms] [LOG] trackLatency: page.all_frames_loaded 8253ms {frameCount: 1} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  237107ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  526784ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  641755ms] [LOG] Currently configured to use Space stages: {"domain":"beta.harmony.a2z.com","stage":"beta","spaceId":"harmony","mode":"multi-app-subdomain"} @ https://stores-designer.beta.harmony.a2z.com/navigation/harmony-navbar.js:53
+[  642117ms] [LOG] AUI Debug: Reapplying overrides after page change @ chrome-extension://dcfoehjpoialdhneckhclkljejggicle/scripts.js:54
+[  645297ms] [LOG] Received authorizedReturned response from background script @ chrome-extension://bkbighdlgofgdhcjnhocalbkiehhpdei/sentryjs-api-injected.js:18
+[  652138ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  653197ms] [LOG] Received authorizedReturned response from background script @ chrome-extension://bkbighdlgofgdhcjnhocalbkiehhpdei/sentryjs-api-injected.js:18
+[  662145ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  943175ms] [LOG] Received authorizedReturned response from background script @ chrome-extension://bkbighdlgofgdhcjnhocalbkiehhpdei/sentryjs-api-injected.js:18
+[  953424ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1252129ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1252499ms] [LOG] trackMetric: ux.user.action 1 {action: ds_project_create_confirmed, package: @amzn/sds-components, version: 0.2.363} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1254626ms] [LOG] trackMetric: ux.user.action 1 {action: project_created, template: blank, designSystem: sds, imageVariant: platform} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1254684ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1255641ms] [LOG] Currently configured to use Space stages: {"domain":"beta.harmony.a2z.com","stage":"beta","spaceId":"harmony","mode":"multi-app-subdomain"} @ https://stores-designer.beta.harmony.a2z.com/navigation/harmony-navbar.js:53
+[ 1256023ms] [LOG] AUI Debug: Reapplying overrides after page change @ chrome-extension://dcfoehjpoialdhneckhclkljejggicle/scripts.js:54
+[ 1257119ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1257226ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1261615ms] [LOG] [useOpenCode:bootProject] Starting boot for project: d9a1c648-1bff-446f-9bb6-66f6e428282e template: blank @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1261622ms] [LOG] [useOpenCode:bootProject] Starting boot for project: d9a1c648-1bff-446f-9bb6-66f6e428282e template: blank @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1261622ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1261832ms] [LOG] [opencode] → GET /session projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e correlationId: r_1784226117254_1 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1261832ms] [LOG] [opencode] → GET /session/status projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e correlationId: r_1784226117255_2 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1262129ms] [ERROR] Access to fetch at 'https://env-9aca452103d34342b4054c02c7130dcd.mde.beta.design-assistant.sdt.amazon.dev/__frame_ready__' from origin 'https://stores-designer.beta.harmony.a2z.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://stores-designer.beta.harmony.a2z.com/projects/d9a1c648-1bff-446f-9bb6-66f6e428282e?template=blank&dsPackage=%40amzn%2Fsds-components&dsVersion=0.2.363&new=true:0
+[ 1262130ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://env-9aca452103d34342b4054c02c7130dcd.mde.beta.design-assistant.sdt.amazon.dev/__frame_ready__:0
+[ 1262132ms] [LOG] trackMetric: page.error 1 {errorName: frame.ready.check.failed, error: frame_ready responded undefined} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1262668ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://beta.design-assistant.sdt.amazon.dev/agents/designer-agent:0
+[ 1262669ms] [LOG] trackMetric: ai.error 1 {errorName: response.failed, error: HTTP 503: Connection refused by environment on port 8080} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1262671ms] [LOG] trackMetric: ai.request 1 {route: /session/status, method: GET, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226117255_2, outcome: error} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1262676ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1262735ms] [INFO] [SdRpc] Starting iframe relay for project: d9a1c648-1bff-446f-9bb6-66f6e428282e @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:6
+[ 1263024ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1263682ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://beta.design-assistant.sdt.amazon.dev/agents/designer-agent:0
+[ 1263833ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://beta.design-assistant.sdt.amazon.dev/agents/designer-agent:0
+[ 1263845ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1263845ms] [LOG] trackMetric: ai.error 1 {errorName: response.failed, error: HTTP 503: Connection refused by environment on port 8080} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1263846ms] [LOG] trackMetric: ai.request 1 {route: /session, method: GET, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226117254_1, outcome: error} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1263848ms] [LOG] trackMetric: runtime.error 1 {errorName: boot.failed, error: HTTP 503: Connection refused by environment on port 8080 (attempt 1/3)} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1263848ms] [WARNING] [useOpenCode] Boot failed (attempt 1/3), retrying in 2000ms: Error: HTTP 503: Connection refused by environment on port 8080
+    at rl.request (https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:9:1552)
+    at async Promise.all (index 0)
+    at async https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:2:31035 @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1265850ms] [LOG] [useOpenCode:bootProject] Starting boot for project: d9a1c648-1bff-446f-9bb6-66f6e428282e template: blank @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1265850ms] [LOG] [opencode] → GET /session projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e correlationId: r_1784226121489_3 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1265851ms] [LOG] [opencode] → GET /session/status projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e correlationId: r_1784226121489_4 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1266024ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1266613ms] [ERROR] Creating a worker from 'blob:https://stores-designer.beta.harmony.a2z.com/c333d3f5-0431-4710-a95e-d658a6e0aaea' violates the following Content Security Policy directive: "worker-src blob". The action has been blocked. @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:3
+[ 1266614ms] [ERROR] Harmony tip: Looks like you could use some help with your Content Security Policy (CSP). You may need to add the following to your .harmony/harmony-metadata.json file under "content-security-policy": 
+
+    "worker-src": ["blob"]
+
+* If your current CSP is an empty object {}, add the directive listed above.
+* If your CSP already specifies the "worker-src" directive, add "blob" to its array.
+
+Example harmony-metadata.json:
+    "content-security-policy": {
+        "worker-src": ["blob"]
+    }
+
+If your application does not have a .harmony folder, run: "harmony app create-harmony-folder" to migrate to the recommended method of managing your App's configuration.
+
+More info: https://docs.harmony.a2z.com/application-development.html#Content%20Security%20Policies @ https://stores-designer.beta.harmony.a2z.com/navigation/harmony-navbar.js:125
+[ 1267116ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1273094ms] [LOG] trackMetric: ai.request 1 {route: /session/status, method: GET, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226121489_4, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1273095ms] [LOG] [opencode] ← /session/status 7243ms correlationId: r_1784226121489_4 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1273097ms] [LOG] trackMetric: ai.request 1 {route: /session, method: GET, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226121489_3, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1273098ms] [LOG] [opencode] ← /session 7247ms correlationId: r_1784226121489_3 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1273098ms] [LOG] [useOpenCode:bootProject] Found 0 existing sessions @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1273098ms] [LOG] [useOpenCode:bootProject] No sessions - creating new session @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1273104ms] [LOG] [useOpenCode:bootProject] Starting boot for project: d9a1c648-1bff-446f-9bb6-66f6e428282e template: blank @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1273104ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1273104ms] [LOG] [useAutoProjectTitle] No description captured, skipping @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:37
+[ 1273106ms] [LOG] [opencode] → POST /session projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e correlationId: r_1784226128737_5 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1273107ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784226128742_6 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1273107ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784226128742_7 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1273107ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784226128743_8 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1273108ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784226128743_9 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1273809ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226128743_9, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1273811ms] [LOG] [opencode] ← SSE connected 702ms correlationId: r_1784226128743_9 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1273833ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226128742_6, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1273839ms] [LOG] [opencode] ← SSE connected 726ms correlationId: r_1784226128742_6 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1273842ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1273847ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1273854ms] [LOG] trackMetric: ai.request 1 {route: /session, method: POST, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226128737_5, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1273855ms] [LOG] [opencode] ← /session 746ms correlationId: r_1784226128737_5 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1273856ms] [LOG] [useOpenCode] Runtime ready for project: d9a1c648-1bff-446f-9bb6-66f6e428282e template: blank retries: 1 totalBootMs: 12241 @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1273856ms] [LOG] trackLatency: boot.duration 8006ms {projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1273867ms] [LOG] [useOpenCode:bootProject] Starting boot for project: d9a1c648-1bff-446f-9bb6-66f6e428282e template: blank @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1273867ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1273873ms] [LOG] [opencode] → GET /model-info projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e correlationId: r_1784226129495_a @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1273874ms] [LOG] [opencode] → GET /file/content projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e correlationId: r_1784226129506_b @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1273888ms] [LOG] [useOpenCode:bootProject] Starting boot for project: d9a1c648-1bff-446f-9bb6-66f6e428282e template: blank @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1273889ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1273905ms] [LOG] [useOpenCode] build.completed frameIds: undefined sessionId: restore @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1273905ms] [LOG] [useOpenCode] build.started frameIds: undefined @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1273906ms] [LOG] [useOpenCode] build.completed frameIds: undefined sessionId: restore @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1273906ms] [LOG] [useOpenCode] build.started frameIds: undefined @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1273974ms] [ERROR] Access to fetch at 'https://env-9aca452103d34342b4054c02c7130dcd.mde.beta.design-assistant.sdt.amazon.dev/__frame_ready__' from origin 'https://stores-designer.beta.harmony.a2z.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://stores-designer.beta.harmony.a2z.com/projects/d9a1c648-1bff-446f-9bb6-66f6e428282e/sessions/ses_093d5d958ffesaor8xZ9CTULpD?template=blank&dsPackage=%40amzn%2Fsds-components&dsVersion=0.2.363&new=true:0
+[ 1273974ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://env-9aca452103d34342b4054c02c7130dcd.mde.beta.design-assistant.sdt.amazon.dev/__frame_ready__:0
+[ 1273976ms] [LOG] trackMetric: page.error 1 {errorName: frame.ready.check.failed, error: frame_ready responded undefined} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1274023ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226128743_8, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1274024ms] [LOG] [opencode] ← SSE connected 915ms correlationId: r_1784226128743_8 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1274086ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226128742_7, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1274089ms] [LOG] [opencode] ← SSE connected 979ms correlationId: r_1784226128742_7 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1274093ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1274517ms] [LOG] trackMetric: ai.request 1 {route: /file/content, method: GET, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226129506_b, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1274518ms] [LOG] [opencode] ← /file/content 644ms correlationId: r_1784226129506_b @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1274519ms] [LOG] [usePageFramesQuery] Raw page.json frames: [Object] @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:59
+[ 1274524ms] [LOG] [useBackendSync] sync triggered {isInitialized: false, prevIds: Array(0), queryIds: Array(1), storeIds: Array(0), queryCount: 1} @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:60
+[ 1274565ms] [LOG] [useElementCapture] Browser support check: {hasNavigator: true, hasMediaDevices: true, hasGetDisplayMedia: true, isSupported: true} @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:17
+[ 1274596ms] [LOG] [useOpenCode] build.completed frameIds: undefined sessionId: ses_093d5d958ffesaor8xZ9CTULpD @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1274596ms] [LOG] [opencode] → GET /file/content projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e correlationId: r_1784226130234_c @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1274597ms] [LOG] [useOpenCode] build.completed frameIds: undefined sessionId: ses_093d5d958ffesaor8xZ9CTULpD @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1274598ms] [LOG] [opencode] → GET /file/content projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e correlationId: r_1784226130236_d @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1274598ms] [LOG] [useOpenCode] build.completed frameIds: undefined sessionId: ses_093d5d958ffesaor8xZ9CTULpD @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1274599ms] [LOG] [opencode] → GET /file/content projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e correlationId: r_1784226130237_e @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1274599ms] [LOG] [useOpenCode] build.completed frameIds: undefined sessionId: ses_093d5d958ffesaor8xZ9CTULpD @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1274599ms] [LOG] [opencode] → GET /file/content projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e correlationId: r_1784226130238_f @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1274612ms] [LOG] trackMetric: ai.request 1 {route: /model-info, method: GET, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226129495_a, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1274614ms] [LOG] [opencode] ← /model-info 728ms correlationId: r_1784226129495_a @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1275177ms] [LOG] trackMetric: ai.request 1 {route: /file/content, method: GET, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226130236_d, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1275179ms] [LOG] [opencode] ← /file/content 579ms correlationId: r_1784226130236_d @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1275182ms] [LOG] [usePageFramesQuery] Raw page.json frames: [Object] @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:59
+[ 1275183ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1275226ms] [LOG] trackMetric: ai.request 1 {route: /file/content, method: GET, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226130238_f, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1275227ms] [LOG] [opencode] ← /file/content 627ms correlationId: r_1784226130238_f @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1275227ms] [LOG] [usePageFramesQuery] Raw page.json frames: [Object] @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:59
+[ 1275266ms] [LOG] trackMetric: ai.request 1 {route: /file/content, method: GET, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226130234_c, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1275267ms] [LOG] [opencode] ← /file/content 670ms correlationId: r_1784226130234_c @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1275267ms] [LOG] [usePageFramesQuery] Raw page.json frames: [Object] @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:59
+[ 1275358ms] [LOG] trackMetric: ai.request 1 {route: /file/content, method: GET, projectId: d9a1c648-1bff-446f-9bb6-66f6e428282e, correlationId: r_1784226130237_e, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1275359ms] [LOG] [opencode] ← /file/content 759ms correlationId: r_1784226130237_e @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1275359ms] [LOG] [usePageFramesQuery] Raw page.json frames: [Object] @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:59
+[ 1275957ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://env-9aca452103d34342b4054c02c7130dcd.mde.beta.design-assistant.sdt.amazon.dev/oauth2/idpresponse?code=eyJmZWRlcmF0ZUNvZGUiOiI3ZjEzODY3Zi0wYmM2LTQxMTMtYWQxNi1lMGZmNjUzZjEzNTJAdXMtZWFzdC0xIiwiZW52aXJvbm1lbnRJZCI6ImUtOWFjYTQ1MjEwM2QzNDM0MmI0MDU0YzAyYzcxMzBkY2QifQ%3D%3D&state=AHDsxdnJ6z1omG24wZZ69rOcdK0AWNWicCkEF%2FCESC8dQbXMolJaO0Ta%2FqN%2BrPOzfbfgkRvd3YMWWpjhsp5CYyYp3R9uFQm5aIDgTQ%2FFemF0yYCXv27ojoKfTdnWdIinnAddLQ%2BkFDEL%2FytBiKbAhKtNmlPdhKZGY%2B7KgjEunp00geHwgop7rP6V8hO7UcNPipRO5rLA9YtSQPdW1kYTLRfnkOzgrWPp55rK%2BpvvsRRE6MTzENulKbU%3D:0
+[ 1275963ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1276612ms] [ERROR] Creating a worker from 'blob:https://stores-designer.beta.harmony.a2z.com/c333d3f5-0431-4710-a95e-d658a6e0aaea' violates the following Content Security Policy directive: "worker-src blob". The action has been blocked. @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:3
+[ 1276613ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1276614ms] [ERROR] Harmony tip: Looks like you could use some help with your Content Security Policy (CSP). You may need to add the following to your .harmony/harmony-metadata.json file under "content-security-policy": 
+
+    "worker-src": ["blob"]
+
+* If your current CSP is an empty object {}, add the directive listed above.
+* If your CSP already specifies the "worker-src" directive, add "blob" to its array.
+
+Example harmony-metadata.json:
+    "content-security-policy": {
+        "worker-src": ["blob"]
+    }
+
+If your application does not have a .harmony folder, run: "harmony app create-harmony-folder" to migrate to the recommended method of managing your App's configuration.
+
+More info: https://docs.harmony.a2z.com/application-development.html#Content%20Security%20Policies @ https://stores-designer.beta.harmony.a2z.com/navigation/harmony-navbar.js:125
+[ 1282158ms] [LOG] %c[SD]%c RPC client connected via HMR color:#10B981;font-weight:bold  @ https://env-9aca452103d34342b4054c02c7130dcd.mde.beta.design-assistant.sdt.amazon.dev/node_modules/@amzn/sd-harness-client/src/client-runtime/rpc-client.ts?v=d7a302f7:6
+[ 1282159ms] [LOG] trackLatency: page.all_frames_loaded 16310ms {frameCount: 1} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1283091ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1286312ms] [LOG] Currently configured to use Space stages: {"domain":"beta.harmony.a2z.com","stage":"beta","spaceId":"harmony","mode":"multi-app-subdomain"} @ https://stores-designer.beta.harmony.a2z.com/navigation/harmony-navbar.js:53
+[ 1286716ms] [LOG] AUI Debug: Reapplying overrides after page change @ chrome-extension://dcfoehjpoialdhneckhclkljejggicle/scripts.js:54
+[ 1288000ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1289061ms] [LOG] trackMetric: ux.user.action 1 {action: ds_project_create_confirmed, package: @amzn/sds-components, version: 0.2.363} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1289411ms] [LOG] trackMetric: ux.user.action 1 {action: project_created, template: blank, designSystem: sds, imageVariant: platform} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1289467ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1290137ms] [LOG] Currently configured to use Space stages: {"domain":"beta.harmony.a2z.com","stage":"beta","spaceId":"harmony","mode":"multi-app-subdomain"} @ https://stores-designer.beta.harmony.a2z.com/navigation/harmony-navbar.js:53
+[ 1290349ms] [LOG] AUI Debug: Reapplying overrides after page change @ chrome-extension://dcfoehjpoialdhneckhclkljejggicle/scripts.js:54
+[ 1291069ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1291398ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1295114ms] [LOG] [useOpenCode:bootProject] Starting boot for project: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf template: blank @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1295119ms] [LOG] [useOpenCode:bootProject] Starting boot for project: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf template: blank @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1295119ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1295330ms] [ERROR] Access to fetch at 'https://env-b5d54e0026b4404cb7309bd5ec648701.mde.beta.design-assistant.sdt.amazon.dev/__frame_ready__' from origin 'https://stores-designer.beta.harmony.a2z.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://stores-designer.beta.harmony.a2z.com/projects/be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf?template=blank&dsPackage=%40amzn%2Fsds-components&dsVersion=0.2.363&new=true:0
+[ 1295330ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://env-b5d54e0026b4404cb7309bd5ec648701.mde.beta.design-assistant.sdt.amazon.dev/__frame_ready__:0
+[ 1295332ms] [LOG] trackMetric: page.error 1 {errorName: frame.ready.check.failed, error: frame_ready responded undefined} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1295337ms] [LOG] [opencode] → GET /session projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf correlationId: r_1784226150753_1 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1295337ms] [LOG] [opencode] → GET /session/status projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf correlationId: r_1784226150754_2 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1295461ms] [INFO] [SdRpc] Starting iframe relay for project: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:6
+[ 1295483ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1295493ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1296064ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://beta.design-assistant.sdt.amazon.dev/agents/designer-agent:0
+[ 1296066ms] [LOG] trackMetric: ai.error 1 {errorName: response.failed, error: HTTP 503: Connection refused by environment on port 8080} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1296067ms] [LOG] trackMetric: ai.request 1 {route: /session, method: GET, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784226150753_1, outcome: error} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1296081ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://beta.design-assistant.sdt.amazon.dev/agents/designer-agent:0
+[ 1296082ms] [LOG] trackMetric: ai.error 1 {errorName: response.failed, error: HTTP 503: Connection refused by environment on port 8080} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1296084ms] [LOG] trackMetric: ai.request 1 {route: /session/status, method: GET, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784226150754_2, outcome: error} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1296088ms] [LOG] trackMetric: runtime.error 1 {errorName: boot.failed, error: HTTP 503: Connection refused by environment on port 8080 (attempt 1/3)} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1296089ms] [WARNING] [useOpenCode] Boot failed (attempt 1/3), retrying in 2000ms: Error: HTTP 503: Connection refused by environment on port 8080
+    at rl.request (https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:9:1552)
+    at async Promise.all (index 0)
+    at async https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:2:31035 @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1296089ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://beta.design-assistant.sdt.amazon.dev/agents/designer-agent:0
+[ 1296091ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1298089ms] [LOG] [useOpenCode:bootProject] Starting boot for project: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf template: blank @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1298090ms] [LOG] [opencode] → GET /session projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf correlationId: r_1784226153728_3 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1298090ms] [LOG] [opencode] → GET /session/status projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf correlationId: r_1784226153728_4 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1300355ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1300966ms] [ERROR] Creating a worker from 'blob:https://stores-designer.beta.harmony.a2z.com/ecdb33d2-735b-485e-a84a-5c60651bbc60' violates the following Content Security Policy directive: "worker-src blob". The action has been blocked. @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:3
+[ 1300967ms] [ERROR] Harmony tip: Looks like you could use some help with your Content Security Policy (CSP). You may need to add the following to your .harmony/harmony-metadata.json file under "content-security-policy": 
+
+    "worker-src": ["blob"]
+
+* If your current CSP is an empty object {}, add the directive listed above.
+* If your CSP already specifies the "worker-src" directive, add "blob" to its array.
+
+Example harmony-metadata.json:
+    "content-security-policy": {
+        "worker-src": ["blob"]
+    }
+
+If your application does not have a .harmony folder, run: "harmony app create-harmony-folder" to migrate to the recommended method of managing your App's configuration.
+
+More info: https://docs.harmony.a2z.com/application-development.html#Content%20Security%20Policies @ https://stores-designer.beta.harmony.a2z.com/navigation/harmony-navbar.js:125
+[ 1301064ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1303709ms] [LOG] trackMetric: ai.request 1 {route: /session/status, method: GET, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784226153728_4, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1303711ms] [LOG] [opencode] ← /session/status 5617ms correlationId: r_1784226153728_4 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1303711ms] [LOG] trackMetric: ai.request 1 {route: /session, method: GET, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784226153728_3, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1303712ms] [LOG] [opencode] ← /session 5619ms correlationId: r_1784226153728_3 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1303712ms] [LOG] [useOpenCode:bootProject] Found 0 existing sessions @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1303712ms] [LOG] [useOpenCode:bootProject] No sessions - creating new session @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1303718ms] [LOG] [useOpenCode:bootProject] Starting boot for project: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf template: blank @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1303719ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1303719ms] [LOG] [useAutoProjectTitle] No description captured, skipping @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:37
+[ 1303720ms] [LOG] [opencode] → POST /session projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf correlationId: r_1784226159351_5 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1303721ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784226159357_6 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1303722ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784226159357_7 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1303722ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784226159357_8 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1303722ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784226159358_9 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1304436ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784226159357_7, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1304438ms] [LOG] [opencode] ← SSE connected 714ms correlationId: r_1784226159357_7 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1304439ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784226159358_9, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1304444ms] [LOG] [opencode] ← SSE connected 717ms correlationId: r_1784226159358_9 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1304447ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1304447ms] [LOG] [useOpenCode] build.started frameIds: undefined @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1304448ms] [LOG] [useOpenCode] build.started frameIds: undefined @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1304450ms] [LOG] trackMetric: ai.request 1 {route: /session, method: POST, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784226159351_5, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1304451ms] [LOG] [opencode] ← /session 729ms correlationId: r_1784226159351_5 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1304452ms] [LOG] [useOpenCode] Runtime ready for project: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf template: blank retries: 1 totalBootMs: 9337 @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1304452ms] [LOG] trackLatency: boot.duration 6362ms {projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1304463ms] [LOG] [useOpenCode:bootProject] Starting boot for project: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf template: blank @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1304463ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1304469ms] [LOG] [opencode] → GET /model-info projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf correlationId: r_1784226160091_a @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1304469ms] [LOG] [opencode] → GET /file/content projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf correlationId: r_1784226160102_b @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1304485ms] [LOG] [useOpenCode:bootProject] Starting boot for project: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf template: blank @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1304485ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1304494ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784226159357_8, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1304496ms] [LOG] [opencode] ← SSE connected 773ms correlationId: r_1784226159357_8 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1304567ms] [ERROR] Access to fetch at 'https://env-b5d54e0026b4404cb7309bd5ec648701.mde.beta.design-assistant.sdt.amazon.dev/__frame_ready__' from origin 'https://stores-designer.beta.harmony.a2z.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://stores-designer.beta.harmony.a2z.com/projects/be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf/sessions/ses_093d561ccffey0GeY0LQ6FAXOT?template=blank&dsPackage=%40amzn%2Fsds-components&dsVersion=0.2.363&new=true:0
+[ 1304567ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://env-b5d54e0026b4404cb7309bd5ec648701.mde.beta.design-assistant.sdt.amazon.dev/__frame_ready__:0
+[ 1304568ms] [LOG] trackMetric: page.error 1 {errorName: frame.ready.check.failed, error: frame_ready responded undefined} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1304578ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1304896ms] [LOG] [useOpenCode] build.completed frameIds: undefined sessionId: ses_093d561ccffey0GeY0LQ6FAXOT @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1304896ms] [LOG] [useOpenCode] build.completed frameIds: undefined sessionId: ses_093d561ccffey0GeY0LQ6FAXOT @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1304898ms] [LOG] [useOpenCode] build.completed frameIds: undefined sessionId: ses_093d561ccffey0GeY0LQ6FAXOT @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:1
+[ 1305103ms] [LOG] trackMetric: ai.request 1 {route: /file/content, method: GET, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784226160102_b, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1305104ms] [LOG] [opencode] ← /file/content 634ms correlationId: r_1784226160102_b @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1305104ms] [LOG] [usePageFramesQuery] Raw page.json frames: [Object] @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:59
+[ 1305109ms] [LOG] [useBackendSync] sync triggered {isInitialized: false, prevIds: Array(0), queryIds: Array(1), storeIds: Array(0), queryCount: 1} @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:60
+[ 1305152ms] [LOG] [useElementCapture] Browser support check: {hasNavigator: true, hasMediaDevices: true, hasGetDisplayMedia: true, isSupported: true} @ https://stores-designer.beta.harmony.a2z.com/assets/project-layout-B4p5oKG3.js:17
+[ 1305295ms] [LOG] trackMetric: ai.request 1 {route: /model-info, method: GET, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784226160091_a, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1305296ms] [LOG] [opencode] ← /model-info 826ms correlationId: r_1784226160091_a @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1305479ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1305488ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1305512ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784226159357_6, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1305513ms] [LOG] [opencode] ← SSE connected 1791ms correlationId: r_1784226159357_6 @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 1305945ms] [LOG] %c[SD]%c RPC client connected via HMR color:#10B981;font-weight:bold  @ https://env-b5d54e0026b4404cb7309bd5ec648701.mde.beta.design-assistant.sdt.amazon.dev/node_modules/@amzn/sd-harness-client/src/client-runtime/rpc-client.ts?v=d7fca255:6
+[ 1305946ms] [LOG] trackLatency: page.all_frames_loaded 7857ms {frameCount: 1} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 1306086ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1600443ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1900432ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 2201365ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 2204038ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784227059676_c @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 2204055ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784227059693_d @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 2204094ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784227059733_e @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 2205129ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784227060767_f @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 2206147ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784227059693_d, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 2206150ms] [LOG] [opencode] ← SSE connected 2092ms correlationId: r_1784227059693_d @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 2206306ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784227059676_c, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 2206313ms] [LOG] [opencode] ← SSE connected 2269ms correlationId: r_1784227059676_c @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 2206885ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784227060767_f, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 2206886ms] [LOG] [opencode] ← SSE connected 1756ms correlationId: r_1784227060767_f @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 2207363ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: be9f2d0b-55ea-4170-b7b8-f7d9a03c9ebf, correlationId: r_1784227059733_e, outcome: success} @ https://stores-designer.beta.harmony.a2z.com/assets/utils-BqUVsNt2.js:14
+[ 2207401ms] [LOG] [opencode] ← SSE connected 3269ms correlationId: r_1784227059733_e @ https://stores-designer.beta.harmony.a2z.com/assets/index-NC0QXsq2.js:8
+[ 2207410ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 2216152ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0

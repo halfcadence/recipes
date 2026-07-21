@@ -1,0 +1,107 @@
+[     -48ms] [LOG] Currently configured to use Space stages: {"domain":"harmony.a2z.com","stage":"prod","spaceId":"harmony","mode":"multi-app-subdomain"} @ https://stores-designer.harmony.a2z.com/navigation/harmony-navbar.js:53
+[     166ms] [LOG] AUI Debug: Reapplying overrides after page change @ chrome-extension://dcfoehjpoialdhneckhclkljejggicle/scripts.js:54
+[     266ms] [LOG] AUI Debug: Reapplying overrides after page change @ chrome-extension://dcfoehjpoialdhneckhclkljejggicle/scripts.js:54
+[    1020ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[    1029ms] [LOG] [useOpenCode:bootProject] Starting boot for project: bf685ebe-840d-495d-a909-345e4432ab7f template: blank @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[    1034ms] [LOG] [useOpenCode:bootProject] Starting boot for project: bf685ebe-840d-495d-a909-345e4432ab7f template: blank @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[    1034ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[    1237ms] [ERROR] Access to fetch at 'https://env-92d0e995fc8e459798c128bf62eb6d8b.mde.prod.design-assistant.sdt.amazon.dev/__frame_ready__' from origin 'https://stores-designer.harmony.a2z.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://stores-designer.harmony.a2z.com/projects/bf685ebe-840d-495d-a909-345e4432ab7f:0
+[    1237ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://env-92d0e995fc8e459798c128bf62eb6d8b.mde.prod.design-assistant.sdt.amazon.dev/__frame_ready__:0
+[    1238ms] [LOG] trackMetric: page.error 1 {errorName: frame.ready.check.failed, error: frame_ready responded undefined} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[    1362ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[    1372ms] [LOG] [opencode] → GET /session projectId: bf685ebe-840d-495d-a909-345e4432ab7f correlationId: r_1784225425878_1 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    1372ms] [LOG] [opencode] → GET /session/status projectId: bf685ebe-840d-495d-a909-345e4432ab7f correlationId: r_1784225425879_2 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    1404ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[    2107ms] [LOG] trackMetric: ai.request 1 {route: /session, method: GET, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784225425878_1, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[    2109ms] [LOG] [opencode] ← /session 735ms correlationId: r_1784225425878_1 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    2146ms] [LOG] trackMetric: ai.request 1 {route: /session/status, method: GET, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784225425879_2, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[    2148ms] [LOG] [opencode] ← /session/status 774ms correlationId: r_1784225425879_2 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    2149ms] [LOG] [useOpenCode:bootProject] Found 2 existing sessions @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[    2149ms] [LOG] [useOpenCode:bootProject] Using existing session: ses_3507cecfcffeaWLuwkLFFWdNHr @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[    2155ms] [LOG] [opencode] → GET /session/:id/message projectId: bf685ebe-840d-495d-a909-345e4432ab7f correlationId: r_1784225426998_3 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    2789ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[    2802ms] [LOG] trackMetric: ai.request 1 {route: /session/:id/message, method: GET, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784225426998_3, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[    2803ms] [LOG] [opencode] ← /session/:id/message 630ms correlationId: r_1784225426998_3 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    2803ms] [LOG] [useOpenCode:bootProject] Loaded 15 existing messages @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[    2803ms] [LOG] [useOpenCode] Runtime ready for project: bf685ebe-840d-495d-a909-345e4432ab7f template: blank retries: 0 totalBootMs: 1774 @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[    2803ms] [LOG] trackLatency: boot.duration 1774ms {projectId: bf685ebe-840d-495d-a909-345e4432ab7f} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[    2849ms] [LOG] [useOpenCode:bootProject] Starting boot for project: bf685ebe-840d-495d-a909-345e4432ab7f template: blank @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[    2849ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[    2849ms] [LOG] [useAutoProjectTitle] No description captured, skipping @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:37
+[    2855ms] [LOG] [opencode] → GET /model-info projectId: bf685ebe-840d-495d-a909-345e4432ab7f correlationId: r_1784225427652_4 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    2856ms] [LOG] [opencode] → GET /file/content projectId: bf685ebe-840d-495d-a909-345e4432ab7f correlationId: r_1784225427698_8 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    2856ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784225427697_5 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    2857ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784225427697_6 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    2857ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784225427698_7 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    2857ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784225427699_9 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    2873ms] [LOG] [useOpenCode:bootProject] Starting boot for project: bf685ebe-840d-495d-a909-345e4432ab7f template: blank @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[    2873ms] [LOG] [useOpenCode:bootProject] Skipping - boot already in progress for this project (ref check) @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:1
+[    3438ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784225427698_7, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[    3439ms] [LOG] [opencode] ← SSE connected 581ms correlationId: r_1784225427698_7 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    3440ms] [LOG] trackMetric: ai.request 1 {route: /model-info, method: GET, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784225427652_4, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[    3442ms] [LOG] [opencode] ← /model-info 585ms correlationId: r_1784225427652_4 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    3451ms] [LOG] trackMetric: ai.request 1 {route: /file/content, method: GET, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784225427698_8, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[    3455ms] [LOG] [opencode] ← /file/content 594ms correlationId: r_1784225427698_8 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    3457ms] [LOG] [usePageFramesQuery] Raw page.json frames: [Object] @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:59
+[    3458ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[    3464ms] [LOG] [useBackendSync] sync triggered {isInitialized: false, prevIds: Array(0), queryIds: Array(1), storeIds: Array(0), queryCount: 1} @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:60
+[    3497ms] [LOG] [useElementCapture] Browser support check: {hasNavigator: true, hasMediaDevices: true, hasGetDisplayMedia: true, isSupported: true} @ https://stores-designer.harmony.a2z.com/assets/project-layout-NrWtJUaV.js:17
+[    3523ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784225427699_9, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[    3524ms] [LOG] [opencode] ← SSE connected 666ms correlationId: r_1784225427699_9 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    3525ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784225427697_5, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[    3526ms] [LOG] [opencode] ← SSE connected 669ms correlationId: r_1784225427697_5 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    3761ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784225427697_6, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[    3763ms] [LOG] [opencode] ← SSE connected 905ms correlationId: r_1784225427697_6 @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[    3768ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[    5774ms] [LOG] trackLatency: page.all_frames_loaded 4745ms {frameCount: 1} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[   10171ms] [ERROR] Creating a worker from 'blob:https://stores-designer.harmony.a2z.com/194a0198-7ad7-44a7-8eec-0ec2ba88dbd0' violates the following Content Security Policy directive: "worker-src blob". The action has been blocked. @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:3
+[   10174ms] [ERROR] Harmony tip: Looks like you could use some help with your Content Security Policy (CSP). You may need to add the following to your .harmony/harmony-metadata.json file under "content-security-policy": 
+
+    "worker-src": ["blob"]
+
+* If your current CSP is an empty object {}, add the directive listed above.
+* If your CSP already specifies the "worker-src" directive, add "blob" to its array.
+
+Example harmony-metadata.json:
+    "content-security-policy": {
+        "worker-src": ["blob"]
+    }
+
+If your application does not have a .harmony folder, run: "harmony app create-harmony-folder" to migrate to the recommended method of managing your App's configuration.
+
+More info: https://docs.harmony.a2z.com/application-development.html#Content%20Security%20Policies @ https://stores-designer.harmony.a2z.com/navigation/harmony-navbar.js:125
+[   10483ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[   11021ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  310410ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  610292ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  903089ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784226327937_a @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  903094ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784226327942_b @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  903103ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784226327952_c @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  903130ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784226327978_d @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  903832ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784226327942_b, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  903834ms] [LOG] [opencode] ← SSE connected 738ms correlationId: r_1784226327942_b @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  903837ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784226327978_d, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  903838ms] [LOG] [opencode] ← SSE connected 708ms correlationId: r_1784226327978_d @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  903858ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784226327937_a, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  903860ms] [LOG] [opencode] ← SSE connected 769ms correlationId: r_1784226327937_a @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  903861ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784226327952_c, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[  903867ms] [LOG] [opencode] ← SSE connected 758ms correlationId: r_1784226327952_c @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[  903871ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  910413ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1210395ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1511851ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1803422ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784227228270_e @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[ 1803463ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784227228311_f @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[ 1803466ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784227228315_g @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[ 1803480ms] [LOG] [opencode] → SSE /global/event correlationId: r_1784227228329_h @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[ 1804056ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784227228329_h, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[ 1804058ms] [LOG] [opencode] ← SSE connected 576ms correlationId: r_1784227228329_h @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[ 1804070ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784227228315_g, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[ 1804071ms] [LOG] [opencode] ← SSE connected 603ms correlationId: r_1784227228315_g @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[ 1804088ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784227228311_f, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[ 1804090ms] [LOG] [opencode] ← SSE connected 625ms correlationId: r_1784227228311_f @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[ 1804091ms] [LOG] trackMetric: ai.request 1 {route: /global/event, method: SSE, projectId: bf685ebe-840d-495d-a909-345e4432ab7f, correlationId: r_1784227228270_e, outcome: success} @ https://stores-designer.harmony.a2z.com/assets/utils-BPBUpZd6.js:14
+[ 1804097ms] [LOG] [opencode] ← SSE connected 669ms correlationId: r_1784227228270_e @ https://stores-designer.harmony.a2z.com/assets/index-ZHSC2mrQ.js:8
+[ 1804103ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1810421ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[ 1826083ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0

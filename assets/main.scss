@@ -80,6 +80,7 @@ body.home .wrapper { max-width: 72rem; }       // home directory is wider
   color: $grey; text-decoration: none;
   padding: calc(#{$base} * 1.5) 0 calc(#{$base} * 4);
 }
+.mh-title-by { font-weight: 400; }   // subordinate credit next to the RECIPES wordmark
 
 // home: giant type-as-image wordmark + baseline count + "by halfcadence"
 body.home .masthead {
@@ -132,7 +133,8 @@ body.home .mh-title, body.home .mh-title:visited {
   font-size: clamp(2.6rem, 9vw, 5rem); margin: 0;
   text-transform: lowercase; font-weight: 700; letter-spacing: -0.045em; line-height: .9;
 }
-.hero-no { font-size: .3em; vertical-align: super; margin-left: .3em; color: $grey; font-weight: 700; letter-spacing: 0; font-variant-numeric: tabular-nums; }
+// number sits on the title's baseline (like the home "Recipes 124"), not floating as a superscript
+.hero-no { font-size: .32em; vertical-align: baseline; margin-left: .4em; color: $grey; font-weight: 700; letter-spacing: 0; font-variant-numeric: tabular-nums; }
 
 // lede — first paragraph of the body reads large
 .post-content { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(var(--cols), 1fr); column-gap: 1.25rem; margin-top: calc(#{$base} * 2); }

@@ -1,0 +1,41 @@
+[    1220ms] [WARNING] Deprecated API for given entry type. @ https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.en.ga674524grI.es5.OL/am=wAIAAACAKf5IAOf_PT3YAAIA_svhz9cH_l6i-_8PQyAI-CFg1dkAegBd1grv8___382v7d_vPlyG-fyRAIAAW0e35cNDDFdoBAD4AISuUzc5zQAAAAAAAAAAAAAAAAAAAAB8RjYyKTA/d=1/exm=b/ed=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9C2amosky0qjI0SY2wImoYEkmfk-A/cb=loaded_1/m=a?cb=e8029444:2964
+[    1585ms] [WARNING] Manifest: property 'migrate_from' ignored, manifest must specify an 'id' property in order to receive a migration. @ https://mail.google.com/mail/u/0/manifest.json:0
+[    1586ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://mail.google.com/mail/u/0/data?token=%5B%22cftp%22,%22502cc7a4e0%22,%22gmail.pinto-server_20260712.12_p0%22,%22ZyMrc6cBAw-rFZnvtXyj5A%5Cu003d%5Cu003d%22,null,3,%22%22%5D&dilte=0&gme=1&sme=1&pt=ji&di=0&dbv=112:0
+[    1587ms] [LOG] AUI Debug: Reapplying overrides after page change @ chrome-extension://dcfoehjpoialdhneckhclkljejggicle/scripts.js:54
+[    2702ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://mail.google.com/generate_204?bgqfYA:0
+[    2774ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77+SAPISID1PHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77+SAPISID3PHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77&authuser=0&format=json:0
+[    2774ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[    2774ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77+SAPISID1PHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77+SAPISID3PHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77&authuser=0&format=json:0
+[    2791ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[    3529ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://mail.google.com/mail/u/0/?ui=2&ik=502cc7a4e0&jsver=ga674524grI.en.L.es5&cbl=gmail.pinto-server_20260712.12_p0&rid=mail%3Ai.aea8.1.0&view=up&act=oetsha&_reqid=138697&at&nsc=1&mb=0&rt=j:0
+[    3790ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[    4860ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[    5842ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://mail-ads.google.com/mail/u/0/adsfe/main_jspb?rt=r&client=25&pt=ji:0
+[    6892ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://ci3.googleusercontent.com/meips/ADKq_NZV4K5D6vJ7KBDwigeVvGg5oy88QmFGyR0mZbf62CZtiNZhavzU6rh7u1r6NFfRg9tvXDUtVv_Qb0hM-bIS_5kSWXTZ0qF7n4lLqsXLCXCIP1Gu_E1fE-8rm3Tozs3kON0Yq0pgslN6vN1HTHwqQN6abNh-xPyaeDKTtHfdDvQHomAR0NEYoqu19QmLIw_XCiISUoNvgcPDNDbHNx7DhY6Njsek6T2_YsS0g0F3hlPspxh9GJBHZtXhgLFor4Gv868Z30_O7E4lsMIoSZLHupB4VG4QxmrtJC7P8Wniw4U0v7RrTJIt4cnZGHn1AFdcKgJATBliQQi4BbV5vbAFxaq-KwaUiRviTTMNLXzteNSP9Z9h2qn9uHNu3V0=s0-d-e1-ft#https://links.matic.com/e/eo?_t=68a18da6c60747aa8f034c7f3def3eec&_m=7248061d92174c949c4a8a1f9a32032a&_e=AZAQc5Ngwi1j4NDR6_ANx03UBO_YsLqleeXbGNTwguECUja4LhvtisjBuEdJaU05nFbCLsjVskuiQUGCCt0wqMVKTc6gd2LplYVWXDb5NpfsT3RXdH9JfVnc8MpI1Rpit51obb4ya29E-QaWwKDfiA%3D%3D:0
+[    7216ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[    8976ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[    9449ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://mail-ads.google.com/mail/u/0/adsfe/main_jspb?rt=r&client=25&pt=ji:0
+[   15083ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   15463ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   15469ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   16131ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://mail-ads.google.com/mail/u/0/adsfe/main_jspb?rt=r&client=25&pt=ji:0
+[   17131ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   17644ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   19755ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true:0
+[   23207ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://mail.google.com/generate_204?HQNgxA:0
+[   23219ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77+SAPISID1PHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77+SAPISID3PHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77&authuser=0&format=json:0
+[   29014ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://mail-ads.google.com/mail/u/0/adsfe/main_jspb?rt=r&client=25&pt=ji:0
+[   31249ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://ci3.googleusercontent.com/meips/ADKq_NaYEStuUVkaHW9kTOjcxV7UxV187PSSUIuPqWQagjZMOiFsdCwFZDk2UztYhPjnUbSJCpfoUxgVWgI59t-SJodwqPkaQyKUCnoeF74aaLFZVcTR_PngeLLmjbhQdkT3ox-rmlHkgiG1x42lQfyLMCfWpcQ4CZ1l1TfwIjs=s0-d-e1-ft#https://email.levels.fyi/t/o/c6efd50c-e13a-4aed-ac07-1bce019bba37/01939a6b-4034-85ab-881c-84bd10c8990f:0
+[   31369ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   32022ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   32470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   33417ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77+SAPISID1PHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77+SAPISID3PHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77&authuser=0&format=json:0
+[   35017ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   36229ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   41471ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   41697ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true:0
+[   51467ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   54335ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77+SAPISID1PHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77+SAPISID3PHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77&authuser=0&format=json:0
+[   63232ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   63969ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://mail-ads.google.com/mail/u/0/adsfe/main_jspb?rt=r&client=25&pt=ji:0
+[   65372ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77+SAPISID1PHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77+SAPISID3PHASH+5397e82b7f5ba7ae84ff2ab132a2af1079167b77&authuser=0&format=json:0

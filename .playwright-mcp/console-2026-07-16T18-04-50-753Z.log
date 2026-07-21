@@ -1,0 +1,24 @@
+[    5679ms] [ERROR] Manifest: Line: 2, column: 9, Syntax error. @ https://console.harmony.a2z.com/app-dashboard/manifest.json:1
+[    5953ms] [LOG] AUI Debug: Reapplying overrides after page change @ chrome-extension://dcfoehjpoialdhneckhclkljejggicle/scripts.js:54
+[    6557ms] [ERROR] Manifest: Line: 2, column: 9, Syntax error. @ https://console.harmony.a2z.com/app-dashboard/manifest.json:1
+[    7261ms] [LOG] Received authorizedReturned response from background script @ chrome-extension://bkbighdlgofgdhcjnhocalbkiehhpdei/sentryjs-api-injected.js:18
+[    7261ms] [LOG] Received authorizedReturned response from background script @ chrome-extension://bkbighdlgofgdhcjnhocalbkiehhpdei/sentryjs-api-injected.js:18
+[    7261ms] [LOG] Received authorizedReturned response from background script @ chrome-extension://bkbighdlgofgdhcjnhocalbkiehhpdei/sentryjs-api-injected.js:18
+[    7261ms] [LOG] Received authorizedReturned response from background script @ chrome-extension://bkbighdlgofgdhcjnhocalbkiehhpdei/sentryjs-api-injected.js:18
+[    7261ms] [LOG] Received authorizedReturned response from background script @ chrome-extension://bkbighdlgofgdhcjnhocalbkiehhpdei/sentryjs-api-injected.js:18
+[    7386ms] [LOG] Received authorizedReturned response from background script @ chrome-extension://bkbighdlgofgdhcjnhocalbkiehhpdei/sentryjs-api-injected.js:18
+[    7549ms] [WARNING] [AwsUi] [app-layout-drawers] multiple app layout instances detected when calling onDrawersRegistered @ https://console.harmony.a2z.com/app-dashboard/static/js/main.eac70cbb.js:1
+[    7570ms] [LOG] Received authorizedReturned response from background script @ chrome-extension://bkbighdlgofgdhcjnhocalbkiehhpdei/sentryjs-api-injected.js:18
+[    7570ms] [LOG] Received authorizedReturned response from background script @ chrome-extension://bkbighdlgofgdhcjnhocalbkiehhpdei/sentryjs-api-injected.js:18
+[    7743ms] [LOG] Received authorizedReturned response from background script @ chrome-extension://bkbighdlgofgdhcjnhocalbkiehhpdei/sentryjs-api-injected.js:18
+[    8583ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[   15952ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[   16400ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  403067ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  403839ms] [LOG] AUI Debug: Reapplying overrides after page change @ chrome-extension://dcfoehjpoialdhneckhclkljejggicle/scripts.js:54
+[  403910ms] [ERROR] Manifest: Line: 2, column: 9, Syntax error. @ https://console.harmony.a2z.com/app-dashboard/manifest.json:1
+[  404342ms] [WARNING] [AwsUi] [app-layout-drawers] multiple app layout instances detected when calling onDrawersRegistered @ https://console.harmony.a2z.com/app-dashboard/static/js/main.eac70cbb.js:1
+[  404350ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  404470ms] [ERROR] Manifest: Line: 2, column: 9, Syntax error. @ https://console.harmony.a2z.com/app-dashboard/manifest.json:1
+[  413843ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0
+[  414342ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus:0

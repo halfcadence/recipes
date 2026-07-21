@@ -1,7 +1,7 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
     <div class="masthead">
-      <a class="mh-title" rel="author" href="{{ "/" | relative_url }}">Recipes</a>
+      <a class="mh-title" rel="author" href="{{ "/" | relative_url }}">Recipes{%- unless page.url == '/' %} <span class="mh-title-by">by halfcadence</span>{%- endunless -%}</a>
       {%- if page.url == '/' -%}
         <span class="mh-count">124</span>
         <span class="mh-by">by<br>halfcadence</span>

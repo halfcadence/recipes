@@ -38,9 +38,3 @@ chef: Yamashita, HAL YAMASHITA Tokyo
 4. Blanch or sauté rape blossoms with a pinch of salt.
 
 5. Slice beef and serve with greens.
-
-<div class="notes" markdown="1">
-## Notes
-
-- Marinade is an all-purpose sauce — works on any protein.
-</div>
