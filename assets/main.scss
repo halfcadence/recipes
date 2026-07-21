@@ -111,8 +111,6 @@ body.home .cat-list { columns: 4 15rem; }
   font-weight: 700;
   letter-spacing: -0.01em;
   margin: 0 0 0.55rem;
-  padding-bottom: 0.32rem;
-  border-bottom: 2px solid $ink;
 }
 .cat-list {
   list-style: none;
@@ -286,9 +284,6 @@ pre code { border: none; padding: 0; }
     .post-content ol > li::before { color: $ground; }
     .analysis { border-left-color: $ground; }
   }
-  // home directory: color the category head + its rule
-  ##{$name}.cat .cat-h,
-  .cat.section-#{$name} .cat-h { border-bottom-color: $ground; color: $ground; }
 
   @media (prefers-color-scheme: dark) {
     body.section-#{$name} {
@@ -297,8 +292,6 @@ pre code { border: none; padding: 0; }
       .post-content ol > li::before { color: $inkv; }
       .analysis { border-left-color: $inkv; }
     }
-    ##{$name}.cat .cat-h,
-    .cat.section-#{$name} .cat-h { border-bottom-color: $inkv; color: $inkv; }
   }
 }
 
@@ -325,7 +318,6 @@ pre code { border: none; padding: 0; }
   .site-header { border-bottom-color: $dark-ink; }
   .mh-title, .mh-title:visited { color: $dark-ink; }
 
-  .cat-h { border-bottom-color: $dark-ink; }
   .cat-list li { border-bottom-color: $dark-hair; }
 
   // section-label / hero-no / step counter colors are set per-section in the
