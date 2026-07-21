@@ -23,6 +23,23 @@ number: 17
 
 4. Pour the water into the glass, then pour the matcha concentrate over it.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Brew ratio: **1:90 (suspension)**
+
+| Component | Amount | Ratio |
+|---|---|---|
+| Matcha | 2g | 1 |
+| Hot water (whisk) | 30g | 15 |
+| Cold water (dilute) | 150g | 75 |
+| Total | ~180g | 90 |
+
+**Not an extraction — matcha is whisked into suspension, so all 2g ends up in the glass.** The tiny hot pour makes a concentrated shot that cold water then lengthens, americano-style; the ~1:90 is dilution, not brew strength. Whisk with just 30g first — flood it with water too early and it won't emulsify smoothly.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

@@ -29,6 +29,22 @@ source: https://www.liquor.com/recipes/mojito/
 
 5. Garnish with a mint sprig and lime wheel.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total drink: **~180g** (2 oz rum, ¾ oz lime, ½ oz simple, soda top, muddled mint)
+
+| Component | Amount | % of drink |
+|---|---|---|
+| Alcohol (ethanol) | ~19g | 10.5% |
+| Sugar | ~8g | 4.2% |
+| Water + dilution | ~153g | 85.3% |
+
+**A long, refreshing sour — ~11% ABV finished, lightly sweet.** The soda top roughly doubles the glass, dropping the rum to session strength; mint is aromatic, not structural. The simple syrup and lime hold the balance — the whole drink lives or dies on cold soda and gentle muddling (bruise the mint for oils, don't shred it).
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

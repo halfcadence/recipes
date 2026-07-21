@@ -23,6 +23,22 @@ number: 70
 
 4. Garnish with a lemon twist if using.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total drink: **~200g** (2 oz whisky at 43%, soda ~1:3, over ice)
+
+| Component | Amount | % of drink |
+|---|---|---|
+| Alcohol (ethanol) | ~20g | 10.2% |
+| Sugar | ~0g | 0% |
+| Water + dilution | ~180g | 89.8% |
+
+**The purest long drink — ~10% ABV finished and zero sugar.** A single 2 oz whisky pour carried by ~3 parts soda and ice melt; nothing else. Everything reads through the whisky, so the whole technique is keeping it cold — warm components flatten the fizz and the drink loses its snap.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

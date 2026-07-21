@@ -23,6 +23,22 @@ source: https://www.liquor.com/recipes/corpse-reviver-no-2/
 
 3. Strain into the prepared glass.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total drink: **~135g** (after shaking; equal 3/4 oz gin, Lillet, orange liqueur, lemon + absinthe rinse)
+
+| Component | Amount | % of drink |
+|---|---|---|
+| Alcohol (ethanol) | ~17g | 12.7% |
+| Sugar | ~7g | 5.2% |
+| Water + dilution | ~111g | 82.1% |
+
+**An equal-parts sour — ~13% ABV finished and only lightly sweet at ~5%.** Four 3/4 oz pours balance against each other, and shaking adds ~45g of dilution (about a third of the glass) that softens the gin and stretches the citrus. Most of the sugar is the orange liqueur's; the Lillet and lemon barely register. The absinthe rinse is aroma only, no measurable weight.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

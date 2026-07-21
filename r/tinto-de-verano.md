@@ -26,6 +26,22 @@ source: https://spanishsabores.com/best-spanish-tinto-de-verano-recipe/
 
 4. Pour into ice-filled glasses and serve immediately.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total drink: **~1650g** (full pitcher: 750ml red wine, 720g lemon/orange soda, 180g sweet vermouth)
+
+| Component | Amount | % of drink |
+|---|---|---|
+| Alcohol (ethanol) | ~99g | 6.0% |
+| Sugar | ~100g | 6.1% |
+| Water + dilution | ~1451g | 87.9% |
+
+**A sessionable summer pitcher — ~6% ABV, about half the strength of the wine it starts from.** The soda roughly matches the wine by volume, halving the alcohol and supplying most of the ~6% sugar. Simpler and lighter than sangria (no fruit maceration, no brandy); the optional vermouth adds depth without much more booze. Per glass it's barely stronger than a shandy.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

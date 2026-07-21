@@ -25,6 +25,22 @@ source: https://www.liquor.com/recipes/bourbon-old-fashioned/
 
 4. Express the oil of an orange twist over the glass, then drop it in.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total drink: **~85g** (2 oz bourbon at 45%, 1 tsp sugar, bitters, stirred over one large cube)
+
+| Component | Amount | % of drink |
+|---|---|---|
+| Alcohol (ethanol) | ~21g | 25.1% |
+| Sugar | ~4g | 4.7% |
+| Water + dilution | ~60g | 70.2% |
+
+**The most spirit-forward of the set — ~25% ABV finished, just off-dry.** Almost nothing but whiskey: a teaspoon of sugar and a few dashes of bitters, softened by ~20g of slow dilution off one large cube. The big cube is the point — it chills without watering the drink down the way small ice would.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

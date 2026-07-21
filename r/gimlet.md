@@ -22,6 +22,22 @@ source: https://www.liquor.com/recipes/gimlet/
 
 3. Garnish with a lime wheel.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total drink: **~135g** (after shaking; 2½ oz gin at 40%, ½ oz lime, ½ oz simple syrup)
+
+| Component | Amount | % of drink |
+|---|---|---|
+| Alcohol (ethanol) | ~24g | 17.6% |
+| Sugar | ~8g | 5.6% |
+| Water + dilution | ~103g | 76.8% |
+
+**Spirit-forward at 5:1:1 — roughly 18% ABV finished, just off-dry at ~6% sugar.** The heavy gin pour is barely balanced by equal small measures of lime and syrup; shaking adds ~30g of water that pulls it drinkable. Push the syrup up for a rounder gimlet, or the lime for a sharper one — the gin never moves.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

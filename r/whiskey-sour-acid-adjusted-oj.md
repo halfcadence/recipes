@@ -37,6 +37,22 @@ source: https://www.reddit.com/r/cocktails/comments/11q7a3n/my_new_favourite_whi
 
 5. Garnish with 3–4 drops of Angostura bitters.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total drink: **~130g** (after shaking; 2 oz bourbon, ¾ oz acid-adjusted OJ, ½ oz simple, egg white)
+
+| Component | Amount | % of drink |
+|---|---|---|
+| Alcohol (ethanol) | ~21g | 16.4% |
+| Sugar | ~10g | 7.3% |
+| Water + dilution | ~99g | 76.3% |
+
+**A sour with orange in the citrus slot — ~16% ABV finished, gently sweet.** Acid-adjusting brings orange juice to lemon's tartness, so it behaves as a 1:1 sour mixer while keeping orange flavour. Numbers mirror a standard whiskey sour; the OJ adds a touch of its own sugar. Egg white contributes foam and body, not sweetness.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

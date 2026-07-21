@@ -25,6 +25,23 @@ number: 77
 
 5. Add ice. Pour cold milk over the top.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total drink: **~1415g** (450g strawberries cooked with 65g sugar, 900ml whole milk)
+
+| Component | Amount | % of drink |
+|---|---|---|
+| Fat (whole milk) | ~30g | 2.1% |
+| Sugar (added + fruit + lactose) | ~129g | 9.1% |
+| Milk protein | ~30g | 2.1% |
+| Water + purée solids | ~1226g | 86.7% |
+
+**Milk carries the body; the sweetness is roughly half added sugar, half milk-and-fruit.** Cooking the strawberries down concentrates their flavour and pectin into a syrup rather than watering the milk, which is why fresh berries beat frozen here. Fat sits low at ~2% on whole milk — the richness reads higher because the purée coats. Skim thins it noticeably.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

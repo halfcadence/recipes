@@ -36,6 +36,23 @@ Grind finer than hot AeroPress — less water means you need more extraction.
 
 6. Swirl to melt remaining ice. Pour over fresh ice in a glass.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Brew ratio: **1:12.8 (flash brew)**
+
+| Component | Amount | Ratio |
+|---|---|---|
+| Coffee (dry dose) | 18g | 1 |
+| Hot water | 150g | 8.3 |
+| Ice in server | 80g | 4.4 |
+| Total liquid | 230g | 12.8 |
+
+**A concentrated 1:8.3 hot extraction crashed onto ice to land at ~1:12.8 overall.** Brewing strong then diluting with ice locks in the volatile aromatics a slow cold brew loses, and the ice becomes part of the recipe — count its weight or the cup comes out weak. Grind finer than a hot AeroPress since less hot water does the extracting.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

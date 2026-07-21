@@ -23,6 +23,22 @@ number: 91
 
 4. Garnish with a small umeboshi or lemon twist if you like.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total drink: **~200g** (60 ml umeshu at ~12%, soda to top, over ice)
+
+| Component | Amount | % of drink |
+|---|---|---|
+| Alcohol (ethanol) | ~6g | 2.9% |
+| Sugar | ~12g | 6.0% |
+| Water + dilution | ~182g | 91.1% |
+
+**Sweet-tart and very low-ABV — ~3% finished.** Umeshu is already low-proof and sugary (steeped plums + sugar), so soda mainly stretches and lightens it; the ~6% sugar is all the umeshu's. More refreshing and forgiving than a whisky highball — the plum does the flavor work, the soda keeps it long.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

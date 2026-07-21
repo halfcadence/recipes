@@ -24,6 +24,22 @@ number: 69
 
 4. Garnish with yuzu peel or a lemon twist.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total drink: **~200g** (2 oz whisky at 43%, ½ oz yuzu, soda to top, over ice)
+
+| Component | Amount | % of drink |
+|---|---|---|
+| Alcohol (ethanol) | ~20g | 10.2% |
+| Sugar | ~1g | 0.5% |
+| Water + dilution | ~179g | 89.3% |
+
+**A citrus highball — ~10% ABV finished and essentially dry.** Same structure as a plain highball with a small yuzu addition for aromatic tartness; the juice adds almost no sugar. Cold is still everything — the yuzu brightens the whisky without softening the fizz.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

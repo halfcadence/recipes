@@ -36,6 +36,22 @@ source: https://www.grandonelounge.com/blog/lillet-spritz-a-summer-classic-serve
 
 4. Top with club soda.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total drink: **~200g** (classic: 2½ oz Lillet at ~17%, 3½ oz soda, over ice)
+
+| Component | Amount | % of drink |
+|---|---|---|
+| Alcohol (ethanol) | ~10g | 5.0% |
+| Sugar | ~4g | 2.0% |
+| Water + dilution | ~186g | 93.0% |
+
+**A low-ABV aperitif — ~5% finished, barely sweet.** Lillet is a fortified aromatised wine, not a spirit, so even a generous pour lands light; the soda and ice make up over 90% of the glass. The sparkling variation swaps in prosecco for more lift and a touch more alcohol, but the character stays session-light.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

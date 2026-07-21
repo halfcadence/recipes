@@ -37,6 +37,23 @@ Grind finer than hot pour over. Less hot water means less extraction time, so fi
 
 7. Pour over fresh ice in a glass.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Brew ratio: **1:16.7 (flash brew)**
+
+| Component | Amount | Ratio |
+|---|---|---|
+| Coffee (dry dose) | 30g | 1 |
+| Hot water | 330g | 11 |
+| Ice | 170g | 5.7 |
+| Total liquid | 500g | 16.7 |
+
+**Japanese-style flash brew: ~⅔ hot water, ~⅓ ice, netting a standard 1:16.7.** The hot pour extracts a concentrate that the melting ice dilutes to strength while snap-chilling it — that rapid chill traps aromatics cold brew never captures. The ice is measured into the ratio, not added after, so the final cup lands balanced rather than watery.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

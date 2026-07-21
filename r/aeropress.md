@@ -32,6 +32,23 @@ number: 73
 
 6. Total brew time: ~2:00.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Brew ratio: **1:16.7**
+
+| Component | Amount | Ratio |
+|---|---|---|
+| Coffee (dry dose) | 15g | 1 |
+| Brew water | 250g | 16.7 |
+| Absorbed by grounds (~2×) | ~30g | — |
+| Coffee in the cup | ~220g | — |
+
+**1:16.7 makes a clean, full cup — right in the standard filter window.** The grounds hold roughly twice their dry weight, so ~30g of the 250g never leaves the puck. The AeroPress is the most forgiving brewer: grind, temperature, and steep all have wide margins, so the dose sets strength and everything else is preference.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

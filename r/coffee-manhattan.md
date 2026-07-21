@@ -33,6 +33,22 @@ source: https://www.cocktailchemistrylab.com/home/pourover
 
 4. Drop in a cherry.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total drink: **~109g** (after stirring; 2 oz rye at 43% ABV, 1 oz sweet vermouth at ~16%, brewed through coffee)
+
+| Component | Amount | % of drink |
+|---|---|---|
+| Alcohol (ethanol) | ~24g | 22.0% |
+| Sugar | ~5g | 4.6% |
+| Water + dilution | ~80g | 73.4% |
+
+**A Manhattan filtered through coffee — still ~28% ABV finished, essentially dry at ~5% sugar.** The grounds add aroma and a little bitterness but almost no weight or sugar; the numbers are the standard Manhattan's. The ~20% stirring dilution rounds a 43% pour to a silky ~28%, and the sweetness rides in on the vermouth, not added sugar.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

@@ -32,6 +32,23 @@ number: 72
 
 6. Total time including drawdown: ~2:45–3:15.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Brew ratio: **1:15**
+
+| Component | Amount | Ratio |
+|---|---|---|
+| Coffee (dry dose) | 20g | 1 |
+| Brew water | 300g | 15 |
+| Absorbed by grounds (~2×) | ~40g | — |
+| Coffee in the cup | ~260g | — |
+
+**1:15 sits at the fuller end of the filter window — the Switch's immersion phase builds body.** Because it steeps before it drains, extraction is even and pour technique barely matters; the grind (coarser than a V60) is what sets the pace. Grounds retain ~twice their weight, so ~40g stays behind.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

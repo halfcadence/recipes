@@ -27,6 +27,23 @@ number: 75
 
 6. Strain into a glass filled with fresh ice.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Brew ratio: **1:16.7 + sugar**
+
+| Component | Amount | Ratio |
+|---|---|---|
+| Tea (dry leaves) | 15g | 1 |
+| Boiling water | 250g | 16.7 |
+| Simple syrup | 30g | — |
+| Ice | to shake | — |
+
+**A strong 1:16.7 brew, sweetened and shaken to foam.** The tea is brewed deliberately strong because the ice dilutes hard on shaking; the 30g of simple syrup both sweetens and helps stabilise the signature foam. Shake harder than feels necessary — the froth is the whole point of Taiwanese paomo tea.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 
