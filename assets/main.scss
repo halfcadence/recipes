@@ -77,14 +77,7 @@ a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
 // header). No big wordmark, no heavy bar. The directory bar below carries
 // the descriptor, so this stays quiet and doesn't read as a doubled header.
 .site-header { border-bottom: 1px solid $ink; }
-.masthead {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 1.5rem;
-  padding: 0.9rem 0;
-  font-size: 0.8125rem;
-}
+.masthead { padding: 0.9rem 0; }
 // wordmark: the one caps moment — tight, compressed logotype
 .mh-title, .mh-title:visited {
   font-weight: 700;
@@ -94,18 +87,6 @@ a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
   text-decoration: none;
   color: $ink;
   white-space: nowrap;
-}
-.mh-right, .mh-right:visited {
-  font-size: 0.8125rem;
-  font-weight: 400;
-  letter-spacing: 0;
-  text-decoration: none;
-  color: $ink;
-  white-space: nowrap;
-}
-.mh-right:hover { text-decoration: underline; }
-@media (max-width: 32rem) {
-  .masthead { flex-wrap: wrap; gap: 0.1rem 1rem; }
 }
 
 .page-content { padding: 2rem 0 5rem; }
@@ -341,7 +322,7 @@ pre code { border: none; padding: 0; }
   h1, h2, h3, h4, h5, h6 { color: $dark-ink; }
 
   .site-header { border-bottom-color: $dark-ink; }
-  .mh-title, .mh-title:visited, .mh-right, .mh-right:visited { color: $dark-ink; }
+  .mh-title, .mh-title:visited { color: $dark-ink; }
 
   .cat-h { border-bottom-color: $dark-ink; }
   .cat-list li { border-bottom-color: $dark-hair; }
