@@ -67,7 +67,7 @@ strong, b { font-weight: 700; }
 a, a:visited { color: $ink; text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
 a:hover { text-decoration: none; }
 a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
-::selection { background: $spot; color: $on-spot; }
+::selection { background: #ffe100; color: #111; }  // neutral yellow highlight — doesn't clash with any section color
 
 // ── Masthead — three-point baseline over a heavy rule ────────────────
 // Only the wordmark is a "title"; the middle is a quiet descriptor, the
@@ -341,13 +341,12 @@ pre code { border: none; padding: 0; }
   .cat-h { border-bottom-color: $dark-ink; }
   .cat-list li { border-bottom-color: $dark-hair; }
 
-  .section-label { color: $dark-ink; }
+  // section-label / hero-no / step counter colors are set per-section in the
+  // @each block above (dark variant). Don't override them here.
   .post-hero { border-bottom-color: $dark-ink; }
-  .hero-no { color: $dark-ink; }
-  .post-title { background: $spot; color: $on-spot; }  // spot unchanged
+  .post-title { color: $dark-ink; }              // plain title, no fill
   .post-content > p:first-child { color: $dark-ink; }
   .post-content h2 { border-bottom-color: $dark-ink; }
-  .post-content ol > li::before { color: $spot; }
 
   table td { border-bottom-color: $dark-hair; }
   .notes { color: $dark-grey; }
