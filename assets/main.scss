@@ -151,14 +151,16 @@ body.home .mh-title, body.home .mh-title:visited {
 .post-content h3 { grid-column: 1 / -1; font-size: 1rem; margin: calc(#{$base} * 3) 0 calc(#{$base} * .5); }
 
 // ingredients (RECIPE markdown table only): two-col flow, quantities right, names share edge.
-// Scoped away from articles so real data tables there aren't hijacked into the qty|name grid.
+// Scoped away from articles AND from the .analysis data table so neither is hijacked into
+// the qty|name grid. `.post-content > table` targets only top-level ingredient tables, not
+// the multi-column table nested inside .analysis.
 body:not(.section-articles) {
-  .post-content table { grid-column: 1 / 9; border-collapse: collapse; width: 100%; margin: 0; display: block; columns: 2 12rem; column-gap: 2.5rem; }
-  .post-content thead { display: none; }
-  .post-content tbody { display: contents; }
-  .post-content table tr { break-inside: avoid; display: grid; grid-template-columns: 3.5rem 1fr; column-gap: 1rem; padding: calc(#{$base} * .55) 0; align-items: baseline; }
-  .post-content table td { border: none; padding: 0; }
-  .post-content table td:first-child { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .post-content > table { grid-column: 1 / 9; border-collapse: collapse; width: 100%; margin: 0; display: block; columns: 2 12rem; column-gap: 2.5rem; }
+  .post-content > table thead { display: none; }
+  .post-content > table tbody { display: contents; }
+  .post-content > table tr { break-inside: avoid; display: grid; grid-template-columns: 3.5rem 1fr; column-gap: 1rem; padding: calc(#{$base} * .55) 0; align-items: baseline; }
+  .post-content > table td { border: none; padding: 0; }
+  .post-content > table td:first-child { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
 }
 
 // ARTICLE data tables (comparison grids etc.): plain hairline table, header row kept.
@@ -227,10 +229,18 @@ body.section-articles .post-content ol > li::after { content: none; }
 body.section-articles .post-content ol > li > p,
 body.section-articles .post-content ul > li > p { display: inline; grid-column: auto; max-width: none; margin: 0; }
 
-// ── Analysis block (kept, monochrome) ──
-.analysis { grid-column: 1 / 10; border-left: 3px solid $ink; padding-left: 1rem; margin: calc(#{$base} * 4) 0; }
+// ── Analysis block (kept, monochrome) — a real multi-column data table, NOT the qty|name grid ──
+.analysis { grid-column: 1 / 10; border-left: 3px solid $ink; padding-left: 1.1rem; margin: calc(#{$base} * 4) 0; }
 .analysis h2 { grid-column: auto; border: none; padding: 0; margin: 0 0 .4rem; }
-.analysis td:last-child { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.analysis > p { margin: 0 0 .8rem; }
+.analysis table { display: table; width: 100%; border-collapse: collapse; margin: 0 0 1rem; font-size: .85rem; font-variant-numeric: tabular-nums; }
+.analysis thead { display: table-header-group; }
+.analysis tbody { display: table-row-group; }
+.analysis tr { display: table-row; }
+.analysis th, .analysis td { display: table-cell; padding: .3em .8em .3em 0; border-bottom: 1px solid $hair; vertical-align: baseline; }
+.analysis thead th { text-align: left; font-weight: 700; border-bottom: 1.5px solid $ink; }
+.analysis th:not(:first-child), .analysis td:not(:first-child) { text-align: right; white-space: nowrap; }
+.analysis tbody tr:last-child td { border-bottom: none; }
 
 // ── Code ──
 code, pre { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .875em; }
@@ -294,6 +304,8 @@ pre code { border: none; padding: 0; }
   body.section-articles .post-content thead th { border-bottom-color: $dark-ink; }
   body.section-articles .post-content tbody td { border-bottom-color: $dark-hair; }
   .analysis { border-left-color: $dark-ink; }
+  .analysis th, .analysis td { border-bottom-color: $dark-hair; }
+  .analysis thead th { border-bottom-color: $dark-ink; }
   code, pre { border-color: $dark-ink; }
 }
 
