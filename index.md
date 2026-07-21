@@ -5,7 +5,7 @@ title: Recipes
 
 <div class="dir">
 <section class="cat" id="mains" markdown="0">
-<h2 class="cat-h">Mains</h2>
+<h2 class="cat-h"><span class="ix">01 / 07</span><span class="lb">Mains</span></h2>
 <ul class="cat-list">
 <li><a href="./r/miso-marinated-steak">Miso Steak</a></li>
 <li><a href="./r/miso-grilled-chicken">Miso Grilled Chicken</a></li>
@@ -32,7 +32,7 @@ title: Recipes
 </ul>
 </section>
 <section class="cat" id="soups" markdown="0">
-<h2 class="cat-h">Soups & Hot Pots</h2>
+<h2 class="cat-h"><span class="ix">02 / 07</span><span class="lb">Soups &amp; Hot Pots</span></h2>
 <ul class="cat-list">
 <li><a href="./r/clam-miso-soup">Clam Miso Soup</a></li>
 <li><a href="./r/ushiojiru">Ushiojiru</a></li>
@@ -50,7 +50,7 @@ title: Recipes
 </ul>
 </section>
 <section class="cat" id="sides" markdown="0">
-<h2 class="cat-h">Sides</h2>
+<h2 class="cat-h"><span class="ix">03 / 07</span><span class="lb">Sides</span></h2>
 <ul class="cat-list">
 <li><a href="./r/robuchon-mashed-potatoes">Mashed Potatoes</a></li>
 <li><a href="./r/pickled-cabbage">Pickled Cabbage</a></li>
@@ -61,7 +61,7 @@ title: Recipes
 </ul>
 </section>
 <section class="cat" id="sweets" markdown="0">
-<h2 class="cat-h">Sweets</h2>
+<h2 class="cat-h"><span class="ix">04 / 07</span><span class="lb">Sweets</span></h2>
 <ul class="cat-list">
 <li><a href="./r/match-affogato">Matcha Affogato</a></li>
 <li><a href="./r/coffee-jelly">Coffee Jelly</a></li>
@@ -116,7 +116,7 @@ title: Recipes
 </ul>
 </section>
 <section class="cat" id="drinks" markdown="0">
-<h2 class="cat-h">Drinks</h2>
+<h2 class="cat-h"><span class="ix">05 / 07</span><span class="lb">Drinks</span></h2>
 <ul class="cat-list">
 <li><a href="./r/cold-brew-tea">Cold Brew Tea</a></li>
 <li><a href="./r/shaken-black-tea">Shaken Black Tea</a></li>
@@ -147,7 +147,7 @@ title: Recipes
 </ul>
 </section>
 <section class="cat" id="pantry" markdown="0">
-<h2 class="cat-h">Pantry</h2>
+<h2 class="cat-h"><span class="ix">06 / 07</span><span class="lb">Pantry</span></h2>
 <ul class="cat-list">
 <li><a href="./r/kombu-dashi">Kombu Dashi</a></li>
 <li><a href="./r/awase-dashi">Awase Dashi</a></li>
@@ -159,7 +159,7 @@ title: Recipes
 </ul>
 </section>
 <section class="cat" id="articles" markdown="0">
-<h2 class="cat-h">Articles</h2>
+<h2 class="cat-h"><span class="ix">07 / 07</span><span class="lb">Articles</span></h2>
 <ul class="cat-list">
 <li><a href="./a/aeropress-filters">AeroPress Filters</a></li>
 <li><a href="./a/reheating-frozen-bread">Reheating Frozen Bread</a></li>
@@ -183,7 +183,7 @@ title: Recipes
 </ul>
 </section>
 <section class="cat" id="colophon" markdown="0">
-<h2 class="cat-h">Colophon</h2>
+<h2 class="cat-h"><span class="ix">·</span><span class="lb">Colophon</span></h2>
 <ul class="cat-list">
 <li><a href="./steering">Steering</a></li>
 <li><a href="./type">Typography</a></li>
