@@ -161,6 +161,7 @@ title: Recipes
 <section class="cat cat--wide" id="articles" markdown="0">
 <h2 class="cat-h"><span class="ix">07</span><span class="lb">Articles</span></h2>
 <ul class="cat-list">
+<li><a href="./a/food-photography-at-home">Photographing Food at Home</a></li>
 <li><a href="./a/aeropress-filters">AeroPress Filters</a></li>
 <li><a href="./a/reheating-frozen-bread">Reheating Frozen Bread</a></li>
 <li><a href="./a/field-no-8-skillet">The Field No. 8 Skillet</a></li>

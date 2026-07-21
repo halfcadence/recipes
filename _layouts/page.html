@@ -17,6 +17,13 @@ layout: default
     </div>
   </header>
 
+  {% if page.image %}
+  <figure class="post-figure">
+    <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title | escape }}" loading="lazy">
+    {% if page.image_credit %}<figcaption>{{ page.image_credit }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+
   <div class="post-content">
     {{ content }}
   </div>

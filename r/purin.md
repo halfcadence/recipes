@@ -3,6 +3,9 @@ title: Purin
 category: sweets
 number: 38
 source: https://www.justonecookbook.com/custard-pudding/
+image: https://images.unsplash.com/photo-1780798465831-de1e4d58ee46?w=1200&q=80&auto=format&fit=crop
+image_alt: A caramel-topped purin custard in a bowl with caramel sauce pooled around it and a spoon
+image_credit: Photo — Unsplash
 ---
 
 ## Ingredients
