@@ -196,7 +196,8 @@ body.section-articles .post-content tbody tr:last-child td { border-bottom: none
   column-gap: 1.25rem; row-gap: calc(#{$base} * 1.5);
   list-style: none; margin: 0; padding-top: calc(#{$base} * 1.5);
   font-family: $serif; font-size: .85rem; line-height: 1.5; color: $grey; counter-reset: note; }
-.notes li { margin: 0; padding-left: 1.4em; text-indent: -1.4em; counter-increment: note; }
+// flush-left: no hanging indent, so the numbered first line doesn't jut left of the wraps
+.notes li { margin: 0; padding-left: 0; text-indent: 0; counter-increment: note; }
 .notes li::before { content: counter(note); font-family: $sans; font-weight: 700; font-size: .78em; color: $ink; margin-right: .5em; font-variant-numeric: tabular-nums; }
 
 // ── ARTICLE body (body.section-articles): prose-forward, marginalia subheads ──
@@ -229,18 +230,21 @@ body.section-articles .post-content ol > li::after { content: none; }
 body.section-articles .post-content ol > li > p,
 body.section-articles .post-content ul > li > p { display: inline; grid-column: auto; max-width: none; margin: 0; }
 
-// ── Analysis block (kept, monochrome) — a real multi-column data table, NOT the qty|name grid ──
-.analysis { grid-column: 1 / 10; border-left: 3px solid $ink; padding-left: 1.1rem; margin: calc(#{$base} * 4) 0; }
+// ── Analysis block (L2 — steps pattern, rule-free) ──────────────────────────────
+// Light, type-forward: label left, % as a grey figure pushed to the far right (like the
+// step numbers), grams tucked small+grey beside the label. No table borders / header rules —
+// the markdown <table> (Component | Amount | %) is restyled row-by-row into that layout.
+.analysis { grid-column: 1 / 10; margin: calc(#{$base} * 3) 0; }
 .analysis h2 { grid-column: auto; border: none; padding: 0; margin: 0 0 .4rem; }
-.analysis > p { margin: 0 0 .8rem; }
-.analysis table { display: table; width: 100%; border-collapse: collapse; margin: 0 0 1rem; font-size: .85rem; font-variant-numeric: tabular-nums; }
-.analysis thead { display: table-header-group; }
-.analysis tbody { display: table-row-group; }
-.analysis tr { display: table-row; }
-.analysis th, .analysis td { display: table-cell; padding: .3em .8em .3em 0; border-bottom: 1px solid $hair; vertical-align: baseline; }
-.analysis thead th { text-align: left; font-weight: 700; border-bottom: 1.5px solid $ink; }
-.analysis th:not(:first-child), .analysis td:not(:first-child) { text-align: right; white-space: nowrap; }
-.analysis tbody tr:last-child td { border-bottom: none; }
+.analysis > p { margin: 0 0 1rem; max-width: 40rem; }        // caption + readout paragraphs
+.analysis table { display: block; width: 100%; max-width: 40rem; margin: 0 0 1rem; font-size: .92rem; font-variant-numeric: tabular-nums; }
+.analysis thead { display: none; }                            // drop the header row (footnote-light)
+.analysis tbody { display: block; }
+// row = [ label | amount(small grey) | % (fills remaining → far-right, grey) ]
+.analysis tr { display: grid; grid-template-columns: auto auto 1fr; column-gap: .6rem; align-items: baseline; padding: calc(#{$base} * .7) 0; }
+.analysis td { padding: 0; border: none; }
+.analysis td:nth-child(2) { color: $grey; font-size: .82rem; }        // grams, small + grey, riding after the label
+.analysis td:last-child { text-align: right; color: $grey; white-space: nowrap; }  // % pushed far right
 
 // ── Code ──
 code, pre { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .875em; }
@@ -303,9 +307,7 @@ pre code { border: none; padding: 0; }
   body.section-articles .post-content > p:first-child { color: $dark-ink; }
   body.section-articles .post-content thead th { border-bottom-color: $dark-ink; }
   body.section-articles .post-content tbody td { border-bottom-color: $dark-hair; }
-  .analysis { border-left-color: $dark-ink; }
-  .analysis th, .analysis td { border-bottom-color: $dark-hair; }
-  .analysis thead th { border-bottom-color: $dark-ink; }
+  .analysis td:nth-child(2), .analysis td:last-child { color: $dark-grey; }
   code, pre { border-color: $dark-ink; }
 }
 
