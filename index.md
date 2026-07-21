@@ -3,8 +3,6 @@ layout: default
 title: Recipes
 ---
 
-<p class="dir-bar"><span>Andrew's kitchen</span><span class="dir-mid">by category</span><span>151 entries</span></p>
-
 <div class="dir">
 <section class="cat" id="mains" markdown="0">
 <h2 class="cat-h">Mains</h2>
