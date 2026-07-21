@@ -186,11 +186,7 @@ title: Recipes
 <h2 class="cat-h">Colophon</h2>
 <ul class="cat-list">
 <li><a href="./steering">Steering</a></li>
-<li><a href="./colors">Colors</a></li>
 <li><a href="./type">Typography</a></li>
-<li><a href="./type-comparison">Type Comparison</a></li>
-<li><a href="./illustrations">SVG Illustrations</a></li>
-<li><a href="./illustrations-riso">Riso Illustrations</a></li>
 <li><a href="./drafts">Drafts</a></li>
 <li><a href="./changelog">Changelog</a></li>
 </ul>
