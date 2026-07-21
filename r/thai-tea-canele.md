@@ -45,17 +45,6 @@ The custardy [Canelé]({{ '/r/canele' | relative_url }}) infused with Thai tea m
 
 9. Unmold immediately onto a cooling rack. Cool 2 hours. Eat the same day.
 
-<div class="notes" markdown="1">
-## Notes
-
-- Use real Thai tea mix — ChaTraMue "Number One Brand" (the orange one) — not plain black tea. The blend carries star anise, tamarind, and vanilla notes, and the signature orange color comes from the mix's own coloring. Plain tea tastes wrong and bakes brown.
-- The orange will mute once the dark caramelized shell forms — expect an orange-gold interior, not neon.
-- **No alcohol.** The original used 40g rum to reinforce the blend's vanilla/spice. The rum is aromatic, not structural, so it's replaced with 40g milk (to hold the liquid balance) plus a vanilla bean and 2g more tea mix to rebuild that depth directly. A few grams of dark molasses or muscovado dissolved into the milk is an alternate way to deepen the caramel backbone. For the boozy original, swap the 40g milk + the added vanilla back for 40g aged rum.
-- Swap the cream for evaporated milk, or finish unmolded canelés with a drizzle of condensed milk, for a more authentic Thai-iced-tea richness.
-- Milk starts at 420g (vs the base 340g) to cover what the mix soaks up. Spent tea retains roughly 2–4× its dry weight; the fine-cut Thai mix lands on the lower-to-middle end per gram but there's a lot of it, so 18g takes up somewhere near 35–70g. The exact figure doesn't matter — after steeping you weigh the strained milk and measure back to a clean 340g, so absorption can't dilute the batter.
-- Other technique is identical to the custardy [Canelé]({{ '/r/canele' | relative_url }}).
-</div>
-
 ## Analysis
 
 <div class="analysis" markdown="1">
@@ -72,4 +61,15 @@ Total batter weight: **~808g** (after straining the tea; excludes mold coating)
 
 **Custardy-Canelé ratios** (~12% structure) — the Thai tea mix steeps in as flavor and color without affecting structure. Replacing the rum with milk leaves the liquid fraction effectively identical; the character comes entirely from the tea blend, now backed by added vanilla.
 
+</div>
+
+<div class="notes" markdown="1">
+## Notes
+
+- Use real Thai tea mix — ChaTraMue "Number One Brand" (the orange one) — not plain black tea. The blend carries star anise, tamarind, and vanilla notes, and the signature orange color comes from the mix's own coloring. Plain tea tastes wrong and bakes brown.
+- The orange will mute once the dark caramelized shell forms — expect an orange-gold interior, not neon.
+- **No alcohol.** The original used 40g rum to reinforce the blend's vanilla/spice. The rum is aromatic, not structural, so it's replaced with 40g milk (to hold the liquid balance) plus a vanilla bean and 2g more tea mix to rebuild that depth directly. A few grams of dark molasses or muscovado dissolved into the milk is an alternate way to deepen the caramel backbone. For the boozy original, swap the 40g milk + the added vanilla back for 40g aged rum.
+- Swap the cream for evaporated milk, or finish unmolded canelés with a drizzle of condensed milk, for a more authentic Thai-iced-tea richness.
+- Milk starts at 420g (vs the base 340g) to cover what the mix soaks up. Spent tea retains roughly 2–4× its dry weight; the fine-cut Thai mix lands on the lower-to-middle end per gram but there's a lot of it, so 18g takes up somewhere near 35–70g. The exact figure doesn't matter — after steeping you weigh the strained milk and measure back to a clean 340g, so absorption can't dilute the batter.
+- Other technique is identical to the custardy [Canelé]({{ '/r/canele' | relative_url }}).
 </div>

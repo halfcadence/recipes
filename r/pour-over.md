@@ -40,6 +40,23 @@ Grind coarser than typical pour over — closer to French press. The 4:6 method 
 
 8. Drawdown should complete around 3:30.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Brew ratio: **1:15** (20g coffee to 300g water)
+
+| Component | Amount | Ratio |
+|---|---|---|
+| Coffee (dry dose) | 20g | 1 |
+| Brew water | 300g | 15 |
+| Absorbed by grounds (~2×) | ~40g | — |
+| Coffee in the cup | ~260g | — |
+
+**1:15 sits in the standard filter window (1:15–1:17) — a balanced cup, neither concentrated nor watery.** The grounds retain roughly twice their dry weight, so ~40g of your 300g never reaches the cup; that retention is why the drink is ~260g, not 300g. Tighten toward 1:15 for more body, open toward 1:17 for a lighter, tea-like cup — the dose sets strength, the pour schedule sets the balance of sweetness vs. acidity.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

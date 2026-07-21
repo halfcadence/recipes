@@ -22,6 +22,22 @@ source: https://www.liquor.com/recipes/manhattan-2/
 
 3. Garnish with a brandied cherry.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total drink: **~109g** (after stirring; 2 oz rye at 43% ABV, 1 oz sweet vermouth at ~16%)
+
+| Component | Amount | % of drink |
+|---|---|---|
+| Alcohol (ethanol) | 24g | 22.0% |
+| Sugar (from vermouth) | 5g | 4.6% |
+| Water + dilution | 80g | 73.4% |
+
+**A spirit-forward stirred drink — roughly 28% ABV finished, and essentially dry at ~5% sugar.** The 2:1 rye:vermouth ratio does almost all the work; the ~22g of stirring dilution (about 20% of the glass) is what pulls a harsh 43% pour down to a silky ~28% and rounds the edges. Nearly all the sweetness rides in on the vermouth, not added sugar — swap to a drier vermouth and it reads sharper.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 

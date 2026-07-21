@@ -45,16 +45,6 @@ The [Hong Kong Milk Tea Canelé]({{ '/r/hong-kong-milk-tea-canele' | relative_ur
 
 9. Unmold immediately onto a cooling rack. Cool 2 hours. Eat the same day.
 
-<div class="notes" markdown="1">
-## Notes
-
-- **Straight 2.2× scale-up** of the single [Hong Kong Milk Tea Canelé]({{ '/r/hong-kong-milk-tea-canele' | relative_url }}), eggs snapped to whole counts (2 whole + 5 yolks), the rest scaled to match — identical ratios, so it bakes the same. Only the full-tray oven behavior changes.
-- **Full-tray oven handling** is the real variable at 24 molds in a home oven — preheated baking steel, hotter/longer preheat, don't open the oven to fight mushrooms, bake-12-at-a-time fallback. All of it is in [Big-Batch Canelé]({{ '/r/big-batch-canele' | relative_url }})'s notes; it applies here unchanged.
-- **Evaporated milk browns faster** (more lactose + milk solids), on top of the deep shell canelés already want — so favor the 400°F second stage and judge by color, not the clock.
-- Sugar is trimmed (352g vs a strict scale of the base's 374g) to offset the evaporated milk's lactose, keeping it on the less-sweet side HK milk tea is known for — finish with a condensed-milk drizzle if you want it sweeter.
-- Milk starts at 924g (vs the 748g measure-back) to cover what the leaves soak up; weigh the strained milk and measure back to 748g so absorption can't dilute the batter.
-</div>
-
 ## Analysis
 
 <div class="analysis" markdown="1">
@@ -71,4 +61,14 @@ Total batter weight: **~1804g** (after straining the leaves; excludes mold coati
 
 **The single-batch HK milk tea ratios at 2.2× the volume** — structure ~12% (custardy), fat ~10% (the cream + evaporated milk richness), sugar trimmed to offset the evaporated lactose. Nothing about the larger batch changes the texture; only the oven's heat recovery does (see [Big-Batch Canelé]({{ '/r/big-batch-canele' | relative_url }})).
 
+</div>
+
+<div class="notes" markdown="1">
+## Notes
+
+- **Straight 2.2× scale-up** of the single [Hong Kong Milk Tea Canelé]({{ '/r/hong-kong-milk-tea-canele' | relative_url }}), eggs snapped to whole counts (2 whole + 5 yolks), the rest scaled to match — identical ratios, so it bakes the same. Only the full-tray oven behavior changes.
+- **Full-tray oven handling** is the real variable at 24 molds in a home oven — preheated baking steel, hotter/longer preheat, don't open the oven to fight mushrooms, bake-12-at-a-time fallback. All of it is in [Big-Batch Canelé]({{ '/r/big-batch-canele' | relative_url }})'s notes; it applies here unchanged.
+- **Evaporated milk browns faster** (more lactose + milk solids), on top of the deep shell canelés already want — so favor the 400°F second stage and judge by color, not the clock.
+- Sugar is trimmed (352g vs a strict scale of the base's 374g) to offset the evaporated milk's lactose, keeping it on the less-sweet side HK milk tea is known for — finish with a condensed-milk drizzle if you want it sweeter.
+- Milk starts at 924g (vs the 748g measure-back) to cover what the leaves soak up; weigh the strained milk and measure back to 748g so absorption can't dilute the batter.
 </div>

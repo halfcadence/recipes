@@ -45,19 +45,6 @@ A leavened coffee-cake batter with cherries folded in and a streusel top — the
 
 7. Cool at least 30 minutes before slicing. Serve warm or at room temperature.
 
-<div class="notes" markdown="1">
-## Notes
-
-- "Buckle" refers to the way the streusel-topped batter buckles and dimples around the sinking fruit as it rises. Same idea as a German streusel kuchen.
-- This is the cakey member of the fruit-dessert family — a true rising batter (baking powder + soda) rather than the custard batters of the [clafoutis]({{ '/r/cherry-clafoutis' | relative_url }}), [far breton]({{ '/r/cherry-far-breton' | relative_url }}), and [sour cream clafoutis]({{ '/r/sour-cream-cherry-clafoutis' | relative_url }}). Expect a tender, sour-cream-rich crumb.
-- Fruit-flexible: blueberries, plums, peaches, apricots, raspberries, or rhubarb all work at ~300g. Toss very juicy fruit in a teaspoon of flour first so it doesn't sink into a wet streak.
-- Sour cream keeps the crumb tender and moist and adds a little tang; full-fat yogurt or buttermilk (reduce to 100g) also work.
-- The streusel can be made ahead and frozen. Double it if you like a thick crumb layer.
-- Don't overmix the batter once the flour goes in — it's a tender cake, and overworking builds gluten and toughens it.
-- Bakes well in the Field No. 8 for crisp edges, or a 9-inch tin/springform for clean release. See the [Field No. 8 article]({{ '/a/field-no-8-skillet' | relative_url }}) for the vessel tradeoff.
-- Keeps 2–3 days covered at room temperature; the crumb stays moist thanks to the sour cream.
-</div>
-
 ## Analysis
 
 <div class="analysis" markdown="1">
@@ -74,4 +61,17 @@ Total batter weight: **692g** (batter + streusel; cherries excluded)
 
 **This is a true cake, not a custard** — structure is high (~38% flour) with low free liquid (~17%) and chemical leavening, which is what makes it rise into a tender crumb instead of setting into a custard. That's the whole contrast with the clafoutis family (3–22% flour, 43–64% liquid). The sour cream's fat keeps it moist; the streusel adds a sandy, high-fat-and-sugar crown on top.
 
+</div>
+
+<div class="notes" markdown="1">
+## Notes
+
+- "Buckle" refers to the way the streusel-topped batter buckles and dimples around the sinking fruit as it rises. Same idea as a German streusel kuchen.
+- This is the cakey member of the fruit-dessert family — a true rising batter (baking powder + soda) rather than the custard batters of the [clafoutis]({{ '/r/cherry-clafoutis' | relative_url }}), [far breton]({{ '/r/cherry-far-breton' | relative_url }}), and [sour cream clafoutis]({{ '/r/sour-cream-cherry-clafoutis' | relative_url }}). Expect a tender, sour-cream-rich crumb.
+- Fruit-flexible: blueberries, plums, peaches, apricots, raspberries, or rhubarb all work at ~300g. Toss very juicy fruit in a teaspoon of flour first so it doesn't sink into a wet streak.
+- Sour cream keeps the crumb tender and moist and adds a little tang; full-fat yogurt or buttermilk (reduce to 100g) also work.
+- The streusel can be made ahead and frozen. Double it if you like a thick crumb layer.
+- Don't overmix the batter once the flour goes in — it's a tender cake, and overworking builds gluten and toughens it.
+- Bakes well in the Field No. 8 for crisp edges, or a 9-inch tin/springform for clean release. See the [Field No. 8 article]({{ '/a/field-no-8-skillet' | relative_url }}) for the vessel tradeoff.
+- Keeps 2–3 days covered at room temperature; the crumb stays moist thanks to the sour cream.
 </div>

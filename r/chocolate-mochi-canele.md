@@ -50,19 +50,6 @@ A hybrid: a layer of chewy butter-mochi batter on the bottom, chocolate canelé 
 
 8. Unmold immediately onto a cooling rack. Cool before eating. Best the same day.
 
-<div class="notes" markdown="1">
-## Notes
-
-- The ratio is roughly ⅓ mochi batter to ⅔ chocolate canelé batter per mold. Both layers love a hot shock start, so they bake on the same schedule.
-- **The two layers are sized to finish together across 24 molds** (~20g mochi + ~42g chocolate each). The chocolate layer is the full standalone Ferrandi batter (~1007g); the mochi is doubled (~474g) so a whole egg comes out even — no weighing half an egg. Want fuller, taller canelés instead? Spread the same batter across ~21 molds (~70g each) and you'll get a taller bake with fewer pieces.
-- The mochi layer goes on the bottom of the mold (which becomes the top once unmolded) — it crisps against the metal and stays chewy inside, a textural counterpoint to the custardy chocolate.
-- The canelé batter must rest overnight; the mochi batter is made fresh the day of baking and used right away.
-- Layers fuse at the interface during baking — no need to swirl. If you want a marbled look instead, swirl them once with a skewer.
-- Both component recipes stand alone: see Chocolate Canelé (Ferrandi) and Crispy Butter Mochi for the full single versions and their analysis.
-- Nonstick spray is enough — no beeswax needed.
-- The mochi layer can balloon if the mold is overfilled; keeping it to ⅓ and topping with the canelé batter weighs it down and contains it.
-</div>
-
 ## Analysis
 
 <div class="analysis" markdown="1">
@@ -91,4 +78,17 @@ This bake is two batters in one mold, so each layer is analyzed separately again
 
 **Two contrasting sets in one bite:** the mochi layer is a high-structure (~31%), all-starch gel that bakes crisp-then-chewy, while the canelé layer is low-structure (~10%) and custardy, set by cocoa solids and egg. They share the same hot-shock schedule because both need a fast-set shell — the mochi to stop ballooning, the canelé to caramelize without mushrooming.
 
+</div>
+
+<div class="notes" markdown="1">
+## Notes
+
+- The ratio is roughly ⅓ mochi batter to ⅔ chocolate canelé batter per mold. Both layers love a hot shock start, so they bake on the same schedule.
+- **The two layers are sized to finish together across 24 molds** (~20g mochi + ~42g chocolate each). The chocolate layer is the full standalone Ferrandi batter (~1007g); the mochi is doubled (~474g) so a whole egg comes out even — no weighing half an egg. Want fuller, taller canelés instead? Spread the same batter across ~21 molds (~70g each) and you'll get a taller bake with fewer pieces.
+- The mochi layer goes on the bottom of the mold (which becomes the top once unmolded) — it crisps against the metal and stays chewy inside, a textural counterpoint to the custardy chocolate.
+- The canelé batter must rest overnight; the mochi batter is made fresh the day of baking and used right away.
+- Layers fuse at the interface during baking — no need to swirl. If you want a marbled look instead, swirl them once with a skewer.
+- Both component recipes stand alone: see Chocolate Canelé (Ferrandi) and Crispy Butter Mochi for the full single versions and their analysis.
+- Nonstick spray is enough — no beeswax needed.
+- The mochi layer can balloon if the mold is overfilled; keeping it to ⅓ and topping with the canelé batter weighs it down and contains it.
 </div>

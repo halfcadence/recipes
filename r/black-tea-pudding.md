@@ -34,19 +34,6 @@ A water-bath baked custard infused with black tea, finished with a little Calvad
 
 7. Cool, then refrigerate at least 2 hours. Serve chilled.
 
-<div class="notes" markdown="1">
-## Notes
-
-- A baked custard in the purin family but with no caramel — the black tea and Calvados carry the flavor. For a caramel-lined version, see [purin]({{ '/r/purin' | relative_url }}) and pour caramel into the molds first.
-- Steep the tea strong; the milk dilutes it and the custard mutes flavors. A robust black tea (Assam, Ceylon, English Breakfast) stands up best. Earl Grey works for a bergamot version.
-- The bain-marie (water bath) is essential for gentle, even heat. Without it the custard overcooks at the edges and develops holes ("su").
-- Don't whip air into the eggs and skim the foam before baking — bubbles bake into a pitted surface.
-- Calvados (apple brandy) adds warmth; rum, brandy, or a splash of vanilla all work, or omit for an alcohol-free version.
-- Check doneness by tilting a ramekin — it should jiggle as a set mass, not slosh. Residual heat finishes the set as it cools.
-- Thicker ceramic ramekins bake slower than thin metal; start checking at 35 minutes.
-- Keeps refrigerated 3 days.
-</div>
-
 ## Analysis
 
 <div class="analysis" markdown="1">
@@ -63,4 +50,17 @@ Total batter weight: **865g** (tea leaves strained out)
 
 **A pure egg-set custard — zero flour or starch.** Like purin, the entire set comes from egg protein coagulating (~4% protein) in a very high-liquid base (~76%), which is why the bain-marie and gentle 300°F matter so much. Slightly more egg per gram than our purin, so it sets a touch firmer; the tea steeps into the milk as pure flavor with no effect on structure.
 
+</div>
+
+<div class="notes" markdown="1">
+## Notes
+
+- A baked custard in the purin family but with no caramel — the black tea and Calvados carry the flavor. For a caramel-lined version, see [purin]({{ '/r/purin' | relative_url }}) and pour caramel into the molds first.
+- Steep the tea strong; the milk dilutes it and the custard mutes flavors. A robust black tea (Assam, Ceylon, English Breakfast) stands up best. Earl Grey works for a bergamot version.
+- The bain-marie (water bath) is essential for gentle, even heat. Without it the custard overcooks at the edges and develops holes ("su").
+- Don't whip air into the eggs and skim the foam before baking — bubbles bake into a pitted surface.
+- Calvados (apple brandy) adds warmth; rum, brandy, or a splash of vanilla all work, or omit for an alcohol-free version.
+- Check doneness by tilting a ramekin — it should jiggle as a set mass, not slosh. Residual heat finishes the set as it cools.
+- Thicker ceramic ramekins bake slower than thin metal; start checking at 35 minutes.
+- Keeps refrigerated 3 days.
 </div>

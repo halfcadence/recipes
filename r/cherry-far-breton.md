@@ -32,17 +32,6 @@ yield: 6
 
 5. Cool to room temperature. Serve with cream if desired.
 
-<div class="notes" markdown="1">
-## Notes
-
-- Far breton is the dense, sliceable cousin of clafoutis. Same family of ingredients but roughly double the flour and far less milk, so it sets into a firm, eggy flan-cake you can pick up rather than a soft spoonable custard.
-- Traditionally made with rum-soaked prunes, not cherries — soak 200g pitted prunes in the rum (plus a little tea or water) for an hour, then use in place of the cherries. The cherry version is a summer variation.
-- Can be served warm or cold. It firms up further as it chills and slices cleanly straight from the fridge.
-- The rum is doing real flavor work here — don't skip it. Brandy or cognac also work.
-- Use a ceramic, glass, or enameled dish; the acidic cherries can strip a raw cast-iron seasoning.
-- For a smoother batter, blend everything for 20–30 seconds instead of whisking.
-</div>
-
 ## Analysis
 
 <div class="analysis" markdown="1">
@@ -59,4 +48,15 @@ Total batter weight: **573g** (cherries excluded)
 
 **Twice the structure of a clafoutis (~22% vs ~10%) with far less liquid (~43% vs ~64%)** — that's what makes far breton dense, sliceable, and chewy rather than soft and spoonable. Four eggs in a smaller batter pushes protein and richness up too. It sits closer to a dense quick-bread than to the thin custard of a clafoutis.
 
+</div>
+
+<div class="notes" markdown="1">
+## Notes
+
+- Far breton is the dense, sliceable cousin of clafoutis. Same family of ingredients but roughly double the flour and far less milk, so it sets into a firm, eggy flan-cake you can pick up rather than a soft spoonable custard.
+- Traditionally made with rum-soaked prunes, not cherries — soak 200g pitted prunes in the rum (plus a little tea or water) for an hour, then use in place of the cherries. The cherry version is a summer variation.
+- Can be served warm or cold. It firms up further as it chills and slices cleanly straight from the fridge.
+- The rum is doing real flavor work here — don't skip it. Brandy or cognac also work.
+- Use a ceramic, glass, or enameled dish; the acidic cherries can strip a raw cast-iron seasoning.
+- For a smoother batter, blend everything for 20–30 seconds instead of whisking.
 </div>

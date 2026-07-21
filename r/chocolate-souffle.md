@@ -35,17 +35,6 @@ Robuchon's three-ingredient chocolate soufflé. No flour, no starch, no egg yolk
 
 7. Bake 16 minutes. Serve immediately.
 
-<div class="notes" markdown="1">
-## Notes
-
-- Swiss meringue is the trick: heating the whites and sugar to 130°F unwinds the proteins just enough to whip into a more stable meringue, so it rises tall without any starch or flour to prop it up.
-- Cream of tartar is optional insurance — at 0.5% of the egg-white weight it makes the meringue much harder to overwhip.
-- Fold in two additions for a reason: cocoa butter knocks stabilizing proteins off the meringue's air bubbles, but as the chocolate cools during folding the cocoa butter firms up and does less damage on the second addition.
-- Make-ahead: fill the ramekins and freeze before baking. To bake from frozen, drop to 300°F and bake 32 minutes. They lose ~30% of the height and aren't as perfectly shaped, but still very good.
-- Use a good dark chocolate — with only three ingredients it's the entire flavor. 60–70% is a good range.
-- Serve the second they come out; soufflés start deflating immediately.
-</div>
-
 ## Analysis
 
 <div class="analysis" markdown="1">
@@ -62,4 +51,15 @@ Total batter weight: **572g**
 
 **Risen entirely by egg-white foam — no flour, no yolks, no starch.** Structure comes only from the chocolate's cocoa solids (~7%) and the set egg-white protein; the lift is pure whipped meringue. That's why the Swiss-meringue stability matters so much here — there's nothing else holding it up. Egg white at ~8% is the highest protein of any recipe on the site, and the total absence of yolk fat keeps it light despite the chocolate.
 
+</div>
+
+<div class="notes" markdown="1">
+## Notes
+
+- Swiss meringue is the trick: heating the whites and sugar to 130°F unwinds the proteins just enough to whip into a more stable meringue, so it rises tall without any starch or flour to prop it up.
+- Cream of tartar is optional insurance — at 0.5% of the egg-white weight it makes the meringue much harder to overwhip.
+- Fold in two additions for a reason: cocoa butter knocks stabilizing proteins off the meringue's air bubbles, but as the chocolate cools during folding the cocoa butter firms up and does less damage on the second addition.
+- Make-ahead: fill the ramekins and freeze before baking. To bake from frozen, drop to 300°F and bake 32 minutes. They lose ~30% of the height and aren't as perfectly shaped, but still very good.
+- Use a good dark chocolate — with only three ingredients it's the entire flavor. 60–70% is a good range.
+- Serve the second they come out; soufflés start deflating immediately.
 </div>

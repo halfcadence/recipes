@@ -44,6 +44,24 @@ The custardy [Canelé]({{ '/r/canele' | relative_url }}) scaled to fill a full 2
 
 9. Unmold immediately onto a cooling rack upside down. Cool 2 hours. Eat the same day.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total batter weight: **1815g** (excludes mold coating)
+
+| Component | Amount | % |
+|---|---|---|
+| Structure solids (flour + cornstarch) | 218g | 12.0% |
+| Fat (butter, cream, milk, yolk) | 179g | 9.9% |
+| Sugar (added + milk lactose) | 414g | 22.8% |
+| Liquid (milk, cream, rum, egg water) | 900g | 49.6% |
+| Egg/protein | 53g | 2.9% |
+
+**Identical ratios to the single-batch Canelé** — structure at ~12% keeps it in the custardy sweet spot (8–14%), just at 2.2× the volume. The extra yolk nudges fat and richness up a touch. Nothing about the larger batch changes the texture; only the oven's heat recovery does, which is why a full tray wants the hotter start.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 
@@ -67,22 +85,4 @@ The custardy [Canelé]({{ '/r/canele' | relative_url }}) scaled to fill a full 2
 - Nonstick spray works fine — no beeswax needed.
 - Same flavor variations apply: matcha/hojicha (12g per ~500g batter), coffee (instant espresso paste).
 - Batter keeps 4–5 days refrigerated; bake in trays as needed rather than all at once.
-</div>
-
-## Analysis
-
-<div class="analysis" markdown="1">
-
-Total batter weight: **1815g** (excludes mold coating)
-
-| Component | Amount | % |
-|---|---|---|
-| Structure solids (flour + cornstarch) | 218g | 12.0% |
-| Fat (butter, cream, milk, yolk) | 179g | 9.9% |
-| Sugar (added + milk lactose) | 414g | 22.8% |
-| Liquid (milk, cream, rum, egg water) | 900g | 49.6% |
-| Egg/protein | 53g | 2.9% |
-
-**Identical ratios to the single-batch Canelé** — structure at ~12% keeps it in the custardy sweet spot (8–14%), just at 2.2× the volume. The extra yolk nudges fat and richness up a touch. Nothing about the larger batch changes the texture; only the oven's heat recovery does, which is why a full tray wants the hotter start.
-
 </div>

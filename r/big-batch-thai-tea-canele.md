@@ -46,21 +46,6 @@ A Thai tea canelé scaled to fill a 24-mold tray, with evaporated milk at ~36% o
 
 9. Unmold immediately onto a cooling rack. Cool 2 hours. Eat the same day.
 
-<div class="notes" markdown="1">
-## Notes
-
-- **Evaporated milk is ~36% of the dairy** (352g of ~974g) — the lever that makes the cooked-milk note actually read, rather than just sitting on the label. See [Evaporated Milk]({{ '/a/evaporated-milk' | relative_url }}) and [Condensed Milk]({{ '/a/condensed-milk' | relative_url }}) for the swap science.
-- **Steep into plain milk, add the evaporated after** — set tea strength against the milk only, measure back to 550g, *then* add the 352g evaporated. Don't steep into the evaporated milk (scorches; can't measure-back cleanly).
-- **Full-tray oven handling** (steel, preheat, no door-opening, bake-12 fallback) is in [Big-Batch Canelé]({{ '/r/big-batch-canele' | relative_url }}) and applies here.
-- Sugar trimmed to 341g to offset the evaporated lactose; the traditional cha-yen sweetness is meant to come from a **condensed-milk drizzle** on top — add it on the unmolded canelés for the full effect.
-- **Use real ChaTraMue mix** (the orange "Number One" bag) — the malty body, vanilla note, and orange all come from the blend.
-- Milk starts at 638g (vs the 550g measure-back) to cover what the mix soaks up.
-
-## Experiment note
-
-This pushes evaporated milk hard (~36% of the dairy) for a creamy, authentic cha-yen body. To compare on a real tray, bake it alongside the [Big-Batch Hong Kong Milk Tea Canelé]({{ '/r/big-batch-hong-kong-milk-tea-canele' | relative_url }}), which uses evaporated milk more lightly. For a **condensed-milk arm**, add ~175g sweetened condensed milk and cut granulated sugar by ~95g (the ~0.55g-sugar-per-gram rule from the [Condensed Milk]({{ '/a/condensed-milk' | relative_url }}) article) — expect a softer, gooier set, so bump cornstarch to ~40g and bake a touch cooler.
-</div>
-
 ## Analysis
 
 <div class="analysis" markdown="1">
@@ -77,4 +62,19 @@ Total batter weight: **~1835g** (after straining the tea; excludes mold coating)
 
 **The evaporated-forward single batch at 2.2× the volume** — structure ~12% (custardy), fat ~10.3% (cream + heavy evaporated), sugar trimmed for the evaporated lactose. Modeled on the verified [HK Milk Tea]({{ '/r/hong-kong-milk-tea-canele' | relative_url }}) decomposition; only the oven's heat recovery changes at full-tray scale.
 
+</div>
+
+<div class="notes" markdown="1">
+## Notes
+
+- **Evaporated milk is ~36% of the dairy** (352g of ~974g) — the lever that makes the cooked-milk note actually read, rather than just sitting on the label. See [Evaporated Milk]({{ '/a/evaporated-milk' | relative_url }}) and [Condensed Milk]({{ '/a/condensed-milk' | relative_url }}) for the swap science.
+- **Steep into plain milk, add the evaporated after** — set tea strength against the milk only, measure back to 550g, *then* add the 352g evaporated. Don't steep into the evaporated milk (scorches; can't measure-back cleanly).
+- **Full-tray oven handling** (steel, preheat, no door-opening, bake-12 fallback) is in [Big-Batch Canelé]({{ '/r/big-batch-canele' | relative_url }}) and applies here.
+- Sugar trimmed to 341g to offset the evaporated lactose; the traditional cha-yen sweetness is meant to come from a **condensed-milk drizzle** on top — add it on the unmolded canelés for the full effect.
+- **Use real ChaTraMue mix** (the orange "Number One" bag) — the malty body, vanilla note, and orange all come from the blend.
+- Milk starts at 638g (vs the 550g measure-back) to cover what the mix soaks up.
+
+## Experiment note
+
+This pushes evaporated milk hard (~36% of the dairy) for a creamy, authentic cha-yen body. To compare on a real tray, bake it alongside the [Big-Batch Hong Kong Milk Tea Canelé]({{ '/r/big-batch-hong-kong-milk-tea-canele' | relative_url }}), which uses evaporated milk more lightly. For a **condensed-milk arm**, add ~175g sweetened condensed milk and cut granulated sugar by ~95g (the ~0.55g-sugar-per-gram rule from the [Condensed Milk]({{ '/a/condensed-milk' | relative_url }}) article) — expect a softer, gooier set, so bump cornstarch to ~40g and bake a touch cooler.
 </div>

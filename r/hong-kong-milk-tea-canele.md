@@ -45,16 +45,6 @@ The custardy [Canelé]({{ '/r/canele' | relative_url }}) built around strong bla
 
 9. Unmold immediately onto a cooling rack. Cool 2 hours. Eat the same day.
 
-<div class="notes" markdown="1">
-## Notes
-
-- Hong Kong milk tea is defined by a robust, slightly bitter black tea (Ceylon-based blends, sometimes called "silk stocking" tea) plus evaporated milk. The cream stays in for richness (the fattiness of the base canelé), and evaporated milk is *added* on top for that characteristic cooked-milk-solid flavor — evaporated milk is concentrated whole milk (~8% fat), not a cream substitute, so it's a flavor layer rather than a fat swap. Net result is a hair richer than the base.
-- No alcohol here — the milk-tea flavor is the point and rum would muddy it.
-- Steep strong and slightly astringent; the sugar and shell will soften it. Ceylon is the backbone of HK milk tea — use a strong Ceylon, or cut it ~1:1 with a plain Lipton-style black the way cha chaan teng blend grades. Cheap, brisk, broken-leaf tea is ideal here; bagged is fine (slit and weigh). See [Steeping Tea into Milk]({{ '/a/steeping-tea-into-milk' | relative_url }}) for what tea to buy.
-- Sugar is trimmed to 160g (from the base 170g) to offset the evaporated milk's lactose and keep it on the less-sweet side HK milk tea is known for — the sweetness traditionally comes from condensed milk, so finish with a drizzle if you want it sweeter.
-- Milk starts at 420g (vs the base 340g) to cover what the leaves soak up. Spent tea leaves retain roughly 2–4× their dry weight (around 2–3× for broken/CTC tea, up to ~4× for whole leaf), so your 18g takes up somewhere near 35–70g. The exact rate doesn't matter — after steeping you weigh the strained milk and measure back to a clean 340g, so absorption can't dilute the batter. The extra start just makes sure you have 340g left.
-</div>
-
 ## Analysis
 
 <div class="analysis" markdown="1">
@@ -71,4 +61,14 @@ Total batter weight: **~820g** (after straining the leaves; excludes mold coatin
 
 **A touch richer and a touch less sweet than the base custardy Canelé** — keeping the cream and adding evaporated milk pushes fat to ~10% for the fattiness you want, while the granulated sugar is trimmed to 160g to offset the evaporated milk's lactose and keep it on the less-sweet side that suits Hong Kong milk tea. Structure stays ~12%, so it's still custardy. No alcohol.
 
+</div>
+
+<div class="notes" markdown="1">
+## Notes
+
+- Hong Kong milk tea is defined by a robust, slightly bitter black tea (Ceylon-based blends, sometimes called "silk stocking" tea) plus evaporated milk. The cream stays in for richness (the fattiness of the base canelé), and evaporated milk is *added* on top for that characteristic cooked-milk-solid flavor — evaporated milk is concentrated whole milk (~8% fat), not a cream substitute, so it's a flavor layer rather than a fat swap. Net result is a hair richer than the base.
+- No alcohol here — the milk-tea flavor is the point and rum would muddy it.
+- Steep strong and slightly astringent; the sugar and shell will soften it. Ceylon is the backbone of HK milk tea — use a strong Ceylon, or cut it ~1:1 with a plain Lipton-style black the way cha chaan teng blend grades. Cheap, brisk, broken-leaf tea is ideal here; bagged is fine (slit and weigh). See [Steeping Tea into Milk]({{ '/a/steeping-tea-into-milk' | relative_url }}) for what tea to buy.
+- Sugar is trimmed to 160g (from the base 170g) to offset the evaporated milk's lactose and keep it on the less-sweet side HK milk tea is known for — the sweetness traditionally comes from condensed milk, so finish with a drizzle if you want it sweeter.
+- Milk starts at 420g (vs the base 340g) to cover what the leaves soak up. Spent tea leaves retain roughly 2–4× their dry weight (around 2–3× for broken/CTC tea, up to ~4× for whole leaf), so your 18g takes up somewhere near 35–70g. The exact rate doesn't matter — after steeping you weigh the strained milk and measure back to a clean 340g, so absorption can't dilute the batter. The extra start just makes sure you have 340g left.
 </div>

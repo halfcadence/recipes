@@ -23,6 +23,24 @@ number: 18
 
 4. Pour the matcha concentrate over the milk.
 
+## Analysis
+
+<div class="analysis" markdown="1">
+
+Total drink: **~222g** (2g matcha, 60g water, 160g whole milk)
+
+| Component | Amount | % of drink |
+|---|---|---|
+| Fat (from whole milk) | 6g | 2.7% |
+| Sugar (milk lactose) | 8g | 3.5% |
+| Milk protein | 5g | 2.4% |
+| Water + liquid | 203g | 91.4% |
+| Matcha | 2g | 0.9% |
+
+**A light drink carried almost entirely by milk — no added sugar, so all ~3.5% of the sweetness is the milk's own lactose.** The 2g of matcha is under 1% by weight but drives the whole flavor and the caffeine (~60mg). Fat sits at ~2.7% on whole milk; that's the lever for body — oat milk lands similar, skim reads thin, barista oat pushes it richer. Sweetness is entirely your call via the optional syrup.
+
+</div>
+
 <div class="notes" markdown="1">
 ## Notes
 
