@@ -25,17 +25,18 @@ $sans: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", system-ui, sans-se
 $measure: 48rem;
 
 // ── Per-section palette — one color per section (a sanctioned deviation
-// from strict one-ink). Each has a saturated GROUND (white text on it,
-// used for the title field) and a lighter INK variant (used for text/rules
-// so it stays legible on the near-black dark-mode background). All pass AA.
+// from strict one-ink). Colors are sampled from EJ's actual archive work
+// (dtc-season-0607, jean-prouvé, whitney-tapes, susan-bijl) — their bright
+// ink hues. Each: GROUND (accent text on white, deepened to pass AA) +
+// lighter INK (accent text on the near-black dark bg). All pass WCAG AA.
 $sections: (
-  mains:    (#1b3fd1, #8fa8ff),   // ultramarine
-  soups:    (#cf2020, #ff8f7a),   // signal red
-  sides:    (#12794a, #5fd39b),   // green
-  sweets:   (#c4147d, #ff86cf),   // magenta
-  drinks:   (#0f7d8c, #4fd0dd),   // teal
+  mains:    (#0a5bd6, #4aa8ff),   // EJ blue        (#0090f0)
+  soups:    (#d81f1a, #ff7a6b),   // EJ signal red
+  sides:    (#0a7d48, #3fd98f),   // EJ green       (#00a860)
+  sweets:   (#d10a72, #ff7ac0),   // EJ pink        (#ff4890)
+  drinks:   (#0a76a3, #3fc4e5),   // EJ cyan        (#00a8d8)
   pantry:   (#6a2bc9, #b79cff),   // violet
-  articles: (#b8531a, #f0a25e),   // burnt orange
+  articles: (#b85c0f, #ffb04f),   // EJ orange      (#ffa848)
   colophon: (#414753, #9aa6b8),   // neutral slate
 );
 @function sec-ground($name) { @return nth(map-get($sections, $name), 1); }
