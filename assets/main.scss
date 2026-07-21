@@ -49,8 +49,8 @@ body {
   background: $paper;
   color: $ink;
   font-family: $sans;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 15px;          // match the explainer's tighter, sharper scale
+  line-height: 1.46;
   letter-spacing: -0.006em;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -124,20 +124,20 @@ a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
   margin: 0 0 1.6rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid $ink;
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.04em;
 }
 .dir-bar .dir-mid { color: $grey; font-weight: 400; text-transform: none; letter-spacing: 0; }
 @media (max-width: 32rem) { .dir-bar .dir-mid { display: none; } }
 
 .cat { margin: 0 0 2.4rem; }
 .cat-h {
-  font-size: 0.75rem;
+  font-size: 0.9375rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.02em;
   margin: 0 0 0.55rem;
   padding-bottom: 0.32rem;
   border-bottom: 2px solid $ink;
@@ -167,9 +167,9 @@ a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
 .post-header { margin: 0 0 1.6rem; }
 
 .section-label {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   margin-bottom: 0.55rem;
   color: $ink;
@@ -207,12 +207,12 @@ a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
 .post-title--plain { display: inline-block; margin-bottom: 1.4rem; }
 
 // ── Body content ─────────────────────────────────────────────────────
-.post-content { font-size: 1rem; }
-.post-content > p:first-child { font-size: 1.0625rem; color: $ink; }
+.post-content { font-size: 0.9375rem; }  // 15px, matches body/explainer
+.post-content > p:first-child { font-size: 1.15rem; line-height: 1.4; color: $ink; }  // lede, like the explainer's big statement
 .post-content h2 {
-  font-size: 0.8125rem;
+  font-size: 0.9375rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.02em;
   margin: 1.8rem 0 0.5rem;
   padding-bottom: 0.3rem;
   border-bottom: 1px solid $ink;
