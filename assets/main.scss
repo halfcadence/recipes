@@ -136,10 +136,10 @@ body.home .mh-title, body.home .mh-title:visited {
 // number sits on the title's baseline (like the home "Recipes 124"), not floating as a superscript
 .hero-no { font-size: .32em; vertical-align: baseline; margin-left: .4em; color: $grey; font-weight: 700; letter-spacing: 0; font-variant-numeric: tabular-nums; }
 
-// optional hero photo (front-matter `image:`) — sits under the title, spans the reading width,
-// monochrome treatment: no frame, a 4:3 crop, grey caption aligned to the grid.
-.post-figure { grid-column: 1 / 9; margin: calc(#{$base} * 3) 0 0; }
-.post-figure img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; display: block; background: $hair; }
+// optional hero photo (front-matter `image:`) — full-width widescreen band under the title.
+// Monochrome treatment: no frame, a 16:9 cinematic crop spanning every column, grey caption.
+.post-figure { grid-column: 1 / -1; margin: calc(#{$base} * 3) 0 0; }
+.post-figure img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; display: block; background: $hair; }
 .post-figure figcaption { margin-top: calc(#{$base} * 1); font-size: .72rem; letter-spacing: .04em; color: $grey; }
 .post-figure figcaption a, .post-figure figcaption a:visited { color: $grey; }
 
