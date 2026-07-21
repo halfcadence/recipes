@@ -177,34 +177,34 @@ a:focus-visible { outline: 2px solid $spot; outline-offset: 2px; }
 .section-label a, .section-label a:visited { color: inherit; text-decoration: none; }
 .section-label a:hover { text-decoration: underline; }
 
-// numeral hero: oversized number + title as the one spot field
+// Title, archive-style: plain flush-left text, one modest size. No color
+// fill, no oversized numeral — the restraint IS the style. The number is a
+// small tabular prefix (like the archive's date), tinted the section color.
 .post-hero {
   display: flex;
   align-items: baseline;
-  gap: 0.7rem;
-  flex-wrap: wrap;
-  border-bottom: 3px solid $ink;
-  padding-bottom: 0.8rem;
+  gap: 0.6rem;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid $ink;
+  padding-bottom: 0.5rem;
 }
 .hero-no {
-  font-weight: 700;
-  font-size: clamp(2.6rem, 9vw, 4.5rem);
-  line-height: 0.8;
-  letter-spacing: -0.055em;
+  font-weight: 400;
+  font-size: 1.375rem;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: $spot;                 // themed per section
   font-variant-numeric: tabular-nums;
+  flex: 0 0 auto;
 }
 .post-title {
-  background: $spot;
-  color: $on-spot;
-  padding: 0.1em 0.35em;
-  font-size: clamp(1.4rem, 4vw, 2.2rem);
+  font-size: 1.375rem;
   font-weight: 700;
-  letter-spacing: -0.025em;
-  line-height: 1.08;
-  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: $ink;
 }
-// pages with no number (about, colophon): title still the spot field, flush-left
-.post-title--plain { display: inline-block; margin-bottom: 1.4rem; }
+.post-title--plain { display: block; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid $ink; }
 
 // ── Body content ─────────────────────────────────────────────────────
 .post-content { font-size: 0.9375rem; }  // 15px, matches body/explainer
@@ -295,20 +295,24 @@ pre code { border: none; padding: 0; }
   $ground: nth($pair, 1);
   $inkv:   nth($pair, 2);
 
+  // color is a QUIET accent only: the number prefix, the section kicker,
+  // step counters, the analysis rule. Never a filled title.
   body.section-#{$name} {
-    .post-title { background: $ground; }
+    .hero-no { color: $ground; }
+    .section-label { color: $ground; }
     .post-content ol > li::before { color: $ground; }
     .analysis { border-left-color: $ground; }
   }
-  // home directory: color the category head + item rules
+  // home directory: color the category head + its rule
   ##{$name}.cat .cat-h,
   .cat.section-#{$name} .cat-h { border-bottom-color: $ground; color: $ground; }
 
   @media (prefers-color-scheme: dark) {
     body.section-#{$name} {
+      .hero-no { color: $inkv; }
+      .section-label { color: $inkv; }
       .post-content ol > li::before { color: $inkv; }
       .analysis { border-left-color: $inkv; }
-      // title field keeps the saturated ground (white text stays legible)
     }
     ##{$name}.cat .cat-h,
     .cat.section-#{$name} .cat-h { border-bottom-color: $inkv; color: $inkv; }
