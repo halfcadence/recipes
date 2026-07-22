@@ -38,8 +38,47 @@ layout: default
   </figure>
   {% endif %}
 
+  {%- if page.toc -%}
+  <div class="doc-layout">
+    <nav class="doc-nav" aria-label="Contents"><ol></ol></nav>
+    <div class="post-content doc-body">
+      {{ content }}
+    </div>
+  </div>
+  <script>
+  // Build the sticky section nav from the doc's own <h2>s so it can't drift, and
+  // highlight the section currently in view.
+  (function () {
+    var body = document.querySelector('.doc-body'),
+        list = document.querySelector('.doc-nav ol');
+    if (!body || !list) return;
+    var heads = [].slice.call(body.querySelectorAll('h2'));
+    var links = {};
+    heads.forEach(function (h, i) {
+      var id = h.id || ('s-' + (i + 1)); h.id = id;
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = '#' + id; a.textContent = h.textContent;
+      li.appendChild(a); list.appendChild(li);
+      links[id] = a;
+    });
+    if ('IntersectionObserver' in window) {
+      var obs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            for (var k in links) links[k].classList.remove('cur');
+            if (links[e.target.id]) links[e.target.id].classList.add('cur');
+          }
+        });
+      }, { rootMargin: '0px 0px -75% 0px' });
+      heads.forEach(function (h) { obs.observe(h); });
+    }
+  })();
+  </script>
+  {%- else -%}
   <div class="post-content">
     {{ content }}
   </div>
+  {%- endif -%}
 
 </article>

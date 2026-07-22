@@ -81,16 +81,16 @@ body.home .wrapper { max-width: 72rem; }       // home directory is wider
 .site-header .wrapper { padding-top: 0; padding-bottom: 0; }
 .masthead { grid-column: 1 / -1; }
 
-// default (inner pages): thin, right-aligned, no heavy rule
-.mh-title, .mh-title:visited {
-  display: block;
-  grid-column: 7 / 13;
-  text-align: right;
+// default (inner pages): a minimal left-aligned "← index" back link in column 1
+.mh-back, .mh-back:visited {
+  display: inline-block;
+  grid-column: 1 / 7;
   font-size: $fs-kicker; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
   color: $grey; text-decoration: none;
   padding: calc(#{$base} * 1.5) 0 calc(#{$base} * 4);
 }
-.mh-title-by { font-weight: 400; }   // subordinate credit next to the RECIPES wordmark
+.mh-back:hover { color: $ink; }
+.mh-arrow { margin-right: .3em; }
 
 // home: giant type-as-image wordmark + baseline count + "by halfcadence"
 body.home .masthead {
@@ -292,6 +292,73 @@ code { border: 1px solid $ink; padding: .05em .3em; }
 pre { grid-column: 1 / 10; border: 1px solid $ink; padding: .8rem 1rem; overflow: auto; }
 pre code { border: none; padding: 0; }
 
+// ═══════════════════════════════════════════════════════════════════
+// DOC LAYOUT — reference pages (steering) with toc:true. Sticky section
+// nav in a narrow left column, body in a reading measure on the right.
+// ═══════════════════════════════════════════════════════════════════
+.doc-layout {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 14rem 1fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+.doc-nav {
+  grid-column: 1;
+  position: sticky; top: 1.5rem;
+  font-size: $fs-small;
+}
+.doc-nav ol { list-style: none; margin: 0; padding: 0; }
+.doc-nav li { margin: 0 0 .35rem; line-height: 1.3; }
+.doc-nav a, .doc-nav a:visited {
+  color: $grey; text-decoration: none;
+  display: block; padding-left: .7rem;
+  border-left: 1px solid $hair;
+}
+.doc-nav a:hover { color: $ink; }
+.doc-nav a.cur { color: $ink; font-weight: 700; border-left-color: $ink; }
+
+// body: single reading column, NOT the recipe grid. De-boxed inline code,
+// tighter head rhythm than the recipe-body h2 (which was built for 2–3 heads).
+.doc-body {
+  grid-column: 2;
+  display: block;
+  max-width: 40rem;
+  margin-top: 0;
+}
+.doc-body h2 {
+  grid-column: auto;
+  font-size: $fs-lede; font-weight: 700; letter-spacing: -.01em;
+  margin: calc(#{$base} * 3) 0 calc(#{$base} * 1);
+  padding-top: calc(#{$base} * 1.5);
+  border-top: 1px solid $hair;
+  scroll-margin-top: 1.5rem;
+}
+.doc-body h2:first-child { margin-top: 0; border-top: none; padding-top: 0; }
+.doc-body h3 { font-size: $fs-body; font-weight: 700; margin: calc(#{$base} * 2) 0 calc(#{$base} * .5); }
+.doc-body p, .doc-body li { grid-column: auto; }
+.doc-body ul, .doc-body ol { margin: 0 0 1rem; padding-left: 1.2rem; }
+.doc-body li { margin: 0 0 .35rem; }
+.doc-body table { grid-column: auto; margin: 0 0 1rem; }
+// inline code in prose: medium weight, faint fill, no hard box (the bordered
+// chip is right for recipes but noisy across a doc this code-dense)
+.doc-body :not(pre) > code {
+  border: none; padding: .05em .25em;
+  background: rgba(17,17,17,.06); font-weight: 500;
+}
+@media (max-width: 46rem) {
+  .doc-layout { grid-template-columns: 1fr; }
+  .doc-nav { position: static; margin-bottom: 2rem; }
+  .doc-body { max-width: none; }
+}
+@media (prefers-color-scheme: dark) {
+  .doc-nav a, .doc-nav a:visited { color: $dark-grey; border-left-color: $dark-hair; }
+  .doc-nav a:hover, .doc-nav a.cur { color: $dark-ink; }
+  .doc-nav a.cur { border-left-color: $dark-ink; }
+  .doc-body h2 { border-top-color: $dark-hair; }
+  .doc-body :not(pre) > code { background: rgba(242,242,240,.08); }
+}
+
 // riso article swatches — REAL ink colors kept (content, not chrome)
 .pill-sample { display: inline-flex; align-items: center; color: #fff; padding: .125em .4em; margin: 0 .2em .3em 0; font-weight: 700; line-height: normal; }
 .pill-sample::before { content: attr(data-num); font-size: .85em; color: rgba(255,255,255,.6); margin-right: .4em; }
@@ -314,7 +381,7 @@ pre code { border: none; padding: 0; }
 }
 @media (max-width: 34rem) {
   :root { --cols: 4; }
-  .mh-title { grid-column: 1 / -1; }
+  .mh-back { grid-column: 1 / -1; }
   .post-content table { columns: 1; }
   body.section-articles .post-content h2 { grid-column: 1 / -1; margin: calc(#{$base} * 5) 0 calc(#{$base} * 1); }
   body.section-articles .post-content h2 + * { margin-top: 0; }
@@ -335,7 +402,8 @@ pre code { border: none; padding: 0; }
   ::selection { background: $dark-ink; color: $dark-paper; }
   body.home .masthead { border-bottom-color: $dark-ink; }
   body.home .mh-title, body.home .mh-title:visited { color: $dark-ink; }
-  .mh-title, .mh-count, .mh-by, .section-label:not(.section-label a) { color: $dark-grey; }
+  .mh-back, .mh-count, .mh-by, .section-label:not(.section-label a) { color: $dark-grey; }
+  .mh-back:hover { color: $dark-ink; }
   body.home .mh-title { color: $dark-ink; }
   .cat-list li { border-bottom-color: $dark-hair; }
   .post-content table td:first-child { color: $dark-ink; }

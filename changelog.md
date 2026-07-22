@@ -9,7 +9,9 @@ permalink: /changelog/
 - Fix 38 broken internal links in Drafts — the drafts index and all 6 draft pages used bare `](/drafts/…)` / `](/r/…)` / `](/a/…)` paths, which drop the `/recipes` baseurl and 404 on prod (e.g. the P-Bass Mute and Ttukbaegi links, the "recipe index" link). Wrap them all in `relative_url`. (`r/` and `a/` were already clean; `drafts/` had been missed.)
 - Type: rationalize the ~9 ad-hoc small font-sizes into one Swiss ramp — "Univers Stepped": 11 / 13 / 15 / 21 / 26 / hero, as `$fs-*` tokens. Every `font-size` now references a token (no hardcoded px/rem). `/type` and `/photos` pages updated to match.
 - Steering + AGENTS: correct the house-style description — the site is **Swiss-modernist / Müller-Brockmann grid**, monochrome (no accent, no per-section color), not the "Experimental Jetset + per-section accent" the doc still claimed. The `$sections` color map and accent are gone; documented as retired.
-- `/photos` page restyled to the monochrome system + type ramp (26px category heads, 13px/11px steps, hairline "no photo" box instead of the old striped gradient; drop the monospace `<code>`).
+- `/photos` page restyled to the monochrome system + type ramp (26px category heads, 13px/11px steps, hairline "no photo" box instead of the old striped gradient; drop the monospace `<code>`). Also fixed the root cause it exposed — the page had no `layout:` front matter, so it shipped as raw serif with no CSS; added `layout: page` and an AGENTS.md guard requiring every `.html` page to declare a layout.
+- Steering page: give it a proper reference layout (`toc: true` → two-column in `_layouts/page.html`): a sticky left nav auto-built from the section `<h2>`s (scroll-spy highlights the current section) and the body in a ~40rem reading measure. De-boxed inline code in doc bodies (faint fill, no hard border — the recipe chip was too noisy across a code-dense doc) and tightened the section-head rhythm. Collapses to one column under 46rem.
+- Header: inner pages now show a minimal left-aligned "← index" back link in column 1 instead of the right-aligned "RECIPES BY HALFCADENCE" wordmark (the home masthead is unchanged).
 
 ## 2026-07-21
 
