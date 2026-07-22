@@ -25,7 +25,6 @@ layout: default
   {%- endif -%}
 
   <header class="post-header">
-    {% if page.category %}<div class="section-label"><a href="{{ site.baseurl }}/#{{ page.category }}">{{ page.category | replace: "soups", "Soups & Hot Pots" | replace: "colophon", "Colophon" | capitalize }}</a></div>{% endif %}
     <div class="post-hero">
       <h1 class="post-title">{{ page.title | escape }}{% if num %}<span class="hero-no">{{ padnum }}</span>{% endif %}</h1>
     </div>

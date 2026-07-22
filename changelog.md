@@ -6,6 +6,7 @@ permalink: /changelog/
 
 ## 2026-07-22
 
+- Header: fix the nav/category "stutter" — the top-bar "← index" kicker and the category eyebrow ("MAINS") directly below it were the same grey uppercase 11px label stacked, reading as a duplicate. Fold the category into the nav as a breadcrumb (`← index / mains`, index grey + category ink) and drop the separate `.section-label` eyebrow. Applies to all inner pages (recipes, articles, colophon).
 - Fix 38 broken internal links in Drafts — the drafts index and all 6 draft pages used bare `](/drafts/…)` / `](/r/…)` / `](/a/…)` paths, which drop the `/recipes` baseurl and 404 on prod (e.g. the P-Bass Mute and Ttukbaegi links, the "recipe index" link). Wrap them all in `relative_url`. (`r/` and `a/` were already clean; `drafts/` had been missed.)
 - Type: rationalize the ~9 ad-hoc small font-sizes into one Swiss ramp — "Univers Stepped": 11 / 13 / 15 / 21 / 26 / hero, as `$fs-*` tokens. Every `font-size` now references a token (no hardcoded px/rem). `/type` and `/photos` pages updated to match.
 - Steering + AGENTS: correct the house-style description — the site is **Swiss-modernist / Müller-Brockmann grid**, monochrome (no accent, no per-section color), not the "Experimental Jetset + per-section accent" the doc still claimed. The `$sections` color map and accent are gone; documented as retired.
