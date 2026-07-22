@@ -178,6 +178,7 @@ body:not(.section-articles) {
 .grind { grid-column: 1 / 9; margin: 0; }
 .grind table { width: 100%; max-width: 30rem; border-collapse: collapse; font-size: .9rem; }
 .grind tr { display: grid; grid-template-columns: 1fr auto; column-gap: 1.5rem; align-items: baseline; padding: calc(#{$base} * .55) 0; border-bottom: 1px solid $hair; }
+.grind thead { display: none; }                          // hide the empty markdown | | | header row
 .grind tr:last-child { border-bottom: none; }
 .grind td { border: none; padding: 0; }
 .grind td:first-child { font-weight: 700; }
