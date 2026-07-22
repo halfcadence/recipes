@@ -24,6 +24,16 @@ $sans:  "Helvetica Neue", Helvetica, Arial, "Liberation Sans", system-ui, sans-s
 $serif: $sans;   // single-typeface site — the old serif accent now resolves to Helvetica
 $base:  0.5rem;
 
+// ── Type ramp — "Univers Stepped" (Swiss), anchored to a 15px body ───────────
+// Six steps, applied everywhere. Hierarchy is size + weight only; no ad-hoc sizes.
+//   11px kicker/caption · 13px secondary · 15px body · 21px lede+head · 26px category · hero
+$fs-kicker: 0.6875rem;   // 11px — section kicker, captions, masthead labels
+$fs-small:  0.8125rem;   // 13px — notes, analysis, data tables, lists, step numbers, index
+$fs-body:   15px;        // body, ingredients, steps, h3 (weight distinguishes h3)
+$fs-lede:   1.3125rem;   // 21px — lede paragraph, section head, article standfirst
+$fs-cat:    1.625rem;    // 26px — category head
+// hero title stays clamp(2.6rem, 9vw, 5rem) — the single display size (the wordmark)
+
 // ── Reset ────────────────────────────────────────────────────────────
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -76,7 +86,7 @@ body.home .wrapper { max-width: 72rem; }       // home directory is wider
   display: block;
   grid-column: 7 / 13;
   text-align: right;
-  font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+  font-size: $fs-kicker; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
   color: $grey; text-decoration: none;
   padding: calc(#{$base} * 1.5) 0 calc(#{$base} * 4);
 }
@@ -94,7 +104,7 @@ body.home .mh-title, body.home .mh-title:visited {
   text-transform: uppercase; letter-spacing: -0.06em; line-height: .82; color: $ink;
 }
 .mh-count { font-weight: 700; font-size: clamp(1rem, 2.4vw, 1.5rem); letter-spacing: -0.02em; color: $grey; font-variant-numeric: tabular-nums; }
-.mh-by { margin-left: auto; align-self: flex-end; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: $grey; text-align: right; line-height: 1.5; }
+.mh-by { margin-left: auto; align-self: flex-end; font-size: $fs-kicker; letter-spacing: .14em; text-transform: uppercase; color: $grey; text-align: right; line-height: 1.5; }
 
 // ═══════════════════════════════════════════════════════════════════
 // HOME — directory of category modules (cQ heads)
@@ -108,12 +118,12 @@ body.home .mh-title, body.home .mh-title:visited {
 .cat:last-child { margin-bottom: 0; }
 .cat-h { display: flex; align-items: baseline; gap: .55rem; margin: 0 0 calc(#{$base} * 1.5);
   border-bottom: 1px solid $ink; padding-bottom: calc(#{$base} * 1);
-  font-size: 1.5rem; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; }
-.cat-h .ix { font-weight: 700; font-size: .8rem; letter-spacing: .1em; color: $grey; font-variant-numeric: tabular-nums; text-transform: none; }
-.cat-h .lb { font-size: 1.5rem; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; line-height: 1; }
+  font-size: $fs-cat; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; }
+.cat-h .ix { font-weight: 700; font-size: $fs-small; letter-spacing: .1em; color: $grey; font-variant-numeric: tabular-nums; text-transform: none; }
+.cat-h .lb { font-size: $fs-cat; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; line-height: 1; }
 .cat-list { list-style: none; margin: 0; padding: 0;
   columns: 12rem; column-gap: 2rem; }
-.cat-list li { padding: .2rem 0; border-bottom: 1px solid $hair; font-size: .9rem; line-height: 1.3; break-inside: avoid; }
+.cat-list li { padding: .2rem 0; border-bottom: 1px solid $hair; font-size: $fs-small; line-height: 1.3; break-inside: avoid; }
 .cat-list a, .cat-list a:visited { text-decoration: none; display: block; }
 .cat-list a:hover { text-decoration: underline; }
 
@@ -123,7 +133,7 @@ body.home .mh-title, body.home .mh-title:visited {
 .post { display: contents; }
 .post-header { grid-column: 1 / -1; }
 
-.section-label { grid-column: 1 / -1; font-size: .72rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; margin-bottom: calc(#{$base} * 1.5); }
+.section-label { grid-column: 1 / -1; font-size: $fs-kicker; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; margin-bottom: calc(#{$base} * 1.5); }
 .section-label a, .section-label a:visited { color: inherit; text-decoration: none; }
 .section-label a:hover { text-decoration: underline; }
 
@@ -140,22 +150,22 @@ body.home .mh-title, body.home .mh-title:visited {
 // Monochrome treatment: no frame, a 16:9 cinematic crop spanning every column, grey caption.
 .post-figure { grid-column: 1 / -1; margin: calc(#{$base} * 3) 0 0; }
 .post-figure img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; display: block; background: $hair; }
-.post-figure figcaption { margin-top: calc(#{$base} * 1); font-size: .72rem; letter-spacing: .04em; color: $grey; }
+.post-figure figcaption { margin-top: calc(#{$base} * 1); font-size: $fs-kicker; letter-spacing: .04em; color: $grey; }
 .post-figure figcaption a, .post-figure figcaption a:visited { color: $grey; }
 
 // lede — first paragraph of the body reads large
 .post-content { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(var(--cols), 1fr); column-gap: 1.25rem; margin-top: calc(#{$base} * 2); }
 .post-content > * { grid-column: 1 / -1; }
-.post-content > p:first-child { font-size: 1.15rem; line-height: 1.44; margin: calc(#{$base} * 3) 0 0; }
+.post-content > p:first-child { font-size: $fs-lede; line-height: 1.35; margin: calc(#{$base} * 3) 0 0; }
 
 // ── RECIPE body: section headers + ingredient table + steps ──
 // section headers (## Ingredients / ## Steps → h2)
 .post-content h2 {
   grid-column: 1 / -1;
-  font-size: 1.3rem; font-weight: 700; letter-spacing: -0.035em; text-transform: lowercase;
+  font-size: $fs-lede; font-weight: 700; letter-spacing: -0.035em; text-transform: lowercase;
   line-height: 1; margin: calc(#{$base} * 8) 0 calc(#{$base} * 2.5); border: none; padding: 0;
 }
-.post-content h3 { grid-column: 1 / -1; font-size: 1rem; margin: calc(#{$base} * 3) 0 calc(#{$base} * .5); }
+.post-content h3 { grid-column: 1 / -1; font-size: $fs-body; font-weight: 700; margin: calc(#{$base} * 3) 0 calc(#{$base} * .5); }
 
 // ingredients (RECIPE markdown table only): two-col flow, quantities right, names share edge.
 // Scoped away from articles AND from the .analysis data table so neither is hijacked into
@@ -176,7 +186,7 @@ body:not(.section-articles) {
 // Grind tables (coffee recipes): a `device | setting` table, NOT qty|name. Wrapped in
 // `.grind` so it escapes the ingredient transform. Device left (bold), setting right (grey).
 .grind { grid-column: 1 / 9; margin: 0; }
-.grind table { width: 100%; max-width: 30rem; border-collapse: collapse; font-size: .9rem; }
+.grind table { width: 100%; max-width: 30rem; border-collapse: collapse; font-size: $fs-small; }
 .grind tr { display: grid; grid-template-columns: 1fr auto; column-gap: 1.5rem; align-items: baseline; padding: calc(#{$base} * .55) 0; border-bottom: 1px solid $hair; }
 .grind thead { display: none; }                          // hide the empty markdown | | | header row
 .grind tr:last-child { border-bottom: none; }
@@ -188,7 +198,7 @@ body:not(.section-articles) {
 // Small comparisons sit in the reading measure; WIDE ones (many columns) span the full
 // grid and scroll horizontally instead of crushing every column. `--w` counts columns.
 body.section-articles .post-content table {
-  grid-column: 4 / 11; max-width: 36rem; border-collapse: collapse; width: 100%; margin: calc(#{$base} * 1) 0 calc(#{$base} * 2); font-size: .85rem; }
+  grid-column: 4 / 11; max-width: 36rem; border-collapse: collapse; width: 100%; margin: calc(#{$base} * 1) 0 calc(#{$base} * 2); font-size: $fs-small; }
 body.section-articles .post-content thead th { text-align: left; font-weight: 700; border-bottom: 1.5px solid $ink; padding: .35em .8em .35em 0; vertical-align: bottom; }
 body.section-articles .post-content tbody td { text-align: left; border-bottom: 1px solid $hair; padding: .4em .8em .4em 0; vertical-align: top; }
 body.section-articles .post-content tbody tr:last-child td { border-bottom: none; }
@@ -210,7 +220,7 @@ body.section-articles .post-content .wide-table table { display: table; width: 1
 .post-content ol > li::after {
   content: counter(step, decimal-leading-zero);
   grid-column: -2 / -1; align-self: end; justify-self: end; text-align: right;
-  font-size: .8rem; font-weight: 400; letter-spacing: .06em; color: $grey; font-variant-numeric: tabular-nums;
+  font-size: $fs-small; font-weight: 400; letter-spacing: .06em; color: $grey; font-variant-numeric: tabular-nums;
 }
 // unordered lists inside content (rare): normal
 .post-content ul { grid-column: 1 / 9; margin: 0 0 1rem; padding-left: 1.1rem; }
@@ -225,7 +235,7 @@ body.section-articles .post-content .wide-table table { display: table; width: 1
 .notes ul { grid-row: 2; grid-column: 1 / -1; display: grid; grid-template-columns: subgrid;
   column-gap: 1.25rem; row-gap: calc(#{$base} * 1.5);
   list-style: none; margin: 0; padding-top: calc(#{$base} * 1.5);
-  font-family: $serif; font-size: .85rem; line-height: 1.5; color: $grey; counter-reset: note; }
+  font-family: $serif; font-size: $fs-small; line-height: 1.5; color: $grey; counter-reset: note; }
 // flush-left: no hanging indent, so the numbered first line doesn't jut left of the wraps
 .notes li { margin: 0; padding-left: 0; text-indent: 0; counter-increment: note; }
 .notes li::before { content: counter(note); font-family: $sans; font-weight: 700; font-size: .78em; color: $ink; margin-right: .5em; font-variant-numeric: tabular-nums; }
@@ -235,13 +245,13 @@ body.section-articles .post-content .wide-table table { display: table; width: 1
 body.section-articles .post-hero { padding-bottom: calc(#{$base} * 3); }
 body.section-articles .post-content { margin-top: calc(#{$base} * 4); }
 body.section-articles .post-content > p:first-child {
-  grid-column: 1 / 10; font-size: 1.3rem; line-height: 1.45; color: $ink; margin: 0 0 calc(#{$base} * 3); max-width: 40rem;
+  grid-column: 1 / 10; font-size: $fs-lede; line-height: 1.35; color: $ink; margin: 0 0 calc(#{$base} * 3); max-width: 40rem;
 }
 // Marginalia subhead sits in the left margin (cols 1–3); the section body reads in cols 4–10.
 // align-self:start + a matching top offset on the block that shares its row → they top-align.
 body.section-articles .post-content h2 {
   grid-column: 1 / 4; align-self: start;
-  font-size: .95rem; font-weight: 700; text-transform: lowercase; letter-spacing: -0.02em;
+  font-size: $fs-small; font-weight: 700; text-transform: lowercase; letter-spacing: -0.02em;
   line-height: 1.4; margin: calc(#{$base} * 7) 0 0;
 }
 body.section-articles .post-content p,
@@ -267,13 +277,13 @@ body.section-articles .post-content ul > li > p { display: inline; grid-column: 
 .analysis { grid-column: 1 / 10; margin: calc(#{$base} * 3) 0; }
 .analysis h2 { grid-column: auto; border: none; padding: 0; margin: 0 0 .4rem; }
 .analysis > p { margin: 0 0 1rem; max-width: 40rem; }        // caption + readout paragraphs
-.analysis table { display: block; width: 100%; max-width: 40rem; margin: 0 0 1rem; font-size: .92rem; font-variant-numeric: tabular-nums; }
+.analysis table { display: block; width: 100%; max-width: 40rem; margin: 0 0 1rem; font-size: $fs-small; font-variant-numeric: tabular-nums; }
 .analysis thead { display: none; }                            // drop the header row (footnote-light)
 .analysis tbody { display: block; }
 // row = [ label | amount(small grey) | % (fills remaining → far-right, grey) ]
 .analysis tr { display: grid; grid-template-columns: auto auto 1fr; column-gap: .6rem; align-items: baseline; padding: calc(#{$base} * .7) 0; }
 .analysis td { padding: 0; border: none; }
-.analysis td:nth-child(2) { color: $grey; font-size: .82rem; }        // grams, small + grey, riding after the label
+.analysis td:nth-child(2) { color: $grey; font-size: .9em; }          // grams — em-relative to the 13px row, small + grey
 .analysis td:last-child { text-align: right; color: $grey; white-space: nowrap; }  // % pushed far right
 
 // ── Code ──
