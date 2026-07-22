@@ -188,6 +188,7 @@ title: Recipes
 <ul class="cat-list">
 <li><a href="./steering">Steering</a></li>
 <li><a href="./type">Typography</a></li>
+<li><a href="./photos">Photos</a></li>
 <li><a href="./drafts">Drafts</a></li>
 <li><a href="./changelog">Changelog</a></li>
 </ul>
