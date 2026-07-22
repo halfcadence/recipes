@@ -12,19 +12,16 @@ layout: default
 
   {%- comment -%}
     Resolve the hero photo: front-matter `image:` wins; else the photo registry
-    (_data/photos.yml) specific-by-slug; else the category fallback. Recipes only
-    (articles/colophon get a photo only via explicit front-matter `image:`).
+    (_data/photos.yml) specific-by-slug. NO fallback — a recipe with no verified
+    photo shows no figure (better nothing than a wrong/generic image).
     See steering.md "Recipe Photos".
   {%- endcomment -%}
   {%- assign slug = page.path | split: "/" | last | remove: ".md" -%}
   {%- assign reg_specific = site.data.photos.specific[slug] -%}
-  {%- assign reg_category = site.data.photos.category[page.category] -%}
   {%- if page.image -%}
     {%- assign hero = page.image -%}
   {%- elsif reg_specific -%}
     {%- assign hero = reg_specific | append: "?w=1600&h=900&fit=crop&q=80&auto=format" | prepend: "https://images.unsplash.com/" -%}
-  {%- elsif reg_category and num -%}
-    {%- assign hero = reg_category | append: "?w=1600&h=900&fit=crop&q=80&auto=format" | prepend: "https://images.unsplash.com/" -%}
   {%- endif -%}
 
   <header class="post-header">

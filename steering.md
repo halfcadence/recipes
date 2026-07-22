@@ -135,7 +135,7 @@ a labeled archive, and the riso-color *article* keeps its swatches as content.)
 
 ## Recipe Photos
 
-Every recipe page shows a **full-width 16:9 hero photo** under the title. This is
+A recipe page MAY show a **full-width 16:9 hero photo** under the title. This is
 distinct from the retired illustration system (see "Illustrations — none"): photos
 are real food photography, not per-item art.
 
@@ -144,24 +144,24 @@ Resolution order (handled by `_layouts/page.html`), first match wins:
 1. Front-matter `image:` on the recipe (a full URL) — an explicit override. Rare;
    prefer the registry.
 2. `_data/photos.yml` → `specific:` keyed by the recipe **slug** (filename without
-   `.md`) — the per-recipe verified photo. Value is an Unsplash CDN stem
-   (`photo-<id>`); the layout appends the sizing params.
-3. `_data/photos.yml` → `category:` for the recipe's category — the fallback, so a
-   recipe with no specific photo still shows something on-theme.
+   `.md`). Value is an Unsplash CDN stem (`photo-<id>`); the layout appends sizing.
+
+**There is NO fallback.** A recipe not in the registry (and with no front-matter
+`image:`) shows no hero photo. This is deliberate: a generic or wrong photo
+(e.g. a tortilla on the steak page) is worse than none. Only add a photo you have
+verified depicts that specific dish.
 
 Rules:
 
-- Every category listed in Front Matter MUST have a `category:` fallback in
-  `photos.yml`, so no recipe page is ever imageless.
 - A `specific:` entry MUST actually depict THAT dish and MUST crop cleanly to 16:9
-  (subject centered, not cut off). Prefer a `specific:` photo over leaning on the
-  fallback whenever a good one exists.
+  (subject centered, not cut off). When unsure, leave it out — no photo is fine.
+- Variants SHOULD reuse one good photo where honest (e.g. all plain-canelé variants
+  can share a canelé shot) but MUST NOT borrow an unrelated dish's photo.
 - Photos MUST be **free-licensed** (Unsplash `images.unsplash.com/photo-…`), never
   Unsplash+ (`plus.unsplash.com/premium_photo-…`) or other paid/unlicensed sources.
 - `image_credit` defaults to "Photo — Unsplash". If a photo is kept long-term, the
   real photographer SHOULD be credited (Unsplash guideline).
-- Articles/colophon pages get a photo ONLY via explicit front-matter `image:` — they
-  are not in the registry and get no category fallback.
+- Articles/colophon pages get a photo ONLY via explicit front-matter `image:`.
 
 ### How to find and verify a photo (the procedure)
 
@@ -189,6 +189,6 @@ When adding a new recipe, ALL of the following MUST be completed:
 2. Add a link to `index.md` under the appropriate category. Base recipes MUST be listed before variants. (A recipe is invisible until it's linked here — the homepage is the gate.)
 3. Update `changelog.md` with the new recipe, in the same commit.
 4. For baking recipes (batter/dough), add an `## Analysis` section between Steps and Notes, computed via the `batter-analysis` skill.
-5. The recipe automatically gets its category's fallback photo. SHOULD add a verified `specific:` photo to `_data/photos.yml` if a good one exists (see Recipe Photos).
+5. SHOULD add a verified `specific:` photo to `_data/photos.yml` if a good one exists (see Recipe Photos). If none is found, leave it out — there is no fallback and no photo is fine.
 
 No illustration is needed — recipe pages are type-only (see Illustrations above); the hero photo is separate and comes from the photo registry.
