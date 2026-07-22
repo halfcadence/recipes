@@ -3,9 +3,6 @@ title: Cherry Pie
 category: sweets
 number: 121
 yield: 9-inch pie
-image: https://images.unsplash.com/photo-1718096110128-5667589f61ef?w=1600&h=900&fit=crop&q=80&auto=format
-image_alt: A lattice-topped cherry pie, close up
-image_credit: Photo — Unsplash
 ---
 
 Fresh cherries in a store-bought crust — the honest, easy version. The only fussy part is pitting; everything after is toss, fill, bake. Sour cherries make the classic bright pie; sweet Bing work with more acid and less sugar.

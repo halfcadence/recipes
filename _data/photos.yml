@@ -1,0 +1,31 @@
+# Recipe photo registry — single source of truth for hero images.
+#
+# Two layers so NO recipe page is ever imageless:
+#   1. `specific:` — a verified photo for one recipe, keyed by its slug (filename
+#      without .md). Always wins. Add one whenever you find a photo that actually
+#      depicts THAT dish and crops cleanly to 16:9.
+#   2. `category:` — a per-category fallback used when a recipe has no specific
+#      entry. Every category MUST have a fallback so every page shows something.
+#
+# See steering.md "Recipe Photos" for the full rule + how to find/verify a photo.
+# Values are Unsplash CDN stems (the `photo-<id>` slug). The layout appends sizing
+# params (?w=1600&h=900&fit=crop&q=80&auto=format). A recipe's own front-matter
+# `image:` still overrides everything here.
+
+# ── verified per-recipe photos ──────────────────────────────────────────────
+specific:
+  purin:               photo-1752245055224-958af21193c9   # caramel custard, cream + cherry
+  gyoza:               photo-1738681336104-608b4e7dc3b0   # pan-fried dumplings, black plate
+  cherry-pie:          photo-1718096110128-5667589f61ef   # lattice pie close-up
+  matcha-latte:        photo-1515823064-d6e0c04616a7       # leaf latte art, white cup
+  tortilla-espanola:   photo-1639669794539-952631b44515   # spanish potato omelette
+
+# ── per-category fallbacks (every category present; all verified to depict the
+#    right kind of food and crop cleanly to 16:9) ─────────────────────────────
+category:
+  mains:     photo-1639669794539-952631b44515   # golden plated dish (tortilla) — neutral main
+  soups:     photo-1547592166-23ac45744acd       # top-down bowl of soup ✓ verified
+  sides:     photo-1512621776951-a57141f2eefd     # colorful vegetable bowl ✓ verified
+  sweets:    photo-1718096110128-5667589f61ef    # dessert (lattice pie) — neutral sweet
+  drinks:    photo-1515823064-d6e0c04616a7        # drink with latte art — neutral drink
+  pantry:    photo-1466637574441-749b8f19452f     # ingredients on a board ✓ verified

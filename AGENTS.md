@@ -29,6 +29,17 @@ remain only to feed the `/illustrations/` and `/illustrations-riso/` colophon
 galleries (auto-globbed from `assets/illustrations/`), which are now an archive
 of the previous system. Don't add new ones or hand-edit those gallery pages.
 
+## Recipe photos (separate from illustrations — these ARE live)
+
+Every recipe shows a full-width 16:9 hero photo, resolved in `_layouts/page.html`:
+front-matter `image:` → `_data/photos.yml` `specific[slug]` → `category[category]`
+fallback. So **every recipe already has a photo** via its category fallback; adding
+a good per-dish one means a line in `photos.yml` under `specific:`, keyed by slug,
+value an Unsplash **free** stem (`photo-<id>`; NOT `premium_photo-`). The full rule
++ the find/verify procedure (search landscape+free, scrape stems, **download and
+LOOK before trusting** — alt text lies) is in `steering.md` "Recipe Photos". Don't
+paste image URLs into recipe front matter; use the registry.
+
 ## Styling lives in one place
 
 `assets/main.scss` is the entire stylesheet — self-contained, no `minima`/theme

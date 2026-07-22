@@ -10,6 +10,23 @@ layout: default
     {%- else -%}{%- assign padnum = num -%}{%- endif -%}
   {%- endif -%}
 
+  {%- comment -%}
+    Resolve the hero photo: front-matter `image:` wins; else the photo registry
+    (_data/photos.yml) specific-by-slug; else the category fallback. Recipes only
+    (articles/colophon get a photo only via explicit front-matter `image:`).
+    See steering.md "Recipe Photos".
+  {%- endcomment -%}
+  {%- assign slug = page.path | split: "/" | last | remove: ".md" -%}
+  {%- assign reg_specific = site.data.photos.specific[slug] -%}
+  {%- assign reg_category = site.data.photos.category[page.category] -%}
+  {%- if page.image -%}
+    {%- assign hero = page.image -%}
+  {%- elsif reg_specific -%}
+    {%- assign hero = reg_specific | append: "?w=1600&h=900&fit=crop&q=80&auto=format" | prepend: "https://images.unsplash.com/" -%}
+  {%- elsif reg_category and num -%}
+    {%- assign hero = reg_category | append: "?w=1600&h=900&fit=crop&q=80&auto=format" | prepend: "https://images.unsplash.com/" -%}
+  {%- endif -%}
+
   <header class="post-header">
     {% if page.category %}<div class="section-label"><a href="{{ site.baseurl }}/#{{ page.category }}">{{ page.category | replace: "soups", "Soups & Hot Pots" | replace: "colophon", "Colophon" | capitalize }}</a></div>{% endif %}
     <div class="post-hero">
@@ -17,10 +34,10 @@ layout: default
     </div>
   </header>
 
-  {% if page.image %}
+  {% if hero %}
   <figure class="post-figure">
-    <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title | escape }}" loading="lazy">
-    {% if page.image_credit %}<figcaption>{{ page.image_credit }}</figcaption>{% endif %}
+    <img src="{{ hero }}" alt="{{ page.image_alt | default: page.title | escape }}" loading="lazy">
+    <figcaption>{{ page.image_credit | default: "Photo — Unsplash" }}</figcaption>
   </figure>
   {% endif %}
 

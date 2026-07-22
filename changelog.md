@@ -4,7 +4,13 @@ category: colophon
 permalink: /changelog/
 ---
 
-## 2026-07-13
+## 2026-07-21
+
+- Recipe photos: add a full-width 16:9 hero photo to every recipe via a two-layer registry (`_data/photos.yml`) — `specific:` per-slug verified photos win, else a per-category fallback so no page is imageless. `_layouts/page.html` resolves front-matter `image:` → specific → category. Verified per-dish photos for purin, gyoza, cherry pie, matcha latte, tortilla; verified soups/sides/pantry fallbacks. Document the system + the find/verify procedure in steering.md ("Recipe Photos") and AGENTS.md; clarify the "no illustrations" rule means no drawn/riso art, not no photos.
+- New article: "Photographing Food at Home" — one-window/diffuse/fill/angle/settings/styling/edit, in the marginalia-subhead article layout. Listed under Articles.
+- Analysis block restyled to the rule-free L2 (steps-pattern) layout: label · grams (small grey) · % far-right, no borders/header — was a bordered table that read as bolted-on; the ingredient-table transform was also over-matching it (and article data tables) and causing overlap. Scope fixed. Analysis now precedes Notes site-wide (reordered 14 recipes).
+- Drinks: add by-weight analysis to all 26 (cocktails: ABV/sugar/dilution; coffee/tea brews: brew ratio + grounds retention; milk drinks: composition).
+- Redesign (monochrome Müller-Brockmann grid): single typeface (Helvetica; dropped the serif accent), responsive 12/8/4 grid, home wordmark + count + cQ category heads as full-width bands, hero recipe number on the baseline, notes as 3 equal footnote columns (flush-left, no jut), black 3×3 grid favicon, colophon delisted (Colors/Type-Comparison/SVG+Riso illustrations).
 
 - Banana Bread: rescale the base to a full, tall 9×5 loaf (×1.3, now 3 whole eggs). Ingredients up proportionally (banana 340→442g, flours 96→125g each, etc.); recompute analysis (1232g batter — ratios unchanged: fat 13.1%, sugar 20.0%, structure 21.8%, banana ~36%). Bake time now ~55–70 min for the single tall loaf; the deep-6×3 and 6×2 rounds move to a "scaling down" note.
 - Fix broken internal cross-links site-wide. Recipe/article body links written as `[text](/r/slug)` rendered as root-absolute `/r/slug`, dropping the `/recipes` baseurl and 404'ing (e.g. the flan's "Related custards" links). Wrap all 72 such links across 26 files in Jekyll's `relative_url` filter (`[text]({{ '/r/slug' | relative_url }})`), which prepends the baseurl → `/recipes/r/slug`. Index links already used relative `./` paths and were unaffected. Verified live via a real browser click (flan → Purin resolves).

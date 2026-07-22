@@ -5,9 +5,6 @@ number: 63
 source: https://www.seriouseats.com/the-best-japanese-pork-and-cabbage-dumplings-gyoza-recipe
 chef: J. Kenji López-Alt
 yield: 40–50
-image: https://images.unsplash.com/photo-1738681336104-608b4e7dc3b0?w=1600&h=900&fit=crop&q=80&auto=format
-image_alt: Pan-fried gyoza dumplings with crisp golden bottoms, lined up on a black plate
-image_credit: Photo — Unsplash
 ---
 
 ## Ingredients
