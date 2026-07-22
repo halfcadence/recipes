@@ -14,11 +14,14 @@ number: 74
 
 ## Grind
 
+<div class="grind" markdown="1">
+
 | | |
 |---|---|
 | Remi (conventional burrs) | ~2.5 revolutions from zero |
 | Lagom Mini 2 (Mizen 48MS) | +13 dots from zero |
 
+</div>
 Grind finer than hot pour over. Less hot water means less extraction time, so finer compensates.
 
 ## Steps

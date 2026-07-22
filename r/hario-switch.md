@@ -13,11 +13,14 @@ number: 72
 
 ## Grind
 
+<div class="grind" markdown="1">
+
 | | |
 |---|---|
 | Remi (conventional burrs) | ~2.5 revolutions from zero |
 | Lagom Mini 2 (Mizen 48MS) | +13 dots from zero |
 
+</div>
 ## Steps
 
 1. Boil water. Let it cool to 205°F.

@@ -18,11 +18,14 @@ source: https://www.cocktailchemistrylab.com/home/pourover
 
 ## Grind
 
+<div class="grind" markdown="1">
+
 | | |
 |---|---|
 | Remi (conventional burrs) | ~2.25 revolutions from zero |
 | Lagom Mini 2 (Mizen 48MS) | +11 dots from zero |
 
+</div>
 ## Steps
 
 1. Grind coffee beans. Place a filter in a pourover dripper and wet the filter. Add grounds.

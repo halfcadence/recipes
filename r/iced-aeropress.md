@@ -15,11 +15,14 @@ number: 79
 
 ## Grind
 
+<div class="grind" markdown="1">
+
 | | |
 |---|---|
 | Remi (conventional burrs) | ~2.0 revolutions from zero |
 | Lagom Mini 2 (Mizen 48MS) | +11 dots from zero |
 
+</div>
 Grind finer than hot AeroPress — less water means you need more extraction.
 
 ## Steps

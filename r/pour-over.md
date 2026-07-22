@@ -15,11 +15,14 @@ chef: Tetsu Kasuya
 
 ## Grind
 
+<div class="grind" markdown="1">
+
 | | |
 |---|---|
 | Remi (conventional burrs) | ~2.75 revolutions from zero |
 | Lagom Mini 2 (Mizen 48MS) | +15 dots from zero |
 
+</div>
 Grind coarser than typical pour over — closer to French press. The 4:6 method uses a coarse grind with multiple pours.
 
 ## Steps
