@@ -99,7 +99,7 @@ body.home .masthead {
   padding: calc(#{$base} * 3) 0 calc(#{$base} * 1.5);
 }
 body.home .mh-title, body.home .mh-title:visited {
-  display: inline; grid-column: auto; text-align: left; padding: 0;
+  display: inline; grid-column: auto; text-align: left; padding: 0; text-decoration: none;
   font-weight: 700; font-size: clamp(2.6rem, 10vw, 6rem);
   text-transform: uppercase; letter-spacing: -0.06em; line-height: .82; color: $ink;
 }
