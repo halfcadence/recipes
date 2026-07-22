@@ -1,96 +1,79 @@
 ---
-layout: default
+layout: page
 title: Typography
 category: colophon
 permalink: /type/
 ---
 
 <style>
-.type-sample {
-  margin-bottom: 2.5rem;
-  padding-bottom: 0;
-}
-.type-sample .label {
-  font-family: monospace;
-  font-size: 0.75rem;
-  color: #88898a;
-  margin-bottom: 0.3rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-.type-sample .meta {
-  font-family: monospace;
-  font-size: 0.75rem;
-  color: #88898a;
-  margin-bottom: 0.6rem;
-}
-.pangram {
-  font-size: 1.5rem;
-  line-height: 1.2;
-  margin: 0;
-}
+  /* Living type spec — uses the site's own classes, adds only labels + swatches.
+     Everything here mirrors assets/main.scss; no bespoke type. */
+  .spec { margin: calc(var(--base, .5rem) * 8) 0 0; }
+  .spec-label { font-size: .72rem; font-weight: 700; letter-spacing: -.01em;
+    text-transform: lowercase; color: #6b6b6b; margin: 0 0 .8rem; }
+  .spec .scale p { margin: 0 0 .4rem; }
+  .spec .scale .dim { color: #6b6b6b; font-size: .8rem; font-weight: 400; margin-left: .5rem; letter-spacing: 0; }
+  .tone-row { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .tone { flex: 1 1 8rem; border: 1px solid #e4e4e4; }
+  .tone .sw { height: 3.5rem; }
+  .tone .cap { font-size: .72rem; padding: .4rem .5rem; color: #6b6b6b; font-variant-numeric: tabular-nums; }
+  .sw-ink { background: #111; } .sw-paper { background: #fff; }
+  .sw-dink { background: #f2f2f0; } .sw-dpaper { background: #0c0c0d; }
+  .sw-grey { background: #6b6b6b; } .sw-hair { background: #e4e4e4; }
+  @media (prefers-color-scheme: dark) {
+    .spec-label, .spec .scale .dim, .tone .cap { color: #9a9a98; }
+    .tone { border-color: #2a2a2c; }
+  }
 </style>
 
+<p style="max-width:40rem;color:#6b6b6b;margin:0 0 1rem">One typeface — Helvetica —
+throughout. Hierarchy comes from size, weight, and case, never a second family and
+never letter-spacing or all-caps. Pure ink on paper, inverting in dark mode. The
+title above shows the wordmark treatment: big, lowercase, tight. This page is set
+entirely in the site's own styles.</p>
 
-
-<div class="type-sample">
-<div class="label">Helvetica Neue</div>
-<p class="pangram">Whisk five dozen jumbo eggs; fold in extra plump vanilla, quick yuzu &amp; crispy thyme.</p>
+<div class="spec" style="margin-top:calc(var(--base,.5rem) * 4)">
+  <p class="spec-label">recipe title — with its number</p>
+  <div class="post-hero" style="margin:0">
+    <span class="post-title">canelé<span class="hero-no">089</span></span>
+  </div>
 </div>
 
-<div class="type-sample">
-<div class="label">Size scale</div>
-<p style="font-size: 0.8125rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 700; margin: 0.1rem 0;">0.8125rem · labels, section heads</p>
-<p style="font-size: 0.9375rem; margin: 0.1rem 0;">0.9375rem · body text (15px base)</p>
-<p style="font-size: 1.15rem; margin: 0.1rem 0;">1.15rem · lede paragraph</p>
-<p style="font-size: 1.5rem; margin: 0.1rem 0;">1.5rem · site title</p>
-<p style="font-size: 2.2rem; margin: 0.1rem 0;">2.2rem · recipe title field</p>
-<p style="font-size: 4.5rem; letter-spacing: -0.055em; line-height: 1; margin: 0.3rem 0;">4.5rem · numeral hero</p>
+<div class="spec">
+  <p class="spec-label">pangram</p>
+  <p style="font-size:1.5rem;line-height:1.25;margin:0;max-width:40rem;letter-spacing:-.02em">
+    Whisk five dozen jumbo eggs; fold in extra plump vanilla, quick yuzu &amp; crispy thyme.</p>
 </div>
 
-<div class="type-sample">
-<div class="label">Weight</div>
-<p style="font-weight: 400; margin: 0.1rem 0;">400 — regular body text</p>
-<p style="font-weight: 700; margin: 0.1rem 0;">700 — headings, strong, titles, labels</p>
+<div class="spec">
+  <p class="spec-label">size &amp; weight — hierarchy without a second face</p>
+  <div class="scale">
+    <p style="font-size:clamp(2.6rem,9vw,5rem);font-weight:700;text-transform:lowercase;letter-spacing:-.045em;line-height:.9">title<span class="dim">clamp(2.6rem, 9vw, 5rem) · 700 · lowercase</span></p>
+    <p style="font-size:1.5rem;font-weight:700;text-transform:lowercase;letter-spacing:-.04em">category head<span class="dim">1.5rem · 700</span></p>
+    <p style="font-size:1.3rem;font-weight:700;text-transform:lowercase;letter-spacing:-.035em">section head<span class="dim">1.3rem · 700 · lowercase</span></p>
+    <p style="font-size:1.15rem;line-height:1.44">lede paragraph<span class="dim">1.15rem · 400</span></p>
+    <p style="font-size:15px">body text<span class="dim">15px / 1.5 · 400</span></p>
+    <p style="font-size:.72rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase">section kicker<span class="dim" style="text-transform:none;letter-spacing:0;font-weight:400">.72rem · 700 · the one place caps + tracking are used</span></p>
+  </div>
 </div>
 
-<div class="type-sample">
-<div class="label">Title field (the one spot)</div>
-<div class="pill-row" style="margin-top: 0.3rem;">
-<span class="pill-sample" data-num="04" style="background:#1c1cd6">Sweets</span>
-<span class="pill-sample" data-num="08" style="background:#1c1cd6">Colophon</span>
-</div>
-</div>
-
-<div class="type-sample">
-<div class="label">Tabular alignment</div>
-<table>
-<tr><td>100g</td><td>all-purpose flour</td></tr>
-<tr><td>2g</td><td>kosher salt</td></tr>
-<tr><td>15ml</td><td>olive oil</td></tr>
-<tr><td>1</td><td>large egg, room temperature</td></tr>
-<tr><td>115–140g</td><td>zucchini (1/2 medium)</td></tr>
-</table>
+<div class="spec">
+  <p class="spec-label">tones — the whole palette</p>
+  <div class="tone-row">
+    <div class="tone"><div class="sw sw-ink"></div><div class="cap">ink #111</div></div>
+    <div class="tone"><div class="sw sw-paper"></div><div class="cap">paper #fff</div></div>
+    <div class="tone"><div class="sw sw-grey"></div><div class="cap">grey #6b6b6b</div></div>
+    <div class="tone"><div class="sw sw-hair"></div><div class="cap">hair #e4e4e4</div></div>
+    <div class="tone"><div class="sw sw-dink"></div><div class="cap">dark ink #f2f2f0</div></div>
+    <div class="tone"><div class="sw sw-dpaper"></div><div class="cap">dark paper #0c0c0d</div></div>
+  </div>
+  <p style="color:#6b6b6b;font-size:.8rem;margin:.8rem 0 0;max-width:40rem">No spot color.
+  The earlier per-section palette is retired — kept only as a labeled archive in
+  <a href="{{ '/colors' | relative_url }}">Colors</a> and the risograph article.</p>
 </div>
 
-<div class="type-sample">
-<div class="label">Numbered steps</div>
-<ol>
-<li>Sift matcha into a bowl to remove clumps.</li>
-<li>Add hot water. Whisk vigorously until frothy and fully dissolved.</li>
-<li>Fill a glass with ice if serving cold.</li>
-<li>Pour the water into the glass, then pour the matcha concentrate over it.</li>
-</ol>
-</div>
-
-<div class="type-sample">
-<div class="label">Notes (stacked list with dividers)</div>
-<div class="notes">
-<ul>
-<li>The idea is the same as a coffee americano — a concentrated shot diluted with water.</li>
-<li>Use water at 175–185°F, not boiling. Boiling makes matcha bitter.</li>
-<li>2g matcha to 180g water is a light, easy-drinking ratio.</li>
-<li>For a sparkling version, use cold sparkling water instead of still.</li>
-</ul>
-</div>
+<div class="spec">
+  <p class="spec-label">numerals — tabular, decimal-leading-zero for counts</p>
+  <p style="font-variant-numeric:tabular-nums;font-size:1.2rem;letter-spacing:-.01em">
+    01 · 02 · 03 &nbsp; 124 &nbsp; 16.8% &nbsp; 115–140g &nbsp; 2½ oz</p>
 </div>
