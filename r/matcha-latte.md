@@ -2,6 +2,9 @@
 title: Matcha Latte
 category: drinks
 number: 18
+image: https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=1600&h=900&fit=crop&q=80&auto=format
+image_alt: A matcha latte in a white cup with leaf latte art
+image_credit: Photo — Unsplash
 ---
 
 ## Ingredients

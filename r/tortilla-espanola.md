@@ -4,6 +4,9 @@ category: mains
 number: 34
 source: https://www.seriouseats.com/tortilla-espanola-spanish-potato-omelette-recipe
 chef: Daniel Gritzer, Serious Eats
+image: https://images.unsplash.com/photo-1639669794539-952631b44515?w=1600&h=900&fit=crop&q=80&auto=format
+image_alt: A whole Spanish tortilla española with a golden browned surface on a white plate
+image_credit: Photo — Unsplash
 ---
 
 ## Ingredients
