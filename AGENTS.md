@@ -4,7 +4,7 @@ Conventions and gotchas for AI agents working in this repo. Read this and `steer
 
 ## What this repo is
 
-A Jekyll / GitHub Pages recipe site (`halfcadence.github.io/recipes`), **Experimental-Jetset–styled**: self-owned CSS (no theme gem), Helvetica only, pure black-on-white inverting to white-on-black, **sentence case** (no all-caps / letter-spacing), one **per-section accent color**, no illustrations. Recipe titles are a big lowercase type-as-image moment; the homepage is a full-width text-only archive. Full rules in `steering.md` ("Design system"). See the README for the layout table. (The site was previously a two-ink risograph look with Bricolage Grotesque — retired; the `colors.html`/`illustrations*` colophon pages keep it as a labeled archive.)
+A Jekyll / GitHub Pages recipe site (`halfcadence.github.io/recipes`), **Swiss-modernist / Müller-Brockmann grid-styled**: self-owned CSS (no theme gem), Helvetica only, a responsive modular grid (`--cols` 12→8→4) everything snaps to, **pure monochrome — no accent/section color**, hierarchy by a fixed type ramp (`$fs-*` tokens) + weight, no illustrations. Recipe titles are a big lowercase type-as-image moment (the one Experimental-Jetset nod); the homepage is a full-width text-only archive. Full rules in `steering.md` ("Design system — Swiss modernist"). See the README for the layout table. (History: first a two-ink risograph look with Bricolage Grotesque, then a per-section-color EJ phase — **both retired**; the `colors.html`/`illustrations*` colophon pages keep the old palette as a labeled archive.)
 
 ## The three tiers — know which one you're touching
 
@@ -43,10 +43,11 @@ image URLs into recipe front matter; use the registry.
 ## Styling lives in one place
 
 `assets/main.scss` is the entire stylesheet — self-contained, no `minima`/theme
-gem. Section colors are the `$sections` SCSS map (`(ground, ink)` per category;
-`ground` = text on white, `ink` = lighter variant for dark mode; both must pass
-AA). Color is a quiet accent only (kicker, number, step counters, rules) — never
-a filled title. Homepage full-width via `body.home`.
+gem. **Monochrome**: ink `#111` / paper `#fff` / grey `#6b6b6b` / hair `#e4e4e4`
+(+ dark variants) are the whole palette — no accent, no per-section color (the old
+`$sections` map is gone; don't reintroduce it). Type sizes come from `$fs-*` ramp
+tokens (11/13/15/21/26/hero) — every `font-size` references a token, no ad-hoc
+px/rem. Homepage full-width via `body.home`; the modular grid is `--cols` 12→8→4.
 
 ## Publishing / deploy
 

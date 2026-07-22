@@ -4,6 +4,13 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-07-22
+
+- Fix 38 broken internal links in Drafts — the drafts index and all 6 draft pages used bare `](/drafts/…)` / `](/r/…)` / `](/a/…)` paths, which drop the `/recipes` baseurl and 404 on prod (e.g. the P-Bass Mute and Ttukbaegi links, the "recipe index" link). Wrap them all in `relative_url`. (`r/` and `a/` were already clean; `drafts/` had been missed.)
+- Type: rationalize the ~9 ad-hoc small font-sizes into one Swiss ramp — "Univers Stepped": 11 / 13 / 15 / 21 / 26 / hero, as `$fs-*` tokens. Every `font-size` now references a token (no hardcoded px/rem). `/type` and `/photos` pages updated to match.
+- Steering + AGENTS: correct the house-style description — the site is **Swiss-modernist / Müller-Brockmann grid**, monochrome (no accent, no per-section color), not the "Experimental Jetset + per-section accent" the doc still claimed. The `$sections` color map and accent are gone; documented as retired.
+- `/photos` page restyled to the monochrome system + type ramp (26px category heads, 13px/11px steps, hairline "no photo" box instead of the old striped gradient; drop the monospace `<code>`).
+
 ## 2026-07-21
 
 - Photos review page (`/photos/`, in Colophon): every recipe grouped by category with its hero photo or a striped "no photo" marker + per-category coverage count. Mirrors the registry resolution so it's an accurate at-a-glance audit.

@@ -5,22 +5,24 @@ permalink: /photos/
 ---
 
 <style>
+  /* Photos audit — uses the site's monochrome tones + type ramp ($fs-* mirrored here:
+     26px category head · 13px secondary · 11px caption/slug). No ad-hoc sizes. */
   .ph-intro { grid-column: 1 / -1; color: #6b6b6b; max-width: 40rem; margin: 0 0 2rem; }
-  .ph-cat { grid-column: 1 / -1; font-size: 1.3rem; font-weight: 700; letter-spacing: -.035em;
-    text-transform: lowercase; margin: 2.5rem 0 1rem; border-bottom: 2px solid #111; padding-bottom: .3rem; }
-  .ph-count { color: #6b6b6b; font-size: .8rem; font-weight: 400; margin-left: .5rem; }
+  .ph-cat { grid-column: 1 / -1; font-size: 1.625rem; font-weight: 700; letter-spacing: -.04em;
+    text-transform: lowercase; margin: 2.5rem 0 1rem; border-bottom: 1px solid #111; padding-bottom: .4rem; }
+  .ph-count { color: #6b6b6b; font-size: .8125rem; font-weight: 400; margin-left: .6rem; letter-spacing: 0; font-variant-numeric: tabular-nums; }
   .ph-grid { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
   .ph-item { margin: 0; }
   .ph-item img { width: 100%; aspect-ratio: 16/9; object-fit: cover; background: #e4e4e4; display: block; }
-  .ph-none { width: 100%; aspect-ratio: 16/9; background: repeating-linear-gradient(45deg,#f4f4f4,#f4f4f4 8px,#eaeaea 8px,#eaeaea 16px);
-    display: flex; align-items: center; justify-content: center; color: #9a9a98; font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; }
-  .ph-name { font-size: .82rem; margin-top: .3rem; }
+  .ph-none { width: 100%; aspect-ratio: 16/9; border: 1px solid #e4e4e4;
+    display: flex; align-items: center; justify-content: center; color: #9a9a98; font-size: .6875rem; letter-spacing: .14em; text-transform: uppercase; }
+  .ph-name { font-size: .8125rem; margin-top: .35rem; }
   .ph-name a { color: #111; text-decoration: none; }
   .ph-name a:hover { text-decoration: underline; }
-  .ph-slug { font-size: .6rem; color: #9a9a98; font-family: ui-monospace, monospace; margin-top: .1rem; word-break: break-all; }
+  .ph-slug { font-size: .6875rem; color: #9a9a98; font-variant-numeric: tabular-nums; margin-top: .1rem; word-break: break-all; }
   @media (prefers-color-scheme: dark) {
     .ph-cat { border-bottom-color: #f2f2f0; }
-    .ph-none { background: repeating-linear-gradient(45deg,#1a1a1c,#1a1a1c 8px,#222 8px,#222 16px); color: #6b6b6b; }
+    .ph-none { border-color: #2a2a2c; color: #6d6c66; }
     .ph-name a { color: #f2f2f0; }
   }
   @media (max-width: 34rem) { .ph-grid { grid-template-columns: 1fr 1fr; } }
@@ -29,9 +31,9 @@ permalink: /photos/
 {%- assign cats = "mains,soups,sides,sweets,drinks,pantry" | split: "," -%}
 {%- assign recipes = site.pages | where_exp: "p", "p.url contains '/r/'" -%}
 
-<p class="ph-intro">Every recipe and whether it has a hero photo yet. Photos come from
-<code>_data/photos.yml</code>; a striped box means no verified photo (the page shows no
-image — no fallback). {{ recipes | size }} recipes total.</p>
+<p class="ph-intro">Every recipe and whether it has a hero photo yet. Photos come from the
+photo registry; an outlined box means no verified photo (the page shows no image — no
+fallback). {{ recipes | size }} recipes total.</p>
 
 {%- for cat in cats -%}
   {%- assign group = recipes | where: "category", cat | sort: "number" -%}

@@ -39,5 +39,5 @@ Cha yen from ChaTraMue mix, dialed back from the café default. A full street-ve
 - **Dial it:** sweeter → +5–10g condensed milk; **less sweet still** → cut the condensed to ~35g and lean harder on the evaporated; **least sweet** → evaporated milk only, no condensed (creamy but markedly more astringent and tea-bitter — that's the trade). Half-and-half subs 1:1 for evaporated.
 - **Brew strong to survive dilution.** 30g mix to 480g water (~6%) is a concentrated steep; the ice and milk knock it back. A weak brew plus less sweetener tastes thin, not "less sweet" — strength is what carries a low-sugar version.
 - **Hot version:** skip the ice, stir both milks into the hot tea, serve.
-- Scales as a ratio: ~6% mix-to-water, then sweeten to taste with condensed milk. The [Thai Tea Canelé](/drafts/thai-tea-canele-v2) uses the same mix at a much stronger infusion (it has to survive a 60-minute bake).
+- Scales as a ratio: ~6% mix-to-water, then sweeten to taste with condensed milk. The [Thai Tea Canelé]({{ '/drafts/thai-tea-canele-v2' | relative_url }}) uses the same mix at a much stronger infusion (it has to survive a 60-minute bake).
 </div>

@@ -6,7 +6,7 @@ yield: 12
 ---
 
 
-The custardy [Canelé](/r/canele) built around a strong steep of Thai tea mix — that malty Assam black tea with its vanilla note and signature orange. Alcohol-free; the tea blend carries its own aromatics, reinforced here with real vanilla. A clean, from-the-bag rendering of cha yen in a caramelized shell.
+The custardy [Canelé]({{ '/r/canele' | relative_url }}) built around a strong steep of Thai tea mix — that malty Assam black tea with its vanilla note and signature orange. Alcohol-free; the tea blend carries its own aromatics, reinforced here with real vanilla. A clean, from-the-bag rendering of cha yen in a caramelized shell.
 
 ## Ingredients
 
@@ -54,10 +54,10 @@ The custardy [Canelé](/r/canele) built around a strong steep of Thai tea mix �
 - **Infusion strength is the whole game.** Dessert recipes that under-steep come out bland (the Basque-cheesecake bakers warn a weaker tea "results in a bland cheesecake" at ~6% mix-to-dairy with a 5-minute steep). A canelé bakes long and hot, which is the worst case for aromatic retention, so this pushes higher — ~28g into the milk (~7–8%) with a longer steep. If a test batch reads faint, bump to 32–34g or steep longer rather than reaching for more dye. Infusing into milk/dairy (not water) matters: fat carries the aromatics through the oven better than water does.
 - **Color mutes under the shell.** Two ways: the orange dilutes to a pale tan the moment it hits the batter, and it dulls further toward beige under high-heat Maillard browning. Expect an orange-gold interior under a dark shell, not neon. If you want the dessert to *read* "Thai tea" before the first bite, a few drops of orange gel dye in the batter is standard practice — flavor (from a strong infusion) and color (from supplemental dye) have to be reinforced separately.
 - **Condensed/evaporated milk = authentic richness.** The drink's signature is two dairies: condensed milk for sweetness + body + dairy-caramel, evaporated milk for lighter creaminess. This uses evaporated milk in place of the cream as the infusion vehicle, and an optional 10g condensed milk in the batter; a thin drizzle of condensed milk on the unmolded canelé is the closest thing to the iced-tea ribbon.
-- **No alcohol.** The original rum (40g) is replaced gram-for-gram with milk to hold the liquid balance, plus the vanilla bean to backfill the volatile note that bakes off. For the boozy, warm-spiced counterpart, see the [Spiced Thai Tea Canelé](/drafts/spiced-thai-tea-canele) — it restores the rum and adds chai-style spice; this version stays clean and alcohol-free.
+- **No alcohol.** The original rum (40g) is replaced gram-for-gram with milk to hold the liquid balance, plus the vanilla bean to backfill the volatile note that bakes off. For the boozy, warm-spiced counterpart, see the [Spiced Thai Tea Canelé]({{ '/drafts/spiced-thai-tea-canele' | relative_url }}) — it restores the rum and adds chai-style spice; this version stays clean and alcohol-free.
 - Milk starts at 440g (vs the base 340g) to cover what the (now larger) charge of mix soaks up. Spent tea retains roughly 2–4× its dry weight; the fine-cut Thai mix lands lower-to-middle per gram, so 28g takes up somewhere near 60–110g. The exact figure doesn't matter — after steeping you weigh the strained milk and measure back to a clean 340g, so absorption can't dilute the batter.
-- **Baking steel option:** with a preheated baking steel (tray on the steel), the Perfect-Loaf-style **450°F for 15 min → 350°F for 50–60 min** is a viable alternative to the 525→375 profile — see the oven notes in [Big-Batch Canelé](/r/big-batch-canele).
-- Other technique is identical to the custardy [Canelé](/r/canele).
+- **Baking steel option:** with a preheated baking steel (tray on the steel), the Perfect-Loaf-style **450°F for 15 min → 350°F for 50–60 min** is a viable alternative to the 525→375 profile — see the oven notes in [Big-Batch Canelé]({{ '/r/big-batch-canele' | relative_url }}).
+- Other technique is identical to the custardy [Canelé]({{ '/r/canele' | relative_url }}).
 </div>
 
 ## Analysis
@@ -74,6 +74,6 @@ Total batter weight: **~821g** (after straining the tea; excludes mold coating a
 | Liquid (milk, evap milk, egg water) | 421g | 51.3% |
 | Egg/protein | 25g | 3.0% |
 
-**Custardy-Canelé ratios (~12% structure)** — the Thai tea mix steeps in as flavor and color only; measuring the strained milk back to 340g keeps the liquid fraction identical to the base [Canelé](/r/canele), and replacing the rum with milk leaves it unchanged. The only lever moved versus the existing Thai tea recipe is a stronger infusion (28g vs 20g mix), which lives entirely in the steep-and-strain step and never touches structure.
+**Custardy-Canelé ratios (~12% structure)** — the Thai tea mix steeps in as flavor and color only; measuring the strained milk back to 340g keeps the liquid fraction identical to the base [Canelé]({{ '/r/canele' | relative_url }}), and replacing the rum with milk leaves it unchanged. The only lever moved versus the existing Thai tea recipe is a stronger infusion (28g vs 20g mix), which lives entirely in the steep-and-strain step and never touches structure.
 
 </div>

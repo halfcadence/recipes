@@ -71,28 +71,43 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 - Recipes not linked from `index.md` will not appear on the site.
 - Cross-links in recipe/article **body text** MUST use Jekyll's `relative_url` filter, not a bare root path: write `[Purin]({{ '/r/purin' | relative_url }})`, NOT `[Purin](/r/purin)`. A bare `/r/slug` renders as a root-absolute link that drops the site's `/recipes` baseurl and 404s. (Links in `index.md` use relative `./r/slug` paths and are fine as-is.)
 
-## Design system — Experimental Jetset
+## Design system — Swiss modernist (Müller-Brockmann grid)
 
-The site follows an **Experimental Jetset** house style: Helvetica only, pure
-black-on-white inverting to white-on-black, hard 1px rules, and **hierarchy by
-weight + one color accent — never by all-caps or letter-spacing.** (Previously
-the site used a two-ink risograph look with Bricolage Grotesque; that is retired.
-The `colors.html` / `illustrations*` colophon pages preserve the riso palette as
-a labeled archive, and the riso-color *article* keeps its swatches as content.)
+The site follows the **International Typographic Style (Swiss modernism)**, in the
+**Müller-Brockmann grid-system** lineage: one typeface (Helvetica), a visible modular
+grid every element snaps to, tabular/objective data, baseline rhythm, and **pure
+monochrome — NO color at all.** Hierarchy comes from size, weight, and position on the
+grid. The one expressive flourish is the oversized lowercase **type-as-image wordmark**
+(the recipe title / home masthead) — a nod to Experimental Jetset, but the system is
+otherwise strictly grid-Swiss, not EJ's poster expressiveness.
 
-- **Type:** `Helvetica Neue, Helvetica, Arial, sans-serif`. Base 15px / 1.46.
-  Sentence case everywhere — `text-transform: uppercase` MUST NOT be used, and
-  `letter-spacing` stays near-normal (tight negative on large type, ~0 on small).
-  Hierarchy is weight (400 body / 700 headings) plus the accent color.
-- **Base tones:** pure `#111` on `#fff` (light), inverting to `#f2f2f0` on
-  `#0c0c0d` (dark). Only the two base tones swap between modes.
-- **Per-section color:** each category has ONE color, defined in the `$sections`
-  SCSS map with a `(ground, ink)` pair — `ground` for text on white (light mode),
-  the lighter `ink` variant for text on black (dark mode). Both MUST pass WCAG AA
-  (≥4.5:1) on their background. A new category MUST be added to `$sections`.
-- Color is a **quiet accent only** — the section kicker, the recipe number prefix,
-  step counters, and rules. NEVER a filled title field or a big color block.
-- `print-color-adjust: exact` SHOULD be used when colors need to survive printing.
+(History: the site was first a two-ink risograph look with Bricolage Grotesque, then a
+per-section-color Experimental-Jetset phase; **both are retired.** The `colors.html` /
+`illustrations*` colophon pages preserve the old riso palette as a labeled archive, and
+the riso-color *article* keeps its swatches as content. There is no live accent color.)
+
+- **Type:** `Helvetica Neue, Helvetica, Arial, sans-serif` — one family, no serif, no
+  mono (code excepted). Base 15px / 1.5. Sentence/lower case for content; the **only**
+  place `text-transform: uppercase` + letter-spacing is used is the small section
+  **kicker** (and masthead/caption labels). Large type is tight-negative tracking; body
+  ~0. Hierarchy is the type **ramp + weight** (400 body / 700 heads), never color.
+- **Type ramp** (`$fs-*` tokens, anchored to 15px body): `11` kicker/caption · `13`
+  secondary (notes, analysis, tables, lists, step numbers) · `15` body/ingredients/steps
+  · `21` lede + section head · `26` category head · `clamp(2.6rem,9vw,5rem)` hero title.
+  Every `font-size` MUST reference a `$fs-*` token (or the hero clamp / an em-relative
+  counter) — no ad-hoc px/rem sizes. See the `/type` page and "Univers Stepped".
+- **The grid:** a responsive modular grid underlies every page — `--cols` 12 (desktop)
+  → 8 → 4, with `1.25rem` gutters. Blocks span whole column ranges; recipe bodies,
+  ingredient tables, steps, notes, and analysis all place onto it. Nothing floats.
+- **Monochrome tones — no accent, no per-section color.** Ink `#111` on paper `#fff`
+  (light), inverting to `#f2f2f0` on `#0c0c0d` (dark), plus grey `#6b6b6b` (secondary
+  text) and hair `#e4e4e4` (rules); dark variants `#9a9a98` / `#2a2a2c`. These are the
+  entire palette. Do NOT add a section/spot color or a filled color block. (The `$sections`
+  color map and per-category accent are **gone**; don't reintroduce them.)
+- **Rules & structure:** hard 1px/hairline rules, hard corners, flat fills — no shadows,
+  gradients, or radii. Emphasis is weight or a hairline, never a hue.
+- `print-color-adjust: exact` SHOULD be used only where the archived Colors/riso swatch
+  pages need their colors to survive printing.
 
 ## Illustrations — none
 

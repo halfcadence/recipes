@@ -6,7 +6,7 @@ yield: 12
 ---
 
 
-The grown-up version of the [Thai Tea Canelé](/drafts/thai-tea-canele-v2): the same strong steep of ChaTraMue mix, but with aged rum stirred back in and a chai-like warm-spice blend that leans into the tea's malty, faintly anise-adjacent base. A cool-weather, holiday-leaning rotating flavor — rum and spice over a caramelized shell.
+The grown-up version of the [Thai Tea Canelé]({{ '/drafts/thai-tea-canele-v2' | relative_url }}): the same strong steep of ChaTraMue mix, but with aged rum stirred back in and a chai-like warm-spice blend that leans into the tea's malty, faintly anise-adjacent base. A cool-weather, holiday-leaning rotating flavor — rum and spice over a caramelized shell.
 
 ## Ingredients
 
@@ -52,12 +52,12 @@ The grown-up version of the [Thai Tea Canelé](/drafts/thai-tea-canele-v2): the 
 <div class="notes" markdown="1">
 ## Notes
 
-- **The rum + spice rationale.** ChaTraMue's blend is malty Assam, vanilla, and a faint sweet/anise-adjacent aromatic. Aged rum reinforces the vanilla/caramel backbone the way it does in a traditional canelé, and a restrained chai-style trio (cinnamon, cardamom, clove) leans into the warm, spice-forward reading of Thai tea that Western recipes lean on (star anise / cardamom). Keep the spice small — ~3g total — so it frames the tea rather than turning it into a generic chai. This is the "grown-up" SKU; the clean version stays the [Thai Tea Canelé](/drafts/thai-tea-canele-v2).
-- **A cool-weather flavor.** Warm spice + rum reads as fall/winter — a holiday-leaning counterpart to the clean [Thai Tea Canelé](/drafts/thai-tea-canele-v2).
+- **The rum + spice rationale.** ChaTraMue's blend is malty Assam, vanilla, and a faint sweet/anise-adjacent aromatic. Aged rum reinforces the vanilla/caramel backbone the way it does in a traditional canelé, and a restrained chai-style trio (cinnamon, cardamom, clove) leans into the warm, spice-forward reading of Thai tea that Western recipes lean on (star anise / cardamom). Keep the spice small — ~3g total — so it frames the tea rather than turning it into a generic chai. This is the "grown-up" SKU; the clean version stays the [Thai Tea Canelé]({{ '/drafts/thai-tea-canele-v2' | relative_url }}).
+- **A cool-weather flavor.** Warm spice + rum reads as fall/winter — a holiday-leaning counterpart to the clean [Thai Tea Canelé]({{ '/drafts/thai-tea-canele-v2' | relative_url }}).
 - **Color** still mutes to orange-gold under the dark shell (the FD&C Yellow #6 dilutes in batter and dulls under browning); a few drops of orange gel dye are optional if you want it to read more vividly.
 - Milk starts at 440g to cover what the larger mix charge soaks up; after steeping you weigh the strained milk back to a clean 340g, so absorption can't dilute the batter. The rum replaces the alcohol-free version's 40g milk gram-for-gram, so the liquid balance is unchanged.
-- **Baking steel option:** with a preheated baking steel (tray on the steel), the Perfect-Loaf-style **450°F for 15 min → 350°F for 50–60 min** is a viable alternative to the 525→375 profile — see the oven notes in [Big-Batch Canelé](/r/big-batch-canele).
-- Other technique is identical to the custardy [Canelé](/r/canele).
+- **Baking steel option:** with a preheated baking steel (tray on the steel), the Perfect-Loaf-style **450°F for 15 min → 350°F for 50–60 min** is a viable alternative to the 525→375 profile — see the oven notes in [Big-Batch Canelé]({{ '/r/big-batch-canele' | relative_url }}).
+- Other technique is identical to the custardy [Canelé]({{ '/r/canele' | relative_url }}).
 </div>
 
 ## Analysis
@@ -75,6 +75,6 @@ Total batter weight: **~824g** (after straining the tea; ~3g ground spice; exclu
 | Egg/protein | 25g | 3.0% |
 | Spice (cinnamon, cardamom, clove) | 3g | 0.4% |
 
-**Custardy-Canelé ratios (~12% structure)** — identical to the base [Canelé](/r/canele) and the alcohol-free [Thai Tea Canelé](/drafts/thai-tea-canele-v2). The rum sits in the liquid fraction exactly where the milk did in the alcohol-free version (gram-for-gram), so balance holds; the ~3g of ground spice is flavor, not structure, and only nudges the total batter weight. The tea and spice both ride in through the steep-and-strain step without touching the egg/starch set.
+**Custardy-Canelé ratios (~12% structure)** — identical to the base [Canelé]({{ '/r/canele' | relative_url }}) and the alcohol-free [Thai Tea Canelé]({{ '/drafts/thai-tea-canele-v2' | relative_url }}). The rum sits in the liquid fraction exactly where the milk did in the alcohol-free version (gram-for-gram), so balance holds; the ~3g of ground spice is flavor, not structure, and only nudges the total batter weight. The tea and spice both ride in through the steep-and-strain step without touching the egg/starch set.
 
 </div>

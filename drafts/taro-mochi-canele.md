@@ -71,10 +71,10 @@ A hybrid: a layer of chewy butter-mochi batter on the bottom, taro canelé batte
 - The mochi layer goes on the bottom of the mold (which becomes the top once unmolded) — it crisps against the metal and stays chewy inside, a textural counterpoint to the custardy taro.
 - The canelé batter must rest overnight; the mochi batter is made fresh the day of baking and used right away.
 - Layers fuse at the interface during baking — no need to swirl. If you want a marbled look instead, swirl them once with a skewer.
-- Both component recipes stand alone: see [Chocolate Mochi Canelé](/r/chocolate-mochi-canele) for the structure this is built on, [Canelé](/r/canele) for the custardy base, and the [canelé ratio analysis](/a/canele-ratio-analysis).
+- Both component recipes stand alone: see [Chocolate Mochi Canelé]({{ '/r/chocolate-mochi-canele' | relative_url }}) for the structure this is built on, [Canelé]({{ '/r/canele' | relative_url }}) for the custardy base, and the [canelé ratio analysis]({{ '/a/canele-ratio-analysis' | relative_url }}).
 - Nonstick spray is enough — no beeswax needed.
 - The mochi layer can balloon if the mold is overfilled; keeping it to ⅓ and topping with the canelé batter weighs it down and contains it.
-- **Baking steel option:** with a preheated baking steel (tray on the steel), a **450°F for 15 min → 350°F for 50–60 min** profile is a viable alternative to the 500→375 schedule — see the oven notes in [Big-Batch Canelé](/r/big-batch-canele).
+- **Baking steel option:** with a preheated baking steel (tray on the steel), a **450°F for 15 min → 350°F for 50–60 min** profile is a viable alternative to the 500→375 schedule — see the oven notes in [Big-Batch Canelé]({{ '/r/big-batch-canele' | relative_url }}).
 </div>
 
 ## Analysis
