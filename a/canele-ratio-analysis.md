@@ -1,6 +1,6 @@
 ---
 title: Canelé Ratio Analysis
-layout: page
+category: articles
 permalink: /a/canele-ratio-analysis
 ---
 
@@ -9,6 +9,8 @@ A comparison of popular canelé recipes by ratio, to understand what makes the i
 ## The Recipes
 
 Six recipes normalized to percentage of total batter weight:
+
+<div class="wide-table" markdown="1">
 
 | | **Ours (Marchal)** | **Kitchen Projects** | **Baken** | **Taste of Artisan** | **Saveur** | **Thermomix** | **Japanese** |
 |---|---|---|---|---|---|---|---|
@@ -19,6 +21,8 @@ Six recipes normalized to percentage of total batter weight:
 | Liquid % | 48.9% | 51.8% | 51.5% | 52.8% | 59.3% | 61.6% | 64.0% |
 | Egg % | 8.8% | 8.6% | 7.8% | 14.2% | 9.4% | 8.1% | 11.6% |
 | Egg type | 1 whole + 5 yolks | Yolks only | Yolks only | 2 whole + 2 yolks | 1 whole + 4 yolks | 2 whole + 1 yolk | 2 whole |
+
+</div>
 
 *Baken's 14.6% includes 25g cornstarch which adds structure differently than flour.
 
@@ -66,6 +70,8 @@ Chocolate canelés are a different beast. The melted chocolate contributes fat, 
 
 ### Chocolate Recipes Compared
 
+<div class="wide-table" markdown="1">
+
 | | **Ours (#92, Marchal-adapted)** | **Ferrandi (#94)** | **Tefal** | **Thermomix (choc)** |
 |---|---|---|---|---|
 | Total batter | ~1360g | ~960g | ~400g | ~860g |
@@ -77,6 +83,8 @@ Chocolate canelés are a different beast. The melted chocolate contributes fat, 
 | Fat % (butter+cream+choc fat+yolk fat) | ~10.7% | ~11.8% | ~10% | ~3.5% |
 | Liquid % | 44.5% | 48.4% | 56.3% | 61.6% |
 | Egg % | 11.0% | 15.6% | 7.5% | 8.1% |
+
+</div>
 
 ### Key Findings — Chocolate
 

@@ -185,11 +185,20 @@ body:not(.section-articles) {
 .grind td:last-child { text-align: right; color: $grey; font-variant-numeric: tabular-nums; white-space: nowrap; }
 
 // ARTICLE data tables (comparison grids etc.): plain hairline table, header row kept.
+// Small comparisons sit in the reading measure; WIDE ones (many columns) span the full
+// grid and scroll horizontally instead of crushing every column. `--w` counts columns.
 body.section-articles .post-content table {
   grid-column: 4 / 11; max-width: 36rem; border-collapse: collapse; width: 100%; margin: calc(#{$base} * 1) 0 calc(#{$base} * 2); font-size: .85rem; }
 body.section-articles .post-content thead th { text-align: left; font-weight: 700; border-bottom: 1.5px solid $ink; padding: .35em .8em .35em 0; vertical-align: bottom; }
 body.section-articles .post-content tbody td { text-align: left; border-bottom: 1px solid $hair; padding: .4em .8em .4em 0; vertical-align: top; }
 body.section-articles .post-content tbody tr:last-child td { border-bottom: none; }
+body.section-articles .post-content thead th:not(:first-child),
+body.section-articles .post-content tbody td:not(:first-child) { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+body.section-articles .post-content thead th:first-child,
+body.section-articles .post-content tbody td:first-child { white-space: nowrap; padding-right: 1.5rem; }
+// wide tables (4+ data columns): full grid width, horizontal scroll, no cramming.
+body.section-articles .post-content .wide-table { grid-column: 1 / -1; max-width: none; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: calc(#{$base} * 2) 0 calc(#{$base} * 3); }
+body.section-articles .post-content .wide-table table { display: table; width: 100%; max-width: none; min-width: 44rem; margin: 0; }
 
 // steps (markdown ol): text left in a reading measure, number pinned to the far-right column.
 // Each li is a subgrid row → the number lands in the last column at any --cols, never off-screen.
