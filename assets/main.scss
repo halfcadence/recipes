@@ -21,7 +21,6 @@ $dark-grey:  #9a9a98;
 $dark-hair:  #2a2a2c;
 
 $sans:  "Helvetica Neue", Helvetica, Arial, "Liberation Sans", system-ui, sans-serif;
-$serif: $sans;   // single-typeface site — the old serif accent now resolves to Helvetica
 $base:  0.5rem;
 
 // ── Type ramp — "Univers Stepped" (Swiss), anchored to a 15px body ───────────
@@ -55,9 +54,6 @@ a, a:visited { color: $ink; text-underline-offset: 2px; text-decoration-thicknes
 a:hover { text-decoration: none; }
 a:focus-visible { outline: 2px solid $ink; outline-offset: 2px; }
 ::selection { background: $ink; color: $paper; }
-
-// number helper
-.num, %num { font-variant-numeric: tabular-nums; letter-spacing: -0.05em; }
 
 // ── The responsive modular grid ──────────────────────────────────────
 // --cols scales 12 → 8 → 4. The wrapper IS the grid; everything places onto it.
@@ -103,10 +99,14 @@ body.home .masthead {
   border-bottom: 3px solid $ink;
   padding: calc(#{$base} * 3) 0 calc(#{$base} * 1.5);
 }
-body.home .mh-title, body.home .mh-title:visited {
-  display: inline; grid-column: auto; text-align: left; padding: 0; text-decoration: none;
+// the wordmark is an <h1> wrapping the link — reset the h1 box, style the type
+body.home .mh-title {
+  display: inline; grid-column: auto; margin: 0; padding: 0;
   font-weight: 700; font-size: clamp(2.6rem, 10vw, 6rem);
-  text-transform: uppercase; letter-spacing: -0.06em; line-height: .82; color: $ink;
+  text-transform: uppercase; letter-spacing: -0.06em; line-height: .82;
+}
+body.home .mh-title a, body.home .mh-title a:visited {
+  color: $ink; text-decoration: none;
 }
 .mh-count { font-weight: 700; font-size: clamp(1rem, 2.4vw, 1.5rem); letter-spacing: -0.02em; color: $grey; font-variant-numeric: tabular-nums; }
 // byline: "by halfcadence / gh" on one baseline — name links to the personal
@@ -148,7 +148,7 @@ body.home .mh-title, body.home .mh-title:visited {
 
 // H7 hero: big lowercase title with a trailing superscript recipe number.
 .post-hero { grid-column: 1 / -1; padding-bottom: $base; }
-.post-title, .post-title--plain {
+.post-title {
   font-size: clamp(2.6rem, 9vw, 5rem); margin: 0;
   text-transform: lowercase; font-weight: 700; letter-spacing: -0.045em; line-height: .9;
 }
@@ -175,6 +175,8 @@ body.home .mh-title, body.home .mh-title:visited {
   line-height: 1; margin: calc(#{$base} * 8) 0 calc(#{$base} * 2.5); border: none; padding: 0;
 }
 .post-content h3 { grid-column: 1 / -1; font-size: $fs-body; font-weight: 700; margin: calc(#{$base} * 3) 0 calc(#{$base} * .5); }
+// markdown `---` → a full-width hairline rule, not the UA's centered glyph
+.post-content hr { grid-column: 1 / -1; border: none; border-top: 1px solid $hair; margin: calc(#{$base} * 4) 0; }
 
 // ingredients (RECIPE markdown table only): two-col flow, quantities right, names share edge.
 // Scoped away from articles AND from the .analysis data table so neither is hijacked into
@@ -244,7 +246,7 @@ body.section-articles .post-content .wide-table table { display: table; width: 1
 .notes ul { grid-row: 2; grid-column: 1 / -1; display: grid; grid-template-columns: subgrid;
   column-gap: 1.25rem; row-gap: calc(#{$base} * 1.5);
   list-style: none; margin: 0; padding-top: calc(#{$base} * 1.5);
-  font-family: $serif; font-size: $fs-small; line-height: 1.5; color: $grey; counter-reset: note; }
+  font-family: $sans; font-size: $fs-small; line-height: 1.5; color: $grey; counter-reset: note; }
 // flush-left: no hanging indent, so the numbered first line doesn't jut left of the wraps
 .notes li { margin: 0; padding-left: 0; text-indent: 0; counter-increment: note; }
 .notes li::before { content: counter(note); font-family: $sans; font-weight: 700; font-size: .78em; color: $ink; margin-right: .5em; font-variant-numeric: tabular-nums; }
@@ -360,7 +362,7 @@ pre code { border: none; padding: 0; }
   .doc-nav { position: static; margin-bottom: 2rem; }
   .doc-body { max-width: none; }
 }
-@media (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: dark) {
   .doc-nav a, .doc-nav a:visited { color: $dark-grey; border-left-color: $dark-hair; }
   .doc-nav a:hover, .doc-nav a.cur { color: $dark-ink; }
   .doc-nav a.cur { border-left-color: $dark-ink; }
@@ -391,7 +393,13 @@ pre code { border: none; padding: 0; }
 @media (max-width: 34rem) {
   :root { --cols: 4; }
   .mh-crumb { grid-column: 1 / -1; }
+  // single-column ingredients on phones — must match the `.post-content > table`
+  // child-combinator specificity that sets `columns: 2 12rem`, or it won't override
+  body:not(.section-articles) .post-content > table { columns: 1; }
   .post-content table { columns: 1; }
+  // bigger tap targets on the home index — the link fills a ~44px-tall row
+  .cat-list li { padding: 0; }
+  .cat-list a { padding: .6rem 0; min-height: 44px; }
   body.section-articles .post-content h2 { grid-column: 1 / -1; margin: calc(#{$base} * 5) 0 calc(#{$base} * 1); }
   body.section-articles .post-content h2 + * { margin-top: 0; }
   body.section-articles .post-content p,
@@ -404,16 +412,17 @@ pre code { border: none; padding: 0; }
 
 // ═══════════════════════════════════════════════════════════════════
 // DARK — white-on-black. Base tones swap; no color to preserve.
+// Scoped to `screen` so its pale ink NEVER leaks into a printout: a recipe
+// printed from a dark-mode OS must be black-on-white, not near-white-on-white.
 // ═══════════════════════════════════════════════════════════════════
-@media (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: dark) {
   body { background: $dark-paper; color: $dark-ink; }
   a, a:visited, h1, h2, h3, h4, h5, h6 { color: $dark-ink; }
   ::selection { background: $dark-ink; color: $dark-paper; }
   body.home .masthead { border-bottom-color: $dark-ink; }
-  body.home .mh-title, body.home .mh-title:visited { color: $dark-ink; }
+  body.home .mh-title a, body.home .mh-title a:visited { color: $dark-ink; }
   .mh-back, .mh-sep, .mh-count, .mh-by, .mh-bysep, .mh-gh, .mh-gh:visited { color: $dark-grey; }
   .mh-back:hover, .mh-here, .mh-here:visited, .mh-name, .mh-name:visited, .mh-gh:hover { color: $dark-ink; }
-  body.home .mh-title { color: $dark-ink; }
   .cat-list li { border-bottom-color: $dark-hair; }
   .post-content table td:first-child { color: $dark-ink; }
   .post-content ol > li::after { color: $dark-grey; }
@@ -431,11 +440,17 @@ pre code { border: none; padding: 0; }
 }
 
 // ── Print ────────────────────────────────────────────────────────────
+// The dark theme is `screen`-only (above), so print is always black-on-white.
 @media print {
   .site-header { display: none; }
+  .post-figure { display: none; }           // don't waste ink on the hero photo
   body { background: #fff; color: #000; font-size: 11pt; }
   .wrapper { max-width: none; padding: 0; display: block; }
   .post, .post-content, .dir, .notes, .post-content ol, .post-content table { display: block; }
   a { text-decoration: none !important; }
-  * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+  // force-print colors ONLY on the archived riso swatch pages that need their
+  // ink to survive (steering: print-color-adjust is scoped to those, not global)
+  .pill-sample, .test-palette, .illus-shapes, [class*="swatch"] {
+    -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
+  }
 }

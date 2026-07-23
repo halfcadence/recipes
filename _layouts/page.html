@@ -22,6 +22,9 @@ layout: default
     {%- assign hero = page.image -%}
   {%- elsif reg_specific -%}
     {%- assign hero = reg_specific | append: "?w=1600&h=900&fit=crop&q=80&auto=format" | prepend: "https://images.unsplash.com/" -%}
+    {%- comment -%} responsive variants so phones don't download the 1600px hero {%- endcomment -%}
+    {%- assign hero_base = "https://images.unsplash.com/" | append: reg_specific -%}
+    {%- capture hero_srcset -%}{{ hero_base }}?w=640&h=360&fit=crop&q=80&auto=format 640w, {{ hero_base }}?w=960&h=540&fit=crop&q=80&auto=format 960w, {{ hero_base }}?w=1280&h=720&fit=crop&q=80&auto=format 1280w, {{ hero_base }}?w=1600&h=900&fit=crop&q=80&auto=format 1600w{%- endcapture -%}
   {%- endif -%}
 
   <header class="post-header">
@@ -32,7 +35,7 @@ layout: default
 
   {% if hero %}
   <figure class="post-figure">
-    <img src="{{ hero }}" alt="{{ page.image_alt | default: page.title | escape }}" loading="lazy">
+    <img src="{{ hero }}"{% if hero_srcset %} srcset="{{ hero_srcset }}" sizes="(max-width: 60rem) 100vw, 60rem"{% endif %} width="1600" height="900" alt="{{ page.image_alt | default: page.title | escape }}" loading="lazy">
     <figcaption>{{ page.image_credit | default: "Photo — Unsplash" }}</figcaption>
   </figure>
   {% endif %}

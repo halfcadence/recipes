@@ -4,7 +4,7 @@ title: Recipes
 ---
 
 <div class="dir">
-<section class="cat cat--wide" id="mains" markdown="0">
+<section class="cat" id="mains" markdown="0">
 <h2 class="cat-h"><span class="ix">01</span><span class="lb">Mains</span></h2>
 <ul class="cat-list">
 <li><a href="./r/miso-marinated-steak">Miso Steak</a></li>
@@ -60,7 +60,7 @@ title: Recipes
 <li><a href="./r/potato-salad">Potato Salad</a></li>
 </ul>
 </section>
-<section class="cat cat--wide" id="sweets" markdown="0">
+<section class="cat" id="sweets" markdown="0">
 <h2 class="cat-h"><span class="ix">04</span><span class="lb">Sweets</span></h2>
 <ul class="cat-list">
 <li><a href="./r/match-affogato">Matcha Affogato</a></li>
@@ -115,7 +115,7 @@ title: Recipes
 <li><a href="./r/chocolate-souffle">Chocolate Soufflé</a></li>
 </ul>
 </section>
-<section class="cat cat--wide" id="drinks" markdown="0">
+<section class="cat" id="drinks" markdown="0">
 <h2 class="cat-h"><span class="ix">05</span><span class="lb">Drinks</span></h2>
 <ul class="cat-list">
 <li><a href="./r/cold-brew-tea">Cold Brew Tea</a></li>
@@ -158,7 +158,7 @@ title: Recipes
 <li><a href="./r/coffee-syrup">Coffee Syrup</a></li>
 </ul>
 </section>
-<section class="cat cat--wide" id="articles" markdown="0">
+<section class="cat" id="articles" markdown="0">
 <h2 class="cat-h"><span class="ix">07</span><span class="lb">Articles</span></h2>
 <ul class="cat-list">
 <li><a href="./a/food-photography-at-home">Photographing Food at Home</a></li>

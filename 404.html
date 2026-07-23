@@ -5,7 +5,7 @@ layout: default
 
 <style>
 .four-oh-four { padding: 3rem 0; }
-/* single-ink misregistration: ink 404 with ONE ultramarine offset copy */
+/* monochrome misregistration: ink 404 with ONE grey offset copy (no spot color) */
 .misreg {
   position: relative;
   display: inline-block;
@@ -21,11 +21,14 @@ layout: default
   content: "404";
   position: absolute;
   top: 0; left: 0;
-  color: #1c1cd6;
+  color: #c8c8c8;
   transform: translate(4px, 3px);
   z-index: -1;
 }
-@media (prefers-color-scheme: dark) { .misreg { color: #f2f2f0; } }
+@media (prefers-color-scheme: dark) {
+  .misreg { color: #f2f2f0; }
+  .misreg::before { color: #3a3a3c; }
+}
 </style>
 
 <div class="four-oh-four">

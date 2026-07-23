@@ -62,8 +62,6 @@ Based on this analysis, the ideal ratios for a rich, custardy canelé appear to 
 
 Reducing flour from 285g to 240g brings us from 16.8% → 14.1%, right at the top of the custardy range while keeping all the richness (cream, butter, yolks).
 
----
-
 ## Chocolate Canelé Ratios
 
 Chocolate canelés are a different beast. The melted chocolate contributes fat, structure (cocoa solids), and sugar simultaneously — replacing some of the work that flour, butter, and sugar each do separately in the plain version.

@@ -3,9 +3,35 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title and page.title != site.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  {%- comment -%}
+    Sharing image: a recipe with a resolved hero photo shares that photo; everything
+    else shares the site card. og:image MUST be an absolute URL (scrapers ignore
+    relative ones) and a raster format (PNG/JPG — they don't render SVG). Mirrors the
+    hero resolution in _layouts/page.html: front-matter `image:` wins, else the
+    _data/photos.yml registry by slug.
+  {%- endcomment -%}
+  {%- assign og_slug = page.path | split: "/" | last | remove: ".md" -%}
+  {%- assign og_reg = site.data.photos.specific[og_slug] -%}
+  {%- if page.image -%}
+    {%- assign share_image = page.image -%}
+  {%- elsif og_reg -%}
+    {%- assign share_image = og_reg | append: "?w=1200&h=630&fit=crop&q=80&auto=format" | prepend: "https://images.unsplash.com/" -%}
+  {%- else -%}
+    {%- assign share_image = "/og-image.png" | absolute_url -%}
+  {%- endif -%}
+
+  {%- comment -%}
+    Set page.image so jekyll-seo-tag emits the correct absolute og:image AND
+    twitter:image itself (twitter:card comes from `twitter.card` in _config.yml).
+    We still emit our own og:image below as the authoritative value for the
+    resolved hero (seo-tag's is a fallback if page.image is unset).
+  {%- endcomment -%}
   {%- seo title=false -%}
+
+  <meta property="og:image" content="{{ share_image }}">
+  <meta name="twitter:image" content="{{ share_image }}">
+
   <link rel="icon" href="{{ "/favicon.svg" | relative_url }}" type="image/svg+xml">
-  <meta property="og:image" content="{{ "/og-image.svg" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  {%- feed_meta -%}
 </head>

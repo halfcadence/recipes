@@ -2,15 +2,15 @@
   <div class="wrapper">
     <div class="masthead">
       {%- if page.url == '/' -%}
-        <a class="mh-title" rel="author" href="{{ "/" | relative_url }}">Recipes</a>
+        <h1 class="mh-title"><a rel="author" href="{{ "/" | relative_url }}">Recipes</a></h1>
         <span class="mh-count">{{ site.pages | where_exp: "p", "p.url contains '/r/'" | size }}</span>
-        <span class="mh-by">by <a class="mh-name" href="https://andrewshiau.com" target="halfcadence-site" rel="author noopener">halfcadence</a><span class="mh-bysep" aria-hidden="true">/</span><a class="mh-gh" href="https://github.com/halfcadence" target="halfcadence-gh" rel="me noopener">gh</a></span>
+        <span class="mh-by">by <a class="mh-name" href="https://andrewshiau.com" target="halfcadence-site" rel="author noopener" aria-label="andrewshiau.com — Andrew Shiau's personal site">halfcadence</a><span class="mh-bysep" aria-hidden="true">/</span><a class="mh-gh" href="https://github.com/halfcadence" target="halfcadence-gh" rel="me noopener" aria-label="GitHub — halfcadence">gh</a></span>
       {%- else -%}
         <nav class="mh-crumb" aria-label="Breadcrumb">
           <a class="mh-back" href="{{ "/" | relative_url }}"><span class="mh-arrow" aria-hidden="true">←</span> index</a>
           {%- if page.category -%}
             <span class="mh-sep" aria-hidden="true">/</span>
-            <a class="mh-here" href="{{ site.baseurl }}/#{{ page.category }}">{{ page.category | replace: "soups", "Soups & Hot Pots" | replace: "colophon", "Colophon" | capitalize }}</a>
+            <a class="mh-here" href="{{ site.baseurl }}/#{{ page.category }}">{{ page.category | replace: "drinks", "Drinks" | replace: "sweets", "Sweets" | replace: "mains", "Mains" | replace: "soups", "Soups & Hot Pots" | replace: "sides", "Sides" | replace: "pantry", "Pantry" | replace: "articles", "Articles" | replace: "colophon", "Colophon" }}</a>
           {%- endif -%}
         </nav>
       {%- endif -%}

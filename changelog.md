@@ -6,6 +6,13 @@ permalink: /changelog/
 
 ## 2026-07-22
 
+- Adversarial review fixes (design-director / nitpicky / junior / CEO personas + technical audit):
+  - **Sharing:** replace the broken `og:image` (a relative-URL SVG that no platform renders) with a real 1200×630 PNG served at an absolute URL; a recipe now shares its own hero photo, others share the site card. Add `twitter:card: summary_large_image` + `twitter:image`. Switch `jekyll-feed` → `jekyll-seo-tag` (recipes are pages, not posts, so the RSS feed was empty/dead) and rewrite the site description, which still read "two inks, eight colors" (the retired riso identity) on every page.
+  - **Print:** scope the dark theme to `screen` so a recipe printed from a dark-mode OS is black-on-white, not near-white-on-white; hide the hero photo when printing; narrow `print-color-adjust: exact` to the archived riso swatch pages only.
+  - **Copy/detail:** fix the breadcrumb rendering "Soups & hot pots" (a `capitalize` filter was lower-casing the tail) → "Soups & Hot Pots"; remove a stray "." (an unstyled `---`) on the canelé article and add a proper `hr` hairline rule; recolor the 404 spot-blue to monochrome grey.
+  - **A11y:** make the home wordmark an `<h1>` (was none); add `aria-label`s to the "gh"/personal-site byline links; fix light-mode caption contrast on `/photos` (`#9a9a98` → `#6b6b6b`, ~2.8→5.3:1).
+  - **Mobile/perf:** single-column ingredients on phones (was cramped 2-col at 390px); ~44px tap targets on the home index; responsive hero `srcset` + `width`/`height` so phones don't fetch the 1600px image.
+  - **Housekeeping:** remove dead CSS (`.post-title--plain`, `.num`/`%num`, the `$serif` alias, the undefined `.cat--wide` class) and the orphaned `og-image.svg`.
 - Add `bin/check-numbers.py` — validates the recipe `number:` sequence (every `r/` page numbered, contiguous 1..N, no gaps/duplicates) and prints the next number to assign. Wired into AGENTS.md; current sequence is clean (1..124).
 - Homepage recipe count: compute the masthead "124" at build time from the number of pages in `r/` instead of hardcoding it, so it can't drift out of sync when recipes are added. Renders identically (124) today. Documented in steering.
 - Homepage byline: give the flat, unlinked "by / halfcadence" more weight and make it useful — now `by halfcadence / gh` on one baseline, with **halfcadence** linking to andrewshiau.com (ink) and **gh** to github.com/halfcadence (grey). The two external links open in named tabs (`target="halfcadence-site"` / `halfcadence-gh"`, `rel="noopener"`) so repeat clicks reuse one tab. Masthead wordmark + count unchanged.
