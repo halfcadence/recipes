@@ -6,6 +6,7 @@ permalink: /changelog/
 
 ## 2026-07-22
 
+- Add `bin/check-numbers.py` — validates the recipe `number:` sequence (every `r/` page numbered, contiguous 1..N, no gaps/duplicates) and prints the next number to assign. Wired into AGENTS.md; current sequence is clean (1..124).
 - Homepage recipe count: compute the masthead "124" at build time from the number of pages in `r/` instead of hardcoding it, so it can't drift out of sync when recipes are added. Renders identically (124) today. Documented in steering.
 - Homepage byline: give the flat, unlinked "by / halfcadence" more weight and make it useful — now `by halfcadence / gh` on one baseline, with **halfcadence** linking to andrewshiau.com (ink) and **gh** to github.com/halfcadence (grey). The two external links open in named tabs (`target="halfcadence-site"` / `halfcadence-gh"`, `rel="noopener"`) so repeat clicks reuse one tab. Masthead wordmark + count unchanged.
 - Add `bin/check-links.py` — validates every internal link (index `./` anchors + `relative_url` body links) against real files and declared permalinks; documented in AGENTS.md as a pre-push check. Full audit run: all internal links resolve.
