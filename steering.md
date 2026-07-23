@@ -209,3 +209,5 @@ When adding a new recipe, ALL of the following MUST be completed:
 5. SHOULD add a verified `specific:` photo to `_data/photos.yml` if a good one exists (see Recipe Photos). If none is found, leave it out — there is no fallback and no photo is fine.
 
 No illustration is needed — recipe pages are type-only (see Illustrations above); the hero photo is separate and comes from the photo registry.
+
+The homepage recipe **count** (the "124" on the masthead) is computed at build time from the number of pages in `r/` (`_includes/header.html`), so it stays in sync automatically — do NOT hardcode or hand-update it.
