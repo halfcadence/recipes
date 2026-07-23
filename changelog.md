@@ -6,6 +6,8 @@ permalink: /changelog/
 
 ## 2026-07-22
 
+- Homepage masthead: remove the heavy 3px rule under the wordmark — it was the only 3px divider on an otherwise-1px-hairline site. The giant wordmark + whitespace carry the separation now (Ive pass, chosen from a 6-option chooser).
+- Homepage: remove ornamental category index numbers (01–08) — the category name carries the meaning; order is visible from position.
 - Minimalist cleanup pass (delete unused / dead / outdated / leaked):
   - **Security:** remove `docs/` (9 internal Amazon engineering docs — BYOD/Stencil/Stores-Designer, a CSS-race postmortem, env-ID files) and `byod-cr-explainer/` — both were committed to this **public** repo AND publishing to `halfcadence.github.io/recipes/docs/…`. Gitignored + excluded so they can't return. Also excluded `bin/` (dev tooling) and `.playwright-mcp/` from the build.
   - **Junk:** remove `.playwright-mcp/` (83 browser-tool debug logs, 11MB) + gitignore it.
