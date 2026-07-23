@@ -109,7 +109,15 @@ body.home .mh-title, body.home .mh-title:visited {
   text-transform: uppercase; letter-spacing: -0.06em; line-height: .82; color: $ink;
 }
 .mh-count { font-weight: 700; font-size: clamp(1rem, 2.4vw, 1.5rem); letter-spacing: -0.02em; color: $grey; font-variant-numeric: tabular-nums; }
-.mh-by { margin-left: auto; align-self: flex-end; font-size: $fs-kicker; letter-spacing: .14em; text-transform: uppercase; color: $grey; text-align: right; line-height: 1.5; }
+// byline: "by halfcadence / gh" on one baseline — name links to the personal
+// site (ink), gh to GitHub (grey). Sits flush-right on the masthead baseline.
+.mh-by { margin-left: auto; align-self: flex-end; display: flex; align-items: baseline; gap: .5em;
+  font-size: $fs-kicker; letter-spacing: .14em; text-transform: uppercase; color: $grey; line-height: 1.5; }
+.mh-name, .mh-name:visited { color: $ink; text-decoration: none; }
+.mh-name:hover { text-decoration: underline; }
+.mh-bysep { color: $grey; opacity: .45; }
+.mh-gh, .mh-gh:visited { color: $grey; text-decoration: none; }
+.mh-gh:hover { color: $ink; text-decoration: underline; }
 
 // ═══════════════════════════════════════════════════════════════════
 // HOME — directory of category modules (cQ heads)
@@ -403,8 +411,8 @@ pre code { border: none; padding: 0; }
   ::selection { background: $dark-ink; color: $dark-paper; }
   body.home .masthead { border-bottom-color: $dark-ink; }
   body.home .mh-title, body.home .mh-title:visited { color: $dark-ink; }
-  .mh-back, .mh-sep, .mh-count, .mh-by { color: $dark-grey; }
-  .mh-back:hover, .mh-here, .mh-here:visited { color: $dark-ink; }
+  .mh-back, .mh-sep, .mh-count, .mh-by, .mh-bysep, .mh-gh, .mh-gh:visited { color: $dark-grey; }
+  .mh-back:hover, .mh-here, .mh-here:visited, .mh-name, .mh-name:visited, .mh-gh:hover { color: $dark-ink; }
   body.home .mh-title { color: $dark-ink; }
   .cat-list li { border-bottom-color: $dark-hair; }
   .post-content table td:first-child { color: $dark-ink; }

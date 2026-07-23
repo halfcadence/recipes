@@ -6,6 +6,7 @@ permalink: /changelog/
 
 ## 2026-07-22
 
+- Homepage byline: give the flat, unlinked "by / halfcadence" more weight and make it useful — now `by halfcadence / gh` on one baseline, with **halfcadence** linking to andrewshiau.com (ink) and **gh** to github.com/halfcadence (grey). Masthead wordmark + count unchanged.
 - Remove `type-comparison.html` — a dead, unlinked colophon page that still described the retired Bricolage Grotesque type system (site is Helvetica-only now). Nothing linked to it.
 - Header: fix the nav/category "stutter" — the top-bar "← index" kicker and the category eyebrow ("MAINS") directly below it were the same grey uppercase 11px label stacked, reading as a duplicate. Fold the category into the nav as a breadcrumb (`← index / mains`, index grey + category ink) and drop the separate `.section-label` eyebrow. Applies to all inner pages (recipes, articles, colophon).
 - Fix 38 broken internal links in Drafts — the drafts index and all 6 draft pages used bare `](/drafts/…)` / `](/r/…)` / `](/a/…)` paths, which drop the `/recipes` baseurl and 404 on prod (e.g. the P-Bass Mute and Ttukbaegi links, the "recipe index" link). Wrap them all in `relative_url`. (`r/` and `a/` were already clean; `drafts/` had been missed.)
