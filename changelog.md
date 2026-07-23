@@ -6,6 +6,11 @@ permalink: /changelog/
 
 ## 2026-07-22
 
+- Second review pass (finish the remaining audit items):
+  - **Per-page descriptions:** each page now gets a unique meta/share snippet instead of the shared tagline — explicit front-matter `description:` wins, else a synthesized line (recipes: "title — a {category} recipe … No. N"; articles: a note line), else the site default. Documented the `description` field in steering's Front Matter; added a real one to the canelé article.
+  - **Tokens:** expose the Sass palette + type ramp as CSS custom properties (`--ink`, `--fs-cat`, …) on `:root` with a dark override, and convert the `type.html` / `photos.html` inline styles to `var(--…)` — so their chrome stays on the ramp and dark mode flips automatically (deleted both pages' per-page dark blocks). Swatch/ramp-demo values stay literal (they're content).
+  - **A11y:** byline links (`halfcadence` / `gh`) now carry a persistent underline, not color/weight alone (WCAG 1.4.1). Add PNG + apple-touch favicon fallbacks alongside the SVG.
+  - **Steering doc nav:** hide the sticky section nav when a `toc` page has no `<h2>`s (was an empty labeled landmark); prefix auto-ids `toc-h-`; fix the nav floating ~24px above the body — its first row now aligns to the lede.
 - Adversarial review fixes (design-director / nitpicky / junior / CEO personas + technical audit):
   - **Sharing:** replace the broken `og:image` (a relative-URL SVG that no platform renders) with a real 1200×630 PNG served at an absolute URL; a recipe now shares its own hero photo, others share the site card. Add `twitter:card: summary_large_image` + `twitter:image`. Switch `jekyll-feed` → `jekyll-seo-tag` (recipes are pages, not posts, so the RSS feed was empty/dead) and rewrite the site description, which still read "two inks, eight colors" (the retired riso identity) on every page.
   - **Print:** scope the dark theme to `screen` so a recipe printed from a dark-mode OS is black-on-white, not near-white-on-white; hide the hero photo when printing; narrow `print-color-adjust: exact` to the archived riso swatch pages only.

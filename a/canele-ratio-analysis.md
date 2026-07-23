@@ -2,6 +2,7 @@
 title: Canelé Ratio Analysis
 category: articles
 permalink: /a/canele-ratio-analysis
+description: "A comparison of popular canelé recipes by ratio — what makes the interior custardy vs cakey, and what drives richness."
 ---
 
 A comparison of popular canelé recipes by ratio, to understand what makes the interior custardy vs cakey and what drives richness.

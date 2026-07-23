@@ -8,25 +8,25 @@ permalink: /type/
 <style>
   /* Living type spec — uses the site's own classes, adds only labels + swatches.
      Everything here mirrors assets/main.scss; no bespoke type. */
-  .spec { margin: calc(var(--base, .5rem) * 8) 0 0; }
-  .spec-label { font-size: .72rem; font-weight: 700; letter-spacing: -.01em;
-    text-transform: lowercase; color: #6b6b6b; margin: 0 0 .8rem; }
+  /* Chrome uses site tokens (var(--…)) so labels stay on the ramp + flip in dark.
+     The ramp-demo <p> sizes and the palette swatches below are CONTENT — they
+     demonstrate exact values, so those stay literal on purpose. */
+  .spec { margin: calc(var(--base) * 8) 0 0; }
+  .spec-label { font-size: var(--fs-kicker); font-weight: 700; letter-spacing: -.01em;
+    text-transform: lowercase; color: var(--grey); margin: 0 0 .8rem; }
   .spec .scale p { margin: 0 0 .4rem; }
-  .spec .scale .dim { color: #6b6b6b; font-size: .8rem; font-weight: 400; margin-left: .5rem; letter-spacing: 0; }
+  .spec .scale .dim { color: var(--grey); font-size: var(--fs-small); font-weight: 400; margin-left: .5rem; letter-spacing: 0; }
   .tone-row { display: flex; gap: 1rem; flex-wrap: wrap; }
-  .tone { flex: 1 1 8rem; border: 1px solid #e4e4e4; }
+  .tone { flex: 1 1 8rem; border: 1px solid var(--hair); }
   .tone .sw { height: 3.5rem; }
-  .tone .cap { font-size: .72rem; padding: .4rem .5rem; color: #6b6b6b; font-variant-numeric: tabular-nums; }
+  .tone .cap { font-size: var(--fs-kicker); padding: .4rem .5rem; color: var(--grey); font-variant-numeric: tabular-nums; }
+  /* swatches show the literal palette — hardcoded on purpose (this is content) */
   .sw-ink { background: #111; } .sw-paper { background: #fff; }
   .sw-dink { background: #f2f2f0; } .sw-dpaper { background: #0c0c0d; }
   .sw-grey { background: #6b6b6b; } .sw-hair { background: #e4e4e4; }
-  @media (prefers-color-scheme: dark) {
-    .spec-label, .spec .scale .dim, .tone .cap { color: #9a9a98; }
-    .tone { border-color: #2a2a2c; }
-  }
 </style>
 
-<p style="max-width:40rem;color:#6b6b6b;margin:0 0 1rem">One typeface — Helvetica —
+<p style="max-width:40rem;color:var(--grey);margin:0 0 1rem">One typeface — Helvetica —
 throughout. Hierarchy comes from size, weight, and case, never a second family and
 never letter-spacing or all-caps. Pure ink on paper, inverting in dark mode. The
 title above shows the wordmark treatment: big, lowercase, tight. This page is set
@@ -67,7 +67,7 @@ entirely in the site's own styles.</p>
     <div class="tone"><div class="sw sw-dink"></div><div class="cap">dark ink #f2f2f0</div></div>
     <div class="tone"><div class="sw sw-dpaper"></div><div class="cap">dark paper #0c0c0d</div></div>
   </div>
-  <p style="color:#6b6b6b;font-size:.8rem;margin:.8rem 0 0;max-width:40rem">No spot color.
+  <p style="color:var(--grey);font-size:var(--fs-small);margin:.8rem 0 0;max-width:40rem">No spot color.
   The earlier per-section palette is retired — kept only as a labeled archive in
   <a href="{{ '/colors' | relative_url }}">Colors</a> and the risograph article.</p>
 </div>

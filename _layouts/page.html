@@ -55,9 +55,17 @@ layout: default
         list = document.querySelector('.doc-nav ol');
     if (!body || !list) return;
     var heads = [].slice.call(body.querySelectorAll('h2'));
+    // no sections → no nav: hide the empty landmark and let the body span full width
+    if (!heads.length) {
+      var nav = document.querySelector('.doc-nav');
+      if (nav) nav.style.display = 'none';
+      var layout = document.querySelector('.doc-layout');
+      if (layout) layout.style.gridTemplateColumns = '1fr';
+      return;
+    }
     var links = {};
     heads.forEach(function (h, i) {
-      var id = h.id || ('s-' + (i + 1)); h.id = id;
+      var id = h.id || ('toc-h-' + (i + 1)); h.id = id;
       var li = document.createElement('li');
       var a = document.createElement('a');
       a.href = '#' + id; a.textContent = h.textContent;

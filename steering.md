@@ -17,11 +17,12 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 ## Front Matter
 
 - `title` MUST be included.
-- `category` MUST be included. Valid values: `drinks`, `sweets`, `mains`, `soups`, `sides`, `pantry`, `articles`, `colophon`. This drives the page color theme. A new category MAY be created if a recipe does not fit an existing one.
+- `category` MUST be included. Valid values: `drinks`, `sweets`, `mains`, `soups`, `sides`, `pantry`, `articles`, `colophon`. This places the recipe in its section on the homepage and drives the breadcrumb label. A new category MAY be created if a recipe does not fit an existing one.
 - `number` MUST be included for recipes. Use the next sequential number (chronological). Articles and style guide pages MUST NOT have a number.
 - `source` SHOULD be included if the recipe is adapted from an external source.
 - `chef` MAY be included if the source chef is notable.
 - `yield` MAY be included to indicate servings or pieces.
+- `description` MAY be included to set the page's meta/share description (the search-result + social-card snippet). If omitted, one is derived automatically (articles use their opening sentence; recipes get a synthesized "title — a {category} recipe … No. N" line) — so a hand-written `description` is only needed when the auto one reads poorly. It MUST be a single plain sentence, ~150 chars, no markdown.
 - `layout` MUST NOT be included — it inherits from the default.
 
 ## Measurements

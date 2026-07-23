@@ -22,11 +22,27 @@
   {%- endif -%}
 
   {%- comment -%}
-    Set page.image so jekyll-seo-tag emits the correct absolute og:image AND
-    twitter:image itself (twitter:card comes from `twitter.card` in _config.yml).
-    We still emit our own og:image below as the authoritative value for the
-    resolved hero (seo-tag's is a fallback if page.image is unset).
+    Per-page description, so every page has a UNIQUE search/share snippet instead
+    of the shared site tagline. We assign it to a var and hand it to jekyll-seo-tag
+    (which reads `page.description` when set, else `site.description`) — but since
+    seo-tag can't see a Liquid var, we emit description/og:description ourselves
+    below and let them win (last tag). Resolution: explicit `description:` →
+    synthesized recipe line (numbered; recipes open into Ingredients, no lede) →
+    synthesized article line → site default. `page.excerpt` is empty for pages
+    (Jekyll only fills it for _posts), so a hand-written `description:` is how to
+    improve any specific page — see steering.
   {%- endcomment -%}
+  {%- if page.description -%}
+    {%- assign page_desc = page.description -%}
+  {%- elsif page.number -%}
+    {%- assign cat_word = page.category | replace: "sweets", "sweet" | replace: "mains", "main" | replace: "sides", "side" | replace: "drinks", "drink" | replace: "soups", "soup" -%}
+    {%- assign page_desc = page.title | append: " — a " | append: cat_word | append: " recipe with gram weights, method, and notes. No. " | append: page.number | append: " in the halfcadence recipe directory." -%}
+  {%- elsif page.category == "articles" -%}
+    {%- assign page_desc = page.title | append: " — a baking and cooking note from the halfcadence recipe directory." -%}
+  {%- else -%}
+    {%- assign page_desc = site.description -%}
+  {%- endif -%}
+
   {%- seo title=false -%}
 
   {%- comment -%}
@@ -35,10 +51,15 @@
     (jekyll-seo-tag only upgrades its own card to summary_large_image when it
     resolves an image, which our custom hero logic bypasses — so we set it here.)
   {%- endcomment -%}
+  <meta name="description" content="{{ page_desc | strip_html | normalize_whitespace | escape }}">
+  <meta property="og:description" content="{{ page_desc | strip_html | normalize_whitespace | escape }}">
   <meta property="og:image" content="{{ share_image }}">
   <meta name="twitter:image" content="{{ share_image }}">
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="icon" href="{{ "/favicon.svg" | relative_url }}" type="image/svg+xml">
+  <link rel="icon" href="{{ "/favicon-32.png" | relative_url }}" sizes="32x32" type="image/png">
+  <link rel="icon" href="{{ "/favicon-192.png" | relative_url }}" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 </head>
