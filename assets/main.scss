@@ -149,7 +149,6 @@ body.home .mh-title a, body.home .mh-title a:visited {
 .cat-h { display: flex; align-items: baseline; gap: .55rem; margin: 0 0 calc(#{$base} * 1.5);
   border-bottom: 1px solid $ink; padding-bottom: calc(#{$base} * 1);
   font-size: $fs-cat; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; }
-.cat-h .ix { font-weight: 700; font-size: $fs-small; letter-spacing: .1em; color: $grey; font-variant-numeric: tabular-nums; text-transform: none; }
 .cat-h .lb { font-size: $fs-cat; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; line-height: 1; }
 .cat-list { list-style: none; margin: 0; padding: 0;
   columns: 12rem; column-gap: 2rem; }
