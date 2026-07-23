@@ -128,11 +128,10 @@ body.home .mh-title a, body.home .mh-title a:visited {
 // site (ink), gh to GitHub (grey). Sits flush-right on the masthead baseline.
 .mh-by { margin-left: auto; align-self: flex-end; display: flex; align-items: baseline; gap: .5em;
   font-size: $fs-kicker; letter-spacing: .14em; text-transform: uppercase; color: $grey; line-height: 1.5; }
-// both links carry a persistent underline (a non-color affordance — they can't be
-// distinguished from the surrounding "by … /" by color/weight alone; WCAG 1.4.1)
-.mh-name, .mh-name:visited { color: $ink; text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
-.mh-gh, .mh-gh:visited { color: $grey; text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
-.mh-name:hover, .mh-gh:hover { text-decoration-thickness: 2px; }
+// byline links: clean at rest (no rule on the now-bare masthead), underline on hover
+.mh-name, .mh-name:visited { color: $ink; text-decoration: none; text-underline-offset: 2px; }
+.mh-gh, .mh-gh:visited { color: $grey; text-decoration: none; text-underline-offset: 2px; }
+.mh-name:hover, .mh-gh:hover { text-decoration: underline; }
 .mh-gh:hover { color: $ink; }
 .mh-bysep { color: $grey; opacity: .45; }
 
