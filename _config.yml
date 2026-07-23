@@ -22,10 +22,6 @@ title: Recipes
 description: "A monochrome recipe directory — precise, gram-weighted recipes and baking notes by halfcadence."
 baseurl: "/recipes" # the subpath of your site, e.g. /blog
 url: "https://halfcadence.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# site-wide sharing image — makes jekyll-seo-tag emit summary_large_image (it only
-# upgrades from `summary` when an image is resolved). Per-page og:image/twitter:image
-# in _includes/head.html still override this with the recipe's own hero photo.
-image: /og-image.png
 author:
   name: Andrew
 instagram_username: half_cadence

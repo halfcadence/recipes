@@ -29,8 +29,15 @@
   {%- endcomment -%}
   {%- seo title=false -%}
 
+  {%- comment -%}
+    Authoritative sharing tags, emitted AFTER {% seo %} so they win: the resolved
+    hero (or site card) as an absolute raster URL, and the large-image card.
+    (jekyll-seo-tag only upgrades its own card to summary_large_image when it
+    resolves an image, which our custom hero logic bypasses — so we set it here.)
+  {%- endcomment -%}
   <meta property="og:image" content="{{ share_image }}">
   <meta name="twitter:image" content="{{ share_image }}">
+  <meta name="twitter:card" content="summary_large_image">
 
   <link rel="icon" href="{{ "/favicon.svg" | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
