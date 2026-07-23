@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <circle cx="100" cy="100" r="75" fill="#1c1cd6"/>
-  <circle cx="90" cy="90" r="18" fill="#1c1cd6" style="mix-blend-mode:multiply"/>
-  <circle cx="115" cy="105" r="18" fill="#1c1cd6" style="mix-blend-mode:multiply"/>
-</svg>

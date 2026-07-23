@@ -2,7 +2,7 @@
 
 https://halfcadence.github.io/recipes/
 
-A recipe collection in an Experimental-Jetset style: Helvetica, pure black-on-white (inverting to white-on-black), sentence case, one accent color per section, no illustrations. Recipe titles are a big lowercase type-as-image moment; the homepage is a full-width text-only archive. (Previously a two-ink risograph look — retired; kept as an archive on the colophon pages.)
+A recipe collection in a **Swiss-modernist / Müller-Brockmann** style: Helvetica only, **pure monochrome** (ink on paper, inverting to white-on-black — no accent or per-section color), a responsive modular grid, hierarchy from a fixed type ramp + weight, no illustrations. Recipe titles are a big lowercase type-as-image moment (the one Experimental-Jetset nod); the homepage is a full-width text-only archive. (History: a two-ink risograph look, then a per-section-color Experimental-Jetset phase — both retired.)
 
 ## Stack
 
@@ -17,8 +17,9 @@ Three tiers: the published site, unfinished drafts, and repo-only planning that 
 | `r/` | Recipes (one `.md` each, numbered) | ✅ site |
 | `a/` | Articles (technique / ingredient essays) | ✅ site |
 | `drafts/` | Unfinished/untested recipes + unlisted odds & ends. Reachable at `/drafts` (linked from the Colophon), **not** in the main index. | ✅ site |
-| `assets/` | `main.scss`, `illustrations/*.svg`, `illustrations/gen-riso/*.png` | ✅ site |
-| `_layouts/` `_includes/` `_data/` | Jekyll templates + `illustrations.yml` | build |
+| `assets/` | `main.scss` (the entire stylesheet) | ✅ site |
+| `_layouts/` `_includes/` `_data/` | Jekyll templates + `photos.yml` (hero-photo registry) | build |
+| `bin/` | dev checkers (`check-links.py`, `check-numbers.py`) — run before pushing | ❌ excluded |
 | `index.md` | The homepage master list — a recipe/article is invisible until linked here | ✅ site |
 | `steering.md` | **The rulebook** — voice, format, colors, the New Recipe Checklist. Read before editing. | ✅ (Colophon) |
 | `changelog.md` | Dated log; updated in the same commit as any site change | ✅ (Colophon) |

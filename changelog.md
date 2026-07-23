@@ -6,6 +6,12 @@ permalink: /changelog/
 
 ## 2026-07-22
 
+- Minimalist cleanup pass (delete unused / dead / outdated / leaked):
+  - **Security:** remove `docs/` (9 internal Amazon engineering docs — BYOD/Stencil/Stores-Designer, a CSS-race postmortem, env-ID files) and `byod-cr-explainer/` — both were committed to this **public** repo AND publishing to `halfcadence.github.io/recipes/docs/…`. Gitignored + excluded so they can't return. Also excluded `bin/` (dev tooling) and `.playwright-mcp/` from the build.
+  - **Junk:** remove `.playwright-mcp/` (83 browser-tool debug logs, 11MB) + gitignore it.
+  - **Retired archive (~50MB, the bulk of the repo):** delete `assets/illustrations/` (249 SVG + AI-riso PNG files), `_data/illustrations.yml`, and the `/illustrations` + `/illustrations-riso` + `/colors` gallery pages — all delisted (reachable from nowhere in the nav), preserving a retired risograph/EJ system. The risograph *article* stays as the record. Fixed the now-dead references in type.html, steering.md, AGENTS.md, README.md and the dead swatch selectors in the print CSS.
+  - **Vestigial config:** drop `instagram_username` and `header_pages: []` (zero consumers).
+  - **Outdated docs:** README + colophon prose still described the retired Experimental-Jetset "one accent per section" system as current — corrected to monochrome Müller-Brockmann.
 - Second review pass (finish the remaining audit items):
   - **Per-page descriptions:** each page now gets a unique meta/share snippet instead of the shared tagline — explicit front-matter `description:` wins, else a synthesized line (recipes: "title — a {category} recipe … No. N"; articles: a note line), else the site default. Documented the `description` field in steering's Front Matter; added a real one to the canelé article.
   - **Tokens:** expose the Sass palette + type ramp as CSS custom properties (`--ink`, `--fs-cat`, …) on `:root` with a dark override, and convert the `type.html` / `photos.html` inline styles to `var(--…)` — so their chrome stays on the ramp and dark mode flips automatically (deleted both pages' per-page dark blocks). Swatch/ramp-demo values stay literal (they're content).

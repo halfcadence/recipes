@@ -1,7 +1,0 @@
-[     938ms] [LOG] AUI Debug: Reapplying overrides after page change @ chrome-extension://dcfoehjpoialdhneckhclkljejggicle/scripts.js:54
-[    1009ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://deployment-group.pipelines.a2z.com/manifest.json:0
-[    1009ms] [ERROR] Manifest fetch from https://deployment-group.pipelines.a2z.com/manifest.json failed, code 403 @ https://deployment-group.pipelines.a2z.com/deployments/0e275460-7ad2-414d-8f2d-cd155f851978:0
-[    2121ms] [WARNING] [AwsUi]  DEPRECATION WARNING: The `content` region for the awsui-breadcrumb-group component is deprecated. Please use the `items` attribute instead. @ https://deployment-group.pipelines.a2z.com/static/js/main.00c9fd5b.js:1
-[    2122ms] [WARNING] [AwsUi]  Region alias "text" for "Button" has been deprecated. Use "children" prop instead @ https://deployment-group.pipelines.a2z.com/static/js/main.00c9fd5b.js:1
-[    2136ms] [WARNING] [AwsUi]  Region alias "trigger" for "Tooltip" has been deprecated. Use "children" prop instead @ https://deployment-group.pipelines.a2z.com/static/js/main.00c9fd5b.js:1
-[    2137ms] [WARNING] [AwsUi]  Region alias "content" for "Badge" has been deprecated. Use "children" prop instead @ https://deployment-group.pipelines.a2z.com/static/js/main.00c9fd5b.js:1

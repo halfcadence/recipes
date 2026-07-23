@@ -4,7 +4,7 @@ Conventions and gotchas for AI agents working in this repo. Read this and `steer
 
 ## What this repo is
 
-A Jekyll / GitHub Pages recipe site (`halfcadence.github.io/recipes`), **Swiss-modernist / Müller-Brockmann grid-styled**: self-owned CSS (no theme gem), Helvetica only, a responsive modular grid (`--cols` 12→8→4) everything snaps to, **pure monochrome — no accent/section color**, hierarchy by a fixed type ramp (`$fs-*` tokens) + weight, no illustrations. Recipe titles are a big lowercase type-as-image moment (the one Experimental-Jetset nod); the homepage is a full-width text-only archive. Full rules in `steering.md` ("Design system — Swiss modernist"). See the README for the layout table. (History: first a two-ink risograph look with Bricolage Grotesque, then a per-section-color EJ phase — **both retired**; the `colors.html`/`illustrations*` colophon pages keep the old palette as a labeled archive.)
+A Jekyll / GitHub Pages recipe site (`halfcadence.github.io/recipes`), **Swiss-modernist / Müller-Brockmann grid-styled**: self-owned CSS (no theme gem), Helvetica only, a responsive modular grid (`--cols` 12→8→4) everything snaps to, **pure monochrome — no accent/section color**, hierarchy by a fixed type ramp (`$fs-*` tokens) + weight, no illustrations. Recipe titles are a big lowercase type-as-image moment (the one Experimental-Jetset nod); the homepage is a full-width text-only archive. Full rules in `steering.md` ("Design system — Swiss modernist"). (History: first a two-ink risograph look with Bricolage Grotesque, then a per-section-color EJ phase — **both retired**; the old `colors.html` + `illustrations*` archive pages and their 50MB of assets have since been **deleted** — the risograph *article* is the only remaining record.)
 
 ## The three tiers — know which one you're touching
 
@@ -24,12 +24,13 @@ A Jekyll / GitHub Pages recipe site (`halfcadence.github.io/recipes`), **Swiss-m
 - **Baking recipes (batters/doughs) need an `## Analysis` block** between Steps and Notes. Component grams must sum within ~2g of the stated total and percentages to ~100%. The decomposition rules + benchmarks are the single source of truth in `.kiro/skills/batter-analysis.md` — use them; don't hand-invent the numbers. Custardy canelé target: ~12% structure.
 - **Voice:** minimal, imperative, numeric, no marketing adjectives, no exclamation points. Notes are bullets in a `<div class="notes" markdown="1">`. Weights in grams (cocktails in oz); temps in °F.
 
-## Illustrations are retired (archive only)
+## Illustrations are gone (deleted, not archived)
 
-Recipe pages have no illustrations. The old per-recipe SVGs + `gen-riso/*.png`
-remain only to feed the `/illustrations/` and `/illustrations-riso/` colophon
-galleries (auto-globbed from `assets/illustrations/`), which are now an archive
-of the previous system. Don't add new ones or hand-edit those gallery pages.
+Recipe pages have no illustrations. The old per-recipe SVGs, the AI-generated
+`gen-riso/*.png` set, their `assets/illustrations/` dir (~50MB), the
+`/illustrations` + `/illustrations-riso` gallery pages, and `_data/illustrations.yml`
+have all been **removed** (delisted archive, reachable from nowhere). Don't recreate
+them or reintroduce an illustration system — recipe pages are type + hero photo only.
 
 ## Recipe photos (separate from illustrations — these ARE live)
 

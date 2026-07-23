@@ -468,9 +468,8 @@ pre code { border: none; padding: 0; }
   .wrapper { max-width: none; padding: 0; display: block; }
   .post, .post-content, .dir, .notes, .post-content ol, .post-content table { display: block; }
   a { text-decoration: none !important; }
-  // force-print colors ONLY on the archived riso swatch pages that need their
-  // ink to survive (steering: print-color-adjust is scoped to those, not global)
-  .pill-sample, .test-palette, .illus-shapes, [class*="swatch"] {
+  // force-print colors ONLY on the riso article's ink swatches (scoped, not global)
+  .pill-sample, [class*="swatch"] {
     -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
   }
 }

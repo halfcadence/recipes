@@ -1,8 +1,0 @@
-- generic [ref=f15e3]:
-  - list [ref=f15e5]:
-    - listitem [ref=f15e6]:
-      - img "Builder Tools" [ref=f15e7]
-    - listitem [ref=f15e8]: Deployment Groups
-  - main [ref=f15e11]:
-    - generic [ref=f15e12]:
-      - region

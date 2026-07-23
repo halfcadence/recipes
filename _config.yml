@@ -24,7 +24,6 @@ baseurl: "/recipes" # the subpath of your site, e.g. /blog
 url: "https://halfcadence.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Andrew
-instagram_username: half_cadence
 twitter:
   card: summary_large_image
 
@@ -33,7 +32,6 @@ theme: minima
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-header_pages: []
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -57,3 +55,7 @@ exclude:
   - README.md
   - AGENTS.md
   - cafe/
+  - docs/                 # internal engineering docs — never publish
+  - byod-cr-explainer/    # internal Protozoa artifact — never publish
+  - bin/                  # dev tooling (link/number checkers) — not site content
+  - .playwright-mcp/

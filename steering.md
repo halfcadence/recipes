@@ -85,9 +85,10 @@ grid. The one expressive flourish is the oversized lowercase **type-as-image wor
 otherwise strictly grid-Swiss, not EJ's poster expressiveness.
 
 (History: the site was first a two-ink risograph look with Bricolage Grotesque, then a
-per-section-color Experimental-Jetset phase; **both are retired.** The `colors.html` /
-`illustrations*` colophon pages preserve the old riso palette as a labeled archive, and
-the riso-color *article* keeps its swatches as content. There is no live accent color.)
+per-section-color Experimental-Jetset phase; **both are retired.** The old illustration
+and color-swatch archive pages (`/illustrations`, `/illustrations-riso`, `/colors`) and
+their 50MB of retired assets have been removed; the riso-color *article* is the only
+remaining record of that era. There is no live accent color.)
 
 - **Type:** `Helvetica Neue, Helvetica, Arial, sans-serif` — one family, no serif, no
   mono (code excepted). Base 15px / 1.5. Sentence/lower case for content; the **only**
@@ -109,21 +110,20 @@ the riso-color *article* keeps its swatches as content. There is no live accent 
   color map and per-category accent are **gone**; don't reintroduce them.)
 - **Rules & structure:** hard 1px/hairline rules, hard corners, flat fills — no shadows,
   gradients, or radii. Emphasis is weight or a hairline, never a hue.
-- `print-color-adjust: exact` SHOULD be used only where the archived Colors/riso swatch
-  pages need their colors to survive printing.
+- `print-color-adjust: exact` SHOULD be used only where the risograph article's ink
+  swatches need their colors to survive printing (scoped to those elements in the print
+  block — not global).
 
 ## Illustrations — none
 
 - Recipe/article pages have **no illustrations.** The type + the numbered hero
-  carry the page (the EJ archive uses no per-item art). Do NOT add illustration
-  stamps to recipe pages, and do NOT generate riso PNGs for new recipes.
+  carry the page. Do NOT add illustration stamps to recipe pages, and do NOT
+  generate riso PNGs for new recipes.
   (Photography is a separate system — recipes DO carry a hero photo; see
   "Recipe Photos". "No illustrations" means no drawn/riso art, not no photos.)
-- The old per-recipe SVGs remain in `assets/illustrations/` (recolored to the
-  single spot ink) only to feed the `/illustrations/` colophon gallery, which is
-  now an archive of the earlier illustration system. New recipes do NOT need one.
-- The `/illustrations-riso/` gallery and `gen-riso/*.png` set are likewise a
-  retired archive; leave them, but don't extend them.
+- The old per-recipe SVG set, the AI-generated riso PNGs, and their `/illustrations`
+  + `/illustrations-riso` gallery pages have been **deleted** (50MB of retired assets
+  reachable from nowhere in the nav). Don't recreate them.
 
 ## AI Artifacts
 

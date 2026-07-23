@@ -5,3 +5,10 @@ _site
 vendor
 .unison.tmp-*
 .DS_Store
+
+# browser-tool debug artifacts (never commit)
+.playwright-mcp/
+
+# internal engineering docs — MUST NOT be in this public repo
+docs/
+byod-cr-explainer/

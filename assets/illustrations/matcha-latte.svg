@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <!-- Tall glass, top half green (overprint), bottom half pink (milk) -->
-  <rect x="55" y="25" width="75" height="155" fill="#1c1cd6"/>
-  <rect x="55" y="25" width="75" height="80" fill="#1c1cd6" style="mix-blend-mode:multiply"/>
-</svg>
