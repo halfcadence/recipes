@@ -446,6 +446,11 @@ pre code { border: none; padding: 0; }
   // tap targets on the home index — the link fills a ~44px-tall row (also set at ≤56rem)
   .cat-list li { padding: 0; }
   .cat-list a { padding: .6rem 0; min-height: 44px; }
+  // pack the index 2-up on phones. `columns:12rem` (base) fits only ONE 192px column
+  // at phone width, so a long category (sweets = 51) becomes a ~2000px single-file
+  // scroll. Two even columns roughly halve the page height — the directory "grows in
+  // width, not height" as intended. Names still get ~150px, enough for the common case.
+  .cat-list { columns: 2; column-gap: 1rem; }
   // recipe steps: the number's own 1fr column is ~25% of a 4-col row for a 2-digit
   // figure. Keep the far-right number, but narrow its track to 2rem so the reading
   // text reclaims the width (subgrid on the li follows this 2-track parent).
