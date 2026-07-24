@@ -466,6 +466,14 @@ pre code { border: none; padding: 0; }
   body.section-articles .post-content ol,
   body.section-articles .post-content > p:first-child,
   body.section-articles .post-content table { grid-column: 1 / -1; }
+  // Bare (non-.wide-table) article tables: even with cells wrapping, a 4–5-column
+  // table's min-width can still beat a 390px screen (sum of longest words per column),
+  // pushing the whole PAGE into horizontal scroll. Make each bare table its own scroll
+  // container so any residual width scrolls the table, not the page. `> table` targets
+  // direct-child markdown tables only — the `.wide-table` divs already scroll themselves.
+  body.section-articles .post-content > table {
+    display: block; overflow-x: auto; -webkit-overflow-scrolling: touch;
+  }
   .notes { grid-template-columns: 1fr; }                   // single-column footnotes on phones
 }
 
