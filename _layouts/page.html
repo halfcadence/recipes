@@ -35,7 +35,7 @@ layout: default
 
   {% if hero %}
   <figure class="post-figure">
-    <img src="{{ hero }}"{% if hero_srcset %} srcset="{{ hero_srcset }}" sizes="(max-width: 60rem) 100vw, 60rem"{% endif %} width="1600" height="900" alt="{{ page.image_alt | default: page.title | escape }}" loading="lazy">
+    <img src="{{ hero }}"{% if hero_srcset %} srcset="{{ hero_srcset }}" sizes="(max-width: 60rem) 100vw, 60rem"{% endif %} width="1600" height="900" alt="{{ page.image_alt | default: page.title | escape }}" fetchpriority="high">
     <figcaption>{{ page.image_credit | default: "Photo — Unsplash" }}</figcaption>
   </figure>
   {% endif %}

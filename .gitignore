@@ -12,3 +12,9 @@ vendor
 # internal engineering docs — MUST NOT be in this public repo
 docs/
 byod-cr-explainer/
+
+# generated cafe review HTML (build output of cafe/site/build-review.js) — keep the
+# generator (build-review.js) + today-sheet-setup.md tracked; ignore only the output
+cafe/site/index.html
+cafe/site/today.html
+cafe/site/review/

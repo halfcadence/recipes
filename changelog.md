@@ -4,6 +4,14 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-07-24
+
+- Responsive / mobile pass (adversarial persona-panel review — mobile-first user, a11y/junior, design director, typographer, minimalist, Ive/Rams reductionist, perf engineer):
+  - **Ship-blockers:** home masthead is now `flex-wrap`'d ≤34rem with the byline dropping to its own line (was a no-wrap flex row that forced a horizontal scrollbar on every portrait phone — WCAG 1.4.10); article-table `white-space:nowrap` is gated to ≥34rem so prose tables wrap on phones instead of blowing past the viewport; the dark-mode focus outline is recolored to dark ink (was `#111` on `#0c0c0d` ≈ 1.05:1, effectively invisible — WCAG 2.4.11); the hero photo is no longer `loading="lazy"` and carries `fetchpriority="high"` (it's the above-the-fold LCP element, so lazy-loading it delayed LCP).
+  - **Mobile UX:** the recipe step-number column is narrowed from a full 1fr (~25% of a 4-col row) to a 2rem track ≤34rem, reclaiming ~54px of reading measure while keeping the far-right number; hero-title leading loosened to 1.02 + `text-wrap:balance` ≤56rem so long lowercase titles stop colliding descenders/accents into the next line at the clamp floor; home-index tap targets (44px) now extend through the tablet tier (were phone-only).
+  - **Polish:** `.wrapper` side padding drops to 1rem ≤34rem (was a fixed 1.75rem = 17.5% of a 320px screen); `preconnect` to `images.unsplash.com` to shave ~300–600ms off hero LCP on 4G; the wide comparison table's row-label column is now `position:sticky` so metric labels stay visible when scrolling right; `.grind`/`.analysis` pinned full-width at 4-col (were spanning to grid lines 9–10 that don't exist there); `.grind` setting column wraps on phone; `.notes h2` moved from `display:none` to visually-hidden so screen readers still announce the section.
+  - **Cleanup:** delete the dead `.pill-sample::before` rule (nothing set `data-num`); remove the empty `_includes/footer.html` and its per-page include; stop tracking the generated `cafe/site/*.html` build output (the `build-review.js` generator + `today-sheet-setup.md` source stay tracked).
+
 ## 2026-07-22
 
 - Homepage masthead: remove the heavy 3px rule under the wordmark — it was the only 3px divider on an otherwise-1px-hairline site. The giant wordmark + whitespace carry the separation now (Ive pass, chosen from a 6-option chooser).
