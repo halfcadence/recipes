@@ -23,6 +23,7 @@ A Jekyll / GitHub Pages recipe site (`halfcadence.github.io/recipes`), **Swiss-m
 - **New published recipe = the New Recipe Checklist** (steering.md): `r/{slug}.md` with front matter (next `number`) + `index.md` link + `changelog.md` entry. That's it — **no illustration** (recipe pages are type-only now; don't create SVGs or Nova PNGs for new recipes).
 - **Baking recipes (batters/doughs) need an `## Analysis` block** between Steps and Notes. Component grams must sum within ~2g of the stated total and percentages to ~100%. The decomposition rules + benchmarks are the single source of truth in `.kiro/skills/batter-analysis.md` — use them; don't hand-invent the numbers. Custardy canelé target: ~12% structure.
 - **Voice:** minimal, imperative, numeric, no marketing adjectives, no exclamation points. Notes are bullets in a `<div class="notes" markdown="1">`. Weights in grams (cocktails in oz); temps in °F.
+- **Recipe-step CSS must not depend on kramdown wrapping step text in `<p>`.** kramdown emits `<li><p>text</p></li>` only for a **loose** list (blank line between items); a **tight** list (`1.`/`2.`/`3.` on consecutive lines) emits bare `<li>text`, and bare text inside a grid container is an *anonymous grid item that no selector can reach*. Five recipes silently rendered their steps in a single ~80px column this way. Style the `li` itself (it owns its two tracks — measure, then number), never `li > p` alone. Both list styles are in the wild; don't "fix" one by rewriting the markdown.
 
 ## Illustrations are gone (deleted, not archived)
 

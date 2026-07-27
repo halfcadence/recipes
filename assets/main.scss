@@ -250,19 +250,34 @@ body.section-articles .post-content .wide-table th:first-child,
 body.section-articles .post-content .wide-table td:first-child { position: sticky; left: 0; background: $paper; }
 
 // steps (markdown ol): text left in a reading measure, number pinned to the far-right column.
-// Each li is a subgrid row → the number lands in the last column at any --cols, never off-screen.
+// The ol spans the full 12-col grid; each li then lays out its own 2 tracks (see below),
+// so the number lands at the row's right edge at any --cols, never off-screen.
 .post-content ol { grid-column: 1 / -1; list-style: none; counter-reset: step; padding: 0; margin: 0;
   display: grid; grid-template-columns: repeat(var(--cols), 1fr); column-gap: 1.25rem; row-gap: calc(#{$base} * 3.5); }
+// The li is TWO tracks — reading measure, then the number — NOT a 12-track subgrid.
+// Why: a subgrid li auto-places any unselectable content into a single ~75px track, and
+// kramdown only wraps step text in <p> when the markdown list is LOOSE (blank line
+// between items). A TIGHT list ("1.\n2.\n3.") — or any item with a nested sub-list —
+// emits bare `<li>text`, which is an ANONYMOUS grid item that NO selector can reach, so
+// the step collapsed to one column (tea-jelly: 81px of measure instead of 538px). Two
+// own tracks make the layout independent of how kramdown wrapped the text: the measure
+// is the track, and `space-between` pushes the number to the grid's right edge exactly
+// as the old `-2 / -1` span did.
 .post-content ol > li { counter-increment: step; grid-column: 1 / -1;
-  display: grid; grid-template-columns: subgrid; }
-.post-content ol > li > p { grid-column: 1 / -2; max-width: 34rem; margin: 0; }
+  display: grid; grid-template-columns: minmax(0, 34rem) auto;
+  justify-content: space-between; column-gap: 1.25rem; }
+.post-content ol > li > p { margin: 0; }
 .post-content ol > li::after {
   content: counter(step, decimal-leading-zero);
-  grid-column: -2 / -1; align-self: end; justify-self: end; text-align: right;
+  grid-column: 2; align-self: end; justify-self: end; text-align: right;
   font-size: $fs-small; font-weight: 400; letter-spacing: .06em; color: $grey; font-variant-numeric: tabular-nums;
 }
 // unordered lists inside content (rare): normal
 .post-content ul { grid-column: 1 / 9; margin: 0 0 1rem; padding-left: 1.1rem; }
+// …but a ul NESTED INSIDE a step (coffee-jelly's "For kanten: / For gelatin:" sub-steps)
+// is a child of the li's 2-track grid, where lines 1/9 don't exist — it must just fill
+// the measure track, not span to a grid line borrowed from the 12-col parent.
+.post-content ol > li ul { grid-column: 1; margin: .2rem 0 0; }
 .post-content li { margin-bottom: .2rem; }
 
 // ── NOTES (recipe): footnote block — serif, 3 EQUAL cols reading across (1 2 3 / 4 5 6),
@@ -306,7 +321,8 @@ body.section-articles .post-content ol { display: block; list-style: decimal; pa
 body.section-articles .post-content ul { display: block; list-style: disc; padding-left: 1.3rem; }
 body.section-articles .post-content ol > li,
 body.section-articles .post-content ul > li {
-  display: list-item; grid-column: auto; margin: 0 0 .55rem; min-height: 0; }
+  display: list-item; grid-column: auto; margin: 0 0 .55rem; min-height: 0;
+  max-width: none; }                     // the recipe li's 34rem measure isn't wanted here
 body.section-articles .post-content ol > li::after { content: none; }
 body.section-articles .post-content ol > li > p,
 body.section-articles .post-content ul > li > p { display: inline; grid-column: auto; max-width: none; margin: 0; }
@@ -451,11 +467,12 @@ pre code { border: none; padding: 0; }
   // scroll. Two even columns roughly halve the page height — the directory "grows in
   // width, not height" as intended. Names still get ~150px, enough for the common case.
   .cat-list { columns: 2; column-gap: 1rem; }
-  // recipe steps: the number's own 1fr column is ~25% of a 4-col row for a 2-digit
-  // figure. Keep the far-right number, but narrow its track to 2rem so the reading
-  // text reclaims the width (subgrid on the li follows this 2-track parent).
-  .post-content ol { grid-template-columns: 1fr 2rem; }
-  .post-content ol > li > p { max-width: none; }
+  // recipe steps: drop the 34rem cap (a 4-col row is narrower than the measure anyway)
+  // and keep the deliberate 2rem number track from the responsive pass, so the reading
+  // text takes everything else. This tier was never affected by the subgrid bug — the
+  // ol here has always had exactly 2 tracks, so even unwrapped step text landed in the
+  // 1fr measure. Keeping 2rem holds phone geometry byte-identical to before the fix.
+  .post-content ol > li { grid-template-columns: minmax(0, 1fr) 2rem; max-width: none; }
   // .grind / .analysis span to grid lines (9,10) that don't exist at 4-col — pin full width
   .grind, .analysis { grid-column: 1 / -1; }
   .grind td:last-child { white-space: normal; }            // long settings can wrap on phone

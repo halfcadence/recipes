@@ -4,6 +4,10 @@ category: colophon
 permalink: /changelog/
 ---
 
+## 2026-07-27
+
+- Fix recipe steps collapsing to a single ~80px column on five recipes (tea jelly, thyme streusel, cold brew tea, coffee jelly, bay leaf panna cotta). The step `li` was a 12-track `subgrid` and only `li > p` carried the `1 / -2` reading span — but kramdown emits `<p>` only for a **loose** markdown list (blank line between items). A **tight** list (`1.` / `2.` / `3.` on consecutive lines) emits bare `<li>text`, which becomes an *anonymous* grid item no selector can reach, so it auto-placed into column 1 and wrapped at ~46–88px instead of 538px. The `li` now owns two tracks (`minmax(0,34rem) auto`, `space-between`) so the measure is the track itself and the layout no longer depends on how kramdown wrapped the text; the step number moves from the `-2 / -1` span to track 2, and a ul nested inside a step spans track 1 rather than the parent grid's line 9. Verified in headless Chrome at 1512/800/390px: the five affected pages go from 3–5 wrapped lines to 1, four control pages (gyoza, canelé + two articles) are geometrically byte-identical, and the phone tier — which was never affected, its `ol` having always had two tracks — is unchanged.
+
 ## 2026-07-24
 
 - Responsive / mobile pass (adversarial persona-panel review — mobile-first user, a11y/junior, design director, typographer, minimalist, Ive/Rams reductionist, perf engineer):
