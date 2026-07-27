@@ -442,9 +442,17 @@ pre code { border: none; padding: 0; }
   // leading + tracking once we're wrapping, and balance the wrap.
   .post-title { line-height: 1.02; letter-spacing: -0.03em; text-wrap: balance; }
   // index links become the primary nav on touch — give them a real tap target on
-  // tablet too (was phone-only), per the 44px guideline.
+  // tablet too (was phone-only), per the 44px guideline. The padding is deliberately
+  // ASYMMETRIC and must sum past 44px: split evenly, the hairline sat ~20px BELOW its
+  // own word and only ~10px above the next one, so it stopped reading as that row's
+  // underline and looked like it belonged to the row beneath. (Symmetric padding alone
+  // can't fix it — if the padding box is SHORTER than min-height, the content box
+  // stretches and dumps the leftover slack under the text anyway. So padding-top +
+  // line-height + padding-bottom must total ≥44px for the bottom padding to be real.)
+  // All the slack goes above: the rule lands ~6px under its word, matching the desktop
+  // tier's tight underline, with the tap target still a full 44px.
   .cat-list li { padding: 0; }
-  .cat-list a { padding: .55rem 0; min-height: 44px; }
+  .cat-list a { padding: 1.4rem 0 .3rem; min-height: 44px; }
 }
 @media (max-width: 34rem) {
   :root { --cols: 4; }
@@ -459,9 +467,8 @@ pre code { border: none; padding: 0; }
   // child-combinator specificity that sets `columns: 2 12rem`, or it won't override
   body:not(.section-articles) .post-content > table { columns: 1; }
   .post-content table { columns: 1; }
-  // tap targets on the home index — the link fills a ~44px-tall row (also set at ≤56rem)
-  .cat-list li { padding: 0; }
-  .cat-list a { padding: .6rem 0; min-height: 44px; }
+  // tap target + rule placement are inherited from the ≤56rem tier (asymmetric padding
+  // summing past 44px) — no phone-specific override needed.
   // pack the index 2-up on phones. `columns:12rem` (base) fits only ONE 192px column
   // at phone width, so a long category (sweets = 51) becomes a ~2000px single-file
   // scroll. Two even columns roughly halve the page height — the directory "grows in
