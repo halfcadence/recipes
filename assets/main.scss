@@ -494,6 +494,68 @@ $sr-body: 92;      // superrow content, second row
       grid-column: 1 / -1; grid-row: $sr-head; grid-template-columns: repeat(4, 1fr);
       margin-top: 0; padding-top: calc(#{$base} * 3);
     }
+
+    // ── THE SPLIT IS DECIDED BY THE RECIPE, NOT BY THE BREAKPOINT ─────────────
+    // Ingredients are almost always shorter than steps, so an equal 12|12 split
+    // leaves the right column running past the left: measured across all 124
+    // recipes at 1881px, the overhang averages 256px and reaches 783px (the
+    // chiffon cakes — 12 steps beside 10 ingredient lines). One fixed split can't
+    // fix that, because the geometry that helps a 12-step cake hurts a 3-step
+    // cocktail. So the split switches on the step count.
+    //
+    // `:has(> ol > li:nth-child(6))` means "six or more steps" — pure CSS, no
+    // script. Verified against the real DOM count on 124/124 recipes.
+    //
+    // WHY SIX. Measured, not chosen: splitting at 4+ leaves the least empty paper
+    // (103px mean) but gives 27 recipes a column of only two steps, which doesn't
+    // read as a column. 6+ is the lowest threshold where that never happens — 0
+    // columns under three steps, 73 of 124 recipes split, overhang down to 114px
+    // mean / 336px worst.
+    //
+    // WHY 8-TRACK BAYS. 26 tracks read as three of them (8 + 1 + 8 + 1 + 8 = 26),
+    // and one bay is 548px at 1881 — which is the 34rem the `li` measure already
+    // caps at. So the second step column is free: the reading line does not move.
+    //
+    // NOT ALSO ON INGREDIENT COUNT. A single <table> won't fragment across a
+    // column, so the ingredient side can only divide at a group boundary — and
+    // splitting there measured no better than today (167px vs 163px on the 18
+    // multi-group recipes) while cutting the step measure to 510px. Left alone.
+    //
+    // THE 3+ GROUP OPT-OUT. Ingredient groups stack, so each one adds height to
+    // the left half; past two groups the left half is the taller side and halving
+    // the steps only opens a gap under the steps instead of closing one. Measured:
+    // opting out at 2+ groups leaves 126px mean / 420px worst, at 3+ it's 114 /
+    // 336, and not opting out at all is 121 / 521 (tonyu-nabe — three groups
+    // beside six steps — overshoots by 521px). 3+ wins on both. 106 recipes have
+    // one group, 12 have two, 6 have three or more.
+    .post-content:has(> #steps ~ ol > li:nth-child(6)):not(:has(> table ~ table ~ table)) {
+      // `:has(~ #steps)` = "comes before Steps in source", the same device the
+      // row-assignment chain above uses. A blanket `#ingredients ~ *` chain
+      // carries three IDs and outranks `> #steps ~ ol` at two, which dragged the
+      // step list into the left bay — the one-ID-beats-any-classes trap again.
+      > *:has(~ #steps) { grid-column: 1 / 9; }
+      > #steps { grid-column: 10 / 27; }
+
+      // `columns`, not a second grid: a step list has to BALANCE across the two
+      // (7 steps → 4 + 3), and only multicol does that without measuring in JS.
+      // Reading order stays source order because multicol is column-major.
+      > #steps ~ ol {
+        grid-column: 10 / 27;
+        display: block; columns: 2; column-gap: 1.25rem;
+      }
+      > #steps ~ ol > li { break-inside: avoid; margin-bottom: calc(#{$base} * 3.5); }
+
+      // The number moves to the HEAD of its step. A right-hung number works in one
+      // column because nothing is to its right; in two, the next column's text is
+      // 20px away and "01" reads as if it belongs to step 05. Leading the step
+      // removes the ambiguity without spending any of the measure on an alley.
+      // Same convention the notes band already uses.
+      > #steps ~ ol > li {
+        grid-template-columns: 2rem minmax(0, 34rem);
+        justify-content: start; column-gap: 0;
+      }
+      > #steps ~ ol > li::after { grid-column: 1; order: -1; justify-self: start; align-self: start; }
+    }
   }
 }
 
