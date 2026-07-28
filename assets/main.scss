@@ -824,8 +824,34 @@ pre code { border: none; padding: 0; }
 .doc-body > h2:first-child { margin-top: 0; border-top: none; padding-top: 0; }
 .doc-body h3 { font-size: $fs-body; font-weight: 700; margin: calc(#{$base} * 2) 0 calc(#{$base} * .5); }
 .doc-body p, .doc-body li { grid-column: auto; }
-.doc-body ul, .doc-body ol { margin: 0 0 1rem; padding-left: 1.2rem; }
-.doc-body li { margin: 0 0 .35rem; }
+// A DOC LIST IS PROSE, NOT A RECIPE STEP LIST — and it has to say so in full,
+// because `.doc-body` is also `.post-content`, so `.post-content ol > li` (the
+// two-track step row: `minmax(0,34rem) auto`, with the step number in track 2 via
+// `::after`) applies to every numbered list on these five pages. Resetting only
+// `grid-column` (which is all this used to do) left `display: grid` in force, and
+// a grid container BLOCKIFIES its inline children: every `<code>` in a step became
+// its own grid item, auto-placed into the 2rem number track and then into implicit
+// tracks — steering's "Resolution order" list shredded into a one-word column
+// 244px past the right edge of a phone, with a recipe step counter (`01`, `02`)
+// printing beside documentation. Live for as long as /steering/ has had this
+// layout; only found by measuring `scrollWidth` on the deployed page, because no
+// element's own box overflowed — the implicit tracks did.
+// Same four resets the articles already do, for the same reason — and in the same
+// FORM, which is load-bearing: `.doc-body li` is (0,1,1) and loses to
+// `.post-content ol > li` at (0,1,2), so the first version of this fix compiled,
+// shipped, and changed nothing (11 grid `li` before, 11 after). The child
+// combinator buys the third element and the later source position wins the tie.
+.doc-body ul, .doc-body ol {
+  display: block; list-style: disc; margin: 0 0 1rem; padding-left: 1.2rem;
+}
+.doc-body ol { list-style: decimal; }
+.doc-body ol > li, .doc-body ul > li {
+  display: list-item; grid-column: auto; margin: 0 0 .35rem; max-width: none;
+}
+.doc-body ol > li::after { content: none; }          // the recipe step number
+.doc-body ol > li > p, .doc-body ul > li > p {
+  display: inline; grid-column: auto; max-width: none; margin: 0;
+}
 .doc-body table { grid-column: auto; margin: 0 0 1rem; }
 // inline code in prose: medium weight, faint fill, no hard box (the bordered
 // chip is right for recipes but noisy across a doc this code-dense)
