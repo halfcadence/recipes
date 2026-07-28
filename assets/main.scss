@@ -23,6 +23,15 @@ $dark-hair:  #2a2a2c;
 $sans:  "Helvetica Neue", Helvetica, Arial, "Liberation Sans", system-ui, sans-serif;
 $base:  0.5rem;
 
+// ── Breakpoints ──────────────────────────────────────────────────────
+// The ONE place the ultrawide threshold lives. Every `min-width: $split`
+// query below references it, so retuning the spread point is a one-line
+// change. It must be a Sass variable, not a CSS custom property —
+// `@media` can't read `var()`.
+//   $split  1792px — below: one column of content. At/above: the 26-col spread.
+//   $narrow 56rem  — the tap-target / 8-col tier (existing).
+$split: 112rem;   // 1792px @ 16px root
+
 // ── Type ramp — "Univers Stepped" (Swiss), anchored to a 15px body ───────────
 // Six steps, applied everywhere. Hierarchy is size + weight only; no ad-hoc sizes.
 //   11px kicker/caption · 13px secondary · 15px body · 21px lede+head · 26px category · hero
@@ -136,24 +145,55 @@ body.home .mh-title a, body.home .mh-title a:visited {
 .mh-bysep { color: $grey; opacity: .45; }
 
 // ═══════════════════════════════════════════════════════════════════
-// HOME — directory of category modules (cQ heads)
+// HOME — directory of category modules (marginalia heads)
 // ═══════════════════════════════════════════════════════════════════
-// Each category is a full-width band; its list auto-flows into as many columns as the
-// width allows (`columns: 12rem`). This packs perfectly in numbered order (no grid gaps)
-// and lets long lists (sweets = 51) grow in WIDTH not height — no crazy vertical scroll.
-// Column count is responsive for free: ~5 cols wide → fewer → 1 on a phone.
+// Each category is a NAME | LIST pair: the name hangs in a left margin, the list
+// flows beside it, and BOTH hang from one shared top rule — so the rule reads as
+// the top edge of a band rather than an underline belonging to the name. The list
+// still auto-flows into as many columns as the width allows (`columns: 12rem`), so
+// long lists (sweets = 50) grow in WIDTH not height — no crazy vertical scroll.
+//
+// The directory is full-bleed (no cap): the width freed by dropping the 72rem
+// ribbon is exactly what buys the list its extra flow columns. --mg-name is the
+// name-column width, narrowed on tablet and dropped entirely on phones (below),
+// so this one layout covers every width above the phone tier.
+body.home .wrapper { max-width: none; }
 .dir { grid-column: 1 / -1; display: block; margin-top: calc(#{$base} * 5); }
-.cat { margin: 0 0 calc(#{$base} * 6); }
+.cat {
+  display: grid;
+  grid-template-columns: var(--mg-name, 16rem) 1fr;
+  column-gap: 2.5rem;
+  align-items: start;
+  margin: 0 0 calc(#{$base} * 5);
+}
 .cat:last-child { margin-bottom: 0; }
-.cat-h { display: flex; align-items: baseline; gap: .55rem; margin: 0 0 calc(#{$base} * 1.5);
-  border-bottom: 1px solid $ink; padding-bottom: calc(#{$base} * 1);
-  font-size: $fs-cat; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; }
-.cat-h .lb { font-size: $fs-cat; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; line-height: 1; }
+// name: hung from a TOP rule (shared with the list), not underlined by a bottom one
+.cat-h { display: block; margin: 0;
+  border-top: 1px solid $ink; border-bottom: none; padding: .6rem 0 0;
+  font-size: $fs-lede; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; }
+.cat-h .lb { font-size: inherit; font-weight: 700; text-transform: lowercase; letter-spacing: -0.04em; line-height: 1.1; }
 .cat-list { list-style: none; margin: 0; padding: 0;
+  border-top: 1px solid $ink; padding-top: .6rem;
   columns: 12rem; column-gap: 2rem; }
 .cat-list li { padding: .2rem 0; border-bottom: 1px solid $hair; font-size: $fs-small; line-height: 1.3; break-inside: avoid; }
 .cat-list a, .cat-list a:visited { text-decoration: none; display: block; }
 .cat-list a:hover { text-decoration: underline; }
+
+// ── ULTRAWIDE (≥ $split): the directory pairs up ─────────────────────────────
+// Two page-columns of NAME | LIST pairs, reading "title contents title contents".
+// Implemented with CSS `columns` on .dir rather than a 26-col grid: the browser
+// balances the two columns so they always end level, and each .cat stays
+// unbreakable. A grid would make every ROW as tall as its taller half, and the
+// categories are wildly unequal (sweets 50 vs colophon 5) — pairing those in a
+// grid row leaves a hole the height of the difference. Balanced columns can't
+// leave that hole, and this needs no per-category placement in index.md.
+// Reading order is down the left column, then down the right.
+@media (min-width: $split) {
+  .dir { columns: 2; column-gap: 9rem; }
+  // a category must never be split across the two page-columns — its name and
+  // list have to stay together, or the pair reads as two orphans
+  .cat { break-inside: avoid; --mg-name: 11rem; }
+}
 
 // ═══════════════════════════════════════════════════════════════════
 // RECIPE / ARTICLE PAGE — shared hero, then per-type body
@@ -296,6 +336,118 @@ body.section-articles .post-content .wide-table td:first-child { position: stick
 .notes li { margin: 0; padding-left: 0; text-indent: 0; counter-increment: note; }
 .notes li::before { content: counter(note); font-family: $sans; font-weight: 700; font-size: .78em; color: $ink; margin-right: .5em; font-variant-numeric: tabular-nums; }
 
+// ═══════════════════════════════════════════════════════════════════
+// ULTRAWIDE RECIPE SPREAD (≥ $split) — mise en place
+// ═══════════════════════════════════════════════════════════════════
+// One recipe on one screen: ingredients LEFT, steps RIGHT, then analysis and
+// notes side by side in their own band below both ("superrow"). The 26-col grid
+// is two 12s with a 2-track alley, so each half is the same width the whole page
+// used to be (12 tracks ≈ 71.6rem at 2560px ≈ the old 72rem ribbon).
+//
+// WHY THE PLACEMENT IS DRIVEN BY h2 IDs, NOT nth-child:
+// .post-content's children are a FLAT kramdown sequence, and its shape varies —
+// 118 recipes open with a table, 10 with an `###` subhead, 1 with a paragraph;
+// 6 carry a Grind block; 47 have no Analysis. Any positional selector breaks on
+// those. Instead each `#id ~ *` rule re-assigns EVERYTHING from that heading
+// onward, and the next rule overrides it again — so a section can contain any
+// number of elements of any kind and still land in the right half.
+// (Same class of trap as the steps/anonymous-grid-item bug — see AGENTS.md.)
+//
+// Rows: band A (ingredients | steps) auto-places with `dense` so the Steps head
+// can backfill up to row 1 beside Ingredients instead of stair-stepping below it.
+// The superrow is pinned to explicit rows far below any real content, which is
+// what guarantees it clears BOTH halves. Empty implicit rows in between are
+// 0-height (no row-gap on .post-content), so they cost nothing.
+$sr-rule: 90;      // superrow separator row
+$sr-head: 91;      // superrow content, first row
+$sr-body: 92;      // superrow content, second row
+@media (min-width: $split) {
+  :root { --cols: 26; }
+  .wrapper { max-width: none; }
+
+  // the hero becomes a true cinematic BAND, not a wall. Uncapped, a 16:9 figure
+  // is 1440px tall at 2560px wide — taller than the viewport, so you'd scroll
+  // past a photo to reach the recipe, which is exactly what this spread exists
+  // to avoid. A fixed band height with a cover crop keeps the body on screen 1.
+  .post-figure img { aspect-ratio: auto; height: 30rem; }
+
+  body:not(.section-articles) {
+    .post-content { grid-auto-flow: row dense; }
+
+    // band A — everything up to Steps sits in the left half…
+    .post-content > * { grid-column: 1 / 13; }
+    // …from Steps onward, the right half…
+    .post-content > #steps,
+    .post-content > #steps ~ * { grid-column: 15 / 27; }
+    // …and from Analysis onward, back to the left (the superrow's left cell).
+    .post-content > #analysis,
+    .post-content > #analysis ~ * { grid-column: 1 / 13; }
+
+    // the ingredient table and grind block span their half, not the old 1/9
+    .post-content > table { grid-column: 1 / 13; }
+    .post-content > .grind { grid-column: 1 / 13; }
+    // steps keep their reading measure — the extra width buys a second column of
+    // content on the page, never a longer line
+    .post-content > #steps ~ ol { grid-column: 15 / 27; }
+
+    // ── decoupling the two halves ─────────────────────────────────────────────
+    // Column placement alone is NOT enough. Both halves auto-place into the SAME
+    // implicit rows, which couples them twice over:
+    //   · a standfirst paragraph (17 recipes have one) takes row 1, so Ingredients
+    //     lands in row 2 while Steps still starts in row 1 — the heads misalign;
+    //   · every row is as tall as its TALLER half, so a 9-step list stretched
+    //     whipped-cream's short ingredient table's row and left "ingredients"
+    //     floating 380px above it.
+    // Fix: pin the standfirst to row 1 and BOTH heads to row 2, then let the steps
+    // list span a deep range of rows. The left half keeps one row per block
+    // (rows 3, 4, 5…); the list's extra height drains into the empty rows below
+    // them instead of inflating the row a table or a grind block sits in. Empty
+    // implicit rows are 0-height and the container has no row-gap, so the spare
+    // range costs nothing. `align-self: start` everywhere stops a tall partner
+    // row from stretching a block (a stretched <ol> would space its own steps out).
+    // Both halves' first block also needs an explicit row: `row dense` (which the
+    // superrow needs) backfills any earlier gap, so on a recipe with no standfirst
+    // the ingredient table jumped up into the empty row 1 — above its own head.
+    $steps-span: 60;
+    .post-content > * { align-self: start; }
+    .post-content > p:first-child { grid-row: 1; }
+    .post-content > #ingredients { grid-row: 2; }
+    .post-content > #steps { grid-row: 2; }
+    .post-content > #ingredients ~ table { grid-row: 3; }
+    .post-content > #steps ~ ol { grid-row: 3 / span $steps-span; }
+
+    // ── the superrow ──
+    .post-content > #analysis { grid-row: $sr-head; margin-top: 0; padding-top: calc(#{$base} * 3); }
+    .post-content > .analysis { grid-row: $sr-body; grid-column: 1 / 13; margin-top: 0; }
+    .post-content > #analysis ~ .notes {
+      grid-column: 15 / 27; grid-row: $sr-head / span 2;
+      margin-top: 0; padding-top: calc(#{$base} * 3);
+    }
+    // ONE separator for the whole band, spanning both halves and the alley.
+    // The notes block's own first-column hairline is switched off below — two
+    // rules 24px apart, one of them shorter, read as a mistake.
+    // var(--ink), not $ink: this rule is nested two selectors deep, so the flat
+    // `.post-content::before` dark override can't reach it (same trap as .art-toc).
+    .post-content:has(> .analysis, > .notes)::before {
+      content: ""; grid-column: 1 / -1; grid-row: $sr-rule;
+      border-top: 1px solid var(--ink);
+    }
+    .post-content > .notes::before { display: none; }
+    .post-content > .notes { grid-template-columns: repeat(2, 1fr); }
+    .post-content > .notes ul { grid-row: 1; padding-top: 0; }
+
+    // A recipe with no Analysis (53 of them) has nothing to sit beside — the notes
+    // take the full band and flow 4-up instead of stranding a half.
+    // The `#steps ~` is load-bearing for SPECIFICITY, not for matching: without it
+    // this selector is (0,3,0) and loses to the `> #steps ~ *` right-half rule
+    // above at (1,1,0) — one ID outweighs any number of classes — so the notes
+    // stayed pinned in the right half with the whole left half left empty.
+    .post-content:not(:has(> .analysis)) > #steps ~ .notes {
+      grid-column: 1 / -1; grid-row: $sr-head; grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
+
 // ── ARTICLE body (body.section-articles): prose-forward, marginalia subheads ──
 // Standfirst = the lede paragraph, set larger. More air beneath the title.
 body.section-articles .post-hero { padding-bottom: calc(#{$base} * 3); }
@@ -326,6 +478,89 @@ body.section-articles .post-content ul > li {
 body.section-articles .post-content ol > li::after { content: none; }
 body.section-articles .post-content ol > li > p,
 body.section-articles .post-content ul > li > p { display: inline; grid-column: auto; max-width: none; margin: 0; }
+
+// ── ARTICLE CONTENTS LIST (one <ol>, two surfaces) ───────────────────────────
+// Hidden by default: it's furniture at laptop width, where the marginalia
+// subheads already show the structure. It appears only on a phone (collapsed,
+// where you genuinely lose your place) and at ≥ $split (a sticky rail in paper
+// that would otherwise be empty). Built by _layouts/page.html.
+//
+// COLORS HERE USE var(--ink)/--grey/--hair, NOT the Sass tokens. Every colored
+// rule in this component lives inside a `body.section-articles` or a media
+// query, so a flat `.art-toc { … }` override in the dark block below would LOSE
+// on specificity (0,1,0 vs 0,2,1) and leave #111 hairlines on #0c0c0d paper —
+// ~1.04:1, i.e. invisible. The custom properties already flip with the scheme,
+// so there is nothing to override and no specificity race to lose.
+.art-toc { display: none; }
+.art-toc ol { list-style: none; margin: 0; padding: 0; }
+.art-toc a, .art-toc a:visited { color: var(--grey); text-decoration: none; }
+.art-toc a:hover { color: var(--ink); }
+.art-toc a.cur { color: var(--ink); font-weight: 700; }
+.art-toc-k { font-size: $fs-kicker; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--grey); }
+
+// ── phone: a collapsed disclosure above the standfirst ──
+@media (max-width: 34rem) {
+  body.section-articles .art-toc {
+    display: block; grid-column: 1 / -1;
+    border-top: 1px solid var(--ink); border-bottom: 1px solid var(--hair);
+    margin: 0 0 calc(#{$base} * 3);
+  }
+  // closed by default → costs one line. The marker is the only affordance, so
+  // give it a real tap target and a caret that flips on open.
+  .art-toc summary {
+    list-style: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: .75rem 0; min-height: 44px;
+  }
+  .art-toc summary::-webkit-details-marker { display: none; }   // Safari's default triangle
+  .art-toc summary::after {
+    content: ""; width: .45rem; height: .45rem; margin-right: .15rem;
+    border-right: 1.5px solid var(--grey); border-bottom: 1.5px solid var(--grey);
+    transform: rotate(45deg); transition: transform .15s ease;
+  }
+  .art-toc[open] summary::after { transform: rotate(-135deg); }
+  .art-toc ol { padding: 0 0 .5rem; }
+  .art-toc li { border-top: 1px solid var(--hair); }
+  .art-toc a { display: block; padding: .8rem 0 .35rem; min-height: 44px; font-size: $fs-small; }
+}
+
+// ── ULTRAWIDE ARTICLE (≥ $split): sticky contents rail + unchanged measure ───
+// The prose does NOT get wider — it keeps its 36rem measure and its marginalia
+// subheads. The width freed at this size pays for a sticky contents rail in the
+// outer-left margin, so the whole structure of a long article stays visible.
+// A two-column article body was explicitly rejected: prose that snakes up and
+// back down a 2560px page is worse to read, not better.
+@media (min-width: $split) {
+  body.section-articles {
+    // The rail is a real grid item on the 26-col wrapper, sharing its row with
+    // .post-content. Both are placed EXPLICITLY on row 2: the crumb and the
+    // title occupy row 1, and auto-placement would otherwise drop the rail into
+    // the title's row (it fits column 1) and shove the title's own row down.
+    .art-toc {
+      display: block;
+      grid-column: 1 / 6; grid-row: 2;
+      position: sticky; top: 1.5rem;
+      align-self: start;
+      font-size: $fs-small;
+      // the standfirst carries no top margin here, so the rail's own head aligns
+      // to the first line of prose
+      padding-top: calc(#{$base} * 4);
+    }
+    .art-toc summary { list-style: none; cursor: default; }
+    .art-toc summary::-webkit-details-marker { display: none; }
+    .art-toc-k { display: block; padding-bottom: .5rem; border-bottom: 1px solid var(--ink); margin-bottom: .6rem; }
+    .art-toc li { margin: 0 0 .35rem; line-height: 1.3; }
+    .art-toc a { display: block; padding-left: .7rem; border-left: 1px solid var(--hair); }
+    .art-toc a.cur { border-left-color: var(--ink); }
+
+    // the body shifts right of the rail and keeps its own 12-col field, so every
+    // existing article rule (h2 in 1/4, prose in 4/11) applies unchanged
+    .post-content {
+      grid-column: 8 / 27; grid-row: 2;
+      grid-template-columns: repeat(12, 1fr);
+    }
+  }
+}
 
 // ── Analysis block (L2 — steps pattern, rule-free) ──────────────────────────────
 // Light, type-forward: label left, % as a grey figure pushed to the far right (like the
@@ -427,7 +662,13 @@ pre code { border: none; padding: 0; }
 // ═══════════════════════════════════════════════════════════════════
 @media (max-width: 56rem) {
   :root { --cols: 8; }
-  // home .cat bands auto-reflow via `columns:12rem` — no per-tier tuning needed.
+  // home: the marginalia name column narrows rather than disappearing — a 16rem margin
+  // is a third of a 800px screen for one word. At 9rem the longest name ("soups & hot
+  // pots") wraps to two lines, which reads fine against a top rule. The list keeps ~3
+  // flow columns. Same layout as desktop, just tighter — the pair only breaks apart at
+  // the phone tier below.
+  .cat { --mg-name: 9rem; column-gap: 1.5rem; }
+  .cat-h { font-size: $fs-body; }
   .post-content table { grid-column: 1 / -1; }
   .post-content > ul { grid-column: 1 / -1; }
   body.section-articles .post-content h2 { grid-column: 1 / 3; }
@@ -469,6 +710,13 @@ pre code { border: none; padding: 0; }
   .post-content table { columns: 1; }
   // tap target + rule placement are inherited from the ≤56rem tier (asymmetric padding
   // summing past 44px) — no phone-specific override needed.
+  // phone: the marginalia pair collapses back to a stacked band — name on its own row
+  // above its list. A name column can't survive here (9rem is a quarter of a 390px
+  // screen), so the grid becomes one column and the name's top rule spans the full
+  // width, reading as the band's top edge exactly as it does in the pair.
+  .cat { grid-template-columns: 1fr; row-gap: 0; }
+  .cat-h { padding-bottom: calc(#{$base} * .5); font-size: $fs-cat; }
+  .cat-list { border-top: none; padding-top: 0; }   // the name's rule serves the band
   // pack the index 2-up on phones. `columns:12rem` (base) fits only ONE 192px column
   // at phone width, so a long category (sweets = 51) becomes a ~2000px single-file
   // scroll. Two even columns roughly halve the page height — the directory "grows in
@@ -518,7 +766,15 @@ pre code { border: none; padding: 0; }
   body.home .mh-title a, body.home .mh-title a:visited { color: $dark-ink; }
   .mh-back, .mh-sep, .mh-count, .mh-by, .mh-bysep, .mh-gh, .mh-gh:visited { color: $dark-grey; }
   .mh-back:hover, .mh-here, .mh-here:visited, .mh-name, .mh-name:visited, .mh-gh:hover { color: $dark-ink; }
+  // the category rules are $ink (#111) — on dark paper (#0c0c0d) that's ~1.05:1,
+  // i.e. invisible. (.cat-h has carried this bug since it had a bottom border;
+  // the marginalia layout gives it a top border and .cat-list one too.)
+  .cat-h { border-top-color: $dark-ink; }
+  .cat-list { border-top-color: $dark-ink; }
   .cat-list li { border-bottom-color: $dark-hair; }
+  // (.art-toc needs no dark overrides — it's authored against var(--ink)/--grey/
+  // --hair, which already flip above. See the note at its base rules.)
+  // (the ultrawide superrow separator needs no override — authored as var(--ink).)
   .post-content table td:first-child { color: $dark-ink; }
   .post-content ol > li::after { color: $dark-grey; }
   .post-content h2 { color: $dark-ink; }
@@ -539,9 +795,16 @@ pre code { border: none; padding: 0; }
 @media print {
   .site-header { display: none; }
   .post-figure { display: none; }           // don't waste ink on the hero photo
+  .art-toc { display: none; }               // a jump list is useless on paper
   body { background: #fff; color: #000; font-size: 11pt; }
   .wrapper { max-width: none; padding: 0; display: block; }
   .post, .post-content, .dir, .notes, .post-content ol, .post-content table { display: block; }
+  // the ultrawide spread's placement/superrow must not survive onto paper —
+  // `display: block` above kills the grid, but the pinned rows and the ::before
+  // separator would still linger if the sheet is wider than $split.
+  .post-content::before { display: none; }
+  .dir { columns: auto; }
+  .cat { display: block; }
   a { text-decoration: none !important; }
   // force-print colors ONLY on the riso article's ink swatches (scoped, not global)
   .pill-sample, [class*="swatch"] {

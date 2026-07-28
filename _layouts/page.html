@@ -85,6 +85,82 @@ layout: default
     }
   })();
   </script>
+  {%- elsif page.category == 'articles' -%}
+  {%- comment -%}
+    Articles get a contents list built from their own <h2>s. It renders in TWO
+    places from ONE <ol> — no duplicated markup, no second script:
+      · ≥ $split — a sticky rail in the outer-left margin
+      · ≤ 34rem  — a collapsed disclosure above the standfirst
+    Between those it's hidden by CSS.
+
+    It ships `open` and is CLOSED BY SCRIPT on the phone tier — not the reverse.
+    A closed <details> hides its own content (UA content-visibility), which CSS
+    cannot override portably, so a default-closed element would render the
+    ultrawide rail as a bare "Contents" label with no list. Shipping it open
+    also degrades correctly with JS off: a visible list everywhere, never a
+    hidden one.
+  {%- endcomment -%}
+  <details class="art-toc" open>
+    <summary><span class="art-toc-k">Contents</span></summary>
+    <nav aria-label="Contents"><ol></ol></nav>
+  </details>
+  <div class="post-content">
+    {{ content }}
+  </div>
+  <script>
+  // Build the article contents list from the body's own <h2>s so it can't drift,
+  // and highlight the section in view. Mirrors the doc-layout nav below.
+  (function () {
+    var body = document.querySelector('.post-content'),
+        wrap = document.querySelector('.art-toc'),
+        list = wrap && wrap.querySelector('ol');
+    if (!body || !list) return;
+    var heads = [].slice.call(body.querySelectorAll('h2'));
+    // fewer than 2 sections → nothing worth listing; drop the element entirely
+    // so neither the phone <details> nor the ultrawide rail reserves space.
+    if (heads.length < 2) { wrap.hidden = true; return; }
+    // On the phone tier the list starts collapsed (it costs one line instead of
+    // ~150px of the first screen). Everywhere else `open` must stay — the
+    // ultrawide rail IS the list. Matches the 34rem tier in main.scss.
+    var phone = window.matchMedia('(max-width: 34rem)');
+    if (phone.matches) wrap.removeAttribute('open');
+    // if the window crosses the tier, re-open so the rail is never a bare label
+    phone.addEventListener('change', function (e) {
+      if (e.matches) wrap.removeAttribute('open'); else wrap.setAttribute('open', '');
+    });
+    var links = {};
+    heads.forEach(function (h, i) {
+      var id = h.id || ('toc-h-' + (i + 1)); h.id = id;
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = '#' + id; a.textContent = h.textContent;
+      li.appendChild(a); list.appendChild(li);
+      links[id] = a;
+    });
+    // Highlight the section being read. Deliberately NOT the IntersectionObserver
+    // the doc-nav above uses: that observer only fires inside a band at the top of
+    // the viewport (rootMargin -75%), and a page shorter than ~2 viewports can't
+    // scroll its last sections into that band. The ultrawide rail makes articles
+    // exactly that short — on a 2560×1400 screen the highlight would stick on
+    // section 2 of 5 for the entire second half of the page. Taking the last
+    // heading above the viewport's midline, and clamping to the final heading at
+    // the page bottom, stays reachable at every viewport height.
+    var pending = false;
+    function sync() {
+      pending = false;
+      var mid = innerHeight / 2, cur = null;
+      heads.forEach(function (h) { if (h.getBoundingClientRect().top <= mid) cur = h; });
+      if (scrollY + innerHeight >= document.documentElement.scrollHeight - 4) cur = heads[heads.length - 1];
+      for (var k in links) links[k].classList.remove('cur');
+      if (cur && links[cur.id]) links[cur.id].classList.add('cur');
+    }
+    addEventListener('scroll', function () {
+      if (!pending) { pending = true; requestAnimationFrame(sync); }
+    }, { passive: true });
+    addEventListener('resize', sync);
+    sync();
+  })();
+  </script>
   {%- else -%}
   <div class="post-content">
     {{ content }}
