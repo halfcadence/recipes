@@ -490,10 +490,21 @@ $sr-body: 92;      // superrow content, second row
     // used to open a gap UNDER the separator. That air now lives above the rule
     // (see ::before), so the notes bind to it with the same 24px the Analysis
     // head uses — the rule reads as the band's top edge, not as a step underline.
-    .post-content:not(:has(> .analysis)) > #steps ~ .notes {
-      grid-column: 1 / -1; grid-row: $sr-head; grid-template-columns: repeat(4, 1fr);
-      margin-top: 0; padding-top: calc(#{$base} * 3);
-    }
+    //
+    // WRITTEN OUT IN FULL, DELIBERATELY — DO NOT NEST IT. See the note below the
+    // `body:not(.section-articles)` block: Ruby Sass silently DELETES a
+    // `:not(:has(…))` when it has to re-parse the selector to prepend a parent,
+    // and this rule shipped as an unconditional `> #steps ~ .notes` for a day
+    // because of it. Keeping `body:not(.section-articles)` inline avoids the
+    // re-parse. `&` does not help — it re-parses too.
+  }
+
+  body:not(.section-articles) .post-content:not(:has(> .analysis)) > #steps ~ .notes {
+    grid-column: 1 / -1; grid-row: $sr-head; grid-template-columns: repeat(4, 1fr);
+    margin-top: 0; padding-top: calc(#{$base} * 3);
+  }
+
+  body:not(.section-articles) {
 
     // ── THE SPLIT IS DECIDED BY THE RECIPE, NOT BY THE BREAKPOINT ─────────────
     // Ingredients are almost always shorter than steps, so an equal 12|12 split
@@ -528,36 +539,70 @@ $sr-body: 92;      // superrow content, second row
     // 336, and not opting out at all is 121 / 521 (tonyu-nabe — three groups
     // beside six steps — overshoots by 521px). 3+ wins on both. 106 recipes have
     // one group, 12 have two, 6 have three or more.
-    .post-content:has(> #steps ~ ol > li:nth-child(6)):not(:has(> table ~ table ~ table)) {
-      // `:has(~ #steps)` = "comes before Steps in source", the same device the
-      // row-assignment chain above uses. A blanket `#ingredients ~ *` chain
-      // carries three IDs and outranks `> #steps ~ ol` at two, which dragged the
-      // step list into the left bay — the one-ID-beats-any-classes trap again.
-      > *:has(~ #steps) { grid-column: 1 / 9; }
-      > #steps { grid-column: 10 / 27; }
+    //
+    // NOT NESTED — see the Ruby Sass note at the end of this file. Every rule
+    // below repeats the whole trigger because Sass would delete the
+    // `:not(:has(…))` the moment it had to re-parse the selector to prepend a
+    // parent, leaving the split to fire on all 124 recipes. `$split-6` is that
+    // trigger; interpolating a variable does NOT re-parse, so it stays intact.
+  }
 
-      // `columns`, not a second grid: a step list has to BALANCE across the two
-      // (7 steps → 4 + 3), and only multicol does that without measuring in JS.
-      // Reading order stays source order because multicol is column-major.
-      > #steps ~ ol {
-        grid-column: 10 / 27;
-        display: block; columns: 2; column-gap: 1.25rem;
-      }
-      > #steps ~ ol > li { break-inside: avoid; margin-bottom: calc(#{$base} * 3.5); }
+  $split-6: "body:not(.section-articles) .post-content:has(> #steps ~ ol > li:nth-child(6)):not(:has(> table ~ table ~ table))";
 
-      // The number moves to the HEAD of its step. A right-hung number works in one
-      // column because nothing is to its right; in two, the next column's text is
-      // 20px away and "01" reads as if it belongs to step 05. Leading the step
-      // removes the ambiguity without spending any of the measure on an alley.
-      // Same convention the notes band already uses.
-      > #steps ~ ol > li {
-        grid-template-columns: 2rem minmax(0, 34rem);
-        justify-content: start; column-gap: 0;
-      }
-      > #steps ~ ol > li::after { grid-column: 1; order: -1; justify-self: start; align-self: start; }
-    }
+  // `:has(~ #steps)` = "comes before Steps in source", the same device the
+  // row-assignment chain above uses. A blanket `#ingredients ~ *` chain carries
+  // three IDs and outranks `> #steps ~ ol` at two, which dragged the step list
+  // into the left bay — the one-ID-beats-any-classes trap again.
+  #{$split-6} > *:has(~ #steps) { grid-column: 1 / 9; }
+  #{$split-6} > #steps { grid-column: 10 / 27; }
+
+  // `columns`, not a second grid: a step list has to BALANCE across the two
+  // (7 steps → 4 + 3), and only multicol does that without measuring in JS.
+  // Reading order stays source order because multicol is column-major.
+  #{$split-6} > #steps ~ ol {
+    grid-column: 10 / 27;
+    display: block; columns: 2; column-gap: 1.25rem;
+  }
+
+  // The number moves to the HEAD of its step. A right-hung number works in one
+  // column because nothing is to its right; in two, the next column's text is
+  // 20px away and "01" reads as if it belongs to step 05. Leading the step
+  // removes the ambiguity without spending any of the measure on an alley.
+  // Same convention the notes band already uses.
+  #{$split-6} > #steps ~ ol > li {
+    break-inside: avoid; margin-bottom: calc(#{$base} * 3.5);
+    grid-template-columns: 2rem minmax(0, 34rem);
+    justify-content: start; column-gap: 0;
+  }
+  #{$split-6} > #steps ~ ol > li::after {
+    grid-column: 1; order: -1; justify-self: start; align-self: start;
   }
 }
+
+// ── RUBY SASS DELETES `:not(:has(…))` WHEN IT RE-PARSES A SELECTOR ────────────
+// GitHub Pages builds this file with jekyll-sass-converter 1.5.2 → Ruby Sass
+// 3.7.4, which predates `:has()`. Standalone it passes the selector through
+// untouched, so `.a:not(:has(> .x))` at the top level is fine. But the moment
+// Sass has to REBUILD the selector — nesting the rule inside a parent block, or
+// using `&` — it re-parses, fails to understand `:has` inside `:not`, and emits
+// the rule with the whole `:not(…)` **silently dropped**. No warning, exit 0.
+//
+// That is not hypothetical: the no-Analysis notes rule above shipped for a day as
+// an unconditional `> #steps ~ .notes`, which ties on specificity with
+// `> #analysis ~ .notes` and wins on source order — so all 70 recipes WITH an
+// Analysis got the 4-up full-width band, and the notes text printed on top of the
+// "analysis" head. It compiled clean locally (Dart Sass, via libsass) and clean on
+// Pages. Only diffing the LIVE css against a local compile caught it.
+//
+// So: any rule using `:not(:has(…))` must be written with its full selector at
+// the top level of its media block — no nesting, no `&`. Interpolating a string
+// variable (`#{$split-6}`) is safe: interpolation is textual and never re-parsed.
+//
+// To check before pushing, compile with the SAME compiler Pages uses and grep:
+//   gem install --user-install sass -v 3.7.4 --no-document --ignore-dependencies
+//   ruby -e 'require "sass"; src=File.read("assets/main.scss").sub(/\A---\s*\n(.*?\n)?---\s*\n/m,"");
+//            puts Sass::Engine.new(src, syntax: :scss, style: :compressed, cache: false).render' > /tmp/ruby.css
+//   grep -c ":not(:has" /tmp/ruby.css   # must equal the count in the source
 
 // ── ARTICLE body (body.section-articles): prose-forward, marginalia subheads ──
 // Standfirst = the lede paragraph, set larger. More air beneath the title.
