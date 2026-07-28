@@ -262,9 +262,32 @@ body:not(.section-articles) {
 
 // ARTICLE data tables (comparison grids etc.): plain hairline table, header row kept.
 // Small comparisons sit in the reading measure; WIDE ones (many columns) span the full
-// grid and scroll horizontally instead of crushing every column. `--w` counts columns.
+// grid and scroll themselves instead of crushing every column — decided by counting the
+// header cells in CSS, NOT by a hand-added `.wide-table` wrapper. Only 1 of the 15
+// articles that ship a table ever carried that wrapper, so the other 14 got no wide
+// treatment at all and five of them pushed the whole PAGE sideways (see below).
+//
+// `max-width` DOES NOT BOUND A TABLE. A table's used width can never fall below its
+// min-content width, and `white-space: nowrap` (set below, for numeric alignment) makes
+// every cell's min-content its full unbroken string — so one prose cell in a Notes
+// column set an 886px floor and dragged the table to 1446px inside a 576px slot,
+// scrolling /a/packing-caneles 699px sideways at 1440. The fix is two-part: stop making
+// prose cells unbreakable (below), and give many-column tables the whole grid (next rule).
 body.section-articles .post-content table {
   grid-column: 4 / 11; max-width: 36rem; border-collapse: collapse; width: 100%; margin: calc(#{$base} * 1) 0 calc(#{$base} * 2); font-size: $fs-small; }
+// 4+ columns → take the whole grid, so wide data gets room instead of being crushed into
+// the 36rem reading measure. Measured over the 15 table-bearing articles × 4 widths, this
+// plus the prose-wrap rule below takes page overflow 7275px → 0.
+//
+// NOT `display: block` + `overflow-x: auto` on the table, which is the obvious reflex: a
+// block-level table generates an ANONYMOUS inner table box that shrink-wraps its content,
+// so `width: 100%` sizes the scroll box but NOT the rows. Measured 336px of hairline
+// running past the last cell on /a/dialing-in-remi and 338px on /a/condensed-milk — it
+// trades page scroll for ragged rules, which is not a trade. Tables too wide even for the
+// full grid get the markup `.wide-table` wrapper below instead (that wrapper is a real
+// element, so it can be the scroll box while the table inside stays `display: table`).
+body.section-articles .post-content table:has(> thead > tr > th:nth-child(4)) {
+  grid-column: 1 / -1; max-width: none; }
 body.section-articles .post-content thead th { text-align: left; font-weight: 700; border-bottom: 1.5px solid $ink; padding: .35em .8em .35em 0; vertical-align: bottom; }
 body.section-articles .post-content tbody td { text-align: left; border-bottom: 1px solid $hair; padding: .4em .8em .4em 0; vertical-align: top; }
 body.section-articles .post-content tbody tr:last-child td { border-bottom: none; }
@@ -280,10 +303,32 @@ body.section-articles .post-content tbody td:first-child { padding-right: 1.5rem
   body.section-articles .post-content tbody td:not(:first-child),
   body.section-articles .post-content thead th:first-child,
   body.section-articles .post-content tbody td:first-child { white-space: nowrap; }
+  // …EXCEPT the last column, which in every one of these tables is prose, not a number
+  // ("Notes", "Why", a description). nowrap on prose is what set the min-content floor
+  // that made the max-width above powerless. This is the same diagnosis as the phone
+  // gate directly above — the fix there was scoped to ≤34rem, so desktop kept the bug
+  // for as long as these articles have existed. Wrapping the prose column alone removed
+  // 5 of 6 overflowing pages on its own; it comes AFTER the nowrap rule so it wins on
+  // source order at equal specificity.
+  body.section-articles .post-content thead th:last-child,
+  body.section-articles .post-content tbody td:last-child { white-space: normal; }
 }
-// wide tables (4+ data columns): full grid width, horizontal scroll, no cramming.
+// VERY wide tables (6+ columns) WRAPPED BY HAND in a <div class="wide-table">: the wrapper
+// is the scroll box and the table inside stays `display: table` with a 44rem floor, so it
+// can be scrolled past rather than crushed. The full-grid rule above handles 4–5 columns;
+// past that even 26 columns of grid isn't enough (/a/canele-bags' 7- and 8-column tables
+// still overflowed 659px at 1024), so those three are wrapped in the markup. The wrapper
+// also buys the sticky first column below, which a bare table can't have.
 body.section-articles .post-content .wide-table { grid-column: 1 / -1; max-width: none; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: calc(#{$base} * 2) 0 calc(#{$base} * 3); }
+// `display: table` is explicit because the ≤34rem block at the bottom of this file sets
+// `display: block` on bare article tables; without this the wrapped table would inherit it
+// on a phone and go ragged. Three classes beats that rule's two, so this wins.
 body.section-articles .post-content .wide-table table { display: table; width: 100%; max-width: none; min-width: 44rem; margin: 0; }
+// …and here the prose column must stay nowrap: this table is MEANT to be scrolled, and
+// letting the last column wrap would shrink it back under the 44rem floor and undo the
+// point of the wrapper. Overrides the `white-space: normal` in the media query above.
+body.section-articles .post-content .wide-table thead th:last-child,
+body.section-articles .post-content .wide-table tbody td:last-child { white-space: nowrap; }
 // freeze the row-label (first) column so scrolling right keeps "Flour %", "Sugar %"
 // visible — otherwise the numbers lose their labels off-screen on a phone.
 body.section-articles .post-content .wide-table th:first-child,
@@ -1010,6 +1055,18 @@ pre code { border: none; padding: 0; }
 
 // riso article swatches — REAL ink colors kept (content, not chrome)
 .pill-sample { display: inline-flex; align-items: center; color: #fff; padding: .125em .4em; margin: 0 .2em .3em 0; font-weight: 700; line-height: normal; }
+// White-on-swatch only works on a DARK swatch, and 49 of the 78 riso inks are light —
+// Fluorescent Yellow (#ffe900) rendered its own hex in white at 1.24:1, i.e. legible as
+// a shape and not as text; 27 pills were under 3:1 and 49 under 4.5:1. `.pill-dark` is
+// stamped per swatch in the markup by comparing WCAG contrast against white vs ink and
+// taking the winner, which puts every one of the 78 at ≥4.53:1. It has to be authored,
+// not computed: CSS has no relative-luminance test, and `color-contrast()` isn't in any
+// shipping engine. A flat ink-on-everything would have broken the 29 dark swatches
+// instead, so the choice is per-colour by construction.
+// $ink, not #111 literal, so a future paper/ink change carries — and NOT var(--ink):
+// the swatch background is a fixed real ink in both schemes, so the text over it must be
+// fixed too. This pair must never flip with the colour scheme.
+.pill-sample.pill-dark { color: $ink; }
 
 // ═══════════════════════════════════════════════════════════════════
 // RESPONSIVE COLUMN COUNT

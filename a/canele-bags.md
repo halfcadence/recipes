@@ -14,6 +14,8 @@ Three surfaces solve the same problem differently. **Glassine** is paper calende
 
 Sorted by value and fit (cheap, breathable, stamp-friendly first). Per-bag is at the listed pack size.
 
+<div class="wide-table" markdown="1">
+
 | Product | Size | Fits | Per-bag | Source | Grease-resistant | Stamp-friendly |
 |---|---|---|---|---|---|---|
 | Uline Flat Glassine S-8549 (FDA/USDA) | 4.5×6.75" | 1 easily / 2 snug | ~$0.03 | Uline (carton qty) | Yes | Poor (slick) |
@@ -27,6 +29,8 @@ Sorted by value and fit (cheap, breathable, stamp-friendly first). Per-bag is at
 | Generic 4×6 Glassine/Wax Cookie Bags | 4×6" | 1 / 2 tight | ~$0.08–0.12 | Amazon (100ct) | Yes | Poor–fair |
 | Self-Sealing Kraft Window Bags | 4×6" | 1, shows product | ~$0.09–0.14 | Amazon / Walmart | Yes | Kraft only, not film |
 | Foranda Kraft + stickers (pair size) | 5.7×6.5" | **2 side-by-side** | ~$0.11–0.16 | Amazon (100ct) | Yes | Good (kraft) |
+
+</div>
 
 The bolded kraft 4×6" is the all-rounder: cheap, breathes, and the only common surface that takes a rubber stamp cleanly. Glassine wins on looks and price-per-bag at carton volume but loses on stamping (see flags).
 
@@ -57,6 +61,8 @@ One sizing rule for the stand-up family: read the **base/gusset** dimension (the
 
 Sorted cheap-and-fits-first. Per-bag is at the listed pack size.
 
+<div class="wide-table" markdown="1">
+
 | Product | Shape | Size (W × gusset × H) | Fits | Per-bag | Source | Grease | Stampable |
 |---|---|---|---|---|---|---|---|
 | Bagcraft EcoCraft Natural Flat Bag | Roll-top (flat) | 5.5 × 4.5" | 1 + clean fold | ~$0.04 | WebstaurantStore (1,000ct) | Yes (EcoCraft) | Yes — stamp flat |
@@ -68,6 +74,8 @@ Sorted cheap-and-fits-first. Per-bag is at the listed pack size.
 | Carnival King Kraft Popcorn Bag | Flat-bottom SOS | 5.5 × 3.25 × 8.625" | 2 side-by-side | ~$0.13 | WebstaurantStore (500ct) | Plain kraft (moderate) | Yes — large front |
 | Bagcraft EcoCraft Poly-Lined Coffee Bag | Flat-bottom + tin-tie | 3.375 × 2.5 × 7.75" | 1; 2 stacked | ~$0.21 | WebstaurantStore (1,000ct) | Yes (poly — least breathable) | Outer kraft, yes |
 | Bagcraft EcoCraft Stand-Up Bakery Bag | Flat-bottom SOS + tin-tie | 4.75 × 2.5 × 9.5" | 1 easily; 2 stacked | ~$0.36 | WebstaurantStore (500ct) | Yes (EcoCraft) | Yes — matte kraft |
+
+</div>
 
 ### Closures
 
@@ -114,6 +122,8 @@ Two canelé constraints carry across every option here:
 
 Ranked best-to-worst for a canelé gift, assuming you liner each piece.
 
+<div class="wide-table" markdown="1">
+
 | Product | Style | Fits | Per-unit | Source | Look |
 |---|---|---|---|---|---|
 | Kraft ballotin | Tapered tuck/double-lock lid | ¼ lb (~4.1×2.6×1.9") = 1–2; ½ lb (~5.9×3.25×2.5") = 2–4; 1 lb = 4–6 | $0.60–1.20 (25–50 pk) | Amazon (GoGoPak), Nashville Wraps, Uline, WebstaurantStore | Most "confiserie," least "deli." Add a ribbon/belly-band and it reads bespoke. |
@@ -121,6 +131,8 @@ Ranked best-to-worst for a canelé gift, assuming you liner each piece.
 | Kraft drawer (matchbox) | Slide-out tray + sleeve; open ends breathe | 2 or 4 (macaron-drawer sizing) | $0.80–2.00 (10–25 pk) | Amazon, Etsy, Walmart | Modern, minimal; flat sleeve face is an ideal sticker/stamp canvas. Use a liner strip so pieces don't slide. |
 | Window patisserie box | Kraft tuck/lid with clear film window | 4×4×2.3" = 1–2; 6×6 + 4-cell divider = 4–6 | $0.40–1.10 (25–60 pk) | Amazon, Walmart (LotFancy), WebstaurantStore | Cheapest elevated step; window sells the dark shell. The practical pick for 4–6 counts. |
 | Hexagon favor box | Geometric tuck-top/lid | 1–2 (awkward past that) | $0.50–1.50 (12–50 pk) | Amazon, Etsy | Playful; good single-piece novelty. Confirm it isn't a gasketed/airtight style. |
+
+</div>
 
 ### Custom-printed boxes — the honest reality
 
