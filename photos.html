@@ -3,16 +3,26 @@ layout: page
 title: Photos
 category: colophon
 permalink: /photos/
+toc: true
 ---
 
 <style>
   /* Photos audit — uses the site tokens (var(--…) from main.scss), so type sizes
      stay on the $fs-* ramp and dark mode flips automatically (no per-page block). */
-  .ph-intro { grid-column: 1 / -1; color: var(--grey); max-width: 40rem; margin: 0 0 2rem; }
-  .ph-cat { grid-column: 1 / -1; font-size: var(--fs-cat); font-weight: 700; letter-spacing: -.04em;
-    text-transform: lowercase; margin: 2.5rem 0 1rem; border-bottom: 1px solid var(--ink); padding-bottom: .4rem; }
+  /* NO `grid-column` here. This page runs the doc layout (toc: true), where
+     main.scss places every direct child — full width below the ultrawide
+     breakpoint, head-in-the-margin above it. A `1 / -1` here ties that rule on
+     specificity and wins on source order (this <style> loads after main.css), so
+     it would drag the heads back out of the margin and onto the grid. */
+  .ph-intro { color: var(--grey); max-width: 40rem; margin: 0 0 2rem; }
+  /* NO type styling on the head either. It used to set its own 26px lowercase
+     ruled head (borrowed from the home directory's category band); now that this
+     page runs the doc layout it takes `.doc-body > h2` like steering and the other
+     three, which is the point of the shared treatment — one section head across
+     all five colophon pages, and at ultrawide it hangs in the margin. Only the
+     count stays local, because only this page has one. */
   .ph-count { color: var(--grey); font-size: var(--fs-small); font-weight: 400; margin-left: .6rem; letter-spacing: 0; font-variant-numeric: tabular-nums; }
-  .ph-grid { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .ph-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
   .ph-item { margin: 0; }
   .ph-item img { width: 100%; aspect-ratio: 16/9; object-fit: cover; background: var(--hair); display: block; }
   .ph-none { width: 100%; aspect-ratio: 16/9; border: 1px solid var(--hair);
@@ -35,7 +45,12 @@ fallback). {{ recipes | size }} recipes total.</p>
   {%- assign group = recipes | where: "category", cat | sort: "number" -%}
   {%- assign withphoto = 0 -%}
   {%- for p in group -%}{%- assign s = p.path | split: "/" | last | remove: ".md" -%}{%- if site.data.photos.specific[s] or p.image -%}{%- assign withphoto = withphoto | plus: 1 -%}{%- endif -%}{%- endfor -%}
-  <h2 class="ph-cat">{{ cat | replace: "soups","soups & hot pots" }}<span class="ph-count">{{ withphoto }}/{{ group | size }} with photo</span></h2>
+  {%- comment -%}
+    `data-toc-skip` keeps the count out of the contents rail — the doc layout builds
+    each entry from its head's own text, and without this the rail read
+    "mains3/22 with photo". The count belongs on the head, not in a jump list.
+  {%- endcomment -%}
+  <h2 class="ph-cat">{{ cat | replace: "soups","soups & hot pots" }}<span class="ph-count" data-toc-skip>{{ withphoto }}/{{ group | size }} with photo</span></h2>
   <div class="ph-grid">
     {%- for p in group -%}
       {%- assign slug = p.path | split: "/" | last | remove: ".md" -%}

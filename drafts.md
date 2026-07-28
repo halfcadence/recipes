@@ -3,6 +3,7 @@ layout: page
 title: Drafts
 category: colophon
 permalink: /drafts/
+toc: true
 ---
 
 Recipes that aren't finished. These are **untested** — written, the ratios checked on paper, but not yet baked and tasted, so they're kept out of the main recipe list. Numbers, illustrations, and a place in the index come once they're proven. Read them, bake them, tell me what to fix.

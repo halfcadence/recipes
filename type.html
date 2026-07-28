@@ -3,6 +3,7 @@ layout: page
 title: Typography
 category: colophon
 permalink: /type/
+toc: true
 ---
 
 <style>
@@ -11,9 +12,15 @@ permalink: /type/
   /* Chrome uses site tokens (var(--…)) so labels stay on the ramp + flip in dark.
      The ramp-demo <p> sizes and the palette swatches below are CONTENT — they
      demonstrate exact values, so those stay literal on purpose. */
-  .spec { margin: calc(var(--base) * 8) 0 0; }
-  .spec-label { font-size: var(--fs-kicker); font-weight: 700; letter-spacing: -.01em;
-    text-transform: lowercase; color: var(--grey); margin: 0 0 .8rem; }
+  /* Each specimen's label is a real <h2> now, not a styled <p>. This page runs the
+     doc layout (toc: true), and that layout builds its nav — and, at ultrawide,
+     hangs each section head in the margin — from the body's own direct-child <h2>s.
+     A <p class="spec-label"> was invisible to both, so the page had no sections to
+     name; five specimens is exactly what a contents rail is for. The heads take
+     `.doc-body > h2` from main.scss like the other four colophon pages, so there is
+     no `.spec-label` rule left to write. `.spec` keeps no top margin: the head above
+     it owns the rhythm now (main.scss sets `h2 + *`). */
+  .spec { margin: 0; }
   .spec .scale p { margin: 0 0 .4rem; }
   .spec .scale .dim { color: var(--grey); font-size: var(--fs-small); font-weight: 400; margin-left: .5rem; letter-spacing: 0; }
   .tone-row { display: flex; gap: 1rem; flex-wrap: wrap; }
@@ -32,21 +39,21 @@ never letter-spacing or all-caps. Pure ink on paper, inverting in dark mode. The
 title above shows the wordmark treatment: big, lowercase, tight. This page is set
 entirely in the site's own styles.</p>
 
-<div class="spec" style="margin-top:calc(var(--base,.5rem) * 4)">
-  <p class="spec-label">recipe title — with its number</p>
+<h2>recipe title — with its number</h2>
+<div class="spec">
   <div class="post-hero" style="margin:0">
     <span class="post-title">canelé<span class="hero-no">089</span></span>
   </div>
 </div>
 
+<h2>pangram</h2>
 <div class="spec">
-  <p class="spec-label">pangram</p>
   <p style="font-size:1.5rem;line-height:1.25;margin:0;max-width:40rem;letter-spacing:-.02em">
     Whisk five dozen jumbo eggs; fold in extra plump vanilla, quick yuzu &amp; crispy thyme.</p>
 </div>
 
+<h2>the ramp — six steps, applied everywhere (Univers Stepped, 15px body)</h2>
 <div class="spec">
-  <p class="spec-label">the ramp — six steps, applied everywhere (Univers Stepped, 15px body)</p>
   <div class="scale">
     <p style="font-size:clamp(2.6rem,9vw,5rem);font-weight:700;text-transform:lowercase;letter-spacing:-.045em;line-height:.9">title<span class="dim">clamp(2.6rem, 9vw, 5rem) · 700 · the one display size</span></p>
     <p style="font-size:1.625rem;font-weight:700;text-transform:lowercase;letter-spacing:-.04em">category head<span class="dim">26px · 700</span></p>
@@ -57,8 +64,8 @@ entirely in the site's own styles.</p>
   </div>
 </div>
 
+<h2>tones — the whole palette</h2>
 <div class="spec">
-  <p class="spec-label">tones — the whole palette</p>
   <div class="tone-row">
     <div class="tone"><div class="sw sw-ink"></div><div class="cap">ink #111</div></div>
     <div class="tone"><div class="sw sw-paper"></div><div class="cap">paper #fff</div></div>
@@ -72,8 +79,8 @@ entirely in the site's own styles.</p>
   documents the riso ink system that inspired them.</p>
 </div>
 
+<h2>numerals — tabular, decimal-leading-zero for counts</h2>
 <div class="spec">
-  <p class="spec-label">numerals — tabular, decimal-leading-zero for counts</p>
   <p style="font-variant-numeric:tabular-nums;font-size:1.2rem;letter-spacing:-.01em">
     01 · 02 · 03 &nbsp; 124 &nbsp; 16.8% &nbsp; 115–140g &nbsp; 2½ oz</p>
 </div>
