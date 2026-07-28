@@ -413,8 +413,45 @@ $sr-body: 92;      // superrow content, second row
     .post-content > p:first-child { grid-row: 1; }
     .post-content > #ingredients { grid-row: 2; }
     .post-content > #steps { grid-row: 2; }
-    .post-content > #ingredients ~ table { grid-row: 3; }
     .post-content > #steps ~ ol { grid-row: 3 / span $steps-span; }
+    // …unless the recipe offers TWO methods as two step lists (kombu-dashi: cold
+    // brew / simmer, the only one). Both <ol>s would take `3 / span 60` and
+    // overlap, so a recipe with a second list opts out of the deep span and lets
+    // its right half auto-place in order. It loses nothing: the span exists only
+    // to keep a long list from inflating the LEFT half's rows, and a two-method
+    // recipe's lists are short.
+    .post-content:has(> #steps ~ ol ~ ol) > #steps ~ ol { grid-row: auto; }
+
+    // The LEFT half needs one row PER BLOCK, in source order — a single
+    // `#ingredients ~ table { grid-row: 3 }` put every following table on row 3,
+    // so tonkatsu's three tables (main + sauce + to-serve) rendered stacked on
+    // top of each other, and `dense` backfilled their `###` subheads into the
+    // empty row 1 ABOVE the "ingredients" head. 24 recipes carry more than one
+    // table before Steps and 13 carry `###` subheads, so this is the common case,
+    // not an edge one.
+    //
+    // Rows are assigned by counting PRECEDING SIBLINGS (`~ *` chains), which walks
+    // source order without caring what the elements are — the same reason the
+    // half-assignment uses `#id ~ *` rather than nth-child. Each chain of length N
+    // matches every block at depth N *or deeper*, so the rules must be emitted
+    // shallow-to-deep: they share one specificity and the last match wins, leaving
+    // each block on its own true row.
+    //
+    // `:has(~ #steps)` is what keeps this in the LEFT half — it means "has #steps
+    // as a later sibling", i.e. comes before Steps in source. Without it the chain
+    // also matches #steps, the steps <ol>, .analysis and .notes (all of them
+    // siblings of #ingredients too) and would drag the right half and the superrow
+    // out of place: at (1,1,0) it outweighs `.post-content > .analysis` at (0,2,0),
+    // the same one-ID-beats-any-number-of-classes trap as the stranded notes.
+    //
+    // Depth 9 covers the worst recipes (sukiyaki, ishikari-nabe: 4 tables + 4
+    // subheads); a deeper one falls through to auto-placement, which stacks
+    // downward rather than overlapping.
+    $chain: "";
+    @for $i from 1 through 9 {
+      $chain: $chain + " ~ *";
+      .post-content > #ingredients#{$chain}:has(~ #steps) { grid-row: #{2 + $i}; }
+    }
 
     // ── the superrow ──
     .post-content > #analysis { grid-row: $sr-head; margin-top: 0; padding-top: calc(#{$base} * 3); }
@@ -428,9 +465,16 @@ $sr-body: 92;      // superrow content, second row
     // rules 24px apart, one of them shorter, read as a mistake.
     // var(--ink), not $ink: this rule is nested two selectors deep, so the flat
     // `.post-content::before` dark override can't reach it (same trap as .art-toc).
+    //
+    // The air belongs ABOVE the rule, not below it. The `.notes` base rule carries
+    // `margin-top: $base * 10` (80px), which used to land *under* the separator —
+    // so the rule sat 0px off the last step and 80px off the notes, reading as an
+    // underline on the steps rather than the top edge of a new band. The margin
+    // moves onto the rule's own row as padding, and the notes bind tight to it.
     .post-content:has(> .analysis, > .notes)::before {
       content: ""; grid-column: 1 / -1; grid-row: $sr-rule;
       border-top: 1px solid var(--ink);
+      margin-top: calc(#{$base} * 10);
     }
     .post-content > .notes::before { display: none; }
     .post-content > .notes { grid-template-columns: repeat(2, 1fr); }
@@ -442,8 +486,13 @@ $sr-body: 92;      // superrow content, second row
     // this selector is (0,3,0) and loses to the `> #steps ~ *` right-half rule
     // above at (1,1,0) — one ID outweighs any number of classes — so the notes
     // stayed pinned in the right half with the whole left half left empty.
+    // `margin-top: 0` matters: the base `.notes` rule's 80px top margin is what
+    // used to open a gap UNDER the separator. That air now lives above the rule
+    // (see ::before), so the notes bind to it with the same 24px the Analysis
+    // head uses — the rule reads as the band's top edge, not as a step underline.
     .post-content:not(:has(> .analysis)) > #steps ~ .notes {
       grid-column: 1 / -1; grid-row: $sr-head; grid-template-columns: repeat(4, 1fr);
+      margin-top: 0; padding-top: calc(#{$base} * 3);
     }
   }
 }
