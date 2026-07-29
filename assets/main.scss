@@ -1110,7 +1110,19 @@ pre code { border: none; padding: 0; }
   // the phone tier below.
   .cat { --mg-name: 9rem; column-gap: 1.5rem; }
   .cat-h { font-size: $fs-body; }
-  .post-content table { grid-column: 1 / -1; }
+  // Same implicit-track bug as the phone tier, one tier up and 20px instead of 80. At 8
+  // columns `1 / 9` is the real last line and fits, but `.analysis` asks for `1 / 10`, so
+  // the grid grows ONE implicit track and its one 20px gap — and every `1 / -1` block
+  // (both section heads, the step list, the notes band) stops 20px short of the content
+  // edge while `.analysis` alone reaches it. Visible on any recipe with an Analysis band;
+  // `gamjatang`, which has none, measures flush at this width. Collapsing `.analysis` to
+  // `-1` removes the track, and at 8 columns it wanted the full width anyway.
+  .analysis { grid-column: 1 / -1; }
+  // `.post-content table` is (0,1,1) and LOSES to the `.post-content > table` that sets
+  // `1 / 9`, so this rule has never done anything — the table was only ever reaching the
+  // content edge because its own `1 / 9` happened to be the last line at this tier. Fixed
+  // to match specificity, same trap as the four other places in this file.
+  body:not(.section-articles) .post-content > table { grid-column: 1 / -1; }
   .post-content > ul { grid-column: 1 / -1; }
   body.section-articles .post-content h2 { grid-column: 1 / 3; }
   body.section-articles .post-content p,
@@ -1149,6 +1161,35 @@ pre code { border: none; padding: 0; }
   // child-combinator specificity that sets `columns: 2 12rem`, or it won't override
   body:not(.section-articles) .post-content > table { columns: 1; }
   .post-content table { columns: 1; }
+
+  // Every `1 / -1` block on a recipe was 80px NARROWER than its own content column —
+  // 278px inside 358px at 390px, and the same 80px at 320/360/540. Section heads, the
+  // step list, the notes and analysis bands, and body paragraphs: all short, on all 124
+  // recipes, for as long as this tier has existed.
+  //
+  // Cause is `1 / 9` on a 4-track grid. Lines 5–9 don't exist, so the grid generates four
+  // IMPLICIT columns to reach line 9. They're 0px wide (no template size) but `column-gap:
+  // 1.25rem` still applies BETWEEN them, so the grid grows four 20px gaps = the missing
+  // 80px. `1 / -1` means "to the end of the EXPLICIT grid" — line 5 — so those blocks stop
+  // short while the table, spanning to the real line 9, alone reaches the content edge.
+  // (`-1` counting explicit-only is the spec'd behaviour, not a browser quirk.)
+  //
+  // Fixed by removing the implicit tracks at their source rather than by chasing `-1`
+  // everywhere: at 4 columns the ingredient column IS the content column, so every rule
+  // that asks for `1 / 9` here should ask for `1 / -1`. That leaves the grid 4 tracks
+  // wide, `-1` == line 5 == the real edge, and every block agrees again.
+  //
+  // Each selector below repeats the specificity of the rule it overrides — `.post-content
+  // > table` is (0,1,2) and `.post-content table` would lose to it, the trap that left
+  // this tier's own `columns: 1` needing the `body:not(…)` prefix two lines above, and
+  // that has now decided five fixes in this file.
+  body:not(.section-articles) .post-content > table { grid-column: 1 / -1; }
+  .post-content ul { grid-column: 1 / -1; }
+  .grind { grid-column: 1 / -1; }
+  // …including the lede, whose whole point is to share the ingredient table's right edge:
+  // if the table returns to `-1` and the lede keeps `1 / 9`, the lede alone would hold the
+  // implicit tracks open and be the one block that's 80px short.
+  body:not(.section-articles) .post-content > p:first-child { grid-column: 1 / -1; }
   // tap target + rule placement are inherited from the ≤56rem tier (asymmetric padding
   // summing past 44px) — no phone-specific override needed.
   // phone: the marginalia pair collapses back to a stacked band — name on its own row
