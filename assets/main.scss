@@ -828,10 +828,27 @@ pre code { border: none; padding: 0; }
 // DOC LAYOUT — reference pages (steering) with toc:true. Sticky section
 // nav in a narrow left column, body in a reading measure on the right.
 // ═══════════════════════════════════════════════════════════════════
+// `minmax(0,1fr)`, not `1fr`, in every one of this layout's templates. A bare `1fr`
+// track has an automatic minimum of MIN-CONTENT, so the track can't shrink below the
+// longest unbreakable token inside it and the grid grows past the viewport instead.
+// Measured: /changelog at 320px held a 381px track inside a 288px container — 77px of
+// sideways scroll — because a line I wrote in an entry, `390/560/900/1440/1791/1792/
+// 1900/2560`, has a 338px min-content (no break opportunity in a slash-run), and
+// /steering held 317px because of a 294px Unsplash URL in a `<code>`. `minmax(0,…)`
+// removes the floor; nothing inside can inflate the grid again.
+//
+// This is the same class of bug as the recipe grid's implicit tracks, from the
+// opposite end: there the grid grew from a line that didn't exist, here from content
+// that couldn't shrink. Neither showed up as an element overflowing its own box —
+// only as `scrollWidth` on the deployed page.
+//
+// The cap alone is not the whole fix. It stops the GRID growing, but a 294px token
+// still spills out of a 288px track, so the `overflow-wrap` rules further down are
+// its other half; ship them together or the overflow just moves.
 .doc-layout {
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: 14rem 1fr;
+  grid-template-columns: 14rem minmax(0,1fr);
   gap: 1.25rem;
   align-items: start;
 }
@@ -933,10 +950,29 @@ pre code { border: none; padding: 0; }
 .doc-body :not(pre) > code {
   border: none; padding: .05em .25em;
   background: rgba(17,17,17,.06); font-weight: 500;
+  // the other half of the `minmax(0,1fr)` fix above. Inline code on these pages is
+  // mostly paths, URLs and flags — tokens with no break opportunity at all, and the
+  // longest ones (a 294px Unsplash query string on /steering) are wider than a 320px
+  // phone's content column on their own. `anywhere` rather than `break-word` because
+  // only `anywhere` also reduces the min-content contribution: belt and braces, so a
+  // future template that forgets the `minmax(0,…)` doesn't reopen the same scroll.
+  // Scoped to inline code — `pre` is excluded by the selector and keeps scrolling,
+  // which is correct for a code block where a wrapped line changes its meaning.
+  overflow-wrap: anywhere;
 }
+// Prose can't break either: `390/560/900/1440/1791/1792/1900/2560` in a changelog
+// entry is one 338px word as far as the line breaker is concerned, and the same goes
+// for slash-runs, long hyphen-free identifiers, and the nav's own long section names.
+// `break-word` (not `anywhere`) here — the track is already capped, so this only has
+// to break the token that genuinely can't fit and shouldn't get license to hyphenate
+// ordinary prose at narrow widths.
+.doc-body > p, .doc-body > ul, .doc-body > ol, .doc-body li,
+.doc-body > h2, .doc-body > h3, .doc-nav a { overflow-wrap: break-word; }
 // ── narrow (≤46rem): the rail becomes a collapsed disclosure above the body ──
 @media (max-width: 46rem) {
-  .doc-layout { grid-template-columns: 1fr; }
+  // `minmax(0,1fr)` for the same reason as the base rule — and this is the tier where
+  // it actually bit, because it's the one where the single track IS the whole page.
+  .doc-layout { grid-template-columns: minmax(0,1fr); }
   // `grid-column: 1` on BOTH is what actually collapses this. Dropping the second
   // track alone never worked: `.doc-body` still carried `grid-column: 2` from its
   // base rule, and a grid item placed in a column the template doesn't define gets
@@ -984,7 +1020,7 @@ pre code { border: none; padding: 0; }
 // no <h2>s on the page → nothing to list. The script adds this instead of writing
 // inline styles, so the rule can differ per tier (below, the body just takes the
 // single column; at ultrawide it keeps its margin field — see that block).
-.doc-layout.doc-solo { grid-template-columns: 1fr; }
+.doc-layout.doc-solo { grid-template-columns: minmax(0,1fr); }   // capped, as above
 .doc-layout.doc-solo .doc-nav { display: none; }
 
 // ── ULTRAWIDE COLOPHON (≥ $split): the rail moves out, the heads move into the
