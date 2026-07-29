@@ -222,6 +222,36 @@ body.home .wrapper { max-width: none; }
 .post-content > * { grid-column: 1 / -1; }
 .post-content > p:first-child { font-size: $fs-lede; line-height: 1.35; margin: calc(#{$base} * 3) 0 0; }
 
+// …but the lede takes the INGREDIENT column, not the full content width. At 21px across
+// the whole 904px content box it ran 83 characters per line — the widest measure on the
+// site, in its largest body size, on the one paragraph a reader meets first (24 of the 25
+// ledes measured over 75cpl; median 87). `1 / 9` is the same track range the ingredient
+// table below it uses, so the lede's right edge now lines up with the table's instead of
+// overhanging it by 300px, and it matches what the lede ALREADY does at $split. 596px ≈
+// 55cpl at 1440.
+//
+// Scoped away from articles: those set their own standfirst at `1 / 10` + `max-width:
+// 40rem` further down, and are a different measure by design.
+//
+// MUST stay below $split. The spread has TWO branches — the 6+-step recipes get `1 / 9`
+// (so this value agrees with it) but the shorter ones get the half-split `1 / 13`, and an
+// unscoped rule here outranks that (one class + child combinator beats `.post-content >
+// *`). whipped-cream's lede then sat 286px short of its own ingredient table's right edge
+// at 1900px — the exact misalignment this rule exists to remove, reintroduced one tier up.
+//
+// `1 / 9` is safe at every tier it does apply to, not just the 12-col one: line 9 exists
+// outright on the 8- and 12-col grids, and on the 4-col phone grid the ingredient table's
+// own `1 / 9` has already created the implicit tracks, so this resolves to the full
+// content width rather than overflowing it. On phones that's actually a WIDENING,
+// 278→358px, because of a separate pre-existing bug: the table's `1 / 9` adds four 0px
+// implicit tracks to the 4-col grid, and `1 / -1` resolves to the end of the EXPLICIT
+// grid, so every `1 / -1` block on a recipe stops 80px short of the content edge. Not
+// fixed here — that's every step, head, and note on every recipe, not the lede.
+// Verified 390/560/900/1440/1900 — zero page overflow, articles and colophon unchanged.
+@media (max-width: $split - .0625rem) {
+  body:not(.section-articles) .post-content > p:first-child { grid-column: 1 / 9; }
+}
+
 // ── RECIPE body: section headers + ingredient table + steps ──
 // section headers (## Ingredients / ## Steps → h2)
 .post-content h2 {
