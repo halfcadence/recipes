@@ -1166,6 +1166,34 @@ pre code { border: none; padding: 0; }
   body.section-articles .post-content ol,
   body.section-articles .post-content > p:first-child,
   body.section-articles .post-content table { grid-column: 3 / -1; }
+  // LET THE CELLS WRAP IN THIS BAND. The `white-space: nowrap` on article table cells
+  // starts at `min-width: 34.01rem` — one pixel above where the phone scroll box stops —
+  // so between 545 and 896px a bare table was both unshrinkable and unscrollable and
+  // pushed the whole PAGE sideways: `canele-ratio-analysis` 314px at 545px, still 159px
+  // at 700px; `canele-bags` 181px; `salt-in-baking` 90px; `condensed-milk` 49px. Only
+  // self-correcting at 897px, where the 12-column grid finally gives the table room.
+  //
+  // nowrap exists to keep numeric columns on one line, which is right once there's width
+  // for it. In this band there isn't, and a wrapped `1.8–2.2%` is still perfectly legible.
+  // Unsetting it here lets every table fit its column outright — no page scroll and no
+  // scroll box.
+  //
+  // Extending the phone scroll box (`display: block; overflow-x: auto`) up to 56rem was
+  // the obvious fix and I nearly shipped it: it reports **zero page overflow** at every
+  // width, which is exactly what the measurement asked for. The screenshot is what
+  // killed it — the table becomes its own scroll box at its column width and CLIPS the
+  // prose column mid-word, 54–342px of it, so the Notes text is unreadable until you
+  // find a second, nested scroll gesture. It converted a visible bug into an invisible
+  // one and the geometry called that a pass. Recorded because the numbers preferred the
+  // wrong answer.
+  // The `:not(:first-child)` in the rule this overrides contributes a class-level, making
+  // it (0,3,3); a plain `thead th` here is (0,2,3) and would lose. So the override carries
+  // the same `:not()` — the sixth time the specificity ladder has decided a fix in this
+  // file, and the reason each one now says so out loud.
+  body.section-articles .post-content thead th:not(:first-child),
+  body.section-articles .post-content tbody td:not(:first-child),
+  body.section-articles .post-content thead th:first-child,
+  body.section-articles .post-content tbody td:first-child { white-space: normal; }
   .notes { grid-template-columns: repeat(2, 1fr); }        // 2-up footnotes on tablet
   // hero title: at the clamp floor long titles wrap to 3–4 lines; .9 leading (tighter
   // than cap height) collides descenders into the next line's caps/accents. Loosen the
@@ -1256,11 +1284,13 @@ pre code { border: none; padding: 0; }
   body.section-articles .post-content ol,
   body.section-articles .post-content > p:first-child,
   body.section-articles .post-content table { grid-column: 1 / -1; }
-  // Bare (non-.wide-table) article tables: even with cells wrapping, a 4–5-column
-  // table's min-width can still beat a 390px screen (sum of longest words per column),
-  // pushing the whole PAGE into horizontal scroll. Make each bare table its own scroll
-  // container so any residual width scrolls the table, not the page. `> table` targets
-  // direct-child markdown tables only — the `.wide-table` divs already scroll themselves.
+  // Bare (non-.wide-table) article tables: on a real phone even fully wrapped cells can
+  // beat the screen (the min-content sum of the longest word per column), so each bare
+  // table is its own scroll container and any residual width scrolls the table, not the
+  // page. `> table` only — the `.wide-table` divs already scroll via their wrapper.
+  // Kept phone-only ON PURPOSE: this is the last-resort backstop, and the tier above now
+  // fixes its own band by letting cells wrap instead, because a scroll box at column
+  // width clips the prose column (see the note there).
   body.section-articles .post-content > table {
     display: block; overflow-x: auto; -webkit-overflow-scrolling: touch;
   }
