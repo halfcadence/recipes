@@ -304,7 +304,7 @@ body:not(.section-articles) {
 // scrolling /a/packing-caneles 699px sideways at 1440. The fix is two-part: stop making
 // prose cells unbreakable (below), and give many-column tables the whole grid (next rule).
 body.section-articles .post-content table {
-  grid-column: 4 / 11; max-width: 36rem; border-collapse: collapse; width: 100%; margin: calc(#{$base} * 1) 0 calc(#{$base} * 2); font-size: $fs-small; }
+  grid-column: 1 / 10; max-width: 36rem; border-collapse: collapse; width: 100%; margin: calc(#{$base} * 1) 0 calc(#{$base} * 2); font-size: $fs-small; }
 // 4+ columns → take the whole grid, so wide data gets room instead of being crushed into
 // the 36rem reading measure. Measured over the 15 table-bearing articles × 4 widths, this
 // plus the prose-wrap rule below takes page overflow 7275px → 0.
@@ -321,10 +321,28 @@ body.section-articles .post-content table:has(> thead > tr > th:nth-child(4)) {
 body.section-articles .post-content thead th { text-align: left; font-weight: 700; border-bottom: 1.5px solid $ink; padding: .35em .8em .35em 0; vertical-align: bottom; }
 body.section-articles .post-content tbody td { text-align: left; border-bottom: 1px solid $hair; padding: .4em .8em .4em 0; vertical-align: top; }
 body.section-articles .post-content tbody tr:last-child td { border-bottom: none; }
-body.section-articles .post-content thead th:not(:first-child),
-body.section-articles .post-content tbody td:not(:first-child) { text-align: right; font-variant-numeric: tabular-nums; }
+// EVERY COLUMN LEFT-ALIGNED. These tables were right-aligning all non-first columns,
+// which is correct for a figure and wrong for the last column, which in every one of the
+// 15 table-bearing articles is prose — "Most well-established range", "Sweet doughs go
+// lower". Right-aligned prose ragged on its LEFT edge, so each row's sentence started at
+// a different x and the eye had to re-find the beginning on every line; it was the
+// ugliest thing on an article page. Left for all of them: the figures are short and the
+// column is narrow, so they still read as a stack, and `tabular-nums` keeps the digits on
+// a shared grid so `1.8–2.2%` above `0.5–1.5%` still lines up figure-for-figure.
+//
+// PADDING IS UNCHANGED — 1.5rem after the row label, the base rule's .8em after the rest.
+// Widening the middle columns' gutter to match the label's was my first version and it
+// silently inflated every table by 13.6px per interior column: no page overflow (a phone
+// table is its own scroll box by design) but MORE sideways scroll inside it —
+// packing-caneles' phone table went from 99px of scroll to 140px, salt-in-baking from 0
+// to 11. Left-alignment was the change asked for; the gutter was collateral. The last
+// column loses its trailing .8em instead, which costs nothing and buys those pixels back.
+body.section-articles .post-content thead th,
+body.section-articles .post-content tbody td { text-align: left; font-variant-numeric: tabular-nums; }
 body.section-articles .post-content thead th:first-child,
 body.section-articles .post-content tbody td:first-child { padding-right: 1.5rem; }
+body.section-articles .post-content thead th:last-child,
+body.section-articles .post-content tbody td:last-child { padding-right: 0; }
 // nowrap keeps numeric grids aligned on tablet/desktop, but on a phone a nowrap prose
 // cell ("Custardy, soft (but fragile)") blows a bare (non-.wide-table) table past the
 // viewport with no scroll container → page-level horizontal scroll. Gate nowrap to ≥34rem.
@@ -688,26 +706,70 @@ $sr-body: 92;      // superrow content, second row
 //            puts Sass::Engine.new(src, syntax: :scss, style: :compressed, cache: false).render' > /tmp/ruby.css
 //   grep -c ":not(:has" /tmp/ruby.css   # must equal the count in the source
 
-// ── ARTICLE body (body.section-articles): prose-forward, marginalia subheads ──
-// Standfirst = the lede paragraph, set larger. More air beneath the title.
+// ── ARTICLE body (body.section-articles): one flush measure, ruled section heads ──
+// THE MARGINALIA SUBHEAD IS GONE. It was the reason the articles read as documents
+// while the recipes read as designed, and the numbers say why: the head was $fs-small
+// — 13px, the SMALLEST type on the page, smaller than the body it introduced — hung in
+// a 211px column that carried nothing else, so at 1440 the left third of every article
+// was empty and four things sat on four different left edges (title 268, standfirst
+// 268, head 268, prose 499). A recipe's section head is $fs-lede/700 flush left and its
+// body starts on the same line as its title; that is the whole difference in feel.
+//
+// So an article now borrows the RECIPE's grammar instead of inventing its own: head at
+// $fs-lede over a full-measure hairline, prose directly beneath it, everything on the
+// title's own left edge. One edge, one measure, structure carried by the rule and the
+// size rather than by position in an empty margin.
+//
+// The measure is UNCHANGED at 36rem — it measured 71cpl, which was never the problem
+// (see the standfirst note below for the one place the width does move).
 body.section-articles .post-hero { padding-bottom: calc(#{$base} * 3); }
 body.section-articles .post-content { margin-top: calc(#{$base} * 4); }
+// The standfirst keeps its 40rem/`$fs-lede` setting but now shares the body's start
+// line, so its left edge agrees with the prose under it instead of being the only
+// block in the old margin column that reached back to line 1.
 body.section-articles .post-content > p:first-child {
-  grid-column: 1 / 10; font-size: $fs-lede; line-height: 1.35; color: $ink; margin: 0 0 calc(#{$base} * 3); max-width: 40rem;
+  grid-column: 1 / 10; font-size: $fs-lede; line-height: 1.35; color: $ink; margin: 0 0 calc(#{$base} * 4); max-width: 40rem;
 }
-// Marginalia subhead sits in the left margin (cols 1–3); the section body reads in cols 4–10.
-// align-self:start + a matching top offset on the block that shares its row → they top-align.
+// Section head: recipe-sized, flush, on a rule that spans the reading measure — NOT
+// `1 / -1`. A hairline out to the content edge would be 904px against a 576px column
+// of prose and would read as a page divider, not as this section's head. `1 / 10` is
+// the standfirst's own span, so head rule, standfirst and prose share a right edge too.
+//
+// `border-top` + `padding-top`, not a `::before`: the head is a grid item on
+// `.post-content`, and a pseudo-element would need its own placement at every tier.
+//
+// `max-width: 40rem` IS THE RULE'S LENGTH, and it is why this needs no ultrawide branch.
+// `1 / 10` is a share of the field, and the article's field is not a fixed width: it's
+// 904px up to $split but 1263–1824px past it, where `.post-content` takes 19 of 26
+// columns beside the sticky rail. Uncapped, the hairline measured 942px at 1792 and
+// 1363px at 2560 against the same 576px column of prose — a rule two and a half times
+// the length of the text under it stops reading as that section's head and reads as a
+// page divider, which is the failure this treatment exists to avoid. 40rem pins it to
+// the standfirst's own right edge at every width instead, so head rule, standfirst and
+// prose share three left edges and two right ones. Below $split it's inert at the 8- and
+// 4-col tiers (504px and 358px fields are already narrower than 640px).
 body.section-articles .post-content h2 {
-  grid-column: 1 / 4; align-self: start;
-  font-size: $fs-small; font-weight: 700; text-transform: lowercase; letter-spacing: -0.02em;
-  line-height: 1.4; margin: calc(#{$base} * 7) 0 0;
+  grid-column: 1 / 10; align-self: start; max-width: 40rem;
+  font-size: $fs-lede; font-weight: 700; text-transform: lowercase; letter-spacing: -0.035em;
+  line-height: 1; margin: calc(#{$base} * 8) 0 calc(#{$base} * 2.5);
+  // `var(--hair)`, NOT the `$hair` token. Same trap as `.art-toc` and `.doc-nav`, and I
+  // walked into it: this rule is (0,2,1), so a flat override in the dark block at the
+  // bottom of the file would lose and every section rule would stay #e4e4e4 on #0c0c0d
+  // paper — the BRIGHTEST line on a dark article, eight times over. Caught in the dark
+  // screenshot, not in the geometry, which is indifferent to color.
+  border-top: 1px solid var(--hair); padding-top: calc(#{$base} * 2);
 }
 body.section-articles .post-content p,
 body.section-articles .post-content ul,
 body.section-articles .post-content ol {
-  grid-column: 4 / 11; align-self: start; max-width: 36rem; margin: 0 0 1rem;
+  grid-column: 1 / 10; align-self: start; max-width: 36rem; margin: 0 0 1rem;
 }
-body.section-articles .post-content h2 + * { margin-top: calc(#{$base} * 7); }   // body rises with its subhead
+// The old `h2 + *` lifted the first block by 7 units so it could TOP-ALIGN with a head
+// hanging beside it in another column. Nothing hangs beside it now — the head is above
+// its prose in the same column — so that offset would just tear the first paragraph
+// away from the head it belongs to. Zero, and the head's own bottom margin does the
+// spacing. Must be reset explicitly: the rule is authored for both layouts.
+body.section-articles .post-content h2 + * { margin-top: 0; }
 // undo the recipe steps/ingredient transforms so article lists render as plain lists
 body.section-articles .post-content ol { display: block; list-style: decimal; padding-left: 1.3rem; }
 body.section-articles .post-content ul { display: block; list-style: disc; padding-left: 1.3rem; }
@@ -1160,12 +1222,16 @@ pre code { border: none; padding: 0; }
   // to match specificity, same trap as the four other places in this file.
   body:not(.section-articles) .post-content > table { grid-column: 1 / -1; }
   .post-content > ul { grid-column: 1 / -1; }
-  body.section-articles .post-content h2 { grid-column: 1 / 3; }
+  // 8-col tier: the flush layout needs no re-placement of the head (it isn't hanging in
+  // a margin any more) — everything just takes the full field. Line 10 doesn't exist on
+  // an 8-col grid, so `1 / -1` rather than leaving the base rule's `1 / 10` to grow four
+  // implicit tracks; that is the exact bug documented on `.analysis` a few lines up.
+  body.section-articles .post-content h2,
   body.section-articles .post-content p,
   body.section-articles .post-content ul,
   body.section-articles .post-content ol,
   body.section-articles .post-content > p:first-child,
-  body.section-articles .post-content table { grid-column: 3 / -1; }
+  body.section-articles .post-content table { grid-column: 1 / -1; }
   // LET THE CELLS WRAP IN THIS BAND. The `white-space: nowrap` on article table cells
   // starts at `min-width: 34.01rem` — one pixel above where the phone scroll box stops —
   // so between 545 and 896px a bare table was both unshrinkable and unscrollable and
@@ -1277,8 +1343,10 @@ pre code { border: none; padding: 0; }
   // .grind / .analysis span to grid lines (9,10) that don't exist at 4-col — pin full width
   .grind, .analysis { grid-column: 1 / -1; }
   .grind td:last-child { white-space: normal; }            // long settings can wrap on phone
-  body.section-articles .post-content h2 { grid-column: 1 / -1; margin: calc(#{$base} * 5) 0 calc(#{$base} * 1); }
-  body.section-articles .post-content h2 + * { margin-top: 0; }
+  // phone: same flush layout, tighter. The head keeps its rule (it's the only thing
+  // separating sections on a 4-col page) but loses two thirds of its top air and drops to
+  // $fs-cat's neighbour — $fs-lede at 4-col width is already 2 lines for most heads.
+  body.section-articles .post-content h2 { grid-column: 1 / -1; margin: calc(#{$base} * 5) 0 calc(#{$base} * 1.5); padding-top: calc(#{$base} * 1.5); }
   body.section-articles .post-content p,
   body.section-articles .post-content ul,
   body.section-articles .post-content ol,
