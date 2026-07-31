@@ -6,6 +6,10 @@ permalink: /changelog/
 toc: true
 ---
 
+## 2026-07-31
+
+- Add Crème Brûlée recipe — cream : yolk : sugar at 5 : 1 : 0.8 by weight (500g / 100g / 80g), set in a 325°F water bath to 170°F and torched to order. Sugar sits under the classic 20% of the cream because the crust adds 8g per serving; shallow ramekins are specified, since deep ones take 45–60 minutes and eat mostly custard. Notes cover yolks-only, the crust (blot first, plain granulated, torch not broiler), and that the scald exists to extract the vanilla bean rather than to dissolve anything — with paste you can whisk it cold. Analysis shows the same pure egg set as Purin with the fat inverted (30.6% vs 7.1%). Photo registry entry added.
+
 ## 2026-07-28
 
 - **The article pages read as documents while the recipes read as designed, and the reason was measurable: an article's section head was the smallest type on the page.** It was set at `$fs-small` — **13px**, smaller than the 15px body it introduced — hung in a 211px margin column that carried nothing else, so at 1440px the left third of every article was empty and four things sat on four different left edges (title 268, standfirst 268, head 268, prose **499**). A recipe's section head is 21px/700 flush left. Articles now borrow that grammar outright: **21px head over a hairline at the reading measure, prose directly beneath it, everything on the title's own left edge.** Four left edges → **one**, at every width from 320px up.

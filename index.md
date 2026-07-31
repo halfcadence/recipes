@@ -69,6 +69,7 @@ title: Recipes
 <li><a href="./r/bay-leaf-panna-cotta">Bay Leaf Panna Cotta</a></li>
 <li><a href="./r/whipped-cream">Whipped Cream</a></li>
 <li><a href="./r/purin">Purin</a></li>
+<li><a href="./r/creme-brulee">Crème Brûlée</a></li>
 <li><a href="./r/flan-patissier">Flan Pâtissier</a></li>
 <li><a href="./r/black-tea-pudding">Black Tea Pudding</a></li>
 <li><a href="./r/double-chocolate-chip-cookies">Double Chocolate Chip Cookies</a></li>
