@@ -11,12 +11,7 @@ The Parisian custard tart: a thick, sliceable vanilla custard — thickened with
 
 | | |
 |---|---|
-| | **Pâte brisée** |
-| 200g | all-purpose flour |
-| 100g | cold unsalted butter, cubed |
-| 1 | egg yolk |
-| 40g | ice water |
-| 3g | salt |
+| 1 batch | [pâte brisée]({{ '/r/pate-brisee' | relative_url }}) — 200g flour, 100g cold butter, 1 egg yolk, 40g ice water, 3g salt |
 | | **Custard** |
 | 860g | whole milk |
 | 100g | whole egg (~2 large) |
@@ -28,7 +23,7 @@ The Parisian custard tart: a thick, sliceable vanilla custard — thickened with
 
 ## Steps
 
-1. **Pâte brisée:** rub the cold butter into the flour and salt until sandy with some pea-sized bits. Mix the yolk into the ice water, add, and bring together into a dough — don't overwork. Flatten, wrap, and chill at least 1 hour.
+1. Make the [pâte brisée]({{ '/r/pate-brisee' | relative_url }}) and chill the disc at least 1 hour.
 
 2. Roll the dough 2–3mm thick. Set the 8×2-inch ring on a parchment-lined baking sheet and line it — base and full tall sides — pressing into the corner and leaving a slight overhang. Dock the base with a fork. **Freeze the lined shell hard, at least 30 minutes** (no blind-baking needed — see notes). Preheat the oven to 400°F.
 
@@ -74,5 +69,6 @@ Total custard: **1046g** (pâte brisée shell excluded)
 - **All-milk is the classic, and it's rich enough.** Traditional flan parisien uses no cream (Conticini's is famously milk-only) — the richness comes from the egg yolks (fat + lecithin) and the ~5% cornstarch body, concentrated by the long bake. Cream isn't needed.
 - **Richer version, if you want it.** Replace **~100–170g of the milk with heavy cream** (up to ~20% of the dairy) for a fuller, silkier custard — a ~150g splash roughly doubles the fat. Don't go past ~20%: cream fat inhibits the starch set, so more than that softens the slice toward a loose custard tart (add an extra yolk to protect the slice if you push it). Or whisk **100–120g mascarpone** into the finished custard (Grolet-style) — its low free water enriches without softening the set as much as pourable cream, and push the vanilla up to match.
 - **Make-ahead.** This is a next-day dessert by design — the flavor and set are both better after a night in the fridge. Keeps 3–4 days refrigerated.
+- **The shell is its own recipe.** [Pâte brisée]({{ '/r/pate-brisee' | relative_url }}) — 200g flour, 100g butter, a yolk, 40g ice water, 3g salt — with the rolling, freezing, and blind-baking detail there. Its own analysis (55% structure, 24% fat) is separate from the custard's below.
 - Related custards on this site: [Purin]({{ '/r/purin' | relative_url }}) (pure egg-set, no starch), [Black Tea Pudding]({{ '/r/black-tea-pudding' | relative_url }}), and the [Cream in Custards]({{ '/a/cream-in-custards' | relative_url }}) article.
 </div>

@@ -157,6 +157,7 @@ title: Recipes
 <li><a href="./r/thyme-streusel">Thyme Streusel</a></li>
 <li><a href="./r/salted-caramel-sauce">Salted Caramel Sauce</a></li>
 <li><a href="./r/coffee-syrup">Coffee Syrup</a></li>
+<li><a href="./r/pate-brisee">Pâte Brisée</a></li>
 </ul>
 </section>
 <section class="cat" id="articles" markdown="0">
