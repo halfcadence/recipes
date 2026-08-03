@@ -4,6 +4,13 @@ title: Recipes
 ---
 
 <div class="dir">
+<section class="cat" id="starters" markdown="0">
+<h2 class="cat-h"><span class="lb">Starters</span></h2>
+<ul class="cat-list">
+<li><a href="./r/shrimp-cocktail">Shrimp Cocktail</a></li>
+<li><a href="./r/coctel-de-camaron">Coctel de Camarón</a></li>
+</ul>
+</section>
 <section class="cat" id="mains" markdown="0">
 <h2 class="cat-h"><span class="lb">Mains</span></h2>
 <ul class="cat-list">
@@ -158,6 +165,7 @@ title: Recipes
 <li><a href="./r/salted-caramel-sauce">Salted Caramel Sauce</a></li>
 <li><a href="./r/coffee-syrup">Coffee Syrup</a></li>
 <li><a href="./r/pate-brisee">Pâte Brisée</a></li>
+<li><a href="./r/cocktail-sauce">Cocktail Sauce</a></li>
 </ul>
 </section>
 <section class="cat" id="articles" markdown="0">
@@ -183,6 +191,7 @@ title: Recipes
 <li><a href="./a/risograph-printing-and-color">Risograph Printing and Color</a></li>
 <li><a href="./a/dialing-in-remi">Dialing In the Remi</a></li>
 <li><a href="./a/dialing-in-lagom-mini">Dialing In the Lagom Mini 2</a></li>
+<li><a href="./a/poaching-shrimp">Poaching Shrimp</a></li>
 </ul>
 </section>
 <section class="cat" id="colophon" markdown="0">

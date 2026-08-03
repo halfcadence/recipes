@@ -17,7 +17,7 @@ The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this docu
 ## Front Matter
 
 - `title` MUST be included.
-- `category` MUST be included. Valid values: `drinks`, `sweets`, `mains`, `soups`, `sides`, `pantry`, `articles`, `colophon`. This places the recipe in its section on the homepage and drives the breadcrumb label. A new category MAY be created if a recipe does not fit an existing one.
+- `category` MUST be included. Valid values: `starters`, `drinks`, `sweets`, `mains`, `soups`, `sides`, `pantry`, `articles`, `colophon`. This places the recipe in its section on the homepage and drives the breadcrumb label. A new category MAY be created if a recipe does not fit an existing one.
 - `number` MUST be included for recipes. Use the next sequential number (chronological). Articles and style guide pages MUST NOT have a number.
 - `source` SHOULD be included if the recipe is adapted from an external source.
 - `chef` MAY be included if the source chef is notable.
