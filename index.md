@@ -29,6 +29,7 @@ title: Recipes
 <li><a href="./r/thin-burgers">Thin Burgers</a></li>
 <li><a href="./r/tonkatsu">Tonkatsu</a></li>
 <li><a href="./r/nitsuke">Nitsuke</a></li>
+<li><a href="./r/salmon-en-papillote">Salmon en Papillote</a></li>
 <li><a href="./r/nicoise-salad">Salade Niçoise</a></li>
 <li><a href="./r/gyoza">Gyoza</a></li>
 <li><a href="./r/steak-au-poivre">Steak au Poivre</a></li>
