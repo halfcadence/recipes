@@ -1,6 +1,6 @@
 ---
 title: Tamago Sando
-category: mains
+category: starters
 number: 88
 source: https://sudachirecipes.com/tamago-sando/
 chef: Yuto Omura (Sudachi Recipes)

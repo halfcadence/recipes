@@ -9,6 +9,14 @@ title: Recipes
 <ul class="cat-list">
 <li><a href="./r/shrimp-cocktail">Shrimp Cocktail</a></li>
 <li><a href="./r/coctel-de-camaron">Coctel de Camarón</a></li>
+<li><a href="./r/cucumber-tea-sandwiches">Cucumber Tea Sandwiches</a></li>
+<li><a href="./r/watercress-tea-sandwiches">Watercress Tea Sandwiches</a></li>
+<li><a href="./r/ham-and-cheese-tea-sandwiches">Ham & Cheese Tea Sandwiches</a></li>
+<li><a href="./r/tamago-sando">Tamago Sando</a></li>
+<li><a href="./r/tortilla-espanola">Tortilla</a></li>
+<li><a href="./r/tortilla-espanola-lazy">Lazy Tortilla</a></li>
+<li><a href="./r/chawanmushi">Chawanmushi</a></li>
+<li><a href="./r/savory-canele">Savory Canelé</a></li>
 </ul>
 </section>
 <section class="cat" id="mains" markdown="0">
@@ -19,8 +27,6 @@ title: Recipes
 <li><a href="./r/karaage">Karaage</a></li>
 <li><a href="./r/prime-rib">Prime Rib</a></li>
 <li><a href="./r/thin-burgers">Thin Burgers</a></li>
-<li><a href="./r/tortilla-espanola">Tortilla</a></li>
-<li><a href="./r/tortilla-espanola-lazy">Lazy Tortilla</a></li>
 <li><a href="./r/tonkatsu">Tonkatsu</a></li>
 <li><a href="./r/nitsuke">Nitsuke</a></li>
 <li><a href="./r/nicoise-salad">Salade Niçoise</a></li>
@@ -29,10 +35,6 @@ title: Recipes
 <li><a href="./r/simmered-potato-chicken">Simmered Potato and Chicken</a></li>
 <li><a href="./r/japanese-beef-curry">Japanese Beef Curry</a></li>
 <li><a href="./r/ankake-don">Ankake Don</a></li>
-<li><a href="./r/tamago-sando">Tamago Sando</a></li>
-<li><a href="./r/cucumber-tea-sandwiches">Cucumber Tea Sandwiches</a></li>
-<li><a href="./r/watercress-tea-sandwiches">Watercress Tea Sandwiches</a></li>
-<li><a href="./r/ham-and-cheese-tea-sandwiches">Ham & Cheese Tea Sandwiches</a></li>
 <li><a href="./r/tteokbokki">Tteokbokki</a></li>
 <li><a href="./r/kimbap">Kimbap</a></li>
 <li><a href="./r/galbi">Galbi</a></li>
@@ -45,7 +47,6 @@ title: Recipes
 <li><a href="./r/ushiojiru">Ushiojiru</a></li>
 <li><a href="./r/tonjiru">Tonjiru</a></li>
 <li><a href="./r/doenjang-jjigae">Doenjang Jjigae</a></li>
-<li><a href="./r/chawanmushi">Chawanmushi</a></li>
 <li><a href="./r/sukiyaki">Sukiyaki</a></li>
 <li><a href="./r/ishikari-nabe">Ishikari Nabe</a></li>
 <li><a href="./r/tonyu-nabe">Tonyu Nabe</a></li>
@@ -108,7 +109,6 @@ title: Recipes
 <li><a href="./r/big-batch-hong-kong-milk-tea-canele">Big-Batch Milk Tea Canelé</a></li>
 <li><a href="./r/thai-tea-canele">Thai Tea Canelé</a></li>
 <li><a href="./r/big-batch-thai-tea-canele">Big-Batch Thai Tea Canelé</a></li>
-<li><a href="./r/savory-canele">Savory Canelé</a></li>
 <li><a href="./r/crispy-butter-mochi">Crispy Butter Mochi</a></li>
 <li><a href="./r/cherry-clafoutis">Cherry Clafoutis</a></li>
 <li><a href="./r/sour-cream-cherry-clafoutis">Sour Cream Cherry Clafoutis</a></li>

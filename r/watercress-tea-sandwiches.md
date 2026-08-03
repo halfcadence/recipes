@@ -1,6 +1,6 @@
 ---
 title: Watercress Tea Sandwiches
-category: mains
+category: starters
 number: 87
 source: https://www.food.com/recipe/victorian-watercress-tea-sandwiches-for-high-tea-and-picnics-412074
 yield: 4

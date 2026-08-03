@@ -1,6 +1,6 @@
 ---
 title: Ham & Cheese Tea Sandwiches
-category: mains
+category: starters
 number: 89
 yield: 4
 ---

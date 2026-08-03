@@ -1,6 +1,6 @@
 ---
 title: Tortilla
-category: mains
+category: starters
 number: 34
 source: https://www.seriouseats.com/tortilla-espanola-spanish-potato-omelette-recipe
 chef: Daniel Gritzer, Serious Eats

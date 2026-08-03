@@ -1,6 +1,6 @@
 ---
 title: Cucumber Tea Sandwiches
-category: mains
+category: starters
 number: 86
 source: https://www.alphafoodie.com/cucumber-sandwich/
 chef: Samira Kazan (Alphafoodie)

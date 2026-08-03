@@ -1,6 +1,6 @@
 ---
 title: Lazy Tortilla
-category: mains
+category: starters
 number: 33
 source: https://acooknamedmatt.com/recipes/the-best-spanish-style-tortilla-using-potato-chips-meal-prep-breakfast/
 ---

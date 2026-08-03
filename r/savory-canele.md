@@ -1,6 +1,6 @@
 ---
 title: Savory Canelé
-category: sweets
+category: starters
 number: 116
 yield: 12
 ---
