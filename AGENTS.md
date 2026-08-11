@@ -62,6 +62,7 @@ px/rem. Homepage full-width via `body.home`; the modular grid is `--cols` 12→8
 
 ## Git
 
-- Commit/push only when asked. Co-author trailer:
+- **Auto-commit and push all work.** Don't wait to be asked — once a unit of work is complete and its checks pass (`check-numbers.py`, `check-links.py`, and `check-selectors.py` for stylesheet changes), commit it and push to `main`. Group unrelated changes into separate, logically-scoped commits. Co-author trailer:
   `Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>`
+- The GitHub Pages destructive-safety exceptions still apply: never `git push --force`, never rewrite pushed history, never delete git internals.
 - The GitHub remote uses a stored credential at `~/.config/git/recipes-credentials`.
