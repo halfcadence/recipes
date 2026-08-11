@@ -121,6 +121,7 @@ title: Recipes
 <li><a href="./r/bakery-style-banana-bread">Bakery-Style Banana Bread</a></li>
 <li><a href="./r/tarte-tatin">Tarte Tatin</a></li>
 <li><a href="./r/french-silk-pie">French Silk Pie</a></li>
+<li><a href="./r/lemon-tart">Lemon Tart</a></li>
 <li><a href="./r/chocolate-souffle">Chocolate Soufflé</a></li>
 </ul>
 </section>
@@ -166,6 +167,7 @@ title: Recipes
 <li><a href="./r/salted-caramel-sauce">Salted Caramel Sauce</a></li>
 <li><a href="./r/coffee-syrup">Coffee Syrup</a></li>
 <li><a href="./r/pate-brisee">Pâte Brisée</a></li>
+<li><a href="./r/tart-shell">Tart Shell</a></li>
 <li><a href="./r/cocktail-sauce">Cocktail Sauce</a></li>
 </ul>
 </section>
