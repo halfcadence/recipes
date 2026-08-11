@@ -15,10 +15,6 @@ Recipes that aren't finished. These are **untested** — written, the ratios che
 - [Spiced Thai Tea Canelé]({{ '/drafts/spiced-thai-tea-canele' | relative_url }}) — rum restored plus a chai-style warm spice. A cool-weather version.
 - [Taro Mochi Canelé]({{ '/drafts/taro-mochi-canele' | relative_url }}) — a chewy mochi base under a taro custard layer; the taro-mochi answer to the Chocolate Mochi Canelé.
 
-## Tarts
-
-- [Pineapple Cake Tart]({{ '/drafts/pineapple-cake-tart' | relative_url }}) — the crust and filling of a Taiwanese pineapple cake, opened out into a 9-inch tart shell. Pressed, not rolled.
-
 ## Drinks
 
 - [Thai Iced Tea]({{ '/drafts/thai-iced-tea' | relative_url }}) — cha yen from the mix, sweetened lightly (condensed + evaporated milk, no added sugar), well below the café default.

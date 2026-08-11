@@ -1,7 +1,7 @@
 ---
 title: Pineapple Cake Tart
 category: sweets
-permalink: /drafts/pineapple-cake-tart
+number: 133
 yield: one 9-inch tart, 12 slices
 ---
 
