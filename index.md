@@ -122,6 +122,7 @@ title: Recipes
 <li><a href="./r/tarte-tatin">Tarte Tatin</a></li>
 <li><a href="./r/french-silk-pie">French Silk Pie</a></li>
 <li><a href="./r/lemon-tart">Lemon Tart</a></li>
+<li><a href="./r/lemon-curd-tart">Lemon Curd Tart</a></li>
 <li><a href="./r/pineapple-cake-tart">Pineapple Cake Tart</a></li>
 <li><a href="./r/chocolate-souffle">Chocolate Soufflé</a></li>
 </ul>
