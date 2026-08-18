@@ -6,6 +6,10 @@ permalink: /changelog/
 toc: true
 ---
 
+## 2026-08-18
+
+- **Added [Bacon]({{ '/r/bacon' | relative_url }}) (No. 135) to Sides — oven bacon started in water, written for BLTs.** 400°F on a rimmed half-sheet with ~120g of water: the pan holds at ~212°F until the water boils off, so the fat renders before the surface browns, which is what keeps the strips flat and stops the thin edges scorching. 22–30 min standard cut, 30–35 thick. Notes carry the sandwich specifics (halve the strips crosswise before baking; toast the bread in the reserved fat) and the two failure modes — a crowded pan steams, and a rack costs the even browning that frying in the rendered fat gives. No hero photo; nothing in the registry depicts it.
+
 ## 2026-08-11
 
 - **Added [Tart Shell]({{ '/r/tart-shell' | relative_url }}) (No. 131) to Pantry — Dominique Ansel's go-to sweet shell.** Sourced to his "go-to vanilla sablé" from *Everyone Can Bake* (2020) via [The Splendid Table](https://www.splendidtable.org/story/2020/03/11/my-go-to-vanilla-sable-tart-shell) and the [Food52](https://food52.com/recipes/82970-go-to-sable-tart-shell-recipe) reproduction, which agree on quantities and the 350°F / 15–20 min blind-bake: 185g flour, 85g confectioners' sugar, 50g cornstarch, 130g butter, 1 egg, salt, vanilla. **Verifying the source corrected the brief:** the recipe was requested as an almond-flour pâte sucrée, but Ansel's canonical shell uses cornstarch, not almond flour, and is rubbed rather than creamed (a sablé) — no reputable source reproduces an almond-flour version, so the cornstarch sablé is what shipped.

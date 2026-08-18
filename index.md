@@ -67,6 +67,7 @@ title: Recipes
 <li><a href="./r/kinpira-gobo">Kinpira Gobo</a></li>
 <li><a href="./r/ohitashi">Ohitashi</a></li>
 <li><a href="./r/potato-salad">Potato Salad</a></li>
+<li><a href="./r/bacon">Bacon</a></li>
 </ul>
 </section>
 <section class="cat" id="sweets" markdown="0">
