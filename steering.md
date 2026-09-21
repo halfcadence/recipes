@@ -128,7 +128,7 @@ remaining record of that era. There is no live accent color.)
 ## AI Artifacts
 
 - Articles and recipes MUST NOT contain meta-commentary about how content was produced, rephrased, or licensed. No "content rephrased for compliance" or similar.
-- Source attribution belongs in a Sources section at the end of the article, as plain links. Inline parenthetical citations (e.g., "from [Source Name](url)") MAY be used sparingly when the source is directly relevant to a specific claim.
+- Source attribution belongs in a Sources section at the end of the article, as plain links. Inline parenthetical citations (e.g., "from `[Source Name](url)`") MAY be used sparingly when the source is directly relevant to a specific claim.
 - AI tool instructions (compliance notices, verbatim reproduction limits, attribution boilerplate) MUST NOT leak into published content.
 
 ## Changelog

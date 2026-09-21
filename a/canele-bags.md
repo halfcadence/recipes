@@ -4,7 +4,7 @@ category: articles
 permalink: /a/canele-bags
 ---
 
-Single-serve and pair packaging for canelés: waxed, glassine, and grease-resistant kraft bags, ranked by value and fit. Companion to [Packing Canelés](./packing-caneles), which covers boxes. Sizes assume a 55mm mold: a baked canelé ~55–60mm across the top (with liner), ~50mm tall.
+Single-serve and pair packaging for canelés: waxed, glassine, and grease-resistant kraft bags, ranked by value and fit. Companion to [Packing Canelés]({{ '/a/packing-caneles' | relative_url }}), which covers boxes. Sizes assume a 55mm mold: a baked canelé ~55–60mm across the top (with liner), ~50mm tall.
 
 ## What these bags are
 
@@ -36,7 +36,7 @@ The bolded kraft 4×6" is the all-rounder: cheap, breathes, and the only common 
 
 ## Per-bag economics
 
-Cheapest viable per-bag is **~$0.03** — Uline glassine or Epakh kraft at carton/500-count volume. At realistic small-shop pack sizes (100ct), figure **~$0.08–0.13** for a flat bag. A *stamped* bag costs essentially the same: pigment-pad ink amortizes to roughly **$0 per impression** (one craft pad does thousands), so a stamped kraft 4×6" lands at **~$0.10–0.13 all-in** — call it a dime. That's well under the box options in [Packing Canelés](./packing-caneles): a single kraft window box runs more in materials and footprint, where a bag is one cheap sheet of paper. Against the product itself it's noise — a canelé costs well under a dollar to make and sells for several. A $0.03–$0.10 bag is **under 3% of a $4 price**. Packaging is not where the money is; pick for fit and look, not to save pennies.
+Cheapest viable per-bag is **~$0.03** — Uline glassine or Epakh kraft at carton/500-count volume. At realistic small-shop pack sizes (100ct), figure **~$0.08–0.13** for a flat bag. A *stamped* bag costs essentially the same: pigment-pad ink amortizes to roughly **$0 per impression** (one craft pad does thousands), so a stamped kraft 4×6" lands at **~$0.10–0.13 all-in** — call it a dime. That's well under the box options in [Packing Canelés]({{ '/a/packing-caneles' | relative_url }}): a single kraft window box runs more in materials and footprint, where a bag is one cheap sheet of paper. Against the product itself it's noise — a canelé costs well under a dollar to make and sells for several. A $0.03–$0.10 bag is **under 3% of a $4 price**. Packaging is not where the money is; pick for fit and look, not to save pennies.
 
 ## Recommendation
 
