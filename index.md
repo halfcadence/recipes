@@ -39,6 +39,7 @@ title: Recipes
 <li><a href="./r/tteokbokki">Tteokbokki</a></li>
 <li><a href="./r/kimbap">Kimbap</a></li>
 <li><a href="./r/galbi">Galbi</a></li>
+<li><a href="./r/zhu-you-fan">Zhu You Fan</a></li>
 </ul>
 </section>
 <section class="cat" id="soups" markdown="0">
