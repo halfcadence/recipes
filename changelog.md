@@ -6,6 +6,13 @@ permalink: /changelog/
 toc: true
 ---
 
+## 2026-09-21
+
+- **Promoted [Thai Iced Tea]({{ '/r/thai-iced-tea' | relative_url }}) out of Drafts into Drinks (No. 136), with the tea mix doubled to 60g.** The draft (2026-08) was complete, so promotion was a status change plus one quantity: 30g → 60g of ChaTraMue mix against the same 480g of water, i.e. ~6% → **~12.5%**, roughly double a café steep. The sweetener is untouched — the recipe's whole argument is that a low-sugar cha yen only works if the brew is strong enough to survive the milk and the ice, and this pushes that further rather than compromising on it.
+  - Two consequences the doubled dose forces into the method: **more tannin** (it reads drier, not just stronger), and **water lost to the grounds** — 60g of dust-fine mix holds back well over 100g of the 480g, so Step 2 now says to squeeze the cloth filter or the two glasses come up short. The strength note carries 30g (~6%) as the way back to a café-strength brew with the sweetness unchanged.
+  - Dropped the `/drafts/` permalink for the sequential number, removed it from `drafts.md` (whose Drinks section is now empty and gone), and repointed the canelé cross-link from the unlisted `/drafts/thai-tea-canele-v2` to the published [Thai Tea Canelé]({{ '/r/thai-tea-canele' | relative_url }}) — no published page links into `drafts/`. No hero photo; nothing in the registry verifiably depicts it.
+  - **Not tasted at 60g.** The ratio is sound on paper and the direction is the one the recipe already argued for, but the doubled steep has not been brewed and drunk.
+
 ## 2026-08-18
 
 - **Added [Bacon]({{ '/r/bacon' | relative_url }}) (No. 135) to Sides — oven bacon started in water, written for BLTs.** 400°F on a rimmed half-sheet with ~120g of water: the pan holds at ~212°F until the water boils off, so the fat renders before the surface browns, which is what keeps the strips flat and stops the thin edges scorching. 22–30 min standard cut, 30–35 thick. Notes carry the sandwich specifics (halve the strips crosswise before baking; toast the bread in the reserved fat) and the two failure modes — a crowded pan steams, and a rack costs the even browning that frying in the rendered fat gives. No hero photo; nothing in the registry depicts it.

@@ -133,6 +133,7 @@ title: Recipes
 <ul class="cat-list">
 <li><a href="./r/cold-brew-tea">Cold Brew Tea</a></li>
 <li><a href="./r/shaken-black-tea">Shaken Black Tea</a></li>
+<li><a href="./r/thai-iced-tea">Thai Iced Tea</a></li>
 <li><a href="./r/strawberry-milk">Strawberry Milk</a></li>
 <li><a href="./r/matcha-americano">Matcha Americano</a></li>
 <li><a href="./r/matcha-latte">Matcha Latte</a></li>
