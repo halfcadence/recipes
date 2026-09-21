@@ -168,6 +168,7 @@ title: Recipes
 <li><a href="./r/awase-dashi">Awase Dashi</a></li>
 <li><a href="./r/mentsuyu">Mentsuyu</a></li>
 <li><a href="./r/ponzu">Ponzu</a></li>
+<li><a href="./r/miso-dressing">Miso Dressing</a></li>
 <li><a href="./r/thyme-streusel">Thyme Streusel</a></li>
 <li><a href="./r/salted-caramel-sauce">Salted Caramel Sauce</a></li>
 <li><a href="./r/coffee-syrup">Coffee Syrup</a></li>
