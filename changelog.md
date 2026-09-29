@@ -8,6 +8,7 @@ toc: true
 
 ## 2026-09-29
 
+- **Respecced [Margarita]({{ '/r/margarita' | relative_url }}) to 2 oz tequila, 1 oz Cointreau, 1 oz lime, no syrup.** Replaces the liquor.com spec (½ oz orange liqueur + ½ oz agave). Analysis recomputed: ~22% ABV finished, ~8g sugar, all from the Cointreau (taken as 40% ABV, ~25% sugar). Agave and triple-sec substitutions moved to Notes.
 - Named the vermouth in [Dirty Martini]({{ '/r/dirty-martini' | relative_url }}): Martini & Rossi Extra Dry.
 - **Added [Dirty Martini]({{ '/r/dirty-martini' | relative_url }}) to Drinks (No. 141)** — 2 oz Edinburgh Seaside gin, 1 oz dry vermouth, ½ oz olive brine, stirred, one olive. Analysis assumes 43% for Seaside and ~16% for the vermouth. No hero photo.
 

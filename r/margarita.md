@@ -2,7 +2,6 @@
 title: Margarita
 category: drinks
 number: 25
-source: https://www.liquor.com/recipes/margarita/
 ---
 
 ## Ingredients
@@ -10,15 +9,14 @@ source: https://www.liquor.com/recipes/margarita/
 | | |
 |---|---|
 | 2 oz | blanco tequila (100% agave) |
-| 1/2 oz | orange liqueur |
+| 1 oz | Cointreau |
 | 1 oz | lime juice, freshly squeezed |
-| 1/2 oz | agave syrup |
 | | Lime wheel, for garnish |
 | | Kosher salt for rim (optional) |
 
 ## Steps
 
-1. Add tequila, orange liqueur, lime juice, and agave syrup to a shaker with ice. Shake until well-chilled.
+1. Add tequila, Cointreau, and lime juice to a shaker with ice. Shake until well-chilled, about 12 seconds.
 
 2. Strain into a rocks glass over fresh ice.
 
@@ -28,15 +26,15 @@ source: https://www.liquor.com/recipes/margarita/
 
 <div class="analysis" markdown="1">
 
-Total drink: **~160g** (after shaking; 2 oz tequila, ½ oz orange liqueur, 1 oz lime, ½ oz agave)
+Total drink: **~157g** (after shaking; 2 oz tequila at 40%, 1 oz Cointreau at 40% and ~25% sugar, 1 oz lime)
 
 | Component | Amount | % of drink |
 |---|---|---|
-| Alcohol (ethanol) | ~24g | 15.0% |
-| Sugar | ~15g | 9.4% |
-| Water + dilution | ~121g | 75.6% |
+| Alcohol (ethanol) | ~28g | 17.8% |
+| Sugar (from Cointreau) | ~8g | 5.1% |
+| Water + dilution | ~121g | 77.1% |
 
-**A sour built on tequila — ~15% ABV finished and noticeably sweet at ~9%.** The agave syrup plus the orange liqueur's own sugar stack up, which is why a margarita reads richer than a whiskey sour despite similar structure. Shaking adds ~40g dilution; the lime keeps it from cloying. Drop the agave and it swings tart and lean (a Tommy's-style).
+**Three of the four ounces are 40% spirit, so it finishes near 22% ABV — stronger and drier than most margaritas.** All of the sugar comes from the Cointreau, which is why Cointreau and lime can sit at 1:1 with no syrup. Shaking adds ~40g of water.
 
 </div>
 
@@ -45,6 +43,7 @@ Total drink: **~160g** (after shaking; 2 oz tequila, ½ oz orange liqueur, 1 oz 
 
 - Use 100% blue agave tequila. If the label doesn't say this, it's mixto.
 - Fresh lime juice only — never premade sour mix.
-- The agave syrup version (Tommy's Margarita style) is a common substitute for orange liqueur-heavy versions.
+- A generic triple sec is 15–30% ABV and sweeter than Cointreau. Substituting one makes the drink weaker and sweeter; cut it to ¾ oz.
+- For a softer drink, add ¼ oz agave syrup. For a Tommy's-style margarita, replace the Cointreau with ½ oz agave syrup.
 
 </div>
