@@ -34,7 +34,7 @@ title: Recipes
 <li><a href="./r/gyoza">Gyoza</a></li>
 <li><a href="./r/steak-au-poivre">Steak au Poivre</a></li>
 <li><a href="./r/simmered-potato-chicken">Simmered Potato and Chicken</a></li>
-<li><a href="./r/japanese-beef-curry">Japanese Beef Curry</a></li>
+<li><a href="./r/japanese-beef-curry">Japanese Beef Curry</a></li><li><a href="./r/hayashi-rice">Hayashi Rice</a></li>
 <li><a href="./r/ankake-don">Ankake Don</a></li>
 <li><a href="./r/tteokbokki">Tteokbokki</a></li>
 <li><a href="./r/kimbap">Kimbap</a></li>
