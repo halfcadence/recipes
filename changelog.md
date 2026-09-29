@@ -8,6 +8,7 @@ toc: true
 
 ## 2026-09-29
 
+- Set the water in [Hayashi Rice]({{ '/r/hayashi-rice' | relative_url }}) to "barely cover", added in stages, then loosened to taste after the roux, replacing "per box".
 - **Added [Hayashi Rice]({{ '/r/hayashi-rice' | relative_url }}) to Mains (No. 142)** — 454g ground beef, 2 onions and 180g mushrooms, small-diced and cooked down before the beef browns, then one box of hayashi roux. Water is "per box": S&B's 160g box directions aren't published online, so no number was invented. No hero photo.
 - Named the tequila in [Margarita]({{ '/r/margarita' | relative_url }}): El Padrino de Mi Tierra Blanco, a 40%, 100% agave blanco sold only at Total Wine.
 - **Respecced [Margarita]({{ '/r/margarita' | relative_url }}) to 2 oz tequila, 1 oz Cointreau, 1 oz lime, no syrup.** Replaces the liquor.com spec (½ oz orange liqueur + ½ oz agave). Analysis recomputed: ~22% ABV finished, ~8g sugar, all from the Cointreau (taken as 40% ABV, ~25% sugar). Agave and triple-sec substitutions moved to Notes.
