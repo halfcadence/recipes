@@ -8,6 +8,7 @@ toc: true
 
 ## 2026-09-29
 
+- Named the vermouth in [Dirty Martini]({{ '/r/dirty-martini' | relative_url }}): Martini & Rossi Extra Dry.
 - **Added [Dirty Martini]({{ '/r/dirty-martini' | relative_url }}) to Drinks (No. 141)** — 2 oz Edinburgh Seaside gin, 1 oz dry vermouth, ½ oz olive brine, stirred, one olive. Analysis assumes 43% for Seaside and ~16% for the vermouth. No hero photo.
 
 ## 2026-09-21

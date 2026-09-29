@@ -9,7 +9,7 @@ number: 141
 | | |
 |---|---|
 | 2 oz | gin (Edinburgh Seaside) |
-| 1 oz | dry vermouth |
+| 1 oz | dry vermouth (Martini & Rossi Extra Dry) |
 | 1/2 oz | olive brine |
 | 1 | martini olive, for garnish |
 
