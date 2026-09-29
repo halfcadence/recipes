@@ -8,7 +8,7 @@ number: 25
 
 | | |
 |---|---|
-| 2 oz | blanco tequila (100% agave) |
+| 2 oz | blanco tequila (El Padrino de Mi Tierra) |
 | 1 oz | Cointreau |
 | 1 oz | lime juice, freshly squeezed |
 | | Lime wheel, for garnish |
