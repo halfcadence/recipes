@@ -6,6 +6,10 @@ permalink: /changelog/
 toc: true
 ---
 
+## 2026-09-29
+
+- **Added [Dirty Martini]({{ '/r/dirty-martini' | relative_url }}) to Drinks (No. 141)** — 2 oz Edinburgh Seaside gin, 1 oz dry vermouth, ½ oz olive brine, stirred, one olive. Analysis assumes 43% for Seaside and ~16% for the vermouth. No hero photo.
+
 ## 2026-09-21
 
 - **Added [Zhu You Fan]({{ '/r/zhu-you-fan' | relative_url }}) to Mains (No. 140) — Taiwanese lard rice, researched from Chinese-language sources.** Hot japonica rice stirred with shallot-infused lard (油蔥) and soy, topped with the fried shallot crisps that come out of the same pot. The shallot fry is 100g of 紅蔥頭 to 150g of lard, scaled down from the **2:3 by weight** a [cookpad](https://cookpad.com/tw/%E9%A3%9F%E8%AD%9C/11872413) commercial batch states as 1200g:1800g.

@@ -147,6 +147,7 @@ title: Recipes
 <li><a href="./r/whiskey-sour">Whiskey Sour</a></li>
 <li><a href="./r/whiskey-sour-acid-adjusted-oj">Whiskey Sour (Acid-Adjusted OJ)</a></li>
 <li><a href="./r/gimlet">Gimlet</a></li>
+<li><a href="./r/dirty-martini">Dirty Martini</a></li>
 <li><a href="./r/manhattan">Manhattan</a></li>
 <li><a href="./r/coffee-manhattan">Coffee Manhattan</a></li>
 <li><a href="./r/old-fashioned">Old Fashioned</a></li>
