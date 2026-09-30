@@ -6,6 +6,10 @@ permalink: /changelog/
 toc: true
 ---
 
+## 2026-09-30
+
+- **Added a fresh-vegetables version to [Japanese Beef Curry]({{ '/r/japanese-beef-curry' | relative_url }})** alongside the quick frozen-veg one: 454g each of ground beef, potato, and carrot with 1 onion, from memory. Water is "barely cover"; the 8 cubes of roux are scaled from the quick version by weight (~2×), not remembered. Converted the quick version's tbsp and ml to grams.
+
 ## 2026-09-29
 
 - Set the water in [Hayashi Rice]({{ '/r/hayashi-rice' | relative_url }}) to "barely cover", added in stages, then loosened to taste after the roux, replacing "per box".
