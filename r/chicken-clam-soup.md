@@ -4,6 +4,7 @@ category: soups
 number: 143
 source: https://www.phasechangeskitchen.com/blog/chicken-clam-soup
 yield: 8
+image_credit: Photo — You Le, Unsplash
 ---
 
 ## Ingredients
