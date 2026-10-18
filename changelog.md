@@ -6,6 +6,10 @@ permalink: /changelog/
 toc: true
 ---
 
+## 2026-10-18
+
+- **Added [Chicken Clam Soup]({{ '/r/chicken-clam-soup' | relative_url }}) to Soups (No. 143)** — Taiwanese 蛤蜊雞湯 from [Phase Changes](https://www.phasechangeskitchen.com/blog/chicken-clam-soup): blanched chicken legs simmered 1 hour with ginger and garlic, clams in for the last 3–4 minutes, finished off heat with sesame oil and rice wine. Converted from lb/in/tbsp/cups; the 20g of ginger is an estimate for the source's 2 inches. No hero photo.
+
 ## 2026-09-30
 
 - **Added a fresh-vegetables version to [Japanese Beef Curry]({{ '/r/japanese-beef-curry' | relative_url }})** alongside the quick frozen-veg one: 454g each of ground beef, potato, and carrot with 1 onion, from memory. Water is "barely cover"; the 8 cubes of roux are scaled from the quick version by weight (~2×), not remembered. Converted the quick version's tbsp and ml to grams.
