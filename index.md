@@ -48,6 +48,7 @@ title: Recipes
 <li><a href="./r/clam-miso-soup">Clam Miso Soup</a></li>
 <li><a href="./r/ushiojiru">Ushiojiru</a></li>
 <li><a href="./r/chicken-clam-soup">Chicken Clam Soup</a></li>
+<li><a href="./r/hong-kong-borscht">Hong Kong Borscht</a></li>
 <li><a href="./r/tonjiru">Tonjiru</a></li>
 <li><a href="./r/doenjang-jjigae">Doenjang Jjigae</a></li>
 <li><a href="./r/sukiyaki">Sukiyaki</a></li>

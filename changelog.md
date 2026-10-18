@@ -8,6 +8,7 @@ toc: true
 
 ## 2026-10-18
 
+- **Added [Hong Kong Borscht]({{ '/r/hong-kong-borscht' | relative_url }}) to Soups (No. 144)** — 羅宋湯 from [Just One Cookbook](https://www.justonecookbook.com/borscht-soup-hong-kong-style/), made all-oxtail (1.1kg) in place of the source's 544g oxtail + 544g chuck roast; the chuck version is in Notes. Oxtails soaked and blanched, simmered 3–4 hours with tomato, cabbage, celery and carrot, finished with brown sugar and vinegar. Converted from tbsp/tsp/ml; the 250g of cabbage is an estimate for ¼ head. Tomato paste is 170g, one 6-oz can: the source's metric 120g doesn't match its own can. No hero photo.
 - **Added [Chicken Clam Soup]({{ '/r/chicken-clam-soup' | relative_url }}) to Soups (No. 143)** — Taiwanese 蛤蜊雞湯 from [Phase Changes](https://www.phasechangeskitchen.com/blog/chicken-clam-soup): blanched chicken legs simmered 1 hour with ginger and garlic, clams in for the last 3–4 minutes, finished off heat with sesame oil and rice wine. Converted from lb/in/tbsp/cups; the 20g of ginger is an estimate for the source's 2 inches. No hero photo.
 - Removed the hero photo from [Chicken Clam Soup]({{ '/r/chicken-clam-soup' | relative_url }}) shortly after adding it: no chicken in the shot.
 
