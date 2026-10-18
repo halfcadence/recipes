@@ -9,7 +9,7 @@ toc: true
 ## 2026-10-18
 
 - **Added [Chicken Clam Soup]({{ '/r/chicken-clam-soup' | relative_url }}) to Soups (No. 143)** — Taiwanese 蛤蜊雞湯 from [Phase Changes](https://www.phasechangeskitchen.com/blog/chicken-clam-soup): blanched chicken legs simmered 1 hour with ginger and garlic, clams in for the last 3–4 minutes, finished off heat with sesame oil and rice wine. Converted from lb/in/tbsp/cups; the 20g of ginger is an estimate for the source's 2 inches. No hero photo.
-- Added a hero photo to [Chicken Clam Soup]({{ '/r/chicken-clam-soup' | relative_url }}): clams and ginger in clear broth, by You Le on Unsplash. No chicken is visible in it.
+- Removed the hero photo from [Chicken Clam Soup]({{ '/r/chicken-clam-soup' | relative_url }}) shortly after adding it: no chicken in the shot.
 
 ## 2026-09-30
 
