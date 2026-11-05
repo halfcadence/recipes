@@ -6,6 +6,10 @@ permalink: /changelog/
 toc: true
 ---
 
+## 2026-11-05
+
+- **Added [Gâteau Invisible]({{ '/r/gateau-invisible' | relative_url }}) to Sweets (No. 145)**: Andrea Geary's French apple cake from [America's Test Kitchen](https://www.americastestkitchen.com/recipes/17178-gateau-invisible-with-brown-sugar-cinnamon-whipped-cream). About 1.1kg of Granny Smith slices cut 2.5mm thick, bound in a thick vanilla batter and baked 1½–1¾ hours in a loaf pan, served with brown sugar–cinnamon whipped cream. Converted from cups and teaspoons; the baking powder, salt, jelly, brown sugar and cinnamon weights are standard conversions, not the source's. The Analysis covers the batter only, apples excluded. No hero photo.
+
 ## 2026-10-18
 
 - **Added [Hong Kong Borscht]({{ '/r/hong-kong-borscht' | relative_url }}) to Soups (No. 144)** — 羅宋湯 from [Just One Cookbook](https://www.justonecookbook.com/borscht-soup-hong-kong-style/), made all-oxtail (1.1kg) in place of the source's 544g oxtail + 544g chuck roast; the chuck version is in Notes. Oxtails soaked and blanched, simmered 3–4 hours with tomato, cabbage, celery and carrot, finished with brown sugar and vinegar. Converted from tbsp/tsp/ml; the 250g of cabbage is an estimate for ¼ head. Tomato paste is 170g, one 6-oz can: the source's metric 120g doesn't match its own can. No hero photo.

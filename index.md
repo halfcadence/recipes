@@ -101,6 +101,7 @@ title: Recipes
 <li><a href="./r/orange-chocolate-gateau-au-chocolat">Orange Gateau au Chocolat</a></li>
 <li><a href="./r/hojicha-gateau-au-chocolat">Hojicha Gateau au Chocolat</a></li>
 <li><a href="./r/vanilla-bean-gateau-au-chocolat">Vanilla Gateau au Chocolat</a></li>
+<li><a href="./r/gateau-invisible">Gâteau Invisible</a></li>
 <li><a href="./r/canele">Canelé</a></li>
 <li><a href="./r/cakey-canele">Cakey Canelé</a></li>
 <li><a href="./r/big-batch-canele">Big-Batch Canelé</a></li>
