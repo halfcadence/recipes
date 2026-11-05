@@ -16,9 +16,9 @@ source: https://ethnicspoon.com/tilapia-ceviche-recipe/
 | 30g | orange juice, fresh — bitter orange if you can find it |
 | 2g | lime zest |
 | 1g | sugar |
-| 1 | jalapeño, cored, seeded, and diced |
+| 1–2 | serrano chiles, seeded and minced |
 | 1 | red onion (about 150g), sliced paper-thin into half-moons |
-| 2g | cilantro, chopped |
+| 20g | cilantro, leaves and tender stems, chopped |
 
 ## Steps
 
@@ -26,7 +26,7 @@ source: https://ethnicspoon.com/tilapia-ceviche-recipe/
 
 2. Toss the fish with the salt in a glass, ceramic, or stainless container.
 
-3. Pour over the lime juice and orange juice. Add the onion, jalapeño, zest, and sugar. Press everything under the juice; add more lime juice if any fish is exposed.
+3. Pour over the lime juice and orange juice. Add the onion, serrano, zest, and sugar. Press everything under the juice; add more lime juice if any fish is exposed.
 
 4. Cover and refrigerate 4 hours, until the fish is opaque white and firm through the center. Cut a cube open to check.
 
