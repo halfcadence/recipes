@@ -9,6 +9,7 @@ title: Recipes
 <ul class="cat-list">
 <li><a href="./r/shrimp-cocktail">Shrimp Cocktail</a></li>
 <li><a href="./r/coctel-de-camaron">Coctel de Camarón</a></li>
+<li><a href="./r/ceviche">Ceviche</a></li>
 <li><a href="./r/cucumber-tea-sandwiches">Cucumber Tea Sandwiches</a></li>
 <li><a href="./r/watercress-tea-sandwiches">Watercress Tea Sandwiches</a></li>
 <li><a href="./r/ham-and-cheese-tea-sandwiches">Ham & Cheese Tea Sandwiches</a></li>

@@ -8,6 +8,7 @@ toc: true
 
 ## 2026-11-05
 
+- **Added [Ceviche]({{ '/r/ceviche' | relative_url }}) to Starters (No. 146)** — Panamanian-style tilapia ceviche from [Analida's Ethnic Spoon](https://ethnicspoon.com/tilapia-ceviche-recipe/): 450g of fish cured 4 hours in lime and orange juice with red onion, jalapeño, zest and a pinch of sugar, finished with cilantro. Converted from lb/cups/tbsp/tsp; salt assumes Diamond Crystal, and the 150g onion is an estimate for the source's 1 onion. Notes add onion swaps (white, yellow) and correct the source's no-metal-spoon rule: stainless is fine. No hero photo.
 - **Added [Gâteau Invisible]({{ '/r/gateau-invisible' | relative_url }}) to Sweets (No. 145)**: Andrea Geary's French apple cake from [America's Test Kitchen](https://www.americastestkitchen.com/recipes/17178-gateau-invisible-with-brown-sugar-cinnamon-whipped-cream). About 1.1kg of Granny Smith slices cut 2.5mm thick, bound in a thick vanilla batter and baked 1½–1¾ hours in a loaf pan, served with brown sugar–cinnamon whipped cream. Converted from cups and teaspoons; the baking powder, salt, jelly, brown sugar and cinnamon weights are standard conversions, not the source's. The Analysis covers the batter only, apples excluded. No hero photo.
 
 ## 2026-10-18
