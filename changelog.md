@@ -6,6 +6,10 @@ permalink: /changelog/
 toc: true
 ---
 
+## 2026-11-06
+
+- Added a figure to step 2 of [Gâteau Invisible]({{ '/r/gateau-invisible' | relative_url }}): the four cuts around the core seen from above, and 5 slices against a ruler, to scale. The slice-thickness check moved from Notes into the step, so it comes before the apples are sliced. Steering now allows a drawn figure in a step when it shows a cut or a measurement.
+
 ## 2026-11-05
 
 - Reworked [Coctel de Camarón]({{ '/r/coctel-de-camaron' | relative_url }}) as made: dropped the 240g of shrimp caldo (Clamato already brings the liquid and the umami), cut the ketchup from 120g to 40g, dropped the cucumber, and went from 1 optional serrano to 2. The caldo moved to Notes as an option.

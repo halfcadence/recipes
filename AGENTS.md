@@ -34,6 +34,10 @@ Recipe pages have no illustrations. The old per-recipe SVGs, the AI-generated
 have all been **removed** (delisted archive, reachable from nowhere). Don't recreate
 them or reintroduce an illustration system — recipe pages are type + hero photo only.
 
+The one exception is a **step figure** (`.step-fig`, steering.md "Illustrations"): a
+to-scale SVG of a cut or measurement, inside `{::nomarkdown}` in the step's list
+item so kramdown can't re-serialize the SVG. Styles: `main.scss`, after the steps rules.
+
 ## Recipe photos (separate from illustrations — these ARE live)
 
 A recipe MAY show a full-width 16:9 hero photo, resolved in `_layouts/page.html`:

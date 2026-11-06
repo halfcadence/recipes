@@ -413,6 +413,24 @@ body.section-articles .post-content .wide-table td:first-child { position: stick
 .post-content ol > li ul { grid-column: 1; margin: .2rem 0 0; }
 .post-content li { margin-bottom: .2rem; }
 
+// step figure (steering, "Illustrations"): the li's second row, under the text.
+// Tones via var() so the dark override reaches inline SVG.
+.post-content ol > li > .step-fig {
+  grid-column: 1 / -1; grid-row: 2;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.5rem;
+  margin: calc(#{$base} * 2.5) 0 calc(#{$base} * 1);
+}
+.step-fig svg { display: block; max-width: 100%; height: auto; overflow: visible; }
+.fg text { font-size: $fs-kicker; fill: var(--grey); letter-spacing: .04em; }
+.fg .b { font-size: $fs-small; font-weight: 700; fill: var(--ink); letter-spacing: 0; }
+.fg .mid { text-anchor: middle; }
+.fg .ink { stroke: var(--ink); fill: none; stroke-width: 1; }
+.fg .gr { stroke: var(--grey); fill: none; stroke-width: 1; }
+.fg .t { stroke-width: .75; }
+.fg .h { stroke-width: .6; }
+.fg .cut { stroke-width: 1.5; }
+.fg .pp { fill: var(--paper); }
+
 // ── NOTES (recipe): footnote block — serif, 3 EQUAL cols reading across (1 2 3 / 4 5 6),
 //    hairline rule over exactly the first column. One markdown <ul> → subgrid row-major flow. ──
 .notes { grid-column: 1 / -1; margin-top: calc(#{$base} * 10);
@@ -679,6 +697,7 @@ $sr-body: 92;      // superrow content, second row
   #{$split-6} > #steps ~ ol > li::after {
     grid-column: 1; order: -1; justify-self: start; align-self: start;
   }
+  #{$split-6} > #steps ~ ol > li > .step-fig { grid-column: 2; }
 }
 
 // ── RUBY SASS DELETES `:not(:has(…))` WHEN IT RE-PARSES A SELECTOR ────────────

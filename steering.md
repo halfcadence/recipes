@@ -121,6 +121,12 @@ remaining record of that era. There is no live accent color.)
   generate riso PNGs for new recipes.
   (Photography is a separate system — recipes DO carry a hero photo; see
   "Recipe Photos". "No illustrations" means no drawn/riso art, not no photos.)
+- **One exception: a step figure.** A step MAY carry a drawn figure when it shows a
+  cut or a measurement that words alone don't. Inline SVG in a
+  `<figure class="step-fig">`, inside `{::nomarkdown}` within the step's list item;
+  ink, grey and hair only, via `var()`; labels at 11 and 13px; to scale where it
+  shows a size. A figure that carries no number or sequence is decoration and
+  MUST NOT go in. Only [Gâteau Invisible]({{ '/r/gateau-invisible' | relative_url }}) step 2 has one.
 - The old per-recipe SVG set, the AI-generated riso PNGs, and their `/illustrations`
   + `/illustrations-riso` gallery pages have been **deleted** (50MB of retired assets
   reachable from nowhere in the nav). Don't recreate them.
