@@ -21,7 +21,7 @@ yield: 6
 | 3g | table salt |
 | 3 | large eggs, room temperature |
 | 90g | granulated sugar |
-| 1000g | Granny Smith apples (4), peeled |
+| 1000g | Honeycrisp or Granny Smith apples (4), peeled |
 | 13g | apple jelly, melted |
 
 ### Brown Sugar–Cinnamon Whipped Cream
@@ -81,7 +81,7 @@ Total batter weight: **449g** (apples and jelly excluded)
 
 - Wear a cut-resistant glove on the mandoline.
 - **Pan:** metal, 8½ × 4½ inches (22 × 11cm), with sides at least 2¾ inches (7cm) tall.
-- Use Granny Smith. Honeycrisp or Pink Lady work but bake up sweeter and softer.
+- Honeycrisp holds its shape and bakes sweet and mild; Granny Smith is tarter. With Honeycrisp, 5g lemon juice tossed with the slices adds back some acid. Avoid McIntosh and Red Delicious, which turn to mush.
 - No vanilla bean: add 8g vanilla extract to the butter and milk.
 - Maple syrup or honey can replace the apple jelly glaze, with a more distinct flavor.
 - Gluten-free: King Arthur Measure for Measure flour swaps 1:1 for the all-purpose flour.

@@ -9,6 +9,7 @@ toc: true
 ## 2026-11-10
 
 - Reworked the batter in [Gâteau Invisible]({{ '/r/gateau-invisible' | relative_url }}) after the ATK version baked gummy, borrowing from [Pamela Salzman](https://pamelasalzman.com/invisible-apple-cake/) and Journal des Femmes: sugar 132g → 90g, eggs 2 → 3 beaten to a ribbon, flour 71g → 100g, plus 40g butter and 60g milk; apples 1000g. The 15-minute rest is gone, the bake is 1¼–1½ hours with a 205°F center check, and Notes keep the original. Untested; batter is now 21% sugar and 11% fat against ATK's 43% and 3%.
+- [Gâteau Invisible]({{ '/r/gateau-invisible' | relative_url }}) now lists Honeycrisp alongside Granny Smith, with optional lemon juice to add back acid.
 
 ## 2026-11-06
 
