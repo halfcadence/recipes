@@ -6,6 +6,10 @@ permalink: /changelog/
 toc: true
 ---
 
+## 2026-11-10
+
+- Reworked the batter in [Gâteau Invisible]({{ '/r/gateau-invisible' | relative_url }}) after the ATK version baked gummy, borrowing from [Pamela Salzman](https://pamelasalzman.com/invisible-apple-cake/) and Journal des Femmes: sugar 132g → 90g, eggs 2 → 3 beaten to a ribbon, flour 71g → 100g, plus 40g butter and 60g milk; apples 1000g. The 15-minute rest is gone, the bake is 1¼–1½ hours with a 205°F center check, and Notes keep the original. Untested; batter is now 21% sugar and 11% fat against ATK's 43% and 3%.
+
 ## 2026-11-06
 
 - Added a figure to step 2 of [Gâteau Invisible]({{ '/r/gateau-invisible' | relative_url }}): the four cuts around the core seen from above, and 5 slices against a ruler, to scale. The slice-thickness check moved from Notes into the step, so it comes before the apples are sliced. Steering now allows a drawn figure in a step when it shows a cut or a measurement.
