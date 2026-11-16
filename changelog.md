@@ -10,6 +10,7 @@ toc: true
 
 - Made [Gâteau Invisible]({{ '/r/gateau-invisible' | relative_url }}) cakier after a half-batch bake (2 Honeycrisp, 1 egg, a little less sugar) came out good but custardy: milk 60g → 0, flour 100g → 125g, eggs 3 → 2, sugar 90g → 75g. Structure goes 28% → 38%, liquid 35% → 24%. Notes keep the milk version and add a half batch. This version is untested.
 - The [Gâteau Invisible]({{ '/r/gateau-invisible' | relative_url }}) half-batch note now gives a 6-inch round pan and a 50–65 minute bake, scaled from batter depth (half the batter in about ¾ of the loaf pan's area) and not yet timed.
+- [Gâteau Invisible]({{ '/r/gateau-invisible' | relative_url }}) is now the half batch, for testing: 2 apples, 1 egg, 62g flour, 38g sugar in a 6-inch round, baked 90–100 minutes as timed on the test bake (the 50–65 minute estimate was wrong). Whipped cream halved too; the loaf version moves to Notes.
 
 ## 2026-11-10
 
