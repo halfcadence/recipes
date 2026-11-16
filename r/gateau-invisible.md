@@ -83,7 +83,7 @@ Total batter weight: **349g** (apples and jelly excluded)
 - Honeycrisp holds its shape and bakes sweet and mild; Granny Smith is tarter. With Honeycrisp, 5g lemon juice tossed with the slices adds back some acid. Avoid McIntosh and Red Delicious, which turn to mush.
 - No vanilla bean: add 8g vanilla extract to the melted butter.
 - Softer, more custardy: add 60g whole milk to the butter and use 100g flour.
-- Half batch: 2 apples, 1 egg, and half of everything else.
+- Half batch: 2 apples, 1 egg, and half of everything else, in a 6-inch round pan. It sits about ⅔ as deep as the full loaf: start checking at 45 minutes, expect 50–65, and go by the 205°F center.
 - Maple syrup or honey can replace the apple jelly glaze, with a more distinct flavor.
 - Gluten-free: King Arthur Measure for Measure flour swaps 1:1 for the all-purpose flour.
 - Plan about 6 hours, 3½ of them cooling.
