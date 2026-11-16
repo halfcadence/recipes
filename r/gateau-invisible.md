@@ -15,13 +15,12 @@ yield: 4
 |---|---|
 | 20g | unsalted butter |
 | ½ | vanilla bean (or 4g vanilla extract) |
-| 62g | all-purpose flour |
+| 65g | all-purpose flour |
 | 3g | baking powder |
-| 2g | table salt |
-| 1 | large egg, room temperature |
-| 38g | granulated sugar |
-| 500g | Honeycrisp or Granny Smith apples (2), peeled |
-| 7g | apple jelly, melted |
+| 1g | table salt |
+| 1 | large egg |
+| 40g | granulated sugar |
+| 500g | Honeycrisp apples (2), peeled |
 
 ### Brown Sugar–Cinnamon Whipped Cream
 
@@ -51,7 +50,7 @@ yield: 4
 
 7. Bake on the middle rack at 350°F for 90–100 minutes, rotating the pan halfway, until the top is well browned, a skewer slides easily through the apples, and a knife in the center comes out with no wet batter (205°F). Transfer to a wire rack.
 
-8. Run a knife around the edge of the pan. Brush the top with the melted apple jelly. Cool in the pan for 1½ hours; the cake will deflate. Release the springform (or lift it out by the sling) onto the rack and cool completely, at least 2 hours more. Slicing it warm reads as gummy; for the cleanest, firmest slices, chill it overnight.
+8. Run a knife around the edge of the pan. Cool in the pan for 1½ hours; the cake will deflate. Release the springform (or lift it out by the sling) onto the rack and cool completely, at least 2 hours more. Slicing it warm reads as gummy; for the cleanest, firmest slices, chill it overnight.
 
 9. Combine the cream, brown sugar, and cinnamon in a stand mixer fitted with the whisk. Whip on medium-low until foamy, about 1 minute, then on high to soft peaks, 1–3 minutes.
 
@@ -61,17 +60,17 @@ yield: 4
 
 <div class="analysis" markdown="1">
 
-Total batter weight: **175g** (apples and jelly excluded)
+Total batter weight: **179g** (apples excluded)
 
 | Component | Amount | % |
 |---|---|---|
-| Structure solids (flour + baking powder + salt) | 67g | 38.3% |
-| Fat (butter + yolk) | 21g | 12.0% |
-| Sugar | 38g | 21.7% |
-| Liquid (egg water + butter water) | 41g | 23.4% |
-| Egg/protein | 7g | 4.0% |
+| Structure solids (flour + baking powder + salt) | 69g | 38.5% |
+| Fat (butter + yolk) | 21g | 11.7% |
+| Sugar | 40g | 22.3% |
+| Liquid (egg water + butter water) | 41g | 22.9% |
+| Egg/protein | 7g | 3.9% |
 
-**A firm, cakey crumb around 2.9× its weight in apples.** Structure (38%) sits above the quick-bread range (28–35%) and liquid (24%) at its low end; the apples' juice makes up the difference in the oven. The milk version (50g flour, 30g milk) ran 28% structure and 35% liquid and baked custardy. Going from there to here is +35% structure, the reverse of the [Cakey Canelé]({{ '/r/cakey-canele' | relative_url }}) → [Canelé]({{ '/r/canele' | relative_url }}) step. ATK's original ran 43% sugar and rested the coated slices 15 minutes, which pulled juice into the batter and set it as a gummy glue; less sugar and no rest keep the juice in the apples.
+**A firm, cakey crumb around 2.8× its weight in apples.** Structure (38%) sits above the quick-bread range (28–35%) and liquid (23%) at its low end; the apples' juice makes up the difference in the oven. The milk version (50g flour, 30g milk) ran 28% structure and 35% liquid and baked custardy. Going from there to here is +35% structure, the reverse of the [Cakey Canelé]({{ '/r/cakey-canele' | relative_url }}) → [Canelé]({{ '/r/canele' | relative_url }}) step. ATK's original ran 43% sugar and rested the coated slices 15 minutes, which pulled juice into the batter and set it as a gummy glue; less sugar and no rest keep the juice in the apples.
 
 </div>
 
@@ -80,12 +79,11 @@ Total batter weight: **175g** (apples and jelly excluded)
 
 - Wear a cut-resistant glove on the mandoline.
 - **Pan:** metal, 6-inch (15cm) round, with sides at least 3 inches (7.5cm) tall.
-- Honeycrisp holds its shape and bakes sweet and mild; Granny Smith is tarter. With Honeycrisp, 3g lemon juice tossed with the slices adds back some acid. Avoid McIntosh and Red Delicious, which turn to mush.
+- Honeycrisp holds its shape and bakes sweet and mild; 3g lemon juice tossed with the slices adds back some acid. Avoid McIntosh and Red Delicious, which turn to mush.
 - No vanilla bean: add 4g vanilla extract to the melted butter.
 - Softer, more custardy: add 30g whole milk to the butter and use 50g flour.
 - Bake time is set by the apples, not the batter: 500g of slices still takes 90–100 minutes. Go by the 205°F center.
 - Loaf: double everything (2 eggs, 4 apples) in an 8½ × 4½-inch metal loaf pan lined with a parchment sling; reserve 18 slices for 6 rows of 3 on top. Bake time untested; start checking at 1¾ hours.
-- Maple syrup or honey can replace the apple jelly glaze, with a more distinct flavor.
 - Gluten-free: King Arthur Measure for Measure flour swaps 1:1 for the all-purpose flour.
 - Plan about 6 hours, 3½ of them cooling.
 - ATK's original batter: 132g sugar, 2 eggs, 71g flour, 4g baking powder, no butter or milk, 1020–1135g apples, coated slices rested 15 minutes, baked 1½–1¾ hours. It bakes custardy and dense.
