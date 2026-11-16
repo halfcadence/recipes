@@ -14,13 +14,12 @@ yield: 6
 | | |
 |---|---|
 | 40g | unsalted butter |
-| 60g | whole milk |
 | 1 | vanilla bean (or 8g vanilla extract) |
-| 100g | all-purpose flour |
+| 125g | all-purpose flour |
 | 6g | baking powder |
 | 3g | table salt |
-| 3 | large eggs, room temperature |
-| 90g | granulated sugar |
+| 2 | large eggs, room temperature |
+| 75g | granulated sugar |
 | 1000g | Honeycrisp or Granny Smith apples (4), peeled |
 | 13g | apple jelly, melted |
 
@@ -34,7 +33,7 @@ yield: 6
 
 ## Steps
 
-1. Melt the butter with the milk and set aside to cool slightly. Whisk the flour, baking powder, and salt in a small bowl.
+1. Melt the butter and set it aside to cool slightly. Whisk the flour, baking powder, and salt in a small bowl.
 
 2. Set the mandoline to 2mm. Slice one side of an apple down to the core, then stack 5 slices: they should measure 10mm (⅜ inch). Adjust until they do. Turn the apple 90° and slice to the core, then do the remaining 2 sides. Repeat with the rest of the apples and discard the cores. Reserve 18 well-shaped slices for the top.
 
@@ -44,7 +43,7 @@ yield: 6
 
 3. Meanwhile, set oven racks in the middle and lower-middle positions. Put a foil- or parchment-lined rimmed baking sheet on the lower rack to catch drips and heat the oven to 350°F. Grease an 8½ × 4½-inch metal loaf pan with vegetable oil spray. Line it with an 8 × 12-inch sheet of parchment, smoothed flush to the sides with the excess hanging over the long sides. Lightly grease the parchment.
 
-4. Split the vanilla bean lengthwise and scrape the seeds into the sugar in a large bowl. Add the eggs and beat with a hand mixer on high until pale and thick, about 3 minutes; the batter should fall in a ribbon. Whisk in the butter mixture, then fold in the flour mixture until no streaks remain.
+4. Split the vanilla bean lengthwise and scrape the seeds into the sugar in a large bowl. Add the eggs and beat with a hand mixer on high until pale and thick, about 3 minutes; the batter should fall in a ribbon. Whisk in the butter, then fold in the flour mixture in two additions until no streaks remain. The batter will be thick.
 
 5. Fold in the apples, breaking up clumps, until every surface is coated. Pan them right away: lift them into the pan a spoonful at a time with the batter that clings, keeping most slices flat (some folding is fine) and pressing each layer level. Continue until all the apples are in and about 60g of batter remains.
 
@@ -62,17 +61,17 @@ yield: 6
 
 <div class="analysis" markdown="1">
 
-Total batter weight: **449g** (apples and jelly excluded)
+Total batter weight: **349g** (apples and jelly excluded)
 
 | Component | Amount | % |
 |---|---|---|
-| Structure solids (flour + baking powder) | 106g | 23.6% |
-| Fat (butter + yolk + milk) | 50g | 11.1% |
-| Sugar (sugar + lactose) | 93g | 20.7% |
-| Liquid (egg water + milk + butter water) | 176g | 39.2% |
-| Egg/protein | 21g | 4.7% |
+| Structure solids (flour + baking powder + salt) | 134g | 38.4% |
+| Fat (butter + yolk) | 43g | 12.3% |
+| Sugar | 75g | 21.5% |
+| Liquid (egg water + butter water) | 82g | 23.5% |
+| Egg/protein | 14g | 4.0% |
 
-**A light sponge that binds 2.2× its weight in apples.** Structure (24%), sugar (21%), and liquid (39%) all sit in the sponge range; fat (11%) is just above it, from the butter. ATK's version ran 43% sugar and 3% fat against 3.5× apples, and rested the coated slices 15 minutes: the sugar pulled juice into the batter, which set as a dense, gummy glue. Here less sugar and no rest keep the juice in the apples, the beaten eggs give lift, and the butter gives a crumb.
+**A firm, cakey crumb around 2.9× its weight in apples.** Structure (38%) sits above the quick-bread range (28–35%) and liquid (24%) at its low end; the apples' juice makes up the difference in the oven. The milk version (100g flour, 60g milk) ran 28% structure and 35% liquid and baked custardy. Going from there to here is +35% structure, the reverse of the [Cakey Canelé]({{ '/r/cakey-canele' | relative_url }}) → [Canelé]({{ '/r/canele' | relative_url }}) step. ATK's original ran 43% sugar and rested the coated slices 15 minutes, which pulled juice into the batter and set it as a gummy glue; less sugar and no rest keep the juice in the apples.
 
 </div>
 
@@ -82,7 +81,9 @@ Total batter weight: **449g** (apples and jelly excluded)
 - Wear a cut-resistant glove on the mandoline.
 - **Pan:** metal, 8½ × 4½ inches (22 × 11cm), with sides at least 2¾ inches (7cm) tall.
 - Honeycrisp holds its shape and bakes sweet and mild; Granny Smith is tarter. With Honeycrisp, 5g lemon juice tossed with the slices adds back some acid. Avoid McIntosh and Red Delicious, which turn to mush.
-- No vanilla bean: add 8g vanilla extract to the butter and milk.
+- No vanilla bean: add 8g vanilla extract to the melted butter.
+- Softer, more custardy: add 60g whole milk to the butter and use 100g flour.
+- Half batch: 2 apples, 1 egg, and half of everything else.
 - Maple syrup or honey can replace the apple jelly glaze, with a more distinct flavor.
 - Gluten-free: King Arthur Measure for Measure flour swaps 1:1 for the all-purpose flour.
 - Plan about 6 hours, 3½ of them cooling.

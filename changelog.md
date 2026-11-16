@@ -6,6 +6,10 @@ permalink: /changelog/
 toc: true
 ---
 
+## 2026-11-16
+
+- Made [Gâteau Invisible]({{ '/r/gateau-invisible' | relative_url }}) cakier after a half-batch bake (2 Honeycrisp, 1 egg, a little less sugar) came out good but custardy: milk 60g → 0, flour 100g → 125g, eggs 3 → 2, sugar 90g → 75g. Structure goes 28% → 38%, liquid 35% → 24%. Notes keep the milk version and add a half batch. This version is untested.
+
 ## 2026-11-10
 
 - Reworked the batter in [Gâteau Invisible]({{ '/r/gateau-invisible' | relative_url }}) after the ATK version baked gummy, borrowing from [Pamela Salzman](https://pamelasalzman.com/invisible-apple-cake/) and Journal des Femmes: sugar 132g → 90g, eggs 2 → 3 beaten to a ribbon, flour 71g → 100g, plus 40g butter and 60g milk; apples 1000g. The 15-minute rest is gone, the bake is 1¼–1½ hours with a 205°F center check, and Notes keep the original. Untested; batter is now 21% sugar and 11% fat against ATK's 43% and 3%.
